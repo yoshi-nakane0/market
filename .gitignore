@@ -1,0 +1,38 @@
+# Public deployment policy:
+# keep only the built web output in Git.
+
+# Deny by default.
+*
+
+# Allow Git ignore policy itself.
+!.gitignore
+
+# Public web output.
+!dist/
+!dist/**
+
+# Explicit private sources and working files.
+src/
+scripts/
+macro/
+docs/
+public/
+
+# Documentation and specifications stay private.
+*.md
+
+# Secrets and local environment.
+.env
+.env.local
+.env.*
+
+# Dependencies, build inputs, and local tooling.
+node_modules/
+package.json
+package-lock.json
+tsconfig*.json
+vite.config.*
+vitest.config.*
+
+# OS/editor noise.
+.DS_Store

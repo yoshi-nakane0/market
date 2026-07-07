@@ -1,0 +1,50 @@
+{
+  "updated_at": "2026-07-07",
+  "macro": {
+    "date": "2026-07-07",
+    "region": "米国",
+    "regime": "中立",
+    "risk_score": "6",
+    "confidence": "0.86",
+    "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みはリスク選好です。現在のマクロ状態は中立です。",
+    "judgments": [
+      {
+        "label": "成長",
+        "value": "横ばい"
+      },
+      {
+        "label": "インフレ",
+        "value": "安定"
+      },
+      {
+        "label": "政策",
+        "value": "引き締め的"
+      },
+      {
+        "label": "市場織り込み",
+        "value": "リスク選好"
+      }
+    ]
+  },
+  "basecalc": {
+    "observation_time": "08:00 JST",
+    "market_status": "open",
+    "final_confidence": "中",
+    "signal": "参考",
+    "summary": "公開判定を更新しました。",
+    "judgments": [
+      {
+        "label": "市場ステータス",
+        "value": "open"
+      },
+      {
+        "label": "最終信頼度",
+        "value": "中"
+      },
+      {
+        "label": "シグナル",
+        "value": "参考"
+      }
+    ]
+  }
+}
