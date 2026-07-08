@@ -1,12 +1,110 @@
 {
-  "updated_at": "2026-07-07",
+  "updated_at": "2026-07-08",
   "macro": {
-    "date": "2026-07-07",
+    "date": "2026-07-08",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "6",
-    "confidence": "0.86",
-    "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みはリスク選好です。現在のマクロ状態は中立です。",
+    "risk_score": "7",
+    "confidence": "0.78",
+    "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みはリスク選好です。現在のマクロ状態は中立です。",
+    "asset_bias": [
+      {
+        "label": "ロング",
+        "value": "44%",
+        "tone": "positive"
+      },
+      {
+        "label": "レンジ",
+        "value": "33%",
+        "tone": "neutral"
+      },
+      {
+        "label": "ショート",
+        "value": "23%",
+        "tone": "negative"
+      }
+    ],
+    "state_scores": [
+      {
+        "label": "成長",
+        "value": 56,
+        "tone": "neutral"
+      },
+      {
+        "label": "インフレ",
+        "value": 56,
+        "tone": "neutral"
+      },
+      {
+        "label": "雇用",
+        "value": 56,
+        "tone": "neutral"
+      },
+      {
+        "label": "政策",
+        "value": 35,
+        "tone": "negative"
+      },
+      {
+        "label": "金融環境",
+        "value": 60,
+        "tone": "neutral"
+      },
+      {
+        "label": "信用ストレス",
+        "value": 40,
+        "tone": "negative"
+      }
+    ],
+    "outlooks": [
+      {
+        "label": "1か月（短期）",
+        "long": "38%",
+        "range": "36%",
+        "short": "26%"
+      },
+      {
+        "label": "3か月（中期）",
+        "long": "44%",
+        "range": "33%",
+        "short": "23%"
+      },
+      {
+        "label": "6か月（長期）",
+        "long": "50%",
+        "range": "30%",
+        "short": "20%"
+      }
+    ],
+    "factors": {
+      "support": [
+        "Manufacturers' New Ordersが強くプラスに寄与",
+        "10Y Breakeven Inflation Rateが強くプラスに寄与",
+        "VIXが強くプラスに寄与"
+      ],
+      "risk": [
+        "Yield Curve 10Y-2Yがマイナスに寄与",
+        "2Y Treasury Yieldがマイナスに寄与",
+        "Housing Startsがマイナスに寄与"
+      ]
+    },
+    "world_state": [
+      {
+        "label": "ソフトランディング",
+        "value": "55%",
+        "tone": "positive"
+      },
+      {
+        "label": "拡大継続",
+        "value": "20%",
+        "tone": "neutral"
+      },
+      {
+        "label": "様子見",
+        "value": "15%",
+        "tone": "negative"
+      }
+    ],
     "judgments": [
       {
         "label": "成長",
@@ -27,10 +125,10 @@
     ]
   },
   "basecalc": {
-    "observation_time": "08:00 JST",
+    "observation_time": "16:40 JST",
     "market_status": "open",
-    "final_confidence": "中",
-    "signal": "参考",
+    "final_confidence": "低",
+    "signal": "中立参考",
     "summary": "公開判定を更新しました。",
     "judgments": [
       {
@@ -39,11 +137,11 @@
       },
       {
         "label": "最終信頼度",
-        "value": "中"
+        "value": "低"
       },
       {
         "label": "シグナル",
-        "value": "参考"
+        "value": "中立参考"
       }
     ]
   }
