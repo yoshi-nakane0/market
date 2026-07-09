@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T12:52:42.116Z",
+  "updated_at": "2026-07-09T16:06:26.447Z",
   "macro": {
     "date": "2026-07-09",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "2",
-    "confidence": "0.82",
+    "risk_score": "1",
+    "confidence": "0.81",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
@@ -14,14 +14,14 @@
         "probability_value": 35,
         "value": "35%",
         "source": "macro_state_scores",
-        "confidence": 0.82,
+        "confidence": 0.81,
         "model_version": "macro-public-v1",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
           "policy_easing_score": -0.66,
-          "financial_conditions_score": 0.39,
-          "credit_stress_inverse_score": 0.39
+          "financial_conditions_score": 0.38,
+          "credit_stress_inverse_score": 0.38
         }
       },
       {
@@ -30,14 +30,14 @@
         "probability_value": 37,
         "value": "37%",
         "source": "macro_state_scores",
-        "confidence": 0.82,
+        "confidence": 0.81,
         "model_version": "macro-public-v1",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
           "policy_easing_score": -0.66,
-          "financial_conditions_score": 0.39,
-          "credit_stress_inverse_score": 0.39
+          "financial_conditions_score": 0.38,
+          "credit_stress_inverse_score": 0.38
         }
       },
       {
@@ -46,14 +46,14 @@
         "probability_value": 28,
         "value": "28%",
         "source": "macro_state_scores",
-        "confidence": 0.82,
+        "confidence": 0.81,
         "model_version": "macro-public-v1",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
           "policy_easing_score": -0.66,
-          "financial_conditions_score": 0.39,
-          "credit_stress_inverse_score": 0.39
+          "financial_conditions_score": 0.38,
+          "credit_stress_inverse_score": 0.38
         }
       }
     ],
@@ -136,10 +136,10 @@
       {
         "label": "金融環境",
         "value": 57,
-        "raw_score": 0.39,
+        "raw_score": 0.38,
         "direction": "higher_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-07-08",
+        "latest_observation_date": "2026-07-09",
         "top_supports": [
           "High Yield Spreadが強くプラスに寄与",
           "Investment Grade Spreadが強くプラスに寄与",
@@ -156,10 +156,10 @@
       {
         "label": "信用ストレス",
         "value": 57,
-        "raw_score": 0.39,
+        "raw_score": 0.38,
         "direction": "higher_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-07-08",
+        "latest_observation_date": "2026-07-09",
         "top_supports": [
           "High Yield Spreadが強くプラスに寄与",
           "Investment Grade Spreadが強くプラスに寄与",
@@ -174,56 +174,7 @@
         "tone": "neutral"
       }
     ],
-    "outlooks": [
-      {
-        "label": "1か月（短期）",
-        "horizon": "20d",
-        "long": "32%",
-        "range": "38%",
-        "short": "30%",
-        "sample_count": 224,
-        "method": "state_transition_model",
-        "hit_rate": 0.9063,
-        "benchmark_hit_rate": 0.9018,
-        "brier_score": 0.2516,
-        "brier_skill": -0.0064,
-        "calibration_error": 0.3063,
-        "usage_permission": "monitor_only",
-        "model_version": "macro-public-v1"
-      },
-      {
-        "label": "3か月（中期）",
-        "horizon": "60d",
-        "long": "35%",
-        "range": "37%",
-        "short": "28%",
-        "sample_count": 189,
-        "method": "state_transition_model",
-        "hit_rate": 0.7249,
-        "benchmark_hit_rate": 0.709,
-        "brier_score": 0.2477,
-        "brier_skill": 0.0092,
-        "calibration_error": 0.1249,
-        "usage_permission": "monitor_only",
-        "model_version": "macro-public-v1"
-      },
-      {
-        "label": "6か月（長期）",
-        "horizon": "120d",
-        "long": "37%",
-        "range": "37%",
-        "short": "26%",
-        "sample_count": 0,
-        "method": "state_transition_model",
-        "hit_rate": null,
-        "benchmark_hit_rate": null,
-        "brier_score": null,
-        "brier_skill": null,
-        "calibration_error": null,
-        "usage_permission": "monitor_only",
-        "model_version": "macro-public-v1"
-      }
-    ],
+    "outlooks": [],
     "factors": {
       "support": [
         "Manufacturers' New Ordersが強くプラスに寄与",
@@ -295,17 +246,17 @@
     },
     "model_confidence": {
       "label": "モデル信頼度",
-      "value": "82%",
-      "score": 0.82
+      "value": "81%",
+      "score": 0.81
     },
     "backtest_summary": {
       "sample_count": 239,
-      "hit_rate": 0.34,
-      "brier_score": 0.2914,
-      "calibration_error": 0.26,
+      "hit_rate": 0.32,
+      "brier_score": 0.2964,
+      "calibration_error": 0.28,
       "period": {
-        "start": "2025-10-06",
-        "end": "2026-07-08"
+        "start": "2025-10-08",
+        "end": "2026-07-09"
       },
       "quality": "usable"
     },
@@ -329,17 +280,17 @@
     ]
   },
   "basecalc": {
-    "observation_time": "16:40 JST",
+    "observation_time": "08:00 JST",
     "market_status": "open",
     "final_confidence": "低",
-    "signal": "レンジ優勢参考",
+    "signal": "レンジ優勢",
     "summary": "公開判定を更新しました。",
     "short_term_bias": {
       "label": "レンジ優勢",
       "scores": {
-        "long": 18,
-        "range": 48,
-        "short": 34
+        "long": 24,
+        "range": 56,
+        "short": 20
       },
       "confidence": "低"
     },
@@ -362,7 +313,34 @@
     "trade_decision": {
       "permission": "no_trade",
       "action": "none",
-      "reason": "代理データのため売買判断不可",
+      "reason": "価格差を確認できないため売買判断不可",
+      "reason_detail": "無料データでは買値と売値の差を実測できないため、売買は止めています。",
+      "failed_gates": [
+        {
+          "label": "データ",
+          "reason": "価格差を確認できないため売買判断不可"
+        },
+        {
+          "label": "検証",
+          "reason": "検証条件未達のため売買判断不可"
+        },
+        {
+          "label": "確率校正",
+          "reason": "確率未校正のため売買判断不可"
+        },
+        {
+          "label": "リスク",
+          "reason": "paper実績不足のため売買判断不可"
+        },
+        {
+          "label": "重要イベント",
+          "reason": "重要イベント条件に抵触しているため売買判断不可"
+        },
+        {
+          "label": "期待値",
+          "reason": "コスト控除後の優位性が未確認のため売買判断不可"
+        }
+      ],
       "instrument": "NK225_FUT",
       "horizon": "next_day_session",
       "entry_rule": null,
@@ -375,7 +353,7 @@
       "conditions": [
         {
           "label": "直接先物データ",
-          "passed": false
+          "passed": true
         },
         {
           "label": "価格更新",
@@ -383,11 +361,11 @@
         },
         {
           "label": "価格差",
-          "passed": true
+          "passed": false
         },
         {
           "label": "basis",
-          "passed": false
+          "passed": true
         },
         {
           "label": "確率校正",
@@ -411,7 +389,7 @@
         },
         {
           "label": "重要イベント",
-          "passed": true
+          "passed": false
         },
         {
           "label": "実績監視",
@@ -425,11 +403,11 @@
       "usage_status": "使用不可"
     },
     "data_status": {
-      "status": "注意",
-      "target": "日経225・米株の代理指標",
-      "updated_at": "2026-07-09T12:52:42.116Z",
-      "data_kind": "代理データ",
-      "note": "この判定は参考表示です。表示スコアは確率ではありません"
+      "status": "正常",
+      "target": "日経225先物",
+      "updated_at": "2026-07-09T16:06:26.447Z",
+      "data_kind": "本データ",
+      "note": "データ状態は通常範囲です。表示スコアは確率ではありません"
     },
     "validation_summary": {
       "status": "参考検証では基準を上回る場合がありますが、実運用条件は未達",
@@ -441,9 +419,9 @@
       "next_night_hit_rate": null,
       "backtest_passed": false,
       "reasons": [
-        "日足検証は作成済みだが、08:00、11:40、16:40、22:00別の十分なライブ検証が未蓄積。",
-        "本物のリアルタイム先物データではなく、無料データと手入力を併用する前提。",
-        "確率校正、コスト控除後期待値、最大ドローダウン、paper実績の条件が未達。"
+        "全体の次日中検証が実運用基準未達。",
+        "年次walk-forward検証が未通過。",
+        "08:00、11:40、16:40、22:00別の検証が未通過。"
       ]
     },
     "invalidation_conditions": {
@@ -455,15 +433,23 @@
         },
         {
           "label": "代理データ使用",
-          "active": true
+          "active": false
         },
         {
           "label": "価格更新停止",
+          "active": false
+        },
+        {
+          "label": "spread未評価",
+          "active": true
+        },
+        {
+          "label": "取得時刻不一致",
           "active": true
         },
         {
           "label": "重要イベント日",
-          "active": false
+          "active": true
         },
         {
           "label": "方向群不一致",
@@ -471,7 +457,7 @@
         },
         {
           "label": "basis未計算",
-          "active": true
+          "active": false
         },
         {
           "label": "過去検証未通過",
@@ -500,24 +486,24 @@
       {
         "label": "今日",
         "date": "2026-07-09",
-        "observation_time": "16:40 JST",
+        "observation_time": "08:00 JST",
         "bias": "レンジ優勢",
-        "long": 18,
-        "range": 48,
-        "short": 34,
+        "long": 24,
+        "range": 56,
+        "short": 20,
         "change": "-"
       }
     ],
     "trend_summary": "比較できる過去データがまだ不足しています",
     "decision_reasons": [
-      "日経代替指数が短期平均を下回り、上方向の勢いが弱くなっています",
-      "短期の勢いは前回より下向きです",
-      "価格は直近レンジ下限側に近く、下げ止まりを確認する位置です"
+      "日経側の終値履歴が不足しているため、短期方向は補助指標を重く見ています",
+      "米株代替指標は重い一方、為替は下支えです",
+      "複数の材料が同じ方向にそろわず、レンジ判定が優勢です"
     ],
-    "counter_material": "一部の材料は弱く、レンジ判定が崩れる可能性があります",
+    "counter_material": "米株代替指標または為替が支援的で、下方向へ一気に傾く材料は限定的です",
     "change_conditions": {
-      "up": "72,366.34を明確に上抜け、米株代替指標の支援が続けばロング優勢へ傾きます",
-      "down": "66,020.04を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
+      "up": "直近高値を明確に上抜け、米株代替指標の支援が続けばロング優勢へ傾きます",
+      "down": "レンジ下限を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
       "unavailable": "データ欠損、代理データ、価格更新停止がある場合は判定不可または参考表示にします"
     },
     "judgments": [

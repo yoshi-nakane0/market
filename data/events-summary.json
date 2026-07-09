@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T12:53:46.642Z",
+  "updated_at": "2026-07-09T16:07:36.395Z",
   "timezone": "Asia/Tokyo",
   "source": "static_event_calendar_with_rule_fallback",
   "source_note": "明示イベントカレンダーを優先し、不足分のみ推定イベント日で補完します。",
@@ -12,7 +12,7 @@
       "label": "米CPI/PPI推定期間",
       "category": "CPI",
       "importance": "high",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "event_id": "jp_sq_estimated_2026-07-10",
@@ -22,7 +22,7 @@
       "label": "SQ推定日",
       "category": "SQ",
       "importance": "medium",
-      "status": "upcoming"
+      "status": "today"
     },
     {
       "event_id": "us_cpi_ppi_estimated_2026-07-13",
