@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T09:01:26.619Z",
+  "updated_at": "2026-07-09T12:53:46.642Z",
   "timezone": "Asia/Tokyo",
   "source": "static_event_calendar_with_rule_fallback",
   "source_note": "明示イベントカレンダーを優先し、不足分のみ推定イベント日で補完します。",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T10:28:14.796Z",
+  "updated_at": "2026-07-09T12:52:42.116Z",
   "macro": {
     "date": "2026-07-09",
     "region": "米国",
@@ -103,7 +103,7 @@
         "raw_score": 0.17,
         "direction": "higher_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-06-27",
+        "latest_observation_date": "2026-07-04",
         "top_supports": [
           "JOLTS Job Openingsが強くプラスに寄与",
           "Average Weekly Hoursは中立圏",
@@ -343,8 +343,82 @@
       },
       "confidence": "低"
     },
-    "usage_status": "使用不可",
+    "usage_status": "売買判断不可",
     "score_note": "表示スコアは優勢度であり、確率ではありません",
+    "prediction_kind": "edge_score_only",
+    "trade_ready": false,
+    "probability_ready": false,
+    "high_confidence_ready": false,
+    "probability": {
+      "long": null,
+      "range": null,
+      "short": null,
+      "calibrated": false,
+      "calibration_method": null,
+      "calibration_version": "basecalc_calibration_unavailable_2026_07_09",
+      "brier_score": null,
+      "expected_calibration_error": null
+    },
+    "trade_decision": {
+      "permission": "no_trade",
+      "action": "none",
+      "reason": "代理データのため売買判断不可",
+      "instrument": "NK225_FUT",
+      "horizon": "next_day_session",
+      "entry_rule": null,
+      "exit_rule": null,
+      "max_position_size": 0,
+      "risk_per_trade": 0
+    },
+    "high_confidence": {
+      "passed": false,
+      "conditions": [
+        {
+          "label": "直接先物データ",
+          "passed": false
+        },
+        {
+          "label": "価格更新",
+          "passed": false
+        },
+        {
+          "label": "価格差",
+          "passed": true
+        },
+        {
+          "label": "basis",
+          "passed": false
+        },
+        {
+          "label": "確率校正",
+          "passed": false
+        },
+        {
+          "label": "外部検証",
+          "passed": false
+        },
+        {
+          "label": "時刻別検証",
+          "passed": false
+        },
+        {
+          "label": "コスト控除後期待値",
+          "passed": false
+        },
+        {
+          "label": "最大損失幅",
+          "passed": false
+        },
+        {
+          "label": "重要イベント",
+          "passed": true
+        },
+        {
+          "label": "実績監視",
+          "passed": false
+        }
+      ]
+    },
     "trade_confidence": {
       "label": "実務使用信頼度 低",
       "score": 0,
@@ -353,26 +427,27 @@
     "data_status": {
       "status": "注意",
       "target": "日経225・米株の代理指標",
-      "updated_at": "2026-07-09T10:28:14.796Z",
+      "updated_at": "2026-07-09T12:52:42.116Z",
       "data_kind": "代理データ",
       "note": "この判定は参考表示です。表示スコアは確率ではありません"
     },
     "validation_summary": {
-      "status": "基準超過",
+      "status": "参考検証では基準を上回る場合がありますが、実運用条件は未達",
       "usage_permission": "参考のみ",
-      "sample_count": 1647,
-      "hit_rate": 0.531876,
+      "sample_count": null,
+      "hit_rate": null,
       "benchmark_hit_rate": 0.50114,
-      "next_night_sample_count": 1631,
-      "next_night_hit_rate": 0.470877,
-      "backtest_passed": true,
+      "next_night_sample_count": null,
+      "next_night_hit_rate": null,
+      "backtest_passed": false,
       "reasons": [
         "日足検証は作成済みだが、08:00、11:40、16:40、22:00別の十分なライブ検証が未蓄積。",
-        "本物のリアルタイム先物データではなく、無料データと手入力を併用する前提。"
+        "本物のリアルタイム先物データではなく、無料データと手入力を併用する前提。",
+        "確率校正、コスト控除後期待値、最大ドローダウン、paper実績の条件が未達。"
       ]
     },
     "invalidation_conditions": {
-      "usage_when_active": "参考のみ",
+      "usage_when_active": "売買判断不可",
       "conditions": [
         {
           "label": "データ欠損",
@@ -400,7 +475,7 @@
         },
         {
           "label": "過去検証未通過",
-          "active": false
+          "active": true
         },
         {
           "label": "確率未校正",
@@ -442,7 +517,7 @@
     "counter_material": "一部の材料は弱く、レンジ判定が崩れる可能性があります",
     "change_conditions": {
       "up": "72,366.34を明確に上抜け、米株代替指標の支援が続けばロング優勢へ傾きます",
-      "down": "64,217.27を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
+      "down": "66,020.04を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
       "unavailable": "データ欠損、代理データ、価格更新停止がある場合は判定不可または参考表示にします"
     },
     "judgments": [
