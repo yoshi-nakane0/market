@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T16:06:26.447Z",
+  "updated_at": "2026-07-09T17:44:15.624Z",
   "macro": {
     "date": "2026-07-09",
     "region": "米国",
@@ -283,14 +283,14 @@
     "observation_time": "08:00 JST",
     "market_status": "open",
     "final_confidence": "低",
-    "signal": "レンジ優勢",
+    "signal": "ロング優勢",
     "summary": "公開判定を更新しました。",
     "short_term_bias": {
-      "label": "レンジ優勢",
+      "label": "ロング優勢",
       "scores": {
-        "long": 24,
-        "range": 56,
-        "short": 20
+        "long": 46,
+        "range": 42,
+        "short": 12
       },
       "confidence": "低"
     },
@@ -405,7 +405,7 @@
     "data_status": {
       "status": "正常",
       "target": "日経225先物",
-      "updated_at": "2026-07-09T16:06:26.447Z",
+      "updated_at": "2026-07-09T17:44:15.624Z",
       "data_kind": "本データ",
       "note": "データ状態は通常範囲です。表示スコアは確率ではありません"
     },
@@ -453,7 +453,7 @@
         },
         {
           "label": "方向群不一致",
-          "active": true
+          "active": false
         },
         {
           "label": "basis未計算",
@@ -487,20 +487,19 @@
         "label": "今日",
         "date": "2026-07-09",
         "observation_time": "08:00 JST",
-        "bias": "レンジ優勢",
-        "long": 24,
-        "range": 56,
-        "short": 20,
+        "bias": "ロング優勢",
+        "long": 46,
+        "range": 42,
+        "short": 12,
         "change": "-"
       }
     ],
     "trend_summary": "比較できる過去データがまだ不足しています",
     "decision_reasons": [
       "日経側の終値履歴が不足しているため、短期方向は補助指標を重く見ています",
-      "米株代替指標は重い一方、為替は下支えです",
-      "複数の材料が同じ方向にそろわず、レンジ判定が優勢です"
+      "米株代替指標と為替が上方向を支えています"
     ],
-    "counter_material": "米株代替指標または為替が支援的で、下方向へ一気に傾く材料は限定的です",
+    "counter_material": "代理データを含むため、上方向の判定は参考にとどめます",
     "change_conditions": {
       "up": "直近高値を明確に上抜け、米株代替指標の支援が続けばロング優勢へ傾きます",
       "down": "レンジ下限を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
@@ -517,7 +516,7 @@
       },
       {
         "label": "短期バイアス",
-        "value": "レンジ優勢"
+        "value": "ロング優勢"
       }
     ]
   }
