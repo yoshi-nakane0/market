@@ -3,8 +3,8 @@
   "date": "2026-07-09",
   "region": "米国",
   "regime": "中立",
-  "risk_score": "1",
-  "confidence": "0.81",
+  "risk_score": "2",
+  "confidence": "0.82",
   "data_confidence": {
     "label": "データ信頼度",
     "value": "100%",
@@ -12,8 +12,8 @@
   },
   "model_confidence": {
     "label": "モデル信頼度",
-    "value": "81%",
-    "score": 0.81
+    "value": "82%",
+    "score": 0.82
   },
   "predictive_confidence": {
     "label": "予測信頼度",

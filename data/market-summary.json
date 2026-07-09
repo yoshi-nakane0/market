@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-09T19:42:04.241Z",
+  "updated_at": "2026-07-09T21:56:35.664Z",
   "macro": {
     "date": "2026-07-09",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "1",
-    "confidence": "0.81",
+    "risk_score": "2",
+    "confidence": "0.82",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
@@ -14,13 +14,13 @@
         "probability_value": 35,
         "value": "35%",
         "source": "macro_state_diagnostic",
-        "confidence": 0.81,
+        "confidence": 0.82,
         "model_version": "macro-public-v1",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
-          "policy_easing_score": -0.66,
+          "policy_easing_score": -0.65,
           "financial_conditions_score": 0.37,
           "credit_stress_inverse_score": 0.37
         }
@@ -31,13 +31,13 @@
         "probability_value": 37,
         "value": "37%",
         "source": "macro_state_diagnostic",
-        "confidence": 0.81,
+        "confidence": 0.82,
         "model_version": "macro-public-v1",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
-          "policy_easing_score": -0.66,
+          "policy_easing_score": -0.65,
           "financial_conditions_score": 0.37,
           "credit_stress_inverse_score": 0.37
         }
@@ -48,13 +48,13 @@
         "probability_value": 28,
         "value": "28%",
         "source": "macro_state_diagnostic",
-        "confidence": 0.81,
+        "confidence": 0.82,
         "model_version": "macro-public-v1",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.33,
           "disinflation_score": -0.29,
-          "policy_easing_score": -0.66,
+          "policy_easing_score": -0.65,
           "financial_conditions_score": 0.37,
           "credit_stress_inverse_score": 0.37
         }
@@ -86,7 +86,7 @@
         "raw_score": 0.29,
         "direction": "lower_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-07-08",
+        "latest_observation_date": "2026-07-09",
         "top_supports": [
           "Average Hourly Earningsが小幅にマイナス",
           "Core CPIは中立圏"
@@ -122,11 +122,13 @@
       {
         "label": "政策",
         "value": 38,
-        "raw_score": -0.66,
+        "raw_score": -0.65,
         "direction": "higher_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-07-08",
-        "top_supports": [],
+        "latest_observation_date": "2026-07-09",
+        "top_supports": [
+          "Yield Curve 10Y-2Yは中立圏"
+        ],
         "top_risks": [
           "10Y Treasury Yieldがマイナスに寄与",
           "2Y Treasury Yieldがマイナスに寄与",
@@ -249,8 +251,8 @@
     },
     "model_confidence": {
       "label": "モデル信頼度",
-      "value": "81%",
-      "score": 0.81
+      "value": "82%",
+      "score": 0.82
     },
     "backtest_summary": {
       "sample_count": 238,
@@ -283,23 +285,24 @@
     ]
   },
   "basecalc": {
-    "observation_time": "08:00 JST",
-    "market_status": "open",
+    "observation_time": "22:00 JST",
+    "market_status": "closed",
     "final_confidence": "低",
     "signal": "レンジ優勢",
     "summary": "公開判定を更新しました。",
     "short_term_bias": {
       "label": "レンジ優勢",
       "scores": {
-        "long": 24,
-        "range": 56,
-        "short": 20
+        "long": 25,
+        "range": 44,
+        "short": 31
       },
       "confidence": "低"
     },
     "usage_status": "使用不可",
     "score_note": "表示スコアは優勢度であり、確率ではありません",
-    "prediction_kind": "edge_score_only",
+    "prediction_kind": "technical_fit_score",
+    "predictive_validation_passed": false,
     "probability_ready": false,
     "probability": {
       "long": null,
@@ -307,39 +310,132 @@
       "short": null,
       "calibrated": false,
       "calibration_method": null,
-      "calibration_version": "basecalc_calibration_unavailable_2026_07_09",
+      "calibration_version": "basecalc_probability_disabled_2026_07_10",
       "brier_score": null,
       "expected_calibration_error": null
     },
+    "technical": {
+      "available": true,
+      "status": "判定可能",
+      "target": "日経225先物",
+      "timeframe": "日足",
+      "horizon": "現在のテクニカル局面（予測検証対象外）",
+      "analysis_session": "日中終値",
+      "as_of": "2026-07-09",
+      "price": {
+        "value": 67920,
+        "prior_close": 66810,
+        "change": 1110,
+        "change_pct": 1.66,
+        "stale": false
+      },
+      "regime": {
+        "key": "transition",
+        "label": "方向感の移行期"
+      },
+      "scores": {
+        "long": 25,
+        "range": 44,
+        "short": 31
+      },
+      "dominant": "range",
+      "dominant_label": "レンジ優勢",
+      "confidence": {
+        "score": 43,
+        "label": "低",
+        "note": "指標の一致度であり、将来確率ではありません"
+      },
+      "indicators": {
+        "ema20": 68747.909733,
+        "ema50": 66115.114575,
+        "rsi14": 49.025,
+        "macd": 673.478656,
+        "macd_signal": 1277.183739,
+        "macd_histogram": -603.705083,
+        "atr14": 1963.884785,
+        "atr_percent": 2.891,
+        "adx14": 18.703,
+        "plus_di14": 24.182,
+        "minus_di14": 28.698,
+        "bollinger_upper": 72982.32269,
+        "bollinger_middle": 69739.5,
+        "bollinger_lower": 66496.67731,
+        "bollinger_bandwidth": 9.3,
+        "roc10": -6.408
+      },
+      "levels": {
+        "support": 62350,
+        "support_distance_pct": 8.201,
+        "resistance": 73090,
+        "resistance_distance_pct": 7.612,
+        "bollinger_upper": 72982.32269,
+        "bollinger_middle": 69739.5,
+        "bollinger_lower": 66496.67731
+      },
+      "reasons": [
+        "ADX14は18.7ですが、EMA・DMI・MACDの方向が十分にそろっていません。",
+        "局面の切り替わり中とみなし、方向を強く決めつけない配点にしています。"
+      ],
+      "data_quality": {
+        "valid_bars": 3070,
+        "excluded_bars": 1,
+        "minimum_bars": 60,
+        "future_data_used": false
+      },
+      "method": "局面先行型テクニカル判定",
+      "method_note": "ADX・DMIとEMA構造で局面を先に判定し、トレンド局面では順張り指標、レンジ局面では逆張り指標を評価しています。"
+    },
     "trade_confidence": {
       "label": "実務使用信頼度 低",
-      "score": 0,
+      "score": 33,
       "usage_status": "使用不可"
     },
     "data_status": {
       "status": "注意",
       "target": "日経225先物",
-      "updated_at": "2026-07-09T19:42:04.241Z",
-      "data_kind": "本データ",
-      "note": "データ取得に注意点があります。表示スコアは確率ではありません。"
+      "updated_at": "2026-07-09T21:56:35.664Z",
+      "data_kind": "日足OHLC",
+      "note": "データ品質に注意点があります。判定適合度は将来確率ではありません。"
     },
     "validation_summary": {
-      "status": "参考検証では基準を上回る場合がありますが、実運用条件は未達",
-      "usage_permission": "参考のみ",
-      "sample_count": null,
-      "hit_rate": null,
-      "benchmark_hit_rate": 0.50114,
-      "next_night_sample_count": null,
-      "next_night_hit_rate": null,
+      "status": "3分類検証は実運用条件を未通過",
+      "validation_gate_status": "参考のみ",
+      "sample_count": 3010,
+      "hit_rate": 0.457143,
+      "benchmark_hit_rate": 0.527575,
+      "balanced_accuracy": 0.348765,
+      "macro_f1": 0.336748,
+      "coverage": 1,
+      "per_class": {
+        "long": {
+          "precision": 0.277868,
+          "recall": 0.22842,
+          "f1": 0.250729,
+          "support": 753
+        },
+        "range": {
+          "precision": 0.543843,
+          "recall": 0.714736,
+          "f1": 0.617687,
+          "support": 1588
+        },
+        "short": {
+          "precision": 0.226974,
+          "recall": 0.103139,
+          "f1": 0.141829,
+          "support": 669
+        }
+      },
+      "next_night_sample_count": 3006,
+      "next_night_hit_rate": 0.452096,
       "backtest_passed": false,
       "reasons": [
-        "全体の次日中検証が実運用基準未達。",
-        "年次walk-forward検証が未通過。",
-        "08:00、11:40、16:40、22:00別の検証が未通過。"
+        "08:00から当日日中を予測する3クラス検証が実運用基準未達。",
+        "日中終値確定後から夜間を予測する3クラス検証が実運用基準未達。",
+        "年次walk-forward検証が未通過。"
       ]
     },
     "invalidation_conditions": {
-      "usage_when_active": "売買判断不可",
       "conditions": [
         {
           "label": "データ欠損",
@@ -351,14 +447,18 @@
         },
         {
           "label": "価格更新停止",
-          "active": true
+          "active": false
         },
         {
-          "label": "spread未評価",
-          "active": true
+          "label": "OHLC履歴不足",
+          "active": false
         },
         {
           "label": "取得時刻不一致",
+          "active": false
+        },
+        {
+          "label": "時刻別検証対象外",
           "active": true
         },
         {
@@ -366,40 +466,29 @@
           "active": true
         },
         {
-          "label": "方向群不一致",
+          "label": "指標一致度が低い",
           "active": true
-        },
-        {
-          "label": "basis未計算",
-          "active": false
         },
         {
           "label": "過去検証未通過",
           "active": true
-        },
-        {
-          "label": "確率未校正",
-          "active": true
         }
       ]
     },
-    "manual_futures": [
-      {
-        "label": "日経225先物（手入力）",
-        "active": false,
-        "status": "未入力・自動取得値で評価中",
-        "price": null,
-        "prior_close": null,
-        "change": null,
-        "change_pct": null,
-        "contract_month": "",
-        "updated_at": ""
-      }
-    ],
     "comparison_3day": [
       {
-        "label": "今日",
-        "date": "2026-07-09",
+        "label": "今回",
+        "date": "2026-07-10",
+        "observation_time": "22:00 JST",
+        "bias": "レンジ優勢",
+        "long": 25,
+        "range": 44,
+        "short": 31,
+        "change": "レンジ優勢継続"
+      },
+      {
+        "label": "前回",
+        "date": "2026-07-10",
         "observation_time": "08:00 JST",
         "bias": "レンジ優勢",
         "long": 24,
@@ -408,22 +497,21 @@
         "change": "-"
       }
     ],
-    "trend_summary": "比較できる過去データがまだ不足しています",
+    "trend_summary": "レンジ優勢 → レンジ優勢。現在はレンジ優勢継続",
     "decision_reasons": [
-      "日経側の終値履歴が不足しているため、短期方向は補助指標を重く見ています",
-      "米株代替指標は重い一方、為替は下支えです",
-      "複数の材料が同じ方向にそろわず、レンジ判定が優勢です"
+      "ADX14は18.7ですが、EMA・DMI・MACDの方向が十分にそろっていません。",
+      "局面の切り替わり中とみなし、方向を強く決めつけない配点にしています。"
     ],
-    "counter_material": "米株代替指標または為替が支援的で、下方向へ一気に傾く材料は限定的です",
+    "counter_material": "支持線または抵抗線を終値で抜け、ADXが上昇するとレンジ判定は終了します",
     "change_conditions": {
-      "up": "直近高値を明確に上抜け、米株代替指標の支援が続けばロング優勢へ傾きます",
-      "down": "レンジ下限を割り込み、戻りが弱い状態が続けばショート優勢へ傾きます",
-      "unavailable": "データ欠損、代理データ、価格更新停止がある場合は判定不可または参考表示にします"
+      "up": "73,090を終値で上抜け、EMA20・MACD・DMIが上向きでそろえばロング優勢へ傾きます",
+      "down": "62,350を終値で下抜け、EMA20・MACD・DMIが下向きでそろえばショート優勢へ傾きます",
+      "unavailable": "OHLC履歴不足、価格更新停止、取得時刻不整合がある場合は判定不可にします"
     },
     "judgments": [
       {
         "label": "市場ステータス",
-        "value": "open"
+        "value": "closed"
       },
       {
         "label": "最終信頼度",
