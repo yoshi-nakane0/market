@@ -1,19 +1,19 @@
 {
-  "updated_at": "2026-07-09",
-  "date": "2026-07-09",
+  "updated_at": "2026-07-11",
+  "date": "2026-07-11",
   "region": "米国",
   "regime": "中立",
-  "risk_score": "2",
-  "confidence": "0.82",
+  "risk_score": "3",
+  "confidence": "0.83",
   "data_confidence": {
-    "label": "データ信頼度",
+    "label": "必要データ取得率",
     "value": "100%",
     "score": 1
   },
   "model_confidence": {
-    "label": "モデル信頼度",
-    "value": "82%",
-    "score": 0.82
+    "label": "入力分野の一致度",
+    "value": "83%",
+    "score": 0.83
   },
   "predictive_confidence": {
     "label": "予測信頼度",
@@ -37,14 +37,14 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 238,
-        "hit_rate": 0.584,
-        "benchmark_hit_rate": 0.5924,
-        "brier_score": 0.2879,
-        "brier_skill": -0.1516,
-        "calibration_error": 0.2116,
-        "pnl": -0.0001,
-        "profit_factor": 0,
+        "sample_count": 193,
+        "hit_rate": 0.2902,
+        "benchmark_hit_rate": 0.5233,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0003,
+        "profit_factor": 0.6162,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
@@ -62,23 +62,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 236,
-        "hit_rate": 0.6356,
-        "benchmark_hit_rate": 0.6356,
-        "brier_score": 0.3016,
-        "brier_skill": -0.2064,
-        "calibration_error": 0.2632,
-        "pnl": 0,
-        "profit_factor": 0.6085,
+        "sample_count": 191,
+        "hit_rate": 0.3037,
+        "benchmark_hit_rate": 0.5497,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0013,
+        "profit_factor": 0.0362,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
           "pnl_not_positive",
           "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -87,21 +89,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 235,
-        "hit_rate": 0.6979,
-        "benchmark_hit_rate": 0.7021,
-        "brier_score": 0.317,
-        "brier_skill": -0.268,
-        "calibration_error": 0.3255,
-        "pnl": 0.0001,
-        "profit_factor": 2.2199,
+        "sample_count": 189,
+        "hit_rate": 0.328,
+        "benchmark_hit_rate": 0.5767,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0023,
+        "profit_factor": 0.007,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
+          "pnl_not_positive",
+          "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -110,23 +116,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 222,
-        "hit_rate": 0.8153,
-        "benchmark_hit_rate": 0.8198,
-        "brier_score": 0.3475,
-        "brier_skill": -0.39,
-        "calibration_error": 0.4426,
-        "pnl": -0.0004,
-        "profit_factor": 0.1227,
+        "sample_count": 174,
+        "hit_rate": 0.3103,
+        "benchmark_hit_rate": 0.6322,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0064,
+        "profit_factor": 0,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
           "pnl_not_positive",
           "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -135,13 +143,13 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 186,
-        "hit_rate": 0.8172,
-        "benchmark_hit_rate": 0.8172,
-        "brier_score": 0.3477,
-        "brier_skill": -0.3908,
-        "calibration_error": 0.444,
-        "pnl": -0.0021,
+        "sample_count": 134,
+        "hit_rate": 0.3209,
+        "benchmark_hit_rate": 0.7761,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0213,
         "profit_factor": 0,
         "vintage_backtest": false,
         "reasons": [
@@ -162,17 +170,18 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 135,
-        "hit_rate": 1,
-        "benchmark_hit_rate": 1,
-        "brier_score": 0.3934,
-        "brier_skill": -0.5736,
-        "calibration_error": 0.6272,
+        "sample_count": 74,
+        "hit_rate": 0.0541,
+        "benchmark_hit_rate": 0.973,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
         "pnl": 0,
         "profit_factor": null,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
@@ -190,25 +199,173 @@
         "event_window_pnl_not_positive",
         "event_window_hit_rate_not_materially_above_normal"
       ],
-      "major_event_hit_rate": 0.7536,
-      "normal_day_hit_rate": 0.7266,
-      "major_event_pnl": 0,
-      "normal_day_pnl": -0.0006
+      "major_event_hit_rate": 0.3063,
+      "normal_day_hit_rate": 0.2786,
+      "major_event_pnl": -0.0014,
+      "normal_day_pnl": -0.0074
     }
   },
-  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。 実市場検証が弱いため monitor_only です。",
+  "decision": {
+    "side": "range",
+    "label": "レンジ",
+    "score": 3,
+    "scale_min": -100,
+    "scale_max": 100,
+    "long_threshold": 20,
+    "short_threshold": -20,
+    "status": "reference_only",
+    "status_label": "売買判断には使用不可",
+    "action": "マクロ環境はレンジですが、対象資産での検証が未合格のため売買は保留",
+    "confidence_label": "予測検証は未合格",
+    "target_key": "nikkei225_futures",
+    "target_label": "日経225先物",
+    "horizon": "20d",
+    "horizon_label": "1か月先（20営業日）",
+    "breadth": {
+      "long": 2,
+      "range": 3,
+      "short": 2,
+      "total": 7,
+      "required": 4
+    },
+    "evidence": {
+      "long": [
+        "金融環境は上向き材料",
+        "外部環境は上向き材料"
+      ],
+      "range": [
+        "成長は中立圏",
+        "雇用は中立圏",
+        "市場心理は中立圏"
+      ],
+      "short": [
+        "物価圧力は下向き材料",
+        "政策余地は下向き材料"
+      ]
+    },
+    "change_conditions": {
+      "long": "方向スコア+20以上、上向き分野4/7以上、上向き指標幅55%以上",
+      "short": "方向スコア-20以下、下向き分野4/7以上、下向き指標幅55%以上"
+    },
+    "reason_codes": [],
+    "method": "実質方向へ統一した7分野の加重スコアに、分野幅・指標幅・データ品質・反転確認を重ねる判定",
+    "model_version": "macro-public-v2"
+  },
+  "recession_entry": {
+    "status": "not_indicated",
+    "label": "現時点では該当せず",
+    "current_regime": "中立",
+    "basis": [
+      {
+        "label": "成長",
+        "value": "横ばい"
+      },
+      {
+        "label": "雇用",
+        "value": "底堅い"
+      }
+    ],
+    "note": "現在の成長・雇用データによるモデル判定で、公式な景気後退認定ではありません。"
+  },
+  "rate_policy": {
+    "available": true,
+    "environment_label": "引き締め的",
+    "outlook": {
+      "label": "据え置き後に緩和余地",
+      "description": "政策はまだ引き締め的だが、インフレ圧力が落ち着けば緩和余地が出る"
+    },
+    "series": {
+      "label": "実効FF金利",
+      "unit": "%",
+      "frequency": "月次",
+      "latest": {
+        "date": "2026-06-01",
+        "value": 3.63
+      },
+      "change_from_first_pp": -0.7,
+      "points": [
+        {
+          "date": "2025-07-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-08-01",
+          "value": 4.33
+        },
+        {
+          "date": "2025-09-01",
+          "value": 4.22
+        },
+        {
+          "date": "2025-10-01",
+          "value": 4.09
+        },
+        {
+          "date": "2025-11-01",
+          "value": 3.88
+        },
+        {
+          "date": "2025-12-01",
+          "value": 3.72
+        },
+        {
+          "date": "2026-01-01",
+          "value": 3.64
+        },
+        {
+          "date": "2026-02-01",
+          "value": 3.64
+        },
+        {
+          "date": "2026-03-01",
+          "value": 3.64
+        },
+        {
+          "date": "2026-04-01",
+          "value": 3.64
+        },
+        {
+          "date": "2026-05-01",
+          "value": 3.63
+        },
+        {
+          "date": "2026-06-01",
+          "value": 3.63
+        }
+      ],
+      "source_label": "Federal Reserve / FRED"
+    },
+    "note": "実効金利の実績です。政策金利目標や将来予想ではありません。"
+  },
+  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
   "display_status": "reference_only",
-  "asset_bias": [],
-  "state_scores": [
+  "asset_bias": [
     {
-      "label": "成長",
-      "value": 56,
+      "label": "ロング",
+      "value": "35%",
+      "tone": "positive"
+    },
+    {
+      "label": "レンジ",
+      "value": "37%",
       "tone": "neutral"
     },
     {
-      "label": "インフレ",
-      "value": 45,
+      "label": "ショート",
+      "value": "28%",
+      "tone": "negative"
+    }
+  ],
+  "state_scores": [
+    {
+      "label": "成長",
+      "value": 53,
       "tone": "neutral"
+    },
+    {
+      "label": "物価圧力",
+      "value": 45,
+      "tone": "negative"
     },
     {
       "label": "雇用",
@@ -216,66 +373,40 @@
       "tone": "neutral"
     },
     {
-      "label": "政策",
+      "label": "政策余地",
       "value": 38,
       "tone": "negative"
     },
     {
       "label": "金融環境",
-      "value": 57,
-      "tone": "neutral"
+      "value": 61,
+      "tone": "positive"
     },
     {
-      "label": "信用ストレス",
-      "value": 57,
+      "label": "外部環境",
+      "value": 61,
+      "tone": "positive"
+    },
+    {
+      "label": "市場心理",
+      "value": 53,
       "tone": "neutral"
     }
   ],
   "outlooks": [],
   "factors": {
     "support": [
-      "Manufacturers' New Ordersが強くプラスに寄与",
-      "High Yield Spreadが強くプラスに寄与",
-      "Investment Grade Spreadが強くプラスに寄与"
+      "WTI原油が強くプラスに寄与",
+      "ハイイールド債スプレッドが強くプラスに寄与",
+      "S&P 500が強くプラスに寄与"
     ],
     "risk": [
-      "10Y Treasury Yieldがマイナスに寄与",
-      "Housing Startsがマイナスに寄与",
-      "2Y Treasury Yieldがマイナスに寄与"
+      "米10年国債利回りがマイナスに寄与",
+      "住宅着工がマイナスに寄与",
+      "米2年国債利回りがマイナスに寄与"
     ]
   },
-  "world_state": [
-    {
-      "label": "ソフトランディング",
-      "value": "0%",
-      "tone": "positive"
-    },
-    {
-      "label": "拡大継続",
-      "value": "0%",
-      "tone": "neutral"
-    },
-    {
-      "label": "中立",
-      "value": "100%",
-      "tone": "neutral"
-    },
-    {
-      "label": "景気後退リスク",
-      "value": "0%",
-      "tone": "negative"
-    },
-    {
-      "label": "インフレ再加速",
-      "value": "0%",
-      "tone": "negative"
-    },
-    {
-      "label": "スタグフレーション",
-      "value": "0%",
-      "tone": "negative"
-    }
-  ],
+  "world_state": [],
   "data_quality": {
     "status": "pass",
     "coverage": 1,
@@ -284,21 +415,34 @@
     "vintage_integrity": "verified"
   },
   "backtest_summary": {
-    "sample_count": 238,
-    "quality": "usable",
+    "sample_count": 193,
+    "validation_status": "monitor_only",
+    "vintage_integrity": "degraded",
+    "target_specific_usage_permission": "reference_only",
+    "primary_target": {
+      "key": "nikkei225_futures",
+      "label": "Nikkei 225 Futures",
+      "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
+      "horizons": [
+        "1d",
+        "3d",
+        "5d",
+        "20d"
+      ]
+    },
     "horizons": {
       "1d": {
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 238,
-        "hit_rate": 0.584,
-        "benchmark_hit_rate": 0.5924,
-        "brier_score": 0.2879,
-        "brier_skill": -0.1516,
-        "calibration_error": 0.2116,
-        "pnl": -0.0001,
-        "profit_factor": 0,
+        "sample_count": 193,
+        "hit_rate": 0.2902,
+        "benchmark_hit_rate": 0.5233,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0003,
+        "profit_factor": 0.6162,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
@@ -316,23 +460,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 236,
-        "hit_rate": 0.6356,
-        "benchmark_hit_rate": 0.6356,
-        "brier_score": 0.3016,
-        "brier_skill": -0.2064,
-        "calibration_error": 0.2632,
-        "pnl": 0,
-        "profit_factor": 0.6085,
+        "sample_count": 191,
+        "hit_rate": 0.3037,
+        "benchmark_hit_rate": 0.5497,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0013,
+        "profit_factor": 0.0362,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
           "pnl_not_positive",
           "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -341,21 +487,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 235,
-        "hit_rate": 0.6979,
-        "benchmark_hit_rate": 0.7021,
-        "brier_score": 0.317,
-        "brier_skill": -0.268,
-        "calibration_error": 0.3255,
-        "pnl": 0.0001,
-        "profit_factor": 2.2199,
+        "sample_count": 189,
+        "hit_rate": 0.328,
+        "benchmark_hit_rate": 0.5767,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0023,
+        "profit_factor": 0.007,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
+          "pnl_not_positive",
+          "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -364,23 +514,25 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 222,
-        "hit_rate": 0.8153,
-        "benchmark_hit_rate": 0.8198,
-        "brier_score": 0.3475,
-        "brier_skill": -0.39,
-        "calibration_error": 0.4426,
-        "pnl": -0.0004,
-        "profit_factor": 0.1227,
+        "sample_count": 174,
+        "hit_rate": 0.3103,
+        "benchmark_hit_rate": 0.6322,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0064,
+        "profit_factor": 0,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
           "brier_skill_lte_0_02",
           "pnl_not_positive",
           "profit_factor_lt_1_20",
+          "drawdown_too_large",
           "non_realtime_backtest",
           "target_specific_validation_not_usable"
         ]
@@ -389,13 +541,13 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 186,
-        "hit_rate": 0.8172,
-        "benchmark_hit_rate": 0.8172,
-        "brier_score": 0.3477,
-        "brier_skill": -0.3908,
-        "calibration_error": 0.444,
-        "pnl": -0.0021,
+        "sample_count": 134,
+        "hit_rate": 0.3209,
+        "benchmark_hit_rate": 0.7761,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
+        "pnl": -0.0213,
         "profit_factor": 0,
         "vintage_backtest": false,
         "reasons": [
@@ -416,17 +568,18 @@
         "sample_status": "sufficient",
         "validation_status": "failed",
         "usage_permission": "monitor_only",
-        "sample_count": 135,
-        "hit_rate": 1,
-        "benchmark_hit_rate": 1,
-        "brier_score": 0.3934,
-        "brier_skill": -0.5736,
-        "calibration_error": 0.6272,
+        "sample_count": 74,
+        "hit_rate": 0.0541,
+        "benchmark_hit_rate": 0.973,
+        "brier_score": null,
+        "brier_skill": null,
+        "calibration_error": null,
         "pnl": 0,
         "profit_factor": null,
         "vintage_backtest": false,
         "reasons": [
           "sample_count_lt_250",
+          "effective_sample_count_lt_100",
           "trade_count_lt_50",
           "hit_rate_not_materially_above_benchmark",
           "calibration_error_gt_0_08",
@@ -446,15 +599,20 @@
           "1d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 193,
+            "effective_sample_count": 89,
+            "trade_count": 9,
+            "mean_forward_return": 0.002,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
-            "profit_factor": null,
-            "drawdown": 0,
+            "mean_forward_return_when_short": 0.0048,
+            "hit_rate": 0.2902,
+            "trade_hit_rate": 0.3333,
+            "benchmark_hit_rate": 0.285,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0003,
+            "profit_factor": 0.6162,
+            "drawdown": -0.1067,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -470,15 +628,20 @@
           "3d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 191,
+            "effective_sample_count": 47,
+            "trade_count": 9,
+            "mean_forward_return": 0.0058,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
-            "profit_factor": null,
-            "drawdown": 0,
+            "mean_forward_return_when_short": 0.0268,
+            "hit_rate": 0.3037,
+            "trade_hit_rate": 0.1111,
+            "benchmark_hit_rate": 0.3141,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0013,
+            "profit_factor": 0.0362,
+            "drawdown": -0.2504,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -488,21 +651,27 @@
               "brier_skill_lte_0_02",
               "calibration_error_gt_0_08",
               "target_expectancy_not_positive",
-              "profit_factor_lt_1_20"
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
             ]
           },
           "5d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 189,
+            "effective_sample_count": 30,
+            "trade_count": 9,
+            "mean_forward_return": 0.0104,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
-            "profit_factor": null,
-            "drawdown": 0,
+            "mean_forward_return_when_short": 0.0479,
+            "hit_rate": 0.328,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.3333,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0023,
+            "profit_factor": 0.007,
+            "drawdown": -0.4433,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -512,21 +681,27 @@
               "brier_skill_lte_0_02",
               "calibration_error_gt_0_08",
               "target_expectancy_not_positive",
-              "profit_factor_lt_1_20"
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
             ]
           },
           "20d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 174,
+            "effective_sample_count": 27,
+            "trade_count": 9,
+            "mean_forward_return": 0.0423,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
-            "profit_factor": null,
-            "drawdown": 0,
+            "mean_forward_return_when_short": 0.1227,
+            "hit_rate": 0.3103,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.3103,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0064,
+            "profit_factor": 0,
+            "drawdown": -1.1136,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -536,21 +711,27 @@
               "brier_skill_lte_0_02",
               "calibration_error_gt_0_08",
               "target_expectancy_not_positive",
-              "profit_factor_lt_1_20"
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
             ]
           },
           "60d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 134,
+            "effective_sample_count": 20,
+            "trade_count": 9,
+            "mean_forward_return": 0.128,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
-            "profit_factor": null,
-            "drawdown": 0,
+            "mean_forward_return_when_short": 0.3167,
+            "hit_rate": 0.3209,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.3209,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0213,
+            "profit_factor": 0,
+            "drawdown": -2.8596,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -560,19 +741,25 @@
               "brier_skill_lte_0_02",
               "calibration_error_gt_0_08",
               "target_expectancy_not_positive",
-              "profit_factor_lt_1_20"
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
             ]
           },
           "120d": {
             "label": "Nikkei 225 Futures",
             "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "mean_forward_return": null,
+            "sample_count": 74,
+            "effective_sample_count": 74,
+            "trade_count": 0,
+            "mean_forward_return": 0.2489,
             "mean_forward_return_when_long": null,
             "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "benchmark_hit_rate": null,
-            "pnl": null,
+            "hit_rate": 0.0541,
+            "trade_hit_rate": null,
+            "benchmark_hit_rate": 0.0541,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": 0,
             "profit_factor": null,
             "drawdown": 0,
             "usage_permission": "monitor_only",
@@ -596,18 +783,24 @@
           "1d": {
             "label": "S&P 500 reference",
             "series_id": "SP500",
-            "sample_count": 238,
-            "mean_forward_return": 0.0005,
+            "sample_count": 193,
+            "effective_sample_count": 57,
+            "trade_count": 9,
+            "mean_forward_return": 0.0006,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": 0.0047,
-            "hit_rate": 0.584,
-            "benchmark_hit_rate": 0.5924,
-            "pnl": -0.0001,
+            "mean_forward_return_when_short": 0.0095,
+            "hit_rate": 0.487,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.5078,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0005,
             "profit_factor": 0,
-            "drawdown": -0.017,
+            "drawdown": -0.0944,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
+              "effective_sample_count_lt_100",
               "trade_count_lt_50",
               "hit_rate_not_materially_above_benchmark",
               "brier_skill_lte_0_02",
@@ -619,18 +812,24 @@
           "3d": {
             "label": "S&P 500 reference",
             "series_id": "SP500",
-            "sample_count": 236,
-            "mean_forward_return": 0.0013,
+            "sample_count": 191,
+            "effective_sample_count": 37,
+            "trade_count": 9,
+            "mean_forward_return": 0.0019,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": 0.0018,
-            "hit_rate": 0.6356,
-            "benchmark_hit_rate": 0.6356,
-            "pnl": 0,
-            "profit_factor": 0.6085,
-            "drawdown": -0.0212,
+            "mean_forward_return_when_short": 0.0198,
+            "hit_rate": 0.5602,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.5759,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.001,
+            "profit_factor": 0,
+            "drawdown": -0.1869,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
+              "effective_sample_count_lt_100",
               "trade_count_lt_50",
               "hit_rate_not_materially_above_benchmark",
               "brier_skill_lte_0_02",
@@ -642,59 +841,80 @@
           "5d": {
             "label": "S&P 500 reference",
             "series_id": "SP500",
-            "sample_count": 235,
-            "mean_forward_return": 0.0026,
+            "sample_count": 189,
+            "effective_sample_count": 31,
+            "trade_count": 9,
+            "mean_forward_return": 0.0033,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": -0.0067,
-            "hit_rate": 0.6979,
-            "benchmark_hit_rate": 0.7021,
-            "pnl": 0.0001,
-            "profit_factor": 2.2199,
-            "drawdown": -0.0141,
+            "mean_forward_return_when_short": 0.0298,
+            "hit_rate": 0.5979,
+            "trade_hit_rate": 0.1111,
+            "benchmark_hit_rate": 0.5979,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0015,
+            "profit_factor": 0.0679,
+            "drawdown": -0.2977,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
-              "trade_count_lt_50",
-              "hit_rate_not_materially_above_benchmark",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08"
-            ]
-          },
-          "20d": {
-            "label": "S&P 500 reference",
-            "series_id": "SP500",
-            "sample_count": 222,
-            "mean_forward_return": 0.0088,
-            "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": 0.0278,
-            "hit_rate": 0.8153,
-            "benchmark_hit_rate": 0.8198,
-            "pnl": -0.0004,
-            "profit_factor": 0.1227,
-            "drawdown": -0.0986,
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "sample_count_lt_250",
+              "effective_sample_count_lt_100",
               "trade_count_lt_50",
               "hit_rate_not_materially_above_benchmark",
               "brier_skill_lte_0_02",
               "calibration_error_gt_0_08",
               "target_expectancy_not_positive",
-              "profit_factor_lt_1_20"
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
+            ]
+          },
+          "20d": {
+            "label": "S&P 500 reference",
+            "series_id": "SP500",
+            "sample_count": 174,
+            "effective_sample_count": 26,
+            "trade_count": 9,
+            "mean_forward_return": 0.0124,
+            "mean_forward_return_when_long": null,
+            "mean_forward_return_when_short": 0.0967,
+            "hit_rate": 0.7586,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.7586,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0051,
+            "profit_factor": 0,
+            "drawdown": -0.8795,
+            "usage_permission": "monitor_only",
+            "validation_reasons": [
+              "sample_count_lt_250",
+              "effective_sample_count_lt_100",
+              "trade_count_lt_50",
+              "hit_rate_not_materially_above_benchmark",
+              "brier_skill_lte_0_02",
+              "calibration_error_gt_0_08",
+              "target_expectancy_not_positive",
+              "profit_factor_lt_1_20",
+              "drawdown_too_large"
             ]
           },
           "60d": {
             "label": "S&P 500 reference",
             "series_id": "SP500",
-            "sample_count": 186,
-            "mean_forward_return": 0.0298,
+            "sample_count": 134,
+            "effective_sample_count": 21,
+            "trade_count": 9,
+            "mean_forward_return": 0.0407,
             "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": 0.1261,
-            "hit_rate": 0.8172,
-            "benchmark_hit_rate": 0.8172,
-            "pnl": -0.0021,
+            "mean_forward_return_when_short": 0.1294,
+            "hit_rate": 0.7015,
+            "trade_hit_rate": 0,
+            "benchmark_hit_rate": 0.7015,
+            "brier_skill": null,
+            "calibration_error": null,
+            "pnl": -0.0088,
             "profit_factor": 0,
-            "drawdown": -0.3814,
+            "drawdown": -1.1734,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
@@ -711,18 +931,24 @@
           "120d": {
             "label": "S&P 500 reference",
             "series_id": "SP500",
-            "sample_count": 135,
-            "mean_forward_return": 0.0386,
+            "sample_count": 74,
+            "effective_sample_count": 74,
+            "trade_count": 0,
+            "mean_forward_return": 0.0668,
             "mean_forward_return_when_long": null,
             "mean_forward_return_when_short": null,
-            "hit_rate": 1,
-            "benchmark_hit_rate": 1,
+            "hit_rate": 0.973,
+            "trade_hit_rate": null,
+            "benchmark_hit_rate": 0.973,
+            "brier_skill": null,
+            "calibration_error": null,
             "pnl": 0,
             "profit_factor": null,
             "drawdown": 0,
             "usage_permission": "monitor_only",
             "validation_reasons": [
               "sample_count_lt_250",
+              "effective_sample_count_lt_100",
               "trade_count_lt_50",
               "hit_rate_not_materially_above_benchmark",
               "brier_skill_lte_0_02",
