@@ -1,32 +1,32 @@
 {
-  "updated_at": "2026-07-13T16:08:35.670Z",
-  "date": "2026-07-14",
-  "snapshot_id": "macro-2026-07-14-macro-public-v3-fd16dc24b8548cb1",
-  "snapshot_content_hash": "fd16dc24b8548cb1ee98d098848e76db8cb2ce3d3b95202078b31b59edda4c6d",
-  "as_of_date": "2026-07-14",
+  "updated_at": "2026-07-14T15:03:06.853Z",
+  "date": "2026-07-15",
+  "snapshot_id": "macro-2026-07-15-macro-public-v3-94268c8206983c04",
+  "snapshot_content_hash": "94268c8206983c04a72767c5ea4eb73d8786a2baa93588e1d4ee0c913c182a55",
+  "as_of_date": "2026-07-15",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-13T16:10:13.493Z",
+  "signal_at": "2026-07-14T15:04:33.503Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-15",
-    "entry_at": "2026-07-14T23:45:00.000Z",
-    "valid_until": "2026-07-14T23:45:00.000Z",
+    "entry_session_date": "2026-07-16",
+    "entry_at": "2026-07-15T23:45:00.000Z",
+    "valid_until": "2026-07-15T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "3",
-  "confidence": "0.81",
+  "risk_score": "1",
+  "confidence": "0.85",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-13T16:08:35.670Z",
-    "stale_after": "2026-07-15T04:08:35.670Z",
+    "fetched_at": "2026-07-14T15:03:06.853Z",
+    "stale_after": "2026-07-16T03:03:06.853Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-14",
+    "as_of_date": "2026-07-15",
     "checked_count": 32,
     "success_count": 32,
     "raw_fetch_status": "complete",
@@ -48,8 +48,8 @@
   },
   "model_confidence": {
     "label": "入力分野の一致度",
-    "value": "81%",
-    "score": 0.81
+    "value": "85%",
+    "score": 0.85
   },
   "predictive_confidence": {
     "label": "予測検証スコア",
@@ -423,7 +423,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": 3,
+    "score": 1,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -445,9 +445,9 @@
       "total": 7,
       "required": 4,
       "indicator": {
-        "long": 0.44,
-        "range": 0.23,
-        "short": 0.32,
+        "long": 0.39,
+        "range": 0.31,
+        "short": 0.3,
         "usable_indicator_count": 30,
         "effective_weight": 7
       }
@@ -575,12 +575,12 @@
   "asset_bias": [
     {
       "label": "ロング",
-      "value": "36%",
+      "value": "35%",
       "tone": "positive"
     },
     {
       "label": "レンジ",
-      "value": "37%",
+      "value": "38%",
       "tone": "neutral"
     },
     {
@@ -597,7 +597,7 @@
     },
     {
       "label": "物価圧力",
-      "value": 47,
+      "value": 48,
       "tone": "neutral"
     },
     {
@@ -617,12 +617,12 @@
     },
     {
       "label": "外部環境",
-      "value": 61,
+      "value": 58,
       "tone": "positive"
     },
     {
       "label": "市場心理",
-      "value": 53,
+      "value": 51,
       "tone": "neutral"
     }
   ],
@@ -643,7 +643,7 @@
   "data_quality": {
     "status": "warn",
     "coverage": 1,
-    "stale_series_count": 3,
+    "stale_series_count": 1,
     "critical_missing_count": 0,
     "vintage_integrity": "verified"
   },
