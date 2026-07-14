@@ -1,53 +1,53 @@
 {
-  "updated_at": "2026-07-14T14:41:58.457Z",
+  "updated_at": "2026-07-14T23:51:14.790Z",
   "macro": {
-    "date": "2026-07-14",
+    "date": "2026-07-15",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "3",
-    "confidence": "0.81",
+    "risk_score": "1",
+    "confidence": "0.85",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
         "tone": "positive",
-        "probability_value": 36,
-        "value": "36%",
+        "probability_value": 35,
+        "value": "35%",
         "source": "macro_state_diagnostic",
         "distribution_kind": "diagnostic_score_allocation",
         "calibrated": false,
-        "confidence": 0.81,
+        "confidence": 0.85,
         "model_version": "macro-public-v3",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.17,
-          "disinflation_score": -0.19,
+          "disinflation_score": -0.12,
           "labor_score": 0.18,
           "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.33,
-          "external_score": 0.59,
-          "market_score": 0.19
+          "financial_conditions_score": 0.31,
+          "external_score": 0.44,
+          "market_score": 0.05
         }
       },
       {
         "label": "レンジ",
         "tone": "neutral",
-        "probability_value": 37,
-        "value": "37%",
+        "probability_value": 38,
+        "value": "38%",
         "source": "macro_state_diagnostic",
         "distribution_kind": "diagnostic_score_allocation",
         "calibrated": false,
-        "confidence": 0.81,
+        "confidence": 0.85,
         "model_version": "macro-public-v3",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.17,
-          "disinflation_score": -0.19,
+          "disinflation_score": -0.12,
           "labor_score": 0.18,
           "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.33,
-          "external_score": 0.59,
-          "market_score": 0.19
+          "financial_conditions_score": 0.31,
+          "external_score": 0.44,
+          "market_score": 0.05
         }
       },
       {
@@ -58,17 +58,17 @@
         "source": "macro_state_diagnostic",
         "distribution_kind": "diagnostic_score_allocation",
         "calibrated": false,
-        "confidence": 0.81,
+        "confidence": 0.85,
         "model_version": "macro-public-v3",
         "usage": "diagnostic_reference_only",
         "input_scores": {
           "growth_score": 0.17,
-          "disinflation_score": -0.19,
+          "disinflation_score": -0.12,
           "labor_score": 0.18,
           "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.33,
-          "external_score": 0.59,
-          "market_score": 0.19
+          "financial_conditions_score": 0.31,
+          "external_score": 0.44,
+          "market_score": 0.05
         }
       }
     ],
@@ -94,19 +94,19 @@
       },
       {
         "label": "物価圧力",
-        "value": 47,
-        "raw_score": 0.19,
+        "value": 48,
+        "raw_score": 0.12,
         "direction": "lower_is_better",
         "coverage": 1,
         "latest_observation_date": "2026-05-01",
         "top_supports": [
-          "Average Hourly Earningsが小幅にマイナス",
-          "Core CPIは中立圏"
+          "Core CPIが小幅にマイナス",
+          "Average Hourly Earningsが小幅にマイナス"
         ],
         "top_risks": [
           "PCEが小幅にプラス",
           "Core PCEが小幅にプラス",
-          "CPIが小幅にプラス"
+          "5Y5Y Inflation Expectationが小幅にプラス"
         ],
         "confidence": 1,
         "model_version": "macro-public-v3",
@@ -151,7 +151,7 @@
       {
         "label": "金融環境",
         "value": 56,
-        "raw_score": 0.33,
+        "raw_score": 0.31,
         "direction": "higher_is_better",
         "coverage": 1,
         "latest_observation_date": "2026-07-03",
@@ -168,17 +168,17 @@
       },
       {
         "label": "外部環境",
-        "value": 61,
-        "raw_score": 0.59,
+        "value": 58,
+        "raw_score": 0.44,
         "direction": "higher_is_better",
         "coverage": 1,
-        "latest_observation_date": "2026-07-02",
+        "latest_observation_date": "2026-07-06",
         "top_supports": [
-          "WTI Crude Oilが強くプラスに寄与",
-          "Japanese Yen to U.S. Dollar Exchange Rateは中立圏"
+          "WTI Crude Oilが強くプラスに寄与"
         ],
         "top_risks": [
-          "U.S. Dollar to Euro Exchange Rateが小幅にマイナス"
+          "U.S. Dollar to Euro Exchange Rateが小幅にマイナス",
+          "Japanese Yen to U.S. Dollar Exchange Rateは中立圏"
         ],
         "confidence": 1,
         "model_version": "macro-public-v3",
@@ -186,14 +186,14 @@
       },
       {
         "label": "市場心理",
-        "value": 53,
-        "raw_score": 0.19,
+        "value": 51,
+        "raw_score": 0.05,
         "direction": "higher_is_better",
         "coverage": 1,
         "latest_observation_date": "2026-07-03",
         "top_supports": [
-          "VIXが小幅にプラス",
-          "National Financial Conditions Indexが小幅にプラス"
+          "National Financial Conditions Indexが小幅にプラス",
+          "VIXは中立圏"
         ],
         "top_risks": [
           "10Y Breakeven Inflation Rateが小幅にマイナス"
@@ -220,14 +220,14 @@
     "data_quality": {
       "status": "warn",
       "coverage": 1,
-      "stale_series_count": 3,
+      "stale_series_count": 1,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "model_confidence": {
       "label": "入力データの一致・安定度",
-      "value": "81%",
-      "score": 0.81
+      "value": "85%",
+      "score": 0.85
     },
     "backtest_summary": {
       "sample_count": 647,
@@ -311,9 +311,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-14T14:41:58.457Z",
+      "latest_attempt_at": "2026-07-14T23:51:14.790Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 1968,
+      "data_age_minutes": 2517,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
