@@ -1,0 +1,299 @@
+{
+  "updated_at": "2026-07-15T02:36:23.776Z",
+  "methodology": {
+    "principle": "『CPIが予想より低い＝株高』とは決めつけず、内訳・景気・信用・政策織り込みを分けて評価します。",
+    "causal_chain": [
+      "発表値",
+      "市場予想との差",
+      "FRB・日銀の政策見通し変化",
+      "米2年・10年金利、ドル、円の変化",
+      "NASDAQ、S&P500、日経先物への影響"
+    ],
+    "judgment_fields": [
+      {
+        "label": "経済結果",
+        "description": "景気や物価として良いか"
+      },
+      {
+        "label": "予想差",
+        "description": "市場予想との差"
+      },
+      {
+        "label": "改定影響",
+        "description": "前回値の上方・下方改定"
+      },
+      {
+        "label": "政策影響",
+        "description": "利上げ・利下げ確率への影響"
+      },
+      {
+        "label": "織り込み差",
+        "description": "すでに市場が想定していたか"
+      },
+      {
+        "label": "構成内容",
+        "description": "ヘッドラインと内訳の差"
+      },
+      {
+        "label": "市場反応",
+        "description": "金利・為替・株価がどう反応したか"
+      }
+    ]
+  },
+  "simulator": {
+    "indicator": "CPI",
+    "scenarios": [
+      {
+        "scenario_id": "cpi_broad_disinflation",
+        "label": "シナリオA：予想より大幅に低い",
+        "inputs": [
+          {
+            "label": "コアCPI",
+            "value": "低い"
+          },
+          {
+            "label": "サービス物価",
+            "value": "鈍化"
+          },
+          {
+            "label": "住居費",
+            "value": "鈍化"
+          },
+          {
+            "label": "景気指標",
+            "value": "安定"
+          }
+        ],
+        "impacts": [
+          {
+            "asset": "米2年金利",
+            "direction": "下落",
+            "note": "利下げ余地が広がる"
+          },
+          {
+            "asset": "NASDAQ",
+            "direction": "上昇しやすい",
+            "note": "割引率低下が支援"
+          },
+          {
+            "asset": "S&P500",
+            "direction": "上昇しやすい",
+            "note": "金利低下が支援"
+          },
+          {
+            "asset": "USDJPY",
+            "direction": "下落しやすい",
+            "note": "日米金利差縮小"
+          },
+          {
+            "asset": "日経先物",
+            "direction": "綱引き",
+            "note": "米株高はプラス、円高はマイナス"
+          }
+        ],
+        "confidence": "中～高"
+      },
+      {
+        "scenario_id": "cpi_growth_scare",
+        "label": "シナリオB：予想より低いが景気悪化懸念",
+        "inputs": [
+          {
+            "label": "コアCPI",
+            "value": "低い"
+          },
+          {
+            "label": "小売・雇用",
+            "value": "急減速"
+          },
+          {
+            "label": "信用市場",
+            "value": "悪化"
+          }
+        ],
+        "impacts": [
+          {
+            "asset": "米金利",
+            "direction": "下落",
+            "note": "景気悪化を織り込む"
+          },
+          {
+            "asset": "NASDAQ",
+            "direction": "初動上昇後に失速の可能性",
+            "note": "金利低下より業績懸念が優勢になる場合"
+          },
+          {
+            "asset": "NYDOW",
+            "direction": "下落の可能性",
+            "note": "景気敏感株への逆風"
+          },
+          {
+            "asset": "USDJPY",
+            "direction": "下落",
+            "note": "米金利低下とリスク回避"
+          },
+          {
+            "asset": "日経先物",
+            "direction": "下落の可能性",
+            "note": "円高と景気懸念"
+          }
+        ],
+        "confidence": "中"
+      }
+    ]
+  },
+  "indicator_fields": [
+    {
+      "indicator": "CPI",
+      "fields": [
+        "総合",
+        "コア",
+        "住居費",
+        "サービス物価"
+      ]
+    },
+    {
+      "indicator": "雇用統計",
+      "fields": [
+        "雇用者数",
+        "失業率",
+        "平均時給",
+        "前月改定",
+        "労働参加率"
+      ]
+    },
+    {
+      "indicator": "FOMC",
+      "fields": [
+        "金利",
+        "声明変更",
+        "ドットチャート",
+        "議長会見"
+      ]
+    },
+    {
+      "indicator": "日銀",
+      "fields": [
+        "政策金利",
+        "展望レポート",
+        "国債買入れ",
+        "総裁会見"
+      ]
+    },
+    {
+      "indicator": "GDP",
+      "fields": [
+        "総合値",
+        "個人消費",
+        "設備投資",
+        "在庫"
+      ]
+    },
+    {
+      "indicator": "決算",
+      "fields": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "AI関連投資"
+      ]
+    }
+  ],
+  "impact_matrix_example": {
+    "title": "上振れした米物価指標の資産別影響例",
+    "rows": [
+      {
+        "asset": "NASDAQ",
+        "direction": "下落",
+        "strength": "強",
+        "route": "米金利上昇"
+      },
+      {
+        "asset": "S&P500",
+        "direction": "下落",
+        "strength": "中",
+        "route": "バリュエーション低下"
+      },
+      {
+        "asset": "NYDOW",
+        "direction": "中立",
+        "strength": "弱",
+        "route": "景気改善と金利上昇が相殺"
+      },
+      {
+        "asset": "日経先物",
+        "direction": "下落",
+        "strength": "中",
+        "route": "米株安が主因"
+      },
+      {
+        "asset": "USDJPY",
+        "direction": "上昇",
+        "strength": "強",
+        "route": "日米金利差拡大"
+      },
+      {
+        "asset": "米2年金利",
+        "direction": "上昇",
+        "strength": "強",
+        "route": "利下げ期待後退"
+      },
+      {
+        "asset": "米10年金利",
+        "direction": "上昇",
+        "strength": "中",
+        "route": "インフレ期待上昇"
+      },
+      {
+        "asset": "VIX",
+        "direction": "上昇",
+        "strength": "中",
+        "route": "株式変動拡大"
+      }
+    ],
+    "nikkei_decomposition": [
+      {
+        "label": "米株要因",
+        "value": -35
+      },
+      {
+        "label": "円相場要因",
+        "value": 20
+      },
+      {
+        "label": "総合影響",
+        "value": -15
+      }
+    ]
+  },
+  "interpretation_example": {
+    "title": "米雇用統計：雇用者数は予想を上回る",
+    "judgments": [
+      {
+        "label": "経済評価",
+        "value": "良い"
+      },
+      {
+        "label": "インフレ圧力",
+        "value": "やや強い"
+      },
+      {
+        "label": "FRBへの影響",
+        "value": "利下げ後退"
+      },
+      {
+        "label": "米2年金利",
+        "value": "上昇"
+      },
+      {
+        "label": "NASDAQへの影響",
+        "value": "悪い"
+      },
+      {
+        "label": "USDJPYへの影響",
+        "value": "上昇方向"
+      }
+    ],
+    "reason": "雇用の強さ自体は景気にプラスですが、利下げ期待が後退し、米国短期金利が上昇したため、金利の影響を受けやすいNASDAQにはマイナスです。"
+  }
+}

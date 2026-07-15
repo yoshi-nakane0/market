@@ -1,205 +1,62 @@
 {
-  "updated_at": "2026-07-14T23:51:14.790Z",
+  "updated_at": "2026-07-15T01:23:03.532Z",
   "macro": {
     "date": "2026-07-15",
     "region": "米国",
     "regime": "中立",
     "risk_score": "1",
-    "confidence": "0.85",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "tone": "positive",
-        "probability_value": 35,
         "value": "35%",
-        "source": "macro_state_diagnostic",
-        "distribution_kind": "diagnostic_score_allocation",
-        "calibrated": false,
-        "confidence": 0.85,
-        "model_version": "macro-public-v3",
-        "usage": "diagnostic_reference_only",
-        "input_scores": {
-          "growth_score": 0.17,
-          "disinflation_score": -0.12,
-          "labor_score": 0.18,
-          "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.31,
-          "external_score": 0.44,
-          "market_score": 0.05
-        }
+        "tone": "positive"
       },
       {
         "label": "レンジ",
-        "tone": "neutral",
-        "probability_value": 38,
         "value": "38%",
-        "source": "macro_state_diagnostic",
-        "distribution_kind": "diagnostic_score_allocation",
-        "calibrated": false,
-        "confidence": 0.85,
-        "model_version": "macro-public-v3",
-        "usage": "diagnostic_reference_only",
-        "input_scores": {
-          "growth_score": 0.17,
-          "disinflation_score": -0.12,
-          "labor_score": 0.18,
-          "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.31,
-          "external_score": 0.44,
-          "market_score": 0.05
-        }
+        "tone": "neutral"
       },
       {
         "label": "ショート",
-        "tone": "negative",
-        "probability_value": 27,
         "value": "27%",
-        "source": "macro_state_diagnostic",
-        "distribution_kind": "diagnostic_score_allocation",
-        "calibrated": false,
-        "confidence": 0.85,
-        "model_version": "macro-public-v3",
-        "usage": "diagnostic_reference_only",
-        "input_scores": {
-          "growth_score": 0.17,
-          "disinflation_score": -0.12,
-          "labor_score": 0.18,
-          "policy_easing_score": -0.59,
-          "financial_conditions_score": 0.31,
-          "external_score": 0.44,
-          "market_score": 0.05
-        }
+        "tone": "negative"
       }
     ],
     "state_scores": [
       {
         "label": "成長",
         "value": 53,
-        "raw_score": 0.17,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-01-01",
-        "top_supports": [
-          "Manufacturers' New Ordersが強くプラスに寄与",
-          "Retail Salesが小幅にプラス",
-          "Industrial Productionは中立圏"
-        ],
-        "top_risks": [
-          "Housing Startsがマイナスに寄与"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "neutral"
       },
       {
         "label": "物価圧力",
         "value": 48,
-        "raw_score": 0.12,
-        "direction": "lower_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-05-01",
-        "top_supports": [
-          "Core CPIが小幅にマイナス",
-          "Average Hourly Earningsが小幅にマイナス"
-        ],
-        "top_risks": [
-          "PCEが小幅にプラス",
-          "Core PCEが小幅にプラス",
-          "5Y5Y Inflation Expectationが小幅にプラス"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "neutral"
       },
       {
         "label": "雇用",
         "value": 53,
-        "raw_score": 0.18,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-05-01",
-        "top_supports": [
-          "JOLTS Job Openingsが強くプラスに寄与",
-          "Average Weekly Hoursは中立圏",
-          "Unemployment Rateは中立圏"
-        ],
-        "top_risks": [
-          "Nonfarm Payrollsは中立圏"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "neutral"
       },
       {
         "label": "政策余地",
         "value": 39,
-        "raw_score": -0.59,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-06-01",
-        "top_supports": [],
-        "top_risks": [
-          "10Y Treasury Yieldがマイナスに寄与",
-          "2Y Treasury Yieldがマイナスに寄与",
-          "Fed Funds Rateが小幅にマイナス"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "negative"
       },
       {
         "label": "金融環境",
         "value": 56,
-        "raw_score": 0.31,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-07-03",
-        "top_supports": [
-          "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-          "Adjusted National Financial Conditions Indexが小幅にプラス"
-        ],
-        "top_risks": [
-          "Mortgage Rateがマイナスに寄与"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "positive"
       },
       {
         "label": "外部環境",
         "value": 58,
-        "raw_score": 0.44,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-07-06",
-        "top_supports": [
-          "WTI Crude Oilが強くプラスに寄与"
-        ],
-        "top_risks": [
-          "U.S. Dollar to Euro Exchange Rateが小幅にマイナス",
-          "Japanese Yen to U.S. Dollar Exchange Rateは中立圏"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "positive"
       },
       {
         "label": "市場心理",
         "value": 51,
-        "raw_score": 0.05,
-        "direction": "higher_is_better",
-        "coverage": 1,
-        "latest_observation_date": "2026-07-03",
-        "top_supports": [
-          "National Financial Conditions Indexが小幅にプラス",
-          "VIXは中立圏"
-        ],
-        "top_risks": [
-          "10Y Breakeven Inflation Rateが小幅にマイナス"
-        ],
-        "confidence": 1,
-        "model_version": "macro-public-v3",
         "tone": "neutral"
       }
     ],
@@ -224,10 +81,55 @@
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
-    "model_confidence": {
-      "label": "入力データの一致・安定度",
-      "value": "85%",
-      "score": 0.85
+    "rule_strength": {
+      "label": "ルール一致度",
+      "value": "85/100",
+      "score": 0.85,
+      "status": "diagnostic_only",
+      "metric_kind": "rule_agreement_score_not_probability",
+      "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
+      "position_sizing_allowed": false
+    },
+    "predictive_probability": {
+      "label": "予測確率",
+      "status": "reference_only",
+      "value": "レンジ 42.2%",
+      "probability": 0.4222731481608405,
+      "probabilities": {
+        "short": 0.20835006994197577,
+        "range": 0.4222731481608405,
+        "long": 0.3693767818971838
+      },
+      "outcome": "range",
+      "outcome_label": "レンジ",
+      "target_key": "nikkei225_futures",
+      "target_label": "日経225先物",
+      "horizon": "20d",
+      "horizon_label": "1か月先（20営業日）",
+      "correct_label_definition": "対象期間の騰落率が-4%以上、+4%以下",
+      "calibrated": true,
+      "calibration_method": "学習期間外の時系列データで補正",
+      "historical_validation": {
+        "sample_count": 196,
+        "effective_sample_count": 50,
+        "hit_rate": 0.5561,
+        "benchmark_hit_rate": 0.5204,
+        "brier_score": 0.1949,
+        "brier_skill": 0.0171,
+        "calibration_error": 0.13,
+        "similar_probability_history": {
+          "probability_min": 0.4,
+          "probability_max": 0.5,
+          "mean_predicted_probability": 0.4671,
+          "observed_frequency": 0.6829,
+          "sample_count": 41
+        },
+        "usage_permission": "monitor_only"
+      },
+      "usage_permission": "monitor_only",
+      "position_sizing_allowed": false,
+      "note": "確率補正済みのモデル出力です。検証合格時のみ、誤差と過去の不利な値動きを加味して売買量へ反映します。",
+      "metric_kind": "calibrated_multiclass_predictive_probability"
     },
     "backtest_summary": {
       "sample_count": 647,
@@ -311,9 +213,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-14T23:51:14.790Z",
+      "latest_attempt_at": "2026-07-15T01:23:03.532Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 2517,
+      "data_age_minutes": 2671,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,

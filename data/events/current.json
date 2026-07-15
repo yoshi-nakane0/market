@@ -1,0 +1,4190 @@
+{
+  "updated_at": "2026-07-15T02:36:23.776Z",
+  "timezone": "Asia/Tokyo",
+  "page_name": "イベント分析",
+  "source": "events_independent_pipeline",
+  "source_note": "正式日程を優先し、予想・前回・結果は補助情報として別管理します。推定イベントは正式確認済みイベントと明確に分けます。",
+  "risk_summary": {
+    "date": "2026-07-15",
+    "overall_risk": "高",
+    "next_event_id": "us_ppi_2026_07_15",
+    "next_event": "米国PPI",
+    "countdown_target": "2026-07-15T12:30:00.000Z",
+    "affected_assets": [
+      "NASDAQ",
+      "S&P500",
+      "NYDOW",
+      "日経先物",
+      "USDJPY"
+    ],
+    "warning_window": {
+      "label": "履歴不足で算出待ち",
+      "status": "insufficient_history",
+      "note": "固定値ではなく、発表前後に実際の変動が集中した時間から算出します。"
+    },
+    "week_peak_event": "米国PPI",
+    "concentration": {
+      "count": 9,
+      "level": "高密度"
+    }
+  },
+  "filters": {
+    "periods": [
+      "today",
+      "week",
+      "month"
+    ],
+    "regions": [
+      "all",
+      "united_states",
+      "japan",
+      "other"
+    ],
+    "categories": [
+      "all",
+      "economic_indicator",
+      "monetary_policy",
+      "political",
+      "earnings",
+      "supply_demand"
+    ],
+    "assets": [
+      "all",
+      "NASDAQ",
+      "S&P500",
+      "NYDOW",
+      "日経先物",
+      "USDJPY"
+    ],
+    "high_only": true
+  },
+  "events": [
+    {
+      "event_id": "us_cpi_2026_07_14",
+      "date": "2026-07-14",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国CPI",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "CPI",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "総合",
+        "コア",
+        "住居費",
+        "サービス物価"
+      ],
+      "policy_meaning": "物価の粘着性とFRBの利下げ余地を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "past",
+      "information_status": "stale",
+      "result_status": "unverified",
+      "phase": "result_pending",
+      "metrics": {
+        "previous": "4.2%",
+        "revised_previous": null,
+        "forecast_average": "3.8%",
+        "forecast_range": null,
+        "market_center": "3.8%",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-14_2130_usd_core_cpi_m_m_0",
+            "label": "米国コアCPI（前月比）",
+            "actual": null,
+            "forecast": "0.2%",
+            "previous": "0.2%",
+            "revised_previous": null
+          },
+          {
+            "entry_id": "ff_2026-07-14_2130_usd_core_cpi_y_y_1",
+            "label": "米国コアCPI（前年比）",
+            "actual": null,
+            "forecast": "2.8%",
+            "previous": "2.9%",
+            "revised_previous": null
+          },
+          {
+            "entry_id": "ff_2026-07-14_2130_usd_cpi_m_m_2",
+            "label": "米国CPI（前月比）",
+            "actual": null,
+            "forecast": "-0.1%",
+            "previous": "0.5%",
+            "revised_previous": null
+          },
+          {
+            "entry_id": "ff_2026-07-14_2130_usd_cpi_y_y_3",
+            "label": "米国CPI（前年比）",
+            "actual": null,
+            "forecast": "3.8%",
+            "previous": "4.2%",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から減速予想",
+        "focus": [
+          "総合",
+          "コア",
+          "住居費",
+          "サービス物価"
+        ],
+        "policy_meaning": "物価の粘着性とFRBの利下げ余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-14_2300_usd_fed_chairman_warsh_testifies_4",
+      "date": "2026-07-14",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "FRB議長議会証言",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "monetary_policy",
+      "indicator": "FED_COMMUNICATION",
+      "importance": "high",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "FRB議長議会証言"
+      ],
+      "policy_meaning": "発言による政策見通しの変化を金利と為替で確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "past",
+      "information_status": "secondary_confirmed",
+      "result_status": "unverified",
+      "phase": "result_pending",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-14_2300_usd_fed_chairman_warsh_testifies_4",
+            "label": "FRB議長議会証言",
+            "actual": null,
+            "forecast": null,
+            "previous": null,
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "FRB議長議会証言"
+        ],
+        "policy_meaning": "発言による政策見通しの変化を金利と為替で確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_ppi_2026_07_15",
+      "date": "2026-07-15",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国PPI",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PPI",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "総合",
+        "コア",
+        "サービス",
+        "財価格"
+      ],
+      "policy_meaning": "企業段階の物価圧力とPCEへの波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "today",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "1.1%",
+        "revised_previous": null,
+        "forecast_average": "0.0%",
+        "forecast_range": null,
+        "market_center": "0.0%",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-15_2130_usd_core_ppi_m_m_5",
+            "label": "米国コアPPI（前月比）",
+            "actual": null,
+            "forecast": "0.3%",
+            "previous": "0.4%",
+            "revised_previous": null
+          },
+          {
+            "entry_id": "ff_2026-07-15_2130_usd_ppi_m_m_6",
+            "label": "米国PPI（前月比）",
+            "actual": null,
+            "forecast": "0.0%",
+            "previous": "1.1%",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から減速予想",
+        "focus": [
+          "総合",
+          "コア",
+          "サービス",
+          "財価格"
+        ],
+        "policy_meaning": "企業段階の物価圧力とPCEへの波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-15_2300_usd_fed_chairman_warsh_testifies_7",
+      "date": "2026-07-15",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "FRB議長議会証言",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "monetary_policy",
+      "indicator": "FED_COMMUNICATION",
+      "importance": "high",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "FRB議長議会証言"
+      ],
+      "policy_meaning": "発言による政策見通しの変化を金利と為替で確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "today",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-15_2300_usd_fed_chairman_warsh_testifies_7",
+            "label": "FRB議長議会証言",
+            "actual": null,
+            "forecast": null,
+            "previous": null,
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "FRB議長議会証言"
+        ],
+        "policy_meaning": "発言による政策見通しの変化を金利と為替で確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797vx2_2026-07-15",
+      "date": "2026-07-16",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米17-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "新規発行",
+        "発行額 $72B",
+        "発行日 2026-07-21"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797VX2",
+        "offering_amount": 72000000000,
+        "issue_date": "2026-07-21",
+        "reopening": false
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "新規発行",
+          "発行額 $72B",
+          "発行日 2026-07-21"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_philly_fed_manufacturing_index_9",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "Philly Fed Manufacturing Index",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "OTHER",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "Philly Fed Manufacturing Index"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "10.3",
+        "revised_previous": null,
+        "forecast_average": "12.7",
+        "forecast_range": null,
+        "market_center": "12.7",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-16_2130_usd_philly_fed_manufacturing_index_9",
+            "label": "Philly Fed Manufacturing Index",
+            "actual": null,
+            "forecast": "12.7",
+            "previous": "10.3",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から加速予想",
+        "focus": [
+          "Philly Fed Manufacturing Index"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_core_retail_sales_m_m_8",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "米国コア小売売上高",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "RETAIL_SALES",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "米国コア小売売上高",
+        "米国小売売上高"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "0.9%",
+        "revised_previous": null,
+        "forecast_average": "0.2%",
+        "forecast_range": null,
+        "market_center": "0.2%",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-16_2130_usd_core_retail_sales_m_m_8",
+            "label": "米国コア小売売上高",
+            "actual": null,
+            "forecast": "0.0%",
+            "previous": "0.8%",
+            "revised_previous": null
+          },
+          {
+            "entry_id": "ff_2026-07-16_2130_usd_retail_sales_m_m_10",
+            "label": "米国小売売上高",
+            "actual": null,
+            "forecast": "0.2%",
+            "previous": "0.9%",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から減速予想",
+        "focus": [
+          "米国コア小売売上高",
+          "米国小売売上高"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_unemployment_claims_11",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "米国新規失業保険申請件数",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "NFP",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "米国新規失業保険申請件数"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "215K",
+        "revised_previous": null,
+        "forecast_average": "216K",
+        "forecast_range": null,
+        "market_center": "216K",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-16_2130_usd_unemployment_claims_11",
+            "label": "米国新規失業保険申請件数",
+            "actual": null,
+            "forecast": "216K",
+            "previous": "215K",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から加速予想",
+        "focus": [
+          "米国新規失業保険申請件数"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797uu9_2026-07-16",
+      "date": "2026-07-17",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米4-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額 $110B",
+        "発行日 2026-07-21"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797UU9",
+        "offering_amount": 110000000000,
+        "issue_date": "2026-07-21",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額 $110B",
+          "発行日 2026-07-21"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797vc8_2026-07-16",
+      "date": "2026-07-17",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米8-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額 $100B",
+        "発行日 2026-07-21"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797VC8",
+        "offering_amount": 100000000000,
+        "issue_date": "2026-07-21",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額 $100B",
+          "発行日 2026-07-21"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_1000_usd_president_trump_speaks_12",
+      "date": "2026-07-17",
+      "time_jst": "10:00",
+      "time_status": "secondary_confirmed",
+      "label": "米国大統領発言",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "political",
+      "indicator": "OTHER",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "米国大統領発言"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-17_1000_usd_president_trump_speaks_12",
+            "label": "米国大統領発言",
+            "actual": null,
+            "forecast": null,
+            "previous": null,
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "米国大統領発言"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_import_prices_2026_07_17",
+      "date": "2026-07-17",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国輸入物価",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "IMPORT_PRICES",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "総合",
+        "燃料を除く輸入物価"
+      ],
+      "policy_meaning": "関税・為替を通じた輸入インフレを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合",
+          "燃料を除く輸入物価"
+        ],
+        "policy_meaning": "関税・為替を通じた輸入インフレを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_2300_usd_prelim_uom_consumer_sentiment_13",
+      "date": "2026-07-17",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "Prelim UoM Consumer Sentiment",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "OTHER",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "Prelim UoM Consumer Sentiment"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "48.9",
+        "revised_previous": null,
+        "forecast_average": "51.0",
+        "forecast_range": null,
+        "market_center": "51.0",
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-17_2300_usd_prelim_uom_consumer_sentiment_13",
+            "label": "Prelim UoM Consumer Sentiment",
+            "actual": null,
+            "forecast": "51.0",
+            "previous": "48.9",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "前回から加速予想",
+        "focus": [
+          "Prelim UoM Consumer Sentiment"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_2300_usd_prelim_uom_inflation_expectations_14",
+      "date": "2026-07-17",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "Prelim UoM Inflation Expectations",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "OTHER",
+      "importance": "medium",
+      "verification_status": "secondary_confirmed",
+      "source": {
+        "id": "forex_factory",
+        "label": "Forex Factory",
+        "url": "https://www.forexfactory.com/calendar"
+      },
+      "focus": [
+        "Prelim UoM Inflation Expectations"
+      ],
+      "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "secondary_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": "4.6%",
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": {
+          "id": "forex_factory",
+          "label": "Forex Factory",
+          "url": "https://www.forexfactory.com/calendar",
+          "verification_status": "secondary_confirmed"
+        },
+        "components": [
+          {
+            "entry_id": "ff_2026-07-17_2300_usd_prelim_uom_inflation_expectations_14",
+            "label": "Prelim UoM Inflation Expectations",
+            "actual": null,
+            "forecast": null,
+            "previous": "4.6%",
+            "revised_previous": null
+          }
+        ]
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "Prelim UoM Inflation Expectations"
+        ],
+        "policy_meaning": "予想差が政策見通しと各資産へ波及する経路を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "cftc_cot_2026_07_17",
+      "date": "2026-07-18",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797ul9_2026-07-20",
+      "date": "2026-07-21",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米13-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額は発表待ち",
+        "発行日 2026-07-23"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797UL9",
+        "offering_amount": null,
+        "issue_date": "2026-07-23",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額は発表待ち",
+          "発行日 2026-07-23"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797tm9_2026-07-20",
+      "date": "2026-07-21",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米26-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額は発表待ち",
+        "発行日 2026-07-23"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797TM9",
+        "offering_amount": null,
+        "issue_date": "2026-07-23",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額は発表待ち",
+          "発行日 2026-07-23"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912797rs8_2026-07-21",
+      "date": "2026-07-22",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米6-Week短期国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額は発表待ち",
+        "発行日 2026-07-23"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912797RS8",
+        "offering_amount": null,
+        "issue_date": "2026-07-23",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額は発表待ち",
+          "発行日 2026-07-23"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_912810uv8_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "02:00",
+      "time_status": "confirmed",
+      "label": "米19-Year 10-Month国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "リオープン",
+        "発行額は発表待ち",
+        "発行日 2026-07-24"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "912810UV8",
+        "offering_amount": null,
+        "issue_date": "2026-07-24",
+        "reopening": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "リオープン",
+          "発行額は発表待ち",
+          "発行日 2026-07-24"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_treasury_auction_91282cre3_2026-07-23",
+      "date": "2026-07-24",
+      "time_jst": "02:00",
+      "time_status": "confirmed",
+      "label": "米10-Year国債入札",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "TREASURY_AUCTION",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "treasury_direct",
+        "label": "TreasuryDirect",
+        "url": "https://www.treasurydirect.gov/auctions/upcoming/"
+      },
+      "focus": [
+        "新規発行",
+        "発行額は発表待ち",
+        "発行日 2026-07-31"
+      ],
+      "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "cusip": "91282CRE3",
+        "offering_amount": null,
+        "issue_date": "2026-07-31",
+        "reopening": false
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "新規発行",
+          "発行額は発表待ち",
+          "発行日 2026-07-31"
+        ],
+        "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-07-27",
+      "date": "2026-07-27",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-07-28",
+      "date": "2026-07-28",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-07-29",
+      "date": "2026-07-29",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "fomc_2026_07_29",
+      "date": "2026-07-30",
+      "time_jst": "03:00",
+      "time_status": "confirmed",
+      "label": "FOMC政策決定",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "monetary_policy",
+      "indicator": "FOMC",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "federal_reserve",
+        "label": "連邦準備制度（FRB）",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "focus": [
+        "政策金利",
+        "声明変更",
+        "議長会見"
+      ],
+      "policy_meaning": "政策金利の道筋と利下げ・利上げ条件を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "high"
+        }
+      ],
+      "metadata": {
+        "meeting_dates": "7月28日～29日",
+        "sep": false,
+        "press_conference": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "政策金利",
+          "声明変更",
+          "議長会見"
+        ],
+        "policy_meaning": "政策金利の道筋と利下げ・利上げ条件を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_gdp_advance_2026_07_30",
+      "date": "2026-07-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP（速報値）",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "GDP",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合値",
+        "個人消費",
+        "設備投資",
+        "在庫"
+      ],
+      "policy_meaning": "景気の強さと政策余地を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合値",
+          "個人消費",
+          "設備投資",
+          "在庫"
+        ],
+        "policy_meaning": "景気の強さと政策余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_2026_07_30",
+      "date": "2026-07-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PCE",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合PCE",
+        "コアPCE",
+        "個人所得",
+        "個人消費"
+      ],
+      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合PCE",
+          "コアPCE",
+          "個人所得",
+          "個人消費"
+        ],
+        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_eci_2026_07_31",
+      "date": "2026-07-31",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国雇用コスト指数",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "ECI",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "賃金",
+        "福利厚生",
+        "民間部門"
+      ],
+      "policy_meaning": "賃金インフレの持続性を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "賃金",
+          "福利厚生",
+          "民間部門"
+        ],
+        "policy_meaning": "賃金インフレの持続性を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "boj_2026_07_31",
+      "date": "2026-07-31",
+      "time_jst": null,
+      "time_status": "date_confirmed_time_unannounced",
+      "label": "日銀金融政策決定会合",
+      "region": "japan",
+      "currency": "JPY",
+      "category": "monetary_policy",
+      "indicator": "BOJ",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "boj",
+        "label": "日本銀行",
+        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+      },
+      "focus": [
+        "政策金利",
+        "展望レポート",
+        "国債買入れ",
+        "総裁会見"
+      ],
+      "policy_meaning": "追加利上げの時期と物価・賃金・円相場の条件を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "low"
+        },
+        {
+          "asset": "S&P500",
+          "level": "low"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "low"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "low"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "low"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {
+        "meeting_dates": "7月30日～31日",
+        "outlook_report": true
+      },
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "政策金利",
+          "展望レポート",
+          "国債買入れ",
+          "総裁会見"
+        ],
+        "policy_meaning": "追加利上げの時期と物価・賃金・円相場の条件を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_nfp_estimated_2026-08-07",
+      "date": "2026-08-07",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米雇用統計推定日",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "NFP",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "boj_summary_2026_08_10",
+      "date": "2026-08-10",
+      "time_jst": "08:50",
+      "time_status": "confirmed",
+      "label": "日銀・主な意見",
+      "region": "japan",
+      "currency": "JPY",
+      "category": "monetary_policy",
+      "indicator": "BOJ_OPINIONS",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "boj",
+        "label": "日本銀行",
+        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+      },
+      "focus": [
+        "利上げ条件",
+        "物価見通し",
+        "委員の意見差"
+      ],
+      "policy_meaning": "政策委員のタカ派・ハト派傾向を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "low"
+        },
+        {
+          "asset": "S&P500",
+          "level": "low"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "low"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "low"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "low"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "利上げ条件",
+          "物価見通し",
+          "委員の意見差"
+        ],
+        "policy_meaning": "政策委員のタカ派・ハト派傾向を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-10",
+      "date": "2026-08-10",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "CPI",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-11",
+      "date": "2026-08-11",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "CPI",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-12",
+      "date": "2026-08-12",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "CPI",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "CPI",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "jp_sq_estimated_2026-08-14",
+      "date": "2026-08-14",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "SQ推定日",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "SQ",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "medium"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-14",
+      "date": "2026-08-14",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "CPI",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "fomc_minutes_2026_08_19",
+      "date": "2026-08-20",
+      "time_jst": "03:00",
+      "time_status": "confirmed",
+      "label": "FOMC議事要旨",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "monetary_policy",
+      "indicator": "FOMC_MINUTES",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "federal_reserve",
+        "label": "連邦準備制度（FRB）",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      "focus": [
+        "政策判断の論点",
+        "委員間の意見差"
+      ],
+      "policy_meaning": "政策変更に必要な条件と委員の温度差を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "high"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "政策判断の論点",
+          "委員間の意見差"
+        ],
+        "policy_meaning": "政策変更に必要な条件と委員の温度差を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-25",
+      "date": "2026-08-25",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_gdp_2026-08-26",
+      "date": "2026-08-26",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "GDP",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合値",
+        "個人消費",
+        "設備投資",
+        "在庫"
+      ],
+      "policy_meaning": "景気の強さと政策余地を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合値",
+          "個人消費",
+          "設備投資",
+          "在庫"
+        ],
+        "policy_meaning": "景気の強さと政策余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_pce_2026-08-26",
+      "date": "2026-08-26",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PCE",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合PCE",
+        "コアPCE",
+        "個人所得",
+        "個人消費"
+      ],
+      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合PCE",
+          "コアPCE",
+          "個人所得",
+          "個人消費"
+        ],
+        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-27",
+      "date": "2026-08-27",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-28",
+      "date": "2026-08-28",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming",
+      "source": {
+        "id": "rule_based_estimate",
+        "label": "日付規則による推定",
+        "url": null
+      },
+      "region": "united_states",
+      "currency": "USD",
+      "indicator": "PCE",
+      "verification_status": "estimated",
+      "focus": [
+        "正式日程の確認待ち"
+      ],
+      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        }
+      ],
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "正式日程の確認待ち"
+        ],
+        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_gdp_2026-09-30",
+      "date": "2026-09-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "GDP",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合値",
+        "個人消費",
+        "設備投資",
+        "在庫"
+      ],
+      "policy_meaning": "景気の強さと政策余地を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合値",
+          "個人消費",
+          "設備投資",
+          "在庫"
+        ],
+        "policy_meaning": "景気の強さと政策余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_pce_2026-09-30",
+      "date": "2026-09-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PCE",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合PCE",
+        "コアPCE",
+        "個人所得",
+        "個人消費"
+      ],
+      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合PCE",
+          "コアPCE",
+          "個人所得",
+          "個人消費"
+        ],
+        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_gdp_2026-10-29",
+      "date": "2026-10-29",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "GDP",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合値",
+        "個人消費",
+        "設備投資",
+        "在庫"
+      ],
+      "policy_meaning": "景気の強さと政策余地を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合値",
+          "個人消費",
+          "設備投資",
+          "在庫"
+        ],
+        "policy_meaning": "景気の強さと政策余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_pce_2026-10-29",
+      "date": "2026-10-29",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PCE",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bea",
+        "label": "米商務省経済分析局（BEA）",
+        "url": "https://www.bea.gov/news/schedule"
+      },
+      "focus": [
+        "総合PCE",
+        "コアPCE",
+        "個人所得",
+        "個人消費"
+      ],
+      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合PCE",
+          "コアPCE",
+          "個人所得",
+          "個人消費"
+        ],
+        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    }
+  ],
+  "non_economic_catalog": [
+    {
+      "category": "政治",
+      "key": "political",
+      "items": [
+        "米国大統領・議会選挙",
+        "日本の衆議院・参議院選挙",
+        "大統領・首相の演説",
+        "主要法案の採決",
+        "予算協議",
+        "米政府閉鎖期限",
+        "債務上限問題",
+        "関税発表",
+        "経済制裁",
+        "半導体輸出規制",
+        "主要国首脳会談",
+        "重要な裁判所判断"
+      ]
+    },
+    {
+      "category": "地政学・資源",
+      "key": "geopolitical_resources",
+      "items": [
+        "戦争、停戦交渉",
+        "ホルムズ海峡",
+        "OPECプラス会合",
+        "原油在庫",
+        "エネルギー制裁",
+        "中国・台湾関連",
+        "北朝鮮関連"
+      ]
+    },
+    {
+      "category": "市場固有イベント",
+      "key": "market_specific",
+      "items": [
+        "米国債入札",
+        "SQ・MSQ",
+        "オプション満期",
+        "指数リバランス",
+        "日経平均銘柄入替え",
+        "メジャーSQ",
+        "大型株決算",
+        "NVIDIA、Apple、Microsoftなど指数寄与度の高い企業の決算",
+        "先物限月交代",
+        "CFTCポジション発表"
+      ]
+    }
+  ],
+  "data_principles": {
+    "official_first": true,
+    "estimated_events_separated": true,
+    "reaction_center": "市場予想との差→政策見通し→金利→各資産",
+    "forex_factory_note": "Actual・Forecast・Previousと重要度の補助確認に使用します。色は指標の予想差であり、株価や為替への良し悪しを示すものではありません。時刻変更の可能性があるため、正式日程の正本にはしません。",
+    "independence": [
+      "Macroの判定を入力に使用しない",
+      "Basecalcの判定を入力に使用しない",
+      "Explanationの結果を入力に使用しない",
+      "Events自身で価格、予想、日程、政策織り込みを取得する",
+      "共通利用するのは日時処理、表示部品、価格取得処理だけ",
+      "Eventsの判定結果を他ページが参照することは可能",
+      "他ページの結果によってEventsの判定を変更しない"
+    ]
+  },
+  "implementation_stages": [
+    {
+      "stage": 1,
+      "label": "基礎データ",
+      "status": "運用中",
+      "items": [
+        "公式日程の取得",
+        "Forex Factoryの予想・前回・結果",
+        "USD・JPYの重要イベント",
+        "政治・決算・需給イベントの手動登録",
+        "情報源・更新時刻・正式確認状態",
+        "資産別影響対象",
+        "米国・日本の金融政策欄"
+      ]
+    },
+    {
+      "stage": 2,
+      "label": "発表後の反応",
+      "status": "履歴蓄積中",
+      "items": [
+        "発表値のサプライズ計算",
+        "改定値の評価",
+        "FedWatch変化",
+        "米2年・10年金利の反応",
+        "株価・為替の初動記録",
+        "『良い数字なのに株安』の因果説明"
+      ]
+    },
+    {
+      "stage": 3,
+      "label": "統計とシミュレーション",
+      "status": "一部運用・履歴待ち",
+      "items": [
+        "過去イベント統計",
+        "シナリオシミュレーター",
+        "イベント別予測精度",
+        "相場環境別の反応分類",
+        "イベント集中リスク",
+        "オプション市場の予想変動幅"
+      ]
+    }
+  ],
+  "verification_states": [
+    {
+      "key": "official_confirmed",
+      "label": "公的機関で正式確認"
+    },
+    {
+      "key": "secondary_confirmed",
+      "label": "Forex Factoryなどで確認"
+    },
+    {
+      "key": "estimated",
+      "label": "日付・時刻を推定"
+    },
+    {
+      "key": "unverified",
+      "label": "未確認"
+    },
+    {
+      "key": "changed",
+      "label": "発表日時が変更"
+    },
+    {
+      "key": "cancelled",
+      "label": "中止"
+    },
+    {
+      "key": "stale",
+      "label": "更新期限切れ"
+    }
+  ]
+}

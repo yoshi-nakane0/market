@@ -1,56 +1,466 @@
 {
-  "updated_at": "2026-07-09T21:57:39.883Z",
+  "updated_at": "2026-07-15T02:36:23.776Z",
   "timezone": "Asia/Tokyo",
-  "source": "static_event_calendar_with_rule_fallback",
-  "source_note": "明示イベントカレンダーを優先し、不足分のみ推定イベント日で補完します。",
+  "source": "events_independent_pipeline",
+  "source_note": "正式日程を優先し、予想・前回・結果は補助情報として別管理します。推定イベントは正式確認済みイベントと明確に分けます。",
   "events": [
-    {
-      "event_id": "us_cpi_ppi_estimated_2026-07-10",
-      "date": "2026-07-10",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米CPI/PPI推定期間",
-      "category": "CPI",
-      "importance": "high",
-      "status": "today"
-    },
-    {
-      "event_id": "jp_sq_estimated_2026-07-10",
-      "date": "2026-07-10",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "SQ推定日",
-      "category": "SQ",
-      "importance": "medium",
-      "status": "today"
-    },
-    {
-      "event_id": "us_cpi_ppi_estimated_2026-07-13",
-      "date": "2026-07-13",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米CPI/PPI推定期間",
-      "category": "CPI",
-      "importance": "high",
-      "status": "upcoming"
-    },
     {
       "event_id": "us_cpi_2026_07_14",
       "date": "2026-07-14",
       "time_jst": "21:30",
-      "time_status": "estimated",
-      "label": "米CPI",
-      "category": "CPI",
+      "time_status": "confirmed",
+      "label": "米国CPI",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "past"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-14_2300_usd_fed_chairman_warsh_testifies_4",
+      "date": "2026-07-14",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "FRB議長議会証言",
+      "category": "monetary_policy",
+      "importance": "high",
+      "status": "past"
+    },
+    {
+      "event_id": "us_ppi_2026_07_15",
+      "date": "2026-07-15",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国PPI",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "today"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-15_2300_usd_fed_chairman_warsh_testifies_7",
+      "date": "2026-07-15",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "FRB議長議会証言",
+      "category": "monetary_policy",
+      "importance": "high",
+      "status": "today"
+    },
+    {
+      "event_id": "us_treasury_auction_912797vx2_2026-07-15",
+      "date": "2026-07-16",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米17-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_philly_fed_manufacturing_index_9",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "Philly Fed Manufacturing Index",
+      "category": "economic_indicator",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_core_retail_sales_m_m_8",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "米国コア小売売上高",
+      "category": "economic_indicator",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-16_2130_usd_unemployment_claims_11",
+      "date": "2026-07-16",
+      "time_jst": "21:30",
+      "time_status": "secondary_confirmed",
+      "label": "米国新規失業保険申請件数",
+      "category": "economic_indicator",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912797uu9_2026-07-16",
+      "date": "2026-07-17",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米4-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912797vc8_2026-07-16",
+      "date": "2026-07-17",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米8-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_1000_usd_president_trump_speaks_12",
+      "date": "2026-07-17",
+      "time_jst": "10:00",
+      "time_status": "secondary_confirmed",
+      "label": "米国大統領発言",
+      "category": "political",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_import_prices_2026_07_17",
+      "date": "2026-07-17",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国輸入物価",
+      "category": "economic_indicator",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_2300_usd_prelim_uom_consumer_sentiment_13",
+      "date": "2026-07-17",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "Prelim UoM Consumer Sentiment",
+      "category": "economic_indicator",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "secondary_ff_2026-07-17_2300_usd_prelim_uom_inflation_expectations_14",
+      "date": "2026-07-17",
+      "time_jst": "23:00",
+      "time_status": "secondary_confirmed",
+      "label": "Prelim UoM Inflation Expectations",
+      "category": "economic_indicator",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "cftc_cot_2026_07_17",
+      "date": "2026-07-18",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912797ul9_2026-07-20",
+      "date": "2026-07-21",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米13-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912797tm9_2026-07-20",
+      "date": "2026-07-21",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米26-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912797rs8_2026-07-21",
+      "date": "2026-07-22",
+      "time_jst": "00:30",
+      "time_status": "confirmed",
+      "label": "米6-Week短期国債入札",
+      "category": "supply_demand",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_912810uv8_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "02:00",
+      "time_status": "confirmed",
+      "label": "米19-Year 10-Month国債入札",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_treasury_auction_91282cre3_2026-07-23",
+      "date": "2026-07-24",
+      "time_jst": "02:00",
+      "time_status": "confirmed",
+      "label": "米10-Year国債入札",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_estimated_2026-07-27",
+      "date": "2026-07-27",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
       "importance": "high",
       "status": "upcoming"
     },
     {
-      "event_id": "us_cpi_ppi_estimated_2026-07-14",
-      "date": "2026-07-14",
+      "event_id": "us_pce_estimated_2026-07-28",
+      "date": "2026-07-28",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_estimated_2026-07-29",
+      "date": "2026-07-29",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "fomc_2026_07_29",
+      "date": "2026-07-30",
+      "time_jst": "03:00",
+      "time_status": "confirmed",
+      "label": "FOMC政策決定",
+      "category": "monetary_policy",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_gdp_advance_2026_07_30",
+      "date": "2026-07-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP（速報値）",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_2026_07_30",
+      "date": "2026-07-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_eci_2026_07_31",
+      "date": "2026-07-31",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国雇用コスト指数",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "boj_2026_07_31",
+      "date": "2026-07-31",
+      "time_jst": null,
+      "time_status": "date_confirmed_time_unannounced",
+      "label": "日銀金融政策決定会合",
+      "category": "monetary_policy",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_nfp_estimated_2026-08-07",
+      "date": "2026-08-07",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米雇用統計推定日",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "boj_summary_2026_08_10",
+      "date": "2026-08-10",
+      "time_jst": "08:50",
+      "time_status": "confirmed",
+      "label": "日銀・主な意見",
+      "category": "monetary_policy",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-10",
+      "date": "2026-08-10",
       "time_jst": null,
       "time_status": "estimated_date",
       "label": "米CPI/PPI推定期間",
-      "category": "CPI",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-11",
+      "date": "2026-08-11",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-12",
+      "date": "2026-08-12",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "jp_sq_estimated_2026-08-14",
+      "date": "2026-08-14",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "SQ推定日",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_cpi_ppi_estimated_2026-08-14",
+      "date": "2026-08-14",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米CPI/PPI推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "fomc_minutes_2026_08_19",
+      "date": "2026-08-20",
+      "time_jst": "03:00",
+      "time_status": "confirmed",
+      "label": "FOMC議事要旨",
+      "category": "monetary_policy",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-25",
+      "date": "2026-08-25",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_gdp_2026-08-26",
+      "date": "2026-08-26",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_pce_2026-08-26",
+      "date": "2026-08-26",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-27",
+      "date": "2026-08-27",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "us_pce_estimated_2026-08-28",
+      "date": "2026-08-28",
+      "time_jst": null,
+      "time_status": "estimated_date",
+      "label": "米PCE推定期間",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_gdp_2026-09-30",
+      "date": "2026-09-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_pce_2026-09-30",
+      "date": "2026-09-30",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_gdp_2026-10-29",
+      "date": "2026-10-29",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国GDP",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_pce_2026-10-29",
+      "date": "2026-10-29",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国個人所得・支出／PCE",
+      "category": "economic_indicator",
       "importance": "high",
       "status": "upcoming"
     }
