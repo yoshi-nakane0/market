@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-07-15T08:10:47.040Z",
+  "updated_at": "2026-07-15T20:34:16.372Z",
   "macro": {
-    "date": "2026-07-15",
+    "date": "2026-07-16",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "1",
+    "risk_score": "3",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "35%",
+        "value": "36%",
         "tone": "positive"
       },
       {
         "label": "レンジ",
-        "value": "38%",
+        "value": "37%",
         "tone": "neutral"
       },
       {
@@ -46,7 +46,7 @@
       },
       {
         "label": "金融環境",
-        "value": 56,
+        "value": 57,
         "tone": "positive"
       },
       {
@@ -56,7 +56,7 @@
       },
       {
         "label": "市場心理",
-        "value": 51,
+        "value": 53,
         "tone": "neutral"
       }
     ],
@@ -83,8 +83,8 @@
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "85/100",
-      "score": 0.85,
+      "value": "84/100",
+      "score": 0.84,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -93,12 +93,12 @@
     "predictive_probability": {
       "label": "予測確率",
       "status": "reference_only",
-      "value": "レンジ 42.2%",
-      "probability": 0.4222731481608405,
+      "value": "レンジ 42.3%",
+      "probability": 0.4226205244525031,
       "probabilities": {
-        "short": 0.20835006994197577,
-        "range": 0.4222731481608405,
-        "long": 0.3693767818971838
+        "short": 0.20919500550072956,
+        "range": 0.4226205244525031,
+        "long": 0.3681844700467674
       },
       "outcome": "range",
       "outcome_label": "レンジ",
@@ -183,7 +183,6 @@
       "stop_required": true,
       "stop_reasons": [
         "内部の安全条件により停止しています",
-        "重要イベント前後のため停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -193,7 +192,6 @@
       "analysis_stop_required": true,
       "analysis_stop_reasons": [
         "内部の安全条件により停止しています",
-        "重要イベント前後のため停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -213,9 +211,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-15T08:10:47.040Z",
+      "latest_attempt_at": "2026-07-15T20:34:16.372Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 3017,
+      "data_age_minutes": 3760,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
