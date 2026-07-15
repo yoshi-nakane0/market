@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-15T17:02:58.036+09:00",
+  "generated_at": "2026-07-15T20:40:54.328+09:00",
   "data_cutoff": "2026-07-15T00:04:33.503+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -1188,7 +1188,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-15T17:02:58.036+09:00",
+  "updated_at": "2026-07-15T20:40:54.328+09:00",
   "date": "2026-07-15",
   "snapshot_id": "macro-2026-07-15-macro-public-v3-b47161a0456c936f",
   "snapshot_content_hash": "b47161a0456c936fc8d550cb56e5991a38c4726d4b8d607de058246ba86f2487",
@@ -1337,7 +1337,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-15T03:03:26.444Z",
+    "generated_at": "2026-07-15T08:10:45.869Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1375,7 +1375,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-14",
       "source_timestamp": "2026-07-14T21:00:00.000Z",
-      "age_hours": 6.06,
+      "age_hours": 11.18,
       "row_count": 3069,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,

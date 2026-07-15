@@ -1,0 +1,87 @@
+{
+  "schema_version": "technical-summary-v2",
+  "generated_at": "2026-07-15T11:40:54.448Z",
+  "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
+  "data_quality": {
+    "status": "stopped",
+    "label": "データ更新停止",
+    "analysis_basis": "2026-07-10 各市場の確定日足",
+    "price_type": "清算値・終値",
+    "next_update": "次営業日",
+    "last_success_at": "2026-07-13T05:54:04.479Z",
+    "stale_after": "2026-07-14T05:54:04.479Z",
+    "available_asset_count": 1,
+    "required_asset_count": 5,
+    "stop_reasons": [
+      "最終成功から24時間以上経過しています"
+    ]
+  },
+  "primary_assessment": null,
+  "assets": [
+    {
+      "code": "NK225_FUT",
+      "label": "日経先物",
+      "status": "suspended",
+      "price": null,
+      "price_type": "清算値",
+      "as_of": "",
+      "current_phase": null,
+      "change_signals": null,
+      "forecasts": null,
+      "details": null
+    },
+    {
+      "code": "NYDOW",
+      "label": "NYDOW",
+      "status": "suspended",
+      "price": null,
+      "price_type": "終値",
+      "as_of": "",
+      "current_phase": null,
+      "change_signals": null,
+      "forecasts": null,
+      "details": null
+    },
+    {
+      "code": "SP500",
+      "label": "S&P500",
+      "status": "suspended",
+      "price": null,
+      "price_type": "終値",
+      "as_of": "",
+      "current_phase": null,
+      "change_signals": null,
+      "forecasts": null,
+      "details": null
+    },
+    {
+      "code": "NASDAQ",
+      "label": "NASDAQ",
+      "status": "suspended",
+      "price": null,
+      "price_type": "終値",
+      "as_of": "",
+      "current_phase": null,
+      "change_signals": null,
+      "forecasts": null,
+      "details": null
+    },
+    {
+      "code": "USDJPY",
+      "label": "USDJPY",
+      "status": "suspended",
+      "price": null,
+      "price_type": "終値",
+      "as_of": "",
+      "current_phase": null,
+      "change_signals": null,
+      "forecasts": null,
+      "details": null
+    }
+  ],
+  "notes": [
+    "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
+    "見通し信頼度は資産・期間ごとの方向指標の一致度であり、的中率ではありません。",
+    "売買を推奨する表示ではありません。"
+  ]
+}
