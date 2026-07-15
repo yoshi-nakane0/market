@@ -1,17 +1,13 @@
 {
-  "updated_at": "2026-07-15T04:15:06.848Z",
+  "updated_at": "2026-07-15T07:56:56.161Z",
   "verification_states": [
     {
       "key": "official_confirmed",
-      "label": "公的機関で正式確認"
+      "label": "公式情報で確認済み"
     },
     {
       "key": "secondary_confirmed",
-      "label": "Forex Factoryなどで確認"
-    },
-    {
-      "key": "estimated",
-      "label": "日付・時刻を推定"
+      "label": "補助情報で確認済み"
     },
     {
       "key": "unverified",
@@ -19,11 +15,11 @@
     },
     {
       "key": "changed",
-      "label": "発表日時が変更"
+      "label": "公表日時変更"
     },
     {
       "key": "cancelled",
-      "label": "中止"
+      "label": "公表中止"
     },
     {
       "key": "stale",
@@ -31,23 +27,22 @@
     }
   ],
   "event_counts": {
-    "official_confirmed": 31,
-    "secondary_confirmed": 8,
-    "estimated": 20,
+    "official_confirmed": 14,
+    "secondary_confirmed": 2,
     "unverified": 0,
     "changed": 0,
     "cancelled": 0,
-    "stale": 1
+    "stale": 0
   },
   "sources": [
     {
       "id": "bls",
       "label": "米労働統計局（BLS）",
-      "url": "https://www.bls.gov/schedule/2026/",
+      "url": "https://www.bls.gov/schedule/",
       "machine_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "公式公開日程を週次取得しました。"
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "公式公表日程を取得しました。"
     },
     {
       "id": "bea",
@@ -55,24 +50,35 @@
       "url": "https://www.bea.gov/news/schedule",
       "machine_url": "https://apps.bea.gov/API/signup/release_dates.json",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "公式公開日程を週次取得しました。"
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "公式公表日程を取得しました。"
     },
     {
-      "id": "federal_reserve",
-      "label": "連邦準備制度（FRB）",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "id": "japan_statistics",
+      "label": "総務省統計局",
+      "url": "https://www.stat.go.jp/data/cpi/",
+      "machine_url": "https://www.stat.go.jp/english/data/cpi/1582.html",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "公式公開日程を週次取得しました。"
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "公式公表日程を取得しました。"
     },
     {
-      "id": "boj",
-      "label": "日本銀行",
-      "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+      "id": "bls_public_data_api",
+      "label": "米労働統計局（BLS）Public Data API",
+      "url": "https://www.bls.gov/developers/",
+      "machine_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "公式公開日程を週次取得しました。"
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "BLS公式系列から公表済みの統計値を取得しました。"
+    },
+    {
+      "id": "japan_statistics_cpi_result",
+      "label": "総務省統計局 消費者物価指数",
+      "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+      "machine_url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+      "verification_status": "official_confirmed",
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "総務省統計局の最新結果から日本全国CPIを取得しました。"
     },
     {
       "id": "forex_factory",
@@ -80,43 +86,10 @@
       "url": "https://www.forexfactory.com/calendar",
       "machine_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "verification_status": "secondary_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "Actual・Forecast・Previousと重要度の補助確認に使用します。色は指標の予想差であり、株価や為替への良し悪しを示すものではありません。時刻変更の可能性があるため、正式日程の正本にはしません。"
-    },
-    {
-      "id": "treasury_direct",
-      "label": "TreasuryDirect",
-      "url": "https://www.treasurydirect.gov/auctions/upcoming/",
-      "machine_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
-      "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "入札日・発行額・発行日を公式APIで確認"
-    },
-    {
-      "id": "cftc",
-      "label": "米商品先物取引委員会（CFTC）",
-      "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm",
-      "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "公式発表予定から取得。通常は火曜日時点のポジションを15:30米東部時間に公表"
-    },
-    {
-      "id": "sec_ir",
-      "label": "SEC EDGAR・各社IR",
-      "url": "https://www.sec.gov/edgar/search/",
-      "verification_status": "unverified",
-      "checked_at": "2026-07-15T04:15:06.848Z",
-      "note": "決算日程と企業発表はSEC・各社IRを一次情報として手動登録"
-    },
-    {
-      "id": "earnings_calendar",
-      "label": "決算日程データ",
-      "url": null,
-      "verification_status": "secondary_confirmed",
-      "checked_at": "2026-07-15T00:00:00.000Z",
-      "note": "指数への影響が大きいTier A企業を対象とし、企業IRで未確認の日程は推定として表示"
+      "checked_at": "2026-07-15T07:56:56.161Z",
+      "note": "経済指標のActual・Forecast・Previousを補助確認します。公式実績値や公式日程の正本には使用しません。"
     }
   ],
-  "official_source_rule": "BLS・BEA・FRB・日銀・TreasuryDirect・CFTC・SEC／各社IRを一次情報として優先",
-  "secondary_source_rule": "Forex Factoryは予想・前回・結果の補助確認に限定し、唯一の正本にしない"
+  "official_source_rule": "公表日時と実績値は政府統計機関の公式ページ・公式APIを正本とします。",
+  "secondary_source_rule": "市場予想と予想レンジは補助情報として分離し、取得できない値は未取得のまま表示します。"
 }

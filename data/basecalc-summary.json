@@ -1,0 +1,170 @@
+{
+  "schema_version": "basecalc-v1",
+  "updated_at": "2026-07-15T01:23:03.532Z",
+  "basecalc": {
+    "observation_time": "11:40 JST",
+    "market_status": "open",
+    "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
+    "analysis_permission": {
+      "status": "unavailable",
+      "allowed": false,
+      "validated": false,
+      "reason": "分析権限を確認できません"
+    },
+    "execution_permission": {
+      "status": "blocked",
+      "allowed": false,
+      "verified": false,
+      "reason": "実行権限を確認できません",
+      "actual_fill_count": 0
+    },
+    "usage_status": "使用不可",
+    "operational_status": {
+      "stop_required": true,
+      "stop_reasons": [
+        "内部の安全条件により停止しています",
+        "重要イベント前後のため停止しています",
+        "最新取得を採用できません",
+        "最終成功から24時間以上経過しています",
+        "検証成果物を確認できません",
+        "分析の安全条件を確認できません",
+        "最新取得の分析状態を確認できません"
+      ],
+      "analysis_stop_required": true,
+      "analysis_stop_reasons": [
+        "内部の安全条件により停止しています",
+        "重要イベント前後のため停止しています",
+        "最新取得を採用できません",
+        "最終成功から24時間以上経過しています",
+        "検証成果物を確認できません",
+        "分析の安全条件を確認できません",
+        "最新取得の分析状態を確認できません"
+      ],
+      "execution_stop_required": true,
+      "execution_stop_reasons": [
+        "売買コストを確認できません",
+        "重要イベント前後のため停止しています",
+        "内部の安全条件により停止しています",
+        "最新取得を採用できません",
+        "最終成功から24時間以上経過しています",
+        "検証成果物を確認できません",
+        "分析の安全条件を確認できません",
+        "最新取得の分析状態を確認できません",
+        "売買実行の安全条件を満たしていません",
+        "最新取得の売買実行状態を確認できません"
+      ],
+      "latest_attempt_at": "2026-07-15T01:23:03.532Z",
+      "last_success_at": "2026-07-13T05:54:04.479Z",
+      "data_age_minutes": 2960,
+      "max_data_age_minutes": 1440,
+      "expires_at": "2026-07-14T05:54:04.479Z",
+      "latest_attempt_accepted": false,
+      "latest_attempt_matches_current": false,
+      "artifact_consistent": false,
+      "model_version": "basecalc_technical_regime_2026_07_13_v2",
+      "expected_model_version": "basecalc_technical_regime_2026_07_13_v2"
+    },
+    "market_values": {
+      "complete": true,
+      "observed_complete": true,
+      "fresh_complete": true,
+      "acquired_count": 5,
+      "required_count": 5,
+      "captured_at": "2026-07-13T05:54:04.479Z",
+      "values": [
+        {
+          "code": "NK225_FUT",
+          "label": "日経先物",
+          "value": 69360,
+          "source_timestamp": "2026-07-11T06:00:00+09:00",
+          "status": "acquired"
+        },
+        {
+          "code": "NYDOW",
+          "label": "NYDOW",
+          "value": 52637.01171875,
+          "source_timestamp": "2026-07-10T20:00:00.000Z",
+          "status": "acquired"
+        },
+        {
+          "code": "SP500",
+          "label": "S&P500",
+          "value": 7575.39013671875,
+          "source_timestamp": "2026-07-10T20:00:00.000Z",
+          "status": "acquired"
+        },
+        {
+          "code": "NASDAQ",
+          "label": "NASDAQ",
+          "value": 26281.607421875,
+          "source_timestamp": "2026-07-10T20:00:00.000Z",
+          "status": "acquired"
+        },
+        {
+          "code": "USDJPY",
+          "label": "USDJPY",
+          "value": 162.22000122070312,
+          "source_timestamp": "2026-07-13T05:54:05.000Z",
+          "status": "acquired"
+        }
+      ]
+    },
+    "validation_summary": {
+      "sample_count": 1366,
+      "considered_sample_count": 3010,
+      "no_trade_count": 1644,
+      "next_night_sample_count": 1503,
+      "historical_model_validation": null,
+      "forward_validation_progress": {
+        "status": "not_evaluated",
+        "passed": false,
+        "settled_outcome_count": 0,
+        "required_settled_outcome_count": 120,
+        "slot_outcome_count": {
+          "08:00": 0,
+          "16:40": 0
+        },
+        "slot_status": {
+          "08:00": {
+            "evaluated": false,
+            "passed": false
+          },
+          "16:40": {
+            "evaluated": false,
+            "passed": false
+          }
+        },
+        "required_slot_outcome_count": 60,
+        "observation_business_day_count": 0,
+        "required_observation_business_day_count": 60,
+        "outcome_settlement_coverage": null,
+        "required_outcome_settlement_coverage": 0.95,
+        "classified_coverage": null,
+        "required_classified_coverage": 0.8,
+        "directional_coverage": null,
+        "required_directional_coverage": 0.2,
+        "directional_outcome_count": 0,
+        "required_directional_outcome_count": 24,
+        "classification_accuracy": null,
+        "frozen_baseline_accuracy": null,
+        "required_classification_accuracy": null,
+        "classification_balanced_accuracy": null,
+        "required_classification_balanced_accuracy": 0.4,
+        "classification_macro_f1": null,
+        "required_classification_macro_f1": 0.4,
+        "cost_stress_average_return_lower_95": {
+          "1x": null,
+          "2x": null,
+          "3x": null
+        },
+        "required_cost_stress_average_return_lower_95_exclusive": 0
+      }
+    },
+    "technical_data_quality": {
+      "valid_bars": 3067,
+      "excluded_bars": 1,
+      "minimum_bars": 60,
+      "future_data_used": false
+    }
+  }
+}
