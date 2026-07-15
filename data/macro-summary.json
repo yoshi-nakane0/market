@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-16T05:35:49.379+09:00",
+  "generated_at": "2026-07-16T06:06:38.734+09:00",
   "data_cutoff": "2026-07-16T01:04:21.373+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -1395,7 +1395,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-16T05:35:49.379+09:00",
+  "updated_at": "2026-07-16T06:06:38.734+09:00",
   "date": "2026-07-16",
   "snapshot_id": "macro-2026-07-16-macro-public-v3-412e287c48d14653",
   "snapshot_content_hash": "412e287c48d1465329f6858779075fb78993ed6aabd2f689d02cdf5f06c82b9e",
@@ -2090,6 +2090,12 @@
     "label": "見送り",
     "guidance": "最新データの更新後に再判定",
     "reason_code": "data_pending"
+  },
+  "shock_assessment": {
+    "status": "contained",
+    "label": "外部ショックは中立",
+    "summary": "外部環境・金融環境・市場価格に強い下振れの重なりはありません。",
+    "metric_kind": "current_condition_not_crash_probability"
   },
   "recession_entry": {
     "status": "not_indicated",

@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-07-15T20:34:22.966Z",
+  "generated_at": "2026-07-15T21:24:39.055Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -87,6 +87,12 @@
             "-DIが+DIを上回る"
           ]
         }
+      },
+      "direction_scores": {
+        "long": 25,
+        "range": 46,
+        "short": 29,
+        "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
         "two_weeks": {
@@ -193,6 +199,12 @@
           ]
         }
       },
+      "direction_scores": {
+        "long": 33,
+        "range": 42,
+        "short": 25,
+        "metric_kind": "directional_fit_not_probability"
+      },
       "forecasts": {
         "two_weeks": {
           "horizon": "two_weeks",
@@ -295,6 +307,12 @@
           "label": "悪化兆候は未確定",
           "triggers": []
         }
+      },
+      "direction_scores": {
+        "long": 37,
+        "range": 41,
+        "short": 22,
+        "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
         "two_weeks": {
@@ -400,6 +418,12 @@
           ]
         }
       },
+      "direction_scores": {
+        "long": 17,
+        "range": 53,
+        "short": 30,
+        "metric_kind": "directional_fit_not_probability"
+      },
       "forecasts": {
         "two_weeks": {
           "horizon": "two_weeks",
@@ -504,6 +528,12 @@
             "MACDの勢いが下向き"
           ]
         }
+      },
+      "direction_scores": {
+        "long": 64,
+        "range": 26,
+        "short": 10,
+        "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
         "two_weeks": {
