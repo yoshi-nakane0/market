@@ -215,7 +215,7 @@
       ],
       "latest_attempt_at": "2026-07-15T05:16:28.606Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 2843,
+      "data_age_minutes": 3092,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
