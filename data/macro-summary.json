@@ -1,9 +1,10 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-16T00:17:07.232+09:00",
-  "data_cutoff": "2026-07-16T00:03:48.202+09:00",
+  "generated_at": "2026-07-16T05:33:33.594+09:00",
+  "data_cutoff": "2026-07-16T01:04:21.373+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
+    "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
     "次に判断を変える経済指標を確認する",
     "5資産へのマクロ影響と市場織り込みの差を比較する"
   ],
@@ -67,6 +68,199 @@
       "risk_asset_impact": "asset_outlook",
       "market_pricing": "market_pricing"
     }
+  },
+  "economic_outlook": {
+    "model_version": "public-multi-indicator-outlook-v2",
+    "status": "provisional",
+    "status_label": "試算・分析専用",
+    "headline": "実質GDP・4四半期先は2.37%（前年比）の試算です。",
+    "horizon_label": "現在四半期〜4四半期先",
+    "base_case": "成長は緩やか、物価は未算出、政策はおおむね中立を基本シナリオとします。",
+    "methodology_note": "多指標の現在推計、4四半期成長のモデル分解、金融環境、雇用需給、物価内訳を、無料の公開データで再構成しています。公表日を日単位で守り、据え置き等の基準予測より改善した数値だけを表示します。独自の社内モデルを複製したものではありません。",
+    "input_freshness": {
+      "status": "complete",
+      "numeric_values_available": true,
+      "checked_series_count": 29,
+      "stale_series_count": 0,
+      "unavailable_series_count": 0
+    },
+    "projections": [
+      {
+        "key": "gdp_nowcast",
+        "label": "実質GDP・現在四半期",
+        "horizon": "2026-Q3",
+        "forecast": null,
+        "interval": null,
+        "revision": null,
+        "rationale": "生産・実質需要・雇用をその時点までの履歴で合成"
+      },
+      {
+        "key": "gdp_four_quarter",
+        "label": "実質GDP・4四半期先",
+        "horizon": "4四半期先",
+        "forecast": "2.37%（前年比）",
+        "interval": null,
+        "revision": null,
+        "rationale": "公開データの各要因を4四半期先GDPへ時系列モデルで結び付けて分解"
+      },
+      {
+        "key": "core_pce",
+        "label": "コアPCE",
+        "horizon": "12か月先",
+        "forecast": null,
+        "interval": null,
+        "revision": null,
+        "rationale": "コア物価、財、住居費、賃金、生産性、期待インフレを分けて推計"
+      },
+      {
+        "key": "unemployment",
+        "label": "失業率",
+        "horizon": "12か月先",
+        "forecast": null,
+        "interval": null,
+        "revision": null,
+        "rationale": "求人と失業者の差、失業率変化、景気の勢いを確認"
+      },
+      {
+        "key": "policy_rate",
+        "label": "政策反応の参考値",
+        "horizon": "現在の機械的水準",
+        "forecast": null,
+        "interval": null,
+        "revision": null,
+        "rationale": "物価と成長に対する現在の機械的な反応値で、FOMC予測ではありません"
+      }
+    ],
+    "growth_contributions": [
+      {
+        "key": "baseline",
+        "label": "モデル基準値",
+        "estimate": "+2.79ポイント",
+        "status": "available"
+      },
+      {
+        "key": "momentum",
+        "label": "景気モメンタム",
+        "estimate": "+0.09ポイント",
+        "status": "available"
+      },
+      {
+        "key": "real_income",
+        "label": "実質所得",
+        "estimate": "−0.45ポイント",
+        "status": "available"
+      },
+      {
+        "key": "financial_conditions",
+        "label": "金融環境",
+        "estimate": "+0.19ポイント",
+        "status": "available"
+      },
+      {
+        "key": "housing",
+        "label": "住宅",
+        "estimate": "−0.32ポイント",
+        "status": "available"
+      },
+      {
+        "key": "payroll",
+        "label": "雇用者数",
+        "estimate": "+0.08ポイント",
+        "status": "available"
+      },
+      {
+        "key": "total",
+        "label": "4四半期先GDP予測",
+        "estimate": "2.37%（前年比）",
+        "status": "available"
+      }
+    ],
+    "financial_conditions": {
+      "label": "金融環境",
+      "summary": "金利・信用・株価・ドルをまとめると引き締まり方向です。Chicago Fedの調整済み金融環境指数でも方向を照合しています。ANFCIと次四半期GDPの関係も検証条件を通過しています。",
+      "growth_impact": "+0.19ポイント",
+      "components": [
+        "FEDFUNDS",
+        "米10年国債利回り",
+        "BAA10Y",
+        "S&P500",
+        "貿易加重ドル"
+      ]
+    },
+    "labor_balance": {
+      "label": "雇用需給",
+      "summary": "求人と失業者はおおむね均衡しています。",
+      "jobs_workers_gap": "+29万人",
+      "normalized_gap": "労働力人口比 +0.17%",
+      "unemployment_forecast": null
+    },
+    "inflation": {
+      "label": "物価の内訳",
+      "summary": "品目別の物価見通しを計算できません。",
+      "components": [
+        {
+          "label": "現在のコアPCE",
+          "value": "3.41%（前年比）"
+        },
+        {
+          "label": "コア財",
+          "value": "1.07%（前年比）"
+        },
+        {
+          "label": "住居費",
+          "value": "3.35%（前年比）"
+        },
+        {
+          "label": "賃金",
+          "value": "3.39%（前年比）"
+        },
+        {
+          "label": "生産性",
+          "value": "2.8%（前年比）"
+        },
+        {
+          "label": "期待インフレ",
+          "value": "2.22%（水準）"
+        }
+      ]
+    },
+    "recession_risk": {
+      "label": "景気後退リスク",
+      "summary": "警戒条件の広がりは限定的です。",
+      "risk_breadth": "1/6",
+      "probability_6m": null,
+      "probability_12m": null,
+      "probability_status": "過去時点検証待ち"
+    },
+    "forecast_revision": {
+      "status": "not_available",
+      "headline": "初回計算のため、前回見通しとの比較はありません。",
+      "drivers": []
+    },
+    "scenarios": [],
+    "validation": {
+      "status_label": "公表日と予測期間で時系列順検証・改定前値の再現は未完了",
+      "point_in_time_validated": false,
+      "activity": "公表日と予測期間を守る時系列順 127件・誤差 2.4・据え置き等の基準より改善",
+      "growth": "公表日と予測期間を守る時系列順 85件・誤差 1.39・据え置き等の基準より改善",
+      "labor": "公表日と予測期間を守る時系列順 106件・誤差 1.39・据え置き等の基準を上回れず",
+      "inflation": "公表日と予測期間を守る時系列順 77件・誤差 1.4・据え置き等の基準を上回れず",
+      "recession": "時系列順 71件・景気後退 1回・確率改善 -2.13・ずれ 0.48",
+      "financial_conditions": "公表日と予測期間を守る時系列順 87件・誤差 2.41・据え置き等の基準より改善"
+    },
+    "upside_risks": [
+      "実質所得と生産性が想定以上に改善する",
+      "金融環境が緩和し、住宅と設備投資が持ち直す"
+    ],
+    "downside_risks": [
+      "失業率上昇と信用環境悪化が同時に進む",
+      "住居費や労働費用の鈍化が遅れ、政策金利が高止まりする"
+    ],
+    "limitations": [
+      "改定前の値を含む、各時点の完全な情報セット再現は未完了です",
+      "景気後退確率は厳しい公開条件を通るまで表示しません",
+      "財政・関税・移民の制度変更は定量モデルへ直接入れていません"
+    ]
   },
   "outlook": {
     "one_month": {
@@ -1119,6 +1313,19 @@
     }
   },
   "methodology": {
+    "economic_outlook": {
+      "separated_from_asset_forecast": true,
+      "methods": [
+        "公開データCAI型の景気推計",
+        "GDP連動の金融環境",
+        "成長寄与の台帳",
+        "雇用需給",
+        "品目別物価",
+        "景気後退の警戒条件"
+      ],
+      "proprietary_replication": false,
+      "usage": "analysis_only_until_point_in_time_validation"
+    },
     "current_state": {
       "separated_from_forecast": true,
       "inputs": [
@@ -1188,14 +1395,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-16T00:17:07.232+09:00",
+  "updated_at": "2026-07-16T05:33:33.594+09:00",
   "date": "2026-07-16",
-  "snapshot_id": "macro-2026-07-16-macro-public-v3-35098c3a38ba96d3",
-  "snapshot_content_hash": "35098c3a38ba96d37c6b6ae346370ca6a0b8854106b8252e7dfd9a1f3b1deb7d",
+  "snapshot_id": "macro-2026-07-16-macro-public-v3-412e287c48d14653",
+  "snapshot_content_hash": "412e287c48d1465329f6858779075fb78993ed6aabd2f689d02cdf5f06c82b9e",
   "as_of_date": "2026-07-16",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-15T15:03:48.202Z",
+  "signal_at": "2026-07-15T16:04:21.373Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -1211,8 +1418,8 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-15T15:01:22.420Z",
-    "stale_after": "2026-07-17T03:01:22.420Z",
+    "fetched_at": "2026-07-15T16:02:10.624Z",
+    "stale_after": "2026-07-17T04:02:10.624Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-16",
     "checked_count": 32,
@@ -1256,7 +1463,7 @@
     "value": "レンジ 42.3%",
     "probability": 0.4226205244525031,
     "probabilities": {
-      "short": 0.20919500550072953,
+      "short": 0.20919500550072956,
       "range": 0.4226205244525031,
       "long": 0.3681844700467674
     },
@@ -1488,6 +1695,7 @@
       "predictive_validation_not_usable",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
+      "predictive_model_source_revision_not_committed",
       "predictive_model_not_deployment_ready",
       "supervised_signal_not_directional",
       "conservative_probability_edge_not_positive"
