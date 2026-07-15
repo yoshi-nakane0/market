@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-15T22:19:29.252+09:00",
-  "data_cutoff": "2026-07-15T00:04:33.503+09:00",
+  "generated_at": "2026-07-16T00:17:07.232+09:00",
+  "data_cutoff": "2026-07-16T00:03:48.202+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
     "次に判断を変える経済指標を確認する",
@@ -31,7 +31,7 @@
         "direction": "positive",
         "contribution": "large",
         "factor": "金融環境",
-        "as_of_date": "2026-07-10",
+        "as_of_date": "2026-07-13",
         "availability": "available"
       }
     ],
@@ -41,7 +41,7 @@
         "direction": "negative",
         "contribution": "medium",
         "factor": "金融政策",
-        "as_of_date": "2026-07-10",
+        "as_of_date": "2026-07-13",
         "availability": "available"
       },
       {
@@ -53,7 +53,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "物価圧力が前回から改善。 外部環境が前回から悪化。 市場心理が前回から悪化",
+    "change_since_previous": "金融環境が前回から改善。 市場心理が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -83,7 +83,7 @@
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "米国PPI"
+        "米国コア小売売上高"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -127,7 +127,7 @@
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "米国PPI"
+        "米国コア小売売上高"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -180,13 +180,13 @@
         {
           "label": "米2年国債利回り",
           "state": "米2年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-07-10",
+          "as_of_date": "2026-07-13",
           "availability": "available"
         },
         {
           "label": "米10年国債利回り",
           "state": "米10年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-07-10",
+          "as_of_date": "2026-07-13",
           "availability": "available"
         }
       ],
@@ -197,8 +197,8 @@
       "label": "外部環境",
       "region": "global",
       "state": "追い風",
-      "direction": "deteriorating",
-      "direction_label": "悪化",
+      "direction": "stable",
+      "direction_label": "横ばい",
       "contribution": "positive",
       "contribution_label": "+中",
       "evidence": [
@@ -227,16 +227,16 @@
       "key": "financial_conditions",
       "label": "金融環境",
       "region": "united_states",
-      "state": "中立",
-      "direction": "stable",
-      "direction_label": "横ばい",
+      "state": "緩い",
+      "direction": "improving",
+      "direction_label": "改善",
       "contribution": "positive",
       "contribution_label": "+中",
       "evidence": [
         {
           "label": "社債スプレッド",
           "state": "社債スプレッドが強くプラスに寄与",
-          "as_of_date": "2026-07-10",
+          "as_of_date": "2026-07-13",
           "availability": "available"
         },
         {
@@ -248,7 +248,7 @@
         {
           "label": "金融環境指数",
           "state": "金融環境指数が小幅にプラス",
-          "as_of_date": "2026-07-03",
+          "as_of_date": "2026-07-10",
           "availability": "available"
         }
       ],
@@ -329,7 +329,7 @@
         {
           "label": "5Y5Y Inflation Expectation",
           "state": "5Y5Y Inflation Expectationが小幅にプラス",
-          "as_of_date": "2026-07-13",
+          "as_of_date": "2026-07-14",
           "availability": "available"
         },
         {
@@ -355,41 +355,6 @@
     "separated_from_real_economy": true
   },
   "next_events": [
-    {
-      "id": "bls_ppi_2026-07-15",
-      "release_at": "2026-07-15T12:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "米国PPI",
-      "importance": "low",
-      "importance_label": "低",
-      "previous": "0.6%",
-      "revised_previous": "0.6%",
-      "consensus": "0.0%",
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
-        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
-        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
-      },
-      "attention_score": 14,
-      "attention_components": {
-        "regime_relevance": 0.5,
-        "surprise_likelihood": 0.93,
-        "decision_impact": 0.53,
-        "asset_sensitivity": 0.55,
-        "proximity": 1
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "official_confirmed",
-      "source_label": "米労働統計局（BLS）"
-    },
     {
       "id": "secondary_2026-07-16_2130_usd_retail_sales",
       "release_at": "2026-07-16T12:30:00.000Z",
@@ -459,6 +424,41 @@
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
       "source_label": "Forex Factory"
+    },
+    {
+      "id": "bls_import_prices_2026-07-17",
+      "release_at": "2026-07-17T12:30:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "米国輸入物価",
+      "importance": "low",
+      "importance_label": "低",
+      "previous": null,
+      "revised_previous": null,
+      "consensus": null,
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
+        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
+        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
+      },
+      "attention_score": 8,
+      "attention_components": {
+        "regime_relevance": 0.5,
+        "surprise_likelihood": 0.62,
+        "decision_impact": 0.53,
+        "asset_sensitivity": 0.55,
+        "proximity": 0.9
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "official_confirmed",
+      "source_label": "米労働統計局（BLS）"
     }
   ],
   "asset_outlook": {
@@ -581,8 +581,8 @@
       "status": "not_available",
       "current_macro_direction": "no_edge",
       "current_macro_direction_label": "優位性なし",
-      "diagnostic_direction": "neutral",
-      "diagnostic_direction_label": "中立（参考）",
+      "diagnostic_direction": "bullish",
+      "diagnostic_direction_label": "強気（参考）",
       "one_month": {
         "label": "1か月",
         "status": "not_available",
@@ -1045,7 +1045,7 @@
   "quality": {
     "confidence_label": "low",
     "confidence_label_ja": "低",
-    "confidence_score_detail": 0.05,
+    "confidence_score_detail": 0.04,
     "confidence_reasons": [
       "公式系列の一部が更新待ちです",
       "古いデータが1系列あります",
@@ -1055,12 +1055,12 @@
     ],
     "data_coverage": 1,
     "data_freshness": "stale",
-    "model_agreement": 0.85,
+    "model_agreement": 0.84,
     "regime_stability": 0.98,
     "components": {
       "data_coverage": 1,
       "data_freshness": "stale",
-      "model_agreement": 0.85,
+      "model_agreement": 0.84,
       "regime_stability": 0.98,
       "historical_forecast_performance": "insufficient",
       "forecast_interval_width": null,
@@ -1080,8 +1080,8 @@
     ],
     "missing_series": [],
     "next_update_event": {
-      "label": "米国PPI",
-      "release_at": "2026-07-15T12:30:00.000Z"
+      "label": "米国コア小売売上高",
+      "release_at": "2026-07-16T12:30:00.000Z"
     },
     "point_in_time_validation": {
       "status": "complete",
@@ -1188,33 +1188,33 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-15T22:19:29.252+09:00",
-  "date": "2026-07-15",
-  "snapshot_id": "macro-2026-07-15-macro-public-v3-b47161a0456c936f",
-  "snapshot_content_hash": "b47161a0456c936fc8d550cb56e5991a38c4726d4b8d607de058246ba86f2487",
-  "as_of_date": "2026-07-15",
+  "updated_at": "2026-07-16T00:17:07.232+09:00",
+  "date": "2026-07-16",
+  "snapshot_id": "macro-2026-07-16-macro-public-v3-35098c3a38ba96d3",
+  "snapshot_content_hash": "35098c3a38ba96d37c6b6ae346370ca6a0b8854106b8252e7dfd9a1f3b1deb7d",
+  "as_of_date": "2026-07-16",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-14T15:04:33.503Z",
+  "signal_at": "2026-07-15T15:03:48.202Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-16",
-    "entry_at": "2026-07-15T23:45:00.000Z",
-    "valid_until": "2026-07-15T23:45:00.000Z",
+    "entry_session_date": "2026-07-17",
+    "entry_at": "2026-07-16T23:45:00.000Z",
+    "valid_until": "2026-07-16T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "1",
+  "risk_score": "3",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-14T15:03:06.853Z",
-    "stale_after": "2026-07-16T03:03:06.853Z",
+    "fetched_at": "2026-07-15T15:01:22.420Z",
+    "stale_after": "2026-07-17T03:01:22.420Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-15",
+    "as_of_date": "2026-07-16",
     "checked_count": 32,
     "success_count": 32,
     "raw_fetch_status": "complete",
@@ -1243,8 +1243,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "85/100",
-    "score": 0.85,
+    "value": "84/100",
+    "score": 0.84,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1253,12 +1253,12 @@
   "predictive_probability": {
     "label": "予測確率",
     "status": "reference_only",
-    "value": "レンジ 42.2%",
-    "probability": 0.4222731481608405,
+    "value": "レンジ 42.3%",
+    "probability": 0.4226205244525031,
     "probabilities": {
-      "short": 0.20835006994197577,
-      "range": 0.4222731481608405,
-      "long": 0.3693767818971838
+      "short": 0.20919500550072953,
+      "range": 0.4226205244525031,
+      "long": 0.3681844700467674
     },
     "outcome": "range",
     "outcome_label": "レンジ",
@@ -1318,11 +1318,11 @@
     "max_account_risk_fraction": 0.005,
     "max_notional_fraction": 0.25,
     "stop_distance_fraction": null,
-    "probability": 0.422273,
+    "probability": 0.422621,
     "baseline_probability": 0.531856,
     "calibration_haircut": 0.234,
-    "conservative_probability": 0.188273,
-    "probability_edge": -0.343583,
+    "conservative_probability": 0.188621,
+    "probability_edge": -0.343235,
     "tail_adverse_excursion": -0.069,
     "method": "確率誤差を差し引いた上乗せ幅と、過去の不利な値動きから算出",
     "contracts_calculation": "口座資金 × 推奨比率 ÷ 1枚の取引金額（小数点以下切り捨て）",
@@ -1488,7 +1488,6 @@
       "predictive_validation_not_usable",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
-      "predictive_model_source_revision_not_committed",
       "predictive_model_not_deployment_ready",
       "supervised_signal_not_directional",
       "conservative_probability_edge_not_positive"
@@ -1823,7 +1822,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": 1,
+    "score": 3,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -1845,8 +1844,8 @@
       "total": 7,
       "required": 4,
       "indicator": {
-        "long": 0.39,
-        "range": 0.31,
+        "long": 0.44,
+        "range": 0.25,
         "short": 0.3,
         "usable_indicator_count": 30,
         "effective_weight": 7
@@ -1975,12 +1974,12 @@
   "asset_bias": [
     {
       "label": "ロング",
-      "value": "35%",
+      "value": "36%",
       "tone": "positive"
     },
     {
       "label": "レンジ",
-      "value": "38%",
+      "value": "37%",
       "tone": "neutral"
     },
     {
@@ -2012,7 +2011,7 @@
     },
     {
       "label": "金融環境",
-      "value": 56,
+      "value": 57,
       "tone": "positive"
     },
     {
@@ -2022,7 +2021,7 @@
     },
     {
       "label": "市場心理",
-      "value": 51,
+      "value": 53,
       "tone": "neutral"
     }
   ],
