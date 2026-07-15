@@ -1,5 +1,14 @@
 {
-  "updated_at": "2026-07-15T07:56:56.161Z",
+  "generation_id": "2026-07-15T13:18:47.325Z",
+  "updated_at": "2026-07-15T13:18:47.325Z",
+  "collection_status": {
+    "status": "success",
+    "attempted_at": "2026-07-15T13:18:47.325Z",
+    "fresh_source_count": 6,
+    "cached_source_count": 0,
+    "unavailable_source_count": 0,
+    "message": "すべての情報源を最新取得しました。"
+  },
   "verification_states": [
     {
       "key": "official_confirmed",
@@ -40,8 +49,9 @@
       "label": "米労働統計局（BLS）",
       "url": "https://www.bls.gov/schedule/",
       "machine_url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "record_count": 19,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -49,8 +59,9 @@
       "label": "米商務省経済分析局（BEA）",
       "url": "https://www.bea.gov/news/schedule",
       "machine_url": "https://apps.bea.gov/API/signup/release_dates.json",
+      "record_count": 8,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -58,8 +69,9 @@
       "label": "総務省統計局",
       "url": "https://www.stat.go.jp/data/cpi/",
       "machine_url": "https://www.stat.go.jp/english/data/cpi/1582.html",
+      "record_count": 4,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -67,8 +79,9 @@
       "label": "米労働統計局（BLS）Public Data API",
       "url": "https://www.bls.gov/developers/",
       "machine_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "record_count": 204,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "BLS公式系列から公表済みの統計値を取得しました。"
     },
     {
@@ -76,8 +89,9 @@
       "label": "総務省統計局 消費者物価指数",
       "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
       "machine_url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
+      "record_count": 6,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "総務省統計局の最新結果から日本全国CPIを取得しました。"
     },
     {
@@ -85,8 +99,9 @@
       "label": "Forex Factory",
       "url": "https://www.forexfactory.com/calendar",
       "machine_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+      "record_count": 9,
       "verification_status": "secondary_confirmed",
-      "checked_at": "2026-07-15T07:56:56.161Z",
+      "checked_at": "2026-07-15T13:18:47.325Z",
       "note": "経済指標のActual・Forecast・Previousを補助確認します。公式実績値や公式日程の正本には使用しません。"
     }
   ],
