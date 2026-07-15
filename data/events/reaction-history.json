@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T02:36:23.776Z",
+  "updated_at": "2026-07-15T04:15:06.848Z",
   "storage_policy": {
     "mode": "append_only",
     "note": "発表前の予測と価格は凍結し、後から書き換えずに追記保存します。",
@@ -64,7 +64,83 @@
   },
   "outcomes": [
     {
-      "event_id": "us_cpi_2026_07_14",
+      "event_id": "cftc_cot_2026_07_10",
+      "label": "CFTCポジション発表",
+      "status": "collecting",
+      "frozen_prediction": null,
+      "captured_points": [],
+      "expected_direction": null,
+      "after_5m": null,
+      "after_30m": null,
+      "close": null,
+      "initial_judgment": null,
+      "final_judgment": null,
+      "revision_evaluation": "改定値は未確認",
+      "fedwatch_change": {
+        "status": "unavailable",
+        "cut_change_pp": null,
+        "unchanged_change_pp": null,
+        "hike_change_pp": null
+      },
+      "yield_reaction": {
+        "two_year_after_5m": null,
+        "two_year_after_30m": null,
+        "ten_year_after_5m": null,
+        "ten_year_after_30m": null
+      },
+      "initial_market_reaction": {
+        "NASDAQ先物": null,
+        "S&P500先物": null,
+        "NYDOW先物": null,
+        "日経先物": null,
+        "USDJPY": null,
+        "米2年金利": null,
+        "米10年金利": null,
+        "VIX": null,
+        "WTI原油": null
+      },
+      "reversal_reason": null
+    },
+    {
+      "event_id": "earnings_jpm_2026-07-14",
+      "label": "JPMorgan Chase（JPM）決算",
+      "status": "collecting",
+      "frozen_prediction": null,
+      "captured_points": [],
+      "expected_direction": null,
+      "after_5m": null,
+      "after_30m": null,
+      "close": null,
+      "initial_judgment": null,
+      "final_judgment": null,
+      "revision_evaluation": "改定値は未確認",
+      "fedwatch_change": {
+        "status": "unavailable",
+        "cut_change_pp": null,
+        "unchanged_change_pp": null,
+        "hike_change_pp": null
+      },
+      "yield_reaction": {
+        "two_year_after_5m": null,
+        "two_year_after_30m": null,
+        "ten_year_after_5m": null,
+        "ten_year_after_30m": null
+      },
+      "initial_market_reaction": {
+        "NASDAQ先物": null,
+        "S&P500先物": null,
+        "NYDOW先物": null,
+        "日経先物": null,
+        "USDJPY": null,
+        "米2年金利": null,
+        "米10年金利": null,
+        "VIX": null,
+        "WTI原油": null
+      },
+      "reversal_reason": null
+    },
+    {
+      "event_id": "bls_cpi_2026-07-14",
       "label": "米国CPI",
       "status": "collecting",
       "frozen_prediction": null,
@@ -140,7 +216,7 @@
       "reversal_reason": null
     },
     {
-      "event_id": "us_ppi_2026_07_15",
+      "event_id": "bls_ppi_2026-07-15",
       "label": "米国PPI",
       "status": "collecting",
       "frozen_prediction": null,

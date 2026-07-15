@@ -1,18 +1,19 @@
 {
-  "updated_at": "2026-07-15T02:36:23.776Z",
+  "updated_at": "2026-07-15T04:15:06.848Z",
   "timezone": "Asia/Tokyo",
   "united_states": {
     "title": "米国・FRB",
     "current_policy_rate": "3.50～3.75%",
     "current_policy_rate_status": "official_confirmed",
+    "policy_rate_checked_at": "2026-07-15T04:15:06.848Z",
     "next_meeting": {
-      "meeting_dates": "2026年7月28日～29日",
-      "decision_at_jst": "2026年7月30日 03:00 JST",
+      "meeting_dates": "2026-07-28～2026-07-29",
+      "decision_at_jst": "2026-07-30 03:00 JST",
       "sep": false,
       "dot_plot": false,
-      "statement": "2026年7月30日 03:00 JST",
+      "statement": "2026-07-30 03:00 JST",
       "press_conference": "声明発表後",
-      "minutes": "2026年8月20日 03:00 JST（通常は政策決定の3週間後）",
+      "minutes": "2026-08-20 03:00 JST（通常は政策決定の3週間後）",
       "source": {
         "label": "FOMC公式日程",
         "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
@@ -71,32 +72,33 @@
     },
     "source": {
       "label": "連邦準備制度（FRB）",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      "url": "https://www.federalreserve.gov/economy-at-a-glance-policy-rate.htm"
     }
   },
   "japan": {
     "title": "日本・日銀",
     "current_policy_rate": "1.0%",
     "current_policy_rate_status": "official_confirmed",
+    "policy_rate_checked_at": "2026-07-15T04:15:06.848Z",
     "next_meeting": {
-      "meeting_dates": "2026年7月30日～31日",
-      "decision_time": "時刻未公表",
+      "meeting_dates": "2026-07-30～2026-07-31",
+      "decision_time": "2026-07-31 時刻未公表",
       "outlook_report": true,
       "governor_press_conference": "政策決定後",
-      "summary_of_opinions": "2026年8月10日 08:50 JST",
+      "summary_of_opinions": "2026-08-10 08:50 JST",
       "minutes": "2026年9月28日 08:50 JST",
       "source": {
         "label": "日銀金融政策決定会合日程",
-        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
+        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/"
       }
     },
     "market_view": {
       "hike": "追加利上げ余地を確認",
-      "unchanged": "7月会合の正式決定待ち",
+      "unchanged": "次回会合の正式決定待ち",
       "status": "secondary_confirmed",
       "note": "確率値は取得できた場合のみ表示します。"
     },
-    "board_stance": "追加利上げ方向。物価・賃金・中東情勢・為替を確認",
+    "board_stance": "政策変更は日銀の正式声明で確認",
     "conditions": [
       "賃金と基調的な物価が2%に向けて持続的に上がるか",
       "原油高が景気と物価のどちらに強く効くか",
@@ -116,7 +118,7 @@
       }
     ],
     "source": {
-      "label": "日本銀行",
+      "label": "日本銀行・金融市場調節方針",
       "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260616a.pdf"
     }
   }

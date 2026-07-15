@@ -1,11 +1,31 @@
 {
-  "updated_at": "2026-07-15T02:36:23.776Z",
+  "updated_at": "2026-07-15T04:15:06.848Z",
   "timezone": "Asia/Tokyo",
   "source": "events_independent_pipeline",
   "source_note": "正式日程を優先し、予想・前回・結果は補助情報として別管理します。推定イベントは正式確認済みイベントと明確に分けます。",
   "events": [
     {
-      "event_id": "us_cpi_2026_07_14",
+      "event_id": "cftc_cot_2026_07_10",
+      "date": "2026-07-11",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "past"
+    },
+    {
+      "event_id": "earnings_jpm_2026-07-14",
+      "date": "2026-07-14",
+      "time_jst": "20:00",
+      "time_status": "estimated",
+      "label": "JPMorgan Chase（JPM）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "past"
+    },
+    {
+      "event_id": "bls_cpi_2026-07-14",
       "date": "2026-07-14",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -25,7 +45,7 @@
       "status": "past"
     },
     {
-      "event_id": "us_ppi_2026_07_15",
+      "event_id": "bls_ppi_2026-07-15",
       "date": "2026-07-15",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -115,7 +135,7 @@
       "status": "upcoming"
     },
     {
-      "event_id": "us_import_prices_2026_07_17",
+      "event_id": "bls_import_prices_2026-07-17",
       "date": "2026-07-17",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -195,11 +215,41 @@
       "status": "upcoming"
     },
     {
+      "event_id": "earnings_googl_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Alphabet（GOOGL）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "earnings_tsla_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Tesla（TSLA）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
       "event_id": "us_treasury_auction_91282cre3_2026-07-23",
       "date": "2026-07-24",
       "time_jst": "02:00",
       "time_status": "confirmed",
       "label": "米10-Year国債入札",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "cftc_cot_2026_07_24",
+      "date": "2026-07-25",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
       "category": "supply_demand",
       "importance": "medium",
       "status": "upcoming"
@@ -245,17 +295,37 @@
       "status": "upcoming"
     },
     {
-      "event_id": "us_gdp_advance_2026_07_30",
+      "event_id": "earnings_meta_2026-07-29",
+      "date": "2026-07-30",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Meta Platforms（META）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "earnings_msft_2026-07-29",
+      "date": "2026-07-30",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Microsoft（MSFT）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bea_gdp_2026-07-30",
       "date": "2026-07-30",
       "time_jst": "21:30",
       "time_status": "confirmed",
-      "label": "米国GDP（速報値）",
+      "label": "米国GDP",
       "category": "economic_indicator",
       "importance": "high",
       "status": "upcoming"
     },
     {
-      "event_id": "us_pce_2026_07_30",
+      "event_id": "bea_pce_2026-07-30",
       "date": "2026-07-30",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -265,7 +335,27 @@
       "status": "upcoming"
     },
     {
-      "event_id": "us_eci_2026_07_31",
+      "event_id": "earnings_amzn_2026-07-30",
+      "date": "2026-07-31",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Amazon（AMZN）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "earnings_aapl_2026-07-30",
+      "date": "2026-07-31",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Apple（AAPL）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bls_eci_2026-07-31",
       "date": "2026-07-31",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -285,13 +375,33 @@
       "status": "upcoming"
     },
     {
-      "event_id": "us_nfp_estimated_2026-08-07",
+      "event_id": "cftc_cot_2026_07_31",
+      "date": "2026-08-01",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bls_nfp_2026-08-07",
       "date": "2026-08-07",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米雇用統計推定日",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国雇用統計",
       "category": "economic_indicator",
       "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "cftc_cot_2026_08_07",
+      "date": "2026-08-08",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
       "status": "upcoming"
     },
     {
@@ -325,11 +435,31 @@
       "status": "upcoming"
     },
     {
-      "event_id": "us_cpi_ppi_estimated_2026-08-12",
+      "event_id": "bls_cpi_2026-08-12",
       "date": "2026-08-12",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米CPI/PPI推定期間",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国CPI",
+      "category": "economic_indicator",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "earnings_wmt_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": "20:00",
+      "time_status": "estimated",
+      "label": "Walmart（WMT）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bls_ppi_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国PPI",
       "category": "economic_indicator",
       "importance": "high",
       "status": "upcoming"
@@ -365,12 +495,42 @@
       "status": "upcoming"
     },
     {
+      "event_id": "cftc_cot_2026_08_14",
+      "date": "2026-08-15",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "bls_import_prices_2026-08-18",
+      "date": "2026-08-18",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国輸入物価",
+      "category": "economic_indicator",
+      "importance": "low",
+      "status": "upcoming"
+    },
+    {
       "event_id": "fomc_minutes_2026_08_19",
       "date": "2026-08-20",
       "time_jst": "03:00",
       "time_status": "confirmed",
       "label": "FOMC議事要旨",
       "category": "monetary_policy",
+      "importance": "medium",
+      "status": "upcoming"
+    },
+    {
+      "event_id": "cftc_cot_2026_08_21",
+      "date": "2026-08-22",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
       "importance": "medium",
       "status": "upcoming"
     },
@@ -405,6 +565,16 @@
       "status": "upcoming"
     },
     {
+      "event_id": "earnings_nvda_2026-08-26",
+      "date": "2026-08-27",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "NVIDIA（NVDA）決算",
+      "category": "earnings",
+      "importance": "high",
+      "status": "upcoming"
+    },
+    {
       "event_id": "us_pce_estimated_2026-08-27",
       "date": "2026-08-27",
       "time_jst": null,
@@ -425,43 +595,13 @@
       "status": "upcoming"
     },
     {
-      "event_id": "bea_gdp_2026-09-30",
-      "date": "2026-09-30",
-      "time_jst": "21:30",
+      "event_id": "cftc_cot_2026_08_28",
+      "date": "2026-08-29",
+      "time_jst": "04:30",
       "time_status": "confirmed",
-      "label": "米国GDP",
-      "category": "economic_indicator",
-      "importance": "high",
-      "status": "upcoming"
-    },
-    {
-      "event_id": "bea_pce_2026-09-30",
-      "date": "2026-09-30",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国個人所得・支出／PCE",
-      "category": "economic_indicator",
-      "importance": "high",
-      "status": "upcoming"
-    },
-    {
-      "event_id": "bea_gdp_2026-10-29",
-      "date": "2026-10-29",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国GDP",
-      "category": "economic_indicator",
-      "importance": "high",
-      "status": "upcoming"
-    },
-    {
-      "event_id": "bea_pce_2026-10-29",
-      "date": "2026-10-29",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国個人所得・支出／PCE",
-      "category": "economic_indicator",
-      "importance": "high",
+      "label": "CFTCポジション発表",
+      "category": "supply_demand",
+      "importance": "medium",
       "status": "upcoming"
     }
   ]

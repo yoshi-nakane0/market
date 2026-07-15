@@ -1,0 +1,7811 @@
+{
+  "schema_version": 1,
+  "page": "earnings",
+  "updated_at": "2026-07-15T03:51:14.825Z",
+  "as_of_date": "2026-07-15",
+  "data_status": {
+    "label": "一部取得",
+    "note": "正式確認、外部データ確認、推定を分けて表示します。欠損値は補完せず、取得不可または確認中とします。",
+    "confirmed_count": 0,
+    "vendor_confirmed_count": 0,
+    "estimated_count": 12,
+    "unavailable_count": 20
+  },
+  "hero": {
+    "title": "今回の決算環境",
+    "overall_event_impact": "中",
+    "tonight_event_impact": "確認中",
+    "tonight_note": "今夜の対象日程は未登録。日程取得後に再判定",
+    "key_companies": [
+      {
+        "ticker": "META",
+        "company_name": "Meta Platforms",
+        "impact": 73,
+        "phase": "pre",
+        "verification_status": "estimated"
+      },
+      {
+        "ticker": "GOOGL",
+        "company_name": "Alphabet",
+        "impact": 67,
+        "phase": "pre",
+        "verification_status": "estimated"
+      },
+      {
+        "ticker": "MSFT",
+        "company_name": "Microsoft",
+        "impact": 67,
+        "phase": "pre",
+        "verification_status": "estimated"
+      },
+      {
+        "ticker": "TSLA",
+        "company_name": "Tesla",
+        "impact": 62,
+        "phase": "pre",
+        "verification_status": "estimated"
+      },
+      {
+        "ticker": "NFLX",
+        "company_name": "Netflix",
+        "impact": 36,
+        "phase": "pre",
+        "verification_status": "estimated"
+      }
+    ],
+    "index_impacts": [
+      {
+        "label": "NASDAQ 100",
+        "level": "中",
+        "note": "METAを中心に影響の大きさを監視"
+      },
+      {
+        "label": "S&P 500",
+        "level": "中",
+        "note": "METAを中心に影響の大きさを監視"
+      },
+      {
+        "label": "NYダウ",
+        "level": "高",
+        "note": "MSFTを中心に影響の大きさを監視"
+      },
+      {
+        "label": "日経先物",
+        "level": "中",
+        "note": "METAを中心に影響の大きさを監視"
+      }
+    ],
+    "focus_sector": "コミュニケーション・サービス",
+    "pre_count": 11,
+    "post_count": 1
+  },
+  "calendar": [
+    {
+      "ticker": "JPM",
+      "company_name": "JPMorgan Chase",
+      "sector": "金融",
+      "tier": "A",
+      "earnings_date": "2026-07-14",
+      "jst_time": "20:00",
+      "us_market_time": "07:00 ET",
+      "session": "before_open",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "post",
+      "calendar_windows": [
+        "past_7_days",
+        "this_week"
+      ],
+      "market_impact": {
+        "overall": 36,
+        "nasdaq100": 10,
+        "sp500": 35,
+        "dow": 59,
+        "nikkei_futures": 29,
+        "spillover_sectors": [
+          "金融",
+          "銀行",
+          "保険"
+        ],
+        "reason": "NYダウへの感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 54,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 69,
+        "theme_label": "中立",
+        "themes": [
+          "金利",
+          "信用コスト",
+          "投資銀行"
+        ],
+        "expected_move": {
+          "value": 3.2,
+          "historical_average": 3.2,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算結果の一次情報を確認中です。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "純金利収入",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "NIM",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "貸倒引当",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "BAC",
+          "GS"
+        ],
+        "capex": [],
+        "japan": [
+          "銀行",
+          "保険"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "company_name": "Netflix",
+      "sector": "コミュニケーション・サービス",
+      "tier": "B",
+      "earnings_date": "2026-07-16",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [
+        "tomorrow",
+        "this_week"
+      ],
+      "market_impact": {
+        "overall": 36,
+        "nasdaq100": 36,
+        "sp500": 34,
+        "dow": 9,
+        "nikkei_futures": 27,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "動画配信",
+          "広告"
+        ],
+        "reason": "NASDAQ 100への感応度と、動画配信・広告を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 83,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 76,
+        "theme_label": "強い",
+        "themes": [
+          "動画配信",
+          "広告"
+        ],
+        "expected_move": {
+          "value": 8.8,
+          "historical_average": 8.8,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "広告売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ユーザー単価",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "DIS",
+          "WBD"
+        ],
+        "capex": [],
+        "japan": [
+          "動画配信",
+          "広告"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet",
+      "sector": "コミュニケーション・サービス",
+      "tier": "A",
+      "earnings_date": "2026-07-22",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [
+        "next_week"
+      ],
+      "market_impact": {
+        "overall": 67,
+        "nasdaq100": 67,
+        "sp500": 66,
+        "dow": 40,
+        "nikkei_futures": 59,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "インターネット広告",
+          "データセンター関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、デジタル広告・クラウドを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 72,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 89,
+        "theme_label": "強い",
+        "themes": [
+          "デジタル広告",
+          "クラウド",
+          "AI設備投資"
+        ],
+        "expected_move": {
+          "value": 5.8,
+          "historical_average": 5.8,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "広告売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ユーザー単価",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "META",
+          "SNAP"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "インターネット広告",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla",
+      "sector": "一般消費財",
+      "tier": "A",
+      "earnings_date": "2026-07-22",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [
+        "next_week"
+      ],
+      "market_impact": {
+        "overall": 62,
+        "nasdaq100": 62,
+        "sp500": 59,
+        "dow": 33,
+        "nikkei_futures": 52,
+        "spillover_sectors": [
+          "一般消費財",
+          "自動車",
+          "電池"
+        ],
+        "reason": "NASDAQ 100への感応度と、EV・自動運転を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 90,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 66,
+        "theme_label": "中立",
+        "themes": [
+          "EV",
+          "自動運転",
+          "蓄電池"
+        ],
+        "expected_move": {
+          "value": 9.1,
+          "historical_average": 9.1,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "納車台数",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "RIVN",
+          "GM"
+        ],
+        "capex": [
+          "PANASONIC"
+        ],
+        "japan": [
+          "自動車",
+          "電池"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-07-29",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 67,
+        "nasdaq100": 66,
+        "sp500": 67,
+        "dow": 100,
+        "nikkei_futures": 61,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "データセンター関連"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・AIインフラを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 62,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 91,
+        "theme_label": "強い",
+        "themes": [
+          "クラウド",
+          "AIインフラ",
+          "データセンター"
+        ],
+        "expected_move": {
+          "value": 4.3,
+          "historical_average": 4.3,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "クラウド売上成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "ORCL",
+          "CRM"
+        ],
+        "capex": [
+          "NVDA",
+          "AMD"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms",
+      "sector": "コミュニケーション・サービス",
+      "tier": "A",
+      "earnings_date": "2026-07-29",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 73,
+        "nasdaq100": 73,
+        "sp500": 72,
+        "dow": 49,
+        "nikkei_futures": 65,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "インターネット広告",
+          "半導体関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、デジタル広告・AI設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 79,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 88,
+        "theme_label": "強い",
+        "themes": [
+          "デジタル広告",
+          "AI設備投資"
+        ],
+        "expected_move": {
+          "value": 7.6,
+          "historical_average": 7.6,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "広告売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ユーザー単価",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "GOOGL",
+          "SNAP"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "インターネット広告",
+          "半導体関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-07-30",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 64,
+        "nasdaq100": 64,
+        "sp500": 64,
+        "dow": 94,
+        "nikkei_futures": 57,
+        "spillover_sectors": [
+          "情報技術",
+          "電子部品",
+          "半導体製造装置"
+        ],
+        "reason": "NYダウへの感応度と、端末需要・AI端末を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 63,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 72,
+        "theme_label": "中立",
+        "themes": [
+          "端末需要",
+          "AI端末",
+          "サービス"
+        ],
+        "expected_move": {
+          "value": 4.7,
+          "historical_average": 4.7,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "データセンター売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "在庫",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "QCOM",
+          "SWKS"
+        ],
+        "capex": [
+          "TSM"
+        ],
+        "japan": [
+          "電子部品",
+          "半導体製造装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon",
+      "sector": "一般消費財",
+      "tier": "A",
+      "earnings_date": "2026-07-30",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 73,
+        "nasdaq100": 73,
+        "sp500": 73,
+        "dow": 85,
+        "nikkei_futures": 66,
+        "spillover_sectors": [
+          "一般消費財",
+          "電子商取引",
+          "データセンター関連"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・ECを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 72,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 87,
+        "theme_label": "強い",
+        "themes": [
+          "クラウド",
+          "EC",
+          "AI設備投資"
+        ],
+        "expected_move": {
+          "value": 6.9,
+          "historical_average": 6.9,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "クラウド売上成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "WMT",
+          "COST"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "電子商取引",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": "2026-08-04",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 60,
+        "nasdaq100": 60,
+        "sp500": 54,
+        "dow": 20,
+        "nikkei_futures": 63,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "日経先物への感応度と、AI半導体・データセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 83,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 88,
+        "theme_label": "強い",
+        "themes": [
+          "AI半導体",
+          "データセンター"
+        ],
+        "expected_move": {
+          "value": 8.4,
+          "historical_average": 8.4,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "データセンター売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "在庫",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "NVDA",
+          "AVGO"
+        ],
+        "capex": [
+          "MSFT",
+          "AMZN"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "検査装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart",
+      "sector": "生活必需品",
+      "tier": "A",
+      "earnings_date": "2026-08-13",
+      "jst_time": "20:00",
+      "us_market_time": "07:00 ET",
+      "session": "before_open",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 37,
+        "nasdaq100": 9,
+        "sp500": 34,
+        "dow": 61,
+        "nikkei_futures": 28,
+        "spillover_sectors": [
+          "生活必需品",
+          "小売",
+          "消費関連"
+        ],
+        "reason": "NYダウへの感応度と、小売・消費減速を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 60,
+        "risk_label": "反応不安定リスク中",
+        "theme_score": 70,
+        "theme_label": "中立",
+        "themes": [
+          "小売",
+          "消費減速",
+          "価格転嫁"
+        ],
+        "expected_move": {
+          "value": 4.5,
+          "historical_average": 4.5,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "既存店売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "在庫",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "客単価",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "COST",
+          "TGT"
+        ],
+        "capex": [],
+        "japan": [
+          "小売",
+          "消費関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-08-26",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 100,
+        "nasdaq100": 100,
+        "sp500": 100,
+        "dow": 96,
+        "nikkei_futures": 100,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 87,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 96,
+        "theme_label": "強い",
+        "themes": [
+          "AIインフラ",
+          "半導体",
+          "データセンター"
+        ],
+        "expected_move": {
+          "value": 8.2,
+          "historical_average": 8.2,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "データセンター売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "在庫",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "AMD",
+          "AVGO"
+        ],
+        "capex": [
+          "MSFT",
+          "AMZN",
+          "GOOGL"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "検査装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-09-03",
+      "jst_time": "翌 05:00",
+      "us_market_time": "16:00 ET以降",
+      "session": "after_close",
+      "verification_status": "estimated",
+      "verification_note": "正式日程を企業IRで再確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 69,
+        "nasdaq100": 69,
+        "sp500": 67,
+        "dow": 39,
+        "nikkei_futures": 70,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "通信部品"
+        ],
+        "reason": "日経先物への感応度と、AIネットワーク・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        },
+        "revenue": {
+          "value": null,
+          "display": "取得不可",
+          "unit": "USD",
+          "state": "取得不可"
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 78,
+        "risk_label": "反応不安定リスク高",
+        "theme_score": 91,
+        "theme_label": "強い",
+        "themes": [
+          "AIネットワーク",
+          "半導体",
+          "クラウド基盤"
+        ],
+        "expected_move": {
+          "value": 7.1,
+          "historical_average": 7.1,
+          "historical_sample_count": 8,
+          "label": "過去実績ベース予想",
+          "basis": "historical",
+          "state": "一部取得"
+        },
+        "available_component_count": 0,
+        "total_component_count": 7,
+        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "metrics": {
+          "eps_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_actual": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_estimate": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_surprise_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "eps_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "revenue_yoy_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "gross_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "operating_margin_pct": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "free_cash_flow": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "capital_expenditure": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "share_repurchases": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          },
+          "next_guidance": {
+            "value": null,
+            "display": "取得不可",
+            "state": "取得不可"
+          }
+        },
+        "quality_score": null,
+        "quality_label": "確認中",
+        "quality_breakdown": [
+          {
+            "label": "売上高と事業成長",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "EPS・営業利益",
+            "score": null,
+            "maximum": 15
+          },
+          {
+            "label": "利益率",
+            "score": null,
+            "maximum": 20
+          },
+          {
+            "label": "ガイダンス",
+            "score": null,
+            "maximum": 30
+          },
+          {
+            "label": "FCF・設備投資・財務",
+            "score": null,
+            "maximum": 15
+          }
+        ],
+        "summary": [
+          "決算発表前のため実績値はまだありません。",
+          "EPSだけでなく、売上高、利益率、ガイダンス、キャッシュフローを分けて確認します。",
+          "取得できない数値は推測せず、確認中として扱います。"
+        ],
+        "reaction_factors": [
+          {
+            "label": "EPS要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "売上高要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "ガイダンス要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "利益率要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "設備投資要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "事前期待要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "バリュエーション要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "マクロ要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          },
+          {
+            "label": "同時刻の他社決算要因",
+            "assessment": "確認中",
+            "tone": "unavailable"
+          }
+        ],
+        "reaction_timeline": [
+          {
+            "key": "after_hours",
+            "label": "時間外",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_open",
+            "label": "翌日寄り付き",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "next_close",
+            "label": "翌日終値",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_5",
+            "label": "5営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          },
+          {
+            "key": "day_20",
+            "label": "20営業日後",
+            "change_pct": null,
+            "state": "確認中"
+          }
+        ],
+        "drift": {
+          "day_5": "確認中",
+          "day_20": "確認中",
+          "comparison": "過去同種決算との比較はデータ蓄積中",
+          "pattern": "初動継続／反転を確認中"
+        },
+        "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "データセンター売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "在庫",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "NVDA",
+          "AMD"
+        ],
+        "capex": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "通信部品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    }
+  ],
+  "market_movers": [
+    {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-08-26",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 100,
+        "nasdaq100": 100,
+        "sp500": 100,
+        "dow": 96,
+        "nikkei_futures": 100,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "AMD",
+          "AVGO"
+        ],
+        "capex": [
+          "MSFT",
+          "AMZN",
+          "GOOGL"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "検査装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon",
+      "sector": "一般消費財",
+      "tier": "A",
+      "earnings_date": "2026-07-30",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 73,
+        "nasdaq100": 73,
+        "sp500": 73,
+        "dow": 85,
+        "nikkei_futures": 66,
+        "spillover_sectors": [
+          "一般消費財",
+          "電子商取引",
+          "データセンター関連"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・ECを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "WMT",
+          "COST"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "電子商取引",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms",
+      "sector": "コミュニケーション・サービス",
+      "tier": "A",
+      "earnings_date": "2026-07-29",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 73,
+        "nasdaq100": 73,
+        "sp500": 72,
+        "dow": 49,
+        "nikkei_futures": 65,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "インターネット広告",
+          "半導体関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、デジタル広告・AI設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "GOOGL",
+          "SNAP"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "インターネット広告",
+          "半導体関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AVGO",
+      "company_name": "Broadcom",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-09-03",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 69,
+        "nasdaq100": 69,
+        "sp500": 67,
+        "dow": 39,
+        "nikkei_futures": 70,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "通信部品"
+        ],
+        "reason": "日経先物への感応度と、AIネットワーク・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "NVDA",
+          "AMD"
+        ],
+        "capex": [
+          "MSFT",
+          "GOOGL"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "通信部品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-07-29",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 67,
+        "nasdaq100": 66,
+        "sp500": 67,
+        "dow": 100,
+        "nikkei_futures": 61,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "データセンター関連"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・AIインフラを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "ORCL",
+          "CRM"
+        ],
+        "capex": [
+          "NVDA",
+          "AMD"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet",
+      "sector": "コミュニケーション・サービス",
+      "tier": "A",
+      "earnings_date": "2026-07-22",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 67,
+        "nasdaq100": 67,
+        "sp500": 66,
+        "dow": 40,
+        "nikkei_futures": 59,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "インターネット広告",
+          "データセンター関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、デジタル広告・クラウドを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "META",
+          "SNAP"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "インターネット広告",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple",
+      "sector": "情報技術",
+      "tier": "A",
+      "earnings_date": "2026-07-30",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 64,
+        "nasdaq100": 64,
+        "sp500": 64,
+        "dow": 94,
+        "nikkei_futures": 57,
+        "spillover_sectors": [
+          "情報技術",
+          "電子部品",
+          "半導体製造装置"
+        ],
+        "reason": "NYダウへの感応度と、端末需要・AI端末を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "QCOM",
+          "SWKS"
+        ],
+        "capex": [
+          "TSM"
+        ],
+        "japan": [
+          "電子部品",
+          "半導体製造装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "company_name": "Tesla",
+      "sector": "一般消費財",
+      "tier": "A",
+      "earnings_date": "2026-07-22",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 62,
+        "nasdaq100": 62,
+        "sp500": 59,
+        "dow": 33,
+        "nikkei_futures": 52,
+        "spillover_sectors": [
+          "一般消費財",
+          "自動車",
+          "電池"
+        ],
+        "reason": "NASDAQ 100への感応度と、EV・自動運転を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "RIVN",
+          "GM"
+        ],
+        "capex": [
+          "PANASONIC"
+        ],
+        "japan": [
+          "自動車",
+          "電池"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": "2026-08-04",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 60,
+        "nasdaq100": 60,
+        "sp500": 54,
+        "dow": 20,
+        "nikkei_futures": 63,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "日経先物への感応度と、AI半導体・データセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "NVDA",
+          "AVGO"
+        ],
+        "capex": [
+          "MSFT",
+          "AMZN"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "検査装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "LLY",
+      "company_name": "Eli Lilly",
+      "sector": "ヘルスケア",
+      "tier": "A",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 45,
+        "nasdaq100": 7,
+        "sp500": 45,
+        "dow": 55,
+        "nikkei_futures": 31,
+        "spillover_sectors": [
+          "ヘルスケア",
+          "医薬品"
+        ],
+        "reason": "NYダウへの感応度と、肥満症治療薬・医薬品を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "NVO",
+          "PFE"
+        ],
+        "capex": [],
+        "japan": [
+          "医薬品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "WMT",
+      "company_name": "Walmart",
+      "sector": "生活必需品",
+      "tier": "A",
+      "earnings_date": "2026-08-13",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 37,
+        "nasdaq100": 9,
+        "sp500": 34,
+        "dow": 61,
+        "nikkei_futures": 28,
+        "spillover_sectors": [
+          "生活必需品",
+          "小売",
+          "消費関連"
+        ],
+        "reason": "NYダウへの感応度と、小売・消費減速を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "COST",
+          "TGT"
+        ],
+        "capex": [],
+        "japan": [
+          "小売",
+          "消費関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 37,
+        "nasdaq100": 37,
+        "sp500": 32,
+        "dow": 12,
+        "nikkei_futures": 47,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "メモリ関連"
+        ],
+        "reason": "日経先物への感応度と、メモリ・AIサーバーを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "WDC",
+          "STX"
+        ],
+        "capex": [
+          "NVDA"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "メモリ関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "JPM",
+      "company_name": "JPMorgan Chase",
+      "sector": "金融",
+      "tier": "A",
+      "earnings_date": "2026-07-14",
+      "phase": "post",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 36,
+        "nasdaq100": 10,
+        "sp500": 35,
+        "dow": 59,
+        "nikkei_futures": 29,
+        "spillover_sectors": [
+          "金融",
+          "銀行",
+          "保険"
+        ],
+        "reason": "NYダウへの感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "BAC",
+          "GS"
+        ],
+        "capex": [],
+        "japan": [
+          "銀行",
+          "保険"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "company_name": "Netflix",
+      "sector": "コミュニケーション・サービス",
+      "tier": "B",
+      "earnings_date": "2026-07-16",
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 36,
+        "nasdaq100": 36,
+        "sp500": 34,
+        "dow": 9,
+        "nikkei_futures": 27,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "動画配信",
+          "広告"
+        ],
+        "reason": "NASDAQ 100への感応度と、動画配信・広告を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "DIS",
+          "WBD"
+        ],
+        "capex": [],
+        "japan": [
+          "動画配信",
+          "広告"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-07-15T00:00:00.000Z",
+        "providers": [
+          "日程データ"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "ORCL",
+      "company_name": "Oracle",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 33,
+        "nasdaq100": 33,
+        "sp500": 31,
+        "dow": 17,
+        "nikkei_futures": 33,
+        "spillover_sectors": [
+          "情報技術",
+          "データセンター関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、クラウド・AIデータセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "MSFT",
+          "CRM"
+        ],
+        "capex": [
+          "NVDA"
+        ],
+        "japan": [
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "XOM",
+      "company_name": "Exxon Mobil",
+      "sector": "エネルギー",
+      "tier": "A",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 31,
+        "nasdaq100": 5,
+        "sp500": 31,
+        "dow": 40,
+        "nikkei_futures": 25,
+        "spillover_sectors": [
+          "エネルギー",
+          "商社",
+          "資源関連"
+        ],
+        "reason": "NYダウへの感応度と、原油・天然ガスを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "CVX"
+        ],
+        "capex": [],
+        "japan": [
+          "商社",
+          "資源関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "CRM",
+      "company_name": "Salesforce",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 31,
+        "nasdaq100": 31,
+        "sp500": 29,
+        "dow": 43,
+        "nikkei_futures": 27,
+        "spillover_sectors": [
+          "情報技術",
+          "ソフトウェア"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・企業向けAIを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "MSFT",
+          "ORCL"
+        ],
+        "capex": [],
+        "japan": [
+          "ソフトウェア"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "UNH",
+      "company_name": "UnitedHealth Group",
+      "sector": "ヘルスケア",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 25,
+        "nasdaq100": 5,
+        "sp500": 23,
+        "dow": 41,
+        "nikkei_futures": 16,
+        "spillover_sectors": [
+          "ヘルスケア",
+          "保険",
+          "医薬品"
+        ],
+        "reason": "NYダウへの感応度と、医療保険・医療費を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "HUM",
+          "CVS"
+        ],
+        "capex": [],
+        "japan": [
+          "保険",
+          "医薬品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "company_name": "Adobe",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 24,
+        "nasdaq100": 24,
+        "sp500": 21,
+        "dow": 6,
+        "nikkei_futures": 18,
+        "spillover_sectors": [
+          "情報技術",
+          "ソフトウェア"
+        ],
+        "reason": "NASDAQ 100への感応度と、生成AI・クリエイティブソフトを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "CRM",
+          "MSFT"
+        ],
+        "capex": [],
+        "japan": [
+          "ソフトウェア"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "TSM",
+      "company_name": "TSMC",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 23,
+        "nasdaq100": 23,
+        "sp500": 18,
+        "dow": 9,
+        "nikkei_futures": 51,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "素材"
+        ],
+        "reason": "日経先物への感応度と、半導体受託製造・AI半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "NVDA",
+          "AMD"
+        ],
+        "capex": [
+          "ASML"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "素材"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "HD",
+      "company_name": "Home Depot",
+      "sector": "一般消費財",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 22,
+        "nasdaq100": 5,
+        "sp500": 19,
+        "dow": 37,
+        "nikkei_futures": 16,
+        "spillover_sectors": [
+          "一般消費財",
+          "住宅",
+          "消費関連"
+        ],
+        "reason": "NYダウへの感応度と、住宅・消費を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "LOW"
+        ],
+        "capex": [],
+        "japan": [
+          "住宅",
+          "消費関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "COST",
+      "company_name": "Costco Wholesale",
+      "sector": "生活必需品",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 21,
+        "nasdaq100": 20,
+        "sp500": 21,
+        "dow": 10,
+        "nikkei_futures": 17,
+        "spillover_sectors": [
+          "生活必需品",
+          "小売",
+          "消費関連"
+        ],
+        "reason": "S&P 500への感応度と、小売・会員制を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "WMT",
+          "TGT"
+        ],
+        "capex": [],
+        "japan": [
+          "小売",
+          "消費関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "GS",
+      "company_name": "Goldman Sachs",
+      "sector": "金融",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 21,
+        "nasdaq100": 4,
+        "sp500": 18,
+        "dow": 35,
+        "nikkei_futures": 17,
+        "spillover_sectors": [
+          "金融",
+          "証券",
+          "銀行"
+        ],
+        "reason": "NYダウへの感応度と、投資銀行・市場取引を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "JPM",
+          "MS"
+        ],
+        "capex": [],
+        "japan": [
+          "証券",
+          "銀行"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "CAT",
+      "company_name": "Caterpillar",
+      "sector": "資本財",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 20,
+        "nasdaq100": 3,
+        "sp500": 17,
+        "dow": 32,
+        "nikkei_futures": 18,
+        "spillover_sectors": [
+          "資本財",
+          "建機",
+          "機械"
+        ],
+        "reason": "NYダウへの感応度と、設備投資・資源開発を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "DE"
+        ],
+        "capex": [],
+        "japan": [
+          "建機",
+          "機械"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "CVX",
+      "company_name": "Chevron",
+      "sector": "エネルギー",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 20,
+        "nasdaq100": 3,
+        "sp500": 19,
+        "dow": 33,
+        "nikkei_futures": 17,
+        "spillover_sectors": [
+          "エネルギー",
+          "商社",
+          "資源関連"
+        ],
+        "reason": "NYダウへの感応度と、原油・天然ガスを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "XOM"
+        ],
+        "capex": [],
+        "japan": [
+          "商社",
+          "資源関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "ASML",
+      "company_name": "ASML",
+      "sector": "情報技術",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 18,
+        "nasdaq100": 18,
+        "sp500": 14,
+        "dow": 8,
+        "nikkei_futures": 47,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "日経先物への感応度と、半導体製造装置・先端露光を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "AMAT",
+          "LRCX"
+        ],
+        "capex": [
+          "TSM"
+        ],
+        "japan": [
+          "半導体製造装置",
+          "検査装置"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "BAC",
+      "company_name": "Bank of America",
+      "sector": "金融",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 18,
+        "nasdaq100": 4,
+        "sp500": 18,
+        "dow": 26,
+        "nikkei_futures": 16,
+        "spillover_sectors": [
+          "金融",
+          "銀行",
+          "保険"
+        ],
+        "reason": "NYダウへの感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "JPM",
+          "WFC"
+        ],
+        "capex": [],
+        "japan": [
+          "銀行",
+          "保険"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "FDX",
+      "company_name": "FedEx",
+      "sector": "資本財",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 17,
+        "nasdaq100": 3,
+        "sp500": 17,
+        "dow": 14,
+        "nikkei_futures": 18,
+        "spillover_sectors": [
+          "資本財",
+          "海運",
+          "物流"
+        ],
+        "reason": "日経先物への感応度と、輸送・景気先行を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "UPS"
+        ],
+        "capex": [],
+        "japan": [
+          "海運",
+          "物流"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "PFE",
+      "company_name": "Pfizer",
+      "sector": "ヘルスケア",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 11,
+        "nasdaq100": 2,
+        "sp500": 10,
+        "dow": 18,
+        "nikkei_futures": 8,
+        "spillover_sectors": [
+          "ヘルスケア",
+          "医薬品"
+        ],
+        "reason": "NYダウへの感応度と、医薬品・治験・承認を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "MRK",
+          "LLY"
+        ],
+        "capex": [],
+        "japan": [
+          "医薬品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "LIN",
+      "company_name": "Linde",
+      "sector": "素材",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 11,
+        "nasdaq100": 8,
+        "sp500": 11,
+        "dow": 6,
+        "nikkei_futures": 9,
+        "spillover_sectors": [
+          "素材",
+          "化学",
+          "産業ガス"
+        ],
+        "reason": "S&P 500への感応度と、産業ガス・設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "APD"
+        ],
+        "capex": [],
+        "japan": [
+          "化学",
+          "産業ガス"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "NEE",
+      "company_name": "NextEra Energy",
+      "sector": "公益",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 11,
+        "nasdaq100": 2,
+        "sp500": 11,
+        "dow": 6,
+        "nikkei_futures": 9,
+        "spillover_sectors": [
+          "公益",
+          "電力",
+          "再生可能エネルギー"
+        ],
+        "reason": "S&P 500への感応度と、電力需要・再生可能エネルギーを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "DUK"
+        ],
+        "capex": [],
+        "japan": [
+          "電力",
+          "再生可能エネルギー"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "PLD",
+      "company_name": "Prologis",
+      "sector": "不動産",
+      "tier": "B",
+      "earnings_date": null,
+      "phase": "pre",
+      "verification_status": "estimated",
+      "market_impact": {
+        "overall": 9,
+        "nasdaq100": 2,
+        "sp500": 9,
+        "dow": 5,
+        "nikkei_futures": 8,
+        "spillover_sectors": [
+          "不動産",
+          "物流REIT"
+        ],
+        "reason": "S&P 500への感応度と、物流施設・金利感応度を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "peer_spillover": {
+        "direct": [
+          "DRE"
+        ],
+        "capex": [],
+        "japan": [
+          "物流REIT",
+          "不動産"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": null,
+        "providers": [
+          "取得元確認中"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "決算日程",
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "決算前後価格"
+        ],
+        "freshness": "unavailable",
+        "retry_status": "waiting"
+      }
+    }
+  ],
+  "sectors": [
+    {
+      "key": "communication_services",
+      "label": "コミュニケーション・サービス",
+      "company_count": 3,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "デジタル広告",
+        "動画配信"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLC"
+      }
+    },
+    {
+      "key": "consumer_discretionary",
+      "label": "一般消費財",
+      "company_count": 3,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "EC",
+        "EV",
+        "消費減速"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLY"
+      }
+    },
+    {
+      "key": "consumer_staples",
+      "label": "生活必需品",
+      "company_count": 2,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "小売",
+        "価格転嫁"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLP"
+      }
+    },
+    {
+      "key": "energy",
+      "label": "エネルギー",
+      "company_count": 2,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "原油",
+        "設備投資"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLE"
+      }
+    },
+    {
+      "key": "financials",
+      "label": "金融",
+      "company_count": 3,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "金利",
+        "信用コスト"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLF"
+      }
+    },
+    {
+      "key": "health_care",
+      "label": "ヘルスケア",
+      "company_count": 3,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "肥満症治療薬",
+        "治験・承認"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLV"
+      }
+    },
+    {
+      "key": "industrials",
+      "label": "資本財",
+      "company_count": 2,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "防衛",
+        "輸送",
+        "設備投資"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLI"
+      }
+    },
+    {
+      "key": "information_technology",
+      "label": "情報技術",
+      "company_count": 11,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "AIインフラ",
+        "半導体",
+        "クラウド",
+        "データセンター"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLK"
+      }
+    },
+    {
+      "key": "materials",
+      "label": "素材",
+      "company_count": 1,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "産業ガス",
+        "素材需要"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLB"
+      }
+    },
+    {
+      "key": "real_estate",
+      "label": "不動産",
+      "company_count": 1,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "物流施設",
+        "金利感応度"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLRE"
+      }
+    },
+    {
+      "key": "utilities",
+      "label": "公益",
+      "company_count": 1,
+      "momentum_score": null,
+      "momentum_label": "確認中",
+      "market_strength_score": null,
+      "market_strength_label": "確認中",
+      "guidance": "確認中",
+      "post_reaction": "確認中",
+      "themes": [
+        "電力需要",
+        "データセンター電力"
+      ],
+      "company_weighted": {
+        "EPS上振れ企業比率": "確認中",
+        "売上高上振れ企業比率": "確認中",
+        "ガイダンス上方修正比率": "確認中",
+        "ガイダンス下方修正比率": "確認中",
+        "売上高成長率中央値": "確認中",
+        "利益率改善企業比率": "確認中",
+        "予想上方修正企業比率": "確認中",
+        "決算後上昇企業比率": "確認中"
+      },
+      "market_cap_weighted": {
+        "EPS上振れ影響": "確認中",
+        "売上高上振れ影響": "確認中",
+        "ガイダンス影響": "確認中",
+        "決算後反応": "確認中"
+      },
+      "market_metrics": {
+        "対S&P500相対強度": "確認中",
+        "5日騰落率": "確認中",
+        "20日騰落率": "確認中",
+        "60日騰落率": "確認中",
+        "出来高": "確認中",
+        "決算後の上昇継続率": "確認中",
+        "セクターETF": "XLU"
+      }
+    }
+  ],
+  "expectation_matrix": [
+    {
+      "quality": "高い",
+      "expectation": "低い",
+      "judgment": "ポジティブサプライズ"
+    },
+    {
+      "quality": "高い",
+      "expectation": "高い",
+      "judgment": "織り込み済み・材料出尽くし注意"
+    },
+    {
+      "quality": "低い",
+      "expectation": "高い",
+      "judgment": "最も下落リスクが高い"
+    },
+    {
+      "quality": "低い",
+      "expectation": "低い",
+      "judgment": "悪材料織り込み済みの可能性"
+    }
+  ],
+  "concentration_risk": {
+    "level": "高",
+    "company_count": 2,
+    "combined_index_weight_label": "取得不可（最新の指数構成比を確認待ち）",
+    "sector_concentration": "コミュニケーション・サービス 1/2社",
+    "timing_concentration": "引け後 2/2社",
+    "note": "2026-07-29が直近14日で最も影響の集中する推定日です。日程確定後に再計算します。"
+  },
+  "nikkei_spillover": {
+    "level": "中",
+    "route": "META → インターネット広告・半導体関連",
+    "direction": "決算結果待ち",
+    "related_factors": [
+      "NASDAQ先物",
+      "USDJPY",
+      "リスクオン／リスクオフ",
+      "デジタル広告",
+      "AI設備投資"
+    ],
+    "note": "米国半導体、AI設備投資、Apple関連、金融、消費、為替を経路別に確認します。売買方向は示しません。"
+  },
+  "methodology": {
+    "impact_definition": "市場影響は好材料・悪材料の方向ではなく、決算内容次第で相場が動く可能性の大きさです。",
+    "separation_principle": "期待、市場反応の不安定さ、決算内容、市場反応を別々に表示し、単一の総合点で売買を判断しません。",
+    "independence": [
+      "EarningsはMacroやBasecalcのJSONを読み込まない",
+      "SignalやMacroの判定をEarningsの入力にしない",
+      "将来の連携はEarningsから軽量な文脈情報を出す一方向だけにする",
+      "日経先物への波及は示すが売買方向は出さない"
+    ],
+    "source_policy": [
+      "企業の提出・財務実績はSEC EDGARと企業IRを優先する",
+      "予想値と日程は外部データでも確認し、正式確認と推定を混同しない",
+      "ブラウザから外部取得せず、Node更新処理で内部用と公開用を分ける",
+      "数値評価と最終スコアは決定ルールで算出し、要約だけで評価を決めない"
+    ],
+    "evaluation_roles": [
+      "数値評価：決定ルール",
+      "ガイダンス分類：決定ルールを基本とし、文章補助を使う場合も数値と原文で再確認",
+      "要約：文章補助を使用可能",
+      "最終スコア：決定ルール",
+      "根拠：原文または数値を内部データに保持"
+    ],
+    "deferred_features": [
+      "リアルタイムのオプション市場予想変動",
+      "決算説明会全文解析",
+      "機械学習による方向予測"
+    ]
+  }
+}

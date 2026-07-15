@@ -1,13 +1,18 @@
 {
-  "updated_at": "2026-07-15T02:36:23.776Z",
+  "updated_at": "2026-07-15T04:15:06.848Z",
   "timezone": "Asia/Tokyo",
   "page_name": "イベント分析",
   "source": "events_independent_pipeline",
   "source_note": "正式日程を優先し、予想・前回・結果は補助情報として別管理します。推定イベントは正式確認済みイベントと明確に分けます。",
+  "update_schedule": "毎週月曜日 07:00 JST",
+  "coverage": {
+    "past_days": 7,
+    "future_days": 45
+  },
   "risk_summary": {
     "date": "2026-07-15",
     "overall_risk": "高",
-    "next_event_id": "us_ppi_2026_07_15",
+    "next_event_id": "bls_ppi_2026-07-15",
     "next_event": "米国PPI",
     "countdown_target": "2026-07-15T12:30:00.000Z",
     "affected_assets": [
@@ -60,7 +65,179 @@
   },
   "events": [
     {
-      "event_id": "us_cpi_2026_07_14",
+      "event_id": "cftc_cot_2026_07_10",
+      "date": "2026-07-11",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "past",
+      "information_status": "official_confirmed",
+      "result_status": "unverified",
+      "phase": "result_pending",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "earnings_jpm_2026-07-14",
+      "date": "2026-07-14",
+      "time_jst": "20:00",
+      "time_status": "estimated",
+      "label": "JPMorgan Chase（JPM）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_JPM",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "金利",
+        "信用コスト"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "JPM",
+        "report_date_us": "2026-07-14",
+        "session": "before_open",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "past",
+      "information_status": "estimated",
+      "result_status": "unverified",
+      "phase": "result_pending",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "金利",
+          "信用コスト"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bls_cpi_2026-07-14",
       "date": "2026-07-14",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -277,7 +454,7 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_ppi_2026_07_15",
+      "event_id": "bls_ppi_2026-07-15",
       "date": "2026-07-15",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -1109,7 +1286,7 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_import_prices_2026_07_17",
+      "event_id": "bls_import_prices_2026-07-17",
       "date": "2026-07-17",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -1818,6 +1995,184 @@
       "pre_event_prediction": null
     },
     {
+      "event_id": "earnings_googl_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Alphabet（GOOGL）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_GOOGL",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "デジタル広告",
+        "クラウド"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "GOOGL",
+        "report_date_us": "2026-07-22",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "デジタル広告",
+          "クラウド"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "earnings_tsla_2026-07-22",
+      "date": "2026-07-23",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Tesla（TSLA）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_TSLA",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "EV",
+        "自動運転"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "TSLA",
+        "report_date_us": "2026-07-22",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "EV",
+          "自動運転"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
       "event_id": "us_treasury_auction_91282cre3_2026-07-23",
       "date": "2026-07-24",
       "time_jst": "02:00",
@@ -1900,6 +2255,89 @@
           "発行日 2026-07-31"
         ],
         "policy_meaning": "需給と入札結果を通じた米金利への影響を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "cftc_cot_2026_07_24",
+      "date": "2026-07-25",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
         "market_positioning": "無料で検証できるポジションデータの取得待ち",
         "historical_context": "同条件イベントの履歴蓄積待ち",
         "revision_note": "改定値は未確認"
@@ -2185,7 +2623,7 @@
         }
       ],
       "metadata": {
-        "meeting_dates": "7月28日～29日",
+        "meeting_dates": "2026-07-28～2026-07-29",
         "sep": false,
         "press_conference": true
       },
@@ -2222,11 +2660,189 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_gdp_advance_2026_07_30",
+      "event_id": "earnings_meta_2026-07-29",
+      "date": "2026-07-30",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Meta Platforms（META）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_META",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "デジタル広告",
+        "AI設備投資"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "META",
+        "report_date_us": "2026-07-29",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "デジタル広告",
+          "AI設備投資"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "earnings_msft_2026-07-29",
+      "date": "2026-07-30",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Microsoft（MSFT）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_MSFT",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "クラウド",
+        "AIインフラ"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "MSFT",
+        "report_date_us": "2026-07-29",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "クラウド",
+          "AIインフラ"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bea_gdp_2026-07-30",
       "date": "2026-07-30",
       "time_jst": "21:30",
       "time_status": "confirmed",
-      "label": "米国GDP（速報値）",
+      "label": "米国GDP",
       "region": "united_states",
       "currency": "USD",
       "category": "economic_indicator",
@@ -2314,7 +2930,7 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_pce_2026_07_30",
+      "event_id": "bea_pce_2026-07-30",
       "date": "2026-07-30",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -2406,7 +3022,185 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_eci_2026_07_31",
+      "event_id": "earnings_amzn_2026-07-30",
+      "date": "2026-07-31",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Amazon（AMZN）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_AMZN",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "クラウド",
+        "EC"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "AMZN",
+        "report_date_us": "2026-07-30",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "クラウド",
+          "EC"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "earnings_aapl_2026-07-30",
+      "date": "2026-07-31",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "Apple（AAPL）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_AAPL",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "端末需要",
+        "AI端末"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "AAPL",
+        "report_date_us": "2026-07-30",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "端末需要",
+          "AI端末"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bls_eci_2026-07-31",
       "date": "2026-07-31",
       "time_jst": "21:30",
       "time_status": "confirmed",
@@ -2554,7 +3348,7 @@
         }
       ],
       "metadata": {
-        "meeting_dates": "7月30日～31日",
+        "meeting_dates": "2026-07-30～2026-07-31",
         "outlook_report": true
       },
       "status": "upcoming",
@@ -2591,27 +3385,112 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_nfp_estimated_2026-08-07",
-      "date": "2026-08-07",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米雇用統計推定日",
-      "category": "economic_indicator",
-      "importance": "high",
-      "status": "upcoming",
-      "source": {
-        "id": "rule_based_estimate",
-        "label": "日付規則による推定",
-        "url": null
-      },
+      "event_id": "cftc_cot_2026_07_31",
+      "date": "2026-08-01",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
       "region": "united_states",
       "currency": "USD",
-      "indicator": "NFP",
-      "verification_status": "estimated",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
       "focus": [
-        "正式日程の確認待ち"
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
       ],
-      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bls_nfp_2026-08-07",
+      "date": "2026-08-07",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国雇用統計",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "NFP",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "非農業部門雇用者数",
+        "失業率",
+        "平均時給",
+        "労働参加率"
+      ],
+      "policy_meaning": "雇用と賃金を通じてFRBの政策余地を確認",
       "affected_assets": [
         {
           "asset": "NASDAQ",
@@ -2632,9 +3511,23 @@
         {
           "asset": "USDJPY",
           "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
         }
       ],
-      "information_status": "estimated",
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
       "result_status": "awaiting_release",
       "phase": "pre_release",
       "metrics": {
@@ -2652,9 +3545,95 @@
       "detail": {
         "acceleration": "比較データ不足",
         "focus": [
-          "正式日程の確認待ち"
+          "非農業部門雇用者数",
+          "失業率",
+          "平均時給",
+          "労働参加率"
         ],
-        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "policy_meaning": "雇用と賃金を通じてFRBの政策余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "cftc_cot_2026_08_07",
+      "date": "2026-08-08",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
         "market_positioning": "無料で検証できるポジションデータの取得待ち",
         "historical_context": "同条件イベントの履歴蓄積待ち",
         "revision_note": "改定値は未確認"
@@ -2900,27 +3879,29 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "us_cpi_ppi_estimated_2026-08-12",
+      "event_id": "bls_cpi_2026-08-12",
       "date": "2026-08-12",
-      "time_jst": null,
-      "time_status": "estimated_date",
-      "label": "米CPI/PPI推定期間",
-      "category": "economic_indicator",
-      "importance": "high",
-      "status": "upcoming",
-      "source": {
-        "id": "rule_based_estimate",
-        "label": "日付規則による推定",
-        "url": null
-      },
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国CPI",
       "region": "united_states",
       "currency": "USD",
+      "category": "economic_indicator",
       "indicator": "CPI",
-      "verification_status": "estimated",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
       "focus": [
-        "正式日程の確認待ち"
+        "総合",
+        "コア",
+        "住居費",
+        "サービス物価"
       ],
-      "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+      "policy_meaning": "物価の粘着性とFRBの利下げ余地を確認",
       "affected_assets": [
         {
           "asset": "NASDAQ",
@@ -2941,8 +3922,109 @@
         {
           "asset": "USDJPY",
           "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
         }
       ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合",
+          "コア",
+          "住居費",
+          "サービス物価"
+        ],
+        "policy_meaning": "物価の粘着性とFRBの利下げ余地を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "earnings_wmt_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": "20:00",
+      "time_status": "estimated",
+      "label": "Walmart（WMT）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_WMT",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "小売",
+        "消費減速"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "high"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "WMT",
+        "report_date_us": "2026-08-13",
+        "session": "before_open",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
       "information_status": "estimated",
       "result_status": "awaiting_release",
       "phase": "pre_release",
@@ -2961,9 +4043,106 @@
       "detail": {
         "acceleration": "比較データ不足",
         "focus": [
-          "正式日程の確認待ち"
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "小売",
+          "消費減速"
         ],
-        "policy_meaning": "正式確認前の注意喚起としてのみ使用",
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bls_ppi_2026-08-13",
+      "date": "2026-08-13",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国PPI",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "PPI",
+      "importance": "high",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "総合",
+        "コア",
+        "サービス",
+        "財価格"
+      ],
+      "policy_meaning": "企業段階の物価圧力とPCEへの波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合",
+          "コア",
+          "サービス",
+          "財価格"
+        ],
+        "policy_meaning": "企業段階の物価圧力とPCEへの波及を確認",
         "market_positioning": "無料で検証できるポジションデータの取得待ち",
         "historical_context": "同条件イベントの履歴蓄積待ち",
         "revision_note": "改定値は未確認"
@@ -3192,6 +4371,177 @@
       "pre_event_prediction": null
     },
     {
+      "event_id": "cftc_cot_2026_08_14",
+      "date": "2026-08-15",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "bls_import_prices_2026-08-18",
+      "date": "2026-08-18",
+      "time_jst": "21:30",
+      "time_status": "confirmed",
+      "label": "米国輸入物価",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "economic_indicator",
+      "indicator": "IMPORT_PRICES",
+      "importance": "low",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "bls",
+        "label": "米労働統計局（BLS）",
+        "url": "https://www.bls.gov/schedule/2026/"
+      },
+      "focus": [
+        "総合",
+        "燃料を除く輸入物価"
+      ],
+      "policy_meaning": "関税・為替を通じた輸入インフレを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "medium"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "米2年金利",
+          "level": "high"
+        },
+        {
+          "asset": "米10年金利",
+          "level": "medium"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "metadata": {},
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "総合",
+          "燃料を除く輸入物価"
+        ],
+        "policy_meaning": "関税・為替を通じた輸入インフレを確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
       "event_id": "fomc_minutes_2026_08_19",
       "date": "2026-08-20",
       "time_jst": "03:00",
@@ -3271,6 +4621,89 @@
           "委員間の意見差"
         ],
         "policy_meaning": "政策変更に必要な条件と委員の温度差を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
+      "event_id": "cftc_cot_2026_08_21",
+      "date": "2026-08-22",
+      "time_jst": "04:30",
+      "time_status": "confirmed",
+      "label": "CFTCポジション発表",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
+      "verification_status": "official_confirmed",
+      "source": {
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
+      },
+      "focus": [
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
+      ],
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "medium"
+        },
+        {
+          "asset": "S&P500",
+          "level": "medium"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "low"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "high"
+        },
+        {
+          "asset": "VIX",
+          "level": "medium"
+        }
+      ],
+      "status": "upcoming",
+      "information_status": "official_confirmed",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
+        ],
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
         "market_positioning": "無料で検証できるポジションデータの取得待ち",
         "historical_context": "同条件イベントの履歴蓄積待ち",
         "revision_note": "改定値は未確認"
@@ -3537,6 +4970,95 @@
       "pre_event_prediction": null
     },
     {
+      "event_id": "earnings_nvda_2026-08-26",
+      "date": "2026-08-27",
+      "time_jst": "05:00",
+      "time_status": "estimated",
+      "label": "NVIDIA（NVDA）決算",
+      "region": "united_states",
+      "currency": "USD",
+      "category": "earnings",
+      "indicator": "EARNINGS_NVDA",
+      "importance": "high",
+      "verification_status": "estimated",
+      "source": {
+        "id": "earnings_calendar",
+        "label": "決算日程データ",
+        "url": null
+      },
+      "focus": [
+        "売上",
+        "利益",
+        "ガイダンス",
+        "設備投資",
+        "AIインフラ",
+        "半導体"
+      ],
+      "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+      "affected_assets": [
+        {
+          "asset": "NASDAQ",
+          "level": "high"
+        },
+        {
+          "asset": "S&P500",
+          "level": "high"
+        },
+        {
+          "asset": "NYDOW",
+          "level": "medium"
+        },
+        {
+          "asset": "日経先物",
+          "level": "high"
+        },
+        {
+          "asset": "USDJPY",
+          "level": "low"
+        }
+      ],
+      "metadata": {
+        "ticker": "NVDA",
+        "report_date_us": "2026-08-26",
+        "session": "after_close",
+        "verification_note": "正式日程を企業IRで再確認するまで推定扱い"
+      },
+      "status": "upcoming",
+      "information_status": "estimated",
+      "result_status": "awaiting_release",
+      "phase": "pre_release",
+      "metrics": {
+        "previous": null,
+        "revised_previous": null,
+        "forecast_average": null,
+        "forecast_range": null,
+        "market_center": null,
+        "actual": null
+      },
+      "consensus": {
+        "source": null,
+        "components": []
+      },
+      "detail": {
+        "acceleration": "比較データ不足",
+        "focus": [
+          "売上",
+          "利益",
+          "ガイダンス",
+          "設備投資",
+          "AIインフラ",
+          "半導体"
+        ],
+        "policy_meaning": "指数寄与度と同業・日本株への波及を確認",
+        "market_positioning": "無料で検証できるポジションデータの取得待ち",
+        "historical_context": "同条件イベントの履歴蓄積待ち",
+        "revision_note": "改定値は未確認"
+      },
+      "surprise": null,
+      "interpretation": null,
+      "pre_event_prediction": null
+    },
+    {
       "event_id": "us_pce_estimated_2026-08-27",
       "date": "2026-08-27",
       "time_jst": null,
@@ -3683,37 +5205,37 @@
       "pre_event_prediction": null
     },
     {
-      "event_id": "bea_gdp_2026-09-30",
-      "date": "2026-09-30",
-      "time_jst": "21:30",
+      "event_id": "cftc_cot_2026_08_28",
+      "date": "2026-08-29",
+      "time_jst": "04:30",
       "time_status": "confirmed",
-      "label": "米国GDP",
+      "label": "CFTCポジション発表",
       "region": "united_states",
       "currency": "USD",
-      "category": "economic_indicator",
-      "indicator": "GDP",
-      "importance": "high",
+      "category": "supply_demand",
+      "indicator": "CFTC_COT",
+      "importance": "medium",
       "verification_status": "official_confirmed",
       "source": {
-        "id": "bea",
-        "label": "米商務省経済分析局（BEA）",
-        "url": "https://www.bea.gov/news/schedule"
+        "id": "cftc",
+        "label": "米商品先物取引委員会（CFTC）",
+        "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm"
       },
       "focus": [
-        "総合値",
-        "個人消費",
-        "設備投資",
-        "在庫"
+        "通貨",
+        "米国債",
+        "株価指数",
+        "VIX"
       ],
-      "policy_meaning": "景気の強さと政策余地を確認",
+      "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
       "affected_assets": [
         {
           "asset": "NASDAQ",
-          "level": "high"
+          "level": "medium"
         },
         {
           "asset": "S&P500",
-          "level": "high"
+          "level": "medium"
         },
         {
           "asset": "NYDOW",
@@ -3721,26 +5243,17 @@
         },
         {
           "asset": "日経先物",
-          "level": "medium"
+          "level": "low"
         },
         {
           "asset": "USDJPY",
           "level": "high"
         },
         {
-          "asset": "米2年金利",
-          "level": "high"
-        },
-        {
-          "asset": "米10年金利",
-          "level": "medium"
-        },
-        {
           "asset": "VIX",
           "level": "medium"
         }
       ],
-      "metadata": {},
       "status": "upcoming",
       "information_status": "official_confirmed",
       "result_status": "awaiting_release",
@@ -3760,288 +5273,12 @@
       "detail": {
         "acceleration": "比較データ不足",
         "focus": [
-          "総合値",
-          "個人消費",
-          "設備投資",
-          "在庫"
+          "通貨",
+          "米国債",
+          "株価指数",
+          "VIX"
         ],
-        "policy_meaning": "景気の強さと政策余地を確認",
-        "market_positioning": "無料で検証できるポジションデータの取得待ち",
-        "historical_context": "同条件イベントの履歴蓄積待ち",
-        "revision_note": "改定値は未確認"
-      },
-      "surprise": null,
-      "interpretation": null,
-      "pre_event_prediction": null
-    },
-    {
-      "event_id": "bea_pce_2026-09-30",
-      "date": "2026-09-30",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国個人所得・支出／PCE",
-      "region": "united_states",
-      "currency": "USD",
-      "category": "economic_indicator",
-      "indicator": "PCE",
-      "importance": "high",
-      "verification_status": "official_confirmed",
-      "source": {
-        "id": "bea",
-        "label": "米商務省経済分析局（BEA）",
-        "url": "https://www.bea.gov/news/schedule"
-      },
-      "focus": [
-        "総合PCE",
-        "コアPCE",
-        "個人所得",
-        "個人消費"
-      ],
-      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
-      "affected_assets": [
-        {
-          "asset": "NASDAQ",
-          "level": "high"
-        },
-        {
-          "asset": "S&P500",
-          "level": "high"
-        },
-        {
-          "asset": "NYDOW",
-          "level": "medium"
-        },
-        {
-          "asset": "日経先物",
-          "level": "medium"
-        },
-        {
-          "asset": "USDJPY",
-          "level": "high"
-        },
-        {
-          "asset": "米2年金利",
-          "level": "high"
-        },
-        {
-          "asset": "米10年金利",
-          "level": "medium"
-        },
-        {
-          "asset": "VIX",
-          "level": "medium"
-        }
-      ],
-      "metadata": {},
-      "status": "upcoming",
-      "information_status": "official_confirmed",
-      "result_status": "awaiting_release",
-      "phase": "pre_release",
-      "metrics": {
-        "previous": null,
-        "revised_previous": null,
-        "forecast_average": null,
-        "forecast_range": null,
-        "market_center": null,
-        "actual": null
-      },
-      "consensus": {
-        "source": null,
-        "components": []
-      },
-      "detail": {
-        "acceleration": "比較データ不足",
-        "focus": [
-          "総合PCE",
-          "コアPCE",
-          "個人所得",
-          "個人消費"
-        ],
-        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
-        "market_positioning": "無料で検証できるポジションデータの取得待ち",
-        "historical_context": "同条件イベントの履歴蓄積待ち",
-        "revision_note": "改定値は未確認"
-      },
-      "surprise": null,
-      "interpretation": null,
-      "pre_event_prediction": null
-    },
-    {
-      "event_id": "bea_gdp_2026-10-29",
-      "date": "2026-10-29",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国GDP",
-      "region": "united_states",
-      "currency": "USD",
-      "category": "economic_indicator",
-      "indicator": "GDP",
-      "importance": "high",
-      "verification_status": "official_confirmed",
-      "source": {
-        "id": "bea",
-        "label": "米商務省経済分析局（BEA）",
-        "url": "https://www.bea.gov/news/schedule"
-      },
-      "focus": [
-        "総合値",
-        "個人消費",
-        "設備投資",
-        "在庫"
-      ],
-      "policy_meaning": "景気の強さと政策余地を確認",
-      "affected_assets": [
-        {
-          "asset": "NASDAQ",
-          "level": "high"
-        },
-        {
-          "asset": "S&P500",
-          "level": "high"
-        },
-        {
-          "asset": "NYDOW",
-          "level": "medium"
-        },
-        {
-          "asset": "日経先物",
-          "level": "medium"
-        },
-        {
-          "asset": "USDJPY",
-          "level": "high"
-        },
-        {
-          "asset": "米2年金利",
-          "level": "high"
-        },
-        {
-          "asset": "米10年金利",
-          "level": "medium"
-        },
-        {
-          "asset": "VIX",
-          "level": "medium"
-        }
-      ],
-      "metadata": {},
-      "status": "upcoming",
-      "information_status": "official_confirmed",
-      "result_status": "awaiting_release",
-      "phase": "pre_release",
-      "metrics": {
-        "previous": null,
-        "revised_previous": null,
-        "forecast_average": null,
-        "forecast_range": null,
-        "market_center": null,
-        "actual": null
-      },
-      "consensus": {
-        "source": null,
-        "components": []
-      },
-      "detail": {
-        "acceleration": "比較データ不足",
-        "focus": [
-          "総合値",
-          "個人消費",
-          "設備投資",
-          "在庫"
-        ],
-        "policy_meaning": "景気の強さと政策余地を確認",
-        "market_positioning": "無料で検証できるポジションデータの取得待ち",
-        "historical_context": "同条件イベントの履歴蓄積待ち",
-        "revision_note": "改定値は未確認"
-      },
-      "surprise": null,
-      "interpretation": null,
-      "pre_event_prediction": null
-    },
-    {
-      "event_id": "bea_pce_2026-10-29",
-      "date": "2026-10-29",
-      "time_jst": "21:30",
-      "time_status": "confirmed",
-      "label": "米国個人所得・支出／PCE",
-      "region": "united_states",
-      "currency": "USD",
-      "category": "economic_indicator",
-      "indicator": "PCE",
-      "importance": "high",
-      "verification_status": "official_confirmed",
-      "source": {
-        "id": "bea",
-        "label": "米商務省経済分析局（BEA）",
-        "url": "https://www.bea.gov/news/schedule"
-      },
-      "focus": [
-        "総合PCE",
-        "コアPCE",
-        "個人所得",
-        "個人消費"
-      ],
-      "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
-      "affected_assets": [
-        {
-          "asset": "NASDAQ",
-          "level": "high"
-        },
-        {
-          "asset": "S&P500",
-          "level": "high"
-        },
-        {
-          "asset": "NYDOW",
-          "level": "medium"
-        },
-        {
-          "asset": "日経先物",
-          "level": "medium"
-        },
-        {
-          "asset": "USDJPY",
-          "level": "high"
-        },
-        {
-          "asset": "米2年金利",
-          "level": "high"
-        },
-        {
-          "asset": "米10年金利",
-          "level": "medium"
-        },
-        {
-          "asset": "VIX",
-          "level": "medium"
-        }
-      ],
-      "metadata": {},
-      "status": "upcoming",
-      "information_status": "official_confirmed",
-      "result_status": "awaiting_release",
-      "phase": "pre_release",
-      "metrics": {
-        "previous": null,
-        "revised_previous": null,
-        "forecast_average": null,
-        "forecast_range": null,
-        "market_center": null,
-        "actual": null
-      },
-      "consensus": {
-        "source": null,
-        "components": []
-      },
-      "detail": {
-        "acceleration": "比較データ不足",
-        "focus": [
-          "総合PCE",
-          "コアPCE",
-          "個人所得",
-          "個人消費"
-        ],
-        "policy_meaning": "FRBが重視する物価と消費の持続性を確認",
+        "policy_meaning": "火曜日時点の投機・商業ポジション偏りを確認",
         "market_positioning": "無料で検証できるポジションデータの取得待ち",
         "historical_context": "同条件イベントの履歴蓄積待ち",
         "revision_note": "改定値は未確認"

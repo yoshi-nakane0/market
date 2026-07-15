@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T02:36:23.776Z",
+  "updated_at": "2026-07-15T04:15:06.848Z",
   "verification_states": [
     {
       "key": "official_confirmed",
@@ -31,9 +31,9 @@
     }
   ],
   "event_counts": {
-    "official_confirmed": 24,
+    "official_confirmed": 31,
     "secondary_confirmed": 8,
-    "estimated": 13,
+    "estimated": 20,
     "unverified": 0,
     "changed": 0,
     "cancelled": 0,
@@ -46,8 +46,8 @@
       "url": "https://www.bls.gov/schedule/2026/",
       "machine_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
-      "note": "BLS公式日程を正本とし、機械取得できない場合は確認済み日程を使用します。"
+      "checked_at": "2026-07-15T04:15:06.848Z",
+      "note": "公式公開日程を週次取得しました。"
     },
     {
       "id": "bea",
@@ -55,24 +55,24 @@
       "url": "https://www.bea.gov/news/schedule",
       "machine_url": "https://apps.bea.gov/API/signup/release_dates.json",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
-      "note": "公式公開日程を正本として使用します。"
+      "checked_at": "2026-07-15T04:15:06.848Z",
+      "note": "公式公開日程を週次取得しました。"
     },
     {
       "id": "federal_reserve",
       "label": "連邦準備制度（FRB）",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
-      "note": "公式公開日程を正本として使用します。"
+      "checked_at": "2026-07-15T04:15:06.848Z",
+      "note": "公式公開日程を週次取得しました。"
     },
     {
       "id": "boj",
       "label": "日本銀行",
       "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
-      "note": "公式公開日程を正本として使用します。"
+      "checked_at": "2026-07-15T04:15:06.848Z",
+      "note": "公式公開日程を週次取得しました。"
     },
     {
       "id": "forex_factory",
@@ -80,7 +80,7 @@
       "url": "https://www.forexfactory.com/calendar",
       "machine_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "verification_status": "secondary_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
+      "checked_at": "2026-07-15T04:15:06.848Z",
       "note": "Actual・Forecast・Previousと重要度の補助確認に使用します。色は指標の予想差であり、株価や為替への良し悪しを示すものではありません。時刻変更の可能性があるため、正式日程の正本にはしません。"
     },
     {
@@ -89,7 +89,7 @@
       "url": "https://www.treasurydirect.gov/auctions/upcoming/",
       "machine_url": "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
+      "checked_at": "2026-07-15T04:15:06.848Z",
       "note": "入札日・発行額・発行日を公式APIで確認"
     },
     {
@@ -97,16 +97,24 @@
       "label": "米商品先物取引委員会（CFTC）",
       "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/ReleaseSchedule/index.htm",
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-15T02:36:23.776Z",
-      "note": "通常は火曜日時点のポジションを金曜日15:30米東部時間に公表"
+      "checked_at": "2026-07-15T04:15:06.848Z",
+      "note": "公式発表予定から取得。通常は火曜日時点のポジションを15:30米東部時間に公表"
     },
     {
       "id": "sec_ir",
       "label": "SEC EDGAR・各社IR",
       "url": "https://www.sec.gov/edgar/search/",
       "verification_status": "unverified",
-      "checked_at": "2026-07-15T02:36:23.776Z",
+      "checked_at": "2026-07-15T04:15:06.848Z",
       "note": "決算日程と企業発表はSEC・各社IRを一次情報として手動登録"
+    },
+    {
+      "id": "earnings_calendar",
+      "label": "決算日程データ",
+      "url": null,
+      "verification_status": "secondary_confirmed",
+      "checked_at": "2026-07-15T00:00:00.000Z",
+      "note": "指数への影響が大きいTier A企業を対象とし、企業IRで未確認の日程は推定として表示"
     }
   ],
   "official_source_rule": "BLS・BEA・FRB・日銀・TreasuryDirect・CFTC・SEC／各社IRを一次情報として優先",
