@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-16T20:58:25.689+09:00",
-  "data_cutoff": "2026-07-16T09:12:50.555+09:00",
+  "generated_at": "2026-07-17T00:30:08.254+09:00",
+  "data_cutoff": "2026-07-17T00:16:09.499+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
     "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
@@ -54,7 +54,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "外部環境が前回から悪化。 市場心理が前回から改善",
+    "change_since_previous": "成長が前回から悪化",
     "layers": {
       "real_economy": [
         "growth",
@@ -73,7 +73,7 @@
     "model_version": "public-multi-indicator-outlook-v2",
     "status": "provisional",
     "status_label": "試算・分析専用",
-    "headline": "実質GDP・4四半期先は2.45%（前年比）の分析試算です。売買判断には利用できません。",
+    "headline": "実質GDP・4四半期先は2.46%（前年比）の分析試算です。売買判断には利用できません。",
     "horizon_label": "現在四半期〜4四半期先",
     "base_case": "成長は緩やか、物価は未算出、政策はおおむね中立を基本シナリオとします。",
     "methodology_note": "多指標の現在推計、4四半期成長のモデル分解、金融環境、雇用需給、物価内訳を、無料の公開データで再構成しています。公表日を日単位で守り、据え置き等の基準予測より改善した数値だけを表示します。寄与はモデル上の分解で、個別要因の因果効果ではありません。独自の社内モデルを複製したものではありません。",
@@ -89,7 +89,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-07-16",
+        "origin_date": "2026-07-17",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -122,21 +122,21 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-07-16",
+        "origin_date": "2026-07-17",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
           "end_date": "2027-09-30"
         },
         "forecast_value": null,
-        "candidate_value": 2.4463,
+        "candidate_value": 2.4559,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
         "candidate_interval_80": {
-          "low": -0.0723,
-          "high": 3.3439,
+          "low": -0.0627,
+          "high": 3.3535,
           "confidence_level": 0.8,
           "empirical_coverage": 0.7882,
           "sample_count": 85
@@ -146,28 +146,32 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0.0096,
         "history": [],
         "candidate_history": [
           {
             "as_of_date": "2026-07-16",
             "value": 2.4463
+          },
+          {
+            "as_of_date": "2026-07-17",
+            "value": 2.4559
           }
         ],
         "forecast": null,
-        "candidate_forecast": "2.45%（前年比）",
+        "candidate_forecast": "2.46%（前年比）",
         "interval": null,
-        "candidate_interval": "-0.07%〜3.34%（前年比）",
+        "candidate_interval": "-0.06%〜3.35%（前年比）",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0.01ポイント",
         "rationale": "公開データの各要因を4四半期先GDPへ時系列モデルで結び付けて分解"
       },
       {
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-07-16",
-        "target_period": "2027-07-16",
+        "origin_date": "2026-07-17",
+        "target_period": "2027-07-17",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -195,8 +199,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-07-16",
-        "target_period": "2027-07-16",
+        "origin_date": "2026-07-17",
+        "target_period": "2027-07-17",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -224,8 +228,8 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-07-16",
-        "target_period": "2026-07-16",
+        "origin_date": "2026-07-17",
+        "target_period": "2026-07-17",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -261,7 +265,7 @@
       {
         "key": "momentum",
         "label": "景気モメンタム",
-        "estimate": "+0.17ポイント",
+        "estimate": "+0.18ポイント",
         "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
@@ -296,7 +300,7 @@
       {
         "key": "total",
         "label": "4四半期先GDP予測",
-        "estimate": "2.45%（前年比）",
+        "estimate": "2.46%（前年比）",
         "status": "available",
         "interpretation": "model_attribution_not_causal"
       }
@@ -360,8 +364,8 @@
       "probability_status": "過去時点検証待ち"
     },
     "forecast_revision": {
-      "status": "not_available",
-      "headline": "初回計算のため、前回見通しとの比較はありません。",
+      "status": "provisional",
+      "headline": "主要な予測値は前回からほぼ変わりません。",
       "drivers": []
     },
     "scenarios": [],
@@ -392,7 +396,7 @@
   "world_model": {
     "schema_version": "economic-world-model-v1",
     "model_version": "multi-region-semi-structural-ensemble-v1",
-    "origin_date": "2026-07-16",
+    "origin_date": "2026-07-17",
     "status": "partial",
     "usage_permission": "monitor_only",
     "forecast_horizon_quarters": 12,
@@ -437,18 +441,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.8696,
-                "p50": 2.1752,
-                "p90": 2.9333,
+                "p10": 0.8699,
+                "p50": 2.2041,
+                "p90": 2.935,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 3.049,
-                "p50": 3.2369,
-                "p90": 3.5653,
+                "p10": 3.0442,
+                "p50": 3.2426,
+                "p90": 3.6966,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -466,18 +470,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.4157,
-                "p50": 1.5907,
-                "p90": 3.4687,
+                "p10": -1.3808,
+                "p50": 1.573,
+                "p90": 3.4277,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.3542,
-                "p50": 2.569,
-                "p90": 2.9246,
+                "p10": 2.3459,
+                "p50": 2.5922,
+                "p90": 4.4441,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -495,18 +499,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.0633,
-                "p50": 1.5919,
-                "p90": 3.2922,
+                "p10": -1.0078,
+                "p50": 1.5856,
+                "p90": 3.1879,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.6271,
-                "p50": 2.1084,
-                "p90": 2.6115,
+                "p10": 1.6435,
+                "p50": 2.1313,
+                "p90": 3.5342,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -524,18 +528,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.0698,
-                "p50": 1.7528,
-                "p90": 2.7752,
+                "p10": 0.0746,
+                "p50": 1.7345,
+                "p90": 2.8032,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.3829,
-                "p50": 1.9987,
-                "p90": 2.4898,
+                "p10": 1.3812,
+                "p50": 1.9946,
+                "p90": 2.5215,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -564,18 +568,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.036,
-                "p50": 0.2514,
-                "p90": 1.0325,
+                "p10": -1.0116,
+                "p50": 0.2905,
+                "p90": 0.9345,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.0116,
-                "p50": 2.1863,
-                "p90": 2.5044,
+                "p10": 1.993,
+                "p50": 2.1882,
+                "p90": 3.0342,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -593,18 +597,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -2.6638,
-                "p50": 0.4255,
-                "p90": 2.2923,
+                "p10": -2.6029,
+                "p50": 0.4229,
+                "p90": 2.289,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.3057,
-                "p50": 2.52,
-                "p90": 2.8335,
+                "p10": 2.2725,
+                "p50": 2.5203,
+                "p90": 5.9765,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -622,18 +626,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -2.4071,
-                "p50": 0.5779,
-                "p90": 2.2856,
+                "p10": -2.4224,
+                "p50": 0.5377,
+                "p90": 2.1648,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.7449,
-                "p50": 2.2529,
-                "p90": 2.7443,
+                "p10": 1.7974,
+                "p50": 2.244,
+                "p90": 5.1013,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -651,18 +655,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.3787,
-                "p50": 0.6389,
-                "p90": 1.6468,
+                "p10": -1.4634,
+                "p50": 0.5677,
+                "p90": 1.6299,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.5645,
-                "p50": 2.1213,
-                "p90": 2.7371,
+                "p10": 1.5638,
+                "p50": 2.1334,
+                "p90": 3.3031,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -691,18 +695,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -0.8108,
-                "p50": 0.4845,
-                "p90": 1.2288,
+                "p10": -0.8233,
+                "p50": 0.475,
+                "p90": 1.2189,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.8445,
-                "p50": 3.0569,
-                "p90": 3.3851,
+                "p10": 2.8606,
+                "p50": 3.0506,
+                "p90": 3.7021,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -720,18 +724,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -2.3258,
-                "p50": 0.7527,
-                "p90": 2.644,
+                "p10": -2.2124,
+                "p50": 0.7744,
+                "p90": 2.6673,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.2781,
-                "p50": 2.4833,
-                "p90": 2.8826,
+                "p10": 2.2608,
+                "p50": 2.4686,
+                "p90": 5.3093,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -749,18 +753,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.7976,
-                "p50": 0.9515,
-                "p90": 2.7111,
+                "p10": -1.8064,
+                "p50": 0.9905,
+                "p90": 2.5831,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.6,
-                "p50": 2.0919,
-                "p90": 2.6281,
+                "p10": 1.6013,
+                "p50": 2.1227,
+                "p90": 4.4517,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -778,18 +782,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -0.8378,
-                "p50": 1.1001,
-                "p90": 2.1222,
+                "p10": -0.8152,
+                "p50": 1.1056,
+                "p90": 2.2152,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.4663,
-                "p50": 2.029,
-                "p90": 2.6173,
+                "p10": 1.4704,
+                "p50": 2.0729,
+                "p90": 2.9653,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -818,18 +822,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 2.9135,
-                "p50": 4.2014,
-                "p90": 4.9528,
+                "p10": 2.9382,
+                "p50": 4.2109,
+                "p90": 4.9089,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.3808,
-                "p50": 1.5838,
-                "p90": 1.9159,
+                "p10": 1.3887,
+                "p50": 1.5843,
+                "p90": 2.1739,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -847,18 +851,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.7901,
-                "p50": 3.7967,
-                "p90": 5.7649,
+                "p10": 0.8567,
+                "p50": 3.8492,
+                "p90": 5.6831,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.7635,
-                "p50": 1.9936,
-                "p90": 2.3464,
+                "p10": 1.7596,
+                "p50": 1.9948,
+                "p90": 4.4568,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -876,18 +880,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 1.3789,
-                "p50": 4.0903,
-                "p90": 5.7825,
+                "p10": 1.3888,
+                "p50": 4.0616,
+                "p90": 5.7874,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.4269,
-                "p50": 1.9273,
-                "p90": 2.4986,
+                "p10": 1.4863,
+                "p50": 1.9368,
+                "p90": 3.9644,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -905,18 +909,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 2.4996,
-                "p50": 4.2568,
-                "p90": 5.3329,
+                "p10": 2.4198,
+                "p50": 4.2718,
+                "p90": 5.3101,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.3629,
-                "p50": 1.9361,
-                "p90": 2.5548,
+                "p10": 1.3916,
+                "p50": 1.9587,
+                "p90": 2.692,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -945,18 +949,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 1.7614,
-                "p50": 3.0548,
-                "p90": 3.8132,
+                "p10": 1.7809,
+                "p50": 3.0852,
+                "p90": 3.7501,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.9577,
-                "p50": 3.1435,
-                "p90": 3.5136,
+                "p10": 2.9453,
+                "p50": 3.156,
+                "p90": 3.518,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -974,18 +978,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.1133,
-                "p50": 3.0824,
-                "p90": 5.0073,
+                "p10": 0.1894,
+                "p50": 3.0873,
+                "p90": 5.0184,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.8316,
-                "p50": 3.0679,
-                "p90": 3.3797,
+                "p10": 2.8435,
+                "p50": 3.0666,
+                "p90": 4.5239,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -1003,18 +1007,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.6157,
-                "p50": 3.1815,
-                "p90": 4.8163,
+                "p10": 0.6195,
+                "p50": 3.1737,
+                "p90": 4.8781,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.4534,
-                "p50": 2.9124,
-                "p90": 3.4843,
+                "p10": 2.4572,
+                "p50": 2.9581,
+                "p90": 4.0377,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -1032,18 +1036,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 1.6687,
-                "p50": 3.2806,
-                "p90": 4.261,
+                "p10": 1.643,
+                "p50": 3.1967,
+                "p90": 4.2686,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.3348,
-                "p50": 2.892,
-                "p90": 3.3505,
+                "p10": 2.3351,
+                "p50": 2.9014,
+                "p90": 3.3937,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -1104,10 +1108,10 @@
   },
   "outlook": {
     "one_month": {
-      "status": "provisional",
+      "status": "not_available",
       "label": "1か月",
       "model_kind": "event_driven",
-      "base_case": "主要データ更新待ち。現在の1か月見通しは暫定判定。",
+      "base_case": "中立。現時点ではマクロ上の優位性なし。",
       "improve_probability": null,
       "stable_probability": null,
       "deteriorate_probability": null,
@@ -1117,7 +1121,7 @@
         "雇用"
       ],
       "scheduled_catalysts": [
-        "Philly Fed Manufacturing Index"
+        "FOMC Statement"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -1148,10 +1152,10 @@
       }
     },
     "three_month": {
-      "status": "provisional",
+      "status": "not_available",
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
-      "base_case": "主要データ更新待ち。現在の3か月見通しは暫定判定。",
+      "base_case": "中立。現時点ではマクロ上の優位性なし。",
       "improve_probability": null,
       "stable_probability": null,
       "deteriorate_probability": null,
@@ -1161,7 +1165,7 @@
         "雇用"
       ],
       "scheduled_catalysts": [
-        "Philly Fed Manufacturing Index"
+        "FOMC Statement"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -1289,6 +1293,37 @@
       "details_available": true
     },
     {
+      "key": "external",
+      "label": "外部環境",
+      "region": "global",
+      "state": "中立",
+      "direction": "stable",
+      "direction_label": "横ばい",
+      "contribution": "positive",
+      "contribution_label": "+小",
+      "evidence": [
+        {
+          "label": "WTI原油",
+          "state": "WTI原油が強くプラスに寄与",
+          "as_of_date": "2026-07-13",
+          "availability": "available"
+        },
+        {
+          "label": "EURUSD",
+          "state": "EURUSDが小幅にマイナス",
+          "as_of_date": "2026-07-10",
+          "availability": "available"
+        },
+        {
+          "label": "USDJPY",
+          "state": "USDJPYは中立圏",
+          "as_of_date": "2026-07-10",
+          "availability": "available"
+        }
+      ],
+      "details_available": true
+    },
+    {
       "key": "growth",
       "label": "成長",
       "region": "united_states",
@@ -1311,40 +1346,9 @@
           "availability": "available"
         },
         {
-          "label": "小売売上高",
-          "state": "小売売上高が小幅にプラス",
+          "label": "鉱工業生産",
+          "state": "鉱工業生産は中立圏",
           "as_of_date": "2026-05-01",
-          "availability": "available"
-        }
-      ],
-      "details_available": true
-    },
-    {
-      "key": "external",
-      "label": "外部環境",
-      "region": "global",
-      "state": "中立",
-      "direction": "deteriorating",
-      "direction_label": "悪化",
-      "contribution": "positive",
-      "contribution_label": "+小",
-      "evidence": [
-        {
-          "label": "WTI原油",
-          "state": "WTI原油が強くプラスに寄与",
-          "as_of_date": "2026-07-13",
-          "availability": "available"
-        },
-        {
-          "label": "EURUSD",
-          "state": "EURUSDが小幅にマイナス",
-          "as_of_date": "2026-07-10",
-          "availability": "available"
-        },
-        {
-          "label": "USDJPY",
-          "state": "USDJPYは中立圏",
-          "as_of_date": "2026-07-10",
           "availability": "available"
         }
       ],
@@ -1390,76 +1394,6 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-07-16_2130_usd_philly_fed_manufacturing_index",
-      "release_at": "2026-07-16T12:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "Philly Fed Manufacturing Index",
-      "importance": "medium",
-      "importance_label": "中",
-      "previous": "10.3",
-      "revised_previous": null,
-      "consensus": "12.7",
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
-        "inline": "想定どおりなら、現在の政策経路を維持",
-        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
-      },
-      "attention_score": 25,
-      "attention_components": {
-        "regime_relevance": 0.78,
-        "surprise_likelihood": 0.81,
-        "decision_impact": 0.72,
-        "asset_sensitivity": 0.55,
-        "proximity": 1
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
-      "id": "secondary_ff_2026-07-16_2130_usd_core_retail_sales_m_m",
-      "release_at": "2026-07-16T12:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "米国コア小売売上高",
-      "importance": "medium",
-      "importance_label": "中",
-      "previous": "0.8%",
-      "revised_previous": null,
-      "consensus": "0.0%",
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
-        "inline": "予想付近なら、現在の基本シナリオを維持",
-        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
-      },
-      "attention_score": 25,
-      "attention_components": {
-        "regime_relevance": 0.67,
-        "surprise_likelihood": 0.93,
-        "decision_impact": 0.72,
-        "asset_sensitivity": 0.55,
-        "proximity": 1
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
       "id": "secondary_ff_2026-07-30_0300_usd_fomc_statement",
       "release_at": "2026-07-29T18:00:00.000Z",
       "timezone": "Asia/Tokyo",
@@ -1489,6 +1423,76 @@
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.6
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
+      "id": "secondary_ff_2026-07-30_0300_usd_federal_funds_rate",
+      "release_at": "2026-07-29T18:00:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "Federal Funds Rate",
+      "importance": "high",
+      "importance_label": "高",
+      "previous": null,
+      "revised_previous": null,
+      "consensus": null,
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
+        "inline": "想定どおりなら、現在の政策経路を維持",
+        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
+      },
+      "attention_score": 19,
+      "attention_components": {
+        "regime_relevance": 1,
+        "surprise_likelihood": 0.62,
+        "decision_impact": 0.92,
+        "asset_sensitivity": 0.55,
+        "proximity": 0.6
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
+      "id": "secondary_ff_2026-07-17_2300_usd_prelim_uom_consumer_sentiment",
+      "release_at": "2026-07-17T14:00:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "Prelim UoM Consumer Sentiment",
+      "importance": "medium",
+      "importance_label": "中",
+      "previous": "48.9",
+      "revised_previous": null,
+      "consensus": "51.0",
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
+        "inline": "予想付近なら、現在の基本シナリオを維持",
+        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
+      },
+      "attention_score": 16,
+      "attention_components": {
+        "regime_relevance": 0.67,
+        "surprise_likelihood": 0.62,
+        "decision_impact": 0.72,
+        "asset_sensitivity": 0.55,
+        "proximity": 1
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -1559,8 +1563,7 @@
       "confidence_reasons": [
         "不足地域: 日本・世界",
         "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -1673,8 +1676,7 @@
       "confidence_reasons": [
         "対象資産固有のウォークフォワード検証がありません",
         "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -1776,8 +1778,7 @@
       "confidence_reasons": [
         "不足地域: 世界",
         "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -1885,8 +1886,7 @@
         "不足地域: 世界",
         "対象資産固有のウォークフォワード検証がありません",
         "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -1994,8 +1994,7 @@
         "不足地域: 日本・世界",
         "対象資産固有のウォークフォワード検証がありません",
         "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -2079,22 +2078,21 @@
   "quality": {
     "confidence_label": "low",
     "confidence_label_ja": "低",
-    "confidence_score_detail": 0.19,
+    "confidence_score_detail": 0.33,
     "confidence_reasons": [
-      "公式系列の一部が更新待ちです",
       "1か月・3か月の状態予測は過去成績の利用条件を満たしていません",
       "信頼度別の過去成績は校正途中です",
       "日本・世界要因の充足度が不足しています"
     ],
     "data_coverage": 1,
     "data_freshness": "fresh",
-    "model_agreement": 0.89,
-    "regime_stability": 1,
+    "model_agreement": 0.88,
+    "regime_stability": 0.99,
     "components": {
       "data_coverage": 1,
       "data_freshness": "fresh",
-      "model_agreement": 0.89,
-      "regime_stability": 1,
+      "model_agreement": 0.88,
+      "regime_stability": 0.99,
       "historical_forecast_performance": "insufficient",
       "forecast_interval_width": 3.4162,
       "important_event_before_decision": null
@@ -2107,8 +2105,8 @@
     "stale_series": [],
     "missing_series": [],
     "next_update_event": {
-      "label": "Philly Fed Manufacturing Index",
-      "release_at": "2026-07-16T12:30:00.000Z"
+      "label": "FOMC Statement",
+      "release_at": "2026-07-29T18:00:00.000Z"
     },
     "point_in_time_validation": {
       "status": "complete",
@@ -2228,44 +2226,45 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-16T20:58:25.689+09:00",
-  "date": "2026-07-16",
-  "snapshot_id": "macro-2026-07-16-macro-public-v3-8f5e3608eeac73c6",
-  "snapshot_content_hash": "8f5e3608eeac73c634bcb402da43f9b4ef753279d91d19d74c20866f6ca23a4c",
-  "as_of_date": "2026-07-16",
+  "updated_at": "2026-07-17T00:30:08.254+09:00",
+  "date": "2026-07-17",
+  "snapshot_id": "macro-2026-07-17-macro-public-v3-6b97a6c4d4e69385",
+  "snapshot_content_hash": "6b97a6c4d4e69385b5a7164a0e7bdd5287aac1c5f5af3cded13f693da2ae20ca",
+  "as_of_date": "2026-07-17",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-16T00:12:50.555Z",
+  "signal_at": "2026-07-16T15:16:09.499Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-17",
-    "entry_at": "2026-07-16T23:45:00.000Z",
-    "valid_until": "2026-07-16T23:45:00.000Z",
+    "entry_session_date": "2026-07-20",
+    "entry_at": "2026-07-19T23:45:00.000Z",
+    "valid_until": "2026-07-19T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "1",
+  "risk_score": "0",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-16T00:10:08.798Z",
-    "stale_after": "2026-07-17T12:10:08.798Z",
+    "fetched_at": "2026-07-16T15:13:04.040Z",
+    "stale_after": "2026-07-18T03:13:04.040Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-16",
+    "as_of_date": "2026-07-17",
     "checked_count": 32,
     "success_count": 32,
     "raw_fetch_status": "complete",
-    "official_status": "partial",
+    "official_status": "complete",
     "official_checked_count": 10,
-    "official_success_count": 7,
-    "official_skipped_count": 3,
+    "official_success_count": 10,
+    "official_skipped_count": 0,
     "official_failure_count": 0,
     "sources": [
       "FRED",
-      "BLS"
+      "BLS",
+      "BEA"
     ]
   },
   "data_quality": {
@@ -2275,16 +2274,16 @@
     "critical_missing_count": 0,
     "vintage_integrity": "verified",
     "label": "データ品質",
-    "value": "70%",
-    "score": 0.7,
+    "value": "100%",
+    "score": 1,
     "freshness_status": "fresh",
     "metric_kind": "data_completeness_and_freshness_not_probability",
     "position_sizing_allowed": false
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "89/100",
-    "score": 0.89,
+    "value": "88/100",
+    "score": 0.88,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -2292,23 +2291,19 @@
   },
   "predictive_probability": {
     "label": "予測確率",
-    "status": "reference_only",
-    "value": "レンジ 42.8%",
-    "probability": 0.42767454134919564,
-    "probabilities": {
-      "short": 0.20890287314171216,
-      "range": 0.42767454134919564,
-      "long": 0.36342258550909234
-    },
-    "outcome": "range",
-    "outcome_label": "レンジ",
+    "status": "unavailable",
+    "value": "未算出",
+    "probability": null,
+    "probabilities": null,
+    "outcome": null,
+    "outcome_label": null,
     "target_key": "nikkei225_futures",
     "target_label": "日経225先物",
     "horizon": "20d",
     "horizon_label": "1か月先（20営業日）",
-    "correct_label_definition": "対象期間の騰落率が-4%以上、+4%以下",
-    "calibrated": true,
-    "calibration_method": "学習期間外の時系列データで補正",
+    "correct_label_definition": null,
+    "calibrated": false,
+    "calibration_method": null,
     "historical_validation": {
       "sample_count": 196,
       "effective_sample_count": 50,
@@ -2317,18 +2312,12 @@
       "brier_score": 0.1949,
       "brier_skill": 0.0171,
       "calibration_error": 0.13,
-      "similar_probability_history": {
-        "probability_min": 0.4,
-        "probability_max": 0.5,
-        "mean_predicted_probability": 0.4671,
-        "observed_frequency": 0.6829,
-        "sample_count": 41
-      },
+      "similar_probability_history": null,
       "usage_permission": "monitor_only"
     },
     "usage_permission": "monitor_only",
     "position_sizing_allowed": false,
-    "note": "確率補正済みのモデル出力です。検証合格時のみ、誤差と過去の不利な値動きを加味して売買量へ反映します。",
+    "note": "対象・期間・正解条件を固定した確率を算出できていません。",
     "metric_kind": "calibrated_multiclass_predictive_probability"
   },
   "predictive_validation": {
@@ -2358,11 +2347,11 @@
     "max_account_risk_fraction": 0.005,
     "max_notional_fraction": 0.25,
     "stop_distance_fraction": null,
-    "probability": 0.427675,
-    "baseline_probability": 0.531856,
+    "probability": null,
+    "baseline_probability": null,
     "calibration_haircut": 0.234,
-    "conservative_probability": 0.193675,
-    "probability_edge": -0.338181,
+    "conservative_probability": null,
+    "probability_edge": null,
     "tail_adverse_excursion": -0.069,
     "method": "確率誤差を差し引いた上乗せ幅と、過去の不利な値動きから算出",
     "contracts_calculation": "口座資金 × 推奨比率 ÷ 1枚の取引金額（小数点以下切り捨て）",
@@ -2505,7 +2494,6 @@
   "validation": {
     "status": "monitor_only",
     "reasons": [
-      "data_confidence_lt_0_75",
       "effective_sample_count_below_minimum",
       "independent_trade_count_below_minimum",
       "horizon_usage_permission_not_usable",
@@ -2514,8 +2502,6 @@
       "profit_factor_lt_1_20",
       "event_calendar_not_officially_verified",
       "upstream_usage_permission_not_trade_candidate",
-      "official_source_check_incomplete",
-      "source_reconciliation_not_pass",
       "macro_decision_not_directional",
       "macro_decision_fresh_entry_conditions_not_met",
       "session_calendar_not_verified",
@@ -2525,11 +2511,14 @@
       "exact_20d_target_metrics_revalidation_failed",
       "validation_gate_not_usable",
       "predictive_validation_not_usable",
+      "predictive_current_features_unavailable_or_stale",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
-      "predictive_model_source_revision_not_committed",
+      "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
+      "supervised_directional_confidence_insufficient",
       "supervised_signal_not_directional",
+      "supervised_signal_mismatch",
       "conservative_probability_edge_not_positive"
     ],
     "usable_horizons": [],
@@ -2862,7 +2851,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": 1,
+    "score": 0,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -2877,15 +2866,15 @@
     "horizon": "20d",
     "horizon_label": "1か月先（20営業日）",
     "breadth": {
-      "long": 1,
-      "range": 5,
+      "long": 2,
+      "range": 4,
       "short": 1,
       "unavailable": 0,
       "total": 7,
       "required": 4,
       "indicator": {
-        "long": 0.44,
-        "range": 0.25,
+        "long": 0.41,
+        "range": 0.28,
         "short": 0.3,
         "usable_indicator_count": 30,
         "effective_weight": 7
@@ -2893,14 +2882,14 @@
     },
     "evidence": {
       "long": [
-        "金融環境は上向き材料"
+        "金融環境は上向き材料",
+        "市場心理は上向き材料"
       ],
       "range": [
         "成長は中立圏",
         "物価圧力は中立圏",
         "雇用は中立圏",
-        "外部環境は中立圏",
-        "市場心理は中立圏"
+        "外部環境は中立圏"
       ],
       "short": [
         "政策余地は下向き材料"
@@ -2920,8 +2909,8 @@
     "valid_until": null,
     "action": "wait",
     "label": "見送り",
-    "guidance": "最新データの更新後に再判定",
-    "reason_code": "data_pending"
+    "guidance": "方向が定まるまで待つ",
+    "reason_code": "no_direction"
   },
   "shock_assessment": {
     "status": "contained",
@@ -3037,7 +3026,7 @@
   "state_scores": [
     {
       "label": "成長",
-      "value": 53,
+      "value": 52,
       "tone": "neutral"
     },
     {
@@ -3067,8 +3056,8 @@
     },
     {
       "label": "市場心理",
-      "value": 53,
-      "tone": "neutral"
+      "value": 54,
+      "tone": "positive"
     }
   ],
   "outlooks": [],
