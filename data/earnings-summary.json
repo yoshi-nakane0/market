@@ -302,44 +302,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -769,44 +731,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -1231,44 +1155,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -1696,44 +1582,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -2158,44 +2006,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -2615,44 +2425,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -3078,44 +2850,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -3545,44 +3279,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -4002,44 +3698,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -4470,44 +4128,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -4935,44 +4555,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
@@ -5404,44 +4986,6 @@
             "tone": "unavailable"
           }
         ],
-        "reaction_timeline": [
-          {
-            "key": "after_hours",
-            "label": "時間外",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_open",
-            "label": "翌日寄り付き",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "next_close",
-            "label": "翌日終値",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_5",
-            "label": "5営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          },
-          {
-            "key": "day_20",
-            "label": "20営業日後",
-            "change_pct": null,
-            "state": "確認中"
-          }
-        ],
-        "drift": {
-          "day_5": "確認中",
-          "day_20": "確認中",
-          "comparison": "過去同種決算との比較はデータ蓄積中",
-          "pattern": "初動継続／反転を確認中"
-        },
         "explanation": "決算品質、市場期待、ガイダンス、利益率、設備投資、同時刻の市場要因を分けて確認後に説明します。"
       },
       "fundamentals": [
