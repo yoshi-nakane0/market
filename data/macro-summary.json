@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-16T14:29:25.934+09:00",
+  "generated_at": "2026-07-16T20:58:25.689+09:00",
   "data_cutoff": "2026-07-16T09:12:50.555+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -1117,7 +1117,7 @@
         "雇用"
       ],
       "scheduled_catalysts": [
-        "米国コア小売売上高"
+        "Philly Fed Manufacturing Index"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -1161,7 +1161,7 @@
         "雇用"
       ],
       "scheduled_catalysts": [
-        "米国コア小売売上高"
+        "Philly Fed Manufacturing Index"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -1390,12 +1390,47 @@
   },
   "next_events": [
     {
-      "id": "secondary_2026-07-16_2130_usd_retail_sales",
+      "id": "secondary_ff_2026-07-16_2130_usd_philly_fed_manufacturing_index",
+      "release_at": "2026-07-16T12:30:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "Philly Fed Manufacturing Index",
+      "importance": "medium",
+      "importance_label": "中",
+      "previous": "10.3",
+      "revised_previous": null,
+      "consensus": "12.7",
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
+        "inline": "想定どおりなら、現在の政策経路を維持",
+        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
+      },
+      "attention_score": 25,
+      "attention_components": {
+        "regime_relevance": 0.78,
+        "surprise_likelihood": 0.81,
+        "decision_impact": 0.72,
+        "asset_sensitivity": 0.55,
+        "proximity": 1
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
+      "id": "secondary_ff_2026-07-16_2130_usd_core_retail_sales_m_m",
       "release_at": "2026-07-16T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "米国コア小売売上高",
-      "importance": "low",
-      "importance_label": "低",
+      "importance": "medium",
+      "importance_label": "中",
       "previous": "0.8%",
       "revised_previous": null,
       "consensus": "0.0%",
@@ -1412,11 +1447,11 @@
         "inline": "予想付近なら、現在の基本シナリオを維持",
         "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
       },
-      "attention_score": 14,
+      "attention_score": 25,
       "attention_components": {
-        "regime_relevance": 0.5,
+        "regime_relevance": 0.67,
         "surprise_likelihood": 0.93,
-        "decision_impact": 0.53,
+        "decision_impact": 0.72,
         "asset_sensitivity": 0.55,
         "proximity": 1
       },
@@ -1425,47 +1460,12 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_2026-07-16_2130_usd_jobless_claims",
-      "release_at": "2026-07-16T12:30:00.000Z",
+      "id": "secondary_ff_2026-07-30_0300_usd_fomc_statement",
+      "release_at": "2026-07-29T18:00:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "米国新規失業保険申請件数",
-      "importance": "low",
-      "importance_label": "低",
-      "previous": "215K",
-      "revised_previous": null,
-      "consensus": "216K",
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
-        "inline": "予想付近なら、現在の基本シナリオを維持",
-        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
-      },
-      "attention_score": 9,
-      "attention_components": {
-        "regime_relevance": 0.5,
-        "surprise_likelihood": 0.58,
-        "decision_impact": 0.53,
-        "asset_sensitivity": 0.55,
-        "proximity": 1
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
-      "id": "bls_import_prices_2026-07-17",
-      "release_at": "2026-07-17T12:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "米国輸入物価",
-      "importance": "low",
-      "importance_label": "低",
+      "label": "FOMC Statement",
+      "importance": "high",
+      "importance_label": "高",
       "previous": null,
       "revised_previous": null,
       "consensus": null,
@@ -1478,21 +1478,21 @@
       },
       "affected_assets": [],
       "reactions": {
-        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
-        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
-        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
+        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
+        "inline": "想定どおりなら、現在の政策経路を維持",
+        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 8,
+      "attention_score": 19,
       "attention_components": {
-        "regime_relevance": 0.5,
+        "regime_relevance": 1,
         "surprise_likelihood": 0.62,
-        "decision_impact": 0.53,
+        "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 0.6
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "official_confirmed",
-      "source_label": "米労働統計局（BLS）"
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
     }
   ],
   "asset_outlook": {
@@ -2107,7 +2107,7 @@
     "stale_series": [],
     "missing_series": [],
     "next_update_event": {
-      "label": "米国コア小売売上高",
+      "label": "Philly Fed Manufacturing Index",
       "release_at": "2026-07-16T12:30:00.000Z"
     },
     "point_in_time_validation": {
@@ -2228,7 +2228,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-16T14:29:25.934+09:00",
+  "updated_at": "2026-07-16T20:58:25.689+09:00",
   "date": "2026-07-16",
   "snapshot_id": "macro-2026-07-16-macro-public-v3-8f5e3608eeac73c6",
   "snapshot_content_hash": "8f5e3608eeac73c634bcb402da43f9b4ef753279d91d19d74c20866f6ca23a4c",
@@ -2377,7 +2377,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-16T05:23:13.736Z",
+    "generated_at": "2026-07-16T08:12:00.162Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -2415,7 +2415,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-15",
       "source_timestamp": "2026-07-15T21:00:00.000Z",
-      "age_hours": 8.39,
+      "age_hours": 11.2,
       "row_count": 3070,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,

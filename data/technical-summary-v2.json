@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-07-16T09:33:57.983Z",
+  "generated_at": "2026-07-16T08:12:08.257Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-07-15までの資産別確定日足",
+    "analysis_basis": "2026-07-16までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-07-16T05:25:55.765Z",
-    "latest_attempt_at": "2026-07-16T05:25:55.765Z",
-    "stale_after": "2026-07-17T05:25:55.765Z",
+    "last_success_at": "2026-07-16T08:12:01.347Z",
+    "latest_attempt_at": "2026-07-16T08:12:01.347Z",
+    "stale_after": "2026-07-17T08:12:01.347Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -53,9 +53,9 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 67600,
+      "price": 66840,
       "price_type": "清算値",
-      "as_of": "2026-07-15",
+      "as_of": "2026-07-16",
       "current_phase": {
         "key": "downturn_transition",
         "label": "下落転換",
@@ -86,8 +86,8 @@
       },
       "direction_scores": {
         "long": 24,
-        "range": 44,
-        "short": 32,
+        "range": 43,
+        "short": 33,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -106,7 +106,7 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 73,760 を終値で上回る"
+          "change_condition": "抵抗線 73,090 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -115,7 +115,7 @@
           "direction_label": "下落",
           "confidence": "medium",
           "confidence_label": "中",
-          "confidence_score": 54,
+          "confidence_score": 53,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
@@ -123,31 +123,31 @@
             "現在局面が下向き",
             "DMIが下向き"
           ],
-          "change_condition": "抵抗線 73,760 を終値で上回る"
+          "change_condition": "抵抗線 73,090 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 68613.453312,
-          "ema50": 66535.237678,
-          "rsi14": 47.804,
-          "macd": 249.708548,
-          "macd_signal": 740.556827,
-          "macd_histogram": -490.848279,
-          "atr14": 1869.271314,
-          "atr_percent": 2.765,
-          "adx14": 16.485,
-          "plus_di14": 24.377,
-          "minus_di14": 32.642,
-          "bollinger_upper": 72977.240108,
-          "bollinger_middle": 69714,
-          "bollinger_lower": 66450.759892,
-          "bollinger_bandwidth": 9.362,
-          "roc10": -2.888
+          "ema20": 68400.972944,
+          "ema50": 66437.80639,
+          "rsi14": 45.943,
+          "macd": 161.653844,
+          "macd_signal": 638.818433,
+          "macd_histogram": -477.164589,
+          "atr14": 1911.712351,
+          "atr_percent": 2.86,
+          "adx14": 16.427,
+          "plus_di14": 23.147,
+          "minus_di14": 32.13,
+          "bollinger_upper": 72715.012099,
+          "bollinger_middle": 69409,
+          "bollinger_lower": 66102.987901,
+          "bollinger_bandwidth": 9.526,
+          "roc10": -2.933
         },
         "levels": {
-          "support": 65430,
-          "resistance": 73760
+          "support": 66360,
+          "resistance": 73090
         },
         "data_quality": {
           "valid_bars": 252,
