@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-16T09:23:01.671+09:00",
+  "generated_at": "2026-07-16T14:29:25.934+09:00",
   "data_cutoff": "2026-07-16T09:12:50.555+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -2228,7 +2228,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-16T09:23:01.671+09:00",
+  "updated_at": "2026-07-16T14:29:25.934+09:00",
   "date": "2026-07-16",
   "snapshot_id": "macro-2026-07-16-macro-public-v3-8f5e3608eeac73c6",
   "snapshot_content_hash": "8f5e3608eeac73c634bcb402da43f9b4ef753279d91d19d74c20866f6ca23a4c",
@@ -2377,7 +2377,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-15T20:34:15.123Z",
+    "generated_at": "2026-07-16T05:23:13.736Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -2385,20 +2385,20 @@
       "short_allowed": false,
       "lookback_sessions": 20,
       "target_annual_volatility": 0.1,
-      "current_annualized_volatility": 0.348972,
+      "current_annualized_volatility": 0.354172,
       "max_notional_fraction": 0.25,
       "target_notional_fraction": 0.25,
       "cash_reserve_fraction": 0.75,
       "rebalance_rule": "完了済み夜間取引までの20日値動きで、次に取引できる夜間取引から目標比率へ調整"
     },
     "instrument": {
-      "reference_price": 68250,
-      "reference_price_as_of": "2026-07-14T21:00:00.000Z",
+      "reference_price": 67600,
+      "reference_price_as_of": "2026-07-15T21:00:00.000Z",
       "contract_month": "2026-09",
       "expiry_date": "2026-09-11",
-      "days_to_expiry": 58,
+      "days_to_expiry": 57,
       "micro_contract_multiplier": 10,
-      "micro_contract_reference_notional": 682500,
+      "micro_contract_reference_notional": 676000,
       "contracts_calculation": "口座の純資産 × 目標比率 ÷（証券会社の現在値 × 10）を切り捨て",
       "source_label": "225navi 大証 日経225先物期近日足",
       "source_url": "https://225navi.com/data/"
@@ -2413,10 +2413,10 @@
     },
     "data_quality": {
       "status": "fresh",
-      "latest_completed_session_date": "2026-07-14",
-      "source_timestamp": "2026-07-14T21:00:00.000Z",
-      "age_hours": 23.57,
-      "row_count": 3069,
+      "latest_completed_session_date": "2026-07-15",
+      "source_timestamp": "2026-07-15T21:00:00.000Z",
+      "age_hours": 8.39,
+      "row_count": 3070,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
       "invalid_rows_excluded": 1,
@@ -2460,31 +2460,31 @@
           "average_notional_fraction": 0.246849
         },
         "recent_test": {
-          "sample_count": 392,
+          "sample_count": 393,
           "start_date": "2025-01-03",
-          "end_date": "2026-07-13",
-          "total_return": 0.145768,
-          "annualized_return": 0.091417,
-          "annualized_volatility": 0.064341,
-          "sharpe_ratio": 1.391898,
+          "end_date": "2026-07-14",
+          "total_return": 0.150511,
+          "annualized_return": 0.094068,
+          "annualized_volatility": 0.06433,
+          "sharpe_ratio": 1.429849,
           "max_drawdown": -0.061454,
-          "profit_factor": 1.281044,
-          "average_notional_fraction": 0.246747
+          "profit_factor": 1.289395,
+          "average_notional_fraction": 0.246755
         }
       },
       "fixed_25_percent_benchmark": {
         "label": "固定25%ロング",
         "purpose": "予測優位ではなく、同じ配分上限との比較",
         "full_period": {
-          "sample_count": 3047,
+          "sample_count": 3048,
           "start_date": "2014-02-05",
-          "end_date": "2026-07-13",
-          "total_return": 0.539233,
-          "annualized_return": 0.036313,
-          "annualized_volatility": 0.053626,
-          "sharpe_ratio": 0.692016,
+          "end_date": "2026-07-14",
+          "total_return": 0.545604,
+          "annualized_return": 0.036655,
+          "annualized_volatility": 0.053629,
+          "sharpe_ratio": 0.698126,
           "max_drawdown": -0.09131,
-          "profit_factor": 1.130617,
+          "profit_factor": 1.131822,
           "average_notional_fraction": 0.25
         }
       }
