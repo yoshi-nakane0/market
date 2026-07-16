@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-07-15T23:56:08.094Z",
+  "updated_at": "2026-07-16T05:25:55.765Z",
   "macro": {
     "date": "2026-07-16",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "3",
-    "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
+    "risk_score": "1",
+    "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "36%",
+        "value": "35%",
         "tone": "positive"
       },
       {
         "label": "レンジ",
-        "value": "37%",
+        "value": "38%",
         "tone": "neutral"
       },
       {
@@ -41,18 +41,18 @@
       },
       {
         "label": "政策余地",
-        "value": 39,
+        "value": 40,
         "tone": "negative"
       },
       {
         "label": "金融環境",
-        "value": 57,
+        "value": 56,
         "tone": "positive"
       },
       {
         "label": "外部環境",
-        "value": 58,
-        "tone": "positive"
+        "value": 53,
+        "tone": "neutral"
       },
       {
         "label": "市場心理",
@@ -63,9 +63,9 @@
     "outlooks": [],
     "factors": {
       "support": [
-        "WTI Crude Oilが強くプラスに寄与",
         "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-        "Manufacturers' New Ordersが強くプラスに寄与"
+        "Manufacturers' New Ordersが強くプラスに寄与",
+        "WTI Crude Oilが強くプラスに寄与"
       ],
       "risk": [
         "10Y Treasury Yieldがマイナスに寄与",
@@ -75,16 +75,16 @@
     },
     "world_state": [],
     "data_quality": {
-      "status": "warn",
+      "status": "pass",
       "coverage": 1,
-      "stale_series_count": 1,
+      "stale_series_count": 0,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "84/100",
-      "score": 0.84,
+      "value": "89/100",
+      "score": 0.89,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -93,12 +93,12 @@
     "predictive_probability": {
       "label": "予測確率",
       "status": "reference_only",
-      "value": "レンジ 42.3%",
-      "probability": 0.4226205244525031,
+      "value": "レンジ 42.8%",
+      "probability": 0.42767454134919564,
       "probabilities": {
-        "short": 0.20919500550072956,
-        "range": 0.4226205244525031,
-        "long": 0.3681844700467674
+        "short": 0.20890287314171216,
+        "range": 0.42767454134919564,
+        "long": 0.36342258550909234
       },
       "outcome": "range",
       "outcome_label": "レンジ",
@@ -211,9 +211,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-15T23:56:08.094Z",
+      "latest_attempt_at": "2026-07-16T05:25:55.765Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 3962,
+      "data_age_minutes": 4292,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
