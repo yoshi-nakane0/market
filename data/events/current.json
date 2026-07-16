@@ -1,6 +1,6 @@
 {
-  "generation_id": "2026-07-15T23:05:24.598Z",
-  "updated_at": "2026-07-15T23:05:24.598Z",
+  "generation_id": "2026-07-16T03:19:08.344Z",
+  "updated_at": "2026-07-16T03:19:08.344Z",
   "timezone": "Asia/Tokyo",
   "page_name": "経済指標",
   "source": "events_economic_facts_pipeline",
@@ -12,7 +12,7 @@
   },
   "collection_status": {
     "status": "success",
-    "attempted_at": "2026-07-15T23:05:24.598Z",
+    "attempted_at": "2026-07-16T03:19:08.344Z",
     "fresh_source_count": 6,
     "cached_source_count": 0,
     "unavailable_source_count": 0,
@@ -84,7 +84,7 @@
           "url": "https://www.forexfactory.com/calendar",
           "verification_status": "secondary_confirmed"
         },
-        "retrieved_at": "2026-07-15T23:05:24.598Z",
+        "retrieved_at": "2026-07-16T03:19:08.344Z",
         "components": [
           {
             "entry_id": "ff_2026-07-14_2130_usd_core_cpi_m_m",
@@ -104,7 +104,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "revision_history": [],
             "previous_source": {
@@ -112,7 +112,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             }
           },
           {
@@ -133,7 +133,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "revision_history": [],
             "previous_source": {
@@ -141,7 +141,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             }
           },
           {
@@ -162,7 +162,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "revision_history": [],
             "previous_source": {
@@ -170,7 +170,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             }
           },
           {
@@ -191,7 +191,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "revision_history": [],
             "previous_source": {
@@ -199,7 +199,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             }
           }
         ]
@@ -220,7 +220,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -231,7 +231,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         },
         {
@@ -242,9 +242,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -255,9 +255,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -309,7 +309,7 @@
           "url": "https://www.forexfactory.com/calendar",
           "verification_status": "secondary_confirmed"
         },
-        "retrieved_at": "2026-07-15T23:05:24.598Z",
+        "retrieved_at": "2026-07-16T03:19:08.344Z",
         "components": [
           {
             "entry_id": "ff_2026-07-15_2130_usd_core_ppi_m_m",
@@ -345,7 +345,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "revision_history": [
               {
@@ -360,7 +360,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             }
           }
         ]
@@ -390,7 +390,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -401,7 +401,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         },
         {
@@ -412,9 +412,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -425,9 +425,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -479,7 +479,7 @@
           "url": "https://www.forexfactory.com/calendar",
           "verification_status": "secondary_confirmed"
         },
-        "retrieved_at": "2026-07-15T23:05:24.598Z",
+        "retrieved_at": "2026-07-16T03:19:08.344Z",
         "components": [
           {
             "entry_id": "ff_2026-07-16_2130_usd_core_retail_sales_m_m",
@@ -526,7 +526,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         },
         {
@@ -537,7 +537,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         }
       ],
@@ -589,7 +589,7 @@
           "url": "https://www.forexfactory.com/calendar",
           "verification_status": "secondary_confirmed"
         },
-        "retrieved_at": "2026-07-15T23:05:24.598Z",
+        "retrieved_at": "2026-07-16T03:19:08.344Z",
         "components": [
           {
             "entry_id": "ff_2026-07-16_2130_usd_unemployment_claims",
@@ -620,7 +620,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         },
         {
@@ -631,7 +631,7 @@
             "label": "Forex Factory",
             "url": "https://www.forexfactory.com/calendar"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "secondary_confirmed"
         }
       ],
@@ -691,7 +691,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -756,7 +756,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -778,7 +778,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -800,7 +800,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -822,7 +822,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -844,7 +844,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -866,7 +866,7 @@
               "label": "総務省統計局 消費者物価指数",
               "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -885,7 +885,7 @@
             "label": "総務省統計局",
             "url": "https://www.stat.go.jp/data/cpi/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -896,9 +896,9 @@
             "label": "総務省統計局 消費者物価指数",
             "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -960,7 +960,7 @@
             "label": "米商務省経済分析局（BEA）",
             "url": "https://www.bea.gov/news/schedule"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1023,7 +1023,7 @@
             "label": "米商務省経済分析局（BEA）",
             "url": "https://www.bea.gov/news/schedule"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1086,7 +1086,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1151,7 +1151,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1173,7 +1173,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1195,7 +1195,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1214,7 +1214,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -1225,9 +1225,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1293,7 +1293,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1315,7 +1315,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1337,7 +1337,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1359,7 +1359,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1378,7 +1378,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -1389,9 +1389,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1456,7 +1456,7 @@
               "label": "米労働統計局（BLS）Public Data API",
               "url": "https://www.bls.gov/developers/",
               "verification_status": "official_confirmed",
-              "retrieved_at": "2026-07-15T23:05:24.598Z"
+              "retrieved_at": "2026-07-16T03:19:08.344Z"
             },
             "actual_source": null,
             "revision_history": [],
@@ -1475,7 +1475,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         },
         {
@@ -1486,9 +1486,9 @@
             "label": "米労働統計局（BLS）Public Data API",
             "url": "https://www.bls.gov/developers/",
             "verification_status": "official_confirmed",
-            "retrieved_at": "2026-07-15T23:05:24.598Z"
+            "retrieved_at": "2026-07-16T03:19:08.344Z"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1549,7 +1549,7 @@
             "label": "米労働統計局（BLS）",
             "url": "https://www.bls.gov/schedule/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1610,7 +1610,7 @@
             "label": "総務省統計局",
             "url": "https://www.stat.go.jp/data/cpi/"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1672,7 +1672,7 @@
             "label": "米商務省経済分析局（BEA）",
             "url": "https://www.bea.gov/news/schedule"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
@@ -1735,7 +1735,7 @@
             "label": "米商務省経済分析局（BEA）",
             "url": "https://www.bea.gov/news/schedule"
           },
-          "retrieved_at": "2026-07-15T23:05:24.598Z",
+          "retrieved_at": "2026-07-16T03:19:08.344Z",
           "verification_status": "official_confirmed"
         }
       ],
