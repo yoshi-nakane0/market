@@ -1,6 +1,6 @@
 {
   "schema_version": "basecalc-v1",
-  "updated_at": "2026-07-17T05:28:53.143Z",
+  "updated_at": "2026-07-17T14:24:21.833Z",
   "basecalc": {
     "observation_time": "11:40 JST",
     "market_status": "open",
@@ -51,9 +51,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-17T05:28:53.143Z",
+      "latest_attempt_at": "2026-07-17T14:24:21.833Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 5972,
+      "data_age_minutes": 6270,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
