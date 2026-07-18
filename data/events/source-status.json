@@ -1,9 +1,9 @@
 {
-  "generation_id": "2026-07-18T16:27:18.432Z",
-  "updated_at": "2026-07-18T16:27:18.432Z",
+  "generation_id": "2026-07-18T22:58:04.698Z",
+  "updated_at": "2026-07-18T22:58:04.698Z",
   "collection_status": {
     "status": "success",
-    "attempted_at": "2026-07-18T16:27:18.432Z",
+    "attempted_at": "2026-07-18T22:58:04.698Z",
     "fresh_source_count": 6,
     "cached_source_count": 0,
     "unavailable_source_count": 0,
@@ -51,7 +51,7 @@
       "machine_url": "https://www.bls.gov/schedule/news_release/bls.ics",
       "record_count": 20,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -61,7 +61,7 @@
       "machine_url": "https://apps.bea.gov/API/signup/release_dates.json",
       "record_count": 8,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -71,7 +71,7 @@
       "machine_url": "https://www.stat.go.jp/english/data/cpi/1582.html",
       "record_count": 4,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "公式公表日程を取得しました。"
     },
     {
@@ -81,7 +81,7 @@
       "machine_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
       "record_count": 204,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "BLS公式系列から公表済みの統計値を取得しました。"
     },
     {
@@ -91,7 +91,7 @@
       "machine_url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/index-z.html",
       "record_count": 6,
       "verification_status": "official_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "総務省統計局の最新結果から日本全国CPIを取得しました。"
     },
     {
@@ -101,7 +101,7 @@
       "machine_url": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
       "record_count": 657,
       "verification_status": "secondary_confirmed",
-      "checked_at": "2026-07-18T16:27:18.432Z",
+      "checked_at": "2026-07-18T22:58:04.698Z",
       "note": "USD・JPYの経済カレンダーを全重要度で取得します。重要指標の公式実績値や公式日程の正本には使用しません。"
     }
   ],
