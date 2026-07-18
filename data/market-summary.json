@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-07-18T14:14:49.596Z",
+  "updated_at": "2026-07-18T23:50:26.663Z",
   "macro": {
-    "date": "2026-07-17",
+    "date": "2026-07-18",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "0",
+    "risk_score": "2",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "35%",
+        "value": "36%",
         "tone": "positive"
       },
       {
         "label": "レンジ",
-        "value": "38%",
+        "value": "37%",
         "tone": "neutral"
       },
       {
@@ -26,8 +26,8 @@
     "state_scores": [
       {
         "label": "成長",
-        "value": 52,
-        "tone": "neutral"
+        "value": 54,
+        "tone": "positive"
       },
       {
         "label": "物価圧力",
@@ -41,7 +41,7 @@
       },
       {
         "label": "政策余地",
-        "value": 40,
+        "value": 39,
         "tone": "negative"
       },
       {
@@ -56,8 +56,8 @@
       },
       {
         "label": "市場心理",
-        "value": 54,
-        "tone": "positive"
+        "value": 53,
+        "tone": "neutral"
       }
     ],
     "outlooks": [],
@@ -69,22 +69,22 @@
       ],
       "risk": [
         "10Y Treasury Yieldがマイナスに寄与",
-        "Housing Startsがマイナスに寄与",
+        "Mortgage Rateがマイナスに寄与",
         "2Y Treasury Yieldがマイナスに寄与"
       ]
     },
     "world_state": [],
     "data_quality": {
-      "status": "pass",
+      "status": "warn",
       "coverage": 1,
-      "stale_series_count": 0,
+      "stale_series_count": 2,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "88/100",
-      "score": 0.88,
+      "value": "84/100",
+      "score": 0.84,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -173,6 +173,7 @@
       "stop_required": true,
       "stop_reasons": [
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -182,6 +183,7 @@
       "analysis_stop_required": true,
       "analysis_stop_reasons": [
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -193,6 +195,7 @@
         "売買コストを確認できません",
         "重要イベント前後のため停止しています",
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -201,9 +204,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-18T14:14:49.596Z",
+      "latest_attempt_at": "2026-07-18T23:50:26.663Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 7701,
+      "data_age_minutes": 8276,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
