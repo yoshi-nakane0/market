@@ -1,0 +1,39 @@
+{
+  "schema_version": "events-analysis-v1",
+  "generated_at": "2026-07-19T10:48:20.983Z",
+  "rules_version": "2026-07-19-v3",
+  "provider": "hermes-configured",
+  "model": "gpt-5.6-luna",
+  "items": {
+    "bls_cpi_2026-08-12": {
+      "event_id": "bls_cpi_2026-08-12",
+      "label": "米国CPI",
+      "indicator": "CPI",
+      "scenario": "exceptional",
+      "status": "generated",
+      "headline": "米国CPIは確認が必要",
+      "current_situation": "次回の実績と予想がまだ公表されておらず、前回値だけでは物価の方向は確定できません。",
+      "market_reaction": "実績が公表され、他の物価関連指標や金融政策の見方と同じ方向なら、反応する可能性があります。",
+      "opposite_conditions": "実績や構成項目が異なる方向を示し、物価の見方が分かれる場合です。",
+      "next_indicator": "米国新規失業保険申請件数と米国雇用統計を確認します。",
+      "source_status": "secondary_confirmed",
+      "source_label": "Forex Factory",
+      "generated_at": "2026-07-19T10:48:20.983Z"
+    },
+    "secondary_ff_2026-07-23_2130_usd_unemployment_claims": {
+      "event_id": "secondary_ff_2026-07-23_2130_usd_unemployment_claims",
+      "label": "新規失業保険申請件数",
+      "indicator": "JOBLESS_CLAIMS",
+      "scenario": "exceptional",
+      "status": "generated",
+      "headline": "新規失業保険申請件数は確認が必要",
+      "current_situation": "公表前のため、現在は市場予想と前回値を基準に確認する段階です。実績が予想を上回るか下回るかはまだ確定していません。",
+      "market_reaction": "実績が他の雇用指標や金融政策の見方と同じ方向なら、雇用環境を意識した反応が出る可能性があります。",
+      "opposite_conditions": "実績が予想と反対方向になったり、他の雇用指標が異なる方向を示したりする場合です。",
+      "next_indicator": "米国雇用統計（非農業部門雇用者数・失業率・平均時給）を確認します。",
+      "source_status": "secondary_confirmed",
+      "source_label": "Forex Factory",
+      "generated_at": "2026-07-19T10:48:20.983Z"
+    }
+  }
+}

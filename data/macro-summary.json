@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-19T23:49:03.369+09:00",
+  "generated_at": "2026-07-20T00:43:09.188+09:00",
   "data_cutoff": "2026-07-19T23:43:02.520+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -792,8 +792,8 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-07-29_1100_usd_fomc_statement",
-      "release_at": "2026-07-29T02:00:00.000Z",
+      "id": "secondary_ff_2026-07-30_0300_usd_fomc_statement",
+      "release_at": "2026-07-29T18:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "FOMC声明",
       "importance": "high",
@@ -827,8 +827,8 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-29_1100_usd_federal_funds_rate",
-      "release_at": "2026-07-29T02:00:00.000Z",
+      "id": "secondary_ff_2026-07-30_0300_usd_federal_funds_rate",
+      "release_at": "2026-07-29T18:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "米国フェデラルファンド金利",
       "importance": "high",
@@ -862,8 +862,8 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-03_0700_usd_ism_manufacturing_pmi",
-      "release_at": "2026-08-02T22:00:00.000Z",
+      "id": "secondary_ff_2026-08-03_2300_usd_ism_manufacturing_pmi",
+      "release_at": "2026-08-03T14:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "ISM製造業PMI",
       "importance": "high",
@@ -1521,7 +1521,7 @@
     "missing_series": [],
     "next_update_event": {
       "label": "FOMC声明",
-      "release_at": "2026-07-29T02:00:00.000Z"
+      "release_at": "2026-07-29T18:00:00.000Z"
     },
     "point_in_time_validation": {
       "status": "complete",
@@ -1641,7 +1641,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-19T23:49:03.369+09:00",
+  "updated_at": "2026-07-20T00:43:09.188+09:00",
   "date": "2026-07-19",
   "snapshot_id": "macro-2026-07-19-macro-public-v3-9cce3cc4bcb9cc46",
   "snapshot_content_hash": "9cce3cc4bcb9cc466d7c460119fffb1536dcada1bd54cf052d0b926879175093",
@@ -1781,7 +1781,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-19T05:44:12.062Z",
+    "generated_at": "2026-07-19T15:33:49.133Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1819,7 +1819,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-17",
       "source_timestamp": "2026-07-17T21:00:00.000Z",
-      "age_hours": 32.74,
+      "age_hours": 42.56,
       "row_count": 3072,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
