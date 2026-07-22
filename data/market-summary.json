@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-21T14:54:50.914Z",
+  "updated_at": "2026-07-21T23:53:49.708Z",
   "macro": {
-    "date": "2026-07-19",
+    "date": "2026-07-22",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "2",
+    "risk_score": "0",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "36%",
+        "value": "35%",
         "tone": "positive"
       },
       {
@@ -19,7 +19,7 @@
       },
       {
         "label": "ショート",
-        "value": "27%",
+        "value": "28%",
         "tone": "negative"
       }
     ],
@@ -41,7 +41,7 @@
       },
       {
         "label": "政策余地",
-        "value": 39,
+        "value": 40,
         "tone": "negative"
       },
       {
@@ -51,12 +51,12 @@
       },
       {
         "label": "外部環境",
-        "value": 53,
+        "value": 50,
         "tone": "neutral"
       },
       {
         "label": "市場心理",
-        "value": 53,
+        "value": 51,
         "tone": "neutral"
       }
     ],
@@ -77,14 +77,14 @@
     "data_quality": {
       "status": "warn",
       "coverage": 1,
-      "stale_series_count": 2,
+      "stale_series_count": 3,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "86/100",
-      "score": 0.86,
+      "value": "83/100",
+      "score": 0.83,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -201,9 +201,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-21T14:54:50.914Z",
+      "latest_attempt_at": "2026-07-21T23:53:49.708Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 12061,
+      "data_age_minutes": 12600,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-22T00:37:51.042+09:00",
-  "data_cutoff": "2026-07-22T00:28:49.662+09:00",
+  "generated_at": "2026-07-22T09:44:12.616+09:00",
+  "data_cutoff": "2026-07-22T00:49:31.765+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
     "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
@@ -371,13 +371,13 @@
     "forecast_horizon_quarters": 12,
     "coverage": {
       "status": "partial",
-      "complete_region_count": 2,
+      "complete_region_count": 3,
       "required_region_count": 5,
       "regional_forecast_allowed": true,
       "joint_forecast_allowed": true,
       "full_world_forecast_allowed": false,
       "direct_measurement_coverage": false,
-      "substitute_region_count": 2
+      "substitute_region_count": 3
     },
     "validation": {
       "status": "unverified",
@@ -434,27 +434,22 @@
       "china": {
         "label": "中国",
         "analysis_role": "reference_only",
-        "status": "partial",
-        "available_indicator_count": 3,
+        "status": "complete",
+        "available_indicator_count": 4,
         "required_indicator_count": 4,
-        "substitute_indicator_count": 1,
-        "missing_indicators": [
-          "政策金利"
-        ],
+        "substitute_indicator_count": 2,
+        "missing_indicators": [],
         "forecast_status": "reference_only",
         "forecast_path": []
       },
       "rest_of_world": {
         "label": "その他世界",
         "analysis_role": "reference_only",
-        "status": "unavailable",
-        "available_indicator_count": 0,
+        "status": "partial",
+        "available_indicator_count": 3,
         "required_indicator_count": 4,
-        "substitute_indicator_count": 0,
+        "substitute_indicator_count": 4,
         "missing_indicators": [
-          "実質GDP成長率",
-          "物価上昇率",
-          "失業率",
           "政策金利"
         ],
         "forecast_status": "reference_only",
@@ -542,14 +537,14 @@
       ],
       "validation": {
         "status": "not_passed",
-        "forecast_status": "unavailable",
-        "sample_count": null,
+        "forecast_status": "unverified",
+        "sample_count": 118,
         "effective_sample_count": null,
         "hit_rate": null,
         "benchmark_hit_rate": null,
         "brier_score": null,
-        "brier_skill": null,
-        "calibration_error": null,
+        "brier_skill": 0.4393,
+        "calibration_error": 0.0568,
         "walk_forward_status": "not_available",
         "usage_permission": "monitor_only"
       }
@@ -588,14 +583,14 @@
       ],
       "validation": {
         "status": "not_passed",
-        "forecast_status": "unavailable",
-        "sample_count": null,
+        "forecast_status": "unverified",
+        "sample_count": 112,
         "effective_sample_count": null,
         "hit_rate": null,
         "benchmark_hit_rate": null,
         "brier_score": null,
-        "brier_skill": null,
-        "calibration_error": null,
+        "brier_skill": 0.5469,
+        "calibration_error": 0.0735,
         "walk_forward_status": "not_available",
         "usage_permission": "monitor_only"
       }
@@ -797,8 +792,8 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-07-29_1300_usd_fomc_statement",
-      "release_at": "2026-07-29T04:00:00.000Z",
+      "id": "secondary_ff_2026-07-29_1400_usd_fomc_statement",
+      "release_at": "2026-07-29T05:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "FOMC声明",
       "importance": "high",
@@ -832,15 +827,15 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-29_1300_usd_federal_funds_rate",
-      "release_at": "2026-07-29T04:00:00.000Z",
+      "id": "secondary_ff_2026-07-29_1400_usd_federal_funds_rate",
+      "release_at": "2026-07-29T05:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "米国フェデラルファンド金利",
       "importance": "high",
       "importance_label": "高",
-      "previous": null,
+      "previous": "3.75%",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "3.75%",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -854,10 +849,10 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 19,
+      "attention_score": 18,
       "attention_components": {
         "regime_relevance": 1,
-        "surprise_likelihood": 0.62,
+        "surprise_likelihood": 0.58,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.6
@@ -867,15 +862,15 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-03_0900_usd_ism_manufacturing_pmi",
-      "release_at": "2026-08-03T00:00:00.000Z",
+      "id": "secondary_ff_2026-07-23_0830_usd_unemployment_claims",
+      "release_at": "2026-07-22T23:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "ISM製造業PMI",
-      "importance": "high",
-      "importance_label": "高",
-      "previous": null,
+      "label": "新規失業保険申請件数",
+      "importance": "medium",
+      "importance_label": "中",
+      "previous": "208K",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "211K",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -891,11 +886,11 @@
       },
       "attention_score": 16,
       "attention_components": {
-        "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
-        "decision_impact": 0.92,
+        "regime_relevance": 0.67,
+        "surprise_likelihood": 0.59,
+        "decision_impact": 0.72,
         "asset_sensitivity": 0.55,
-        "proximity": 0.6
+        "proximity": 1
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -1531,7 +1526,7 @@
     "missing_series": [],
     "next_update_event": {
       "label": "FOMC声明",
-      "release_at": "2026-07-29T04:00:00.000Z"
+      "release_at": "2026-07-29T05:00:00.000Z"
     },
     "point_in_time_validation": {
       "status": "complete",
@@ -1651,14 +1646,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-22T00:37:51.042+09:00",
+  "updated_at": "2026-07-22T09:44:12.616+09:00",
   "date": "2026-07-22",
-  "snapshot_id": "macro-2026-07-22-macro-public-v3-7029510522d708ca",
-  "snapshot_content_hash": "7029510522d708cae2624ba0a2d1781152a7c2ccc5b906db851d20bb182468df",
+  "snapshot_id": "macro-2026-07-22-macro-public-v3-109dbb1ce80f99b9",
+  "snapshot_content_hash": "109dbb1ce80f99b95e1b3781fc1551de2666b7c1e88f1787a6cd4e2ff96bb407",
   "as_of_date": "2026-07-22",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-21T15:28:49.662Z",
+  "signal_at": "2026-07-21T15:49:31.765Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -1674,8 +1669,8 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-21T15:17:29.628Z",
-    "stale_after": "2026-07-23T03:17:29.628Z",
+    "fetched_at": "2026-07-21T15:37:32.923Z",
+    "stale_after": "2026-07-23T03:37:32.923Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-22",
     "checked_count": 32,
@@ -1791,7 +1786,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-21T11:43:45.172Z",
+    "generated_at": "2026-07-21T15:14:35.156Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1829,7 +1824,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-20",
       "source_timestamp": "2026-07-20T21:00:00.000Z",
-      "age_hours": 14.73,
+      "age_hours": 18.24,
       "row_count": 3073,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
@@ -1940,6 +1935,7 @@
       "predictive_current_features_unavailable_or_stale",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
+      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
