@@ -1,9 +1,9 @@
 {
   "schema_version": "events-analysis-v1",
-  "generated_at": "2026-07-19T10:48:20.983Z",
-  "rules_version": "2026-07-19-v3",
-  "provider": "hermes-configured",
-  "model": "gpt-5.6-luna",
+  "generated_at": "2026-07-22T03:58:04Z",
+  "rules_version": "2026-07-22-v1",
+  "provider": "hermes-agent",
+  "model": "openrouter/free",
   "items": {
     "bls_cpi_2026-08-12": {
       "event_id": "bls_cpi_2026-08-12",
@@ -20,20 +20,31 @@
       "source_label": "Forex Factory",
       "generated_at": "2026-07-19T10:48:20.983Z"
     },
-    "secondary_ff_2026-07-23_2130_usd_unemployment_claims": {
-      "event_id": "secondary_ff_2026-07-23_2130_usd_unemployment_claims",
+    "secondary_ff_2026-07-23_0830_usd_unemployment_claims": {
+      "event_id": "secondary_ff_2026-07-23_0830_usd_unemployment_claims",
       "label": "新規失業保険申請件数",
       "indicator": "JOBLESS_CLAIMS",
-      "scenario": "exceptional",
+      "scenario": "below",
       "status": "generated",
-      "headline": "新規失業保険申請件数は確認が必要",
-      "current_situation": "公表前のため、現在は市場予想と前回値を基準に確認する段階です。実績が予想を上回るか下回るかはまだ確定していません。",
-      "market_reaction": "実績が他の雇用指標や金融政策の見方と同じ方向なら、雇用環境を意識した反応が出る可能性があります。",
-      "opposite_conditions": "実績が予想と反対方向になったり、他の雇用指標が異なる方向を示したりする場合です。",
-      "next_indicator": "米国雇用統計（非農業部門雇用者数・失業率・平均時給）を確認します。",
-      "source_status": "secondary_confirmed",
-      "source_label": "Forex Factory",
-      "generated_at": "2026-07-19T10:48:20.983Z"
+      "headline": "新規失業保険申請件数が216000から208000へ減少",
+      "current_situation": "2026年7月11日週の新規失業保険申請件数は208000件となり、前週の216000件から8000件減少しました。4週移動平均は214250件です。これは速報値であり、今後改定される可能性があります。",
+      "market_reaction": "申請件数の減少は労働市場の堅調さを示唆する可能性があり、ドル高や株高圧力となる可能性があります。一方、減少幅が限定的であれば反応は限定的にとどまる可能性もあります。",
+      "opposite_conditions": "申請件数が増加し、前週の216000件を上回る場合は、労働市場の軟化懸念からドル安・株安圧力となる可能性があります。",
+      "next_indicator": "次回の新規失業保険申請件数（2026年7月23日公表予定）",
+      "source_status": "official_confirmed",
+      "source_label": "U.S. Department of Labor, Office of Unemployment Insurance",
+      "source_url": "https://oui.doleta.gov/press/2026/071626.pdf",
+      "retrieved_at": "2026-07-22T03:58:04Z",
+      "event_date": "2026-07-23",
+      "data": {
+        "release_date": "2026-07-16",
+        "reference_period": "week_ending_2026-07-11",
+        "actual": "208,000",
+        "previous": "216,000",
+        "change": "-8,000",
+        "four_week_average": "214,250"
+      },
+      "generated_at": "2026-07-22T03:58:04Z"
     }
   }
 }
