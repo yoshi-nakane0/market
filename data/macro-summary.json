@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-23T00:36:55.667+09:00",
+  "generated_at": "2026-07-23T00:44:55.256+09:00",
   "data_cutoff": "2026-07-23T00:27:36.014+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -11,13 +11,13 @@
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
-    "direction": "stable",
-    "direction_label": "横ばい",
+    "direction": "improving",
+    "direction_label": "改善",
     "inflation_direction": "stable",
     "inflation_direction_label": "横ばい",
     "regime": "transition_neutral",
     "regime_label": "移行・中立",
-    "summary": "実体経済は中立で、方向は横ばいです。主な支援要因は製造業の新規受注（更新待ち）、主な下押し要因は米10年国債利回りです。",
+    "summary": "実体経済は中立で、方向は改善です。主な支援要因は製造業の新規受注（更新待ち）、主な下押し要因は米10年国債利回りです。",
     "drivers_positive": [
       {
         "label": "製造業の新規受注が強くプラスに寄与",
@@ -54,7 +54,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "市場心理が前回から改善",
+    "change_since_previous": "成長が前回から改善。 雇用が前回から改善。 外部環境が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -666,8 +666,8 @@
       "label": "成長",
       "region": "united_states",
       "state": "横ばい",
-      "direction": "stable",
-      "direction_label": "横ばい",
+      "direction": "improving",
+      "direction_label": "改善",
       "contribution": "positive",
       "contribution_label": "+中",
       "evidence": [
@@ -697,8 +697,8 @@
       "label": "雇用",
       "region": "united_states",
       "state": "底堅い",
-      "direction": "stable",
-      "direction_label": "横ばい",
+      "direction": "improving",
+      "direction_label": "改善",
       "contribution": "positive",
       "contribution_label": "+小",
       "evidence": [
@@ -759,8 +759,8 @@
       "label": "外部環境",
       "region": "global",
       "state": "中立",
-      "direction": "stable",
-      "direction_label": "横ばい",
+      "direction": "improving",
+      "direction_label": "改善",
       "contribution": "neutral",
       "contribution_label": "0",
       "evidence": [
@@ -1648,7 +1648,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-23T00:36:55.667+09:00",
+  "updated_at": "2026-07-23T00:44:55.256+09:00",
   "date": "2026-07-23",
   "snapshot_id": "macro-2026-07-23-macro-public-v3-1764a5fb0b9a8b58",
   "snapshot_content_hash": "1764a5fb0b9a8b58a494b75fc721d0386e6d99bdff6488b7acd132d4fa42d33d",
@@ -1788,7 +1788,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-22T08:44:16.009Z",
+    "generated_at": "2026-07-22T12:58:27.785Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1826,7 +1826,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-21",
       "source_timestamp": "2026-07-21T21:00:00.000Z",
-      "age_hours": 11.74,
+      "age_hours": 15.97,
       "row_count": 3074,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
