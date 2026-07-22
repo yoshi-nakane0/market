@@ -1,6 +1,6 @@
 {
   "schema_version": "events-analysis-v1",
-  "generated_at": "2026-07-22T03:58:04Z",
+  "generated_at": "2026-07-22T07:00:00Z",
   "rules_version": "2026-07-22-v1",
   "provider": "hermes-agent",
   "model": "openrouter/free",
@@ -24,27 +24,19 @@
       "event_id": "secondary_ff_2026-07-23_0830_usd_unemployment_claims",
       "label": "新規失業保険申請件数",
       "indicator": "JOBLESS_CLAIMS",
-      "scenario": "below",
+      "scenario": "above",
       "status": "generated",
-      "headline": "新規失業保険申請件数が216000から208000へ減少",
-      "current_situation": "2026年7月11日週の新規失業保険申請件数は208000件となり、前週の216000件から8000件減少しました。4週移動平均は214250件です。これは速報値であり、今後改定される可能性があります。",
-      "market_reaction": "申請件数の減少は労働市場の堅調さを示唆する可能性があり、ドル高や株高圧力となる可能性があります。一方、減少幅が限定的であれば反応は限定的にとどまる可能性もあります。",
-      "opposite_conditions": "申請件数が増加し、前週の216000件を上回る場合は、労働市場の軟化懸念からドル安・株安圧力となる可能性があります。",
-      "next_indicator": "次回の新規失業保険申請件数（2026年7月23日公表予定）",
-      "source_status": "official_confirmed",
-      "source_label": "U.S. Department of Labor, Office of Unemployment Insurance",
-      "source_url": "https://oui.doleta.gov/press/2026/071626.pdf",
-      "retrieved_at": "2026-07-22T03:58:04Z",
+      "headline": "次回予測値は前回値を上回り、雇用環境の小幅な悪化を示唆",
+      "current_situation": "2026年7月23日に発表予定の新規失業保険申請件数は、市場予測が211,000件です。前回の208,000件を3,000件上回る予測であり、予測値だけを見ると、雇用環境は小幅に弱まる見方です。ただし、まだ実績値は発表されていません。",
+      "market_reaction": "発表値が予測値の211,000件を上回る場合は、雇用環境の弱さから利下げ期待が強まり、米国債利回りとUSD/JPYには低下圧力、米国株には下押し圧力がかかる可能性があります。発表値が211,000件を下回る場合は、労働市場の底堅さから利下げ期待が後退し、米国債利回りとUSD/JPYには上昇圧力がかかる可能性があります。予測値と同程度なら、初期反応は限定的になる可能性があります。",
+      "opposite_conditions": "通常の反応と逆方向に動く可能性もあります。雇用以外の経済指標が金融政策の見方を強く変えた場合、すでに利下げや利上げが市場価格に織り込まれていた場合、または地政学リスクなどで安全資産として米ドルが買われた場合です。米国株も、金利低下による支援と景気減速への懸念が綱引きになる可能性があります。",
+      "next_indicator": "2026年7月23日に公表される新規失業保険申請件数の実績値と4週間移動平均",
+      "source_status": "secondary_confirmed",
+      "source_label": "Forex Factory（予測値） / U.S. Department of Labor（前回値）",
+      "source_url": "https://www.forexfactory.com/calendar",
+      "retrieved_at": "2026-07-22T07:00:00Z",
       "event_date": "2026-07-23",
-      "data": {
-        "release_date": "2026-07-16",
-        "reference_period": "week_ending_2026-07-11",
-        "actual": "208,000",
-        "previous": "216,000",
-        "change": "-8,000",
-        "four_week_average": "214,250"
-      },
-      "generated_at": "2026-07-22T03:58:04Z"
+      "generated_at": "2026-07-22T07:00:00Z"
     }
   }
 }
