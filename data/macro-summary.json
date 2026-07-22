@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-23T02:27:44.290+09:00",
-  "data_cutoff": "2026-07-23T02:22:32.337+09:00",
+  "generated_at": "2026-07-23T03:05:51.034+09:00",
+  "data_cutoff": "2026-07-23T03:01:31.064+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
     "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
@@ -54,7 +54,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "前回との比較データを確認できません",
+    "change_since_previous": "外部環境が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -515,8 +515,8 @@
       "deteriorate_probability": null,
       "drivers": [
         "金融政策",
-        "外部環境",
-        "金融環境"
+        "金融環境",
+        "外部環境"
       ],
       "scheduled_catalysts": [
         "FOMC Statement"
@@ -559,8 +559,8 @@
       "deteriorate_probability": null,
       "drivers": [
         "金融政策",
-        "外部環境",
-        "金融環境"
+        "金融環境",
+        "外部環境"
       ],
       "scheduled_catalysts": [
         "FOMC Statement"
@@ -629,31 +629,6 @@
       "details_available": true
     },
     {
-      "key": "external",
-      "label": "外部環境",
-      "region": "global",
-      "state": "逆風",
-      "direction": "stable",
-      "direction_label": "横ばい",
-      "contribution": "negative",
-      "contribution_label": "−中",
-      "evidence": [
-        {
-          "label": "EURUSD",
-          "state": "EURUSDがマイナスに寄与",
-          "as_of_date": "2026-07-17",
-          "availability": "available"
-        },
-        {
-          "label": "USDJPY",
-          "state": "USDJPYが小幅にマイナス",
-          "as_of_date": "2026-07-17",
-          "availability": "available"
-        }
-      ],
-      "details_available": true
-    },
-    {
       "key": "financial_conditions",
       "label": "金融環境",
       "region": "united_states",
@@ -678,6 +653,37 @@
         {
           "label": "金融環境指数",
           "state": "金融環境指数が小幅にプラス",
+          "as_of_date": "2026-07-17",
+          "availability": "available"
+        }
+      ],
+      "details_available": true
+    },
+    {
+      "key": "external",
+      "label": "外部環境",
+      "region": "global",
+      "state": "中立",
+      "direction": "improving",
+      "direction_label": "改善",
+      "contribution": "negative",
+      "contribution_label": "−小",
+      "evidence": [
+        {
+          "label": "EURUSD",
+          "state": "EURUSDがマイナスに寄与",
+          "as_of_date": "2026-07-17",
+          "availability": "available"
+        },
+        {
+          "label": "WTI原油",
+          "state": "WTI原油が小幅にプラス",
+          "as_of_date": "2026-07-20",
+          "availability": "available"
+        },
+        {
+          "label": "USDJPY",
+          "state": "USDJPYが小幅にマイナス",
           "as_of_date": "2026-07-17",
           "availability": "available"
         }
@@ -821,10 +827,10 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-30_undetermined_jpy_boj-outlook-report",
-      "release_at": "2026-07-29T15:00:00.000Z",
+      "id": "secondary_ff_2026-07-29_1330_usd_fomc-press-conference",
+      "release_at": "2026-07-29T17:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "BOJ Outlook Report",
+      "label": "FOMC Press Conference",
       "importance": "high",
       "importance_label": "高",
       "previous": null,
@@ -843,11 +849,11 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 24,
+      "attention_score": 26,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.62,
-        "decision_impact": 0.92,
+        "decision_impact": 1,
         "asset_sensitivity": 0.55,
         "proximity": 0.76
       },
@@ -856,13 +862,13 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-30_undetermined_jpy_boj-policy-rate",
+      "id": "secondary_ff_2026-07-30_undetermined_jpy_boj-outlook-report",
       "release_at": "2026-07-29T15:00:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "BOJ Policy Rate",
+      "label": "BOJ Outlook Report",
       "importance": "high",
       "importance_label": "高",
-      "previous": "<1.00%",
+      "previous": null,
       "revised_previous": null,
       "consensus": null,
       "nowcast": null,
@@ -1199,7 +1205,7 @@
         {
           "region": "global",
           "label": "世界",
-          "status": "unavailable"
+          "status": "partial"
         }
       ]
     },
@@ -1257,8 +1263,8 @@
           "impact": "support"
         },
         {
-          "label": "外部環境",
-          "impact": "risk"
+          "label": "金融環境",
+          "impact": "neutral"
         }
       ],
       "next_catalyst": null,
@@ -1312,7 +1318,7 @@
         {
           "region": "global",
           "label": "世界",
-          "status": "unavailable"
+          "status": "partial"
         }
       ]
     }
@@ -1338,34 +1344,35 @@
     },
     "global": {
       "label": "世界",
-      "status": "unavailable",
-      "available_factors": [],
+      "status": "partial",
+      "available_factors": [
+        "エネルギー価格"
+      ],
       "missing_factors": [
         "中国製造業",
-        "世界製造業",
-        "エネルギー価格"
+        "世界製造業"
       ]
     }
   },
   "quality": {
     "confidence_label": "low",
     "confidence_label_ja": "低",
-    "confidence_score_detail": 0,
+    "confidence_score_detail": 0.07,
     "confidence_reasons": [
-      "古いデータが3系列あります",
+      "古いデータが2系列あります",
       "1か月・3か月の状態予測は過去成績の利用条件を満たしていません",
       "信頼度別の過去成績は校正途中です",
       "日本・世界要因の充足度が不足しています"
     ],
     "data_coverage": 1,
     "data_freshness": "stale",
-    "model_agreement": 0.79,
-    "regime_stability": 1,
+    "model_agreement": 0.82,
+    "regime_stability": 0.99,
     "components": {
       "data_coverage": 1,
       "data_freshness": "stale",
-      "model_agreement": 0.79,
-      "regime_stability": 1,
+      "model_agreement": 0.82,
+      "regime_stability": 0.99,
       "historical_forecast_performance": "insufficient",
       "forecast_interval_width": 3.4155,
       "important_event_before_decision": null
@@ -1384,11 +1391,6 @@
       {
         "id": "JTSJOL",
         "label": "JTSJOL",
-        "as_of_date": ""
-      },
-      {
-        "id": "DCOILWTICO",
-        "label": "WTI原油",
         "as_of_date": ""
       }
     ],
@@ -1514,14 +1516,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-23T02:27:44.290+09:00",
+  "updated_at": "2026-07-23T03:05:51.034+09:00",
   "date": "2026-07-23",
-  "snapshot_id": "macro-2026-07-23-macro-public-v3-596fa6264026dd24",
-  "snapshot_content_hash": "596fa6264026dd2415b936d79b10100f9718f4b9376504a44f0aee22e90218b6",
+  "snapshot_id": "macro-2026-07-23-macro-public-v3-152ea8179913594a",
+  "snapshot_content_hash": "152ea8179913594a2f34976416de163e1c7ab09a7bfc068fd7c66d68125c00c6",
   "as_of_date": "2026-07-23",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-22T17:22:32.337Z",
+  "signal_at": "2026-07-22T18:01:31.064Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -1533,16 +1535,16 @@
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "-10",
+  "risk_score": "-9",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-22T17:13:09.800Z",
-    "stale_after": "2026-07-24T05:13:09.800Z",
+    "fetched_at": "2026-07-22T17:51:55.408Z",
+    "stale_after": "2026-07-24T05:51:55.408Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-23",
-    "checked_count": 32,
-    "success_count": 32,
+    "checked_count": 31,
+    "success_count": 31,
     "raw_fetch_status": "complete",
     "official_status": "complete",
     "official_checked_count": 10,
@@ -1558,20 +1560,20 @@
   "data_quality": {
     "status": "warn",
     "coverage": 1,
-    "stale_series_count": 3,
+    "stale_series_count": 2,
     "critical_missing_count": 0,
     "vintage_integrity": "verified",
     "label": "データ品質",
-    "value": "75%",
-    "score": 0.75,
+    "value": "83%",
+    "score": 0.83,
     "freshness_status": "fresh",
     "metric_kind": "data_completeness_and_freshness_not_probability",
     "position_sizing_allowed": false
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "79/100",
-    "score": 0.79,
+    "value": "82/100",
+    "score": 0.82,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1793,8 +1795,8 @@
       "event_calendar_not_officially_verified",
       "upstream_usage_permission_not_trade_candidate",
       "data_quality_gate_not_pass",
-      "decision_target_not_nikkei225_futures",
-      "decision_target_series_not_nikkei225_futures",
+      "decision_target_not_trade_gate_target",
+      "decision_target_series_not_trade_gate_target",
       "macro_decision_not_directional",
       "macro_decision_fresh_entry_conditions_not_met",
       "session_calendar_not_verified",
@@ -2158,7 +2160,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": -10,
+    "score": -9,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -2174,17 +2176,17 @@
     "horizon_label": "20営業日先",
     "breadth": {
       "long": 1,
-      "range": 4,
-      "short": 2,
+      "range": 5,
+      "short": 1,
       "unavailable": 0,
       "total": 7,
       "required": 4,
       "indicator": {
-        "long": 0.34,
-        "range": 0.27,
-        "short": 0.39,
-        "usable_indicator_count": 27,
-        "effective_weight": 6.25
+        "long": 0.38,
+        "range": 0.25,
+        "short": 0.36,
+        "usable_indicator_count": 28,
+        "effective_weight": 6.65
       }
     },
     "evidence": {
@@ -2195,11 +2197,11 @@
         "成長は中立圏",
         "物価圧力は中立圏",
         "雇用は中立圏",
+        "外部環境は中立圏",
         "市場心理は中立圏"
       ],
       "short": [
-        "政策余地は下向き材料",
-        "外部環境は下向き材料"
+        "政策余地は下向き材料"
       ]
     },
     "change_conditions": {
@@ -2311,7 +2313,7 @@
     },
     "note": "実効金利の実績です。政策金利目標や将来予想ではありません。"
   },
-  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は逆風、市場織り込みは中立です。現在のマクロ状態は中立です。",
+  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
   "display_status": "reference_only",
   "asset_bias": [
     {
@@ -2358,8 +2360,8 @@
     },
     {
       "label": "外部環境",
-      "value": 43,
-      "tone": "negative"
+      "value": 47,
+      "tone": "neutral"
     },
     {
       "label": "市場心理",
@@ -4241,914 +4243,6 @@
             "uncertainty_estimation": {
               "method": "deterministic_circular_moving_block_bootstrap_v1",
               "seed": "target:sp500_reference:120d",
-              "prediction_source_sample_count": 10,
-              "prediction_block_length": 10,
-              "economic_source_sample_count": 0,
-              "economic_block_length": 0,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "statistical_uncertainty_insufficient",
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "calibration_error_confidence_above_maximum",
-              "trade_expectancy_confidence_not_positive",
-              "profit_factor_confidence_below_minimum",
-              "effective_sample_count_below_minimum",
-              "independent_trade_count_below_minimum",
-              "actual_class_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "calibration_error_gt_0_08",
-              "target_expectancy_not_positive",
-              "profit_factor_lt_1_20",
-              "target_temporal_validation_insufficient"
-            ]
-          }
-        }
-      },
-      "nikkei225_futures": {
-        "label": "Nikkei 225 Futures",
-        "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-        "horizons": {
-          "1d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 0,
-            "effective_sample_count": 0,
-            "trade_count": 0,
-            "independent_trade_count": 0,
-            "mean_forward_return": null,
-            "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": null,
-            "trade_hit_rate": null,
-            "benchmark_hit_rate": null,
-            "hit_rate_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": null,
-            "macro_f1": null,
-            "per_class": {
-              "long": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 0
-              },
-              "range": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 0
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": null,
-            "baseline_brier_score": null,
-            "brier_skill": null,
-            "calibration_error": null,
-            "top_label_calibration_error": null,
-            "classwise_calibration_curve": null,
-            "pnl": null,
-            "trade_pnl": null,
-            "trade_expectancy": null,
-            "profit_factor": null,
-            "drawdown": 0,
-            "adverse_excursion_expected_shortfall_10": null,
-            "temporal_validation": {
-              "status": "insufficient",
-              "slice_count": 0,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "macro_f1_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "brier_skill_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "calibration_error_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "profit_factor_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "drawdown_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:1d",
-              "prediction_source_sample_count": 0,
-              "prediction_block_length": 0,
-              "economic_source_sample_count": 0,
-              "economic_block_length": 0,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "statistical_uncertainty_insufficient",
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "brier_skill_confidence_not_above_minimum",
-              "trade_expectancy_confidence_not_positive",
-              "profit_factor_confidence_below_minimum",
-              "effective_sample_count_below_minimum",
-              "independent_trade_count_below_minimum",
-              "actual_class_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08",
-              "target_expectancy_not_positive",
-              "profit_factor_lt_1_20",
-              "target_temporal_validation_insufficient"
-            ]
-          },
-          "3d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 312,
-            "effective_sample_count": 282,
-            "trade_count": 5,
-            "independent_trade_count": 5,
-            "mean_forward_return": 0.003,
-            "mean_forward_return_when_long": -0.0136,
-            "mean_forward_return_when_short": null,
-            "hit_rate": 0.4872,
-            "trade_hit_rate": 0.2,
-            "benchmark_hit_rate": 0.4872,
-            "hit_rate_confidence_interval": {
-              "lower": 0.4294,
-              "upper": 0.5453,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": 0.3345,
-            "macro_f1": 0.2257,
-            "per_class": {
-              "long": {
-                "precision": 0.2,
-                "recall": 0.01,
-                "f1": 0.019,
-                "support": 100,
-                "predicted_count": 5
-              },
-              "range": {
-                "precision": 0.4919,
-                "recall": 0.9934,
-                "f1": 0.658,
-                "support": 152,
-                "predicted_count": 307
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 60,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": 0.2244,
-            "baseline_brier_score": 0.2134,
-            "brier_skill": -0.0515,
-            "calibration_error": 0.1547,
-            "top_label_calibration_error": 0.1505,
-            "classwise_calibration_curve": null,
-            "pnl": -0.0002,
-            "trade_pnl": -0.0146,
-            "trade_expectancy": -0.0146,
-            "profit_factor": 0.192,
-            "drawdown": -0.0901,
-            "adverse_excursion_expected_shortfall_10": -0.0632,
-            "temporal_validation": {
-              "status": "evaluated",
-              "slice_count": 3,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": 0.3269,
-              "upper": 0.3431,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "macro_f1_confidence_interval": {
-              "lower": 0.2026,
-              "upper": 0.2496,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "brier_skill_confidence_interval": {
-              "lower": -0.104,
-              "upper": -0.0052,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "calibration_error_confidence_interval": {
-              "lower": 0.102,
-              "upper": 0.2198,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": -0.0338,
-              "upper": 0.0039,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "profit_factor_confidence_interval": {
-              "lower": 0,
-              "upper": 1.7065,
-              "confidence_level": 0.95,
-              "valid_resample_count": 1971,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0.9855
-            },
-            "drawdown_confidence_interval": {
-              "lower": -0.1689,
-              "upper": -0.0186,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:3d",
-              "prediction_source_sample_count": 312,
-              "prediction_block_length": 7,
-              "economic_source_sample_count": 5,
-              "economic_block_length": 2,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "brier_skill_confidence_not_above_minimum",
-              "calibration_error_confidence_above_maximum",
-              "trade_expectancy_confidence_not_positive",
-              "profit_factor_confidence_below_minimum",
-              "independent_trade_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08",
-              "target_expectancy_not_positive",
-              "profit_factor_lt_1_20",
-              "target_temporal_slice_pass_count_lt_2",
-              "target_latest_temporal_slice_not_passed"
-            ]
-          },
-          "5d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 300,
-            "effective_sample_count": 256,
-            "trade_count": 2,
-            "independent_trade_count": 2,
-            "mean_forward_return": 0.0035,
-            "mean_forward_return_when_long": -0.0022,
-            "mean_forward_return_when_short": null,
-            "hit_rate": 0.5167,
-            "trade_hit_rate": 0,
-            "benchmark_hit_rate": 0.5233,
-            "hit_rate_confidence_interval": {
-              "lower": 0.4557,
-              "upper": 0.5772,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": 0.3291,
-            "macro_f1": 0.2271,
-            "per_class": {
-              "long": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 87,
-                "predicted_count": 2
-              },
-              "range": {
-                "precision": 0.5201,
-                "recall": 0.9873,
-                "f1": 0.6813,
-                "support": 157,
-                "predicted_count": 298
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 56,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": 0.2124,
-            "baseline_brier_score": 0.2048,
-            "brier_skill": -0.0371,
-            "calibration_error": 0.1625,
-            "top_label_calibration_error": 0.161,
-            "classwise_calibration_curve": null,
-            "pnl": 0,
-            "trade_pnl": -0.0032,
-            "trade_expectancy": -0.0032,
-            "profit_factor": 0,
-            "drawdown": -0.0065,
-            "adverse_excursion_expected_shortfall_10": -0.0243,
-            "temporal_validation": {
-              "status": "evaluated",
-              "slice_count": 3,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": 0.3198,
-              "upper": 0.3333,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "macro_f1_confidence_interval": {
-              "lower": 0.21,
-              "upper": 0.2429,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "brier_skill_confidence_interval": {
-              "lower": -0.078,
-              "upper": 0.0036,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "calibration_error_confidence_interval": {
-              "lower": 0.1119,
-              "upper": 0.221,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": -0.0032,
-              "upper": -0.0032,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "profit_factor_confidence_interval": {
-              "lower": 0,
-              "upper": 0,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "drawdown_confidence_interval": {
-              "lower": -0.0065,
-              "upper": -0.0065,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:5d",
-              "prediction_source_sample_count": 300,
-              "prediction_block_length": 7,
-              "economic_source_sample_count": 2,
-              "economic_block_length": 2,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "brier_skill_confidence_not_above_minimum",
-              "calibration_error_confidence_above_maximum",
-              "trade_expectancy_confidence_not_positive",
-              "profit_factor_confidence_below_minimum",
-              "independent_trade_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08",
-              "target_expectancy_not_positive",
-              "profit_factor_lt_1_20",
-              "target_temporal_slice_pass_count_lt_2",
-              "target_latest_temporal_slice_not_passed"
-            ]
-          },
-          "20d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 255,
-            "effective_sample_count": 58,
-            "trade_count": 1,
-            "independent_trade_count": 1,
-            "mean_forward_return": 0.0213,
-            "mean_forward_return_when_long": 0.0553,
-            "mean_forward_return_when_short": null,
-            "hit_rate": 0.5529,
-            "trade_hit_rate": 1,
-            "benchmark_hit_rate": 0.549,
-            "hit_rate_confidence_interval": {
-              "lower": 0.4257,
-              "upper": 0.6736,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": 0.3372,
-            "macro_f1": 0.2445,
-            "per_class": {
-              "long": {
-                "precision": 1,
-                "recall": 0.0115,
-                "f1": 0.0227,
-                "support": 87,
-                "predicted_count": 1
-              },
-              "range": {
-                "precision": 0.5512,
-                "recall": 1,
-                "f1": 0.7107,
-                "support": 140,
-                "predicted_count": 254
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 28,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": 0.2116,
-            "baseline_brier_score": 0.2024,
-            "brier_skill": -0.0455,
-            "calibration_error": 0.1605,
-            "top_label_calibration_error": 0.1638,
-            "classwise_calibration_curve": null,
-            "pnl": 0.0002,
-            "trade_pnl": 0.0543,
-            "trade_expectancy": 0.0543,
-            "profit_factor": null,
-            "drawdown": 0,
-            "adverse_excursion_expected_shortfall_10": -0.0363,
-            "temporal_validation": {
-              "status": "insufficient",
-              "slice_count": 0,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": 0.3333,
-              "upper": 0.3458,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "macro_f1_confidence_interval": {
-              "lower": 0.2181,
-              "upper": 0.27,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "brier_skill_confidence_interval": {
-              "lower": -0.1271,
-              "upper": 0.035,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "calibration_error_confidence_interval": {
-              "lower": 0.1205,
-              "upper": 0.2673,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": 0.0543,
-              "upper": 0.0543,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "profit_factor_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "drawdown_confidence_interval": {
-              "lower": 0,
-              "upper": 0,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:20d",
-              "prediction_source_sample_count": 255,
-              "prediction_block_length": 7,
-              "economic_source_sample_count": 1,
-              "economic_block_length": 1,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "statistical_uncertainty_insufficient",
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "brier_skill_confidence_not_above_minimum",
-              "calibration_error_confidence_above_maximum",
-              "profit_factor_confidence_below_minimum",
-              "effective_sample_count_below_minimum",
-              "independent_trade_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08",
-              "profit_factor_lt_1_20",
-              "target_temporal_validation_insufficient"
-            ]
-          },
-          "60d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 67,
-            "effective_sample_count": 6,
-            "trade_count": 0,
-            "independent_trade_count": 0,
-            "mean_forward_return": 0.102,
-            "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": 0.403,
-            "trade_hit_rate": null,
-            "benchmark_hit_rate": 0.403,
-            "hit_rate_confidence_interval": {
-              "lower": 0.1321,
-              "upper": 0.7496,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": 0.3333,
-            "macro_f1": 0.1915,
-            "per_class": {
-              "long": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 40,
-                "predicted_count": 0
-              },
-              "range": {
-                "precision": 0.403,
-                "recall": 1,
-                "f1": 0.5745,
-                "support": 27,
-                "predicted_count": 67
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": 0.2771,
-            "baseline_brier_score": 0.2387,
-            "brier_skill": -0.1609,
-            "calibration_error": 0.4771,
-            "top_label_calibration_error": 0.4771,
-            "classwise_calibration_curve": null,
-            "pnl": 0,
-            "trade_pnl": null,
-            "trade_expectancy": null,
-            "profit_factor": null,
-            "drawdown": 0,
-            "adverse_excursion_expected_shortfall_10": null,
-            "temporal_validation": {
-              "status": "insufficient",
-              "slice_count": 0,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": 0.3333,
-              "upper": 0.3333,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "macro_f1_confidence_interval": {
-              "lower": 0.094,
-              "upper": 0.2643,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "brier_skill_confidence_interval": {
-              "lower": -0.3085,
-              "upper": -0.0283,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "calibration_error_confidence_interval": {
-              "lower": 0.3743,
-              "upper": 0.6486,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "profit_factor_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "drawdown_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:60d",
-              "prediction_source_sample_count": 67,
-              "prediction_block_length": 12,
-              "economic_source_sample_count": 0,
-              "economic_block_length": 0,
-              "resample_count": 2000,
-              "confidence_level": 0.95,
-              "min_valid_resample_fraction": 0.95
-            },
-            "usage_permission": "monitor_only",
-            "validation_reasons": [
-              "statistical_uncertainty_insufficient",
-              "balanced_accuracy_confidence_below_minimum",
-              "macro_f1_confidence_below_minimum",
-              "brier_skill_confidence_not_above_minimum",
-              "calibration_error_confidence_above_maximum",
-              "trade_expectancy_confidence_not_positive",
-              "profit_factor_confidence_below_minimum",
-              "effective_sample_count_below_minimum",
-              "independent_trade_count_below_minimum",
-              "actual_class_count_below_minimum",
-              "predicted_class_count_below_minimum",
-              "hit_rate_not_materially_above_benchmark",
-              "target_hit_rate_confidence_not_above_benchmark",
-              "target_balanced_accuracy_below_minimum",
-              "target_macro_f1_below_minimum",
-              "brier_skill_lte_0_02",
-              "calibration_error_gt_0_08",
-              "target_expectancy_not_positive",
-              "profit_factor_lt_1_20",
-              "target_temporal_validation_insufficient"
-            ]
-          },
-          "120d": {
-            "label": "Nikkei 225 Futures",
-            "series_id": "NIKKEI225_FUTURES_CONTINUOUS",
-            "sample_count": 10,
-            "effective_sample_count": 1,
-            "trade_count": 0,
-            "independent_trade_count": 0,
-            "mean_forward_return": 0.2081,
-            "mean_forward_return_when_long": null,
-            "mean_forward_return_when_short": null,
-            "hit_rate": 0,
-            "trade_hit_rate": null,
-            "benchmark_hit_rate": 0,
-            "hit_rate_confidence_interval": {
-              "lower": 0,
-              "upper": 0.7935,
-              "confidence_level": 0.95
-            },
-            "balanced_accuracy": 0,
-            "macro_f1": 0,
-            "per_class": {
-              "long": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 10,
-                "predicted_count": 0
-              },
-              "range": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 10
-              },
-              "short": {
-                "precision": 0,
-                "recall": 0,
-                "f1": 0,
-                "support": 0,
-                "predicted_count": 0
-              }
-            },
-            "brier_score": 0.2792,
-            "baseline_brier_score": 0.3459,
-            "brier_skill": 0.1928,
-            "calibration_error": 0.7144,
-            "top_label_calibration_error": 0.5467,
-            "classwise_calibration_curve": null,
-            "pnl": 0,
-            "trade_pnl": null,
-            "trade_expectancy": null,
-            "profit_factor": null,
-            "drawdown": 0,
-            "adverse_excursion_expected_shortfall_10": null,
-            "temporal_validation": {
-              "status": "insufficient",
-              "slice_count": 0,
-              "pass_count": 0,
-              "latest_slice_passed": false
-            },
-            "balanced_accuracy_confidence_interval": {
-              "lower": 0,
-              "upper": 0,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "macro_f1_confidence_interval": {
-              "lower": 0,
-              "upper": 0,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "brier_skill_confidence_interval": {
-              "lower": 0.1928,
-              "upper": 0.1928,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "calibration_error_confidence_interval": {
-              "lower": 0.7144,
-              "upper": 0.7144,
-              "confidence_level": 0.95,
-              "valid_resample_count": 2000,
-              "resample_count": 2000,
-              "valid_resample_fraction": 1
-            },
-            "trade_expectancy_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "profit_factor_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "drawdown_confidence_interval": {
-              "lower": null,
-              "upper": null,
-              "confidence_level": 0.95,
-              "valid_resample_count": 0,
-              "resample_count": 2000,
-              "valid_resample_fraction": 0
-            },
-            "uncertainty_estimation": {
-              "method": "deterministic_circular_moving_block_bootstrap_v1",
-              "seed": "target:nikkei225_futures:120d",
               "prediction_source_sample_count": 10,
               "prediction_block_length": 10,
               "economic_source_sample_count": 0,
