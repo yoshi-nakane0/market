@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-22T09:44:12.616+09:00",
+  "generated_at": "2026-07-22T14:51:40.935+09:00",
   "data_cutoff": "2026-07-22T00:49:31.765+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -792,8 +792,8 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-07-29_1400_usd_fomc_statement",
-      "release_at": "2026-07-29T05:00:00.000Z",
+      "id": "secondary_ff_2026-07-30_0200_usd_fomc_statement",
+      "release_at": "2026-07-29T17:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "FOMC声明",
       "importance": "high",
@@ -827,8 +827,8 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-29_1400_usd_federal_funds_rate",
-      "release_at": "2026-07-29T05:00:00.000Z",
+      "id": "secondary_ff_2026-07-30_0200_usd_federal_funds_rate",
+      "release_at": "2026-07-29T17:00:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "米国フェデラルファンド金利",
       "importance": "high",
@@ -862,15 +862,15 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-23_0830_usd_unemployment_claims",
-      "release_at": "2026-07-22T23:30:00.000Z",
+      "id": "secondary_ff_2026-08-03_2200_usd_ism_manufacturing_pmi",
+      "release_at": "2026-08-03T13:00:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "新規失業保険申請件数",
-      "importance": "medium",
-      "importance_label": "中",
-      "previous": "208K",
+      "label": "ISM製造業PMI",
+      "importance": "high",
+      "importance_label": "高",
+      "previous": null,
       "revised_previous": null,
-      "consensus": "211K",
+      "consensus": null,
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -886,11 +886,11 @@
       },
       "attention_score": 16,
       "attention_components": {
-        "regime_relevance": 0.67,
-        "surprise_likelihood": 0.59,
-        "decision_impact": 0.72,
+        "regime_relevance": 0.86,
+        "surprise_likelihood": 0.62,
+        "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 1
+        "proximity": 0.6
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -1526,7 +1526,7 @@
     "missing_series": [],
     "next_update_event": {
       "label": "FOMC声明",
-      "release_at": "2026-07-29T05:00:00.000Z"
+      "release_at": "2026-07-29T17:00:00.000Z"
     },
     "point_in_time_validation": {
       "status": "complete",
@@ -1646,7 +1646,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-22T09:44:12.616+09:00",
+  "updated_at": "2026-07-22T14:51:40.935+09:00",
   "date": "2026-07-22",
   "snapshot_id": "macro-2026-07-22-macro-public-v3-109dbb1ce80f99b9",
   "snapshot_content_hash": "109dbb1ce80f99b95e1b3781fc1551de2666b7c1e88f1787a6cd4e2ff96bb407",
@@ -1786,7 +1786,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-21T15:14:35.156Z",
+    "generated_at": "2026-07-22T00:49:19.870Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1794,20 +1794,20 @@
       "short_allowed": false,
       "lookback_sessions": 20,
       "target_annual_volatility": 0.1,
-      "current_annualized_volatility": 0.383273,
+      "current_annualized_volatility": 0.360448,
       "max_notional_fraction": 0.25,
       "target_notional_fraction": 0.25,
       "cash_reserve_fraction": 0.75,
       "rebalance_rule": "完了済み夜間取引までの20日値動きで、次に取引できる夜間取引から目標比率へ調整"
     },
     "instrument": {
-      "reference_price": 65080,
-      "reference_price_as_of": "2026-07-20T21:00:00.000Z",
+      "reference_price": 67200,
+      "reference_price_as_of": "2026-07-21T21:00:00.000Z",
       "contract_month": "2026-09",
       "expiry_date": "2026-09-11",
-      "days_to_expiry": 52,
+      "days_to_expiry": 51,
       "micro_contract_multiplier": 10,
-      "micro_contract_reference_notional": 650800,
+      "micro_contract_reference_notional": 672000,
       "contracts_calculation": "口座の純資産 × 目標比率 ÷（証券会社の現在値 × 10）を切り捨て",
       "source_label": "225navi 大証 日経225先物期近日足",
       "source_url": "https://225navi.com/data/"
@@ -1822,10 +1822,10 @@
     },
     "data_quality": {
       "status": "fresh",
-      "latest_completed_session_date": "2026-07-20",
-      "source_timestamp": "2026-07-20T21:00:00.000Z",
-      "age_hours": 18.24,
-      "row_count": 3073,
+      "latest_completed_session_date": "2026-07-21",
+      "source_timestamp": "2026-07-21T21:00:00.000Z",
+      "age_hours": 3.82,
+      "row_count": 3074,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
       "invalid_rows_excluded": 1,
@@ -1869,31 +1869,31 @@
           "average_notional_fraction": 0.246849
         },
         "recent_test": {
-          "sample_count": 396,
+          "sample_count": 397,
           "start_date": "2025-01-03",
-          "end_date": "2026-07-17",
-          "total_return": 0.135412,
-          "annualized_return": 0.084171,
-          "annualized_volatility": 0.065007,
-          "sharpe_ratio": 1.27579,
+          "end_date": "2026-07-20",
+          "total_return": 0.140292,
+          "annualized_return": 0.086905,
+          "annualized_volatility": 0.065002,
+          "sharpe_ratio": 1.314647,
           "max_drawdown": -0.061454,
-          "profit_factor": 1.253883,
-          "average_notional_fraction": 0.24678
+          "profit_factor": 1.262255,
+          "average_notional_fraction": 0.246788
         }
       },
       "fixed_25_percent_benchmark": {
         "label": "固定25%ロング",
         "purpose": "予測優位ではなく、同じ配分上限との比較",
         "full_period": {
-          "sample_count": 3051,
+          "sample_count": 3052,
           "start_date": "2014-02-05",
-          "end_date": "2026-07-17",
-          "total_return": 0.525321,
-          "annualized_return": 0.035488,
-          "annualized_volatility": 0.053742,
-          "sharpe_ratio": 0.675808,
+          "end_date": "2026-07-20",
+          "total_return": 0.531877,
+          "annualized_return": 0.035842,
+          "annualized_volatility": 0.053747,
+          "sharpe_ratio": 0.682133,
           "max_drawdown": -0.09131,
-          "profit_factor": 1.127348,
+          "profit_factor": 1.128593,
           "average_notional_fraction": 0.25
         }
       }
