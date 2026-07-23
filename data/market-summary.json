@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T15:01:08.957Z",
+  "updated_at": "2026-07-23T23:57:02.226Z",
   "macro": {
-    "date": "2026-07-23",
+    "date": "2026-07-24",
     "region": "米国",
     "regime": "中立",
     "risk_score": "-8",
@@ -56,7 +56,7 @@
       },
       {
         "label": "市場心理",
-        "value": 52,
+        "value": 53,
         "tone": "neutral"
       }
     ],
@@ -83,8 +83,8 @@
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "81/100",
-      "score": 0.81,
+      "value": "89/100",
+      "score": 0.89,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -201,9 +201,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-23T15:01:08.957Z",
+      "latest_attempt_at": "2026-07-23T23:57:02.226Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 14947,
+      "data_age_minutes": 15483,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
