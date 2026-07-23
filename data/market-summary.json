@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-22T14:54:28.723Z",
+  "updated_at": "2026-07-22T23:59:14.468Z",
   "macro": {
-    "date": "2026-07-22",
+    "date": "2026-07-23",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "0",
+    "risk_score": "-9",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "35%",
+        "value": "34%",
         "tone": "positive"
       },
       {
@@ -19,29 +19,29 @@
       },
       {
         "label": "ショート",
-        "value": "28%",
+        "value": "29%",
         "tone": "negative"
       }
     ],
     "state_scores": [
       {
         "label": "成長",
-        "value": 54,
-        "tone": "positive"
+        "value": 50,
+        "tone": "neutral"
       },
       {
         "label": "物価圧力",
-        "value": 48,
+        "value": 47,
         "tone": "neutral"
       },
       {
         "label": "雇用",
-        "value": 53,
+        "value": 51,
         "tone": "neutral"
       },
       {
         "label": "政策余地",
-        "value": 40,
+        "value": 39,
         "tone": "negative"
       },
       {
@@ -51,12 +51,12 @@
       },
       {
         "label": "外部環境",
-        "value": 50,
+        "value": 47,
         "tone": "neutral"
       },
       {
         "label": "市場心理",
-        "value": 51,
+        "value": 52,
         "tone": "neutral"
       }
     ],
@@ -64,27 +64,27 @@
     "factors": {
       "support": [
         "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-        "Manufacturers' New Ordersが強くプラスに寄与",
-        "WTI Crude Oilが強くプラスに寄与"
+        "National Financial Conditions Indexが小幅にプラス",
+        "Adjusted National Financial Conditions Indexが小幅にプラス"
       ],
       "risk": [
         "10Y Treasury Yieldがマイナスに寄与",
-        "Mortgage Rateがマイナスに寄与",
-        "2Y Treasury Yieldがマイナスに寄与"
+        "2Y Treasury Yieldがマイナスに寄与",
+        "Mortgage Rateがマイナスに寄与"
       ]
     },
     "world_state": [],
     "data_quality": {
       "status": "warn",
       "coverage": 1,
-      "stale_series_count": 3,
+      "stale_series_count": 2,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "83/100",
-      "score": 0.83,
+      "value": "82/100",
+      "score": 0.82,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -98,21 +98,21 @@
       "probabilities": null,
       "outcome": null,
       "outcome_label": null,
-      "target_key": "nikkei225_futures",
-      "target_label": "日経225先物",
+      "target_key": "sp500_reference",
+      "target_label": "S&P 500",
       "horizon": "20d",
-      "horizon_label": "1か月先（20営業日）",
+      "horizon_label": "20営業日先",
       "correct_label_definition": null,
       "calibrated": false,
       "calibration_method": null,
       "historical_validation": {
-        "sample_count": 196,
-        "effective_sample_count": 50,
-        "hit_rate": 0.5561,
-        "benchmark_hit_rate": 0.5204,
-        "brier_score": 0.1949,
-        "brier_skill": 0.0171,
-        "calibration_error": 0.13,
+        "sample_count": 256,
+        "effective_sample_count": 58,
+        "hit_rate": 0.6563,
+        "benchmark_hit_rate": 0.6602,
+        "brier_score": 0.1597,
+        "brier_skill": 0.0545,
+        "calibration_error": 0.0959,
         "similar_probability_history": null,
         "usage_permission": "monitor_only"
       },
@@ -122,13 +122,13 @@
       "metric_kind": "calibrated_multiclass_predictive_probability"
     },
     "backtest_summary": {
-      "sample_count": 647,
+      "sample_count": 482,
       "hit_rate": 0.45,
       "brier_score": null,
       "calibration_error": null,
       "period": {
-        "start": "2014-01-31",
-        "end": "2026-07-09"
+        "start": "2016-07-22",
+        "end": "2026-07-17"
       },
       "quality": "sufficient_history"
     },
@@ -201,9 +201,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-22T14:54:28.723Z",
+      "latest_attempt_at": "2026-07-22T23:59:14.468Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 13501,
+      "data_age_minutes": 14045,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
