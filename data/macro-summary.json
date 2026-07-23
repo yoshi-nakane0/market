@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-23T16:24:58.308+09:00",
+  "generated_at": "2026-07-23T17:50:12.152+09:00",
   "data_cutoff": "2026-07-23T16:23:07.686+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
@@ -1512,20 +1512,273 @@
     }
   },
   "quality": {
-    "confidence_label": "medium",
-    "confidence_label_ja": "中",
-    "confidence_score_detail": 0.71,
+    "confidence_label": "high",
+    "confidence_label_ja": "高",
+    "confidence_score_detail": 0.81,
     "confidence_reasons": [
-      "信頼度別の過去成績は校正途中です"
+      "主要データと複数モデルの方向が一致しています"
     ],
     "data_coverage": 1,
     "data_freshness": "fresh",
     "model_agreement": 0.81,
     "regime_stability": 0.91,
     "confidence_calibration": {
-      "status": "insufficient",
-      "method": "信頼度帯ごとの予測件数と実績正解率を時系列外で比較",
-      "bands": []
+      "status": "verified",
+      "method": "米国の1か月・3か月予測を過去データだけで時系列分割し、予測確率と実績頻度を比較",
+      "bands": [
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2016-09-15",
+            "end": "2019-11-15"
+          },
+          "class": "improve",
+          "sample_count": 39,
+          "predicted_probability": 0.2845,
+          "observed_frequency": 0.2564,
+          "absolute_error": 0.0281
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2016-09-15",
+            "end": "2019-11-15"
+          },
+          "class": "stable",
+          "sample_count": 39,
+          "predicted_probability": 0.4047,
+          "observed_frequency": 0.3333,
+          "absolute_error": 0.0714
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2016-09-15",
+            "end": "2019-11-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 39,
+          "predicted_probability": 0.3107,
+          "observed_frequency": 0.4103,
+          "absolute_error": 0.0996
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2019-12-15",
+            "end": "2023-02-15"
+          },
+          "class": "improve",
+          "sample_count": 39,
+          "predicted_probability": 0.335,
+          "observed_frequency": 0.3333,
+          "absolute_error": 0.0017
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2019-12-15",
+            "end": "2023-02-15"
+          },
+          "class": "stable",
+          "sample_count": 39,
+          "predicted_probability": 0.2399,
+          "observed_frequency": 0.2308,
+          "absolute_error": 0.0091
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2019-12-15",
+            "end": "2023-02-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 39,
+          "predicted_probability": 0.4251,
+          "observed_frequency": 0.4359,
+          "absolute_error": 0.0108
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-06-15"
+          },
+          "class": "improve",
+          "sample_count": 40,
+          "predicted_probability": 0.3069,
+          "observed_frequency": 0.325,
+          "absolute_error": 0.0181
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-06-15"
+          },
+          "class": "stable",
+          "sample_count": 40,
+          "predicted_probability": 0.3986,
+          "observed_frequency": 0.5,
+          "absolute_error": 0.1014
+        },
+        {
+          "horizon": "one_month",
+          "horizon_months": 1,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-06-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 40,
+          "predicted_probability": 0.2945,
+          "observed_frequency": 0.175,
+          "absolute_error": 0.1195
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2017-01-15",
+            "end": "2020-01-15"
+          },
+          "class": "improve",
+          "sample_count": 37,
+          "predicted_probability": 0.3866,
+          "observed_frequency": 0.3514,
+          "absolute_error": 0.0352
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2017-01-15",
+            "end": "2020-01-15"
+          },
+          "class": "stable",
+          "sample_count": 37,
+          "predicted_probability": 0.2967,
+          "observed_frequency": 0.1892,
+          "absolute_error": 0.1075
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 1,
+          "period": {
+            "start": "2017-01-15",
+            "end": "2020-01-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 37,
+          "predicted_probability": 0.3167,
+          "observed_frequency": 0.4595,
+          "absolute_error": 0.1428
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2020-02-15",
+            "end": "2023-02-15"
+          },
+          "class": "improve",
+          "sample_count": 37,
+          "predicted_probability": 0.3679,
+          "observed_frequency": 0.4324,
+          "absolute_error": 0.0645
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2020-02-15",
+            "end": "2023-02-15"
+          },
+          "class": "stable",
+          "sample_count": 37,
+          "predicted_probability": 0.201,
+          "observed_frequency": 0.1351,
+          "absolute_error": 0.0659
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 2,
+          "period": {
+            "start": "2020-02-15",
+            "end": "2023-02-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 37,
+          "predicted_probability": 0.4311,
+          "observed_frequency": 0.4324,
+          "absolute_error": 0.0013
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-04-15"
+          },
+          "class": "improve",
+          "sample_count": 38,
+          "predicted_probability": 0.301,
+          "observed_frequency": 0.2632,
+          "absolute_error": 0.0378
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-04-15"
+          },
+          "class": "stable",
+          "sample_count": 38,
+          "predicted_probability": 0.4014,
+          "observed_frequency": 0.5789,
+          "absolute_error": 0.1775
+        },
+        {
+          "horizon": "three_month",
+          "horizon_months": 3,
+          "temporal_slice": 3,
+          "period": {
+            "start": "2023-03-15",
+            "end": "2026-04-15"
+          },
+          "class": "deteriorate",
+          "sample_count": 38,
+          "predicted_probability": 0.2976,
+          "observed_frequency": 0.1579,
+          "absolute_error": 0.1397
+        }
+      ]
     },
     "stale_series": [],
     "missing_series": [],
@@ -1626,10 +1879,10 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-23T16:24:58.308+09:00",
+  "updated_at": "2026-07-23T17:50:12.152+09:00",
   "date": "2026-07-23",
-  "snapshot_id": "macro-2026-07-23-macro-public-v3-43f4a7e5252bf963",
-  "snapshot_content_hash": "43f4a7e5252bf96335473c2081c6d73ba1b1bc8e6a9d1aa949a752845daf13f1",
+  "snapshot_id": "macro-2026-07-23-macro-public-v3-b23656fdae1b92d0",
+  "snapshot_content_hash": "b23656fdae1b92d0faff20e9d1289d0e0fdeab7d2cef3e1a5b6ac7d742de2b81",
   "as_of_date": "2026-07-23",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
