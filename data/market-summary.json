@@ -4,7 +4,7 @@
     "date": "2026-07-23",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "-9",
+    "risk_score": "-8",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
@@ -46,7 +46,7 @@
       },
       {
         "label": "金融環境",
-        "value": 56,
+        "value": 57,
         "tone": "positive"
       },
       {
@@ -75,16 +75,16 @@
     },
     "world_state": [],
     "data_quality": {
-      "status": "warn",
+      "status": "pass",
       "coverage": 1,
-      "stale_series_count": 2,
+      "stale_series_count": 0,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "82/100",
-      "score": 0.82,
+      "value": "81/100",
+      "score": 0.81,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -106,13 +106,13 @@
       "calibrated": false,
       "calibration_method": null,
       "historical_validation": {
-        "sample_count": 256,
-        "effective_sample_count": 58,
-        "hit_rate": 0.6563,
-        "benchmark_hit_rate": 0.6602,
-        "brier_score": 0.1597,
-        "brier_skill": 0.0545,
-        "calibration_error": 0.0959,
+        "sample_count": 257,
+        "effective_sample_count": 59,
+        "hit_rate": 0.6537,
+        "benchmark_hit_rate": 0.6498,
+        "brier_score": 0.164,
+        "brier_skill": 0.052,
+        "calibration_error": 0.0856,
         "similar_probability_history": null,
         "usage_permission": "monitor_only"
       },
@@ -123,12 +123,12 @@
     },
     "backtest_summary": {
       "sample_count": 482,
-      "hit_rate": 0.45,
+      "hit_rate": 0.44,
       "brier_score": null,
       "calibration_error": null,
       "period": {
-        "start": "2016-07-22",
-        "end": "2026-07-17"
+        "start": "2016-07-29",
+        "end": "2026-07-22"
       },
       "quality": "sufficient_history"
     },
@@ -203,7 +203,7 @@
       ],
       "latest_attempt_at": "2026-07-23T05:47:16.838Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 14393,
+      "data_age_minutes": 14630,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
