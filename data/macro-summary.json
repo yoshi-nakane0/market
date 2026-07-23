@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-23T17:50:12.152+09:00",
-  "data_cutoff": "2026-07-23T16:23:07.686+09:00",
+  "generated_at": "2026-07-24T00:40:31.134+09:00",
+  "data_cutoff": "2026-07-24T00:33:50.878+09:00",
   "purpose": [
     "現在のマクロ状態と変化方向を確定する",
     "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
@@ -11,13 +11,13 @@
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
-    "direction": "deteriorating",
-    "direction_label": "悪化",
+    "direction": "stable",
+    "direction_label": "横ばい",
     "inflation_direction": "stable",
     "inflation_direction_label": "横ばい",
     "regime": "transition_neutral",
     "regime_label": "移行・中立",
-    "summary": "実体経済は中立で、方向は悪化です。主な支援要因は社債スプレッド、主な下押し要因は米10年国債利回りです。",
+    "summary": "実体経済は中立で、方向は横ばいです。主な支援要因は社債スプレッド、主な下押し要因は米10年国債利回りです。",
     "drivers_positive": [
       {
         "label": "社債スプレッドが強くプラスに寄与",
@@ -54,7 +54,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "成長が前回から悪化。 物価圧力が前回から悪化。 雇用が前回から悪化",
+    "change_since_previous": "前回との比較データを確認できません",
     "layers": {
       "real_economy": [
         "growth",
@@ -89,7 +89,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-07-23",
+        "origin_date": "2026-07-24",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -122,7 +122,7 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-07-23",
+        "origin_date": "2026-07-24",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
@@ -146,11 +146,15 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
         "candidate_history": [
           {
             "as_of_date": "2026-07-23",
+            "value": 2.2739
+          },
+          {
+            "as_of_date": "2026-07-24",
             "value": 2.2739
           }
         ],
@@ -159,15 +163,15 @@
         "interval": null,
         "candidate_interval": "-0.28%〜3.08%（前年比）",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "公開データの各要因を4四半期先GDPへ時系列モデルで結び付けて分解"
       },
       {
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-07-23",
-        "target_period": "2027-07-23",
+        "origin_date": "2026-07-24",
+        "target_period": "2027-07-24",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -195,8 +199,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-07-23",
-        "target_period": "2027-07-23",
+        "origin_date": "2026-07-24",
+        "target_period": "2027-07-24",
         "forecast_value": null,
         "candidate_value": 4.6598,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -215,11 +219,15 @@
         "unit": "percent",
         "basis": "level",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
         "candidate_history": [
           {
             "as_of_date": "2026-07-23",
+            "value": 4.6598
+          },
+          {
+            "as_of_date": "2026-07-24",
             "value": 4.6598
           }
         ],
@@ -228,15 +236,15 @@
         "interval": null,
         "candidate_interval": "3.73%〜5.63%",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "失業率変化、景気の勢いを確認"
       },
       {
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-07-23",
-        "target_period": "2026-07-23",
+        "origin_date": "2026-07-24",
+        "target_period": "2026-07-24",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -369,8 +377,8 @@
       "probability_status": "過去時点検証待ち"
     },
     "forecast_revision": {
-      "status": "not_available",
-      "headline": "初回計算のため、前回見通しとの比較はありません。",
+      "status": "provisional",
+      "headline": "主要な予測値は前回からほぼ変わりません。",
       "drivers": []
     },
     "scenarios": [],
@@ -401,7 +409,7 @@
   "world_model": {
     "schema_version": "economic-world-model-v1",
     "model_version": "multi-region-semi-structural-ensemble-v1",
-    "origin_date": "2026-07-23",
+    "origin_date": "2026-07-24",
     "analysis_scope": {
       "formal_regions": [
         "us"
@@ -416,8 +424,8 @@
       "score_source_region": "us",
       "final_decision_source_region": "us"
     },
-    "status": "provisional",
-    "usage_permission": "usable",
+    "status": "partial",
+    "usage_permission": "monitor_only",
     "forecast_horizon_quarters": 12,
     "coverage": {
       "status": "complete",
@@ -430,13 +438,16 @@
       "substitute_region_count": 3
     },
     "validation": {
-      "status": "verified",
-      "realtime_vintage_validated": true,
-      "probability_calibrated": true,
+      "status": "unverified",
+      "realtime_vintage_validated": false,
+      "probability_calibrated": false,
       "limitations": [
         "正式な確率・スコア・最終判断は米国データだけを使用します",
         "日本を含む米国以外の地域は入力状況の参考表示だけです",
-        "一部地域は、対象地域そのものではないことを明示した代理指標を含みます"
+        "一部地域は、対象地域そのものではないことを明示した代理指標を含みます",
+        "公表時点のデータを使った過去検証が未完了です",
+        "地域間の結び付きは統計推定前の仮置きです",
+        "シナリオ配分と予測帯は未校正です"
       ]
     },
     "regions": {
@@ -460,18 +471,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": 0.7533,
-                "p50": 2.105,
-                "p90": 2.7635,
+                "p10": 0.7939,
+                "p50": 2.1268,
+                "p90": 2.8704,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 3.1898,
-                "p50": 3.3767,
-                "p90": 3.7293,
+                "p10": 3.1832,
+                "p50": 3.3681,
+                "p90": 3.8195,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -489,18 +500,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -1.5884,
-                "p50": 1.4022,
-                "p90": 3.256,
+                "p10": -1.5401,
+                "p50": 1.4696,
+                "p90": 3.3545,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 2.4992,
-                "p50": 2.7272,
-                "p90": 3.3943,
+                "p10": 2.5171,
+                "p50": 2.7402,
+                "p90": 4.5057,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -519,17 +530,17 @@
             "variables": {
               "gdp_growth": {
                 "p10": -1.1453,
-                "p50": 1.5181,
-                "p90": 3.1057,
+                "p50": 1.5665,
+                "p90": 3.1823,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.6836,
-                "p50": 2.1488,
-                "p90": 3.1568,
+                "p10": 1.6605,
+                "p50": 2.172,
+                "p90": 3.453,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -547,18 +558,18 @@
             },
             "variables": {
               "gdp_growth": {
-                "p10": -0.0095,
-                "p50": 1.6893,
-                "p90": 2.6868,
+                "p10": -0.0418,
+                "p50": 1.6928,
+                "p90": 2.7521,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
                 "decision_use_allowed": false
               },
               "inflation": {
-                "p10": 1.3827,
-                "p50": 2.0069,
-                "p90": 2.504,
+                "p10": 1.403,
+                "p50": 2.0092,
+                "p90": 2.5441,
                 "unit": "percent",
                 "distribution_kind": "uncalibrated_scenario_dispersion",
                 "probability_interval": false,
@@ -663,13 +674,13 @@
   },
   "outlook": {
     "one_month": {
-      "status": "usable",
+      "status": "not_available",
       "label": "1か月",
       "model_kind": "event_driven",
-      "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.260096,
-      "stable_probability": 0.494173,
-      "deteriorate_probability": 0.245731,
+      "base_case": "中立。現時点ではマクロ上の優位性なし。",
+      "improve_probability": null,
+      "stable_probability": null,
+      "deteriorate_probability": null,
       "drivers": [
         "金融政策",
         "金融環境",
@@ -683,7 +694,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "medium",
+      "confidence_label": "low",
       "inputs": [
         "今後1か月の経済指標",
         "高頻度データ",
@@ -693,27 +704,27 @@
         "直近の改定方向"
       ],
       "validation": {
-        "status": "passed",
-        "forecast_status": "verified",
-        "sample_count": 118,
+        "status": "not_passed",
+        "forecast_status": "unavailable",
+        "sample_count": null,
         "effective_sample_count": null,
         "hit_rate": null,
         "benchmark_hit_rate": null,
         "brier_score": null,
-        "brier_skill": 0.4393,
-        "calibration_error": 0.0568,
+        "brier_skill": null,
+        "calibration_error": null,
         "walk_forward_status": "not_available",
-        "usage_permission": "usable"
+        "usage_permission": "monitor_only"
       }
     },
     "three_month": {
-      "status": "usable",
+      "status": "not_available",
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
-      "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.246623,
-      "stable_probability": 0.461981,
-      "deteriorate_probability": 0.291396,
+      "base_case": "中立。現時点ではマクロ上の優位性なし。",
+      "improve_probability": null,
+      "stable_probability": null,
+      "deteriorate_probability": null,
       "drivers": [
         "金融政策",
         "金融環境",
@@ -727,7 +738,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "medium",
+      "confidence_label": "low",
       "inputs": [
         "景気先行指標",
         "新規受注",
@@ -739,17 +750,17 @@
         "企業利益のマクロ推計"
       ],
       "validation": {
-        "status": "passed",
-        "forecast_status": "verified",
-        "sample_count": 112,
+        "status": "not_passed",
+        "forecast_status": "unavailable",
+        "sample_count": null,
         "effective_sample_count": null,
         "hit_rate": null,
         "benchmark_hit_rate": null,
         "brier_score": null,
-        "brier_skill": 0.5469,
-        "calibration_error": 0.0735,
+        "brier_skill": null,
+        "calibration_error": null,
         "walk_forward_status": "not_available",
-        "usage_permission": "usable"
+        "usage_permission": "monitor_only"
       }
     }
   },
@@ -821,8 +832,8 @@
       "label": "外部環境",
       "region": "global",
       "state": "中立",
-      "direction": "deteriorating",
-      "direction_label": "悪化",
+      "direction": "stable",
+      "direction_label": "横ばい",
       "contribution": "negative",
       "contribution_label": "−小",
       "evidence": [
@@ -883,8 +894,8 @@
       "label": "雇用",
       "region": "united_states",
       "state": "底堅い",
-      "direction": "deteriorating",
-      "direction_label": "悪化",
+      "direction": "stable",
+      "direction_label": "横ばい",
       "contribution": "neutral",
       "contribution_label": "0",
       "evidence": [
@@ -914,8 +925,8 @@
       "label": "成長",
       "region": "united_states",
       "state": "横ばい",
-      "direction": "deteriorating",
-      "direction_label": "悪化",
+      "direction": "stable",
+      "direction_label": "横ばい",
       "contribution": "neutral",
       "contribution_label": "0",
       "evidence": [
@@ -1512,273 +1523,21 @@
     }
   },
   "quality": {
-    "confidence_label": "high",
-    "confidence_label_ja": "高",
-    "confidence_score_detail": 0.81,
+    "confidence_label": "medium",
+    "confidence_label_ja": "中",
+    "confidence_score_detail": 0.59,
     "confidence_reasons": [
-      "主要データと複数モデルの方向が一致しています"
+      "1か月・3か月の状態予測は過去成績の利用条件を満たしていません",
+      "信頼度別の過去成績は校正途中です"
     ],
     "data_coverage": 1,
     "data_freshness": "fresh",
-    "model_agreement": 0.81,
-    "regime_stability": 0.91,
+    "model_agreement": 0.89,
+    "regime_stability": 1,
     "confidence_calibration": {
-      "status": "verified",
+      "status": "insufficient",
       "method": "米国の1か月・3か月予測を過去データだけで時系列分割し、予測確率と実績頻度を比較",
-      "bands": [
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2016-09-15",
-            "end": "2019-11-15"
-          },
-          "class": "improve",
-          "sample_count": 39,
-          "predicted_probability": 0.2845,
-          "observed_frequency": 0.2564,
-          "absolute_error": 0.0281
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2016-09-15",
-            "end": "2019-11-15"
-          },
-          "class": "stable",
-          "sample_count": 39,
-          "predicted_probability": 0.4047,
-          "observed_frequency": 0.3333,
-          "absolute_error": 0.0714
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2016-09-15",
-            "end": "2019-11-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 39,
-          "predicted_probability": 0.3107,
-          "observed_frequency": 0.4103,
-          "absolute_error": 0.0996
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2019-12-15",
-            "end": "2023-02-15"
-          },
-          "class": "improve",
-          "sample_count": 39,
-          "predicted_probability": 0.335,
-          "observed_frequency": 0.3333,
-          "absolute_error": 0.0017
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2019-12-15",
-            "end": "2023-02-15"
-          },
-          "class": "stable",
-          "sample_count": 39,
-          "predicted_probability": 0.2399,
-          "observed_frequency": 0.2308,
-          "absolute_error": 0.0091
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2019-12-15",
-            "end": "2023-02-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 39,
-          "predicted_probability": 0.4251,
-          "observed_frequency": 0.4359,
-          "absolute_error": 0.0108
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-06-15"
-          },
-          "class": "improve",
-          "sample_count": 40,
-          "predicted_probability": 0.3069,
-          "observed_frequency": 0.325,
-          "absolute_error": 0.0181
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-06-15"
-          },
-          "class": "stable",
-          "sample_count": 40,
-          "predicted_probability": 0.3986,
-          "observed_frequency": 0.5,
-          "absolute_error": 0.1014
-        },
-        {
-          "horizon": "one_month",
-          "horizon_months": 1,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-06-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 40,
-          "predicted_probability": 0.2945,
-          "observed_frequency": 0.175,
-          "absolute_error": 0.1195
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2017-01-15",
-            "end": "2020-01-15"
-          },
-          "class": "improve",
-          "sample_count": 37,
-          "predicted_probability": 0.3866,
-          "observed_frequency": 0.3514,
-          "absolute_error": 0.0352
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2017-01-15",
-            "end": "2020-01-15"
-          },
-          "class": "stable",
-          "sample_count": 37,
-          "predicted_probability": 0.2967,
-          "observed_frequency": 0.1892,
-          "absolute_error": 0.1075
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 1,
-          "period": {
-            "start": "2017-01-15",
-            "end": "2020-01-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 37,
-          "predicted_probability": 0.3167,
-          "observed_frequency": 0.4595,
-          "absolute_error": 0.1428
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2020-02-15",
-            "end": "2023-02-15"
-          },
-          "class": "improve",
-          "sample_count": 37,
-          "predicted_probability": 0.3679,
-          "observed_frequency": 0.4324,
-          "absolute_error": 0.0645
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2020-02-15",
-            "end": "2023-02-15"
-          },
-          "class": "stable",
-          "sample_count": 37,
-          "predicted_probability": 0.201,
-          "observed_frequency": 0.1351,
-          "absolute_error": 0.0659
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 2,
-          "period": {
-            "start": "2020-02-15",
-            "end": "2023-02-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 37,
-          "predicted_probability": 0.4311,
-          "observed_frequency": 0.4324,
-          "absolute_error": 0.0013
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-04-15"
-          },
-          "class": "improve",
-          "sample_count": 38,
-          "predicted_probability": 0.301,
-          "observed_frequency": 0.2632,
-          "absolute_error": 0.0378
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-04-15"
-          },
-          "class": "stable",
-          "sample_count": 38,
-          "predicted_probability": 0.4014,
-          "observed_frequency": 0.5789,
-          "absolute_error": 0.1775
-        },
-        {
-          "horizon": "three_month",
-          "horizon_months": 3,
-          "temporal_slice": 3,
-          "period": {
-            "start": "2023-03-15",
-            "end": "2026-04-15"
-          },
-          "class": "deteriorate",
-          "sample_count": 38,
-          "predicted_probability": 0.2976,
-          "observed_frequency": 0.1579,
-          "absolute_error": 0.1397
-        }
-      ]
+      "bands": []
     },
     "stale_series": [],
     "missing_series": [],
@@ -1879,21 +1638,21 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-23T17:50:12.152+09:00",
-  "date": "2026-07-23",
-  "snapshot_id": "macro-2026-07-23-macro-public-v3-b23656fdae1b92d0",
-  "snapshot_content_hash": "b23656fdae1b92d0faff20e9d1289d0e0fdeab7d2cef3e1a5b6ac7d742de2b81",
-  "as_of_date": "2026-07-23",
+  "updated_at": "2026-07-24T00:40:31.134+09:00",
+  "date": "2026-07-24",
+  "snapshot_id": "macro-2026-07-24-macro-public-v3-ca35e9b433f4f116",
+  "snapshot_content_hash": "ca35e9b433f4f11656ee97578fcdd62ac19ca56422fe4e465874d36a8c24dd0d",
+  "as_of_date": "2026-07-24",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-23T07:23:07.686Z",
+  "signal_at": "2026-07-23T15:33:50.878Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-24",
-    "entry_at": "2026-07-23T23:45:00.000Z",
-    "valid_until": "2026-07-23T23:45:00.000Z",
+    "entry_session_date": "2026-07-27",
+    "entry_at": "2026-07-26T23:45:00.000Z",
+    "valid_until": "2026-07-26T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
@@ -1902,10 +1661,10 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-23T07:12:51.428Z",
-    "stale_after": "2026-07-24T19:12:51.428Z",
+    "fetched_at": "2026-07-23T15:23:21.192Z",
+    "stale_after": "2026-07-25T03:23:21.192Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-23",
+    "as_of_date": "2026-07-24",
     "checked_count": 29,
     "success_count": 29,
     "raw_fetch_status": "complete",
@@ -1935,8 +1694,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "81/100",
-    "score": 0.81,
+    "value": "89/100",
+    "score": 0.89,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -2177,7 +1936,6 @@
       "predictive_current_feature_timing_invalid",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
-      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
@@ -2734,7 +2492,7 @@
     },
     {
       "label": "市場心理",
-      "value": 52,
+      "value": 53,
       "tone": "neutral"
     }
   ],
