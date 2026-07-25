@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-24T14:43:20.728Z",
+  "updated_at": "2026-07-25T00:00:02.655Z",
   "macro": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "-8",
+    "risk_score": "-7",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
@@ -51,12 +51,12 @@
       },
       {
         "label": "外部環境",
-        "value": 47,
+        "value": 53,
         "tone": "neutral"
       },
       {
         "label": "市場心理",
-        "value": 53,
+        "value": 50,
         "tone": "neutral"
       }
     ],
@@ -75,16 +75,16 @@
     },
     "world_state": [],
     "data_quality": {
-      "status": "pass",
+      "status": "warn",
       "coverage": 1,
-      "stale_series_count": 0,
+      "stale_series_count": 2,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "89/100",
-      "score": 0.89,
+      "value": "81/100",
+      "score": 0.81,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -128,7 +128,7 @@
       "calibration_error": null,
       "period": {
         "start": "2016-07-29",
-        "end": "2026-07-22"
+        "end": "2026-07-23"
       },
       "quality": "sufficient_history"
     },
@@ -173,7 +173,6 @@
       "stop_required": true,
       "stop_reasons": [
         "内部の安全条件により停止しています",
-        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -183,7 +182,6 @@
       "analysis_stop_required": true,
       "analysis_stop_reasons": [
         "内部の安全条件により停止しています",
-        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -195,7 +193,6 @@
         "売買コストを確認できません",
         "重要イベント前後のため停止しています",
         "内部の安全条件により停止しています",
-        "価格更新が停止しています",
         "最新取得を採用できません",
         "最終成功から24時間以上経過しています",
         "検証成果物を確認できません",
@@ -204,9 +201,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-07-24T14:43:20.728Z",
+      "latest_attempt_at": "2026-07-25T00:00:02.655Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 16369,
+      "data_age_minutes": 16926,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
