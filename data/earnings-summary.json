@@ -122,8 +122,6 @@
         "expectation_label": "確認中",
         "risk_score": 54,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 69,
-        "theme_label": "中立",
         "themes": [
           "金利",
           "信用コスト",
@@ -552,8 +550,6 @@
         "expectation_label": "確認中",
         "risk_score": 83,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 76,
-        "theme_label": "強い",
         "themes": [
           "動画配信",
           "広告"
@@ -975,8 +971,6 @@
         "expectation_label": "確認中",
         "risk_score": 72,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 89,
-        "theme_label": "強い",
         "themes": [
           "デジタル広告",
           "クラウド",
@@ -1402,8 +1396,6 @@
         "expectation_label": "確認中",
         "risk_score": 90,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 66,
-        "theme_label": "中立",
         "themes": [
           "EV",
           "自動運転",
@@ -1826,8 +1818,6 @@
         "expectation_label": "確認中",
         "risk_score": 62,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 91,
-        "theme_label": "強い",
         "themes": [
           "クラウド",
           "AIインフラ",
@@ -2246,8 +2236,6 @@
         "expectation_label": "確認中",
         "risk_score": 79,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 88,
-        "theme_label": "強い",
         "themes": [
           "デジタル広告",
           "AI設備投資"
@@ -2670,8 +2658,6 @@
         "expectation_label": "確認中",
         "risk_score": 63,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 72,
-        "theme_label": "中立",
         "themes": [
           "端末需要",
           "AI端末",
@@ -3099,8 +3085,6 @@
         "expectation_label": "確認中",
         "risk_score": 72,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 87,
-        "theme_label": "強い",
         "themes": [
           "クラウド",
           "EC",
@@ -3519,8 +3503,6 @@
         "expectation_label": "確認中",
         "risk_score": 83,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 88,
-        "theme_label": "強い",
         "themes": [
           "AI半導体",
           "データセンター"
@@ -3948,8 +3930,6 @@
         "expectation_label": "確認中",
         "risk_score": 60,
         "risk_label": "反応不安定リスク中",
-        "theme_score": 70,
-        "theme_label": "中立",
         "themes": [
           "小売",
           "消費減速",
@@ -4375,8 +4355,6 @@
         "expectation_label": "確認中",
         "risk_score": 87,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 96,
-        "theme_label": "強い",
         "themes": [
           "AIインフラ",
           "半導体",
@@ -4806,8 +4784,6 @@
         "expectation_label": "確認中",
         "risk_score": 78,
         "risk_label": "反応不安定リスク高",
-        "theme_score": 91,
-        "theme_label": "強い",
         "themes": [
           "AIネットワーク",
           "半導体",

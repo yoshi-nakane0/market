@@ -1,13 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-25T23:57:07.366+09:00",
+  "generated_at": "2026-07-27T10:25:02.186+09:00",
   "data_cutoff": "2026-07-25T23:51:34.626+09:00",
-  "purpose": [
-    "現在のマクロ状態と変化方向を確定する",
-    "GDP・物価・雇用・政策の数値見通しと改定理由を確認する",
-    "次に判断を変える経済指標を確認する",
-    "4資産へのマクロ影響と市場織り込みの差を比較する"
-  ],
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -346,162 +340,6 @@
       "モデル基準値・景気モメンタム・実質所得・金融環境・住宅・雇用者数は定量化していません"
     ]
   },
-  "world_model": {
-    "schema_version": "economic-world-model-v1",
-    "model_version": "multi-region-semi-structural-ensemble-v1",
-    "origin_date": "2026-07-25",
-    "analysis_scope": {
-      "formal_regions": [
-        "us"
-      ],
-      "reference_only_regions": [
-        "japan",
-        "euro_area",
-        "china",
-        "rest_of_world"
-      ],
-      "probabilities_source_region": "us",
-      "score_source_region": "us",
-      "final_decision_source_region": "us"
-    },
-    "status": "partial",
-    "usage_permission": "monitor_only",
-    "forecast_horizon_quarters": 12,
-    "coverage": {
-      "status": "partial",
-      "complete_region_count": 3,
-      "required_region_count": 5,
-      "regional_forecast_allowed": true,
-      "joint_forecast_allowed": true,
-      "full_world_forecast_allowed": false,
-      "direct_measurement_coverage": false,
-      "substitute_region_count": 3
-    },
-    "validation": {
-      "status": "unverified",
-      "realtime_vintage_validated": false,
-      "probability_calibrated": false,
-      "limitations": [
-        "正式な確率・スコア・最終判断は米国データだけを使用します",
-        "日本を含む米国以外の地域は入力状況の参考表示だけです",
-        "一部地域は、対象地域そのものではないことを明示した代理指標を含みます",
-        "公表時点のデータを使った過去検証が未完了です",
-        "地域間の結び付きは統計推定前の仮置きです",
-        "シナリオ配分と予測帯は未校正です"
-      ]
-    },
-    "regions": {
-      "us": {
-        "label": "米国",
-        "analysis_role": "formal",
-        "status": "unavailable",
-        "available_indicator_count": 0,
-        "required_indicator_count": 4,
-        "substitute_indicator_count": 0,
-        "missing_indicators": [
-          "実質GDP成長率",
-          "物価上昇率",
-          "失業率",
-          "政策金利"
-        ],
-        "forecast_status": "unavailable",
-        "forecast_path": []
-      },
-      "japan": {
-        "label": "日本",
-        "analysis_role": "reference_only",
-        "status": "complete",
-        "available_indicator_count": 4,
-        "required_indicator_count": 4,
-        "substitute_indicator_count": 0,
-        "missing_indicators": [],
-        "forecast_status": "reference_only",
-        "forecast_path": []
-      },
-      "euro_area": {
-        "label": "ユーロ圏",
-        "analysis_role": "reference_only",
-        "status": "complete",
-        "available_indicator_count": 4,
-        "required_indicator_count": 4,
-        "substitute_indicator_count": 1,
-        "missing_indicators": [],
-        "forecast_status": "reference_only",
-        "forecast_path": []
-      },
-      "china": {
-        "label": "中国",
-        "analysis_role": "reference_only",
-        "status": "complete",
-        "available_indicator_count": 4,
-        "required_indicator_count": 4,
-        "substitute_indicator_count": 2,
-        "missing_indicators": [],
-        "forecast_status": "reference_only",
-        "forecast_path": []
-      },
-      "rest_of_world": {
-        "label": "その他世界",
-        "analysis_role": "reference_only",
-        "status": "partial",
-        "available_indicator_count": 3,
-        "required_indicator_count": 4,
-        "substitute_indicator_count": 4,
-        "missing_indicators": [
-          "政策金利"
-        ],
-        "forecast_status": "reference_only",
-        "forecast_path": []
-      }
-    },
-    "scenarios": [
-      {
-        "key": "baseline",
-        "label": "Baseline",
-        "status": "unverified",
-        "hypothesis_weight": 0.5,
-        "weight_status": "uncalibrated",
-        "metric_kind": "hypothesis_weight_not_probability"
-      },
-      {
-        "key": "upside",
-        "label": "Upside growth",
-        "status": "unverified",
-        "hypothesis_weight": 0.15,
-        "weight_status": "uncalibrated",
-        "metric_kind": "hypothesis_weight_not_probability"
-      },
-      {
-        "key": "downside",
-        "label": "Downside growth",
-        "status": "unverified",
-        "hypothesis_weight": 0.15,
-        "weight_status": "uncalibrated",
-        "metric_kind": "hypothesis_weight_not_probability"
-      },
-      {
-        "key": "policy_shock",
-        "label": "Policy tightening shock",
-        "status": "unverified",
-        "hypothesis_weight": 0.1,
-        "weight_status": "uncalibrated",
-        "metric_kind": "hypothesis_weight_not_probability"
-      },
-      {
-        "key": "energy_shock",
-        "label": "Energy supply shock",
-        "status": "unverified",
-        "hypothesis_weight": 0.1,
-        "weight_status": "uncalibrated",
-        "metric_kind": "hypothesis_weight_not_probability"
-      }
-    ],
-    "ensemble": {
-      "status": "unverified",
-      "size": 500,
-      "probability_calibrated": false
-    }
-  },
   "outlook": {
     "one_month": {
       "status": "provisional",
@@ -800,13 +638,13 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 26,
+      "attention_score": 31,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.62,
         "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.76
+        "proximity": 0.9
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -835,28 +673,28 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 26,
+      "attention_score": 31,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.62,
         "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.76
+        "proximity": 0.9
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-07-30_undetermined_jpy_boj-outlook-report",
-      "release_at": "2026-07-29T15:00:00.000Z",
+      "id": "secondary_ff_2026-07-29_1300_usd_federal-funds-rate",
+      "release_at": "2026-07-29T17:00:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "BOJ Outlook Report",
+      "label": "Federal Funds Rate",
       "importance": "high",
       "importance_label": "高",
-      "previous": null,
+      "previous": "3.75%",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "3.75%",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -870,13 +708,13 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 24,
+      "attention_score": 29,
       "attention_components": {
         "regime_relevance": 1,
-        "surprise_likelihood": 0.62,
-        "decision_impact": 0.92,
+        "surprise_likelihood": 0.58,
+        "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.76
+        "proximity": 0.9
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -977,14 +815,7 @@
         "technical_indicators_used": false,
         "expected_change": null,
         "forecast_range": null
-      },
-      "required_factor_coverage": [
-        {
-          "region": "united_states",
-          "label": "米国",
-          "status": "complete"
-        }
-      ]
+      }
     },
     "sp500_futures": {
       "label": "S&P500",
@@ -1078,14 +909,7 @@
         "technical_indicators_used": false,
         "expected_change": null,
         "forecast_range": null
-      },
-      "required_factor_coverage": [
-        {
-          "region": "united_states",
-          "label": "米国",
-          "status": "complete"
-        }
-      ]
+      }
     },
     "nasdaq_futures": {
       "label": "NASDAQ",
@@ -1148,7 +972,6 @@
       "next_catalyst": null,
       "confidence_label": "low",
       "confidence_reasons": [
-        "不足地域: 世界",
         "対象資産固有のウォークフォワード検証がありません",
         "対象資産固有の将来予測がありません",
         "資産別の市場織り込み差が未検証です"
@@ -1181,19 +1004,7 @@
         "technical_indicators_used": false,
         "expected_change": null,
         "forecast_range": null
-      },
-      "required_factor_coverage": [
-        {
-          "region": "united_states",
-          "label": "米国",
-          "status": "complete"
-        },
-        {
-          "region": "global",
-          "label": "世界",
-          "status": "partial"
-        }
-      ]
+      }
     },
     "usdjpy_futures": {
       "label": "USDJPY",
@@ -1256,7 +1067,6 @@
       "next_catalyst": null,
       "confidence_label": "low",
       "confidence_reasons": [
-        "不足地域: 日本・世界",
         "対象資産固有のウォークフォワード検証がありません",
         "対象資産固有の将来予測がありません",
         "資産別の市場織り込み差が未検証です"
@@ -1289,54 +1099,7 @@
         "technical_indicators_used": false,
         "expected_change": null,
         "forecast_range": null
-      },
-      "required_factor_coverage": [
-        {
-          "region": "united_states",
-          "label": "米国",
-          "status": "complete"
-        },
-        {
-          "region": "japan",
-          "label": "日本",
-          "status": "unavailable"
-        },
-        {
-          "region": "global",
-          "label": "世界",
-          "status": "partial"
-        }
-      ]
-    }
-  },
-  "geography": {
-    "united_states": {
-      "label": "米国",
-      "status": "complete",
-      "available_factor_count": 22,
-      "missing_factors": []
-    },
-    "japan": {
-      "label": "日本",
-      "status": "unavailable",
-      "available_factors": [],
-      "missing_factors": [
-        "日本の物価",
-        "日本の賃金",
-        "日銀政策",
-        "USDJPY"
-      ]
-    },
-    "global": {
-      "label": "世界",
-      "status": "partial",
-      "available_factors": [
-        "エネルギー価格"
-      ],
-      "missing_factors": [
-        "中国製造業",
-        "世界製造業"
-      ]
+      }
     }
   },
   "quality": {
@@ -1374,54 +1137,16 @@
             "usdjpy_futures"
           ],
           "description": "日本の為替環境とUSDJPY資産の参考系列。米国の正式方向モデルには使わない。"
-        },
-        {
-          "series_id": "DEXUSEU",
-          "status": "stale",
-          "role": "reference",
-          "freshness_impact": "warning_only",
-          "scopes": [
-            "euro_context",
-            "fx_context"
-          ],
-          "affected_assets": [],
-          "description": "ユーロ圏と為替環境の参考系列。米国の正式方向モデルには使わない。"
         }
       ]
     },
     "decision_readiness": {
-      "status": "trade_candidate",
-      "important_event_soon": false,
-      "reasons": []
+      "status": "caution",
+      "important_event_soon": true,
+      "reasons": [
+        "important_event_soon"
+      ]
     },
-    "reference_warnings": [
-      {
-        "series_id": "DEXJPUS",
-        "status": "stale",
-        "role": "reference",
-        "freshness_impact": "warning_only",
-        "scopes": [
-          "japan_context",
-          "usdjpy_asset"
-        ],
-        "affected_assets": [
-          "usdjpy_futures"
-        ],
-        "description": "日本の為替環境とUSDJPY資産の参考系列。米国の正式方向モデルには使わない。"
-      },
-      {
-        "series_id": "DEXUSEU",
-        "status": "stale",
-        "role": "reference",
-        "freshness_impact": "warning_only",
-        "scopes": [
-          "euro_context",
-          "fx_context"
-        ],
-        "affected_assets": [],
-        "description": "ユーロ圏と為替環境の参考系列。米国の正式方向モデルには使わない。"
-      }
-    ],
     "asset_readiness": {
       "dow_futures": {
         "label": "NYDOW",
@@ -1460,7 +1185,6 @@
       }
     },
     "data_coverage": 1,
-    "data_freshness": "stale",
     "model_agreement": 0.81,
     "regime_stability": 0.99,
     "confidence_calibration": {
@@ -1477,18 +1201,6 @@
       "method": "過去データのみを使った信頼度校正は未作成です",
       "bands": []
     },
-    "stale_series": [
-      {
-        "id": "DEXJPUS",
-        "label": "USDJPY",
-        "as_of_date": ""
-      },
-      {
-        "id": "DEXUSEU",
-        "label": "EURUSD",
-        "as_of_date": ""
-      }
-    ],
     "missing_series": [],
     "next_update_event": {
       "label": "FOMC Statement",
@@ -1587,10 +1299,10 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-25T23:57:07.366+09:00",
+  "updated_at": "2026-07-27T10:25:02.186+09:00",
   "date": "2026-07-25",
-  "snapshot_id": "macro-2026-07-25-macro-public-v3-3d6dd78db4a91f8a",
-  "snapshot_content_hash": "3d6dd78db4a91f8aad757d5c2dbeb891f10b463500f339939975e6ee53dd49aa",
+  "snapshot_id": "macro-2026-07-25-macro-public-v3-b56d68a5905f99d5",
+  "snapshot_content_hash": "b56d68a5905f99d5a50c0cfc353789239ec89b00c3bd41b0027e93461a2b6b18",
   "as_of_date": "2026-07-25",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
@@ -1614,8 +1326,8 @@
     "stale_after": "2026-07-27T02:41:54.154Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-25",
-    "checked_count": 29,
-    "success_count": 29,
+    "checked_count": 28,
+    "success_count": 28,
     "raw_fetch_status": "complete",
     "official_status": "complete",
     "official_checked_count": 9,
@@ -1631,7 +1343,7 @@
   "data_quality": {
     "status": "warn",
     "coverage": 1,
-    "stale_series_count": 2,
+    "stale_series_count": 1,
     "critical_missing_count": 0,
     "critical_stale_count": 0,
     "supporting_stale_series": [],
@@ -1639,11 +1351,10 @@
     "supporting_stale_count": 0,
     "supporting_missing_count": 0,
     "reference_stale_series": [
-      "DEXJPUS",
-      "DEXUSEU"
+      "DEXJPUS"
     ],
     "reference_missing_series": [],
-    "reference_stale_count": 2,
+    "reference_stale_count": 1,
     "reference_missing_count": 0,
     "data_readiness": {
       "status": "ready",
@@ -1653,22 +1364,12 @@
           "series_id": "DEXJPUS",
           "status": "stale",
           "role": "reference"
-        },
-        {
-          "series_id": "DEXUSEU",
-          "status": "stale",
-          "role": "reference"
         }
       ],
       "supporting_warnings": [],
       "reference_warnings": [
         {
           "series_id": "DEXJPUS",
-          "status": "stale",
-          "role": "reference"
-        },
-        {
-          "series_id": "DEXUSEU",
           "status": "stale",
           "role": "reference"
         }
@@ -1774,7 +1475,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-25T13:17:16.984Z",
+    "generated_at": "2026-07-27T00:16:58.801Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1793,7 +1494,7 @@
       "reference_price_as_of": "2026-07-24T21:00:00.000Z",
       "contract_month": "2026-09",
       "expiry_date": "2026-09-11",
-      "days_to_expiry": 48,
+      "days_to_expiry": 46,
       "micro_contract_multiplier": 10,
       "micro_contract_reference_notional": 642900,
       "contracts_calculation": "口座の純資産 × 目標比率 ÷（証券会社の現在値 × 10）を切り捨て",
@@ -1812,7 +1513,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-24",
       "source_timestamp": "2026-07-24T21:00:00.000Z",
-      "age_hours": 16.29,
+      "age_hours": 51.28,
       "row_count": 3077,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
