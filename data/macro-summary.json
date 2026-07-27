@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-27T10:25:02.186+09:00",
-  "data_cutoff": "2026-07-25T23:51:34.626+09:00",
+  "generated_at": "2026-07-27T14:02:16.413+09:00",
+  "data_cutoff": "2026-07-27T14:02:16.149+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -48,7 +48,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "外部環境が前回から改善。 市場心理が前回から悪化",
+    "change_since_previous": "外部環境が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -83,7 +83,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-07-25",
+        "origin_date": "2026-07-27",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -116,7 +116,7 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-07-25",
+        "origin_date": "2026-07-27",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
@@ -149,8 +149,8 @@
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-07-25",
-        "target_period": "2027-07-25",
+        "origin_date": "2026-07-27",
+        "target_period": "2027-07-27",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -178,8 +178,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-07-25",
-        "target_period": "2027-07-25",
+        "origin_date": "2026-07-27",
+        "target_period": "2027-07-27",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -207,8 +207,8 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-07-25",
-        "target_period": "2026-07-25",
+        "origin_date": "2026-07-27",
+        "target_period": "2026-07-27",
         "forecast_value": null,
         "candidate_value": null,
         "estimate_kind": "unavailable",
@@ -342,17 +342,17 @@
   },
   "outlook": {
     "one_month": {
-      "status": "provisional",
+      "status": "usable",
       "label": "1か月",
       "model_kind": "event_driven",
-      "base_case": "主要データ更新待ち。現在の1か月見通しは暫定判定。",
-      "improve_probability": null,
-      "stable_probability": null,
-      "deteriorate_probability": null,
+      "base_case": "横ばいが基本シナリオ",
+      "improve_probability": 0.26009604540793446,
+      "stable_probability": 0.49417275315711895,
+      "deteriorate_probability": 0.24573120143494664,
       "drivers": [
         "金融政策",
-        "金融環境",
-        "インフレ"
+        "外部環境",
+        "金融環境"
       ],
       "scheduled_catalysts": [
         "FOMC Statement"
@@ -362,7 +362,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "low",
+      "confidence_label": "medium",
       "inputs": [
         "今後1か月の経済指標",
         "高頻度データ",
@@ -372,7 +372,7 @@
         "直近の改定方向"
       ],
       "validation": {
-        "status": "not_passed",
+        "status": "passed",
         "forecast_status": "verified",
         "sample_count": 118,
         "effective_sample_count": null,
@@ -386,17 +386,17 @@
       }
     },
     "three_month": {
-      "status": "provisional",
+      "status": "usable",
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
-      "base_case": "主要データ更新待ち。現在の3か月見通しは暫定判定。",
-      "improve_probability": null,
-      "stable_probability": null,
-      "deteriorate_probability": null,
+      "base_case": "横ばいが基本シナリオ",
+      "improve_probability": 0.24662349828091265,
+      "stable_probability": 0.4619808225655677,
+      "deteriorate_probability": 0.2913956791535197,
       "drivers": [
         "金融政策",
-        "金融環境",
-        "インフレ"
+        "外部環境",
+        "金融環境"
       ],
       "scheduled_catalysts": [
         "FOMC Statement"
@@ -406,7 +406,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "low",
+      "confidence_label": "medium",
       "inputs": [
         "景気先行指標",
         "新規受注",
@@ -418,7 +418,7 @@
         "企業利益のマクロ推計"
       ],
       "validation": {
-        "status": "not_passed",
+        "status": "passed",
         "forecast_status": "verified",
         "sample_count": 112,
         "effective_sample_count": null,
@@ -459,6 +459,25 @@
           "label": "米10年国債利回り",
           "state": "米10年国債利回りがマイナスに寄与",
           "as_of_date": "2026-07-23",
+          "availability": "available"
+        }
+      ],
+      "details_available": true
+    },
+    {
+      "key": "external",
+      "label": "外部環境",
+      "region": "global",
+      "state": "追い風",
+      "direction": "improving",
+      "direction_label": "改善",
+      "contribution": "positive",
+      "contribution_label": "+中",
+      "evidence": [
+        {
+          "label": "WTI原油",
+          "state": "WTI原油が小幅にプラス",
+          "as_of_date": "2026-07-20",
           "availability": "available"
         }
       ],
@@ -521,25 +540,6 @@
           "label": "平均時給",
           "state": "平均時給が小幅にマイナス",
           "as_of_date": "2026-06-01",
-          "availability": "available"
-        }
-      ],
-      "details_available": true
-    },
-    {
-      "key": "external",
-      "label": "外部環境",
-      "region": "global",
-      "state": "中立",
-      "direction": "improving",
-      "direction_label": "改善",
-      "contribution": "positive",
-      "contribution_label": "+小",
-      "evidence": [
-        {
-          "label": "WTI原油",
-          "state": "WTI原油が小幅にプラス",
-          "as_of_date": "2026-07-20",
           "availability": "available"
         }
       ],
@@ -722,101 +722,6 @@
     }
   ],
   "asset_outlook": {
-    "dow_futures": {
-      "label": "NYDOW",
-      "status": "not_available",
-      "current_macro_direction": "no_edge",
-      "current_macro_direction_label": "優位性なし",
-      "diagnostic_direction": "neutral",
-      "diagnostic_direction_label": "中立（参考）",
-      "one_month": {
-        "label": "20日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "three_month": {
-        "label": "60日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "market_pricing": {
-        "status": "not_available",
-        "label": "資産別の織り込み未検証",
-        "general_alignment": "おおむね反映済み",
-        "gap": null,
-        "macro_expected_change": null,
-        "priced_change": null,
-        "as_of_date": ""
-      },
-      "drivers": [
-        {
-          "label": "金融環境",
-          "impact": "support"
-        },
-        {
-          "label": "金融政策",
-          "impact": "risk"
-        }
-      ],
-      "next_catalyst": null,
-      "confidence_label": "low",
-      "confidence_reasons": [
-        "対象資産固有のウォークフォワード検証がありません",
-        "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です"
-      ],
-      "scenarios": {
-        "base": "中立。現時点ではマクロ上の優位性なし。",
-        "upside": [
-          "インフレ低下が早まる",
-          "実質所得が改善する"
-        ],
-        "downside": [
-          "失業率が上昇する",
-          "信用スプレッドが拡大する"
-        ]
-      },
-      "invalidation_conditions": [
-        "製造業と名目成長の方向が反転する",
-        "信用環境または長期金利が想定レンジを外れる"
-      ],
-      "coefficient_regime": "transition_neutral",
-      "required_factors": [
-        "米国循環景気",
-        "製造業",
-        "信用環境",
-        "名目成長",
-        "長期金利"
-      ],
-      "price_basis": {
-        "current_price_used_for_direction": false,
-        "technical_indicators_used": false,
-        "expected_change": null,
-        "forecast_range": null
-      }
-    },
     "sp500_futures": {
       "label": "S&P500",
       "status": "reference_only",
@@ -910,208 +815,18 @@
         "expected_change": null,
         "forecast_range": null
       }
-    },
-    "nasdaq_futures": {
-      "label": "NASDAQ",
-      "status": "not_available",
-      "current_macro_direction": "no_edge",
-      "current_macro_direction_label": "優位性なし",
-      "diagnostic_direction": "neutral",
-      "diagnostic_direction_label": "中立（参考）",
-      "one_month": {
-        "label": "20日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "three_month": {
-        "label": "60日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "market_pricing": {
-        "status": "not_available",
-        "label": "資産別の織り込み未検証",
-        "general_alignment": "おおむね反映済み",
-        "gap": null,
-        "macro_expected_change": null,
-        "priced_change": null,
-        "as_of_date": ""
-      },
-      "drivers": [
-        {
-          "label": "金融政策",
-          "impact": "risk"
-        },
-        {
-          "label": "金融環境",
-          "impact": "support"
-        }
-      ],
-      "next_catalyst": null,
-      "confidence_label": "low",
-      "confidence_reasons": [
-        "対象資産固有のウォークフォワード検証がありません",
-        "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です"
-      ],
-      "scenarios": {
-        "base": "中立。現時点ではマクロ上の優位性なし。",
-        "upside": [
-          "インフレ低下が早まる",
-          "実質所得が改善する"
-        ],
-        "downside": [
-          "失業率が上昇する",
-          "信用スプレッドが拡大する"
-        ]
-      },
-      "invalidation_conditions": [
-        "実質金利または政策金利見通しが反転する",
-        "流動性と長期成長の想定が同時に悪化する"
-      ],
-      "coefficient_regime": "transition_neutral",
-      "required_factors": [
-        "実質金利",
-        "流動性",
-        "インフレ",
-        "政策金利見通し",
-        "長期成長"
-      ],
-      "price_basis": {
-        "current_price_used_for_direction": false,
-        "technical_indicators_used": false,
-        "expected_change": null,
-        "forecast_range": null
-      }
-    },
-    "usdjpy_futures": {
-      "label": "USDJPY",
-      "status": "not_available",
-      "current_macro_direction": "no_edge",
-      "current_macro_direction_label": "優位性なし",
-      "diagnostic_direction": "bullish",
-      "diagnostic_direction_label": "強気（参考）",
-      "one_month": {
-        "label": "20日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "three_month": {
-        "label": "60日",
-        "status": "not_available",
-        "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "not_available",
-        "sample_count": null,
-        "brier_score": null,
-        "calibration_error": null
-      },
-      "market_pricing": {
-        "status": "not_available",
-        "label": "資産別の織り込み未検証",
-        "general_alignment": "おおむね反映済み",
-        "gap": null,
-        "macro_expected_change": null,
-        "priced_change": null,
-        "as_of_date": ""
-      },
-      "drivers": [
-        {
-          "label": "金融政策",
-          "impact": "support"
-        },
-        {
-          "label": "金融環境",
-          "impact": "risk"
-        }
-      ],
-      "next_catalyst": null,
-      "confidence_label": "low",
-      "confidence_reasons": [
-        "対象資産固有のウォークフォワード検証がありません",
-        "対象資産固有の将来予測がありません",
-        "資産別の市場織り込み差が未検証です"
-      ],
-      "scenarios": {
-        "base": "中立。現時点ではマクロ上の優位性なし。",
-        "upside": [
-          "インフレ低下が早まる",
-          "実質所得が改善する"
-        ],
-        "downside": [
-          "失業率が上昇する",
-          "信用スプレッドが拡大する"
-        ]
-      },
-      "invalidation_conditions": [
-        "日米政策金利差またはインフレ差の方向が反転する",
-        "日銀政策、リスク回避または原油の変化が想定を外れる"
-      ],
-      "coefficient_regime": "transition_neutral",
-      "required_factors": [
-        "日米金利差",
-        "Fed・日銀政策パス",
-        "日米インフレ差",
-        "リスク回避",
-        "原油"
-      ],
-      "price_basis": {
-        "current_price_used_for_direction": false,
-        "technical_indicators_used": false,
-        "expected_change": null,
-        "forecast_range": null
-      }
     }
   },
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
-    "confidence_score_detail": 0.81,
+    "confidence_score_detail": 0.85,
     "confidence_reasons": [
       "主要データと複数モデルの方向が一致しています"
     ],
     "model_confidence": {
       "status": "verified",
-      "score": 0.81,
+      "score": 0.85,
       "label": "high",
       "reasons": []
     },
@@ -1123,22 +838,7 @@
       "critical_missing_count": 0,
       "critical_stale_count": 0,
       "supporting_warnings": [],
-      "reference_warnings": [
-        {
-          "series_id": "DEXJPUS",
-          "status": "stale",
-          "role": "reference",
-          "freshness_impact": "warning_only",
-          "scopes": [
-            "japan_context",
-            "usdjpy_asset"
-          ],
-          "affected_assets": [
-            "usdjpy_futures"
-          ],
-          "description": "日本の為替環境とUSDJPY資産の参考系列。米国の正式方向モデルには使わない。"
-        }
-      ]
+      "reference_warnings": []
     },
     "decision_readiness": {
       "status": "caution",
@@ -1148,51 +848,21 @@
       ]
     },
     "asset_readiness": {
-      "dow_futures": {
-        "label": "NYDOW",
-        "status": "ready",
-        "warnings": []
-      },
       "sp500_futures": {
         "label": "S&P500",
         "status": "ready",
         "warnings": []
-      },
-      "nasdaq_futures": {
-        "label": "NASDAQ",
-        "status": "ready",
-        "warnings": []
-      },
-      "usdjpy_futures": {
-        "label": "USDJPY",
-        "status": "caution",
-        "warnings": [
-          {
-            "series_id": "DEXJPUS",
-            "status": "stale",
-            "role": "reference",
-            "freshness_impact": "warning_only",
-            "scopes": [
-              "japan_context",
-              "usdjpy_asset"
-            ],
-            "affected_assets": [
-              "usdjpy_futures"
-            ],
-            "description": "日本の為替環境とUSDJPY資産の参考系列。米国の正式方向モデルには使わない。"
-          }
-        ]
       }
     },
     "data_coverage": 1,
-    "model_agreement": 0.81,
-    "regime_stability": 0.99,
+    "model_agreement": 0.85,
+    "regime_stability": 0.98,
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
-      "artifact_id": "economic-direction-v1-2026-07-23-b6545f2403cfa346",
+      "artifact_id": "economic-direction-v1-2026-07-25-a9340361ae76f081",
       "model_version": "economic-direction-v1",
-      "training_cutoff": "2026-07-23",
+      "training_cutoff": "2026-07-25",
       "validation_source": "local_walk_forward_vintage_replay",
       "reasons": [],
       "sample_count": 230,
@@ -1264,10 +934,7 @@
     "asset_models": {
       "separate_coefficients": true,
       "assets": [
-        "dow_futures",
-        "sp500_futures",
-        "nasdaq_futures",
-        "usdjpy_futures"
+        "sp500_futures"
       ],
       "market_pricing_gap_required": true
     },
@@ -1299,35 +966,35 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-27T10:25:02.186+09:00",
-  "date": "2026-07-25",
-  "snapshot_id": "macro-2026-07-25-macro-public-v3-b56d68a5905f99d5",
-  "snapshot_content_hash": "b56d68a5905f99d5a50c0cfc353789239ec89b00c3bd41b0027e93461a2b6b18",
-  "as_of_date": "2026-07-25",
+  "updated_at": "2026-07-27T14:02:16.413+09:00",
+  "date": "2026-07-27",
+  "snapshot_id": "macro-2026-07-27-macro-public-v3-292d1cc54dc65f9e",
+  "snapshot_content_hash": "292d1cc54dc65f9e28ec34d352127e296a6d70d62d76769035bb8a0d2e33f42c",
+  "as_of_date": "2026-07-27",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-25T14:51:34.626Z",
+  "signal_at": "2026-07-27T05:02:16.149Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-27",
-    "entry_at": "2026-07-26T23:45:00.000Z",
-    "valid_until": "2026-07-26T23:45:00.000Z",
+    "entry_session_date": "2026-07-28",
+    "entry_at": "2026-07-27T23:45:00.000Z",
+    "valid_until": "2026-07-27T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "-7",
+  "risk_score": "-5",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-25T14:41:54.154Z",
-    "stale_after": "2026-07-27T02:41:54.154Z",
+    "fetched_at": "2026-07-27T04:53:46.161Z",
+    "stale_after": "2026-07-28T16:53:46.161Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-25",
-    "checked_count": 28,
-    "success_count": 28,
+    "as_of_date": "2026-07-27",
+    "checked_count": 26,
+    "success_count": 26,
     "raw_fetch_status": "complete",
     "official_status": "complete",
     "official_checked_count": 9,
@@ -1341,39 +1008,25 @@
     ]
   },
   "data_quality": {
-    "status": "warn",
+    "status": "pass",
     "coverage": 1,
-    "stale_series_count": 1,
+    "stale_series_count": 0,
     "critical_missing_count": 0,
     "critical_stale_count": 0,
     "supporting_stale_series": [],
     "supporting_missing_series": [],
     "supporting_stale_count": 0,
     "supporting_missing_count": 0,
-    "reference_stale_series": [
-      "DEXJPUS"
-    ],
+    "reference_stale_series": [],
     "reference_missing_series": [],
-    "reference_stale_count": 1,
+    "reference_stale_count": 0,
     "reference_missing_count": 0,
     "data_readiness": {
       "status": "ready",
       "reasons": [],
-      "warnings": [
-        {
-          "series_id": "DEXJPUS",
-          "status": "stale",
-          "role": "reference"
-        }
-      ],
+      "warnings": [],
       "supporting_warnings": [],
-      "reference_warnings": [
-        {
-          "series_id": "DEXJPUS",
-          "status": "stale",
-          "role": "reference"
-        }
-      ],
+      "reference_warnings": [],
       "critical_missing_series": [],
       "critical_stale_series": [],
       "critical_missing_count": 0,
@@ -1381,16 +1034,16 @@
     },
     "vintage_integrity": "verified",
     "label": "データ品質",
-    "value": "83%",
-    "score": 0.83,
+    "value": "100%",
+    "score": 1,
     "freshness_status": "fresh",
     "metric_kind": "data_completeness_and_freshness_not_probability",
     "position_sizing_allowed": false
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "81/100",
-    "score": 0.81,
+    "value": "85/100",
+    "score": 0.85,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1613,7 +1266,6 @@
       "non_realtime_backtest",
       "event_calendar_not_officially_verified",
       "upstream_usage_permission_not_trade_candidate",
-      "data_quality_gate_not_pass",
       "decision_target_not_trade_gate_target",
       "decision_target_series_not_trade_gate_target",
       "macro_decision_not_directional",
@@ -1630,6 +1282,7 @@
       "predictive_model_target_specification_mismatch",
       "predictive_current_feature_target_mismatch",
       "predictive_current_feature_timing_invalid",
+      "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
@@ -1982,7 +1635,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": -7,
+    "score": -5,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -1997,29 +1650,29 @@
     "horizon": "20d",
     "horizon_label": "20営業日先",
     "breadth": {
-      "long": 1,
-      "range": 5,
+      "long": 2,
+      "range": 4,
       "short": 1,
       "unavailable": 0,
       "total": 7,
       "required": 4,
       "indicator": {
-        "long": 0.35,
-        "range": 0.36,
-        "short": 0.29,
+        "long": 0.4,
+        "range": 0.33,
+        "short": 0.27,
         "usable_indicator_count": 26,
-        "effective_weight": 6.4
+        "effective_weight": 7
       }
     },
     "evidence": {
       "long": [
-        "金融環境は上向き材料"
+        "金融環境は上向き材料",
+        "外部環境は上向き材料"
       ],
       "range": [
         "成長は中立圏",
         "物価圧力は中立圏",
         "雇用は中立圏",
-        "外部環境は中立圏",
         "市場心理は中立圏"
       ],
       "short": [
@@ -2135,7 +1788,7 @@
     },
     "note": "実効金利の実績です。政策金利目標や将来予想ではありません。"
   },
-  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
+  "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
   "display_status": "reference_only",
   "asset_bias": [
     {
@@ -2182,8 +1835,8 @@
     },
     {
       "label": "外部環境",
-      "value": 53,
-      "tone": "neutral"
+      "value": 58,
+      "tone": "positive"
     },
     {
       "label": "市場心理",
