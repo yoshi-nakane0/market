@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-27T14:02:16.413+09:00",
-  "data_cutoff": "2026-07-27T14:02:16.149+09:00",
+  "generated_at": "2026-07-27T18:54:46.696+09:00",
+  "data_cutoff": "2026-07-27T18:54:46.375+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -65,17 +65,17 @@
   },
   "economic_outlook": {
     "model_version": "public-multi-indicator-outlook-v3",
-    "status": "not_available",
-    "status_label": "見通し専用データの更新待ち",
-    "headline": "見通し専用データに古い系列または欠損があるため、数値を更新待ちにしています。",
+    "status": "provisional",
+    "status_label": "試算・分析専用",
+    "headline": "実質GDP・現在四半期は3.45%（前期比年率）、実質GDP・4四半期先は2.27%（前年比）の分析試算です。売買判断には利用できません。",
     "horizon_label": "現在四半期〜4四半期先",
-    "base_case": "先行き成長率は検証条件未達、物価は未算出、政策はおおむね中立を基本シナリオとします。",
+    "base_case": "成長は緩やか、物価は未算出、政策は引き締め方向を基本シナリオとします。",
     "methodology_note": "多指標の現在推計、4四半期成長のモデル分解、金融環境、雇用、物価内訳を、無料の公開データで再構成しています。公表日を日単位で守り、据え置き等の基準予測より改善した数値だけを表示します。寄与はモデル上の分解で、個別要因の因果効果ではありません。独自の社内モデルを複製したものではありません。",
     "input_freshness": {
-      "status": "stale",
-      "numeric_values_available": false,
+      "status": "complete",
+      "numeric_values_available": true,
       "checked_series_count": 25,
-      "stale_series_count": 1,
+      "stale_series_count": 0,
       "unavailable_series_count": 0
     },
     "projections": [
@@ -90,26 +90,37 @@
           "end_date": "2026-09-30"
         },
         "forecast_value": null,
-        "candidate_value": null,
-        "estimate_kind": "unavailable",
+        "candidate_value": 3.447,
+        "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
-        "candidate_interval_80": null,
-        "interval_kind": "unavailable",
+        "candidate_interval_80": {
+          "low": -0.2305,
+          "high": 5.625,
+          "confidence_level": 0.8,
+          "empirical_coverage": 0.7937,
+          "sample_count": 126
+        },
+        "interval_kind": "analysis_only_candidate_interval",
         "probability_interval": false,
         "unit": "percent",
         "basis": "qoq_annualized",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
-        "candidate_history": [],
+        "candidate_history": [
+          {
+            "as_of_date": "2026-07-27",
+            "value": 3.447
+          }
+        ],
         "forecast": null,
-        "candidate_forecast": null,
+        "candidate_forecast": "3.45%（前期比年率）",
         "interval": null,
-        "candidate_interval": null,
+        "candidate_interval": "-0.23%〜5.63%（前期比年率）",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "生産・実質需要・雇用をその時点までの履歴で合成"
       },
       {
@@ -123,26 +134,37 @@
           "end_date": "2027-09-30"
         },
         "forecast_value": null,
-        "candidate_value": null,
-        "estimate_kind": "unavailable",
+        "candidate_value": 2.2739,
+        "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
-        "candidate_interval_80": null,
-        "interval_kind": "unavailable",
+        "candidate_interval_80": {
+          "low": -0.2832,
+          "high": 3.0786,
+          "confidence_level": 0.8,
+          "empirical_coverage": 0.7882,
+          "sample_count": 85
+        },
+        "interval_kind": "analysis_only_candidate_interval",
         "probability_interval": false,
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
-        "candidate_history": [],
+        "candidate_history": [
+          {
+            "as_of_date": "2026-07-27",
+            "value": 2.2739
+          }
+        ],
         "forecast": null,
-        "candidate_forecast": null,
+        "candidate_forecast": "2.27%（前年比）",
         "interval": null,
-        "candidate_interval": null,
+        "candidate_interval": "-0.28%〜3.08%（前年比）",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "公開データの各要因を4四半期先GDPへ時系列モデルで結び付けて分解"
       },
       {
@@ -152,26 +174,37 @@
         "origin_date": "2026-07-27",
         "target_period": "2027-07-27",
         "forecast_value": null,
-        "candidate_value": null,
-        "estimate_kind": "unavailable",
+        "candidate_value": 3.412,
+        "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
-        "candidate_interval_80": null,
-        "interval_kind": "unavailable",
+        "candidate_interval_80": {
+          "low": 1.7039,
+          "high": 6.0363,
+          "confidence_level": 0.8,
+          "empirical_coverage": 0.7922,
+          "sample_count": 77
+        },
+        "interval_kind": "analysis_only_candidate_interval",
         "probability_interval": false,
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
-        "candidate_history": [],
+        "candidate_history": [
+          {
+            "as_of_date": "2026-07-27",
+            "value": 3.412
+          }
+        ],
         "forecast": null,
-        "candidate_forecast": null,
+        "candidate_forecast": "3.41%（前年比）",
         "interval": null,
-        "candidate_interval": null,
+        "candidate_interval": "1.7%〜6.04%（前年比）",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "コア物価、財、住居費、賃金、生産性、期待インフレを分けて推計"
       },
       {
@@ -181,26 +214,37 @@
         "origin_date": "2026-07-27",
         "target_period": "2027-07-27",
         "forecast_value": null,
-        "candidate_value": null,
-        "estimate_kind": "unavailable",
+        "candidate_value": 4.6598,
+        "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
-        "candidate_interval_80": null,
-        "interval_kind": "unavailable",
+        "candidate_interval_80": {
+          "low": 3.7309,
+          "high": 5.629,
+          "confidence_level": 0.8,
+          "empirical_coverage": 0.8,
+          "sample_count": 360
+        },
+        "interval_kind": "analysis_only_candidate_interval",
         "probability_interval": false,
         "unit": "percent",
         "basis": "level",
         "revision_pp": null,
-        "candidate_revision_pp": null,
+        "candidate_revision_pp": 0,
         "history": [],
-        "candidate_history": [],
+        "candidate_history": [
+          {
+            "as_of_date": "2026-07-27",
+            "value": 4.6598
+          }
+        ],
         "forecast": null,
-        "candidate_forecast": null,
+        "candidate_forecast": "4.66%",
         "interval": null,
-        "candidate_interval": null,
+        "candidate_interval": "3.73%〜5.63%",
         "revision": null,
-        "candidate_revision": null,
+        "candidate_revision": "+0ポイント",
         "rationale": "失業率変化、景気の勢いを確認"
       },
       {
@@ -210,8 +254,8 @@
         "origin_date": "2026-07-27",
         "target_period": "2026-07-27",
         "forecast_value": null,
-        "candidate_value": null,
-        "estimate_kind": "unavailable",
+        "candidate_value": 4.3853,
+        "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
@@ -225,7 +269,7 @@
         "history": [],
         "candidate_history": [],
         "forecast": null,
-        "candidate_forecast": null,
+        "candidate_forecast": "4.39%",
         "interval": null,
         "candidate_interval": null,
         "revision": null,
@@ -237,50 +281,57 @@
       {
         "key": "baseline",
         "label": "モデル基準値",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "+2.79ポイント",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
       {
         "key": "momentum",
         "label": "景気モメンタム",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "−0.06ポイント",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
       {
         "key": "real_income",
         "label": "実質所得",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "−0.43ポイント",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
       {
         "key": "financial_conditions",
         "label": "金融環境",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "+0.2ポイント",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
       {
         "key": "housing",
         "label": "住宅",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "−0.3ポイント",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       },
       {
         "key": "payroll",
         "label": "雇用者数",
-        "estimate": null,
-        "status": "unavailable",
+        "estimate": "+0.08ポイント",
+        "status": "available",
+        "interpretation": "model_attribution_not_causal"
+      },
+      {
+        "key": "total",
+        "label": "4四半期先GDP予測",
+        "estimate": "2.27%（前年比）",
+        "status": "available",
         "interpretation": "model_attribution_not_causal"
       }
     ],
     "financial_conditions": {
       "label": "金融環境",
-      "summary": "金融環境の方向を確認できません。Chicago Fed指数による照合は更新待ちです。",
-      "growth_impact": null,
+      "summary": "金利・信用・株価・ドルをまとめると引き締まり方向です。Chicago Fedの調整済み金融環境指数でも方向を照合しています。ANFCIと次四半期GDPの関係も検証条件を通過しています。",
+      "growth_impact": "+0.2ポイント",
       "interpretation": "model_attribution_not_causal",
       "components": [
         "FEDFUNDS",
@@ -292,25 +343,50 @@
     },
     "labor_balance": {
       "label": "雇用",
-      "summary": "失業率の見通しを計算できません。",
-      "unemployment_forecast": null
+      "summary": "失業率の12か月先を時系列モデルで試算しています。",
+      "unemployment_forecast": "4.66%"
     },
     "inflation": {
       "label": "物価の内訳",
       "summary": "品目別の物価見通しを計算できません。",
-      "components": []
+      "components": [
+        {
+          "label": "現在のコアPCE",
+          "value": "3.41%（前年比）"
+        },
+        {
+          "label": "コア財",
+          "value": "0.79%（前年比）"
+        },
+        {
+          "label": "住居費",
+          "value": "3.26%（前年比）"
+        },
+        {
+          "label": "賃金",
+          "value": "3.52%（前年比）"
+        },
+        {
+          "label": "生産性",
+          "value": "2.8%（前年比）"
+        },
+        {
+          "label": "期待インフレ",
+          "value": "2.28%（水準）"
+        }
+      ]
     },
     "recession_risk": {
       "label": "景気後退リスク",
-      "summary": "景気後退の警戒条件を十分に確認できません。",
-      "risk_breadth": null,
+      "summary": "警戒条件の広がりは限定的です。",
+      "risk_breadth": "0/5",
       "probability_6m": null,
       "probability_12m": null,
-      "probability_status": "データ更新待ち"
+      "probability_status": "過去時点検証待ち"
     },
     "forecast_revision": {
       "status": "provisional",
-      "headline": "見通し専用データの更新後に改定幅を再計算します。",
+      "headline": "主要な予測値は前回からほぼ変わりません。",
       "drivers": []
     },
     "scenarios": [],
@@ -335,9 +411,7 @@
     "limitations": [
       "改定前の値を含む、各時点の完全な情報セット再現は未完了です",
       "景気後退確率は厳しい公開条件を通るまで表示しません",
-      "財政・関税・移民の制度変更は定量モデルへ直接入れていません",
-      "見通し専用データが古い、または一部欠損のため数値を非表示にしています",
-      "モデル基準値・景気モメンタム・実質所得・金融環境・住宅・雇用者数は定量化していません"
+      "財政・関税・移民の制度変更は定量モデルへ直接入れていません"
     ]
   },
   "outlook": {
@@ -860,9 +934,9 @@
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
-      "artifact_id": "economic-direction-v1-2026-07-25-a9340361ae76f081",
+      "artifact_id": "economic-direction-v1-2026-07-27-3193f65214c13ed2",
       "model_version": "economic-direction-v1",
-      "training_cutoff": "2026-07-25",
+      "training_cutoff": "2026-07-27",
       "validation_source": "local_walk_forward_vintage_replay",
       "reasons": [],
       "sample_count": 230,
@@ -966,14 +1040,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-27T14:02:16.413+09:00",
+  "updated_at": "2026-07-27T18:54:46.696+09:00",
   "date": "2026-07-27",
-  "snapshot_id": "macro-2026-07-27-macro-public-v3-292d1cc54dc65f9e",
-  "snapshot_content_hash": "292d1cc54dc65f9e28ec34d352127e296a6d70d62d76769035bb8a0d2e33f42c",
+  "snapshot_id": "macro-2026-07-27-macro-public-v3-3716ef91306ba541",
+  "snapshot_content_hash": "3716ef91306ba541d8645df82971f878fbe21562d3ba1cf35fdf07556e830a5a",
   "as_of_date": "2026-07-27",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-27T05:02:16.149Z",
+  "signal_at": "2026-07-27T09:54:46.375Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -989,8 +1063,8 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-27T04:53:46.161Z",
-    "stale_after": "2026-07-28T16:53:46.161Z",
+    "fetched_at": "2026-07-27T09:46:23.993Z",
+    "stale_after": "2026-07-28T21:46:23.993Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-27",
     "checked_count": 26,
@@ -1128,7 +1202,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-27T00:16:58.801Z",
+    "generated_at": "2026-07-27T08:06:23.825Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1166,7 +1240,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-24",
       "source_timestamp": "2026-07-24T21:00:00.000Z",
-      "age_hours": 51.28,
+      "age_hours": 59.11,
       "row_count": 3077,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,

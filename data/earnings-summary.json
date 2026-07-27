@@ -115,6 +115,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -390,6 +411,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -658,6 +700,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -930,6 +993,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -1199,6 +1283,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -1464,6 +1569,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -1733,6 +1859,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -2007,6 +2154,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -2272,6 +2440,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -2546,6 +2735,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -2818,6 +3028,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
@@ -3094,6 +3325,27 @@
           "display": "取得不可",
           "unit": "USD",
           "state": "取得不可"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "取得不可"
+          },
+          "fetched_at": null
         }
       },
       "pre_analysis": {
