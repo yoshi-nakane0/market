@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-07-27T15:06:00.613Z",
+  "updated_at": "2026-07-27T16:46:37.776Z",
   "as_of_date": "2026-07-28",
   "data_status": {
     "label": "一部取得",
@@ -139,26 +139,34 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 62,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "クラウド",
           "AIインフラ",
           "データセンター"
         ],
-        "expected_move": {
-          "value": 4.3,
-          "historical_average": 4.3,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 4.7,
+          "median_abs_move_pct": 4.1,
+          "sample_count": 11,
+          "score": 47,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 391.38,
+          "forward_pe": 20.202364,
+          "trailing_pe": 23.310303,
+          "price_to_sales": 9.134739,
+          "enterprise_to_ebitda": 15.628,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -346,17 +354,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 30,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -427,25 +435,33 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 79,
-        "risk_label": "反応不安定リスク高",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "デジタル広告",
           "AI設備投資"
         ],
-        "expected_move": {
-          "value": 7.6,
-          "historical_average": 7.6,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 8.9,
+          "median_abs_move_pct": 8.9,
+          "sample_count": 11,
+          "score": 89,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 598.52,
+          "forward_pe": 16.170982,
+          "trailing_pe": 21.764364,
+          "price_to_sales": 7.0677147,
+          "enterprise_to_ebitda": 13.873,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -638,17 +654,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:33.211Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 44,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -718,26 +734,34 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 63,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "端末需要",
           "AI端末",
           "サービス"
         ],
-        "expected_move": {
-          "value": 4.7,
-          "historical_average": 4.7,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.8,
+          "median_abs_move_pct": 2.3,
+          "sample_count": 12,
+          "score": 28,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 337.045,
+          "forward_pe": 34.94096,
+          "trailing_pe": 40.80448,
+          "price_to_sales": 10.965528,
+          "enterprise_to_ebitda": 30.676,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -934,17 +958,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 31,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -1014,26 +1038,34 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 72,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "クラウド",
           "EC",
           "AI設備投資"
         ],
-        "expected_move": {
-          "value": 6.9,
-          "historical_average": 6.9,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 5.8,
+          "median_abs_move_pct": 5.6,
+          "sample_count": 12,
+          "score": 58,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 231.75,
+          "forward_pe": 23.3704,
+          "trailing_pe": 27.721292,
+          "price_to_sales": 3.3562746,
+          "enterprise_to_ebitda": 16.613,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -1221,17 +1253,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 46,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -1301,26 +1333,34 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 56,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 1,
+        "risk_label": "リスク非常に低い",
         "themes": [
           "原油",
           "天然ガス",
           "設備投資"
         ],
-        "expected_move": {
-          "value": 3.4,
-          "historical_average": 3.4,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 1.7,
+          "median_abs_move_pct": 1.6,
+          "sample_count": 12,
+          "score": 17,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 154.46,
+          "forward_pe": 14.608094,
+          "trailing_pe": 26.04722,
+          "price_to_sales": 1.9638431,
+          "enterprise_to_ebitda": 12.433,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -1514,17 +1554,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 19,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -1594,26 +1634,34 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 54,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 4,
+        "expectation_label": "期待やや高い",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "原油",
           "天然ガス",
           "設備投資"
         ],
-        "expected_move": {
-          "value": 3.2,
-          "historical_average": 3.2,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.4,
+          "median_abs_move_pct": 1.7,
+          "sample_count": 11,
+          "score": 24,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 191.5,
+          "forward_pe": 15.065831,
+          "trailing_pe": 33.307827,
+          "price_to_sales": 2.0533593,
+          "enterprise_to_ebitda": 11.369,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -1807,17 +1855,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 19,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -1887,25 +1935,33 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 46,
-        "risk_label": "反応不安定リスク低",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "産業ガス",
           "設備投資"
         ],
-        "expected_move": {
-          "value": 2.8,
-          "historical_average": 2.8,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.6,
+          "median_abs_move_pct": 2.2,
+          "sample_count": 11,
+          "score": 26,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 507.865,
+          "forward_pe": 25.882704,
+          "trailing_pe": 33.722775,
+          "price_to_sales": 6.7756457,
+          "enterprise_to_ebitda": 19.195,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -2094,17 +2150,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:33.211Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 2,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -2174,25 +2230,33 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 83,
-        "risk_label": "反応不安定リスク高",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "AI半導体",
           "データセンター"
         ],
-        "expected_move": {
-          "value": 8.4,
-          "historical_average": 8.4,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 8,
+          "median_abs_move_pct": 6.4,
+          "sample_count": 12,
+          "score": 80,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 486.245,
+          "forward_pe": 35.43094,
+          "trailing_pe": 163.16946,
+          "price_to_sales": 21.169205,
+          "enterprise_to_ebitda": 113.407,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -2390,17 +2454,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 40,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -2470,25 +2534,33 @@
         }
       },
       "pre_analysis": {
-        "expectation_score": null,
-        "expectation_label": "確認中",
-        "risk_score": 64,
-        "risk_label": "反応不安定リスク中",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "設備投資",
           "資源開発"
         ],
-        "expected_move": {
-          "value": 4.2,
-          "historical_average": 4.2,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 4.9,
+          "median_abs_move_pct": 3.6,
+          "sample_count": 12,
+          "score": 49,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 856.42,
+          "forward_pe": 28.12195,
+          "trailing_pe": 42.62917,
+          "price_to_sales": 5.5750146,
+          "enterprise_to_ebitda": 30.853,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 1,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
       "result": {
         "status": "確認中",
@@ -2677,17 +2749,17 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T15:05:33.918Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
           "日程データ",
-          "外部予想データ"
+          "外部予想データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
         "analyst_count": 20,
         "missing_fields": [
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -2758,23 +2830,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 59,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "医薬品",
           "治験・承認"
         ],
-        "expected_move": {
-          "value": 3.7,
-          "historical_average": 3.7,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2,
+          "median_abs_move_pct": 1,
+          "sample_count": 12,
+          "score": 20,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 24.7699,
+          "forward_pe": 8.7386265,
+          "trailing_pe": 18.908321,
+          "price_to_sales": 2.229719,
+          "enterprise_to_ebitda": 7.534,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -2963,9 +3043,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -2973,8 +3054,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -3045,23 +3125,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 75,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "肥満症治療薬",
           "医薬品"
         ],
-        "expected_move": {
-          "value": 5.6,
-          "historical_average": 5.6,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 8.3,
+          "median_abs_move_pct": 7.1,
+          "sample_count": 12,
+          "score": 83,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 1195.4384,
+          "forward_pe": 26.516834,
+          "trailing_pe": 42.527157,
+          "price_to_sales": 14.754831,
+          "enterprise_to_ebitda": 30.502,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -3250,9 +3338,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -3260,8 +3349,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -3331,23 +3419,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 60,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "住宅",
           "消費"
         ],
-        "expected_move": {
-          "value": 4.1,
-          "historical_average": 4.1,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.6,
+          "median_abs_move_pct": 2.2,
+          "sample_count": 12,
+          "score": 26,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 337.74,
+          "forward_pe": 20.989916,
+          "trailing_pe": 23.972675,
+          "price_to_sales": 2.0215027,
+          "enterprise_to_ebitda": 15.8,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -3541,9 +3637,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -3551,8 +3648,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -3622,24 +3718,32 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 60,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "小売",
           "消費減速",
           "価格転嫁"
         ],
-        "expected_move": {
-          "value": 4.5,
-          "historical_average": 4.5,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": null,
+          "median_abs_move_pct": null,
+          "sample_count": 0,
+          "score": null,
+          "state": "取得不可"
+        },
+        "valuation": {
+          "current_price": 111.31,
+          "forward_pe": 33.88164,
+          "trailing_pe": 39.19366,
+          "price_to_sales": 1.2212982,
+          "enterprise_to_ebitda": 21.023,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -3834,9 +3938,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -3845,7 +3950,7 @@
           "予想EPS",
           "予想売上高",
           "SEC財務データ",
-          "決算前後価格"
+          "過去決算時の株価変動"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -3915,24 +4020,32 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 87,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "AIインフラ",
           "半導体",
           "データセンター"
         ],
-        "expected_move": {
-          "value": 8.2,
-          "historical_average": 8.2,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 4.2,
+          "median_abs_move_pct": 3.3,
+          "sample_count": 12,
+          "score": 42,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 197.27,
+          "forward_pe": 15.32905,
+          "trailing_pe": 30.163609,
+          "price_to_sales": 18.849098,
+          "enterprise_to_ebitda": 29.998,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -4131,9 +4244,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -4141,8 +4255,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -4211,23 +4324,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 74,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "クラウド",
           "企業向けAI"
         ],
-        "expected_move": {
-          "value": 7.3,
-          "historical_average": 7.3,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 6.5,
+          "median_abs_move_pct": 4.1,
+          "sample_count": 12,
+          "score": 65,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 174.59,
+          "forward_pe": 11.254947,
+          "trailing_pe": 20.25406,
+          "price_to_sales": 3.3386073,
+          "enterprise_to_ebitda": 12.776,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -4411,9 +4532,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -4421,8 +4543,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -4492,24 +4613,32 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 78,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "AIネットワーク",
           "半導体",
           "クラウド基盤"
         ],
-        "expected_move": {
-          "value": 7.1,
-          "historical_average": 7.1,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 9,
+          "median_abs_move_pct": 8.4,
+          "sample_count": 12,
+          "score": 90,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 382.36,
+          "forward_pe": 19.594357,
+          "trailing_pe": 63.726665,
+          "price_to_sales": 24.105326,
+          "enterprise_to_ebitda": 44.252,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -4707,9 +4836,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -4717,8 +4847,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -4787,23 +4916,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 70,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "クラウド",
           "AIデータセンター"
         ],
-        "expected_move": {
-          "value": 6.4,
-          "historical_average": 6.4,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 12.8,
+          "median_abs_move_pct": 10.9,
+          "sample_count": 12,
+          "score": 100,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 120.45,
+          "forward_pe": 11.060453,
+          "trailing_pe": 20.660378,
+          "price_to_sales": 5.150953,
+          "enterprise_to_ebitda": 15.487,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -4989,9 +5126,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -4999,8 +5137,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -5069,23 +5206,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 75,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "生成AI",
           "クリエイティブソフト"
         ],
-        "expected_move": {
-          "value": 6.7,
-          "historical_average": 6.7,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 8.6,
+          "median_abs_move_pct": 8.3,
+          "sample_count": 12,
+          "score": 86,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 238.91,
+          "forward_pe": 8.691787,
+          "trailing_pe": 13.659806,
+          "price_to_sales": 3.76882,
+          "enterprise_to_ebitda": 9.347,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -5269,9 +5414,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -5279,8 +5425,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -5350,23 +5495,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 82,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "メモリ",
           "AIサーバー"
         ],
-        "expected_move": {
-          "value": 7.5,
-          "historical_average": 7.5,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 8.7,
+          "median_abs_move_pct": 6.6,
+          "sample_count": 12,
+          "score": 87,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 882.37,
+          "forward_pe": 5.7393827,
+          "trailing_pe": 19.958607,
+          "price_to_sales": 11.039088,
+          "enterprise_to_ebitda": 14.958,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -5563,9 +5716,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -5573,8 +5727,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -5644,23 +5797,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 48,
-        "risk_label": "反応不安定リスク低",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "小売",
           "会員制"
         ],
-        "expected_move": {
-          "value": 3.8,
-          "historical_average": 3.8,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.9,
+          "median_abs_move_pct": 2.6,
+          "sample_count": 12,
+          "score": 29,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 946.465,
+          "forward_pe": 41.79294,
+          "trailing_pe": 47.513306,
+          "price_to_sales": 1.4296858,
+          "enterprise_to_ebitda": 29.95,
+          "risk_score": 80,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -5855,9 +6016,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -5865,8 +6027,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -5936,23 +6097,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 74,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "輸送",
           "景気先行"
         ],
-        "expected_move": {
-          "value": 6.5,
-          "historical_average": 6.5,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 6.6,
+          "median_abs_move_pct": 4.2,
+          "sample_count": 12,
+          "score": 66,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 312.91,
+          "forward_pe": 15.265496,
+          "trailing_pe": 16.868465,
+          "price_to_sales": 0.7815522,
+          "enterprise_to_ebitda": 8.773,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -6141,9 +6310,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -6151,8 +6321,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -6222,24 +6391,32 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 54,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "金利",
           "信用コスト",
           "投資銀行"
         ],
-        "expected_move": {
-          "value": 3.2,
-          "historical_average": 3.2,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.8,
+          "median_abs_move_pct": 2.6,
+          "sample_count": 12,
+          "score": 28,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 353.39,
+          "forward_pe": 14.285934,
+          "trailing_pe": 15.134476,
+          "price_to_sales": 5.041547,
+          "enterprise_to_ebitda": null,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -6434,9 +6611,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -6444,8 +6622,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -6515,23 +6692,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 55,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "投資銀行",
           "市場取引"
         ],
-        "expected_move": {
-          "value": 3.9,
-          "historical_average": 3.9,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 3.2,
+          "median_abs_move_pct": 2.6,
+          "sample_count": 12,
+          "score": 32,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 1048.285,
+          "forward_pe": 14.29031,
+          "trailing_pe": 16.192232,
+          "price_to_sales": 4.5767627,
+          "enterprise_to_ebitda": null,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -6726,9 +6911,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -6736,8 +6922,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -6807,23 +6992,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 78,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "半導体製造装置",
           "先端露光"
         ],
-        "expected_move": {
-          "value": 6.2,
-          "historical_average": 6.2,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 7.5,
+          "median_abs_move_pct": 7.1,
+          "sample_count": 12,
+          "score": 75,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 1646.55,
+          "forward_pe": 28.430454,
+          "trailing_pe": 56.797173,
+          "price_to_sales": 17.902197,
+          "enterprise_to_ebitda": 2779.333,
+          "risk_score": 60,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -7020,9 +7213,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -7030,8 +7224,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -7101,23 +7294,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 56,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "金利",
           "信用コスト"
         ],
-        "expected_move": {
-          "value": 3.3,
-          "historical_average": 3.3,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 2.2,
+          "median_abs_move_pct": 1.9,
+          "sample_count": 12,
+          "score": 22,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 62.155,
+          "forward_pe": 11.817663,
+          "trailing_pe": 14.354504,
+          "price_to_sales": 3.8715415,
+          "enterprise_to_ebitda": null,
+          "risk_score": 20,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -7312,9 +7513,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -7322,8 +7524,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -7392,23 +7593,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 55,
-        "risk_label": "反応不安定リスク中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "物流施設",
           "金利感応度"
         ],
-        "expected_move": {
-          "value": 3.6,
-          "historical_average": 3.6,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 3.9,
+          "median_abs_move_pct": 3.7,
+          "sample_count": 12,
+          "score": 39,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 145.45,
+          "forward_pe": 42.74798,
+          "trailing_pe": 32.39421,
+          "price_to_sales": 14.36952,
+          "enterprise_to_ebitda": 26.083,
+          "risk_score": 80,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -7597,9 +7806,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -7607,8 +7817,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -7678,23 +7887,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 75,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "半導体受託製造",
           "AI半導体"
         ],
-        "expected_move": {
-          "value": 5.1,
-          "historical_average": 5.1,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 4.4,
+          "median_abs_move_pct": 3.8,
+          "sample_count": 12,
+          "score": 44,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 395.4,
+          "forward_pe": 18.33178,
+          "trailing_pe": 34.867725,
+          "price_to_sales": 0.4618253,
+          "enterprise_to_ebitda": 4.486,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -7891,9 +8108,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -7901,8 +8119,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -7972,23 +8189,31 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 83,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 4,
+        "risk_label": "リスク高い",
         "themes": [
           "動画配信",
           "広告"
         ],
-        "expected_move": {
-          "value": 8.8,
-          "historical_average": 8.8,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 7.7,
+          "median_abs_move_pct": 9.2,
+          "sample_count": 12,
+          "score": 77,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 71.145,
+          "forward_pe": 18.63494,
+          "trailing_pe": 22.371069,
+          "price_to_sales": 6.124432,
+          "enterprise_to_ebitda": 20.329,
+          "risk_score": 40,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -8178,9 +8403,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -8188,8 +8414,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
@@ -8259,24 +8484,32 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 90,
-        "risk_label": "反応不安定リスク高",
+        "risk_score": 5,
+        "risk_label": "リスク非常に高い",
         "themes": [
           "EV",
           "自動運転",
           "蓄電池"
         ],
-        "expected_move": {
-          "value": 9.1,
-          "historical_average": 9.1,
-          "historical_sample_count": 8,
-          "label": "過去実績ベース予想",
-          "basis": "historical",
-          "state": "一部取得"
+        "historical_reaction": {
+          "average_abs_move_pct": 9.7,
+          "median_abs_move_pct": 11.4,
+          "sample_count": 12,
+          "score": 97,
+          "state": "取得済み"
+        },
+        "valuation": {
+          "current_price": 308.35,
+          "forward_pe": 138.9183,
+          "trailing_pe": 280.31818,
+          "price_to_sales": 11.753086,
+          "enterprise_to_ebitda": 112.463,
+          "risk_score": 100,
+          "state": "取得済み"
         },
         "available_component_count": 0,
-        "total_component_count": 7,
-        "note": "予想修正、株価の事前上昇、予想のばらつきなどが3項目未満のため市場期待度は確認中です。"
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
       },
       "result": {
         "status": "確認中",
@@ -8468,9 +8701,10 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-27T13:47:32.597Z",
+        "last_fetched_at": "2026-07-27T16:42:10.069Z",
         "providers": [
-          "日程データ"
+          "日程データ",
+          "yfinance市場指標"
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
@@ -8478,8 +8712,7 @@
         "missing_fields": [
           "予想EPS",
           "予想売上高",
-          "SEC財務データ",
-          "決算前後価格"
+          "SEC財務データ"
         ],
         "freshness": "current",
         "retry_status": "waiting"
