@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-28T00:40:39.885+09:00",
+  "generated_at": "2026-07-28T14:47:22.067+09:00",
   "data_cutoff": "2026-07-27T18:54:46.375+09:00",
   "economy": {
     "condition": "neutral",
@@ -11,22 +11,28 @@
     "inflation_direction_label": "横ばい",
     "regime": "transition_neutral",
     "regime_label": "移行・中立",
-    "summary": "実体経済は中立で、方向は横ばいです。主な支援要因は社債スプレッド、主な下押し要因は米10年国債利回りです。",
+    "summary": "実体経済は中立で、方向は横ばいです。主な支援要因はMoody's Baa社債スプレッド（10年国債比）、主な下押し要因は米10年国債利回りです。",
     "drivers_positive": [
       {
-        "label": "社債スプレッドが強くプラスに寄与",
+        "label": "Moody's Baa社債スプレッド（10年国債比）が強くプラスに寄与",
         "direction": "positive",
         "contribution": "large",
         "factor": "金融環境",
+        "series_id": "BAA10Y",
         "as_of_date": "2026-07-23",
+        "latest_value": 1.58,
+        "source": "FRED:BAA10Y",
         "availability": "available"
       },
       {
-        "label": "National Financial Conditions Indexが小幅にプラス",
+        "label": "シカゴ連銀金融環境指数（NFCI）が小幅にプラス",
         "direction": "positive",
         "contribution": "large",
-        "factor": "その他",
+        "factor": "市場織り込み",
+        "series_id": "NFCI",
         "as_of_date": "2026-07-17",
+        "latest_value": -0.552,
+        "source": "FRED:NFCI",
         "availability": "available"
       }
     ],
@@ -36,7 +42,10 @@
         "direction": "negative",
         "contribution": "large",
         "factor": "金融政策",
+        "series_id": "DGS10",
         "as_of_date": "2026-07-23",
+        "latest_value": 4.71,
+        "source": "FRED:DGS10",
         "availability": "available"
       },
       {
@@ -44,7 +53,10 @@
         "direction": "negative",
         "contribution": "large",
         "factor": "金融政策",
+        "series_id": "DGS2",
         "as_of_date": "2026-07-23",
+        "latest_value": 4.37,
+        "source": "FRED:DGS2",
         "availability": "available"
       }
     ],
@@ -568,8 +580,8 @@
       "contribution_label": "+中",
       "evidence": [
         {
-          "label": "社債スプレッド",
-          "state": "社債スプレッドが強くプラスに寄与",
+          "label": "Moody's Baa社債スプレッド（10年国債比）",
+          "state": "Moody's Baa社債スプレッド（10年国債比）が強くプラスに寄与",
           "as_of_date": "2026-07-23",
           "availability": "available"
         },
@@ -580,8 +592,8 @@
           "availability": "available"
         },
         {
-          "label": "金融環境指数",
-          "state": "金融環境指数が小幅にプラス",
+          "label": "シカゴ連銀調整済み金融環境指数（ANFCI）",
+          "state": "シカゴ連銀調整済み金融環境指数（ANFCI）が小幅にプラス",
           "as_of_date": "2026-07-17",
           "availability": "available"
         }
@@ -1040,7 +1052,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-28T00:40:39.885+09:00",
+  "updated_at": "2026-07-28T14:47:22.067+09:00",
   "date": "2026-07-27",
   "snapshot_id": "macro-2026-07-27-macro-public-v3-3716ef91306ba541",
   "snapshot_content_hash": "3716ef91306ba541d8645df82971f878fbe21562d3ba1cf35fdf07556e830a5a",
@@ -1202,7 +1214,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-27T13:58:09.554Z",
+    "generated_at": "2026-07-28T05:27:46.443Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1210,20 +1222,20 @@
       "short_allowed": false,
       "lookback_sessions": 20,
       "target_annual_volatility": 0.1,
-      "current_annualized_volatility": 0.290301,
+      "current_annualized_volatility": 0.290443,
       "max_notional_fraction": 0.25,
       "target_notional_fraction": 0.25,
       "cash_reserve_fraction": 0.75,
       "rebalance_rule": "完了済み夜間取引までの20日値動きで、次に取引できる夜間取引から目標比率へ調整"
     },
     "instrument": {
-      "reference_price": 64290,
-      "reference_price_as_of": "2026-07-24T21:00:00.000Z",
+      "reference_price": 63910,
+      "reference_price_as_of": "2026-07-27T21:00:00.000Z",
       "contract_month": "2026-09",
       "expiry_date": "2026-09-11",
-      "days_to_expiry": 46,
+      "days_to_expiry": 45,
       "micro_contract_multiplier": 10,
-      "micro_contract_reference_notional": 642900,
+      "micro_contract_reference_notional": 639100,
       "contracts_calculation": "口座の純資産 × 目標比率 ÷（証券会社の現在値 × 10）を切り捨て",
       "source_label": "225navi 大証 日経225先物期近日足",
       "source_url": "https://225navi.com/data/"
@@ -1238,10 +1250,10 @@
     },
     "data_quality": {
       "status": "fresh",
-      "latest_completed_session_date": "2026-07-24",
-      "source_timestamp": "2026-07-24T21:00:00.000Z",
-      "age_hours": 64.97,
-      "row_count": 3077,
+      "latest_completed_session_date": "2026-07-27",
+      "source_timestamp": "2026-07-27T21:00:00.000Z",
+      "age_hours": 8.46,
+      "row_count": 3078,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
       "invalid_rows_excluded": 1,
@@ -1285,31 +1297,31 @@
           "average_notional_fraction": 0.246849
         },
         "recent_test": {
-          "sample_count": 400,
+          "sample_count": 401,
           "start_date": "2025-01-03",
-          "end_date": "2026-07-23",
-          "total_return": 0.134693,
-          "annualized_return": 0.082863,
-          "annualized_volatility": 0.064874,
-          "sharpe_ratio": 1.259665,
+          "end_date": "2026-07-24",
+          "total_return": 0.134824,
+          "annualized_return": 0.082727,
+          "annualized_volatility": 0.064793,
+          "sharpe_ratio": 1.259213,
           "max_drawdown": -0.061454,
-          "profit_factor": 1.249871,
-          "average_notional_fraction": 0.246812
+          "profit_factor": 1.250093,
+          "average_notional_fraction": 0.24682
         }
       },
       "fixed_25_percent_benchmark": {
         "label": "固定25%ロング",
         "purpose": "予測優位ではなく、同じ配分上限との比較",
         "full_period": {
-          "sample_count": 3055,
+          "sample_count": 3056,
           "start_date": "2014-02-05",
-          "end_date": "2026-07-23",
-          "total_return": 0.524355,
-          "annualized_return": 0.035386,
-          "annualized_volatility": 0.053737,
-          "sharpe_ratio": 0.674046,
+          "end_date": "2026-07-24",
+          "total_return": 0.524531,
+          "annualized_return": 0.035384,
+          "annualized_volatility": 0.053728,
+          "sharpe_ratio": 0.674113,
           "max_drawdown": -0.09131,
-          "profit_factor": 1.126958,
+          "profit_factor": 1.126991,
           "average_notional_fraction": 0.25
         }
       }
