@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-07-28T10:02:04.259Z",
+  "generated_at": "2026-07-28T15:11:13.544Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-07-27までの資産別確定日足",
+    "analysis_basis": "2026-07-28までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-07-28T05:33:08.352Z",
-    "latest_attempt_at": "2026-07-28T05:33:08.352Z",
-    "stale_after": "2026-07-29T05:33:08.352Z",
+    "last_success_at": "2026-07-28T15:11:06.584Z",
+    "latest_attempt_at": "2026-07-28T15:11:06.584Z",
+    "stale_after": "2026-07-29T15:11:06.584Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -19,14 +19,15 @@
     "asset_code": "NK225_FUT",
     "asset_label": "日経先物",
     "current_phase": {
-      "key": "range",
-      "label": "レンジ",
+      "key": "downturn_transition",
+      "label": "下落転換",
       "confirmed": true,
-      "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
+      "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
       "reasons": [
         "価格は20日平均を下回っています。",
         "20日平均は50日平均を上回っています。",
-        "MACDの勢いは下向きです。"
+        "MACDの勢いは下向きです。",
+        "方向の強さは弱い水準です。"
       ]
     },
     "change_signals": {
@@ -52,18 +53,19 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 63910,
+      "price": 62400,
       "price_type": "清算値",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "current_phase": {
-        "key": "range",
-        "label": "レンジ",
+        "key": "downturn_transition",
+        "label": "下落転換",
         "confirmed": true,
-        "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
+        "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
         "reasons": [
           "価格は20日平均を下回っています。",
           "20日平均は50日平均を上回っています。",
-          "MACDの勢いは下向きです。"
+          "MACDの勢いは下向きです。",
+          "方向の強さは弱い水準です。"
         ]
       },
       "change_signals": {
@@ -83,9 +85,9 @@
         }
       },
       "direction_scores": {
-        "long": 44,
+        "long": 23,
         "range": 39,
-        "short": 17,
+        "short": 38,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -96,7 +98,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 87,
+          "confidence_score": 82,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -104,48 +106,48 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 71,390 を終値で上回る"
+          "change_condition": "抵抗線 72,110 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
           "label": "1か月",
-          "direction": "neutral",
-          "direction_label": "横ばい",
-          "confidence": "high",
-          "confidence_label": "高",
-          "confidence_score": 81,
+          "direction": "bearish",
+          "direction_label": "下落",
+          "confidence": "medium",
+          "confidence_label": "中",
+          "confidence_score": 52,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "中期の平均線構造から横ばいを基本とします。",
+          "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
             "20日・50日平均が上向き",
-            "DMIが下向き",
-            "価格と20日平均が下向き"
+            "現在局面が下向き",
+            "DMIが下向き"
           ],
-          "change_condition": "支持線 63,430 または抵抗線 71,390 を終値で抜ける"
+          "change_condition": "抵抗線 72,110 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 66774.443889,
-          "ema50": 66211.016534,
-          "rsi14": 39.378,
-          "macd": -868.733189,
-          "macd_signal": -353.677292,
-          "macd_histogram": -515.055897,
-          "atr14": 1796.29393,
-          "atr_percent": 2.811,
-          "adx14": 20.072,
-          "plus_di14": 19.989,
-          "minus_di14": 37.499,
-          "bollinger_upper": 71430.339615,
-          "bollinger_middle": 67433,
-          "bollinger_lower": 63435.660385,
-          "bollinger_bandwidth": 11.856,
-          "roc10": -4.711
+          "ema20": 66443.144336,
+          "ema50": 66022.617659,
+          "rsi14": 37.11,
+          "macd": -967.101463,
+          "macd_signal": -435.144742,
+          "macd_histogram": -531.956721,
+          "atr14": 1991.265675,
+          "atr_percent": 3.191,
+          "adx14": 21.22,
+          "plus_di14": 18.177,
+          "minus_di14": 39.272,
+          "bollinger_upper": 71364.96118,
+          "bollinger_middle": 67098.5,
+          "bollinger_lower": 62832.03882,
+          "bollinger_bandwidth": 12.717,
+          "roc10": -7.965
         },
         "levels": {
-          "support": 63430,
-          "resistance": 71390
+          "support": 62780,
+          "resistance": 72110
         },
         "data_quality": {
           "valid_bars": 252,
@@ -195,8 +197,8 @@
       },
       "direction_scores": {
         "long": 26,
-        "range": 48,
-        "short": 26,
+        "range": 47,
+        "short": 27,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -237,29 +239,29 @@
       },
       "details": {
         "indicators": {
-          "ema20": 52131.372239,
-          "ema50": 51450.561783,
-          "rsi14": 53.038,
-          "macd": 143.824159,
-          "macd_signal": 272.029592,
-          "macd_histogram": -128.205433,
-          "atr14": 561.097762,
-          "atr_percent": 1.075,
-          "adx14": 17.016,
-          "plus_di14": 24.567,
-          "minus_di14": 21.074,
-          "bollinger_upper": 53069.307159,
-          "bollinger_middle": 52383.875781,
-          "bollinger_lower": 51698.444403,
-          "bollinger_bandwidth": 2.617,
-          "roc10": -0.55
+          "ema20": 52148.118659,
+          "ema50": 51429.868102,
+          "rsi14": 52.79,
+          "macd": 172.524045,
+          "macd_signal": 308.274219,
+          "macd_histogram": -135.750175,
+          "atr14": 586.32766,
+          "atr_percent": 1.123,
+          "adx14": 17.722,
+          "plus_di14": 24.859,
+          "minus_di14": 21.718,
+          "bollinger_upper": 53075.446432,
+          "bollinger_middle": 52380.31875,
+          "bollinger_lower": 51685.191068,
+          "bollinger_bandwidth": 2.654,
+          "roc10": -0.811
         },
         "levels": {
           "support": 51542.058594,
           "resistance": 53289.300781
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -302,8 +304,8 @@
         }
       },
       "direction_scores": {
-        "long": 31,
-        "range": 53,
+        "long": 30,
+        "range": 54,
         "short": 16,
         "metric_kind": "directional_fit_not_probability"
       },
@@ -345,29 +347,29 @@
       },
       "details": {
         "indicators": {
-          "ema20": 7470.631729,
-          "ema50": 7412.466096,
-          "rsi14": 44.98,
-          "macd": -1.539897,
-          "macd_signal": 14.789342,
-          "macd_histogram": -16.329238,
-          "atr14": 80.97065,
-          "atr_percent": 1.092,
-          "adx14": 14.579,
-          "plus_di14": 16.415,
-          "minus_di14": 24.766,
-          "bollinger_upper": 7592.543915,
-          "bollinger_middle": 7492.848511,
-          "bollinger_lower": 7393.153107,
-          "bollinger_bandwidth": 2.661,
-          "roc10": -1.359
+          "ema20": 7476.793566,
+          "ema50": 7412.484017,
+          "rsi14": 44.971,
+          "macd": 3.725731,
+          "macd_signal": 18.8908,
+          "macd_histogram": -15.165069,
+          "atr14": 82.058051,
+          "atr_percent": 1.107,
+          "adx14": 13.79,
+          "plus_di14": 17.312,
+          "minus_di14": 26.318,
+          "bollinger_upper": 7601.540415,
+          "bollinger_middle": 7489.950513,
+          "bollinger_lower": 7378.360611,
+          "bollinger_bandwidth": 2.98,
+          "roc10": -2.141
         },
         "levels": {
           "support": 7294.180176,
           "resistance": 7581.5
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -412,8 +414,8 @@
       },
       "direction_scores": {
         "long": 22,
-        "range": 39,
-        "short": 39,
+        "range": 40,
+        "short": 38,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -454,29 +456,29 @@
       },
       "details": {
         "indicators": {
-          "ema20": 25660.070527,
-          "ema50": 25624.886686,
-          "rsi14": 38.198,
-          "macd": -201.406511,
-          "macd_signal": -86.344262,
-          "macd_histogram": -115.062249,
-          "atr14": 438.061893,
-          "atr_percent": 1.757,
-          "adx14": 24.989,
-          "plus_di14": 13.674,
-          "minus_di14": 35.201,
-          "bollinger_upper": 26585.686452,
-          "bollinger_middle": 25796.94707,
-          "bollinger_lower": 25008.207689,
-          "bollinger_bandwidth": 6.115,
-          "roc10": -3.637
+          "ema20": 25732.535364,
+          "ema50": 25651.449203,
+          "rsi14": 38.231,
+          "macd": -162.011655,
+          "macd_signal": -58.27655,
+          "macd_histogram": -103.735105,
+          "atr14": 447.364999,
+          "atr_percent": 1.794,
+          "adx14": 23.71,
+          "plus_di14": 14.42,
+          "minus_di14": 36.945,
+          "bollinger_upper": 26545.21876,
+          "bollinger_middle": 25813.037012,
+          "bollinger_lower": 25080.855263,
+          "bollinger_bandwidth": 5.673,
+          "roc10": -5.135
         },
         "levels": {
-          "support": 24918.089844,
+          "support": 24954.769531,
           "resistance": 26316.810547
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
