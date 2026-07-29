@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-28T14:47:22.067+09:00",
-  "data_cutoff": "2026-07-27T18:54:46.375+09:00",
+  "generated_at": "2026-07-29T15:40:31.341+09:00",
+  "data_cutoff": "2026-07-29T15:40:30.905+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -19,8 +19,8 @@
         "contribution": "large",
         "factor": "金融環境",
         "series_id": "BAA10Y",
-        "as_of_date": "2026-07-23",
-        "latest_value": 1.58,
+        "as_of_date": "2026-07-27",
+        "latest_value": 1.61,
         "source": "FRED:BAA10Y",
         "availability": "available"
       },
@@ -40,11 +40,11 @@
       {
         "label": "米10年国債利回りがマイナスに寄与",
         "direction": "negative",
-        "contribution": "large",
+        "contribution": "medium",
         "factor": "金融政策",
         "series_id": "DGS10",
-        "as_of_date": "2026-07-23",
-        "latest_value": 4.71,
+        "as_of_date": "2026-07-27",
+        "latest_value": 4.65,
         "source": "FRED:DGS10",
         "availability": "available"
       },
@@ -54,13 +54,13 @@
         "contribution": "large",
         "factor": "金融政策",
         "series_id": "DGS2",
-        "as_of_date": "2026-07-23",
-        "latest_value": 4.37,
+        "as_of_date": "2026-07-27",
+        "latest_value": 4.31,
         "source": "FRED:DGS2",
         "availability": "available"
       }
     ],
-    "change_since_previous": "外部環境が前回から改善",
+    "change_since_previous": "市場心理が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -95,7 +95,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-07-27",
+        "origin_date": "2026-07-29",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -123,7 +123,7 @@
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-27",
+            "as_of_date": "2026-07-29",
             "value": 3.447
           }
         ],
@@ -139,7 +139,7 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-07-27",
+        "origin_date": "2026-07-29",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
@@ -169,6 +169,10 @@
           {
             "as_of_date": "2026-07-27",
             "value": 2.2739
+          },
+          {
+            "as_of_date": "2026-07-29",
+            "value": 2.2739
           }
         ],
         "forecast": null,
@@ -183,8 +187,8 @@
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-07-27",
-        "target_period": "2027-07-27",
+        "origin_date": "2026-07-29",
+        "target_period": "2027-07-29",
         "forecast_value": null,
         "candidate_value": 3.412,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -203,11 +207,11 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0,
+        "candidate_revision_pp": 0.001,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-27",
+            "as_of_date": "2026-07-29",
             "value": 3.412
           }
         ],
@@ -223,8 +227,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-07-27",
-        "target_period": "2027-07-27",
+        "origin_date": "2026-07-29",
+        "target_period": "2027-07-29",
         "forecast_value": null,
         "candidate_value": 4.6598,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -249,6 +253,10 @@
           {
             "as_of_date": "2026-07-27",
             "value": 4.6598
+          },
+          {
+            "as_of_date": "2026-07-29",
+            "value": 4.6598
           }
         ],
         "forecast": null,
@@ -263,8 +271,8 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-07-27",
-        "target_period": "2026-07-27",
+        "origin_date": "2026-07-29",
+        "target_period": "2026-07-29",
         "forecast_value": null,
         "candidate_value": 4.3853,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -384,7 +392,7 @@
         },
         {
           "label": "期待インフレ",
-          "value": "2.28%（水準）"
+          "value": "2.24%（水準）"
         }
       ]
     },
@@ -432,9 +440,9 @@
       "label": "1か月",
       "model_kind": "event_driven",
       "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.26009604540793446,
-      "stable_probability": 0.49417275315711895,
-      "deteriorate_probability": 0.24573120143494664,
+      "improve_probability": 0.2613825149045308,
+      "stable_probability": 0.4926017003989829,
+      "deteriorate_probability": 0.24601578469648633,
       "drivers": [
         "金融政策",
         "外部環境",
@@ -476,9 +484,9 @@
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
       "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.24662349828091265,
-      "stable_probability": 0.4619808225655677,
-      "deteriorate_probability": 0.2913956791535197,
+      "improve_probability": 0.24663025598704977,
+      "stable_probability": 0.4620059495725737,
+      "deteriorate_probability": 0.2913637944403765,
       "drivers": [
         "金融政策",
         "外部環境",
@@ -538,13 +546,13 @@
         {
           "label": "米2年国債利回り",
           "state": "米2年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-07-23",
+          "as_of_date": "2026-07-27",
           "availability": "available"
         },
         {
           "label": "米10年国債利回り",
           "state": "米10年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-07-23",
+          "as_of_date": "2026-07-27",
           "availability": "available"
         }
       ],
@@ -555,8 +563,8 @@
       "label": "外部環境",
       "region": "global",
       "state": "追い風",
-      "direction": "improving",
-      "direction_label": "改善",
+      "direction": "stable",
+      "direction_label": "横ばい",
       "contribution": "positive",
       "contribution_label": "+中",
       "evidence": [
@@ -573,7 +581,7 @@
       "key": "financial_conditions",
       "label": "金融環境",
       "region": "united_states",
-      "state": "緩い",
+      "state": "中立",
       "direction": "stable",
       "direction_label": "横ばい",
       "contribution": "positive",
@@ -582,7 +590,7 @@
         {
           "label": "Moody's Baa社債スプレッド（10年国債比）",
           "state": "Moody's Baa社債スプレッド（10年国債比）が強くプラスに寄与",
-          "as_of_date": "2026-07-23",
+          "as_of_date": "2026-07-27",
           "availability": "available"
         },
         {
@@ -613,7 +621,7 @@
         {
           "label": "5Y5Y Inflation Expectation",
           "state": "5Y5Y Inflation Expectationが小幅にプラス",
-          "as_of_date": "2026-07-24",
+          "as_of_date": "2026-07-28",
           "availability": "available"
         },
         {
@@ -724,13 +732,13 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 31,
+      "attention_score": 34,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.62,
         "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 1
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -759,13 +767,13 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 31,
+      "attention_score": 34,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.62,
         "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 1
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -794,13 +802,13 @@
         "inline": "想定どおりなら、現在の政策経路を維持",
         "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 29,
+      "attention_score": 32,
       "attention_components": {
         "regime_relevance": 1,
         "surprise_likelihood": 0.58,
         "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 1
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -906,13 +914,13 @@
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
-    "confidence_score_detail": 0.85,
+    "confidence_score_detail": 0.86,
     "confidence_reasons": [
       "主要データと複数モデルの方向が一致しています"
     ],
     "model_confidence": {
       "status": "verified",
-      "score": 0.85,
+      "score": 0.86,
       "label": "high",
       "reasons": []
     },
@@ -941,8 +949,8 @@
       }
     },
     "data_coverage": 1,
-    "model_agreement": 0.85,
-    "regime_stability": 0.98,
+    "model_agreement": 0.86,
+    "regime_stability": 0.99,
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
@@ -1052,33 +1060,33 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-28T14:47:22.067+09:00",
-  "date": "2026-07-27",
-  "snapshot_id": "macro-2026-07-27-macro-public-v3-3716ef91306ba541",
-  "snapshot_content_hash": "3716ef91306ba541d8645df82971f878fbe21562d3ba1cf35fdf07556e830a5a",
-  "as_of_date": "2026-07-27",
+  "updated_at": "2026-07-29T15:40:31.341+09:00",
+  "date": "2026-07-29",
+  "snapshot_id": "macro-2026-07-29-macro-public-v3-9d2a66343c9a6603",
+  "snapshot_content_hash": "9d2a66343c9a660305c13d615b0a946fe11af40e87752e3006f4996836169c68",
+  "as_of_date": "2026-07-29",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-27T09:54:46.375Z",
+  "signal_at": "2026-07-29T06:40:30.905Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-28",
-    "entry_at": "2026-07-27T23:45:00.000Z",
-    "valid_until": "2026-07-27T23:45:00.000Z",
+    "entry_session_date": "2026-07-30",
+    "entry_at": "2026-07-29T23:45:00.000Z",
+    "valid_until": "2026-07-29T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "-5",
+  "risk_score": "-4",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-27T09:46:23.993Z",
-    "stale_after": "2026-07-28T21:46:23.993Z",
+    "fetched_at": "2026-07-29T06:32:52.077Z",
+    "stale_after": "2026-07-30T18:32:52.077Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-27",
+    "as_of_date": "2026-07-29",
     "checked_count": 26,
     "success_count": 26,
     "raw_fetch_status": "complete",
@@ -1128,8 +1136,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "85/100",
-    "score": 0.85,
+    "value": "86/100",
+    "score": 0.86,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1214,7 +1222,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-28T05:27:46.443Z",
+    "generated_at": "2026-07-29T05:16:43.564Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1222,20 +1230,20 @@
       "short_allowed": false,
       "lookback_sessions": 20,
       "target_annual_volatility": 0.1,
-      "current_annualized_volatility": 0.290443,
+      "current_annualized_volatility": 0.314469,
       "max_notional_fraction": 0.25,
       "target_notional_fraction": 0.25,
       "cash_reserve_fraction": 0.75,
       "rebalance_rule": "完了済み夜間取引までの20日値動きで、次に取引できる夜間取引から目標比率へ調整"
     },
     "instrument": {
-      "reference_price": 63910,
-      "reference_price_as_of": "2026-07-27T21:00:00.000Z",
+      "reference_price": 62420,
+      "reference_price_as_of": "2026-07-28T21:00:00.000Z",
       "contract_month": "2026-09",
       "expiry_date": "2026-09-11",
-      "days_to_expiry": 45,
+      "days_to_expiry": 44,
       "micro_contract_multiplier": 10,
-      "micro_contract_reference_notional": 639100,
+      "micro_contract_reference_notional": 624200,
       "contracts_calculation": "口座の純資産 × 目標比率 ÷（証券会社の現在値 × 10）を切り捨て",
       "source_label": "225navi 大証 日経225先物期近日足",
       "source_url": "https://225navi.com/data/"
@@ -1250,10 +1258,10 @@
     },
     "data_quality": {
       "status": "fresh",
-      "latest_completed_session_date": "2026-07-27",
-      "source_timestamp": "2026-07-27T21:00:00.000Z",
-      "age_hours": 8.46,
-      "row_count": 3078,
+      "latest_completed_session_date": "2026-07-28",
+      "source_timestamp": "2026-07-28T21:00:00.000Z",
+      "age_hours": 8.28,
+      "row_count": 3079,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
       "invalid_rows_excluded": 1,
@@ -1297,31 +1305,31 @@
           "average_notional_fraction": 0.246849
         },
         "recent_test": {
-          "sample_count": 401,
+          "sample_count": 402,
           "start_date": "2025-01-03",
-          "end_date": "2026-07-24",
-          "total_return": 0.134824,
-          "annualized_return": 0.082727,
-          "annualized_volatility": 0.064793,
-          "sharpe_ratio": 1.259213,
+          "end_date": "2026-07-27",
+          "total_return": 0.123651,
+          "annualized_return": 0.075819,
+          "annualized_volatility": 0.065211,
+          "sharpe_ratio": 1.153376,
           "max_drawdown": -0.061454,
-          "profit_factor": 1.250093,
-          "average_notional_fraction": 0.24682
+          "profit_factor": 1.226824,
+          "average_notional_fraction": 0.246828
         }
       },
       "fixed_25_percent_benchmark": {
         "label": "固定25%ロング",
         "purpose": "予測優位ではなく、同じ配分上限との比較",
         "full_period": {
-          "sample_count": 3056,
+          "sample_count": 3057,
           "start_date": "2014-02-05",
-          "end_date": "2026-07-24",
-          "total_return": 0.524531,
-          "annualized_return": 0.035384,
-          "annualized_volatility": 0.053728,
-          "sharpe_ratio": 0.674113,
+          "end_date": "2026-07-27",
+          "total_return": 0.50952,
+          "annualized_return": 0.034528,
+          "annualized_volatility": 0.053796,
+          "sharpe_ratio": 0.657956,
           "max_drawdown": -0.09131,
-          "profit_factor": 1.126991,
+          "profit_factor": 1.123792,
           "average_notional_fraction": 0.25
         }
       }
@@ -1370,6 +1378,7 @@
       "predictive_current_feature_timing_invalid",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
+      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
@@ -1721,7 +1730,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": -5,
+    "score": -4,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -1884,12 +1893,12 @@
     },
     {
       "label": "レンジ",
-      "value": "37%",
+      "value": "38%",
       "tone": "neutral"
     },
     {
       "label": "ショート",
-      "value": "29%",
+      "value": "28%",
       "tone": "negative"
     }
   ],
@@ -1916,7 +1925,7 @@
     },
     {
       "label": "金融環境",
-      "value": 57,
+      "value": 56,
       "tone": "positive"
     },
     {
@@ -1926,7 +1935,7 @@
     },
     {
       "label": "市場心理",
-      "value": 51,
+      "value": 52,
       "tone": "neutral"
     }
   ],
