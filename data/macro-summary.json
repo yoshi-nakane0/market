@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-29T15:40:31.341+09:00",
-  "data_cutoff": "2026-07-29T15:40:30.905+09:00",
+  "generated_at": "2026-07-30T00:26:43.274+09:00",
+  "data_cutoff": "2026-07-30T00:26:42.849+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -25,14 +25,14 @@
         "availability": "available"
       },
       {
-        "label": "シカゴ連銀金融環境指数（NFCI）が小幅にプラス",
+        "label": "シカゴ連銀調整済み金融環境指数（ANFCI）が小幅にプラス",
         "direction": "positive",
         "contribution": "large",
-        "factor": "市場織り込み",
-        "series_id": "NFCI",
-        "as_of_date": "2026-07-17",
-        "latest_value": -0.552,
-        "source": "FRED:NFCI",
+        "factor": "金融環境",
+        "series_id": "ANFCI",
+        "as_of_date": "2026-07-24",
+        "latest_value": -0.56,
+        "source": "FRED:ANFCI",
         "availability": "available"
       }
     ],
@@ -60,7 +60,7 @@
         "availability": "available"
       }
     ],
-    "change_since_previous": "市場心理が前回から改善",
+    "change_since_previous": "前回との比較データを確認できません",
     "layers": {
       "real_economy": [
         "growth",
@@ -79,7 +79,7 @@
     "model_version": "public-multi-indicator-outlook-v3",
     "status": "provisional",
     "status_label": "試算・分析専用",
-    "headline": "実質GDP・現在四半期は3.45%（前期比年率）、実質GDP・4四半期先は2.27%（前年比）の分析試算です。売買判断には利用できません。",
+    "headline": "実質GDP・現在四半期は3.45%（前期比年率）、実質GDP・4四半期先は2.28%（前年比）の分析試算です。売買判断には利用できません。",
     "horizon_label": "現在四半期〜4四半期先",
     "base_case": "成長は緩やか、物価は未算出、政策は引き締め方向を基本シナリオとします。",
     "methodology_note": "多指標の現在推計、4四半期成長のモデル分解、金融環境、雇用、物価内訳を、無料の公開データで再構成しています。公表日を日単位で守り、据え置き等の基準予測より改善した数値だけを表示します。寄与はモデル上の分解で、個別要因の因果効果ではありません。独自の社内モデルを複製したものではありません。",
@@ -95,7 +95,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-07-29",
+        "origin_date": "2026-07-30",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -123,7 +123,7 @@
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-29",
+            "as_of_date": "2026-07-30",
             "value": 3.447
           }
         ],
@@ -139,21 +139,21 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-07-29",
+        "origin_date": "2026-07-30",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
           "end_date": "2027-09-30"
         },
         "forecast_value": null,
-        "candidate_value": 2.2739,
+        "candidate_value": 2.2751,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
         "candidate_interval_80": {
-          "low": -0.2832,
-          "high": 3.0786,
+          "low": -0.282,
+          "high": 3.0796,
           "confidence_level": 0.8,
           "empirical_coverage": 0.7882,
           "sample_count": 85
@@ -163,20 +163,20 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0,
+        "candidate_revision_pp": 0.0012,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-27",
+            "as_of_date": "2026-07-29",
             "value": 2.2739
           },
           {
-            "as_of_date": "2026-07-29",
-            "value": 2.2739
+            "as_of_date": "2026-07-30",
+            "value": 2.2751
           }
         ],
         "forecast": null,
-        "candidate_forecast": "2.27%（前年比）",
+        "candidate_forecast": "2.28%（前年比）",
         "interval": null,
         "candidate_interval": "-0.28%〜3.08%（前年比）",
         "revision": null,
@@ -187,8 +187,8 @@
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-07-29",
-        "target_period": "2027-07-29",
+        "origin_date": "2026-07-30",
+        "target_period": "2027-07-30",
         "forecast_value": null,
         "candidate_value": 3.412,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -207,11 +207,11 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0.001,
+        "candidate_revision_pp": 0,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-29",
+            "as_of_date": "2026-07-30",
             "value": 3.412
           }
         ],
@@ -227,8 +227,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-07-29",
-        "target_period": "2027-07-29",
+        "origin_date": "2026-07-30",
+        "target_period": "2027-07-30",
         "forecast_value": null,
         "candidate_value": 4.6598,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -251,11 +251,11 @@
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-07-27",
+            "as_of_date": "2026-07-29",
             "value": 4.6598
           },
           {
-            "as_of_date": "2026-07-29",
+            "as_of_date": "2026-07-30",
             "value": 4.6598
           }
         ],
@@ -271,10 +271,10 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-07-29",
-        "target_period": "2026-07-29",
+        "origin_date": "2026-07-30",
+        "target_period": "2026-07-30",
         "forecast_value": null,
-        "candidate_value": 4.3853,
+        "candidate_value": 4.3858,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
@@ -343,7 +343,7 @@
       {
         "key": "total",
         "label": "4四半期先GDP予測",
-        "estimate": "2.27%（前年比）",
+        "estimate": "2.28%（前年比）",
         "status": "available",
         "interpretation": "model_attribution_not_causal"
       }
@@ -581,7 +581,7 @@
       "key": "financial_conditions",
       "label": "金融環境",
       "region": "united_states",
-      "state": "中立",
+      "state": "緩い",
       "direction": "stable",
       "direction_label": "横ばい",
       "contribution": "positive",
@@ -602,7 +602,7 @@
         {
           "label": "シカゴ連銀調整済み金融環境指数（ANFCI）",
           "state": "シカゴ連銀調整済み金融環境指数（ANFCI）が小幅にプラス",
-          "as_of_date": "2026-07-17",
+          "as_of_date": "2026-07-24",
           "availability": "available"
         }
       ],
@@ -914,13 +914,13 @@
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
-    "confidence_score_detail": 0.86,
+    "confidence_score_detail": 0.87,
     "confidence_reasons": [
       "主要データと複数モデルの方向が一致しています"
     ],
     "model_confidence": {
       "status": "verified",
-      "score": 0.86,
+      "score": 0.87,
       "label": "high",
       "reasons": []
     },
@@ -949,8 +949,8 @@
       }
     },
     "data_coverage": 1,
-    "model_agreement": 0.86,
-    "regime_stability": 0.99,
+    "model_agreement": 0.87,
+    "regime_stability": 1,
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
@@ -1060,21 +1060,21 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-29T15:40:31.341+09:00",
-  "date": "2026-07-29",
-  "snapshot_id": "macro-2026-07-29-macro-public-v3-9d2a66343c9a6603",
-  "snapshot_content_hash": "9d2a66343c9a660305c13d615b0a946fe11af40e87752e3006f4996836169c68",
-  "as_of_date": "2026-07-29",
+  "updated_at": "2026-07-30T00:26:43.274+09:00",
+  "date": "2026-07-30",
+  "snapshot_id": "macro-2026-07-30-macro-public-v3-45963bb66bd712b7",
+  "snapshot_content_hash": "45963bb66bd712b7543809a761669a5d4d01a8c3a5d37ce115a74c37a1638aa1",
+  "as_of_date": "2026-07-30",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-29T06:40:30.905Z",
+  "signal_at": "2026-07-29T15:26:42.849Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-07-30",
-    "entry_at": "2026-07-29T23:45:00.000Z",
-    "valid_until": "2026-07-29T23:45:00.000Z",
+    "entry_session_date": "2026-07-31",
+    "entry_at": "2026-07-30T23:45:00.000Z",
+    "valid_until": "2026-07-30T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
@@ -1083,10 +1083,10 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-29T06:32:52.077Z",
-    "stale_after": "2026-07-30T18:32:52.077Z",
+    "fetched_at": "2026-07-29T15:18:43.091Z",
+    "stale_after": "2026-07-31T03:18:43.091Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-07-29",
+    "as_of_date": "2026-07-30",
     "checked_count": 26,
     "success_count": 26,
     "raw_fetch_status": "complete",
@@ -1136,8 +1136,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "86/100",
-    "score": 0.86,
+    "value": "87/100",
+    "score": 0.87,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1925,7 +1925,7 @@
     },
     {
       "label": "金融環境",
-      "value": 56,
+      "value": 57,
       "tone": "positive"
     },
     {
@@ -1943,8 +1943,8 @@
   "factors": {
     "support": [
       "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-      "National Financial Conditions Indexが小幅にプラス",
-      "Adjusted National Financial Conditions Indexが小幅にプラス"
+      "Adjusted National Financial Conditions Indexが小幅にプラス",
+      "National Financial Conditions Indexが小幅にプラス"
     ],
     "risk": [
       "米10年国債利回りがマイナスに寄与",
