@@ -1,0 +1,59 @@
+{
+  "executed_at": "2026-07-31T15:23:59.440247+00:00",
+  "target_session": "day",
+  "reference_price": 63240.0,
+  "decision": "No Trade",
+  "long_percent": 37.5,
+  "short_percent": 41.0,
+  "confidence": {
+    "score": 87.0,
+    "label": "高"
+  },
+  "bullish_factors": [
+    "米国株式市場ではS&P 500、NASDAQ、NYダウがそろって上昇し、日経先物の外部環境を支えている",
+    "VIXが低下しており、短期的な市場の不安が後退している",
+    "日銀は7月31日の金融政策決定会合で政策金利を1.0%程度に据え置き、追加利上げが直ちに決まらなかった",
+    "日銀は経済見通しを上方修正しており、日本景気に対する見方が改善している"
+  ],
+  "bearish_factors": [
+    "円高が進行しており、輸出関連企業の円換算収益に逆風となる可能性がある",
+    "日本政府・日銀による為替介入が報じられ、為替市場の急変と株式市場への波及に注意が必要",
+    "米国10年国債利回りが上昇しており、株式の割高感や金利負担への警戒を強める可能性がある",
+    "米国市場ではAppleの中国事業やサービス事業への失望が報じられ、ハイテク・半導体関連の変動要因となっている"
+  ],
+  "event_risk": 76.0,
+  "sources": [
+    {
+      "name": "日本銀行：2026年7月金融政策決定会合・経済見通し",
+      "url": "https://www.boj.or.jp/en/mopo/outlook/gor2607a.pdf"
+    },
+    {
+      "name": "日本銀行：2026年金融政策関連公表資料",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/"
+    },
+    {
+      "name": "毎日新聞：日銀、政策金利を1.0%に据え置き",
+      "url": "https://mainichi.jp/english/articles/20260731/p2g/00m/0bu/022000c"
+    },
+    {
+      "name": "朝日新聞：日本当局による為替介入報道",
+      "url": "https://www.asahi.com/ajw/"
+    },
+    {
+      "name": "米国供給管理協会：ISM製造業景況指数の公表日程",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
+    },
+    {
+      "name": "米国国勢調査局：6月建設支出統計の公表予定",
+      "url": "https://www.census.gov/construction/c30/pdf/release.pdf"
+    },
+    {
+      "name": "TheStreet：2026年7月31日の米国株式市場ニュース",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-31-2026"
+    },
+    {
+      "name": "Yahoo Finance Nikkei/Yen Futures (NIY=F)",
+      "url": "https://finance.yahoo.com/quote/NIY=F/"
+    }
+  ]
+}
