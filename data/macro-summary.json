@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-31T13:38:01.695+09:00",
-  "data_cutoff": "2026-07-31T13:38:01.505+09:00",
+  "generated_at": "2026-07-31T13:55:12.723+09:00",
+  "data_cutoff": "2026-07-31T13:55:12.491+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -976,14 +976,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-31T13:38:01.695+09:00",
+  "updated_at": "2026-07-31T13:55:12.723+09:00",
   "date": "2026-07-31",
-  "snapshot_id": "macro-2026-07-31-macro-public-v3-7a0a5877c4a4d703",
-  "snapshot_content_hash": "7a0a5877c4a4d703368dc2efffd59285afa5e30db72107606fafd9282d2c0198",
+  "snapshot_id": "macro-2026-07-31-macro-public-v3-4432a28e09d9dcd7",
+  "snapshot_content_hash": "4432a28e09d9dcd7224569da950e93f76c999fbac757d14f35d916471554c164",
   "as_of_date": "2026-07-31",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-07-31T04:38:01.505Z",
+  "signal_at": "2026-07-31T04:55:12.491Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -999,8 +999,8 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-07-31T04:32:57.727Z",
-    "stale_after": "2026-08-01T16:32:57.727Z",
+    "fetched_at": "2026-07-31T04:47:27.369Z",
+    "stale_after": "2026-08-01T16:47:27.369Z",
     "max_age_hours": 36,
     "as_of_date": "2026-07-31",
     "checked_count": 26,
@@ -1294,6 +1294,7 @@
       "predictive_current_feature_timing_invalid",
       "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
+      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
