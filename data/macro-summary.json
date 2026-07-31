@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-07-31T18:34:05.595+09:00",
+  "generated_at": "2026-07-31T21:40:25.499+09:00",
   "data_cutoff": "2026-07-31T18:34:05.423+09:00",
   "economy": {
     "condition": "neutral",
@@ -752,48 +752,13 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-19_1300_usd_fomc-meeting-minutes",
-      "release_at": "2026-08-19T17:00:00.000Z",
+      "id": "secondary_ff_2026-08-07_0730_usd_average-hourly-earnings-m-m",
+      "release_at": "2026-08-07T11:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "FOMC Meeting Minutes",
+      "label": "Average Hourly Earnings m/m",
       "importance": "high",
       "importance_label": "高",
       "previous": null,
-      "revised_previous": null,
-      "consensus": null,
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
-        "inline": "想定どおりなら、現在の政策経路を維持",
-        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
-      },
-      "attention_score": 20,
-      "attention_components": {
-        "regime_relevance": 1,
-        "surprise_likelihood": 0.62,
-        "decision_impact": 1,
-        "asset_sensitivity": 0.55,
-        "proximity": 0.6
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
-      "id": "secondary_ff_2026-07-31_0730_usd_employment-cost-index-q-q",
-      "release_at": "2026-07-31T11:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "Employment Cost Index q/q",
-      "importance": "medium",
-      "importance_label": "中",
-      "previous": "0.9%",
       "revised_previous": null,
       "consensus": null,
       "nowcast": null,
@@ -809,13 +774,48 @@
         "inline": "予想付近なら、現在の基本シナリオを維持",
         "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
       },
-      "attention_score": 16,
+      "attention_score": 21,
       "attention_components": {
-        "regime_relevance": 0.67,
+        "regime_relevance": 0.86,
         "surprise_likelihood": 0.62,
-        "decision_impact": 0.72,
+        "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 1
+        "proximity": 0.76
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
+      "id": "secondary_ff_2026-08-07_0730_usd_non-farm-employment-change",
+      "release_at": "2026-08-07T11:30:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "Non-Farm Employment Change",
+      "importance": "high",
+      "importance_label": "高",
+      "previous": null,
+      "revised_previous": null,
+      "consensus": null,
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
+        "inline": "予想付近なら、現在の基本シナリオを維持",
+        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
+      },
+      "attention_score": 21,
+      "attention_components": {
+        "regime_relevance": 0.86,
+        "surprise_likelihood": 0.62,
+        "decision_impact": 0.92,
+        "asset_sensitivity": 0.55,
+        "proximity": 0.76
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -1065,7 +1065,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-07-31T18:34:05.595+09:00",
+  "updated_at": "2026-07-31T21:40:25.499+09:00",
   "date": "2026-07-31",
   "snapshot_id": "macro-2026-07-31-macro-public-v3-588eac9556bcac52",
   "snapshot_content_hash": "588eac9556bcac52f64c74cf86d6602c3e26414ded7e3dd11ce089737e978fd9",
@@ -1227,7 +1227,7 @@
     "action": "maintain_or_build_long",
     "action_label": "ロングを目標比率へ調整",
     "target_label": "日経225先物（マイクロ推奨）",
-    "generated_at": "2026-07-31T02:26:49.808Z",
+    "generated_at": "2026-07-31T12:39:13.047Z",
     "strategy": {
       "kind": "risk_controlled_long_only",
       "label": "保守的な長期配分",
@@ -1265,7 +1265,7 @@
       "status": "fresh",
       "latest_completed_session_date": "2026-07-30",
       "source_timestamp": "2026-07-30T21:00:00.000Z",
-      "age_hours": 5.45,
+      "age_hours": 15.65,
       "row_count": 3081,
       "minimum_row_count": 2500,
       "future_rows_excluded": 0,
