@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-07-31T05:50:21.775Z",
-  "as_of_date": "2026-07-31",
+  "updated_at": "2026-08-01T05:40:42.802Z",
+  "as_of_date": "2026-08-01",
   "data_status": {
     "label": "一部取得",
     "note": "正式確認、外部データ確認、推定を分けて表示します。欠損値は補完せず、取得不可または確認中とします。",
     "confirmed_count": 0,
     "vendor_confirmed_count": 0,
-    "estimated_count": 29,
-    "unavailable_count": 3
+    "estimated_count": 28,
+    "unavailable_count": 4
   },
   "hero": {
     "overall_event_impact": "中",
@@ -29,23 +29,16 @@
         "verification_status": "estimated"
       },
       {
-        "ticker": "XOM",
-        "company_name": "Exxon Mobil",
-        "impact": 31,
-        "phase": "pre",
-        "verification_status": "estimated"
-      },
-      {
-        "ticker": "CVX",
-        "company_name": "Chevron",
-        "impact": 20,
-        "phase": "pre",
-        "verification_status": "estimated"
-      },
-      {
         "ticker": "CAT",
         "company_name": "Caterpillar",
         "impact": 20,
+        "phase": "pre",
+        "verification_status": "estimated"
+      },
+      {
+        "ticker": "PFE",
+        "company_name": "Pfizer",
+        "impact": 11,
         "phase": "pre",
         "verification_status": "estimated"
       }
@@ -75,1207 +68,6 @@
   },
   "calendar": [
     {
-      "ticker": "MSFT",
-      "company_name": "Microsoft",
-      "sector": "情報技術",
-      "tier": "A",
-      "earnings_date": "2026-07-29",
-      "jst_time": "翌 05:00",
-      "us_market_time": "16:00 ET以降",
-      "session": "after_close",
-      "verification_status": "estimated",
-      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "post",
-      "calendar_windows": [
-        "past_7_days",
-        "this_week"
-      ],
-      "market_impact": {
-        "overall": 67,
-        "nasdaq100": 66,
-        "sp500": 67,
-        "dow": 100,
-        "nikkei_futures": 61,
-        "spillover_sectors": [
-          "情報技術",
-          "半導体製造装置",
-          "データセンター関連"
-        ],
-        "reason": "NYダウへの感応度と、クラウド・AIインフラを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "estimates": {
-        "eps": {
-          "value": 4.7769,
-          "display": "$4.78",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revenue": {
-          "value": 94285786480,
-          "display": "$94.3B",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revision": {
-          "eps": {
-            "previous": 4.7862,
-            "current": 4.7769,
-            "change_percent": -0.2,
-            "direction": "down",
-            "display": "$4.79 → $4.78 ↓ 0.2%",
-            "unit": "USD",
-            "state": "取得済み"
-          },
-          "revenue": {
-            "previous": null,
-            "current": 94285786480,
-            "change_percent": null,
-            "direction": "unavailable",
-            "display": "$94.3B（前回値なし）",
-            "unit": "USD",
-            "state": "一部取得"
-          },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
-        }
-      },
-      "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
-        "risk_score": 3,
-        "risk_label": "リスク中立",
-        "themes": [
-          "クラウド",
-          "AIインフラ",
-          "データセンター"
-        ],
-        "historical_reaction": {
-          "average_abs_move_pct": null,
-          "median_abs_move_pct": null,
-          "sample_count": 0,
-          "score": null,
-          "state": "取得不可"
-        },
-        "valuation": {
-          "current_price": 451.1,
-          "forward_pe": 19.540962,
-          "trailing_pe": 21.73976,
-          "price_to_sales": 10.524499,
-          "enterprise_to_ebitda": 15.984,
-          "risk_score": 40,
-          "state": "取得済み"
-        },
-        "available_component_count": 1,
-        "total_component_count": 2,
-        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
-      },
-      "result": {
-        "status": "確認中",
-        "message": "決算結果を取得していません"
-      },
-      "fundamentals": [
-        {
-          "key": "growth",
-          "label": "成長性",
-          "metrics": [
-            {
-              "label": "売上高成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EPS成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "次年度予想成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想修正方向",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "profitability",
-          "label": "収益性",
-          "metrics": [
-            {
-              "label": "粗利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "純利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROE",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROIC",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCFマージン",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "financial_health",
-          "label": "財務健全性",
-          "metrics": [
-            {
-              "label": "現金",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "有利子負債",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ネットキャッシュ／ネットデット",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "流動比率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "インタレストカバレッジ",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "株式希薄化",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "valuation",
-          "label": "バリュエーション",
-          "metrics": [
-            {
-              "label": "実績PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PEG",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EV/EBITDA",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PSR",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF利回り",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "過去5年平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "セクター平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "industry_kpi",
-          "label": "企業固有KPI",
-          "metrics": [
-            {
-              "label": "クラウド売上成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        }
-      ],
-      "peer_spillover": {
-        "direct": [
-          "ORCL",
-          "CRM"
-        ],
-        "capex": [
-          "NVDA",
-          "AMD"
-        ],
-        "japan": [
-          "半導体製造装置",
-          "データセンター関連"
-        ]
-      },
-      "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
-        "providers": [
-          "日程データ",
-          "外部予想データ",
-          "yfinance市場指標"
-        ],
-        "schedule_verification": "estimated",
-        "sec_filing_confirmed": false,
-        "analyst_count": 25,
-        "missing_fields": [
-          "SEC財務データ",
-          "過去決算時の株価変動"
-        ],
-        "freshness": "current",
-        "retry_status": "waiting"
-      }
-    },
-    {
-      "ticker": "META",
-      "company_name": "Meta Platforms",
-      "sector": "コミュニケーション・サービス",
-      "tier": "A",
-      "earnings_date": "2026-07-29",
-      "jst_time": "翌 05:00",
-      "us_market_time": "16:00 ET以降",
-      "session": "after_close",
-      "verification_status": "estimated",
-      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "post",
-      "calendar_windows": [
-        "past_7_days",
-        "this_week"
-      ],
-      "market_impact": {
-        "overall": 73,
-        "nasdaq100": 73,
-        "sp500": 72,
-        "dow": 49,
-        "nikkei_futures": 65,
-        "spillover_sectors": [
-          "コミュニケーション・サービス",
-          "インターネット広告",
-          "半導体関連"
-        ],
-        "reason": "NASDAQ 100への感応度と、デジタル広告・AI設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "estimates": {
-        "eps": {
-          "value": 7.04605,
-          "display": "$7.05",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revenue": {
-          "value": 63239546540,
-          "display": "$63.2B",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revision": {
-          "eps": {
-            "previous": 7.06049,
-            "current": 7.04605,
-            "change_percent": -0.2,
-            "direction": "down",
-            "display": "$7.06 → $7.05 ↓ 0.2%",
-            "unit": "USD",
-            "state": "取得済み"
-          },
-          "revenue": {
-            "previous": null,
-            "current": 63239546540,
-            "change_percent": null,
-            "direction": "unavailable",
-            "display": "$63.2B（前回値なし）",
-            "unit": "USD",
-            "state": "一部取得"
-          },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
-        }
-      },
-      "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
-        "risk_score": 2,
-        "risk_label": "リスク低い",
-        "themes": [
-          "デジタル広告",
-          "AI設備投資"
-        ],
-        "historical_reaction": {
-          "average_abs_move_pct": null,
-          "median_abs_move_pct": null,
-          "sample_count": 0,
-          "score": null,
-          "state": "取得不可"
-        },
-        "valuation": {
-          "current_price": 539.03,
-          "forward_pe": 14.735362,
-          "trailing_pe": 22.073301,
-          "price_to_sales": 6.3879943,
-          "enterprise_to_ebitda": 13.651,
-          "risk_score": 20,
-          "state": "取得済み"
-        },
-        "available_component_count": 1,
-        "total_component_count": 2,
-        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
-      },
-      "result": {
-        "status": "確認中",
-        "message": "決算結果を取得していません"
-      },
-      "fundamentals": [
-        {
-          "key": "growth",
-          "label": "成長性",
-          "metrics": [
-            {
-              "label": "売上高成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EPS成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "次年度予想成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想修正方向",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "profitability",
-          "label": "収益性",
-          "metrics": [
-            {
-              "label": "粗利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "純利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROE",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROIC",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCFマージン",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "financial_health",
-          "label": "財務健全性",
-          "metrics": [
-            {
-              "label": "現金",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "有利子負債",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ネットキャッシュ／ネットデット",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "流動比率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "インタレストカバレッジ",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "株式希薄化",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "valuation",
-          "label": "バリュエーション",
-          "metrics": [
-            {
-              "label": "実績PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PEG",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EV/EBITDA",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PSR",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF利回り",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "過去5年平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "セクター平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "industry_kpi",
-          "label": "企業固有KPI",
-          "metrics": [
-            {
-              "label": "広告売上",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ユーザー単価",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        }
-      ],
-      "peer_spillover": {
-        "direct": [
-          "GOOGL",
-          "SNAP"
-        ],
-        "capex": [
-          "NVDA",
-          "AVGO"
-        ],
-        "japan": [
-          "インターネット広告",
-          "半導体関連"
-        ]
-      },
-      "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
-        "providers": [
-          "日程データ",
-          "外部予想データ",
-          "yfinance市場指標"
-        ],
-        "schedule_verification": "estimated",
-        "sec_filing_confirmed": false,
-        "analyst_count": 45,
-        "missing_fields": [
-          "SEC財務データ",
-          "過去決算時の株価変動"
-        ],
-        "freshness": "current",
-        "retry_status": "waiting"
-      }
-    },
-    {
-      "ticker": "AAPL",
-      "company_name": "Apple",
-      "sector": "情報技術",
-      "tier": "A",
-      "earnings_date": "2026-07-30",
-      "jst_time": "翌 05:00",
-      "us_market_time": "16:00 ET以降",
-      "session": "after_close",
-      "verification_status": "estimated",
-      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "post",
-      "calendar_windows": [
-        "past_7_days",
-        "this_week"
-      ],
-      "market_impact": {
-        "overall": 64,
-        "nasdaq100": 64,
-        "sp500": 64,
-        "dow": 94,
-        "nikkei_futures": 57,
-        "spillover_sectors": [
-          "情報技術",
-          "電子部品",
-          "半導体製造装置"
-        ],
-        "reason": "NYダウへの感応度と、端末需要・AI端末を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "estimates": {
-        "eps": {
-          "value": 1.89243,
-          "display": "$1.89",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revenue": {
-          "value": 108959817930,
-          "display": "$109.0B",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revision": {
-          "eps": {
-            "previous": 1.89396,
-            "current": 1.89243,
-            "change_percent": -0.1,
-            "direction": "down",
-            "display": "$1.89 → $1.89 ↓ 0.1%",
-            "unit": "USD",
-            "state": "取得済み"
-          },
-          "revenue": {
-            "previous": null,
-            "current": 108959817930,
-            "change_percent": null,
-            "direction": "unavailable",
-            "display": "$109.0B（前回値なし）",
-            "unit": "USD",
-            "state": "一部取得"
-          },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
-        }
-      },
-      "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
-        "risk_score": 4,
-        "risk_label": "リスク高い",
-        "themes": [
-          "端末需要",
-          "AI端末",
-          "サービス"
-        ],
-        "historical_reaction": {
-          "average_abs_move_pct": null,
-          "median_abs_move_pct": null,
-          "sample_count": 0,
-          "score": null,
-          "state": "取得不可"
-        },
-        "valuation": {
-          "current_price": 333.43,
-          "forward_pe": 34.52757,
-          "trailing_pe": 40.961914,
-          "price_to_sales": 10.847916,
-          "enterprise_to_ebitda": 30.713,
-          "risk_score": 60,
-          "state": "取得済み"
-        },
-        "available_component_count": 1,
-        "total_component_count": 2,
-        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
-      },
-      "result": {
-        "status": "確認中",
-        "message": "決算結果を取得していません"
-      },
-      "fundamentals": [
-        {
-          "key": "growth",
-          "label": "成長性",
-          "metrics": [
-            {
-              "label": "売上高成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EPS成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "次年度予想成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想修正方向",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "profitability",
-          "label": "収益性",
-          "metrics": [
-            {
-              "label": "粗利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "純利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROE",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROIC",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCFマージン",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "financial_health",
-          "label": "財務健全性",
-          "metrics": [
-            {
-              "label": "現金",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "有利子負債",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ネットキャッシュ／ネットデット",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "流動比率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "インタレストカバレッジ",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "株式希薄化",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "valuation",
-          "label": "バリュエーション",
-          "metrics": [
-            {
-              "label": "実績PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PEG",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EV/EBITDA",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PSR",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF利回り",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "過去5年平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "セクター平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "industry_kpi",
-          "label": "企業固有KPI",
-          "metrics": [
-            {
-              "label": "データセンター売上",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "在庫",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "粗利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        }
-      ],
-      "peer_spillover": {
-        "direct": [
-          "QCOM",
-          "SWKS"
-        ],
-        "capex": [
-          "TSM"
-        ],
-        "japan": [
-          "電子部品",
-          "半導体製造装置"
-        ]
-      },
-      "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
-        "providers": [
-          "日程データ",
-          "外部予想データ",
-          "yfinance市場指標"
-        ],
-        "schedule_verification": "estimated",
-        "sec_filing_confirmed": false,
-        "analyst_count": 30,
-        "missing_fields": [
-          "SEC財務データ",
-          "過去決算時の株価変動"
-        ],
-        "freshness": "current",
-        "retry_status": "waiting"
-      }
-    },
-    {
-      "ticker": "AMZN",
-      "company_name": "Amazon",
-      "sector": "一般消費財",
-      "tier": "A",
-      "earnings_date": "2026-07-30",
-      "jst_time": "翌 05:00",
-      "us_market_time": "16:00 ET以降",
-      "session": "after_close",
-      "verification_status": "estimated",
-      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "post",
-      "calendar_windows": [
-        "past_7_days",
-        "this_week"
-      ],
-      "market_impact": {
-        "overall": 73,
-        "nasdaq100": 73,
-        "sp500": 73,
-        "dow": 85,
-        "nikkei_futures": 66,
-        "spillover_sectors": [
-          "一般消費財",
-          "電子商取引",
-          "データセンター関連"
-        ],
-        "reason": "NYダウへの感応度と、クラウド・ECを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "estimates": {
-        "eps": {
-          "value": 1.82274,
-          "display": "$1.82",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revenue": {
-          "value": 196433361480,
-          "display": "$196.4B",
-          "unit": "USD",
-          "state": "取得済み"
-        },
-        "revision": {
-          "eps": {
-            "previous": 1.81722,
-            "current": 1.82274,
-            "change_percent": 0.3,
-            "direction": "up",
-            "display": "$1.82 → $1.82 ↑ 0.3%",
-            "unit": "USD",
-            "state": "取得済み"
-          },
-          "revenue": {
-            "previous": null,
-            "current": 196433361480,
-            "change_percent": null,
-            "direction": "unavailable",
-            "display": "$196.4B（前回値なし）",
-            "unit": "USD",
-            "state": "一部取得"
-          },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
-        }
-      },
-      "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
-        "risk_score": 3,
-        "risk_label": "リスク中立",
-        "themes": [
-          "クラウド",
-          "EC",
-          "AI設備投資"
-        ],
-        "historical_reaction": {
-          "average_abs_move_pct": null,
-          "median_abs_move_pct": null,
-          "sample_count": 0,
-          "score": null,
-          "state": "取得不可"
-        },
-        "valuation": {
-          "current_price": 235.5,
-          "forward_pe": 23.712742,
-          "trailing_pe": 27.100117,
-          "price_to_sales": 3.4105833,
-          "enterprise_to_ebitda": 16.847,
-          "risk_score": 40,
-          "state": "取得済み"
-        },
-        "available_component_count": 1,
-        "total_component_count": 2,
-        "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
-      },
-      "result": {
-        "status": "確認中",
-        "message": "決算結果を取得していません"
-      },
-      "fundamentals": [
-        {
-          "key": "growth",
-          "label": "成長性",
-          "metrics": [
-            {
-              "label": "売上高成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EPS成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "次年度予想成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想修正方向",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "profitability",
-          "label": "収益性",
-          "metrics": [
-            {
-              "label": "粗利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "営業利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "純利益率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROE",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ROIC",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCFマージン",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "financial_health",
-          "label": "財務健全性",
-          "metrics": [
-            {
-              "label": "現金",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "有利子負債",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "ネットキャッシュ／ネットデット",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "流動比率",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "インタレストカバレッジ",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "株式希薄化",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "valuation",
-          "label": "バリュエーション",
-          "metrics": [
-            {
-              "label": "実績PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "予想PER",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PEG",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "EV/EBITDA",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "PSR",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "FCF利回り",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "過去5年平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            },
-            {
-              "label": "セクター平均との差",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        },
-        {
-          "key": "industry_kpi",
-          "label": "企業固有KPI",
-          "metrics": [
-            {
-              "label": "クラウド売上成長率",
-              "value": "取得不可",
-              "state": "取得不可"
-            }
-          ]
-        }
-      ],
-      "peer_spillover": {
-        "direct": [
-          "WMT",
-          "COST"
-        ],
-        "capex": [
-          "NVDA",
-          "AVGO"
-        ],
-        "japan": [
-          "電子商取引",
-          "データセンター関連"
-        ]
-      },
-      "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
-        "providers": [
-          "日程データ",
-          "外部予想データ",
-          "yfinance市場指標"
-        ],
-        "schedule_verification": "estimated",
-        "sec_filing_confirmed": false,
-        "analyst_count": 45,
-        "missing_fields": [
-          "SEC財務データ",
-          "過去決算時の株価変動"
-        ],
-        "freshness": "current",
-        "retry_status": "waiting"
-      }
-    },
-    {
       "ticker": "XOM",
       "company_name": "Exxon Mobil",
       "sector": "エネルギー",
@@ -1286,9 +78,8 @@
       "session": "unknown",
       "verification_status": "estimated",
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "pre",
+      "phase": "post",
       "calendar_windows": [
-        "today",
         "past_7_days",
         "this_week"
       ],
@@ -1320,24 +111,24 @@
         },
         "revision": {
           "eps": {
-            "previous": 3.3412,
+            "previous": 3.3717,
             "current": 3.3717,
-            "change_percent": 0.9,
-            "direction": "up",
-            "display": "$3.34 → $3.37 ↑ 0.9%",
+            "change_percent": 0,
+            "direction": "unchanged",
+            "display": "$3.37 → $3.37 → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
-            "previous": 97375159580,
+            "previous": 96208828710,
             "current": 96208828710,
-            "change_percent": -1.2,
-            "direction": "down",
-            "display": "$97.4B → $96.2B ↓ 1.2%",
+            "change_percent": 0,
+            "direction": "unchanged",
+            "display": "$96.2B → $96.2B → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -1358,10 +149,10 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 156.97,
-          "forward_pe": 14.824896,
-          "trailing_pe": 26.425926,
-          "price_to_sales": 1.9957558,
+          "current_price": 155.44,
+          "forward_pe": 14.692454,
+          "trailing_pe": 26.435373,
+          "price_to_sales": null,
           "enterprise_to_ebitda": 12.435,
           "risk_score": 20,
           "state": "取得済み"
@@ -1562,7 +353,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1590,9 +381,8 @@
       "session": "unknown",
       "verification_status": "estimated",
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "pre",
+      "phase": "post",
       "calendar_windows": [
-        "today",
         "past_7_days",
         "this_week"
       ],
@@ -1662,10 +452,10 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 192.31,
-          "forward_pe": 15.16027,
-          "trailing_pe": 33.445217,
-          "price_to_sales": 2.0620444,
+          "current_price": 196.83,
+          "forward_pe": 15.457699,
+          "trailing_pe": 18.944176,
+          "price_to_sales": 2.11051,
           "enterprise_to_ebitda": 11.239,
           "risk_score": 40,
           "state": "取得済み"
@@ -1866,7 +656,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1894,9 +684,8 @@
       "session": "unknown",
       "verification_status": "estimated",
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
-      "phase": "pre",
+      "phase": "post",
       "calendar_windows": [
-        "today",
         "past_7_days",
         "this_week"
       ],
@@ -1951,8 +740,8 @@
       "pre_analysis": {
         "expectation_score": 4,
         "expectation_label": "期待やや高い",
-        "risk_score": 4,
-        "risk_label": "リスク高い",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
         "themes": [
           "産業ガス",
           "設備投資"
@@ -1965,12 +754,12 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 508.64,
-          "forward_pe": 25.922203,
-          "trailing_pe": 33.909336,
-          "price_to_sales": 6.785986,
+          "current_price": 478.38,
+          "forward_pe": 24.368092,
+          "trailing_pe": 30.863226,
+          "price_to_sales": 6.382274,
           "enterprise_to_ebitda": 19.071,
-          "risk_score": 60,
+          "risk_score": 40,
           "state": "取得済み"
         },
         "available_component_count": 1,
@@ -2164,7 +953,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2261,11 +1050,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 485.39,
-          "forward_pe": 35.118984,
-          "trailing_pe": 142.76176,
-          "price_to_sales": 21.13198,
-          "enterprise_to_ebitda": 105.384,
+          "current_price": 476.15,
+          "forward_pe": 34.45045,
+          "trailing_pe": 161.40677,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 103.356,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -2469,7 +1258,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2566,11 +1355,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 809.14,
-          "forward_pe": 26.571505,
-          "trailing_pe": 38.91967,
-          "price_to_sales": 5.2672377,
-          "enterprise_to_ebitda": 28.335,
+          "current_price": 814.81,
+          "forward_pe": 26.757702,
+          "trailing_pe": 40.317173,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 28.514,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -2765,7 +1554,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2861,11 +1650,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 24.91,
-          "forward_pe": 8.796587,
-          "trailing_pe": 19.015268,
-          "price_to_sales": 2.2423306,
-          "enterprise_to_ebitda": 7.617,
+          "current_price": 25.01,
+          "forward_pe": 8.831901,
+          "trailing_pe": 19.091604,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 7.639,
           "risk_score": 20,
           "state": "取得済み"
         },
@@ -3060,7 +1849,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3106,42 +1895,42 @@
       },
       "estimates": {
         "eps": {
-          "value": 9.4646,
-          "display": "$9.46",
+          "value": 6.54902,
+          "display": "$6.55",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 21669231720,
-          "display": "$21.7B",
+          "value": 20686282440,
+          "display": "$20.7B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 9.4402,
-            "current": 9.4646,
-            "change_percent": 0.3,
-            "direction": "up",
-            "display": "$9.44 → $9.46 ↑ 0.3%",
+            "previous": 6.79088,
+            "current": 6.54902,
+            "change_percent": -3.6,
+            "direction": "down",
+            "display": "$6.79 → $6.55 ↓ 3.6%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 21669231720,
+            "current": 20686282440,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$21.7B（前回値なし）",
+            "display": "$20.7B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
+        "expectation_score": 2,
+        "expectation_label": "期待やや低い",
         "risk_score": 4,
         "risk_label": "リスク高い",
         "themes": [
@@ -3156,11 +1945,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 1154.97,
-          "forward_pe": 25.633099,
-          "trailing_pe": 42.91973,
-          "price_to_sales": 14.255346,
-          "enterprise_to_ebitda": 29.491,
+          "current_price": 1148.84,
+          "forward_pe": 25.497051,
+          "trailing_pe": 40.986084,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 29.34,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -3355,7 +2144,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3363,7 +2152,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 18,
+        "analyst_count": 21,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -3400,37 +2189,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 3.9558,
-          "display": "$3.96",
+          "value": 4.72761,
+          "display": "$4.73",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 42768319060,
-          "display": "$42.8B",
+          "value": 47240376730,
+          "display": "$47.2B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 3.9558,
-            "current": 3.9558,
+            "previous": 4.72761,
+            "current": 4.72761,
             "change_percent": 0,
             "direction": "unchanged",
-            "display": "$3.96 → $3.96 → 0.0%",
+            "display": "$4.73 → $4.73 → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
-            "previous": 42768319060,
-            "current": 42768319060,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$42.8B → $42.8B → 0.0%",
+            "previous": null,
+            "current": 47240376730,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "$47.2B（前回値なし）",
             "unit": "USD",
-            "state": "取得済み"
+            "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -3450,15 +2239,15 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 333.35,
-          "forward_pe": 20.71494,
-          "trailing_pe": 24.033886,
-          "price_to_sales": 1.995227,
-          "enterprise_to_ebitda": 15.815,
+          "current_price": 331.96,
+          "forward_pe": 20.628653,
+          "trailing_pe": 23.694504,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 15.759,
           "risk_score": 40,
           "state": "取得済み"
         },
-        "available_component_count": 2,
+        "available_component_count": 1,
         "total_component_count": 2,
         "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
@@ -3654,7 +2443,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3699,37 +2488,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 0.7425,
-          "display": "$0.74",
+          "value": 0.6837,
+          "display": "$0.68",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 186955506720,
-          "display": "$187.0B",
+          "value": 188348925360,
+          "display": "$188.3B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 0.74311,
-            "current": 0.7425,
-            "change_percent": -0.1,
+            "previous": 0.684,
+            "current": 0.6837,
+            "change_percent": 0,
             "direction": "down",
-            "display": "$0.74 → $0.74 ↓ 0.1%",
+            "display": "$0.68 → $0.68 ↓ 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 186955506720,
+            "current": 188348925360,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$187.0B（前回値なし）",
+            "display": "$188.3B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -3750,11 +2539,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 111.1,
-          "forward_pe": 33.852135,
-          "trailing_pe": 40.108303,
-          "price_to_sales": 1.2189941,
-          "enterprise_to_ebitda": 21.312,
+          "current_price": 111.2,
+          "forward_pe": 33.888493,
+          "trailing_pe": 39.017544,
+          "price_to_sales": 1.2200913,
+          "enterprise_to_ebitda": 21.332,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -3955,7 +2744,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3963,7 +2752,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 33,
+        "analyst_count": 32,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -4000,37 +2789,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 2.08225,
-          "display": "$2.08",
+          "value": 2.3496,
+          "display": "$2.35",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 91821907760,
-          "display": "$91.8B",
+          "value": 103040906160,
+          "display": "$103.0B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 2.081,
-            "current": 2.08225,
-            "change_percent": 0.1,
+            "previous": 2.3494,
+            "current": 2.3496,
+            "change_percent": 0,
             "direction": "up",
-            "display": "$2.08 → $2.08 ↑ 0.1%",
+            "display": "$2.35 → $2.35 ↑ 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 91821907760,
+            "current": 103040906160,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$91.8B（前回値なし）",
+            "display": "$103.0B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -4051,11 +2840,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 195.04,
-          "forward_pe": 15.155765,
-          "trailing_pe": 29.067062,
-          "price_to_sales": 18.63602,
-          "enterprise_to_ebitda": 28.273,
+          "current_price": 200.75,
+          "forward_pe": 15.599466,
+          "trailing_pe": 29.829123,
+          "price_to_sales": 19.181612,
+          "enterprise_to_ebitda": 29.108,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -4260,7 +3049,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4334,7 +3123,7 @@
             "unit": "USD",
             "state": "取得済み"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -4354,11 +3143,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 180.71,
-          "forward_pe": 11.649473,
-          "trailing_pe": 21.82488,
-          "price_to_sales": 3.4556372,
-          "enterprise_to_ebitda": 13.859,
+          "current_price": 184.02,
+          "forward_pe": 11.862852,
+          "trailing_pe": 20.911364,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 14.069,
           "risk_score": 20,
           "state": "取得済み"
         },
@@ -4548,7 +3337,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4623,7 +3412,7 @@
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -4644,11 +3433,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 387.84,
-          "forward_pe": 19.897434,
-          "trailing_pe": 61.757957,
-          "price_to_sales": 24.450806,
-          "enterprise_to_ebitda": 44.921,
+          "current_price": 389.28,
+          "forward_pe": 19.971312,
+          "trailing_pe": 64.55721,
+          "price_to_sales": 24.541588,
+          "enterprise_to_ebitda": 45.084,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -4852,7 +3641,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4896,37 +3685,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 1.8862,
-          "display": "$1.89",
+          "value": 1.73873,
+          "display": "$1.74",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 21146356570,
-          "display": "$21.1B",
+          "value": 19122675660,
+          "display": "$19.1B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 1.8862,
-            "current": 1.8862,
+            "previous": 1.73873,
+            "current": 1.73873,
             "change_percent": 0,
             "direction": "unchanged",
-            "display": "$1.89 → $1.89 → 0.0%",
+            "display": "$1.74 → $1.74 → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
-            "previous": 21146356570,
-            "current": 21146356570,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$21.1B → $21.1B → 0.0%",
+            "previous": null,
+            "current": 19122675660,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "$19.1B（前回値なし）",
             "unit": "USD",
-            "state": "取得済み"
+            "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -4946,15 +3735,15 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 127.56,
-          "forward_pe": 11.713337,
-          "trailing_pe": 21.87993,
-          "price_to_sales": 5.4550066,
-          "enterprise_to_ebitda": 16.675,
+          "current_price": 129.87,
+          "forward_pe": 11.925455,
+          "trailing_pe": 21.863636,
+          "price_to_sales": 5.553792,
+          "enterprise_to_ebitda": 16.893,
           "risk_score": 20,
           "state": "取得済み"
         },
-        "available_component_count": 2,
+        "available_component_count": 1,
         "total_component_count": 2,
         "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
@@ -5142,7 +3931,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -5150,7 +3939,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 32,
+        "analyst_count": 33,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -5186,37 +3975,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 6.07854,
-          "display": "$6.08",
+          "value": 6.3179,
+          "display": "$6.32",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 6695163470,
-          "display": "$6.7B",
+          "value": 6831865660,
+          "display": "$6.8B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 6.0792,
-            "current": 6.07854,
+            "previous": 6.3178,
+            "current": 6.3179,
             "change_percent": 0,
-            "direction": "down",
-            "display": "$6.08 → $6.08 ↓ 0.0%",
+            "direction": "up",
+            "display": "$6.32 → $6.32 ↑ 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 6695163470,
+            "current": 6831865660,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$6.7B（前回値なし）",
+            "display": "$6.8B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-30T05:20:40.339Z"
+          "fetched_at": "2026-08-01T05:37:53.460Z"
         }
       },
       "pre_analysis": {
@@ -5236,11 +4025,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 247.9,
-          "forward_pe": 9.018851,
-          "trailing_pe": 15.060754,
-          "price_to_sales": 3.9106376,
-          "enterprise_to_ebitda": 10.278,
+          "current_price": 250.41,
+          "forward_pe": 9.110168,
+          "trailing_pe": 14.187536,
+          "price_to_sales": 3.9502332,
+          "enterprise_to_ebitda": 10.38,
           "risk_score": 20,
           "state": "取得済み"
         },
@@ -5430,7 +4219,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -5452,7 +4241,7 @@
       "company_name": "Micron Technology",
       "sector": "情報技術",
       "tier": "B",
-      "earnings_date": "2026-09-23",
+      "earnings_date": "2026-09-22",
       "jst_time": "時刻不明",
       "us_market_time": "時刻不明",
       "session": "unknown",
@@ -5525,11 +4314,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 874.66,
-          "forward_pe": 5.689233,
-          "trailing_pe": 16.695171,
-          "price_to_sales": 10.942631,
-          "enterprise_to_ebitda": 14.192,
+          "current_price": 823.03,
+          "forward_pe": 5.3534055,
+          "trailing_pe": 19.760624,
+          "price_to_sales": null,
+          "enterprise_to_ebitda": 13.337,
           "risk_score": 20,
           "state": "取得済み"
         },
@@ -5732,7 +4521,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -5828,11 +4617,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 954.17,
-          "forward_pe": 42.133163,
-          "trailing_pe": 49.00719,
-          "price_to_sales": 1.4413247,
-          "enterprise_to_ebitda": 30.564,
+          "current_price": 951.89,
+          "forward_pe": 42.03249,
+          "trailing_pe": 48.075256,
+          "price_to_sales": 1.4378806,
+          "enterprise_to_ebitda": 30.49,
           "risk_score": 80,
           "state": "取得済み"
         },
@@ -6033,7 +4822,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6115,8 +4904,8 @@
       "pre_analysis": {
         "expectation_score": null,
         "expectation_label": "確認中",
-        "risk_score": 3,
-        "risk_label": "リスク中立",
+        "risk_score": 2,
+        "risk_label": "リスク低い",
         "themes": [
           "輸送",
           "景気先行"
@@ -6129,12 +4918,12 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 308.55,
-          "forward_pe": 15.052791,
-          "trailing_pe": 16.642393,
-          "price_to_sales": 0.7706621,
-          "enterprise_to_ebitda": 8.645,
-          "risk_score": 40,
+          "current_price": 307.4,
+          "forward_pe": 14.996687,
+          "trailing_pe": 16.643206,
+          "price_to_sales": 0.76778984,
+          "enterprise_to_ebitda": 8.622,
+          "risk_score": 20,
           "state": "取得済み"
         },
         "available_component_count": 0,
@@ -6328,7 +5117,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6425,10 +5214,10 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 350.85,
-          "forward_pe": 14.149557,
-          "trailing_pe": 14.772632,
-          "price_to_sales": 5.0053105,
+          "current_price": 351.79,
+          "forward_pe": 14.187467,
+          "trailing_pe": 15.040189,
+          "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
           "state": "取得済み"
@@ -6630,7 +5419,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6726,10 +5515,10 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 1024.86,
-          "forward_pe": 13.892928,
-          "trailing_pe": 15.151686,
-          "price_to_sales": 4.47449,
+          "current_price": 1018.38,
+          "forward_pe": 13.805086,
+          "trailing_pe": 15.823182,
+          "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
           "state": "取得済み"
@@ -6931,7 +5720,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7027,11 +5816,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 1651.44,
-          "forward_pe": 28.190754,
-          "trailing_pe": 53.757812,
-          "price_to_sales": 17.955362,
-          "enterprise_to_ebitda": 2612.193,
+          "current_price": 1629,
+          "forward_pe": 27.671831,
+          "trailing_pe": 55.864197,
+          "price_to_sales": 17.711384,
+          "enterprise_to_ebitda": 2576.692,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -7234,7 +6023,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7330,10 +6119,10 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 61.73,
-          "forward_pe": 11.701415,
-          "trailing_pe": 14.093607,
-          "price_to_sales": 3.8024693,
+          "current_price": 61.95,
+          "forward_pe": 11.743118,
+          "trailing_pe": 14.274193,
+          "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
           "state": "取得済み"
@@ -7535,7 +6324,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7630,11 +6419,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 146.19,
-          "forward_pe": 42.96547,
-          "trailing_pe": 32.342922,
-          "price_to_sales": 14.453797,
-          "enterprise_to_ebitda": 25.885,
+          "current_price": 144.61,
+          "forward_pe": 42.501102,
+          "trailing_pe": 32.56982,
+          "price_to_sales": 14.297583,
+          "enterprise_to_ebitda": 25.933,
           "risk_score": 80,
           "state": "取得済み"
         },
@@ -7829,7 +6618,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7925,11 +6714,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 403.31,
-          "forward_pe": 18.664768,
-          "trailing_pe": 32.89641,
-          "price_to_sales": 0.47106415,
-          "enterprise_to_ebitda": 4.485,
+          "current_price": 404.25,
+          "forward_pe": 18.708271,
+          "trailing_pe": 35.46053,
+          "price_to_sales": 0.4721621,
+          "enterprise_to_ebitda": 4.497,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -8132,7 +6921,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -8228,11 +7017,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 73.17,
-          "forward_pe": 19.166693,
-          "trailing_pe": 23.155062,
-          "price_to_sales": 6.298752,
-          "enterprise_to_ebitda": 21.199,
+          "current_price": 71.71,
+          "forward_pe": 18.78425,
+          "trailing_pe": 22.983974,
+          "price_to_sales": 6.1730695,
+          "enterprise_to_ebitda": 20.787,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -8428,7 +7217,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -8525,11 +7314,11 @@
           "state": "取得不可"
         },
         "valuation": {
-          "current_price": 308.85,
-          "forward_pe": 139.27533,
-          "trailing_pe": 278.24326,
-          "price_to_sales": 11.772143,
-          "enterprise_to_ebitda": 110.928,
+          "current_price": 311.21,
+          "forward_pe": 139.86086,
+          "trailing_pe": 285.51373,
+          "price_to_sales": 11.862098,
+          "enterprise_to_ebitda": 111.791,
           "risk_score": 100,
           "state": "取得済み"
         },
@@ -8727,7 +7516,899 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-07-31T05:49:39.946Z",
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "providers": [
+          "日程データ",
+          "yfinance市場指標"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "過去決算時の株価変動"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "UNH",
+      "company_name": "UnitedHealth Group",
+      "sector": "ヘルスケア",
+      "tier": "B",
+      "earnings_date": "2026-10-27",
+      "jst_time": "時刻不明",
+      "us_market_time": "時刻不明",
+      "session": "unknown",
+      "verification_status": "estimated",
+      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 25,
+        "nasdaq100": 5,
+        "sp500": 23,
+        "dow": 41,
+        "nikkei_futures": 16,
+        "spillover_sectors": [
+          "ヘルスケア",
+          "保険",
+          "医薬品"
+        ],
+        "reason": "NYダウへの感応度と、医療保険・医療費を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revenue": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "fetched_at": null
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
+        "themes": [
+          "医療保険",
+          "医療費"
+        ],
+        "historical_reaction": {
+          "average_abs_move_pct": null,
+          "median_abs_move_pct": null,
+          "sample_count": 0,
+          "score": null,
+          "state": "取得不可"
+        },
+        "valuation": {
+          "current_price": 414.4,
+          "forward_pe": 18.470776,
+          "trailing_pe": 31.754787,
+          "price_to_sales": 0.8360604,
+          "enterprise_to_ebitda": 17.26,
+          "risk_score": 40,
+          "state": "取得済み"
+        },
+        "available_component_count": 0,
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "message": "決算結果を取得していません"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "製品別売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "治験・承認予定",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "HUM",
+          "CVS"
+        ],
+        "capex": [],
+        "japan": [
+          "保険",
+          "医薬品"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "providers": [
+          "日程データ",
+          "yfinance市場指標"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "過去決算時の株価変動"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "NEE",
+      "company_name": "NextEra Energy",
+      "sector": "公益",
+      "tier": "B",
+      "earnings_date": "2026-10-27",
+      "jst_time": "時刻不明",
+      "us_market_time": "時刻不明",
+      "session": "unknown",
+      "verification_status": "estimated",
+      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 11,
+        "nasdaq100": 2,
+        "sp500": 11,
+        "dow": 6,
+        "nikkei_futures": 9,
+        "spillover_sectors": [
+          "公益",
+          "電力",
+          "再生可能エネルギー"
+        ],
+        "reason": "S&P 500への感応度と、電力需要・再生可能エネルギーを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revenue": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "fetched_at": null
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
+        "themes": [
+          "電力需要",
+          "再生可能エネルギー",
+          "データセンター電力"
+        ],
+        "historical_reaction": {
+          "average_abs_move_pct": null,
+          "median_abs_move_pct": null,
+          "sample_count": 0,
+          "score": null,
+          "state": "取得不可"
+        },
+        "valuation": {
+          "current_price": 86.92,
+          "forward_pe": 19.667473,
+          "trailing_pe": 19.754545,
+          "price_to_sales": 6.317534,
+          "enterprise_to_ebitda": 20.535,
+          "risk_score": 40,
+          "state": "取得済み"
+        },
+        "available_component_count": 0,
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "message": "決算結果を取得していません"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "電力需要",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "設備投資計画",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "DUK"
+        ],
+        "capex": [],
+        "japan": [
+          "電力",
+          "再生可能エネルギー"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "providers": [
+          "日程データ",
+          "yfinance市場指標"
+        ],
+        "schedule_verification": "estimated",
+        "sec_filing_confirmed": false,
+        "analyst_count": null,
+        "missing_fields": [
+          "予想EPS",
+          "予想売上高",
+          "SEC財務データ",
+          "過去決算時の株価変動"
+        ],
+        "freshness": "current",
+        "retry_status": "waiting"
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet",
+      "sector": "コミュニケーション・サービス",
+      "tier": "A",
+      "earnings_date": "2026-10-28",
+      "jst_time": "時刻不明",
+      "us_market_time": "時刻不明",
+      "session": "unknown",
+      "verification_status": "estimated",
+      "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 67,
+        "nasdaq100": 67,
+        "sp500": 66,
+        "dow": 40,
+        "nikkei_futures": 59,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "インターネット広告",
+          "データセンター関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、デジタル広告・クラウドを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "estimates": {
+        "eps": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revenue": {
+          "value": null,
+          "display": "未取得",
+          "unit": "USD",
+          "state": "確認中"
+        },
+        "revision": {
+          "eps": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "revenue": {
+            "previous": null,
+            "current": null,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "変化確認中",
+            "unit": "USD",
+            "state": "確認中"
+          },
+          "fetched_at": null
+        }
+      },
+      "pre_analysis": {
+        "expectation_score": null,
+        "expectation_label": "確認中",
+        "risk_score": 3,
+        "risk_label": "リスク中立",
+        "themes": [
+          "デジタル広告",
+          "クラウド",
+          "AI設備投資"
+        ],
+        "historical_reaction": {
+          "average_abs_move_pct": null,
+          "median_abs_move_pct": null,
+          "sample_count": 0,
+          "score": null,
+          "state": "取得不可"
+        },
+        "valuation": {
+          "current_price": 356.13,
+          "forward_pe": 24.16992,
+          "trailing_pe": 16.751177,
+          "price_to_sales": 9.768511,
+          "enterprise_to_ebitda": 24.554,
+          "risk_score": 40,
+          "state": "取得済み"
+        },
+        "available_component_count": 0,
+        "total_component_count": 2,
+        "note": "EPS・売上高の予想修正が未取得のため市場期待度は確認中です。"
+      },
+      "result": {
+        "status": "確認中",
+        "message": "決算結果を取得していません"
+      },
+      "fundamentals": [
+        {
+          "key": "growth",
+          "label": "成長性",
+          "metrics": [
+            {
+              "label": "売上高成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EPS成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "次年度予想成長率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想修正方向",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "profitability",
+          "label": "収益性",
+          "metrics": [
+            {
+              "label": "粗利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "営業利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "純利益率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROE",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ROIC",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCFマージン",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "financial_health",
+          "label": "財務健全性",
+          "metrics": [
+            {
+              "label": "現金",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "有利子負債",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ネットキャッシュ／ネットデット",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "流動比率",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "インタレストカバレッジ",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "株式希薄化",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "valuation",
+          "label": "バリュエーション",
+          "metrics": [
+            {
+              "label": "実績PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "予想PER",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PEG",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "EV/EBITDA",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "PSR",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "FCF利回り",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "過去5年平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "セクター平均との差",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        },
+        {
+          "key": "industry_kpi",
+          "label": "企業固有KPI",
+          "metrics": [
+            {
+              "label": "広告売上",
+              "value": "取得不可",
+              "state": "取得不可"
+            },
+            {
+              "label": "ユーザー単価",
+              "value": "取得不可",
+              "state": "取得不可"
+            }
+          ]
+        }
+      ],
+      "peer_spillover": {
+        "direct": [
+          "META",
+          "SNAP"
+        ],
+        "capex": [
+          "NVDA",
+          "AVGO"
+        ],
+        "japan": [
+          "インターネット広告",
+          "データセンター関連"
+        ]
+      },
+      "data_quality": {
+        "last_fetched_at": "2026-08-01T05:39:57.138Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
