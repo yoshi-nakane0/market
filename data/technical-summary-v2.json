@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-01T23:53:58.774Z",
+  "generated_at": "2026-08-02T05:42:22.483Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-08-01までの資産別確定日足",
+    "analysis_basis": "2026-08-02までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-08-01T23:53:51.841Z",
-    "latest_attempt_at": "2026-08-01T23:53:51.841Z",
-    "stale_after": "2026-08-02T23:53:51.841Z",
+    "last_success_at": "2026-08-02T05:42:16.409Z",
+    "latest_attempt_at": "2026-08-02T05:42:16.409Z",
+    "stale_after": "2026-08-03T05:42:16.409Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -494,7 +494,7 @@
       "status_label": "取得済み",
       "price": 157.399994,
       "price_type": "終値",
-      "as_of": "2026-08-01",
+      "as_of": "2026-08-02",
       "current_phase": {
         "key": "downtrend_continuation",
         "label": "下落継続",
