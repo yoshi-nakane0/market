@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-08-02T05:43:50.069Z",
-  "as_of_date": "2026-08-02",
+  "updated_at": "2026-08-03T05:56:46.039Z",
+  "as_of_date": "2026-08-03",
   "data_status": {
     "label": "一部取得",
     "note": "正式確認、外部データ確認、推定を分けて表示します。欠損値は補完せず、取得不可または確認中とします。",
@@ -80,8 +80,7 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "post",
       "calendar_windows": [
-        "past_7_days",
-        "this_week"
+        "past_7_days"
       ],
       "market_impact": {
         "overall": 31,
@@ -98,42 +97,42 @@
       },
       "estimates": {
         "eps": {
-          "value": 3.3717,
-          "display": "$3.37",
+          "value": 3.69389,
+          "display": "$3.69",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 96208828710,
+          "value": 96162819820,
           "display": "$96.2B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 3.3717,
-            "current": 3.3717,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$3.37 → $3.37 → 0.0%",
+            "previous": 3.35244,
+            "current": 3.69389,
+            "change_percent": 10.2,
+            "direction": "up",
+            "display": "$3.35 → $3.69 ↑ 10.2%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
-            "previous": 96208828710,
-            "current": 96208828710,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$96.2B → $96.2B → 0.0%",
+            "previous": null,
+            "current": 96162819820,
+            "change_percent": null,
+            "direction": "unavailable",
+            "display": "$96.2B（前回値なし）",
             "unit": "USD",
-            "state": "取得済み"
+            "state": "一部取得"
           },
-          "fetched_at": "2026-08-01T05:37:53.460Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
-        "expectation_score": 3,
-        "expectation_label": "期待中立",
+        "expectation_score": 5,
+        "expectation_label": "期待過熱",
         "risk_score": 2,
         "risk_label": "リスク低い",
         "themes": [
@@ -151,13 +150,13 @@
         "valuation": {
           "current_price": 155.44,
           "forward_pe": 14.692454,
-          "trailing_pe": 26.435373,
+          "trailing_pe": 26.16835,
           "price_to_sales": null,
-          "enterprise_to_ebitda": 12.435,
+          "enterprise_to_ebitda": 9.975,
           "risk_score": 20,
           "state": "取得済み"
         },
-        "available_component_count": 2,
+        "available_component_count": 1,
         "total_component_count": 2,
         "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
@@ -353,7 +352,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -361,7 +360,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 16,
+        "analyst_count": 9,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -383,8 +382,7 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "post",
       "calendar_windows": [
-        "past_7_days",
-        "this_week"
+        "past_7_days"
       ],
       "market_impact": {
         "overall": 20,
@@ -401,42 +399,42 @@
       },
       "estimates": {
         "eps": {
-          "value": 5.56791,
-          "display": "$5.57",
+          "value": 3.7575,
+          "display": "$3.76",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 60380594990,
-          "display": "$60.4B",
+          "value": 55189157910,
+          "display": "$55.2B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 5.4339,
-            "current": 5.56791,
-            "change_percent": 2.5,
+            "previous": 3.7232,
+            "current": 3.7575,
+            "change_percent": 0.9,
             "direction": "up",
-            "display": "$5.43 → $5.57 ↑ 2.5%",
+            "display": "$3.72 → $3.76 ↑ 0.9%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 60380594990,
+            "current": 55189157910,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$60.4B（前回値なし）",
+            "display": "$55.2B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
-        "expectation_score": 4,
-        "expectation_label": "期待やや高い",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
         "risk_score": 3,
         "risk_label": "リスク中立",
         "themes": [
@@ -453,10 +451,10 @@
         },
         "valuation": {
           "current_price": 196.83,
-          "forward_pe": 15.457699,
+          "forward_pe": 15.407279,
           "trailing_pe": 18.944176,
-          "price_to_sales": 2.11051,
-          "enterprise_to_ebitda": 11.239,
+          "price_to_sales": 1.8723129,
+          "enterprise_to_ebitda": 8.528,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -656,7 +654,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -664,7 +662,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 19,
+        "analyst_count": 4,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -686,8 +684,7 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "post",
       "calendar_windows": [
-        "past_7_days",
-        "this_week"
+        "past_7_days"
       ],
       "market_impact": {
         "overall": 11,
@@ -704,42 +701,42 @@
       },
       "estimates": {
         "eps": {
-          "value": 4.48597,
-          "display": "$4.49",
+          "value": 4.2233,
+          "display": "$4.22",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 9014791510,
-          "display": "$9.0B",
+          "value": 9180059450,
+          "display": "$9.2B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 4.39,
-            "current": 4.48597,
-            "change_percent": 2.2,
-            "direction": "up",
-            "display": "$4.39 → $4.49 ↑ 2.2%",
+            "previous": 4.2233,
+            "current": 4.2233,
+            "change_percent": 0,
+            "direction": "unchanged",
+            "display": "$4.22 → $4.22 → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 9014791510,
+            "current": 9180059450,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$9.0B（前回値なし）",
+            "display": "$9.2B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
-        "expectation_score": 4,
-        "expectation_label": "期待やや高い",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
         "risk_score": 3,
         "risk_label": "リスク中立",
         "themes": [
@@ -755,10 +752,10 @@
         },
         "valuation": {
           "current_price": 478.38,
-          "forward_pe": 24.368092,
+          "forward_pe": 24.403667,
           "trailing_pe": 30.863226,
-          "price_to_sales": 6.382274,
-          "enterprise_to_ebitda": 19.071,
+          "price_to_sales": 6.2393217,
+          "enterprise_to_ebitda": 17.739,
           "risk_score": 40,
           "state": "取得済み"
         },
@@ -953,7 +950,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -961,7 +958,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 20,
+        "analyst_count": 2,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -983,7 +980,8 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "pre",
       "calendar_windows": [
-        "next_week"
+        "tomorrow",
+        "this_week"
       ],
       "market_impact": {
         "overall": 60,
@@ -1000,13 +998,13 @@
       },
       "estimates": {
         "eps": {
-          "value": 1.8524,
-          "display": "$1.85",
+          "value": 1.8555,
+          "display": "$1.86",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 12500592440,
+          "value": 12513776650,
           "display": "$12.5B",
           "unit": "USD",
           "state": "取得済み"
@@ -1014,23 +1012,23 @@
         "revision": {
           "eps": {
             "previous": 1.8524,
-            "current": 1.8524,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$1.85 → $1.85 → 0.0%",
+            "current": 1.8555,
+            "change_percent": 0.2,
+            "direction": "up",
+            "display": "$1.85 → $1.86 ↑ 0.2%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": 12500592440,
-            "current": 12500592440,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$12.5B → $12.5B → 0.0%",
+            "current": 12513776650,
+            "change_percent": 0.1,
+            "direction": "up",
+            "display": "$12.5B → $12.5B ↑ 0.1%",
             "unit": "USD",
             "state": "取得済み"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -1051,8 +1049,8 @@
         },
         "valuation": {
           "current_price": 476.15,
-          "forward_pe": 34.45045,
-          "trailing_pe": 161.40677,
+          "forward_pe": 34.325676,
+          "trailing_pe": 158.71666,
           "price_to_sales": null,
           "enterprise_to_ebitda": 103.356,
           "risk_score": 60,
@@ -1258,7 +1256,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1288,7 +1286,8 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "pre",
       "calendar_windows": [
-        "next_week"
+        "tomorrow",
+        "this_week"
       ],
       "market_impact": {
         "overall": 20,
@@ -1311,7 +1310,7 @@
           "state": "取得済み"
         },
         "revenue": {
-          "value": 19617507490,
+          "value": 19566644530,
           "display": "$19.6B",
           "unit": "USD",
           "state": "取得済み"
@@ -1328,14 +1327,14 @@
           },
           "revenue": {
             "previous": 19617507490,
-            "current": 19617507490,
-            "change_percent": 0,
-            "direction": "unchanged",
-            "display": "$19.6B → $19.6B → 0.0%",
+            "current": 19566644530,
+            "change_percent": -0.3,
+            "direction": "down",
+            "display": "$19.6B → $19.6B ↓ 0.3%",
             "unit": "USD",
             "state": "取得済み"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -1357,7 +1356,7 @@
         "valuation": {
           "current_price": 814.81,
           "forward_pe": 26.757702,
-          "trailing_pe": 40.317173,
+          "trailing_pe": 40.65918,
           "price_to_sales": null,
           "enterprise_to_ebitda": 28.514,
           "risk_score": 60,
@@ -1554,7 +1553,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1584,7 +1583,8 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "pre",
       "calendar_windows": [
-        "next_week"
+        "tomorrow",
+        "this_week"
       ],
       "market_impact": {
         "overall": 11,
@@ -1613,11 +1613,11 @@
         },
         "revision": {
           "eps": {
-            "previous": 0.8155,
+            "previous": 0.8112,
             "current": 0.8112,
-            "change_percent": -0.5,
-            "direction": "down",
-            "display": "$0.82 → $0.81 ↓ 0.5%",
+            "change_percent": 0,
+            "direction": "unchanged",
+            "display": "$0.81 → $0.81 → 0.0%",
             "unit": "USD",
             "state": "取得済み"
           },
@@ -1630,7 +1630,7 @@
             "unit": "USD",
             "state": "取得済み"
           },
-          "fetched_at": "2026-07-31T05:47:36.383Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -1651,7 +1651,7 @@
         },
         "valuation": {
           "current_price": 25.01,
-          "forward_pe": 8.831901,
+          "forward_pe": 8.848023,
           "trailing_pe": 19.091604,
           "price_to_sales": null,
           "enterprise_to_ebitda": 7.639,
@@ -1849,7 +1849,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1879,7 +1879,7 @@
       "verification_note": "外部カレンダーの予定。企業IRで正式確認するまで推定扱い",
       "phase": "pre",
       "calendar_windows": [
-        "next_week"
+        "this_week"
       ],
       "market_impact": {
         "overall": 45,
@@ -1895,42 +1895,42 @@
       },
       "estimates": {
         "eps": {
-          "value": 6.54902,
-          "display": "$6.55",
+          "value": 9.4796,
+          "display": "$9.48",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 20686282440,
-          "display": "$20.7B",
+          "value": 21669231720,
+          "display": "$21.7B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 6.79088,
-            "current": 6.54902,
-            "change_percent": -3.6,
-            "direction": "down",
-            "display": "$6.79 → $6.55 ↓ 3.6%",
+            "previous": 9.4655,
+            "current": 9.4796,
+            "change_percent": 0.1,
+            "direction": "up",
+            "display": "$9.47 → $9.48 ↑ 0.1%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 20686282440,
+            "current": 21669231720,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$20.7B（前回値なし）",
+            "display": "$21.7B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-08-01T05:37:53.460Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
-        "expectation_score": 2,
-        "expectation_label": "期待やや低い",
+        "expectation_score": 3,
+        "expectation_label": "期待中立",
         "risk_score": 4,
         "risk_label": "リスク高い",
         "themes": [
@@ -1947,7 +1947,7 @@
         "valuation": {
           "current_price": 1148.84,
           "forward_pe": 25.497051,
-          "trailing_pe": 40.986084,
+          "trailing_pe": 40.811367,
           "price_to_sales": null,
           "enterprise_to_ebitda": 29.34,
           "risk_score": 60,
@@ -2144,7 +2144,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2152,7 +2152,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 21,
+        "analyst_count": 17,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -2219,7 +2219,7 @@
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-08-01T05:37:53.460Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -2241,7 +2241,7 @@
         "valuation": {
           "current_price": 331.96,
           "forward_pe": 20.628653,
-          "trailing_pe": 23.694504,
+          "trailing_pe": 23.576704,
           "price_to_sales": null,
           "enterprise_to_ebitda": 15.759,
           "risk_score": 40,
@@ -2443,7 +2443,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2488,37 +2488,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 0.6837,
-          "display": "$0.68",
+          "value": 0.74155,
+          "display": "$0.74",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 188348925360,
-          "display": "$188.3B",
+          "value": 186920473390,
+          "display": "$186.9B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 0.684,
-            "current": 0.6837,
-            "change_percent": 0,
+            "previous": 0.7428,
+            "current": 0.74155,
+            "change_percent": -0.2,
             "direction": "down",
-            "display": "$0.68 → $0.68 ↓ 0.0%",
+            "display": "$0.74 → $0.74 ↓ 0.2%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
             "previous": null,
-            "current": 188348925360,
+            "current": 186920473390,
             "change_percent": null,
             "direction": "unavailable",
-            "display": "$188.3B（前回値なし）",
+            "display": "$186.9B（前回値なし）",
             "unit": "USD",
             "state": "一部取得"
           },
-          "fetched_at": "2026-08-01T05:37:53.460Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -2540,10 +2540,10 @@
         },
         "valuation": {
           "current_price": 111.2,
-          "forward_pe": 33.888493,
-          "trailing_pe": 39.017544,
+          "forward_pe": 33.904404,
+          "trailing_pe": 39.15493,
           "price_to_sales": 1.2200913,
-          "enterprise_to_ebitda": 21.332,
+          "enterprise_to_ebitda": 21.33,
           "risk_score": 60,
           "state": "取得済み"
         },
@@ -2744,7 +2744,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2752,7 +2752,7 @@
         ],
         "schedule_verification": "estimated",
         "sec_filing_confirmed": false,
-        "analyst_count": 32,
+        "analyst_count": 33,
         "missing_fields": [
           "SEC財務データ",
           "過去決算時の株価変動"
@@ -2789,37 +2789,37 @@
       },
       "estimates": {
         "eps": {
-          "value": 2.3496,
+          "value": 2.3524,
           "display": "$2.35",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
-          "value": 103040906160,
-          "display": "$103.0B",
+          "value": 103131206160,
+          "display": "$103.1B",
           "unit": "USD",
           "state": "取得済み"
         },
         "revision": {
           "eps": {
-            "previous": 2.3494,
-            "current": 2.3496,
-            "change_percent": 0,
+            "previous": 2.3496,
+            "current": 2.3524,
+            "change_percent": 0.1,
             "direction": "up",
-            "display": "$2.35 → $2.35 ↑ 0.0%",
+            "display": "$2.35 → $2.35 ↑ 0.1%",
             "unit": "USD",
             "state": "取得済み"
           },
           "revenue": {
-            "previous": null,
-            "current": 103040906160,
-            "change_percent": null,
-            "direction": "unavailable",
-            "display": "$103.0B（前回値なし）",
+            "previous": 103040906160,
+            "current": 103131206160,
+            "change_percent": 0.1,
+            "direction": "up",
+            "display": "$103.0B → $103.1B ↑ 0.1%",
             "unit": "USD",
-            "state": "一部取得"
+            "state": "取得済み"
           },
-          "fetched_at": "2026-08-01T05:37:53.460Z"
+          "fetched_at": "2026-08-03T05:54:11.857Z"
         }
       },
       "pre_analysis": {
@@ -2841,14 +2841,14 @@
         },
         "valuation": {
           "current_price": 200.75,
-          "forward_pe": 15.599466,
-          "trailing_pe": 29.829123,
+          "forward_pe": 15.573568,
+          "trailing_pe": 30.789877,
           "price_to_sales": 19.181612,
           "enterprise_to_ebitda": 29.108,
           "risk_score": 40,
           "state": "取得済み"
         },
-        "available_component_count": 1,
+        "available_component_count": 2,
         "total_component_count": 2,
         "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
       },
@@ -3049,7 +3049,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3145,7 +3145,7 @@
         "valuation": {
           "current_price": 184.02,
           "forward_pe": 11.862852,
-          "trailing_pe": 20.911364,
+          "trailing_pe": 21.323292,
           "price_to_sales": null,
           "enterprise_to_ebitda": 14.069,
           "risk_score": 20,
@@ -3337,7 +3337,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3435,7 +3435,7 @@
         "valuation": {
           "current_price": 389.28,
           "forward_pe": 19.971312,
-          "trailing_pe": 64.55721,
+          "trailing_pe": 64.98832,
           "price_to_sales": 24.541588,
           "enterprise_to_ebitda": 45.084,
           "risk_score": 40,
@@ -3641,7 +3641,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3737,7 +3737,7 @@
         "valuation": {
           "current_price": 129.87,
           "forward_pe": 11.925455,
-          "trailing_pe": 21.863636,
+          "trailing_pe": 22.276157,
           "price_to_sales": 5.553792,
           "enterprise_to_ebitda": 16.893,
           "risk_score": 20,
@@ -3931,7 +3931,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4027,7 +4027,7 @@
         "valuation": {
           "current_price": 250.41,
           "forward_pe": 9.110168,
-          "trailing_pe": 14.187536,
+          "trailing_pe": 14.325516,
           "price_to_sales": 3.9502332,
           "enterprise_to_ebitda": 10.38,
           "risk_score": 20,
@@ -4219,7 +4219,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4315,8 +4315,8 @@
         },
         "valuation": {
           "current_price": 823.03,
-          "forward_pe": 5.3534055,
-          "trailing_pe": 19.760624,
+          "forward_pe": 5.290652,
+          "trailing_pe": 18.586948,
           "price_to_sales": null,
           "enterprise_to_ebitda": 13.337,
           "risk_score": 20,
@@ -4521,7 +4521,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -4619,7 +4619,7 @@
         "valuation": {
           "current_price": 951.89,
           "forward_pe": 42.03249,
-          "trailing_pe": 48.075256,
+          "trailing_pe": 47.85772,
           "price_to_sales": 1.4378806,
           "enterprise_to_ebitda": 30.49,
           "risk_score": 80,
@@ -4822,7 +4822,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -4920,7 +4920,7 @@
         "valuation": {
           "current_price": 307.4,
           "forward_pe": 14.996687,
-          "trailing_pe": 16.643206,
+          "trailing_pe": 16.580366,
           "price_to_sales": 0.76778984,
           "enterprise_to_ebitda": 8.622,
           "risk_score": 20,
@@ -5117,7 +5117,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -5216,7 +5216,7 @@
         "valuation": {
           "current_price": 351.79,
           "forward_pe": 14.187467,
-          "trailing_pe": 15.040189,
+          "trailing_pe": 15.085335,
           "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
@@ -5419,7 +5419,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -5517,7 +5517,7 @@
         "valuation": {
           "current_price": 1018.38,
           "forward_pe": 13.805086,
-          "trailing_pe": 15.823182,
+          "trailing_pe": 15.723021,
           "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
@@ -5720,7 +5720,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -5817,7 +5817,7 @@
         },
         "valuation": {
           "current_price": 1629,
-          "forward_pe": 27.671831,
+          "forward_pe": 27.643044,
           "trailing_pe": 55.864197,
           "price_to_sales": 17.711384,
           "enterprise_to_ebitda": 2576.692,
@@ -6023,7 +6023,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6121,7 +6121,7 @@
         "valuation": {
           "current_price": 61.95,
           "forward_pe": 11.743118,
-          "trailing_pe": 14.274193,
+          "trailing_pe": 14.307159,
           "price_to_sales": null,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
@@ -6324,7 +6324,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6421,7 +6421,7 @@
         "valuation": {
           "current_price": 144.61,
           "forward_pe": 42.501102,
-          "trailing_pe": 32.56982,
+          "trailing_pe": 32.27902,
           "price_to_sales": 14.297583,
           "enterprise_to_ebitda": 25.933,
           "risk_score": 80,
@@ -6618,7 +6618,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -6716,7 +6716,7 @@
         "valuation": {
           "current_price": 404.25,
           "forward_pe": 18.708271,
-          "trailing_pe": 35.46053,
+          "trailing_pe": 35.58539,
           "price_to_sales": 0.4721621,
           "enterprise_to_ebitda": 4.497,
           "risk_score": 40,
@@ -6921,7 +6921,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7019,7 +7019,7 @@
         "valuation": {
           "current_price": 71.71,
           "forward_pe": 18.78425,
-          "trailing_pe": 22.983974,
+          "trailing_pe": 22.550314,
           "price_to_sales": 6.1730695,
           "enterprise_to_ebitda": 20.787,
           "risk_score": 40,
@@ -7217,7 +7217,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7315,10 +7315,10 @@
         },
         "valuation": {
           "current_price": 311.21,
-          "forward_pe": 139.86086,
+          "forward_pe": 140.23332,
           "trailing_pe": 285.51373,
           "price_to_sales": 11.862098,
-          "enterprise_to_ebitda": 111.791,
+          "enterprise_to_ebitda": 111.795,
           "risk_score": 100,
           "state": "取得済み"
         },
@@ -7516,7 +7516,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7614,7 +7614,7 @@
         "valuation": {
           "current_price": 414.4,
           "forward_pe": 18.470776,
-          "trailing_pe": 31.754787,
+          "trailing_pe": 31.251884,
           "price_to_sales": 0.8360604,
           "enterprise_to_ebitda": 17.26,
           "risk_score": 40,
@@ -7812,7 +7812,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -7911,7 +7911,7 @@
         "valuation": {
           "current_price": 86.92,
           "forward_pe": 19.667473,
-          "trailing_pe": 19.754545,
+          "trailing_pe": 19.532585,
           "price_to_sales": 6.317534,
           "enterprise_to_ebitda": 20.535,
           "risk_score": 40,
@@ -8108,7 +8108,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
@@ -8207,7 +8207,7 @@
         "valuation": {
           "current_price": 356.13,
           "forward_pe": 24.16992,
-          "trailing_pe": 16.751177,
+          "trailing_pe": 17.86008,
           "price_to_sales": 9.768511,
           "enterprise_to_ebitda": 24.554,
           "risk_score": 40,
@@ -8408,7 +8408,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-01T05:39:57.138Z",
+        "last_fetched_at": "2026-08-03T05:56:13.695Z",
         "providers": [
           "日程データ",
           "yfinance市場指標"
