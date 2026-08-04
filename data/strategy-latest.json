@@ -1,111 +1,127 @@
 {
-  "executed_at": "2026-08-02T12:41:40.335069+00:00",
-  "target_session": "day",
-  "reference_price": 62847.3,
-  "decision": "Short",
+  "executed_at": "2026-08-04T18:40:27.287194+00:00",
+  "target_session": "night",
+  "reference_price": 65337.5,
+  "decision": "Long",
   "confidence": {
-    "score": 76.0,
+    "score": 79.0,
     "label": "中"
   },
-  "information_confidence": 78.0,
+  "information_confidence": 82.0,
   "argument_review": {
     "long": {
-      "source_reliability": 68.0,
-      "impact": 63.0,
-      "timing": 57.0,
-      "rebuttal_strength": 43.0,
-      "total": 231.0
+      "source_reliability": 86.0,
+      "impact": 82.0,
+      "timing": 88.0,
+      "rebuttal_strength": 78.0,
+      "total": 334.0
     },
     "short": {
-      "source_reliability": 76.0,
-      "impact": 81.0,
-      "timing": 79.0,
-      "rebuttal_strength": 68.0,
-      "total": 304.0
+      "source_reliability": 84.0,
+      "impact": 76.0,
+      "timing": 58.0,
+      "rebuttal_strength": 72.0,
+      "total": 290.0
     },
-    "reason": "Short論は、対象セッションに直結する日経225先物の前日比-2.26%と円高方向の動きを実測値で示しており、現時点の下落圧力と整合する。米国株高とVIX低下はLong側の有力な反対材料だが、日経225先物への波及は可能性にとどまり、すでに先物が下落している事実を覆す根拠としては弱い。中東情勢、通商政策、経済指標は方向が不明であるため、Shortの補助材料としては限定的に評価した。",
+    "reason": "Long側は、日経225先物が実際に2.19%上昇し、米国主要3指数も上昇、VIXも低下しているという対象セッションに近い直接観測を根拠としている。Short側の円高、追加介入、重要指標、中東情勢は有力なリスクだが、現時点で日経225先物を下落させた事実ではなく、主に将来の可能性に依存しているため、合計点ではLongを採用する。",
     "opposing_factors": [
-      "S&P 500、NASDAQ、NYダウがいずれも上昇しており、特にNASDAQの上昇が日経225の半導体・成長株を支える可能性がある",
-      "VIX低下により、米国市場の警戒感が後退している",
-      "米国10年債利回り上昇にもかかわらず、米国の高PER・成長株が実際には上昇している",
-      "ISM製造業PMIなどの予定イベントは、結果次第では下落ではなく反発材料になる可能性がある"
+      "ドル円が3.7812%低下し、円高が日本株先物の下押し要因となる可能性がある",
+      "日米当局による追加の円買い対応への警戒が続いている",
+      "米国・イラン協議を巡る説明の食い違いにより、原油や株価が急変する可能性がある",
+      "ISM Services PMIとEIA統計の結果次第では、現在の上昇が反転する可能性がある"
     ],
-    "tie_breaker": "Short"
+    "tie_breaker": "Long"
   },
   "long_argument": {
-    "thesis": "米国株の全面高と警戒感の後退を背景に、日経225先物は半導体・成長株関連を中心に上昇する余地がある。",
+    "thesis": "日経225先物は、米国株高と投資家心理の改善を背景に、上昇方向を支持する材料が優勢である。",
     "claims": [
       {
-        "point": "米国主要株価指数の上昇が、日経225の上昇材料となり得る",
-        "evidence": "S&P 500、NASDAQ、NYダウがいずれも上昇しており、特にNASDAQの上昇率が相対的に大きい。日経225先物は取得時点で前日比マイナスだが、米国株の上昇が週明けの買い材料となる可能性がある。",
+        "point": "日経225先物自体が上昇しており、上昇基調を示している。",
+        "evidence": "2026年8月4日18時39分時点で日経225先物は65,337.5で、前日比2.19%上昇している。観測時点の価格変化は、Long方向を直接支持する材料である。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/",
+          "https://www.reuters.com/markets/us/",
           "https://nikkei225jp.com/cme/"
         ]
       },
       {
-        "point": "NASDAQの相対的な強さが日経225の半導体・成長株関連を支える可能性がある",
-        "evidence": "米国株ではNASDAQの上昇率がS&P 500とNYダウを上回っている。共有情報では、このテクノロジー株の相対的な強さが日経225の半導体・成長株関連に波及する可能性が示されている。",
+        "point": "米国の主要株価指数がそろって上昇し、日本株先物への追い風となっている。",
+        "evidence": "指定されたmarket_dataでは、S&P500が4.2023%、NASDAQが6.9134%、NYダウが2.6653%上昇している。米国株の広範な上昇は、日経225先物の上昇を支持する材料である。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/",
-          "https://nikkei225jp.com/cme/"
+          "https://www.reuters.com/markets/us/",
+          "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/"
         ]
       },
       {
-        "point": "VIXの低下は株式市場の警戒感後退を示し、リスク選好を支える材料となり得る",
-        "evidence": "VIXは低下しており、直近の米国株市場では警戒感が後退している。米国10年債利回りの上昇や中東情勢などの反対材料はあるものの、VIX低下と米国株上昇の組み合わせは日経225先物の買い材料となる可能性がある。",
+        "point": "市場の不安心理が低下しており、株式市場の上昇を支えやすい。",
+        "evidence": "指定されたmarket_dataではVIXが20.0387%低下している。VIX低下は不安心理の後退を示す数値として、株式市場および日経225先物のLong方向を支持する。ただし、米国・イラン情勢や翌日の経済指標によって急変するリスクは残っている。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/"
+          "https://www.cboe.com/tradable_products/vix/",
+          "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/"
         ]
       },
       {
-        "point": "米国株の上昇基調が、日経225先物の下落に対する反発材料となり得る",
-        "evidence": "日経225先物は取得時点で前日比マイナスだが、同じ時点の米国株式市場ではS&P 500、NASDAQ、NYダウが上昇している。この市場間の方向差から、米国株の上昇を材料とした日経225先物の反発が考えられる。",
+        "point": "米国・イラン間の緊張緩和や協議に関する報道が、株式市場を支える可能性がある。",
+        "evidence": "Reutersは、米国とイランの緊張緩和や協議に関する報道を受け、原油価格と主要株価指数が変動したと報じている。情勢の緊張緩和が意識されれば、株式市場の上昇材料として日経225先物を支える可能性がある。一方、イラン側は協議に関する米国側の説明を否定しており、反対方向の材料が出る可能性もある。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/",
-          "https://nikkei225jp.com/cme/"
+          "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/",
+          "https://www.reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/"
+        ]
+      },
+      {
+        "point": "円買い介入による為替の急変が警戒される一方、米国株高の影響が日経225先物を支える材料となっている。",
+        "evidence": "指定されたmarket_dataではドル円が3.7812%低下し、円高方向に動いているため、日本株には下押し要因となり得る。しかし同時点で米国株3指数は上昇し、日経225先物も2.19%上昇している。Reutersは、日米による円買い介入後も市場参加者が追加対応を警戒していると報じており、為替面の反対材料を考慮しても、現時点の価格反応はLong方向を支持している。",
+        "source_urls": [
+          "https://www.reuters.com/world/asia-pacific/yen-clings-intervention-gains-traders-stay-alert-more-2026-08-04/",
+          "https://www.reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/",
+          "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
         ]
       }
     ]
   },
   "short_argument": {
-    "thesis": "日経225先物は、現在の下落、円高方向の動き、米国10年債利回りの上昇、地政学・通商政策の不確実性を背景に、下落圧力が続く可能性がある。",
+    "thesis": "円買い介入後の円高維持と追加対応への警戒、米国・イラン情勢や重要指標を巡る不確実性が、日経225先物の下落要因になり得る。",
     "claims": [
       {
-        "point": "日経225先物はすでに前日比マイナスとなっており、下落基調が確認されている。",
-        "evidence": "取得時点の日経225先物は62,847.3で、前日比-2.26%だった。米国株が上昇している反面、日経225先物が下落しているため、先物市場では弱さが表れている。",
+        "point": "円買い介入後の円高が維持され、日経225先物の下押し要因になり得る",
+        "evidence": "Reutersは、円が前週の日本・米国による共同介入後の上昇分の大部分を維持していると報じている。円高水準が続けば、日経225先物には下落方向の圧力がかかる可能性がある。",
         "source_urls": [
-          "https://nikkei225jp.com/cme/"
+          "https://www.reuters.com/world/asia-pacific/yen-clings-intervention-gains-traders-stay-alert-more-2026-08-04/",
+          "https://www.reuters.com/world/asia-pacific/japan-vow-coordination-with-us-weak-yen-historic-battle-2026-08-02/"
         ]
       },
       {
-        "point": "円高方向の動きが日本の輸出企業への重しとなる可能性がある。",
-        "evidence": "USD/JPYは前日比-3.796%で、円高方向の動きを示している。共有情報では、日本の輸出企業の業績期待に重しとなる可能性が指摘されており、日経225の下落材料となり得る。",
+        "point": "当局による追加の円買い対応への警戒が、為替と株価の不安定要因になる",
+        "evidence": "Reutersは、市場参加者が追加対応の可能性を警戒していると報じている。米国財務省による円買い介入は異例の対応と説明されており、追加対応に関する報道が出れば、日経225先物の下落材料として意識され得る。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/"
+          "https://www.reuters.com/world/asia-pacific/yen-clings-intervention-gains-traders-stay-alert-more-2026-08-04/",
+          "https://www.reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/"
         ]
       },
       {
-        "point": "米国10年債利回りの上昇が株式、とくに高PER銘柄の評価を圧迫する可能性がある。",
-        "evidence": "米国10年債利回りは前日比+2.241%で上昇している。共有情報では、株式の相対的な投資魅力や高PER銘柄の評価に影響する可能性が示されており、日経225の成長株関連に下押し圧力が及ぶ可能性がある。",
+        "point": "米国・イラン情勢の不確実性が、日経225先物の下落リスクを高める",
+        "evidence": "Reutersは、米国とイランの緊張緩和や協議に関する報道を受け、原油価格と主要株価指数が変動したと報じている。また、イラン側は米国側の協議に関する説明を否定している。協議内容や軍事行動、原油輸送に関する新情報が出れば、市場変動を通じて日経225先物の下落要因になり得る。",
         "source_urls": [
-          "https://www.reuters.com/markets/news/"
+          "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/",
+          "https://www.reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/"
         ]
       },
       {
-        "point": "中東情勢の拡大懸念が、原油価格と世界のインフレ・景気見通しを不安定化させる可能性がある。",
-        "evidence": "中東の軍事・外交情勢は、原油供給や航路への懸念を通じて対象セッション中にも急変要因となり得る。原油価格と世界のインフレ・景気見通しが不安定化すれば、株式市場の下落材料となる可能性がある。",
-        "source_urls": [
-          "https://www.reuters.com/markets/news/"
-        ]
-      },
-      {
-        "point": "米国の関税政策と重要経済指標を巡る不確実性が、週明けの日経225先物の変動と下落リスクを高める可能性がある。",
-        "evidence": "米国の追加関税・通商協議に関する新たな発表が週明けのリスク要因となり得る。また、8月3日の米国ISM製造業PMIとS&P Global製造業PMI確報値、8月7日の米国雇用統計が予定されており、製造業や雇用の強弱を通じて株式・為替・債券が変動する可能性がある。米国株上昇やVIX低下という反対材料はあるが、イベントと政策の不確実性が下落リスクを残している。",
+        "point": "米国の重要経済指標の公表を控え、結果確認まで下振れリスクが残る",
+        "evidence": "2026年8月5日には米国ISM Services PMIの公表が予定されている。市場が結果を確認する局面では、米国株、ドル円、米国10年国債利回りの急な変化を通じて、日経225先物が下落する可能性がある。",
         "source_urls": [
           "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-          "https://www.bls.gov/schedule/2026/home.htm",
-          "https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/"
+          "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-08/ism-pmi-reports-roundup-july-2026-manufacturing/",
+          "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
+        ]
+      },
+      {
+        "point": "米国の原油在庫統計や金融政策関連情報が、反対方向への急変要因になる",
+        "evidence": "2026年8月5日にはEIA Weekly Petroleum Status Reportの公表が予定され、8月の米連邦準備制度公式カレンダーにも金融政策関連の発表、講演、経済指標の公表予定が掲載されている。日経225先物は現在2.19％上昇しているが、これらの予定情報を受けて原油、金利、為替が急変すれば、上昇分を失い下落する展開が生じ得る。",
+        "source_urls": [
+          "https://www.eia.gov/petroleum/supply/weekly/",
+          "https://www.eia.gov/petroleum/supply/weekly/schedule.php",
+          "https://www.federalreserve.gov/newsevents/2026-august.htm",
+          "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         ]
       }
     ]
@@ -113,95 +129,148 @@
   "rebuttals": {
     "long": [
       {
-        "target": "米国主要株価指数の上昇が、日経225の上昇材料となり得る",
-        "response": "米国株は上昇している一方、取得時点の日経225先物は62,847.3で前日比-2.26%となっており、実際の先物価格には上昇が確認されていない。米国株高が週明けに波及する可能性はあるが、現時点の下落を反転させる根拠としては弱く、米国株高と日経225先物高の発生時期や因果関係も共有情報だけでは確認できない。"
+        "target": "日経225先物自体が上昇しており、上昇基調を示している",
+        "response": "65,337.5で2.19％上昇しているのは2026年8月4日18時39分時点の一時点の反応にすぎず、継続的な上昇基調の根拠にはならない。翌8月5日にはISM Services PMIやEIA統計の公表が予定されており、観測後の材料で価格が反転する可能性が残る。"
       },
       {
-        "target": "NASDAQの相対的な強さが日経225の半導体・成長株関連を支える可能性がある",
-        "response": "NASDAQの上昇率は+1.594%で、半導体・成長株への波及は可能性にとどまる。一方、日経225先物はすでに下落しており、USD/JPYは前日比-3.796%と円高方向に動いている。日本の輸出企業や成長株の評価に対する反対材料が同時に存在するため、NASDAQ高だけで日経225全体を支えるとは言い切れない。"
+        "target": "米国の主要株価指数がそろって上昇し、日本株先物への追い風となっている",
+        "response": "S&P500、NASDAQ、NYダウの上昇は日経225先物を支える反対材料だが、日経225先物への直接的な影響は示されていない。特に円買い介入後、ドル円は3.7812％低下しており、円高が日本株先物の下押し要因になる。米国株の上昇だけで日本株先物の上昇継続を裏付けるには根拠が弱い。"
       },
       {
-        "target": "VIXの低下は株式市場の警戒感後退を示し、リスク選好を支える材料となり得る",
-        "response": "VIXは前日比-14.355%と低下しているが、これは直近の米国株市場の警戒感を示す材料であり、日本市場の固有材料を打ち消すものではない。日経225先物は下落し、円高、米国10年債利回りの上昇、中東情勢、通商政策の不確実性も残っているため、VIX低下から日経225先物の上昇を直接導く根拠は不足している。"
+        "target": "市場の不安心理が低下しており、株式市場の上昇を支えやすい",
+        "response": "VIXが20.0387％低下した数値は株式市場を支える材料になり得るが、将来の不安が解消したことを示すものではない。Reutersは米国・イラン協議についてイラン側が米国側の説明を否定したと報じており、情勢は不確実である。また、追加の円買い対応への警戒も続いているため、VIX低下だけで夜間セッションの下落リスクを否定できない。"
       },
       {
-        "target": "米国株の上昇基調が、日経225先物の下落に対する反発材料となり得る",
-        "response": "米国株の上昇は反発の可能性を示すにすぎず、日経225先物が実際に反発する証拠ではない。確認できる現時点の価格は前日比マイナスであり、8月3日の米国製造業指標、8月7日の雇用統計、週明けの関税政策や中東情勢の変化も控えている。したがって、反発材料よりも先に、下落圧力と変動要因が現れている点を重視すべきである。"
+        "target": "米国・イラン間の緊張緩和や協議に関する報道が、株式市場を支える可能性がある",
+        "response": "協議報道は緊張緩和の材料になり得る一方、Reutersは協議を巡ってイラン側が米国側の説明を否定したことも報じている。実際の合意や緊張緩和が確認されたわけではなく、軍事行動や原油輸送に関する新情報で原油価格と株価が変動する可能性が残る。Long側は好材料の可能性を示しているだけで、発生時期と継続性の根拠が不足している。"
+      },
+      {
+        "target": "円買い介入による為替の急変が警戒される一方、米国株高の影響が日経225先物を支える材料となっている",
+        "response": "現在の日経225先物が上昇していることは、円高と追加介入警戒が株価に織り込まれた、または影響が解消したことを意味しない。Reutersは円が共同介入後の上昇分の大部分を維持し、市場参加者が追加対応を警戒していると報じている。さらに米国財務省の円買い介入は異例の対応とされており、新たな当局発言や介入報道が出れば、現在の上昇を失う下落材料になり得る。"
       }
     ],
     "short": [
       {
-        "target": "日経225先物はすでに前日比マイナスとなっており、下落基調が確認されている",
-        "response": "日経225先物の-2.26%は取得時点の一時的な値であり、これだけで下落基調が継続するとまでは言えない。同じ時点でS&P 500、NASDAQ、NYダウは上昇しており、特にNASDAQは相対的に強い。先物の現在値と米国株の上昇が逆方向にあるため、週明けに米国株高を反映して反発する余地をShort論は十分に説明していない。"
+        "target": "円買い介入後の円高が維持され、日経225先物の下押し要因になり得る",
+        "response": "円高維持は日本株の下押し材料になり得るが、提示された同時点の実績では、ドル円が3.7812%低下する一方、日経225先物は65,337.5で2.19%上昇している。したがって、円高が現時点で先物下落をもたらしているという確認はなく、実際の価格反応は米国株高などを受けて上昇方向を示している。"
       },
       {
-        "target": "円高方向の動きが日本の輸出企業への重しとなる可能性がある",
-        "response": "USD/JPYの前日比-3.796%は円高方向を示す材料ではあるが、共有情報には為替の水準や円高の発生理由がなく、日経225全体への影響の大きさは確認できない。また、円高の影響を受ける輸出企業だけでなく、NASDAQの上昇から恩恵を受ける可能性がある半導体・成長株も日経225を構成する。為替だけで指数全体の下落継続を示す根拠としては弱い。"
+        "target": "当局による追加の円買い対応への警戒が、為替と株価の不安定要因になる",
+        "response": "Reutersが示しているのは、市場参加者が追加対応の可能性を警戒しているという状況であり、追加介入が実際に行われたという事実ではない。将来の報道を前提にした下落リスクであって、対象時点の方向を示す直接材料ではない。また、米国財務省による異例の介入は既に起きた材料であり、それだけで追加対応による下落を裏付けることはできない。"
       },
       {
-        "target": "米国10年債利回りの上昇が株式、とくに高PER銘柄の評価を圧迫する可能性がある",
-        "response": "米国10年債利回りは上昇しているが、同じ観測時点でS&P 500、NASDAQ、NYダウはいずれも上昇し、NASDAQの上昇率は最も大きい。したがって、利回り上昇が直ちに高PERの半導体・成長株を押し下げたとは確認できない。利回り上昇の影響は可能性にとどまり、実際の株価反応を示す米国株高という反対材料をShort論は軽視している。"
+        "target": "米国・イラン情勢の不確実性が、日経225先物の下落リスクを高める",
+        "response": "提示情報では、米国・イラン情勢を受けて原油価格と主要株価指数が変動したことは確認できるが、日経225先物が下落したことや、情勢が下落方向に作用したことまでは示されていない。米国側の協議説明をイラン側が否定した点は不確実性を示すものの、緊張緩和や協議の進展は株式市場を支える方向にもなり得るため、下落材料に一方向で結び付ける根拠は弱い。"
       },
       {
-        "target": "中東情勢の拡大懸念が原油価格と世界のインフレ・景気見通しを不安定化させる可能性がある",
-        "response": "中東情勢は対象セッション中にも急変し得るリスクだが、共有情報には対象時点で原油価格が上昇したことや、実際に株式市場が下落したことは示されていない。現時点で確認できる米国株は全面高で、VIXも-14.35%と低下している。将来の急変可能性を、現在確認されている市場の警戒感後退より強い下落根拠として扱うのは早い。"
+        "target": "米国の重要経済指標の公表を控え、結果確認まで下振れリスクが残る",
+        "response": "ISM Services PMIは2026年8月5日に予定されている将来の材料であり、まだ結果も市場の反応も示されていない。弱い結果なら下落要因になり得る一方、結果が強ければ米国株高を支える可能性もある。したがって、発表予定だけでは日経225先物の下落方向を裏付けられず、現時点で確認されている日経225先物2.19%高や米国主要3指数の上昇を覆す直接材料ではない。"
       },
       {
-        "target": "米国の関税政策と重要経済指標を巡る不確実性が週明けの日経225先物の下落リスクを高める可能性がある",
-        "response": "関税政策や8月3日のISM製造業PMI、S&P Global製造業PMI確報値は変動要因になり得るが、結果の方向は共有情報から決まっていないため、下落材料と断定できない。さらに8月7日の雇用統計は対象セッションより後の予定であり、週明けの初動を直接示す材料ではない。発表予定であること自体は、米国株高とVIX低下を覆す下落根拠にはならない。"
+        "target": "米国の原油在庫統計や金融政策関連情報が、反対方向への急変要因になる",
+        "response": "EIA統計と金融政策関連情報はいずれも今後公表・更新される予定であり、数値や内容は共有情報に存在しない。さらに、Fedの公式カレンダーは予定を示すだけで、株価や金利を下落させる具体的な発表を示していない。将来の急変可能性を指摘する根拠にはなるが、対象時点の下落方向を示す証拠ではなく、現在確認できる米国株高、VIX20.0387%低下、日経225先物2.19%上昇と比べて時期と方向の確実性が劣る。"
       }
     ]
   },
   "market_evidence": [
     {
-      "fact": "S&P 500、NASDAQ、NYダウはいずれも上昇しており、NASDAQの上昇率が相対的に大きい。",
-      "source_urls": ["https://www.reuters.com/markets/news/"]
+      "fact": "Reutersは、2026年8月4日時点で、円が前週の日本・米国による共同介入後の上昇分の大部分を維持し、市場参加者が追加対応の可能性を警戒していると報じている。",
+      "source_urls": [
+        "https://www.reuters.com/world/asia-pacific/yen-clings-intervention-gains-traders-stay-alert-more-2026-08-04/",
+        "https://www.reuters.com/world/asia-pacific/japan-vow-coordination-with-us-weak-yen-historic-battle-2026-08-02/"
+      ]
     },
     {
-      "fact": "VIXは低下し、米国株市場の警戒感は後退している。",
-      "source_urls": ["https://www.reuters.com/markets/news/"]
+      "fact": "Reutersは、米国財務省が日本と協調して円買い介入を実施したと報じている。Reutersの記事では、米国財務省による円買い介入は異例の対応と説明されている。",
+      "source_urls": [
+        "https://www.reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/"
+      ]
     },
     {
-      "fact": "日経225先物は取得時点で前日比マイナス、USD/JPYは低下、米国10年債利回りは上昇している。",
-      "source_urls": ["https://nikkei225jp.com/cme/", "https://www.reuters.com/markets/news/"]
+      "fact": "Reutersは、米国とイランの緊張緩和や協議に関する報道を受け、原油価格と主要株価指数が変動したと報じている。イラン側は米国側の協議に関する説明を否定している。",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/",
+        "https://www.reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/"
+      ]
     },
     {
-      "fact": "中東情勢と米国の通商政策には不確実性が残っている。",
-      "source_urls": ["https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/"]
+      "fact": "Reutersは、米国市場で主要株価指数が企業決算やAI関連銘柄の動向を確認しながら推移し、米国・イラン情勢も市場参加者が確認していると報じている。",
+      "source_urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/",
+        "https://www.reuters.com/markets/us/"
+      ]
+    },
+    {
+      "fact": "米連邦準備制度の公式カレンダーでは、2026年8月の金融政策関連の発表、講演、経済指標の公表予定が掲載されている。対象セッション中に予定時刻が変更される可能性もあるため、公式カレンダーの更新確認が必要である。",
+      "source_urls": [
+        "https://www.federalreserve.gov/newsevents/2026-august.htm",
+        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      ]
+    },
+    {
+      "fact": "ISMの公式発表予定では、米国のServices PMIは通常、月の第3営業日の米東部時間午前10時に公表される。2026年8月5日は同月の第3営業日に当たり、翌営業日に確認対象となる。",
+      "source_urls": [
+        "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+        "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-08/ism-pmi-reports-roundup-july-2026-manufacturing/"
+      ]
+    },
+    {
+      "fact": "米国エネルギー情報局は、2026年8月5日にWeekly Petroleum Status Reportを公表する予定としている。通常の速報資料は米東部時間午前10時30分以降に公開される。",
+      "source_urls": [
+        "https://www.eia.gov/petroleum/supply/weekly/",
+        "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
+      ]
+    },
+    {
+      "fact": "Python取得済みmarket_dataには、米国株式3指数、VIX、ドル円、米国10年国債利回り、日経225先物の観測値が含まれている。これらの数値は再取得・再計算せず、指定値をそのまま使用した。",
+      "source_urls": [
+        "https://www.reuters.com/markets/us/",
+        "https://www.cboe.com/tradable_products/vix/",
+        "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
+      ]
     }
   ],
   "event_risks": [
-    "2026年8月3日は米国ISM製造業PMIの発表予定日。ISM製造業PMIは毎月第1営業日の米東部時間10時に発表される。",
-    "米国では8月3日にS&P Global製造業PMIの確報値も予定されており、製造業と景気の強弱を通じて株式・為替・債券が変動する可能性がある。",
-    "今週は米国の雇用関連指標が続き、8月7日の米国雇用統計が翌営業日以降の大きな変動要因となる可能性がある。",
-    "中東の軍事・外交情勢は原油供給や航路への懸念を通じて、対象セッション中にも急変要因となり得る。",
-    "米国の関税政策や各国との通商協議に関する新たな発表が、週明けのリスク要因となり得る。"
+    "日本・米国による円買い介入後の為替水準と、当局による追加対応に関する報道",
+    "米国とイランの協議内容、協議の否定、軍事行動、原油輸送に関する新情報",
+    "2026年8月5日に予定される米国ISM Services PMIの公表",
+    "2026年8月5日に予定される米国EIA Weekly Petroleum Status Reportの公表",
+    "米国企業決算およびAI関連銘柄に関する新しい発表",
+    "米国10年国債利回り、ドル円、VIXの急な変化"
   ],
-  "event_risk": 72.0,
+  "event_risk": 78.0,
   "sources": [
     {
-      "name": "Institute for Supply Management",
+      "name": "Reuters - Yen slips but holds intervention gains",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-clings-intervention-gains-traders-stay-alert-more-2026-08-04/"
+    },
+    {
+      "name": "Reuters - US Treasury yen intervention",
+      "url": "https://www.reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/"
+    },
+    {
+      "name": "Reuters - Global markets and US-Iran tensions",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/"
+    },
+    {
+      "name": "Federal Reserve - August 2026 Calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-august.htm"
+    },
+    {
+      "name": "Institute for Supply Management - Report Calendar",
       "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/"
     },
     {
-      "name": "Federal Reserve Bank of New York Economic Indicators Calendar",
-      "url": "https://www.newyorkfed.org/research/calendars/nationalecon_cal"
+      "name": "US Energy Information Administration - Weekly Petroleum Status Report",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/"
     },
     {
-      "name": "U.S. Bureau of Labor Statistics 2026 Release Schedule",
-      "url": "https://www.bls.gov/schedule/2026/home.htm"
+      "name": "Cboe - VIX",
+      "url": "https://www.cboe.com/tradable_products/vix/"
     },
     {
-      "name": "Federal Reserve FOMC Calendars",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-    },
-    {
-      "name": "Reuters Global Markets",
-      "url": "https://www.reuters.com/markets/news/"
-    },
-    {
-      "name": "Reuters U.S. Trade Policy Coverage",
-      "url": "https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/"
+      "name": "US Treasury - Interest Rate Data",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
     },
     {
       "name": "日経225 CFD (nikkei225jp.com)",
