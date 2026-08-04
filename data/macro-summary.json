@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-05T00:42:32.386+09:00",
+  "generated_at": "2026-08-05T04:09:35.135+09:00",
   "data_cutoff": "2026-08-05T00:42:32.127+09:00",
   "economy": {
     "condition": "neutral",
@@ -445,7 +445,7 @@
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "Average Hourly Earnings m/m"
+        "Non-Farm Employment Change"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -489,7 +489,7 @@
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "Average Hourly Earnings m/m"
+        "Non-Farm Employment Change"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -706,50 +706,15 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-08-07_0730_usd_average-hourly-earnings-m-m",
-      "release_at": "2026-08-07T11:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "Average Hourly Earnings m/m",
-      "importance": "high",
-      "importance_label": "高",
-      "previous": null,
-      "revised_previous": null,
-      "consensus": null,
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
-        "inline": "予想付近なら、現在の基本シナリオを維持",
-        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
-      },
-      "attention_score": 24,
-      "attention_components": {
-        "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
-        "decision_impact": 0.92,
-        "asset_sensitivity": 0.55,
-        "proximity": 0.9
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
-      "id": "secondary_ff_2026-08-07_0730_usd_non-farm-employment-change",
-      "release_at": "2026-08-07T11:30:00.000Z",
+      "id": "secondary_ff_2026-08-07_2130_usd_non-farm-employment-change",
+      "release_at": "2026-08-08T01:30:00.000Z",
       "timezone": "Asia/Tokyo",
       "label": "Non-Farm Employment Change",
       "importance": "high",
       "importance_label": "高",
-      "previous": null,
+      "previous": "57K",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "85K",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -763,11 +728,46 @@
         "inline": "予想付近なら、現在の基本シナリオを維持",
         "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
       },
-      "attention_score": 24,
+      "attention_score": 31,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
+        "surprise_likelihood": 0.93,
         "decision_impact": 0.92,
+        "asset_sensitivity": 0.55,
+        "proximity": 0.76
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
+      "id": "secondary_ff_2026-08-05_2115_usd_adp-non-farm-employment-change",
+      "release_at": "2026-08-06T01:15:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "ADP Non-Farm Employment Change",
+      "importance": "medium",
+      "importance_label": "中",
+      "previous": "98K",
+      "revised_previous": null,
+      "consensus": "68K",
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
+        "inline": "予想付近なら、現在の基本シナリオを維持",
+        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
+      },
+      "attention_score": 21,
+      "attention_components": {
+        "regime_relevance": 0.67,
+        "surprise_likelihood": 0.89,
+        "decision_impact": 0.72,
         "asset_sensitivity": 0.55,
         "proximity": 0.9
       },
@@ -776,10 +776,10 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-07_0730_usd_unemployment-rate",
-      "release_at": "2026-08-07T11:30:00.000Z",
+      "id": "secondary_ff_2026-08-20_0300_usd_fomc-meeting-minutes",
+      "release_at": "2026-08-20T07:00:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "Unemployment Rate",
+      "label": "FOMC Meeting Minutes",
       "importance": "high",
       "importance_label": "高",
       "previous": null,
@@ -794,17 +794,17 @@
       },
       "affected_assets": [],
       "reactions": {
-        "upside": "雇用が強ければ成長支援と利下げ後退の両方を評価",
-        "inline": "予想付近なら、雇用の現在方向を維持",
-        "downside": "雇用が弱ければ成長悪化と政策緩和余地を分けて評価"
+        "upside": "想定より引き締め的なら、金利・流動性経路を下方修正",
+        "inline": "想定どおりなら、現在の政策経路を維持",
+        "downside": "想定より緩和的なら、金融環境と金利差を再評価"
       },
-      "attention_score": 24,
+      "attention_score": 20,
       "attention_components": {
-        "regime_relevance": 0.86,
+        "regime_relevance": 1,
         "surprise_likelihood": 0.62,
-        "decision_impact": 0.92,
+        "decision_impact": 1,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 0.6
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -931,11 +931,9 @@
       "reference_warnings": []
     },
     "decision_readiness": {
-      "status": "caution",
-      "important_event_soon": true,
-      "reasons": [
-        "important_event_soon"
-      ]
+      "status": "trade_candidate",
+      "important_event_soon": false,
+      "reasons": []
     },
     "asset_readiness": {
       "sp500_futures": {
@@ -963,8 +961,8 @@
     },
     "missing_series": [],
     "next_update_event": {
-      "label": "Average Hourly Earnings m/m",
-      "release_at": "2026-08-07T11:30:00.000Z"
+      "label": "Non-Farm Employment Change",
+      "release_at": "2026-08-08T01:30:00.000Z"
     },
     "point_in_time_validation": {
       "status": "degraded",
@@ -1056,7 +1054,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-05T00:42:32.386+09:00",
+  "updated_at": "2026-08-05T04:09:35.135+09:00",
   "date": "2026-08-05",
   "snapshot_id": "macro-2026-08-05-macro-public-v3-1707f10ccd105498",
   "snapshot_content_hash": "1707f10ccd105498385fc4a23a9b1ef7637ece56754b44fb440087284d10314a",
