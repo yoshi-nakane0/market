@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-04T12:38:00.735627Z",
+  "updated_at": "2026-08-05T16:53:32.650101Z",
   "timezone": "Asia/Tokyo",
   "source": "forex_factory_scrape",
   "url": "https://www.forexfactory.com/calendar",
@@ -1830,9 +1830,9 @@
       "date": "2026-08-04",
       "time": "23:00",
       "impact": "Low",
-      "actual": "",
+      "actual": "-0.3%",
       "forecast": "0.2%",
-      "previous": "-1.3%",
+      "previous": "-1.1%",
       "revised": ""
     },
     {
@@ -1841,18 +1841,18 @@
       "date": "2026-08-04",
       "time": "23:00",
       "impact": "Medium",
-      "actual": "",
+      "actual": "7.36M",
       "forecast": "7.44M",
-      "previous": "7.59M",
+      "previous": "7.54M",
       "revised": ""
     },
     {
       "title": "RCM/TIPP Economic Optimism",
       "country": "USD",
       "date": "2026-08-04",
-      "time": null,
+      "time": "23:13",
       "impact": "Low",
-      "actual": "",
+      "actual": "45.1",
       "forecast": "47.5",
       "previous": "45.5",
       "revised": ""
@@ -1874,7 +1874,7 @@
       "date": "2026-08-05",
       "time": "08:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "3.4%",
       "forecast": "3.4%",
       "previous": "3.3%",
       "revised": ""
@@ -1907,9 +1907,9 @@
       "date": "2026-08-05",
       "time": "21:15",
       "impact": "Medium",
-      "actual": "",
+      "actual": "44K",
       "forecast": "68K",
-      "previous": "98K",
+      "previous": "95K",
       "revised": ""
     },
     {
@@ -1918,7 +1918,7 @@
       "date": "2026-08-05",
       "time": "22:45",
       "impact": "Low",
-      "actual": "",
+      "actual": "54.6",
       "forecast": "53.6",
       "previous": "53.6",
       "revised": ""
@@ -1929,7 +1929,7 @@
       "date": "2026-08-05",
       "time": "23:00",
       "impact": "Medium",
-      "actual": "",
+      "actual": "54.1",
       "forecast": "54.5",
       "previous": "54.0",
       "revised": ""
@@ -1940,8 +1940,8 @@
       "date": "2026-08-05",
       "time": "23:30",
       "impact": "Low",
-      "actual": "",
-      "forecast": "",
+      "actual": "2.5M",
+      "forecast": "-1.5M",
       "previous": "-7.2M",
       "revised": ""
     },
@@ -1951,6 +1951,17 @@
       "date": "2026-08-06",
       "time": "05:05",
       "impact": "Low",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "revised": ""
+    },
+    {
+      "title": "President Trump Speaks",
+      "country": "USD",
+      "date": "2026-08-06",
+      "time": "05:30",
+      "impact": "Medium",
       "actual": "",
       "forecast": "",
       "previous": "",
@@ -2040,7 +2051,7 @@
       "time": "23:30",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "30B",
       "previous": "28B",
       "revised": ""
     },
@@ -2128,7 +2139,7 @@
       "time": "04:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "11.2B",
+      "forecast": "11.4B",
       "previous": "-0.2B",
       "revised": ""
     },
@@ -2327,7 +2338,7 @@
       "impact": "Low",
       "actual": "",
       "forecast": "",
-      "previous": "",
+      "previous": "2.5M",
       "revised": ""
     },
     {
