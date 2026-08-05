@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-08-04T12:38:00.735627Z",
-  "timezone": "America/New_York",
+  "timezone": "Asia/Tokyo",
   "source": "forex_factory_scrape",
   "url": "https://www.forexfactory.com/calendar",
   "months": [
