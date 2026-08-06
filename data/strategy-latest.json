@@ -363,5 +363,19 @@
       "name": "日経225 CFD (nikkei225jp.com)",
       "url": "https://nikkei225jp.com/cme/"
     }
-  ]
+  ],
+  "evaluation": {
+    "status": "pending",
+    "due_at": "2026-08-07T06:00:00+09:00"
+  },
+  "answer_check": {
+    "status": "not_available",
+    "reason": "実装前の判定のため、次回から答え合わせを開始します"
+  },
+  "performance": {
+    "evaluated_count": 0,
+    "correct_count": 0,
+    "flat_count": 0,
+    "accuracy": null
+  }
 }
