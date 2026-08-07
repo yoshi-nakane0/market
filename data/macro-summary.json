@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-06T00:34:32.228+09:00",
-  "data_cutoff": "2026-08-06T00:34:31.983+09:00",
+  "generated_at": "2026-08-07T23:26:45.817+09:00",
+  "data_cutoff": "2026-08-07T23:26:45.545+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -19,19 +19,19 @@
         "contribution": "large",
         "factor": "金融環境",
         "series_id": "BAA10Y",
-        "as_of_date": "2026-08-03",
-        "latest_value": 1.61,
+        "as_of_date": "2026-08-05",
+        "latest_value": 1.62,
         "source": "FRED:BAA10Y",
         "availability": "available"
       },
       {
-        "label": "WTI原油が小幅にプラス",
+        "label": "WTI原油が強くプラスに寄与",
         "direction": "positive",
         "contribution": "large",
         "factor": "外部環境",
         "series_id": "DCOILWTICO",
-        "as_of_date": "2026-07-27",
-        "latest_value": 84.25,
+        "as_of_date": "2026-08-03",
+        "latest_value": 81.96,
         "source": "FRED:DCOILWTICO",
         "availability": "available"
       }
@@ -40,11 +40,11 @@
       {
         "label": "米10年国債利回りがマイナスに寄与",
         "direction": "negative",
-        "contribution": "large",
+        "contribution": "medium",
         "factor": "金融政策",
         "series_id": "DGS10",
-        "as_of_date": "2026-08-03",
-        "latest_value": 4.7,
+        "as_of_date": "2026-08-05",
+        "latest_value": 4.63,
         "source": "FRED:DGS10",
         "availability": "available"
       },
@@ -54,13 +54,13 @@
         "contribution": "large",
         "factor": "金融環境",
         "series_id": "MORTGAGE30US",
-        "as_of_date": "2026-07-30",
-        "latest_value": 6.66,
+        "as_of_date": "2026-08-06",
+        "latest_value": 6.69,
         "source": "FRED:MORTGAGE30US",
         "availability": "available"
       }
     ],
-    "change_since_previous": "市場心理が前回から悪化",
+    "change_since_previous": "物価圧力が前回から改善。 外部環境が前回から改善",
     "layers": {
       "real_economy": [
         "growth",
@@ -97,7 +97,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-08-06",
+        "origin_date": "2026-08-07",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -131,21 +131,21 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-08-06",
+        "origin_date": "2026-08-07",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
           "end_date": "2027-09-30"
         },
         "forecast_value": null,
-        "candidate_value": 2.2991,
+        "candidate_value": 2.2975,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
         "candidate_interval_80": {
-          "low": -0.2589,
-          "high": 3.1035,
+          "low": -0.2605,
+          "high": 3.1019,
           "confidence_level": 0.8,
           "empirical_coverage": 0.7882,
           "sample_count": 85
@@ -155,16 +155,16 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0.0168,
+        "candidate_revision_pp": -0.0016,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-05",
-            "value": 2.2823
-          },
-          {
             "as_of_date": "2026-08-06",
             "value": 2.2991
+          },
+          {
+            "as_of_date": "2026-08-07",
+            "value": 2.2975
           }
         ],
         "forecast": null,
@@ -172,7 +172,7 @@
         "interval": null,
         "candidate_interval": "-0.26%〜3.1%（前年比）",
         "revision": null,
-        "candidate_revision": "+0.02ポイント",
+        "candidate_revision": "−0ポイント",
         "rationale": "公開データの各要因を4四半期先GDPへ時系列モデルで結び付けて分解",
         "display_allowed": true
       },
@@ -180,8 +180,8 @@
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-08-06",
-        "target_period": "2027-08-06",
+        "origin_date": "2026-08-07",
+        "target_period": "2027-08-07",
         "forecast_value": null,
         "candidate_value": 3.2865,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -200,11 +200,11 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0.0009,
+        "candidate_revision_pp": -0.1444,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-06",
+            "as_of_date": "2026-08-07",
             "value": 3.2865
           }
         ],
@@ -213,7 +213,7 @@
         "interval": null,
         "candidate_interval": "1.58%〜5.91%（前年比）",
         "revision": null,
-        "candidate_revision": "+0ポイント",
+        "candidate_revision": "−0.14ポイント",
         "rationale": "コア物価、財、住居費、賃金、生産性、期待インフレを分けて推計",
         "display_allowed": true
       },
@@ -221,17 +221,17 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-08-06",
-        "target_period": "2027-08-06",
+        "origin_date": "2026-08-07",
+        "target_period": "2027-08-07",
         "forecast_value": null,
-        "candidate_value": 4.6811,
+        "candidate_value": 4.6608,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
         "interval_80": null,
         "candidate_interval_80": {
-          "low": 3.7522,
-          "high": 5.6503,
+          "low": 3.7319,
+          "high": 5.63,
           "confidence_level": 0.8,
           "empirical_coverage": 0.8,
           "sample_count": 360
@@ -241,24 +241,24 @@
         "unit": "percent",
         "basis": "level",
         "revision_pp": null,
-        "candidate_revision_pp": 0,
+        "candidate_revision_pp": -0.0203,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-05",
+            "as_of_date": "2026-08-06",
             "value": 4.6811
           },
           {
-            "as_of_date": "2026-08-06",
-            "value": 4.6811
+            "as_of_date": "2026-08-07",
+            "value": 4.6608
           }
         ],
         "forecast": null,
-        "candidate_forecast": "4.68%",
+        "candidate_forecast": "4.66%",
         "interval": null,
-        "candidate_interval": "3.75%〜5.65%",
+        "candidate_interval": "3.73%〜5.63%",
         "revision": null,
-        "candidate_revision": "+0ポイント",
+        "candidate_revision": "−0.02ポイント",
         "rationale": "失業率変化、景気の勢いを確認",
         "display_allowed": true
       },
@@ -266,10 +266,10 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-08-06",
-        "target_period": "2026-08-06",
+        "origin_date": "2026-08-07",
+        "target_period": "2026-08-07",
         "forecast_value": null,
-        "candidate_value": 4.2112,
+        "candidate_value": 4.2104,
         "estimate_kind": "analysis_only_candidate_forecast",
         "decision_use_allowed": false,
         "realtime_vintage_validated": false,
@@ -360,7 +360,7 @@
     "labor_balance": {
       "label": "雇用",
       "summary": "失業率の12か月先を時系列モデルで試算しています。",
-      "unemployment_forecast": "4.68%"
+      "unemployment_forecast": "4.66%"
     },
     "inflation": {
       "label": "物価の内訳",
@@ -380,15 +380,15 @@
         },
         {
           "label": "賃金",
-          "value": "3.52%（前年比）"
+          "value": "3.15%（前年比）"
         },
         {
           "label": "生産性",
-          "value": "2.8%（前年比）"
+          "value": "2.93%（前年比）"
         },
         {
           "label": "期待インフレ",
-          "value": "2.27%（水準）"
+          "value": "2.29%（水準）"
         }
       ]
     },
@@ -436,16 +436,16 @@
       "label": "1か月",
       "model_kind": "event_driven",
       "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.2736667506047124,
-      "stable_probability": 0.5020539181954443,
-      "deteriorate_probability": 0.22427933119984322,
+      "improve_probability": 0.2733836833713016,
+      "stable_probability": 0.5025774492994296,
+      "deteriorate_probability": 0.22403886732926875,
       "drivers": [
         "外部環境",
         "金融政策",
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "Non-Farm Employment Change"
+        "CPI m/m"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -480,16 +480,16 @@
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
       "base_case": "横ばいが基本シナリオ",
-      "improve_probability": 0.24721824351152535,
-      "stable_probability": 0.4637702738469984,
-      "deteriorate_probability": 0.2890114826414762,
+      "improve_probability": 0.24729733093298137,
+      "stable_probability": 0.4637481738455612,
+      "deteriorate_probability": 0.2889544952214574,
       "drivers": [
         "外部環境",
         "金融政策",
         "金融環境"
       ],
       "scheduled_catalysts": [
-        "Non-Farm Employment Change"
+        "CPI m/m"
       ],
       "invalidation_conditions": [
         "雇用が悪化し、成長指標がさらに低下する",
@@ -528,15 +528,15 @@
       "label": "外部環境",
       "region": "global",
       "state": "追い風",
-      "direction": "stable",
-      "direction_label": "横ばい",
+      "direction": "improving",
+      "direction_label": "改善",
       "contribution": "positive",
       "contribution_label": "+大",
       "evidence": [
         {
           "label": "WTI原油",
-          "state": "WTI原油が小幅にプラス",
-          "as_of_date": "2026-07-27",
+          "state": "WTI原油が強くプラスに寄与",
+          "as_of_date": "2026-08-03",
           "availability": "available"
         }
       ],
@@ -559,15 +559,15 @@
           "availability": "available"
         },
         {
-          "label": "米10年国債利回り",
-          "state": "米10年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-08-03",
+          "label": "米2年国債利回り",
+          "state": "米2年国債利回りがマイナスに寄与",
+          "as_of_date": "2026-08-05",
           "availability": "available"
         },
         {
-          "label": "米2年国債利回り",
-          "state": "米2年国債利回りがマイナスに寄与",
-          "as_of_date": "2026-08-03",
+          "label": "米10年国債利回り",
+          "state": "米10年国債利回りがマイナスに寄与",
+          "as_of_date": "2026-08-05",
           "availability": "available"
         }
       ],
@@ -586,13 +586,13 @@
         {
           "label": "Moody's Baa社債スプレッド（10年国債比）",
           "state": "Moody's Baa社債スプレッド（10年国債比）が強くプラスに寄与",
-          "as_of_date": "2026-08-03",
+          "as_of_date": "2026-08-05",
           "availability": "available"
         },
         {
           "label": "住宅ローン金利",
           "state": "住宅ローン金利がマイナスに寄与",
-          "as_of_date": "2026-07-30",
+          "as_of_date": "2026-08-06",
           "availability": "available"
         },
         {
@@ -617,13 +617,13 @@
         {
           "label": "5Y5Y Inflation Expectation",
           "state": "5Y5Y Inflation Expectationが小幅にプラス",
-          "as_of_date": "2026-08-04",
+          "as_of_date": "2026-08-06",
           "availability": "available"
         },
         {
           "label": "平均時給",
           "state": "平均時給が小幅にマイナス",
-          "as_of_date": "2026-06-01",
+          "as_of_date": "2026-07-01",
           "availability": "available"
         },
         {
@@ -677,21 +677,21 @@
       "contribution_label": "0",
       "evidence": [
         {
-          "label": "平均週間労働時間",
-          "state": "平均週間労働時間は中立圏",
-          "as_of_date": "2026-06-01",
+          "label": "失業率",
+          "state": "失業率は中立圏",
+          "as_of_date": "2026-07-01",
           "availability": "available"
         },
         {
           "label": "非農業部門雇用者数",
           "state": "非農業部門雇用者数は中立圏",
-          "as_of_date": "2026-06-01",
+          "as_of_date": "2026-07-01",
           "availability": "available"
         },
         {
-          "label": "失業率",
-          "state": "失業率は中立圏",
-          "as_of_date": "2026-06-01",
+          "label": "平均週間労働時間",
+          "state": "平均週間労働時間は中立圏",
+          "as_of_date": "2026-07-01",
           "availability": "available"
         }
       ],
@@ -706,15 +706,15 @@
   },
   "next_events": [
     {
-      "id": "secondary_ff_2026-08-07_2130_usd_non-farm-employment-change",
-      "release_at": "2026-08-07T12:30:00.000Z",
+      "id": "secondary_ff_2026-08-12_2130_usd_cpi-m-m",
+      "release_at": "2026-08-12T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "Non-Farm Employment Change",
+      "label": "CPI m/m",
       "importance": "high",
       "importance_label": "高",
-      "previous": "57K",
+      "previous": "-0.4%",
       "revised_previous": null,
-      "consensus": "85K",
+      "consensus": null,
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -724,32 +724,32 @@
       },
       "affected_assets": [],
       "reactions": {
-        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
-        "inline": "予想付近なら、現在の基本シナリオを維持",
-        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
+        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
+        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
+        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 36,
+      "attention_score": 21,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.93,
+        "surprise_likelihood": 0.62,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 0.76
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-07_2130_usd_average-hourly-earnings-m-m",
-      "release_at": "2026-08-07T12:30:00.000Z",
+      "id": "secondary_ff_2026-08-12_2130_usd_cpi-y-y",
+      "release_at": "2026-08-12T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "Average Hourly Earnings m/m",
+      "label": "CPI y/y",
       "importance": "high",
       "importance_label": "高",
-      "previous": "0.3%",
+      "previous": "3.5%",
       "revised_previous": null,
-      "consensus": "0.3%",
+      "consensus": null,
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -759,32 +759,32 @@
       },
       "affected_assets": [],
       "reactions": {
-        "upside": "予想を上回れば、成長と政策金利への波及を再評価",
-        "inline": "予想付近なら、現在の基本シナリオを維持",
-        "downside": "予想を下回れば、成長鈍化と政策余地を再評価"
+        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
+        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
+        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 23,
+      "attention_score": 21,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.58,
+        "surprise_likelihood": 0.62,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 0.76
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-07_2130_usd_unemployment-rate",
-      "release_at": "2026-08-07T12:30:00.000Z",
+      "id": "secondary_ff_2026-08-12_2130_usd_core-cpi-m-m",
+      "release_at": "2026-08-12T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "Unemployment Rate",
+      "label": "Core CPI m/m",
       "importance": "high",
       "importance_label": "高",
-      "previous": "4.2%",
+      "previous": "0.0%",
       "revised_previous": null,
-      "consensus": "4.2%",
+      "consensus": null,
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -794,17 +794,17 @@
       },
       "affected_assets": [],
       "reactions": {
-        "upside": "雇用が強ければ成長支援と利下げ後退の両方を評価",
-        "inline": "予想付近なら、雇用の現在方向を維持",
-        "downside": "雇用が弱ければ成長悪化と政策緩和余地を分けて評価"
+        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
+        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
+        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 23,
+      "attention_score": 21,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.58,
+        "surprise_likelihood": 0.62,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
-        "proximity": 0.9
+        "proximity": 0.76
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -866,7 +866,7 @@
           "impact": "risk"
         },
         {
-          "label": "金融環境",
+          "label": "外部環境",
           "impact": "support"
         }
       ],
@@ -910,13 +910,13 @@
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
-    "confidence_score_detail": 0.85,
+    "confidence_score_detail": 0.8,
     "confidence_reasons": [
       "主要データと複数モデルの方向が一致しています"
     ],
     "model_confidence": {
       "status": "verified",
-      "score": 0.85,
+      "score": 0.8,
       "label": "high",
       "reasons": []
     },
@@ -931,11 +931,9 @@
       "reference_warnings": []
     },
     "decision_readiness": {
-      "status": "caution",
-      "important_event_soon": true,
-      "reasons": [
-        "important_event_soon"
-      ]
+      "status": "trade_candidate",
+      "important_event_soon": false,
+      "reasons": []
     },
     "asset_readiness": {
       "sp500_futures": {
@@ -945,8 +943,8 @@
       }
     },
     "data_coverage": 1,
-    "model_agreement": 0.85,
-    "regime_stability": 1,
+    "model_agreement": 0.8,
+    "regime_stability": 0.97,
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
@@ -963,8 +961,8 @@
     },
     "missing_series": [],
     "next_update_event": {
-      "label": "Non-Farm Employment Change",
-      "release_at": "2026-08-07T12:30:00.000Z"
+      "label": "CPI m/m",
+      "release_at": "2026-08-12T12:30:00.000Z"
     },
     "point_in_time_validation": {
       "status": "degraded",
@@ -1056,33 +1054,33 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-06T00:34:32.228+09:00",
-  "date": "2026-08-06",
-  "snapshot_id": "macro-2026-08-06-macro-public-v3-7c19984629857c54",
-  "snapshot_content_hash": "7c19984629857c54a39fc6be153787f0720e5c149b93c4c82f0d1c4d2b717c96",
-  "as_of_date": "2026-08-06",
+  "updated_at": "2026-08-07T23:26:45.817+09:00",
+  "date": "2026-08-07",
+  "snapshot_id": "macro-2026-08-07-macro-public-v3-cc0f34c5b72b9b71",
+  "snapshot_content_hash": "cc0f34c5b72b9b71998a646dee81440cf6b954b97f9e55bfabdd6c54b6226a70",
+  "as_of_date": "2026-08-07",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-08-05T15:34:31.983Z",
+  "signal_at": "2026-08-07T14:26:45.545Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-08-07",
-    "entry_at": "2026-08-06T23:45:00.000Z",
-    "valid_until": "2026-08-06T23:45:00.000Z",
+    "entry_session_date": "2026-08-10",
+    "entry_at": "2026-08-09T23:45:00.000Z",
+    "valid_until": "2026-08-09T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "-3",
+  "risk_score": "0",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-08-05T15:26:07.318Z",
-    "stale_after": "2026-08-07T03:26:07.318Z",
+    "fetched_at": "2026-08-07T14:18:20.561Z",
+    "stale_after": "2026-08-09T02:18:20.561Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-08-06",
+    "as_of_date": "2026-08-07",
     "checked_count": 26,
     "success_count": 26,
     "raw_fetch_status": "complete",
@@ -1132,8 +1130,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "85/100",
-    "score": 0.85,
+    "value": "80/100",
+    "score": 0.8,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1247,7 +1245,6 @@
       "predictive_current_feature_target_mismatch",
       "predictive_current_features_unavailable_or_stale",
       "predictive_current_feature_timing_invalid",
-      "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
       "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
@@ -1601,7 +1598,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": -3,
+    "score": 0,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
@@ -1764,12 +1761,12 @@
     },
     {
       "label": "レンジ",
-      "value": "37%",
+      "value": "38%",
       "tone": "neutral"
     },
     {
       "label": "ショート",
-      "value": "28%",
+      "value": "27%",
       "tone": "negative"
     }
   ],
@@ -1781,7 +1778,7 @@
     },
     {
       "label": "物価圧力",
-      "value": 47,
+      "value": 49,
       "tone": "neutral"
     },
     {
@@ -1801,7 +1798,7 @@
     },
     {
       "label": "外部環境",
-      "value": 64,
+      "value": 68,
       "tone": "positive"
     },
     {
@@ -1814,8 +1811,8 @@
   "factors": {
     "support": [
       "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-      "WTI原油が小幅にプラス",
-      "Adjusted National Financial Conditions Indexが小幅にプラス"
+      "WTI原油が強くプラスに寄与",
+      "平均時給が小幅にマイナス"
     ],
     "risk": [
       "米10年国債利回りがマイナスに寄与",
