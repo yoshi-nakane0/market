@@ -45,7 +45,6 @@
       "execution_stop_required": true,
       "execution_stop_reasons": [
         "売買コストを確認できません",
-        "重要イベント前後のため停止しています",
         "内部の安全条件により停止しています",
         "検証成果物の版が一致しません",
         "最新取得を採用できません",
@@ -59,7 +58,7 @@
       ],
       "latest_attempt_at": "2026-08-08T03:53:32.450Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 37571,
+      "data_age_minutes": 37592,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
