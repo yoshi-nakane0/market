@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T16:53:32.650101Z",
+  "updated_at": "2026-08-08T04:21:16.616267Z",
   "timezone": "Asia/Tokyo",
   "source": "forex_factory_scrape",
   "url": "https://www.forexfactory.com/calendar",
@@ -1984,7 +1984,7 @@
       "date": "2026-08-06",
       "time": "12:35",
       "impact": "Low",
-      "actual": "",
+      "actual": "3.94|3.9",
       "forecast": "",
       "previous": "3.99|4.6",
       "revised": ""
@@ -1995,7 +1995,7 @@
       "date": "2026-08-06",
       "time": "18:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "-46.1%",
       "forecast": "",
       "previous": "-4.5%",
       "revised": ""
@@ -2006,7 +2006,7 @@
       "date": "2026-08-06",
       "time": "21:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "1.4%",
       "forecast": "0.6%",
       "previous": "0.3%",
       "revised": ""
@@ -2017,7 +2017,7 @@
       "date": "2026-08-06",
       "time": "21:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "1.3%",
       "forecast": "2.2%",
       "previous": "1.8%",
       "revised": ""
@@ -2028,9 +2028,9 @@
       "date": "2026-08-06",
       "time": "21:30",
       "impact": "Medium",
-      "actual": "",
+      "actual": "199K",
       "forecast": "203K",
-      "previous": "197K",
+      "previous": "198K",
       "revised": ""
     },
     {
@@ -2039,7 +2039,7 @@
       "date": "2026-08-06",
       "time": "23:00",
       "impact": "Low",
-      "actual": "",
+      "actual": "0.2%",
       "forecast": "0.3%",
       "previous": "0.3%",
       "revised": ""
@@ -2050,7 +2050,7 @@
       "date": "2026-08-06",
       "time": "23:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "33B",
       "forecast": "30B",
       "previous": "28B",
       "revised": ""
@@ -2072,7 +2072,7 @@
       "date": "2026-08-07",
       "time": "08:30",
       "impact": "Low",
-      "actual": "",
+      "actual": "-3.3%",
       "forecast": "0.8%",
       "previous": "-0.4%",
       "revised": ""
@@ -2083,7 +2083,7 @@
       "date": "2026-08-07",
       "time": "14:00",
       "impact": "Low",
-      "actual": "",
+      "actual": "116.4%",
       "forecast": "116.5%",
       "previous": "116.5%",
       "revised": ""
@@ -2094,7 +2094,7 @@
       "date": "2026-08-07",
       "time": "21:30",
       "impact": "High",
-      "actual": "",
+      "actual": "0.1%",
       "forecast": "0.3%",
       "previous": "0.3%",
       "revised": ""
@@ -2105,9 +2105,9 @@
       "date": "2026-08-07",
       "time": "21:30",
       "impact": "High",
-      "actual": "",
+      "actual": "-23K",
       "forecast": "85K",
-      "previous": "57K",
+      "previous": "20K",
       "revised": ""
     },
     {
@@ -2116,7 +2116,7 @@
       "date": "2026-08-07",
       "time": "21:30",
       "impact": "High",
-      "actual": "",
+      "actual": "4.1%",
       "forecast": "4.2%",
       "previous": "4.2%",
       "revised": ""
@@ -2138,9 +2138,9 @@
       "date": "2026-08-08",
       "time": "04:00",
       "impact": "Low",
-      "actual": "",
+      "actual": "14.2B",
       "forecast": "11.4B",
-      "previous": "-0.2B",
+      "previous": "-1.1B",
       "revised": ""
     },
     {
@@ -2172,7 +2172,7 @@
       "time": "08:50",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "5.7%",
       "previous": "5.7%",
       "revised": ""
     },
@@ -2183,7 +2183,7 @@
       "time": "08:50",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "2.50T",
       "previous": "3.06T",
       "revised": ""
     },
@@ -2194,7 +2194,7 @@
       "time": "14:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "44.6",
       "previous": "44.0",
       "revised": ""
     },
@@ -2216,7 +2216,7 @@
       "time": "19:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "97.8",
       "previous": "97.4",
       "revised": ""
     },
@@ -2238,7 +2238,7 @@
       "time": "23:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "4.05M",
       "previous": "4.09M",
       "revised": ""
     },
@@ -2251,6 +2251,17 @@
       "actual": "",
       "forecast": "",
       "previous": "",
+      "revised": ""
+    },
+    {
+      "title": "ADP Weekly Employment Change",
+      "country": "USD",
+      "date": "2026-08-11",
+      "time": null,
+      "impact": "Low",
+      "actual": "",
+      "forecast": "",
+      "previous": "15.0K",
       "revised": ""
     },
     {
@@ -2271,7 +2282,7 @@
       "time": "08:50",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "2.1%",
       "previous": "2.2%",
       "revised": ""
     },
@@ -2293,7 +2304,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.1%",
       "previous": "-0.4%",
       "revised": ""
     },
@@ -2304,7 +2315,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "3.4%",
       "previous": "3.5%",
       "revised": ""
     },
@@ -2315,7 +2326,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.2%",
       "previous": "0.0%",
       "revised": ""
     },
@@ -2326,7 +2337,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "2.5%",
       "previous": "2.6%",
       "revised": ""
     },
@@ -2359,7 +2370,7 @@
       "time": "03:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "-294.6B",
       "previous": "-120.3B",
       "revised": ""
     },
@@ -2370,8 +2381,19 @@
       "time": "08:50",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "7.4%",
       "previous": "7.1%",
+      "revised": ""
+    },
+    {
+      "title": "FOMC Member Hammack Speaks",
+      "country": "USD",
+      "date": "2026-08-13",
+      "time": "21:15",
+      "impact": "Low",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
       "revised": ""
     },
     {
@@ -2381,7 +2403,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.3%",
       "previous": "0.2%",
       "revised": ""
     },
@@ -2392,7 +2414,7 @@
       "time": "21:30",
       "impact": "High",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.2%",
       "previous": "-0.3%",
       "revised": ""
     },
@@ -2402,6 +2424,17 @@
       "date": "2026-08-13",
       "time": "21:30",
       "impact": "Medium",
+      "actual": "",
+      "forecast": "202K",
+      "previous": "199K",
+      "revised": ""
+    },
+    {
+      "title": "FOMC Member Barkin Speaks",
+      "country": "USD",
+      "date": "2026-08-13",
+      "time": "21:40",
+      "impact": "Low",
       "actual": "",
       "forecast": "",
       "previous": "",
@@ -2415,7 +2448,7 @@
       "impact": "Low",
       "actual": "",
       "forecast": "",
-      "previous": "",
+      "previous": "33B",
       "revised": ""
     },
     {
@@ -2426,7 +2459,7 @@
       "impact": "Low",
       "actual": "",
       "forecast": "",
-      "previous": "",
+      "previous": "4.44%",
       "revised": ""
     },
     {
@@ -2447,7 +2480,7 @@
       "time": "21:30",
       "impact": "Medium",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.2%",
       "previous": "-0.2%",
       "revised": ""
     },
@@ -2458,7 +2491,7 @@
       "time": "21:30",
       "impact": "Medium",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.1%",
       "previous": "0.2%",
       "revised": ""
     },
@@ -2469,7 +2502,7 @@
       "time": "23:00",
       "impact": "Low",
       "actual": "",
-      "forecast": "",
+      "forecast": "0.2%",
       "previous": "0.3%",
       "revised": ""
     },
@@ -2480,7 +2513,7 @@
       "time": "23:00",
       "impact": "Medium",
       "actual": "",
-      "forecast": "",
+      "forecast": "54.4",
       "previous": "55.2",
       "revised": ""
     },
@@ -2493,17 +2526,6 @@
       "actual": "",
       "forecast": "",
       "previous": "4.2%",
-      "revised": ""
-    },
-    {
-      "title": "Fed Monetary Policy Report",
-      "country": "USD",
-      "date": "2026-08-15",
-      "time": null,
-      "impact": "Low",
-      "actual": "",
-      "forecast": "",
-      "previous": "",
       "revised": ""
     },
     {
@@ -3809,6 +3831,17 @@
       "country": "USD",
       "date": "2026-09-12",
       "time": "03:00",
+      "impact": "Low",
+      "actual": "",
+      "forecast": "",
+      "previous": "",
+      "revised": ""
+    },
+    {
+      "title": "Fed Monetary Policy Report",
+      "country": "USD",
+      "date": "2026-09-12",
+      "time": null,
       "impact": "Low",
       "actual": "",
       "forecast": "",
