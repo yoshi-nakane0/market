@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-07T23:26:45.817+09:00",
+  "generated_at": "2026-08-08T16:23:47.238+09:00",
   "data_cutoff": "2026-08-07T23:26:45.545+09:00",
   "economy": {
     "condition": "neutral",
@@ -714,7 +714,7 @@
       "importance_label": "高",
       "previous": "-0.4%",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "0.1%",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -728,10 +728,10 @@
         "inline": "予想付近なら、現在のインフレ・政策判断を維持",
         "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 21,
+      "attention_score": 31,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
+        "surprise_likelihood": 0.93,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.76
@@ -741,15 +741,15 @@
       "source_label": "Forex Factory"
     },
     {
-      "id": "secondary_ff_2026-08-12_2130_usd_cpi-y-y",
-      "release_at": "2026-08-12T12:30:00.000Z",
+      "id": "secondary_ff_2026-08-13_2130_usd_ppi-m-m",
+      "release_at": "2026-08-13T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
-      "label": "CPI y/y",
+      "label": "PPI m/m",
       "importance": "high",
       "importance_label": "高",
-      "previous": "3.5%",
+      "previous": "-0.3%",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "0.2%",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -763,10 +763,10 @@
         "inline": "予想付近なら、現在のインフレ・政策判断を維持",
         "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 21,
+      "attention_score": 31,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
+        "surprise_likelihood": 0.93,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.76
@@ -784,7 +784,7 @@
       "importance_label": "高",
       "previous": "0.0%",
       "revised_previous": null,
-      "consensus": null,
+      "consensus": "0.2%",
       "nowcast": null,
       "nowcast_status": "not_available",
       "change_threshold": {
@@ -798,10 +798,10 @@
         "inline": "予想付近なら、現在のインフレ・政策判断を維持",
         "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
       },
-      "attention_score": 21,
+      "attention_score": 26,
       "attention_components": {
         "regime_relevance": 0.86,
-        "surprise_likelihood": 0.62,
+        "surprise_likelihood": 0.78,
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.76
@@ -1054,7 +1054,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-07T23:26:45.817+09:00",
+  "updated_at": "2026-08-08T16:23:47.238+09:00",
   "date": "2026-08-07",
   "snapshot_id": "macro-2026-08-07-macro-public-v3-cc0f34c5b72b9b71",
   "snapshot_content_hash": "cc0f34c5b72b9b71998a646dee81440cf6b954b97f9e55bfabdd6c54b6226a70",
