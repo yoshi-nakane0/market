@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-10T10:12:45.157+09:00",
-  "data_cutoff": "2026-08-08T23:01:26.164+09:00",
+  "generated_at": "2026-08-10T10:30:55.300+09:00",
+  "data_cutoff": "2026-08-10T10:28:43.327+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -97,7 +97,7 @@
         "key": "gdp_nowcast",
         "label": "実質GDP・現在四半期",
         "horizon": "2026-Q3",
-        "origin_date": "2026-08-08",
+        "origin_date": "2026-08-10",
         "target_period": {
           "key": "2026-Q3",
           "start_date": "2026-07-01",
@@ -131,7 +131,7 @@
         "key": "gdp_four_quarter",
         "label": "実質GDP・4四半期先",
         "horizon": "2027-Q3",
-        "origin_date": "2026-08-08",
+        "origin_date": "2026-08-10",
         "target_period": {
           "key": "2027-Q3",
           "start_date": "2027-07-01",
@@ -159,11 +159,11 @@
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-07",
+            "as_of_date": "2026-08-08",
             "value": 2.2975
           },
           {
-            "as_of_date": "2026-08-08",
+            "as_of_date": "2026-08-10",
             "value": 2.2975
           }
         ],
@@ -180,8 +180,8 @@
         "key": "core_pce",
         "label": "コアPCE",
         "horizon": "12か月先",
-        "origin_date": "2026-08-08",
-        "target_period": "2027-08-08",
+        "origin_date": "2026-08-10",
+        "target_period": "2027-08-10",
         "forecast_value": null,
         "candidate_value": 3.2865,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -200,11 +200,11 @@
         "unit": "percent",
         "basis": "yoy",
         "revision_pp": null,
-        "candidate_revision_pp": 0.0002,
+        "candidate_revision_pp": -0.1199,
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-08",
+            "as_of_date": "2026-08-10",
             "value": 3.2865
           }
         ],
@@ -213,7 +213,7 @@
         "interval": null,
         "candidate_interval": "1.58%〜5.91%（前年比）",
         "revision": null,
-        "candidate_revision": "+0ポイント",
+        "candidate_revision": "−0.12ポイント",
         "rationale": "コア物価、財、住居費、賃金、生産性、期待インフレを分けて推計",
         "display_allowed": true
       },
@@ -221,8 +221,8 @@
         "key": "unemployment",
         "label": "失業率",
         "horizon": "12か月先",
-        "origin_date": "2026-08-08",
-        "target_period": "2027-08-08",
+        "origin_date": "2026-08-10",
+        "target_period": "2027-08-10",
         "forecast_value": null,
         "candidate_value": 4.6608,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -245,11 +245,11 @@
         "history": [],
         "candidate_history": [
           {
-            "as_of_date": "2026-08-07",
+            "as_of_date": "2026-08-08",
             "value": 4.6608
           },
           {
-            "as_of_date": "2026-08-08",
+            "as_of_date": "2026-08-10",
             "value": 4.6608
           }
         ],
@@ -266,8 +266,8 @@
         "key": "policy_rate",
         "label": "政策反応の参考値",
         "horizon": "現在の機械的水準",
-        "origin_date": "2026-08-08",
-        "target_period": "2026-08-08",
+        "origin_date": "2026-08-10",
+        "target_period": "2026-08-10",
         "forecast_value": null,
         "candidate_value": 4.2104,
         "estimate_kind": "analysis_only_candidate_forecast",
@@ -384,7 +384,7 @@
         },
         {
           "label": "生産性",
-          "value": "2.93%（前年比）"
+          "value": "2.24%（前年比）"
         },
         {
           "label": "期待インフレ",
@@ -432,13 +432,13 @@
   },
   "outlook": {
     "one_month": {
-      "status": "provisional",
+      "status": "usable",
       "label": "1か月",
       "model_kind": "event_driven",
-      "base_case": "主要データ更新待ち。現在の1か月見通しは暫定判定。",
-      "improve_probability": null,
-      "stable_probability": null,
-      "deteriorate_probability": null,
+      "base_case": "横ばいが基本シナリオ",
+      "improve_probability": 0.2733836833713016,
+      "stable_probability": 0.5025774492994296,
+      "deteriorate_probability": 0.22403886732926875,
       "drivers": [
         "外部環境",
         "金融政策",
@@ -452,7 +452,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "low",
+      "confidence_label": "medium",
       "inputs": [
         "今後1か月の経済指標",
         "高頻度データ",
@@ -462,7 +462,7 @@
         "直近の改定方向"
       ],
       "validation": {
-        "status": "not_passed",
+        "status": "passed",
         "forecast_status": "verified",
         "sample_count": 118,
         "effective_sample_count": null,
@@ -476,13 +476,13 @@
       }
     },
     "three_month": {
-      "status": "provisional",
+      "status": "usable",
       "label": "3か月",
       "model_kind": "cycle_and_policy_transmission",
-      "base_case": "主要データ更新待ち。現在の3か月見通しは暫定判定。",
-      "improve_probability": null,
-      "stable_probability": null,
-      "deteriorate_probability": null,
+      "base_case": "横ばいが基本シナリオ",
+      "improve_probability": 0.24729733093298137,
+      "stable_probability": 0.4637481738455612,
+      "deteriorate_probability": 0.2889544952214574,
       "drivers": [
         "外部環境",
         "金融政策",
@@ -496,7 +496,7 @@
         "インフレが低下し、金融環境が緩む",
         "インフレが再加速する"
       ],
-      "confidence_label": "low",
+      "confidence_label": "medium",
       "inputs": [
         "景気先行指標",
         "新規受注",
@@ -508,7 +508,7 @@
         "企業利益のマクロ推計"
       ],
       "validation": {
-        "status": "not_passed",
+        "status": "passed",
         "forecast_status": "verified",
         "sample_count": 112,
         "effective_sample_count": null,
@@ -821,11 +821,11 @@
       "diagnostic_direction_label": "中立（参考）",
       "one_month": {
         "label": "20日",
-        "status": "not_available",
+        "status": "reference_only",
         "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
+          "bullish": 0.1163,
+          "neutral": 0.8031,
+          "bearish": 0.0805
         },
         "expected_change": null,
         "forecast_range": null,
@@ -837,11 +837,11 @@
       },
       "three_month": {
         "label": "60日",
-        "status": "not_available",
+        "status": "reference_only",
         "direction_probability": {
-          "bullish": null,
-          "neutral": null,
-          "bearish": null
+          "bullish": 0.1629,
+          "neutral": 0.7747,
+          "bearish": 0.0624
         },
         "expected_change": null,
         "forecast_range": null,
@@ -874,8 +874,7 @@
       "confidence_label": "low",
       "confidence_reasons": [
         "20日・60日の両方が利用条件を満たしていません",
-        "資産別の市場織り込み差が未検証です",
-        "データの鮮度または欠損条件が未合格です"
+        "資産別の市場織り込み差が未検証です"
       ],
       "scenarios": {
         "base": "中立。現時点ではマクロ上の優位性なし。",
@@ -922,7 +921,7 @@
       "reasons": []
     },
     "data_readiness": {
-      "status": "blocked",
+      "status": "ready",
       "reasons": [],
       "critical_missing_series": [],
       "critical_stale_series": [],
@@ -932,17 +931,16 @@
       "reference_warnings": []
     },
     "decision_readiness": {
-      "status": "no_trade",
+      "status": "caution",
       "important_event_soon": true,
       "reasons": [
-        "data_readiness_blocked",
         "important_event_soon"
       ]
     },
     "asset_readiness": {
       "sp500_futures": {
         "label": "S&P500",
-        "status": "blocked",
+        "status": "ready",
         "warnings": []
       }
     },
@@ -1058,21 +1056,21 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-10T10:12:45.157+09:00",
-  "date": "2026-08-08",
-  "snapshot_id": "macro-2026-08-08-macro-public-v3-3786df7d5ce34bc4",
-  "snapshot_content_hash": "3786df7d5ce34bc423810e732f38d17b532aff17d1bcde1d5c5f13c5dde250a0",
-  "as_of_date": "2026-08-08",
+  "updated_at": "2026-08-10T10:30:55.300+09:00",
+  "date": "2026-08-10",
+  "snapshot_id": "macro-2026-08-10-macro-public-v3-8091aedd3643fd0e",
+  "snapshot_content_hash": "8091aedd3643fd0e68e8450b6319ebe27fd7067662b29ef397bd79a618e56016",
+  "as_of_date": "2026-08-10",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-08-08T14:01:26.164Z",
+  "signal_at": "2026-08-10T01:28:43.327Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
     "session_calendar_status": "unverified",
-    "entry_session_date": "2026-08-10",
-    "entry_at": "2026-08-09T23:45:00.000Z",
-    "valid_until": "2026-08-09T23:45:00.000Z",
+    "entry_session_date": "2026-08-11",
+    "entry_at": "2026-08-10T23:45:00.000Z",
+    "valid_until": "2026-08-10T23:45:00.000Z",
     "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
   },
   "region": "米国",
@@ -1081,20 +1079,21 @@
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-08-08T13:55:18.990Z",
-    "stale_after": "2026-08-10T01:55:18.990Z",
+    "fetched_at": "2026-08-10T01:23:46.099Z",
+    "stale_after": "2026-08-11T13:23:46.099Z",
     "max_age_hours": 36,
-    "as_of_date": "2026-08-08",
+    "as_of_date": "2026-08-10",
     "checked_count": 26,
     "success_count": 26,
     "raw_fetch_status": "complete",
-    "official_status": "failed",
+    "official_status": "complete",
     "official_checked_count": 9,
-    "official_success_count": 3,
+    "official_success_count": 9,
     "official_skipped_count": 0,
-    "official_failure_count": 6,
+    "official_failure_count": 0,
     "sources": [
       "FRED",
+      "BLS",
       "BEA"
     ]
   },
@@ -1113,10 +1112,8 @@
     "reference_stale_count": 0,
     "reference_missing_count": 0,
     "data_readiness": {
-      "status": "blocked",
-      "reasons": [
-        "collection_failed"
-      ],
+      "status": "ready",
+      "reasons": [],
       "warnings": [],
       "supporting_warnings": [],
       "reference_warnings": [],
@@ -1127,8 +1124,8 @@
     },
     "vintage_integrity": "verified",
     "label": "データ品質",
-    "value": "33%",
-    "score": 0.33,
+    "value": "100%",
+    "score": 1,
     "freshness_status": "fresh",
     "metric_kind": "data_completeness_and_freshness_not_probability",
     "position_sizing_allowed": false
@@ -1223,7 +1220,6 @@
   "validation": {
     "status": "monitor_only",
     "reasons": [
-      "data_confidence_lt_0_75",
       "effective_sample_count_below_minimum",
       "independent_trade_count_below_minimum",
       "horizon_usage_permission_not_usable",
@@ -1232,10 +1228,7 @@
       "target_expectancy_not_positive",
       "profit_factor_lt_1_20",
       "non_realtime_backtest",
-      "event_calendar_not_officially_verified",
       "upstream_usage_permission_not_trade_candidate",
-      "official_source_check_incomplete",
-      "source_reconciliation_not_pass",
       "decision_target_not_trade_gate_target",
       "decision_target_series_not_trade_gate_target",
       "macro_decision_not_directional",
@@ -1253,8 +1246,8 @@
       "predictive_current_feature_target_mismatch",
       "predictive_current_features_unavailable_or_stale",
       "predictive_current_feature_timing_invalid",
+      "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
-      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
@@ -1654,8 +1647,8 @@
     "valid_until": null,
     "action": "wait",
     "label": "見送り",
-    "guidance": "最新データの更新後に再判定",
-    "reason_code": "data_pending"
+    "guidance": "方向が定まるまで待つ",
+    "reason_code": "no_direction"
   },
   "shock_assessment": {
     "status": "supportive",
