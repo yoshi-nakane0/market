@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T04:16:14.820Z",
+  "updated_at": "2026-08-10T14:11:45.213Z",
   "macro": {
     "date": "2026-08-10",
     "region": "米国",
@@ -206,9 +206,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-08-10T04:16:14.820Z",
+      "latest_attempt_at": "2026-08-10T14:11:45.213Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 40501,
+      "data_age_minutes": 40818,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
