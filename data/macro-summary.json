@@ -1,7 +1,7 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-10T10:30:55.300+09:00",
-  "data_cutoff": "2026-08-10T10:28:43.327+09:00",
+  "generated_at": "2026-08-10T23:40:11.252+09:00",
+  "data_cutoff": "2026-08-10T23:40:11.065+09:00",
   "economy": {
     "condition": "neutral",
     "condition_label": "中立",
@@ -741,6 +741,41 @@
       "source_label": "Forex Factory"
     },
     {
+      "id": "secondary_ff_2026-08-13_2130_usd_ppi-m-m",
+      "release_at": "2026-08-13T12:30:00.000Z",
+      "timezone": "Asia/Tokyo",
+      "label": "PPI m/m",
+      "importance": "high",
+      "importance_label": "高",
+      "previous": "-0.3%",
+      "revised_previous": null,
+      "consensus": "0.2%",
+      "nowcast": null,
+      "nowcast_status": "not_available",
+      "change_threshold": {
+        "status": "not_available",
+        "value": null,
+        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
+      },
+      "affected_assets": [],
+      "reactions": {
+        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
+        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
+        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
+      },
+      "attention_score": 36,
+      "attention_components": {
+        "regime_relevance": 0.86,
+        "surprise_likelihood": 0.93,
+        "decision_impact": 0.92,
+        "asset_sensitivity": 0.55,
+        "proximity": 0.9
+      },
+      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
+      "information_status": "secondary_confirmed",
+      "source_label": "Forex Factory"
+    },
+    {
       "id": "secondary_ff_2026-08-12_2130_usd_core-cpi-m-m",
       "release_at": "2026-08-12T12:30:00.000Z",
       "timezone": "Asia/Tokyo",
@@ -770,41 +805,6 @@
         "decision_impact": 0.92,
         "asset_sensitivity": 0.55,
         "proximity": 0.9
-      },
-      "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
-      "information_status": "secondary_confirmed",
-      "source_label": "Forex Factory"
-    },
-    {
-      "id": "secondary_ff_2026-08-13_2130_usd_ppi-m-m",
-      "release_at": "2026-08-13T12:30:00.000Z",
-      "timezone": "Asia/Tokyo",
-      "label": "PPI m/m",
-      "importance": "high",
-      "importance_label": "高",
-      "previous": "-0.3%",
-      "revised_previous": null,
-      "consensus": "0.2%",
-      "nowcast": null,
-      "nowcast_status": "not_available",
-      "change_threshold": {
-        "status": "not_available",
-        "value": null,
-        "description": "過去時点データによる校正が未完了のため、数値ラインは設定しません"
-      },
-      "affected_assets": [],
-      "reactions": {
-        "upside": "予想を上回る物価なら、利下げ後退と実質金利上昇を通じた株式逆風を再評価",
-        "inline": "予想付近なら、現在のインフレ・政策判断を維持",
-        "downside": "予想を下回る物価なら、政策余地の改善と金利低下余地を再評価"
-      },
-      "attention_score": 31,
-      "attention_components": {
-        "regime_relevance": 0.86,
-        "surprise_likelihood": 0.93,
-        "decision_impact": 0.92,
-        "asset_sensitivity": 0.55,
-        "proximity": 0.76
       },
       "ranking_method": "局面関連性×サプライズ可能性×判断変更度×資産感応度×発表までの近さ",
       "information_status": "secondary_confirmed",
@@ -910,13 +910,13 @@
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
-    "confidence_score_detail": 0.82,
+    "confidence_score_detail": 0.81,
     "confidence_reasons": [
       "主要データと複数モデルの方向が一致しています"
     ],
     "model_confidence": {
       "status": "verified",
-      "score": 0.82,
+      "score": 0.81,
       "label": "high",
       "reasons": []
     },
@@ -945,8 +945,8 @@
       }
     },
     "data_coverage": 1,
-    "model_agreement": 0.82,
-    "regime_stability": 1,
+    "model_agreement": 0.81,
+    "regime_stability": 0.99,
     "confidence_calibration": {
       "status": "verified",
       "source": "verified_model_artifact",
@@ -1056,14 +1056,14 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-10T10:30:55.300+09:00",
+  "updated_at": "2026-08-10T23:40:11.252+09:00",
   "date": "2026-08-10",
-  "snapshot_id": "macro-2026-08-10-macro-public-v3-8091aedd3643fd0e",
-  "snapshot_content_hash": "8091aedd3643fd0e68e8450b6319ebe27fd7067662b29ef397bd79a618e56016",
+  "snapshot_id": "macro-2026-08-10-macro-public-v3-806fcd7968bcdaeb",
+  "snapshot_content_hash": "806fcd7968bcdaeb64bfa7e88ad9a75a4cb7320258cacce32be7f2f78d718a30",
   "as_of_date": "2026-08-10",
   "model_version": "macro-public-v3",
   "snapshot_metadata_status": "verified",
-  "signal_at": "2026-08-10T01:28:43.327Z",
+  "signal_at": "2026-08-10T14:40:11.065Z",
   "signal_validity": {
     "status": "calendar_unverified",
     "valid_for_trade": false,
@@ -1075,12 +1075,12 @@
   },
   "region": "米国",
   "regime": "中立",
-  "risk_score": "0",
+  "risk_score": "1",
   "collection_status": {
     "status": "success",
     "label": "データ取得済み",
-    "fetched_at": "2026-08-10T01:23:46.099Z",
-    "stale_after": "2026-08-11T13:23:46.099Z",
+    "fetched_at": "2026-08-10T14:31:32.858Z",
+    "stale_after": "2026-08-12T02:31:32.858Z",
     "max_age_hours": 36,
     "as_of_date": "2026-08-10",
     "checked_count": 26,
@@ -1132,8 +1132,8 @@
   },
   "rule_strength": {
     "label": "ルール一致度",
-    "value": "82/100",
-    "score": 0.82,
+    "value": "81/100",
+    "score": 0.81,
     "status": "diagnostic_only",
     "metric_kind": "rule_agreement_score_not_probability",
     "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -1246,8 +1246,8 @@
       "predictive_current_feature_target_mismatch",
       "predictive_current_features_unavailable_or_stale",
       "predictive_current_feature_timing_invalid",
-      "macro_signal_before_model_decision_cutoff",
       "predictive_current_features_not_same_decision_cutoff",
+      "predictive_model_source_revision_not_committed",
       "supervised_probability_not_calibrated",
       "predictive_model_not_deployment_ready",
       "supervised_directional_confidence_insufficient",
@@ -1589,7 +1589,7 @@
   "decision": {
     "side": "range",
     "label": "レンジ",
-    "score": 0,
+    "score": 1,
     "scale_min": -100,
     "scale_max": 100,
     "long_threshold": 20,
