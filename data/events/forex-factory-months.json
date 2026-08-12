@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T00:10:01.345625Z",
+  "updated_at": "2026-08-12T06:20:01.701170Z",
   "timezone": "Asia/Tokyo",
   "source": "forex_factory_scrape",
   "url": "https://www.forexfactory.com/calendar",
@@ -2303,7 +2303,7 @@
       "date": "2026-08-12",
       "time": "15:00",
       "impact": "Low",
-      "actual": "",
+      "actual": "50.4%",
       "forecast": "",
       "previous": "52.7%",
       "revised": ""
