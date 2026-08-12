@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-12T14:12:15.610Z",
+  "updated_at": "2026-08-12T23:36:18.451Z",
   "macro": {
-    "date": "2026-08-11",
+    "date": "2026-08-12",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "-1",
+    "risk_score": "1",
     "summary": "成長は横ばい、インフレは安定、政策は引き締め的です。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
@@ -14,12 +14,12 @@
       },
       {
         "label": "レンジ",
-        "value": "37%",
+        "value": "38%",
         "tone": "neutral"
       },
       {
         "label": "ショート",
-        "value": "28%",
+        "value": "27%",
         "tone": "negative"
       }
     ],
@@ -31,7 +31,7 @@
       },
       {
         "label": "物価圧力",
-        "value": 48,
+        "value": 49,
         "tone": "neutral"
       },
       {
@@ -46,7 +46,7 @@
       },
       {
         "label": "金融環境",
-        "value": 55,
+        "value": 56,
         "tone": "positive"
       },
       {
@@ -56,8 +56,8 @@
       },
       {
         "label": "市場心理",
-        "value": 53,
-        "tone": "neutral"
+        "value": 54,
+        "tone": "positive"
       }
     ],
     "outlooks": [],
@@ -83,8 +83,8 @@
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "81/100",
-      "score": 0.81,
+      "value": "80/100",
+      "score": 0.8,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -200,9 +200,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-08-12T14:12:15.610Z",
+      "latest_attempt_at": "2026-08-12T23:36:18.451Z",
       "last_success_at": "2026-07-13T05:54:04.479Z",
-      "data_age_minutes": 43698,
+      "data_age_minutes": 44262,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-07-14T05:54:04.479Z",
       "latest_attempt_accepted": false,
