@@ -1,6 +1,6 @@
 {
   "schema_version": "basecalc-v1",
-  "updated_at": "2026-08-15T13:22:11.680Z",
+  "updated_at": "2026-08-15T23:16:07.070Z",
   "basecalc": {
     "observation_time": "16:40 JST",
     "market_status": "holiday",
@@ -23,12 +23,14 @@
       "stop_required": true,
       "stop_reasons": [
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最新取得の分析状態を確認できません"
       ],
       "analysis_stop_required": true,
       "analysis_stop_reasons": [
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最新取得の分析状態を確認できません"
       ],
@@ -36,14 +38,15 @@
       "execution_stop_reasons": [
         "売買コストを確認できません",
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
         "最新取得を採用できません",
         "最新取得の分析状態を確認できません",
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-08-15T13:22:11.680Z",
+      "latest_attempt_at": "2026-08-15T23:16:07.070Z",
       "last_success_at": "2026-08-15T07:49:23.370Z",
-      "data_age_minutes": 333,
+      "data_age_minutes": 927,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-08-16T07:49:23.370Z",
       "latest_attempt_accepted": false,

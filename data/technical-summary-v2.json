@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-15T13:22:19.852Z",
+  "generated_at": "2026-08-15T23:16:12.887Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-08-15までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-08-15T13:22:11.680Z",
-    "latest_attempt_at": "2026-08-15T13:22:11.680Z",
-    "stale_after": "2026-08-16T13:22:11.680Z",
+    "last_success_at": "2026-08-15T23:16:07.070Z",
+    "latest_attempt_at": "2026-08-15T23:16:07.070Z",
+    "stale_after": "2026-08-16T23:16:07.070Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -52,7 +52,7 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 68690,
+      "price": 68720,
       "price_type": "清算値",
       "as_of": "2026-08-14",
       "current_phase": {
@@ -84,8 +84,8 @@
       },
       "direction_scores": {
         "long": 16,
-        "range": 40,
-        "short": 44,
+        "range": 43,
+        "short": 41,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -96,7 +96,7 @@
           "direction_label": "上昇",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 88,
+          "confidence_score": 87,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから上昇を基本とします。",
           "reasons": [
@@ -104,7 +104,7 @@
             "MACDが上向き",
             "10日騰落が上向き"
           ],
-          "change_condition": "支持線 60,520 を終値で下回る"
+          "change_condition": "支持線 60,920 を終値で下回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -113,7 +113,7 @@
           "direction_label": "上昇",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 82,
+          "confidence_score": 81,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から上昇を基本とします。",
           "reasons": [
@@ -121,31 +121,31 @@
             "DMIが上向き",
             "価格と20日平均が上向き"
           ],
-          "change_condition": "支持線 60,520 を終値で下回る"
+          "change_condition": "支持線 60,920 を終値で下回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 66316.005665,
-          "ema50": 65943.717258,
-          "rsi14": 59.643,
-          "macd": 282.804162,
-          "macd_signal": -308.587498,
-          "macd_histogram": 591.391659,
-          "atr14": 1723.506892,
-          "atr_percent": 2.509,
-          "adx14": 16.95,
-          "plus_di14": 31.698,
-          "minus_di14": 24.176,
-          "bollinger_upper": 69177.017963,
-          "bollinger_middle": 65370.5,
-          "bollinger_lower": 61563.982037,
-          "bollinger_bandwidth": 11.646,
-          "roc10": 7.8
+          "ema20": 66472.173859,
+          "ema50": 66052.70068,
+          "rsi14": 59.311,
+          "macd": 380.392282,
+          "macd_signal": -267.711584,
+          "macd_histogram": 648.103866,
+          "atr14": 1638.737212,
+          "atr_percent": 2.385,
+          "adx14": 17.062,
+          "plus_di14": 29.445,
+          "minus_di14": 21.912,
+          "bollinger_upper": 69642.893238,
+          "bollinger_middle": 65442,
+          "bollinger_lower": 61241.106762,
+          "bollinger_bandwidth": 12.839,
+          "roc10": 9.166
         },
         "levels": {
-          "support": 60520,
-          "resistance": 68840
+          "support": 60920,
+          "resistance": 69550
         },
         "data_quality": {
           "valid_bars": 252,
@@ -235,29 +235,29 @@
       },
       "details": {
         "indicators": {
-          "ema20": 53239.645438,
-          "ema50": 52326.303058,
-          "rsi14": 59.391,
-          "macd": 502.782745,
-          "macd_signal": 465.569665,
-          "macd_histogram": 37.21308,
-          "atr14": 536.112448,
-          "atr_percent": 0.998,
-          "adx14": 21.137,
-          "plus_di14": 30.042,
-          "minus_di14": 18.153,
-          "bollinger_upper": 54845.623881,
-          "bollinger_middle": 52991.597461,
-          "bollinger_lower": 51137.571041,
-          "bollinger_bandwidth": 6.997,
-          "roc10": 2.377
+          "ema20": 53226.034945,
+          "ema50": 52264.542637,
+          "rsi14": 59.513,
+          "macd": 518.828504,
+          "macd_signal": 486.937601,
+          "macd_histogram": 31.890902,
+          "atr14": 543.540144,
+          "atr_percent": 1.012,
+          "adx14": 22.886,
+          "plus_di14": 30.934,
+          "minus_di14": 18.189,
+          "bollinger_upper": 54843.55206,
+          "bollinger_middle": 53013.086523,
+          "bollinger_lower": 51182.620987,
+          "bollinger_bandwidth": 6.906,
+          "roc10": 2.92
         },
         "levels": {
           "support": 51542.058594,
           "resistance": 54744.328125
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 248,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -410,8 +410,8 @@
         }
       },
       "direction_scores": {
-        "long": 40,
-        "range": 38,
+        "long": 39,
+        "range": 39,
         "short": 22,
         "metric_kind": "directional_fit_not_probability"
       },
@@ -453,29 +453,29 @@
       },
       "details": {
         "indicators": {
-          "ema20": 26144.322518,
-          "ema50": 25857.027729,
-          "rsi14": 60.294,
-          "macd": 266.802016,
-          "macd_signal": 135.303091,
-          "macd_histogram": 131.498925,
-          "atr14": 398.365582,
-          "atr_percent": 1.49,
-          "adx14": 20.234,
-          "plus_di14": 27.139,
-          "minus_di14": 20.326,
-          "bollinger_upper": 27321.902774,
-          "bollinger_middle": 25848.521875,
-          "bollinger_lower": 24375.140976,
-          "bollinger_bandwidth": 11.4,
-          "roc10": 5.341
+          "ema20": 26152.454025,
+          "ema50": 25858.608085,
+          "rsi14": 59.82,
+          "macd": 253.455732,
+          "macd_signal": 121.801669,
+          "macd_histogram": 131.654062,
+          "atr14": 411.525523,
+          "atr_percent": 1.54,
+          "adx14": 18.831,
+          "plus_di14": 27.439,
+          "minus_di14": 21.286,
+          "bollinger_upper": 27360.782375,
+          "bollinger_middle": 25886.994824,
+          "bollinger_lower": 24413.207273,
+          "bollinger_bandwidth": 11.386,
+          "roc10": 6.397
         },
         "levels": {
           "support": 24425.339844,
           "resistance": 26875.519531
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 248,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
