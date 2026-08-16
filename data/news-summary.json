@@ -1,0 +1,616 @@
+{
+  "schema_version": "news-v1",
+  "page": "news",
+  "generated_at": "2026-08-16T22:21:50.563916+09:00",
+  "updated_at": "2026-08-16T22:21:50.563916+09:00",
+  "as_of_date": "2026-08-16",
+  "collection_status": {
+    "status": "ok",
+    "label": "取得正常",
+    "stale_after": "2026-08-21T22:21:50.563916+09:00",
+    "expected_interval_days": 4,
+    "latest_article_date": "2026-07-30",
+    "latest_article_age_days": 17,
+    "window_days": 30,
+    "person_count": 5,
+    "covered_person_count": 4,
+    "no_result_person_count": 0,
+    "report_count": 9
+  },
+  "conclusion": {
+    "as_of_date": "2026-08-16",
+    "score": 2.2,
+    "stance": "short",
+    "label": "やや弱気",
+    "certainty": "高",
+    "counts": {
+      "long": 0,
+      "neutral": 1,
+      "short": 3
+    },
+    "agreement": 0.75,
+    "included_person_count": 4,
+    "excluded_people": [
+      {
+        "name": "Jan Hatzius",
+        "reason": "対象期間内に一次情報なし"
+      }
+    ],
+    "topic_breakdown": [
+      {
+        "target": "マクロ",
+        "score": 2.3,
+        "stance": "short",
+        "label": "やや弱気",
+        "count": 3
+      },
+      {
+        "target": "株式",
+        "score": 2.0,
+        "stance": "short",
+        "label": "やや弱気",
+        "count": 1
+      }
+    ],
+    "previous": {
+      "as_of_date": "2026-07-30",
+      "score": 2.2,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 0,
+        "neutral": 1,
+        "short": 4
+      }
+    },
+    "change": {
+      "score_delta": 0.0,
+      "direction": "flat",
+      "label": "横ばい"
+    },
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "neutral": 3
+    },
+    "window_days": 30,
+    "summary": "有効な4人のうち3人が弱気です。マクロはやや弱気、株式はやや弱気です。"
+  },
+  "conclusion_history": [
+    {
+      "as_of_date": "2026-06-30",
+      "score": 4.0,
+      "stance": "long",
+      "label": "強気",
+      "included_person_count": 1,
+      "counts": {
+        "long": 1,
+        "neutral": 0,
+        "short": 0
+      }
+    },
+    {
+      "as_of_date": "2026-07-02",
+      "score": 3.0,
+      "stance": "neutral",
+      "label": "中立",
+      "included_person_count": 2,
+      "counts": {
+        "long": 1,
+        "neutral": 0,
+        "short": 1
+      }
+    },
+    {
+      "as_of_date": "2026-07-07",
+      "score": 3.0,
+      "stance": "neutral",
+      "label": "中立",
+      "included_person_count": 3,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 1
+      }
+    },
+    {
+      "as_of_date": "2026-07-08",
+      "score": 2.7,
+      "stance": "neutral",
+      "label": "中立",
+      "included_person_count": 4,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 2
+      }
+    },
+    {
+      "as_of_date": "2026-07-21",
+      "score": 2.5,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-07-23",
+      "score": 2.5,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-07-25",
+      "score": 2.5,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-07-26",
+      "score": 2.5,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 1,
+        "neutral": 1,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-07-30",
+      "score": 2.2,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 5,
+      "counts": {
+        "long": 0,
+        "neutral": 1,
+        "short": 4
+      }
+    },
+    {
+      "as_of_date": "2026-08-16",
+      "score": 2.2,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 4,
+      "counts": {
+        "long": 0,
+        "neutral": 1,
+        "short": 3
+      }
+    }
+  ],
+  "people": [
+    {
+      "id": "jan-hatzius",
+      "name": "Jan Hatzius",
+      "specialty": "米国景気・FRB",
+      "order": 1,
+      "included_in_conclusion": false,
+      "latest_article_id": "jan-hatzius-2026-07-02",
+      "counted_article_id": null,
+      "article_count": 1,
+      "trend": {
+        "direction": "unknown",
+        "label": "初回の見解",
+        "streak": {
+          "stance": "short",
+          "count": 1
+        },
+        "latest_evaluation": 2,
+        "previous_evaluation": null,
+        "delta": null,
+        "sample_count": 1,
+        "points": [
+          {
+            "article_date": "2026-07-02",
+            "evaluation": 2,
+            "stance": "short"
+          }
+        ]
+      },
+      "article_ids": [
+        "jan-hatzius-2026-07-02"
+      ]
+    },
+    {
+      "id": "christophe-barraud",
+      "name": "Christophe Barraud",
+      "specialty": "短期マクロ・政策",
+      "order": 2,
+      "included_in_conclusion": true,
+      "latest_article_id": "christophe-barraud-2026-07-26",
+      "counted_article_id": "christophe-barraud-2026-07-26",
+      "article_count": 2,
+      "trend": {
+        "direction": "flat",
+        "label": "2回連続で中立",
+        "streak": {
+          "stance": "neutral",
+          "count": 2
+        },
+        "latest_evaluation": 3,
+        "previous_evaluation": 3,
+        "delta": 0,
+        "sample_count": 2,
+        "points": [
+          {
+            "article_date": "2026-07-07",
+            "evaluation": 3,
+            "stance": "neutral"
+          },
+          {
+            "article_date": "2026-07-26",
+            "evaluation": 3,
+            "stance": "neutral"
+          }
+        ]
+      },
+      "article_ids": [
+        "christophe-barraud-2026-07-26",
+        "christophe-barraud-2026-07-07"
+      ]
+    },
+    {
+      "id": "torsten-slok",
+      "name": "Torsten Slok",
+      "specialty": "金利・信用・成長",
+      "order": 3,
+      "included_in_conclusion": true,
+      "latest_article_id": "torsten-slok-2026-07-30",
+      "counted_article_id": "torsten-slok-2026-07-30",
+      "article_count": 2,
+      "trend": {
+        "direction": "down",
+        "label": "強気→弱気に転換",
+        "streak": {
+          "stance": "short",
+          "count": 1
+        },
+        "latest_evaluation": 2,
+        "previous_evaluation": 4,
+        "delta": -2,
+        "sample_count": 2,
+        "points": [
+          {
+            "article_date": "2026-06-30",
+            "evaluation": 4,
+            "stance": "long"
+          },
+          {
+            "article_date": "2026-07-30",
+            "evaluation": 2,
+            "stance": "short"
+          }
+        ]
+      },
+      "article_ids": [
+        "torsten-slok-2026-07-30",
+        "torsten-slok-2026-06-30"
+      ]
+    },
+    {
+      "id": "takahide-kiuchi",
+      "name": "木内登英",
+      "specialty": "日銀・円相場・日本経済",
+      "order": 4,
+      "included_in_conclusion": true,
+      "latest_article_id": "takahide-kiuchi-2026-07-23",
+      "counted_article_id": "takahide-kiuchi-2026-07-23",
+      "article_count": 2,
+      "trend": {
+        "direction": "flat",
+        "label": "2回連続で弱気",
+        "streak": {
+          "stance": "short",
+          "count": 2
+        },
+        "latest_evaluation": 2,
+        "previous_evaluation": 2,
+        "delta": 0,
+        "sample_count": 2,
+        "points": [
+          {
+            "article_date": "2026-07-21",
+            "evaluation": 2,
+            "stance": "short"
+          },
+          {
+            "article_date": "2026-07-23",
+            "evaluation": 2,
+            "stance": "short"
+          }
+        ]
+      },
+      "article_ids": [
+        "takahide-kiuchi-2026-07-23",
+        "takahide-kiuchi-2026-07-21"
+      ]
+    },
+    {
+      "id": "jeffrey-degraaf",
+      "name": "Jeffrey deGraaf",
+      "specialty": "株式テクニカル・市場内部",
+      "order": 5,
+      "included_in_conclusion": true,
+      "latest_article_id": "jeffrey-degraaf-2026-07-25",
+      "counted_article_id": "jeffrey-degraaf-2026-07-25",
+      "article_count": 2,
+      "trend": {
+        "direction": "flat",
+        "label": "2回連続で弱気",
+        "streak": {
+          "stance": "short",
+          "count": 2
+        },
+        "latest_evaluation": 2,
+        "previous_evaluation": 2,
+        "delta": 0,
+        "sample_count": 2,
+        "points": [
+          {
+            "article_date": "2026-07-08",
+            "evaluation": 2,
+            "stance": "short"
+          },
+          {
+            "article_date": "2026-07-25",
+            "evaluation": 2,
+            "stance": "short"
+          }
+        ]
+      },
+      "article_ids": [
+        "jeffrey-degraaf-2026-07-25",
+        "jeffrey-degraaf-2026-07-08"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "torsten-slok-2026-07-30",
+      "person": "Torsten Slok",
+      "person_id": "torsten-slok",
+      "specialty": "金利・信用・成長",
+      "article_date": "2026-07-30",
+      "age_days": 17,
+      "title": "Torsten Slok: Inflation is still running at very high levels",
+      "target": "マクロ",
+      "period": "不明",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "Torsten Slok氏は、インフレが依然として非常に高い水準で推移していると指摘した。加えて、AI投資、財政赤字、地政学的リスクが金利を長期間高止まりさせる可能性があると説明。高金利の長期化は株式市場にとって重しとなり、金融環境の改善を遅らせる要因になるとの見方を示した。",
+      "points": [
+        "インフレは依然として非常に高い水準にあると指摘",
+        "AI投資、財政赤字、地政学的リスクにより金利は長期間高止まりする可能性がある",
+        "金利高止まりは株式市場にとって悪材料となり、株式市場を圧迫する可能性がある"
+      ],
+      "source_type": "報道記事",
+      "source_class": "直接引用",
+      "source_url": "https://www.cnbc.com/video/2026/07/30/torsten-slok-inflation-is-still-running-at-very-high-levels.html",
+      "no_result": false
+    },
+    {
+      "id": "christophe-barraud-2026-07-26",
+      "person": "Christophe Barraud",
+      "person_id": "christophe-barraud",
+      "specialty": "短期マクロ・政策",
+      "article_date": "2026-07-26",
+      "age_days": 21,
+      "title": "テクノロジー株・債券・円を確認する週次チャート",
+      "target": "マクロ",
+      "period": "短期",
+      "evaluation": 3,
+      "stance": "neutral",
+      "stance_label": "中立",
+      "body": "Christophe Barraud氏は、2026年第30週のマクロ・金融市場チャートを整理し、テクノロジー株、ハイパースケーラー、企業債務、債券、円を注目テーマとして示した。公式サイトの発信は、個別の方向性や具体的な数値目標を断定するものではなく、複数のチャートから市場の変化を確認する形式である。今回も特定の売買方向より、判断材料の提示を重視した内容と整理できる。",
+      "points": [
+        "2026年第30週のマクロ・金融市場チャートを週次で整理した。",
+        "注目テーマとしてテクノロジー、ハイパースケーラー、企業債務、債券、円を挙げた。",
+        "本人の公式サイトでは、チャートを通じてマクロ経済と金融市場の動きを確認する形式で発信している。",
+        "今回確認できた記事では、株価指数や金利などの具体的な数値目標は示されていない。",
+        "方向性を断定するより、市場の変化を判断するための材料を提示する内容である。"
+      ],
+      "source_type": "本人公式サイト",
+      "source_class": "一次情報",
+      "source_url": "https://www.christophe-barraud.com/top-10-macro-financial-charts-of-the-week-w30-2026/",
+      "no_result": false
+    },
+    {
+      "id": "jeffrey-degraaf-2026-07-25",
+      "person": "Jeffrey deGraaf",
+      "person_id": "jeffrey-degraaf",
+      "specialty": "株式テクニカル・市場内部",
+      "article_date": "2026-07-25",
+      "age_days": 22,
+      "title": "株式市場はモメンタム低下を警戒する局面",
+      "target": "株式",
+      "period": "短期",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "Jeffrey deGraaf氏は、現在の市場を「モメンタム・クラッシュ環境」と表現し、株式市場の上昇を支えてきた勢いが弱まり、方向が変化しているとの見方を示した。市場全体の急落を断定したものではなく、具体的な指数目標も示していないが、短期的なリスクへの警戒を促す発言である。株式は強気を維持するより、モメンタム低下を確認する局面と整理できる。",
+      "points": [
+        "現在の市場環境を『モメンタム・クラッシュ環境』と表現した。",
+        "株式市場の上昇を支えてきた勢いが弱まり、市場の方向が変化していると説明した。",
+        "発言の中心は株式市場のテクニカルな勢いと市場内部の変化であり、具体的な指数目標は示されていない。",
+        "市場全体の急落を断定するのではなく、短期的なリスクが高まっているとの警戒を示した。",
+        "株式については強気を維持するより、モメンタム低下を確認する局面と整理できる。"
+      ],
+      "source_type": "本人出演動画（CNBC）",
+      "source_class": "一次情報",
+      "source_url": "https://www.cnbc.com/video/2026/07/24/renaissances-jeff-degraaff-on-why-he-is-calling-the-moment-a-momentum-crash-environment-for-the-market.html",
+      "no_result": false
+    },
+    {
+      "id": "takahide-kiuchi-2026-07-23",
+      "person": "木内登英",
+      "person_id": "takahide-kiuchi",
+      "specialty": "日銀・円相場・日本経済",
+      "article_date": "2026-07-23",
+      "age_days": 24,
+      "title": "米国の代替関税は不確定、今後縮小の可能性",
+      "target": "マクロ",
+      "period": "中期",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "木内登英氏は、米国の代替関税を巡り、通商法301条に基づく新たな関税案は現時点で確定しておらず、複数の展開が残ると説明した。日本に12.5％が適用される場合は実質GDPを押し下げる可能性がある一方、司法と世論の壁によりトランプ関税は行き詰まり、今後縮小に向かう可能性も示した。日本経済には関税リスクが残ると整理している。",
+      "points": [
+        "通商法122条に基づく一律10％の代替関税は、150日の期限が7月24日に迫っていた。",
+        "通商法301条に基づく新たな代替関税案では、日本に12.5％が適用される可能性があると説明した。",
+        "日本への関税が10％から12.5％へ上がる場合、日本の実質GDPを1年間で0.06％押し下げる計算を示した。",
+        "関税案はパブリックコメントなどを経て決まるため、現時点では確定的ではないとした。",
+        "司法と世論の双方に阻まれ、トランプ関税は今後縮小に向かう可能性があるとの見方を示した。"
+      ],
+      "source_type": "本人執筆・公式コラム（野村総合研究所）",
+      "source_class": "一次情報",
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260723.html",
+      "no_result": false
+    },
+    {
+      "id": "takahide-kiuchi-2026-07-21",
+      "person": "木内登英",
+      "person_id": "takahide-kiuchi",
+      "specialty": "日銀・円相場・日本経済",
+      "article_date": "2026-07-21",
+      "age_days": 26,
+      "title": "骨太ショックと骨太方針原案の修正：小手先の対応では金融市場の信頼を取り戻すことはできない",
+      "target": "マクロ",
+      "period": "短期",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "木内登英氏は、骨太の方針で日本銀行の自主性や財政健全化に関する表現を修正しても、政府による日銀への政治介入や積極財政への懸念は払拭できないと指摘した。財源が不明確な消費税減税なども財政悪化懸念を強め、円安・債券安を助長すると分析。金融市場の信頼回復には政策姿勢の大幅な見直しが必要だと主張している。",
+      "points": [
+        "政府が日銀の金融政策に関与するとの懸念や、財政健全化姿勢の後退が円安・債券安を招いていると分析",
+        "骨太の方針の文言修正や脚注追加だけでは市場の懸念は解消せず、財源のない消費税減税議論も財政悪化懸念を高めると予測",
+        "マクロ面では金融市場の信頼低下と円安・債券安に対して弱気であり、政府には財政・金融政策の信頼回復策が必要と指摘"
+      ],
+      "source_type": "公式発表",
+      "source_class": "直接引用",
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260721.html",
+      "no_result": false
+    },
+    {
+      "id": "jeffrey-degraaf-2026-07-08",
+      "person": "Jeffrey deGraaf",
+      "person_id": "jeffrey-degraaf",
+      "specialty": "株式テクニカル・市場内部",
+      "article_date": "2026-07-08",
+      "age_days": 39,
+      "title": "Some signals of peaks in memory stocks: Renaissance Macro’s deGraaf",
+      "target": "株式",
+      "period": "短期",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "Jeffrey deGraafは、高モメンタム株の取引は終わっていないものの、2000年当時に近い極端な水準に達し、ベータ株・モメンタム株・低品質株が同じ取引に集中しているため、2026年夏の残りは調整や危険性に注意が必要と述べた。半導体株のファンダメンタルズは株価のピークより約2四半期遅れる傾向があり、Micronなどメモリー株の高い粗利益率もピーク時に見られる兆候と指摘した。一方、持続性の判断は今後1～2年では前向きでも、今後1～3カ月は大幅調整の可能性があるとした。",
+      "points": [
+        "高モメンタム株への資金集中と極端な上昇により、メモリー株には短期的な調整リスクがある",
+        "半導体の業績や需給の変化は株価に約2四半期遅れるため、業績が崩れる前に株価が警告を示す可能性がある",
+        "今後1～3カ月は弱気寄りだが、メモリー需要の持続性を含む長期的な投資見通しまで否定した発言ではない"
+      ],
+      "source_type": "その他",
+      "source_class": "直接引用",
+      "source_url": "https://www.cnbc.com/video/2026/07/06/some-signals-of-peaks-in-memory-stocks-renaissance-macros-degraaf.html",
+      "no_result": false
+    },
+    {
+      "id": "christophe-barraud-2026-07-07",
+      "person": "Christophe Barraud",
+      "person_id": "christophe-barraud",
+      "specialty": "短期マクロ・政策",
+      "article_date": "2026-07-07",
+      "age_days": 40,
+      "title": "Bloomberg Top Forecasters Q2 2026 | 1st place: U.S. | 1st place: China | 1st place: Eurozone",
+      "target": "マクロ",
+      "period": "不明",
+      "evaluation": 3,
+      "stance": "neutral",
+      "stance_label": "中立",
+      "body": "Christophe Barraud氏は、2026年第2四半期のBloomberg予測ランキングで、米国、ユーロ圏、中国の主要3経済圏についてトップ予測者に選ばれたと発表した。景気循環は変化し続けるため、ランキングは一時点の評価にすぎず、データを継続的に検証し、謙虚さを保つことが重要だと述べている。具体的な成長率、インフレ率、金利、株価などの予測値や方向性は示していない。",
+      "points": [
+        "米国、ユーロ圏、中国の3経済圏でBloombergのトップ予測者に選ばれたと本人が報告",
+        "ランキングは一時点の評価であり、経済の変化に応じてデータを検証し続ける必要があると説明",
+        "具体的なマクロ指標や株価の予測値はなく、相場の強弱は中立と判定"
+      ],
+      "source_type": "本人公式サイト",
+      "source_class": "一次情報",
+      "source_url": "https://www.christophe-barraud.com/%E2%98%86%E2%98%86%E2%98%86-bloomberg-top-forecasters-q2-2026-1st-place-u-s-1st-place-china-1st-place-eurozone-%E2%98%86%E2%98%86%E2%98%86/",
+      "no_result": false
+    },
+    {
+      "id": "jan-hatzius-2026-07-02",
+      "person": "Jan Hatzius",
+      "person_id": "jan-hatzius",
+      "specialty": "米国景気・FRB",
+      "article_date": "2026-07-02",
+      "age_days": 45,
+      "title": "米雇用の減速は景気とFRB政策への弱気材料",
+      "target": "マクロ",
+      "period": "短期",
+      "evaluation": 2,
+      "stance": "short",
+      "stance_label": "やや弱気",
+      "body": "Jan Hatzius氏は、6月の米雇用統計について、非農業部門雇用者数が市場予想を下回り、基調的な雇用増加も前月の月13万人から月7.4万人へ減速したと説明した。失業率は4.2％へ低下したものの、労働力人口の減少を伴うため一部割り引くべきだと指摘。雇用の減速は米景気と今後のFRB政策に対する弱気材料と整理した。",
+      "points": [
+        "6月の米非農業部門雇用者数は市場予想を下回った。",
+        "本人の推計では、基調的な雇用増加は月74,000人で、前月の月130,000人から減速した。",
+        "失業率は4.2％へ低下したが、労働力人口の大きな減少を伴っており、低下の意味は一部割り引くべきだとした。",
+        "雇用の減速は米景気と今後の金融政策に対する弱気材料である。",
+        "6月上旬の強い雇用統計では、市場が長期の高金利を織り込み、株式市場が年初来で最も大きく下落したと振り返った。"
+      ],
+      "source_type": "SNS（本人公式LinkedIn）",
+      "source_class": "一次情報",
+      "source_url": "https://www.linkedin.com/posts/jan-hatzius_goldman-sachs-hatzius-on-june-jobs-reports-activity-7478804189226274817-Sr5m",
+      "no_result": false
+    },
+    {
+      "id": "torsten-slok-2026-06-30",
+      "person": "Torsten Slok",
+      "person_id": "torsten-slok",
+      "specialty": "金利・信用・成長",
+      "article_date": "2026-06-30",
+      "age_days": 47,
+      "title": "AI・産業投資と政策支援が成長を支える",
+      "target": "マクロ",
+      "period": "中期",
+      "evaluation": 4,
+      "stance": "long",
+      "stance_label": "やや強気",
+      "body": "Torsten Slok氏は、AI投資が技術分野だけでなく経済全体へ影響する段階に進み、製造業、インフラ、エネルギー、防衛、供給網などへの投資が成長を支えると説明した。政府の政策支援も下支え要因に挙げている。一方で、AI・産業投資はインフレ、金利、信用市場、資産配分にも影響するため、今後数か月は成長だけでなく物価と金利の動きも確認する必要があるとした。",
+      "points": [
+        "AIブームは単なる技術分野の話を超え、経済全体に影響する段階へ進んでいると説明した。",
+        "製造業への投資、インフラ、エネルギー、防衛、供給網などを含む『産業の再成長』が成長を支えるとした。",
+        "政府の政策支援も成長を下支えする要因として挙げた。",
+        "AI投資と産業投資は、インフレ、金利、信用市場、資産配分に影響すると説明した。",
+        "今後数か月は、成長だけでなくインフレと金利の動きを確認する必要があるとした。"
+      ],
+      "source_type": "本人出演動画・公式見通し（Apollo）",
+      "source_class": "一次情報",
+      "source_url": "https://www.apollo.com/insights-news/insights/the-view-from-apollo/2026/06/2026-mid-year-outlook",
+      "no_result": false
+    }
+  ]
+}
