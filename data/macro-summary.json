@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-18T20:46:52.461+09:00",
+  "generated_at": "2026-08-18T20:58:00.901+09:00",
   "data_cutoff": "2026-08-18T18:57:19.206+09:00",
   "economy": {
     "condition": "neutral",
@@ -876,13 +876,6 @@
         "important_event_soon"
       ]
     },
-    "asset_readiness": {
-      "sp500_futures": {
-        "label": "S&P500",
-        "status": "ready",
-        "warnings": []
-      }
-    },
     "data_coverage": 1,
     "model_agreement": 0.81,
     "regime_stability": 0.96,
@@ -995,7 +988,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-18T20:46:52.461+09:00",
+  "updated_at": "2026-08-18T20:58:00.901+09:00",
   "date": "2026-08-18",
   "snapshot_id": "macro-2026-08-18-macro-public-v3-71da41b1de7681b5",
   "snapshot_content_hash": "71da41b1de7681b5f83ee6ee3819f8c0048971f0546d9bf661b2b7e66a7ca691",
