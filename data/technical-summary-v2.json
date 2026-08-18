@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-18T07:59:48.183Z",
+  "generated_at": "2026-08-18T13:34:37.543Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -9,7 +9,7 @@
     "price_type": "清算値・終値",
     "next_update": "次営業日",
     "last_success_at": "2026-08-18T07:59:42.336Z",
-    "latest_attempt_at": "2026-08-18T07:59:42.336Z",
+    "latest_attempt_at": "2026-08-18T13:34:19.188Z",
     "stale_after": "2026-08-19T07:59:42.336Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
