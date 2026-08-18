@@ -1,6 +1,6 @@
 {
   "schema_version": "macro-v2",
-  "generated_at": "2026-08-18T18:59:58.120+09:00",
+  "generated_at": "2026-08-18T20:46:52.461+09:00",
   "data_cutoff": "2026-08-18T18:57:19.206+09:00",
   "economy": {
     "condition": "neutral",
@@ -95,7 +95,7 @@
         "policy",
         "financial_conditions"
       ],
-      "risk_asset_impact": "asset_outlook",
+      "risk_asset_impact": "asset_bias",
       "market_pricing": "market_pricing"
     }
   },
@@ -846,102 +846,6 @@
       "source_label": "Forex Factory"
     }
   ],
-  "asset_outlook": {
-    "sp500_futures": {
-      "label": "S&P500",
-      "status": "reference_only",
-      "current_macro_direction": "no_edge",
-      "current_macro_direction_label": "優位性なし",
-      "diagnostic_direction": "neutral",
-      "diagnostic_direction_label": "中立（参考）",
-      "one_month": {
-        "label": "20日",
-        "status": "reference_only",
-        "direction_probability": {
-          "bullish": 0.1048,
-          "neutral": 0.8189,
-          "bearish": 0.0762
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "candidate",
-        "sample_count": 274,
-        "brier_score": 0.1671,
-        "calibration_error": 0.0999
-      },
-      "three_month": {
-        "label": "60日",
-        "status": "reference_only",
-        "direction_probability": {
-          "bullish": 0.1857,
-          "neutral": 0.7472,
-          "bearish": 0.0672
-        },
-        "expected_change": null,
-        "forecast_range": null,
-        "usage_permission": "monitor_only",
-        "forecast_status": "candidate",
-        "sample_count": 75,
-        "brier_score": 0.1592,
-        "calibration_error": 0.1809
-      },
-      "market_pricing": {
-        "status": "not_available",
-        "label": "資産別の織り込み未検証",
-        "general_alignment": "おおむね反映済み",
-        "gap": null,
-        "macro_expected_change": null,
-        "priced_change": null,
-        "as_of_date": ""
-      },
-      "drivers": [
-        {
-          "label": "金融政策",
-          "impact": "risk"
-        },
-        {
-          "label": "外部環境",
-          "impact": "support"
-        }
-      ],
-      "next_catalyst": null,
-      "confidence_label": "low",
-      "confidence_reasons": [
-        "20日・60日の両方が利用条件を満たしていません",
-        "資産別の市場織り込み差が未検証です"
-      ],
-      "scenarios": {
-        "base": "中立。現時点ではマクロ上の優位性なし。",
-        "upside": [
-          "インフレ低下が早まる",
-          "実質所得が改善する"
-        ],
-        "downside": [
-          "失業率が上昇する",
-          "信用スプレッドが拡大する"
-        ]
-      },
-      "invalidation_conditions": [
-        "実質成長または企業利益の方向が反転する",
-        "実質金利、信用環境またはドルが想定から外れる"
-      ],
-      "coefficient_regime": "transition_neutral",
-      "required_factors": [
-        "実質成長",
-        "利益見通し",
-        "実質金利",
-        "信用環境",
-        "ドル"
-      ],
-      "price_basis": {
-        "current_price_used_for_direction": false,
-        "technical_indicators_used": false,
-        "expected_change": null,
-        "forecast_range": null
-      }
-    }
-  },
   "quality": {
     "confidence_label": "high",
     "confidence_label_ja": "高",
@@ -1091,7 +995,7 @@
       "margin"
     ]
   },
-  "updated_at": "2026-08-18T18:59:58.120+09:00",
+  "updated_at": "2026-08-18T20:46:52.461+09:00",
   "date": "2026-08-18",
   "snapshot_id": "macro-2026-08-18-macro-public-v3-71da41b1de7681b5",
   "snapshot_content_hash": "71da41b1de7681b5f83ee6ee3819f8c0048971f0546d9bf661b2b7e66a7ca691",
