@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T07:59:13.847Z",
+  "updated_at": "2026-08-19T13:35:52.349Z",
   "macro": {
     "date": "2026-08-18",
     "region": "米国",
@@ -154,12 +154,12 @@
   "basecalc": {
     "observation_time": "16:40 JST",
     "market_status": "pre-open",
-    "summary": "OHLC参考分析を更新しました。方向予測と売買判断には使用できません。",
+    "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
     "analysis_permission": {
-      "status": "reference_only",
-      "allowed": true,
+      "status": "unavailable",
+      "allowed": false,
       "validated": false,
-      "reason": "方向精度の検証が未達です"
+      "reason": "有効なOHLC分析を確認できません"
     },
     "execution_permission": {
       "status": "blocked",
@@ -168,26 +168,36 @@
       "reason": "売買実行条件を満たしていません",
       "actual_fill_count": 0
     },
-    "usage_status": "参考のみ",
+    "usage_status": "使用不可",
     "operational_status": {
-      "stop_required": false,
-      "stop_reasons": [],
-      "analysis_stop_required": false,
-      "analysis_stop_reasons": [],
+      "stop_required": true,
+      "stop_reasons": [
+        "内部の安全条件により停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません"
+      ],
+      "analysis_stop_required": true,
+      "analysis_stop_reasons": [
+        "内部の安全条件により停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません"
+      ],
       "execution_stop_required": true,
       "execution_stop_reasons": [
         "売買コストを確認できません",
         "内部の安全条件により停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません",
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-08-19T07:59:13.847Z",
+      "latest_attempt_at": "2026-08-19T13:35:52.349Z",
       "last_success_at": "2026-08-19T07:59:13.847Z",
-      "data_age_minutes": 0,
+      "data_age_minutes": 337,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-08-20T07:59:13.847Z",
-      "latest_attempt_accepted": true,
-      "latest_attempt_matches_current": true,
+      "latest_attempt_accepted": false,
+      "latest_attempt_matches_current": false,
       "artifact_consistent": true,
       "model_version": "basecalc_technical_regime_2026_07_13_v2",
       "expected_model_version": "basecalc_technical_regime_2026_07_13_v2"
@@ -238,27 +248,10 @@
       ]
     },
     "validation_summary": {
-      "status": "未検証",
-      "validation_status": "not_evaluated",
-      "validation_gate_status": "参考のみ",
       "sample_count": null,
-      "hit_rate": null,
-      "benchmark_hit_rate": null,
-      "balanced_accuracy": null,
-      "macro_f1": null,
-      "coverage": null,
       "considered_sample_count": null,
       "no_trade_count": 0,
-      "no_trade_rate": null,
-      "per_class": null,
       "next_night_sample_count": null,
-      "next_night_hit_rate": null,
-      "backtest_passed": false,
-      "trade_activation_passed": false,
-      "live_monitoring_passed": false,
-      "reasons": [
-        "basecalc専用の時刻別検証がまだ不足しています"
-      ],
       "historical_model_validation": {
         "data_kind": "historical_ose_daily_ohlc",
         "direct_equivalent": false,
@@ -347,124 +340,6 @@
       "excluded_bars": 0,
       "minimum_bars": 60,
       "future_data_used": false
-    },
-    "reference_analysis": {
-      "available": true,
-      "signal": "",
-      "short_term_bias": null,
-      "note": "OHLCから現在の相場状況と値動き幅だけを参考表示しています。方向予測や売買判断には使用できません"
-    },
-    "data_status": {
-      "status": "正常",
-      "target": "日経225先物",
-      "updated_at": "2026-08-19T07:59:13.847Z",
-      "data_kind": "日足OHLC",
-      "note": "高値・安値・終値の履歴を使ってテクニカル判定しています。"
-    },
-    "technical": {
-      "available": true,
-      "status": "OHLC参考分析",
-      "target": "日経225先物",
-      "timeframe": "日足",
-      "horizon": "現在の相場状況（方向予測なし）",
-      "analysis_session": "日中終値",
-      "as_of": "2026-08-19",
-      "price": {
-        "value": 65480,
-        "prior_close": 67540,
-        "change": -2060,
-        "change_pct": -3.05,
-        "stale": false
-      },
-      "regime": {
-        "key": "range",
-        "label": "レンジ"
-      },
-      "confidence": {
-        "score": null,
-        "label": "参考",
-        "note": "現在のOHLC状況だけを示し、将来方向の精度は検証済みではありません"
-      },
-      "indicators": {
-        "ema20": 66573.711571,
-        "ema50": 66106.787994,
-        "rsi14": 46.255,
-        "macd": 320.46272,
-        "macd_signal": 44.71918,
-        "macd_histogram": 275.74354,
-        "atr14": 1724.710146,
-        "atr_percent": 2.634,
-        "adx14": 15.559,
-        "plus_di14": 25.362,
-        "minus_di14": 32.927,
-        "bollinger_upper": 69857.693133,
-        "bollinger_middle": 65628,
-        "bollinger_lower": 61398.306867,
-        "bollinger_bandwidth": 12.89,
-        "roc10": -1.296
-      },
-      "levels": {
-        "support": 60520,
-        "support_distance_pct": 7.575,
-        "resistance": 69650,
-        "resistance_distance_pct": 6.368,
-        "bollinger_upper": 69857.693133,
-        "bollinger_middle": 65628,
-        "bollinger_lower": 61398.306867
-      },
-      "reasons": [],
-      "data_quality": {
-        "valid_bars": 252,
-        "excluded_bars": 0,
-        "minimum_bars": 60,
-        "future_data_used": false
-      },
-      "method": "OHLC参考分析",
-      "method_note": "現在の相場状況と値動き幅の参考表示であり、買い・売り方向は示しません。"
-    },
-    "invalidation_conditions": {
-      "conditions": [
-        {
-          "label": "データ欠損",
-          "active": false
-        },
-        {
-          "label": "代理データ使用",
-          "active": false
-        },
-        {
-          "label": "価格更新停止",
-          "active": false
-        },
-        {
-          "label": "OHLC履歴不足",
-          "active": false
-        },
-        {
-          "label": "取得時刻不一致",
-          "active": false
-        },
-        {
-          "label": "時刻別検証対象外",
-          "active": false
-        },
-        {
-          "label": "指標一致度が低い",
-          "active": false
-        },
-        {
-          "label": "方向判定を保留",
-          "active": false
-        },
-        {
-          "label": "過去検証未通過",
-          "active": true
-        },
-        {
-          "label": "検証成果物不一致",
-          "active": false
-        }
-      ]
     }
   }
 }

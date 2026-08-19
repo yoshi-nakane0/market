@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-19T07:59:20.213Z",
+  "generated_at": "2026-08-19T13:35:58.372Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-08-19までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-08-19T07:59:13.847Z",
-    "latest_attempt_at": "2026-08-19T07:59:13.847Z",
-    "stale_after": "2026-08-20T07:59:13.847Z",
+    "last_success_at": "2026-08-19T13:35:52.349Z",
+    "latest_attempt_at": "2026-08-19T13:35:52.349Z",
+    "stale_after": "2026-08-20T13:35:52.349Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -241,21 +241,21 @@
       },
       "details": {
         "indicators": {
-          "ema20": 53268.495295,
-          "ema50": 52408.889594,
-          "rsi14": 53.829,
-          "macd": 409.91469,
-          "macd_signal": 453.363351,
-          "macd_histogram": -43.448661,
-          "atr14": 500.511459,
-          "atr_percent": 0.938,
-          "adx14": 19.985,
-          "plus_di14": 27.746,
-          "minus_di14": 22.435,
-          "bollinger_upper": 54874.341804,
-          "bollinger_middle": 53128.561328,
-          "bollinger_lower": 51382.780852,
-          "bollinger_bandwidth": 6.572,
+          "ema20": 53257.353825,
+          "ema50": 52351.877313,
+          "rsi14": 54.045,
+          "macd": 424.686326,
+          "macd_signal": 472.461949,
+          "macd_histogram": -47.775623,
+          "atr14": 506.915952,
+          "atr_percent": 0.95,
+          "adx14": 21.7,
+          "plus_di14": 28.6,
+          "minus_di14": 22.414,
+          "bollinger_upper": 54914.623737,
+          "bollinger_middle": 53092.665039,
+          "bollinger_lower": 51270.706341,
+          "bollinger_bandwidth": 6.863,
           "roc10": -1.373
         },
         "levels": {
@@ -263,7 +263,7 @@
           "resistance": 54744.328125
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 248,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
