@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-08-20T11:45:58.232Z",
+  "updated_at": "2026-08-20T11:58:16.788Z",
   "as_of_date": "2026-08-20",
   "data_status": {
     "label": "確認済み",
@@ -15,30 +15,30 @@
     "overall_event_impact": "高",
     "key_companies": [
       {
-        "ticker": "AVGO",
-        "company_name": "Broadcom",
-        "impact": 94,
+        "ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "impact": 100,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
-        "ticker": "NVDA",
-        "company_name": "NVIDIA",
-        "impact": 80,
+        "ticker": "AVGO",
+        "company_name": "Broadcom",
+        "impact": 71,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
         "ticker": "WMT",
         "company_name": "Walmart",
-        "impact": 52,
+        "impact": 30,
         "phase": "post",
         "verification_status": "vendor_confirmed"
       },
       {
         "ticker": "CRM",
         "company_name": "Salesforce",
-        "impact": 30,
+        "impact": 11,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       }
@@ -47,22 +47,22 @@
       {
         "label": "NASDAQ 100",
         "level": "高",
-        "note": "AVGOを中心に影響の大きさを監視"
+        "note": "NVDAを中心に影響の大きさを監視"
       },
       {
         "label": "S&P 500",
         "level": "高",
-        "note": "AVGOを中心に影響の大きさを監視"
+        "note": "NVDAを中心に影響の大きさを監視"
       },
       {
         "label": "NYダウ",
         "level": "中",
-        "note": "WMTを中心に影響の大きさを監視"
+        "note": "NVDAを中心に影響の大きさを監視"
       },
       {
         "label": "日経先物",
         "level": "高",
-        "note": "AVGOを中心に影響の大きさを監視"
+        "note": "NVDAを中心に影響の大きさを監視"
       }
     ]
   },
@@ -101,11 +101,11 @@
         "this_week"
       ],
       "market_impact": {
-        "overall": 52,
-        "nasdaq100": 13,
-        "sp500": 48,
-        "dow": 66,
-        "nikkei_futures": 41,
+        "overall": 30,
+        "nasdaq100": 7,
+        "sp500": 28,
+        "dow": 37,
+        "nikkei_futures": 23,
         "spillover_sectors": [
           "生活必需品",
           "小売",
@@ -476,7 +476,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -505,17 +505,17 @@
         "next_week"
       ],
       "market_impact": {
-        "overall": 80,
-        "nasdaq100": 80,
-        "sp500": 81,
-        "dow": 60,
-        "nikkei_futures": 84,
+        "overall": 100,
+        "nasdaq100": 100,
+        "sp500": 100,
+        "dow": 71,
+        "nikkei_futures": 100,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
           "検査装置"
         ],
-        "reason": "日経先物への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -571,7 +571,7 @@
         },
         "valuation": {
           "current_price": 217.56,
-          "forward_pe": 16.945772,
+          "forward_pe": 16.826727,
           "trailing_pe": 33.678017,
           "price_to_sales": 20.787802,
           "enterprise_to_ebitda": 31.566,
@@ -580,7 +580,7 @@
         },
         "valuation_assessment": {
           "trailing_pe": 33.678017,
-          "forward_pe": 16.945772,
+          "forward_pe": 16.826727,
           "label": "平均並み",
           "tone": "neutral",
           "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -884,7 +884,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -913,11 +913,11 @@
         "next_week"
       ],
       "market_impact": {
-        "overall": 30,
-        "nasdaq100": 30,
-        "sp500": 28,
-        "dow": 32,
-        "nikkei_futures": 27,
+        "overall": 11,
+        "nasdaq100": 11,
+        "sp500": 11,
+        "dow": 12,
+        "nikkei_futures": 10,
         "spillover_sectors": [
           "情報技術",
           "ソフトウェア"
@@ -978,14 +978,14 @@
         "valuation": {
           "current_price": 206.09,
           "forward_pe": 13.280526,
-          "trailing_pe": 23.880648,
+          "trailing_pe": 22.722162,
           "price_to_sales": 3.9409676,
           "enterprise_to_ebitda": 15.471,
           "risk_score": 20,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 23.880648,
+          "trailing_pe": 22.722162,
           "forward_pe": 13.280526,
           "label": "大幅に割安",
           "tone": "positive",
@@ -996,20 +996,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -7.8
+              "difference_pct": -12.3
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": -32.3
+              "difference_pct": -35.6
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -44,
-            "note": "予想PERは実績PERより44%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -42,
+            "note": "予想PERは実績PERより42%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -1285,7 +1285,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1312,11 +1312,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 94,
-        "nasdaq100": 94,
-        "sp500": 93,
-        "dow": 41,
-        "nikkei_futures": 100,
+        "overall": 71,
+        "nasdaq100": 71,
+        "sp500": 69,
+        "dow": 30,
+        "nikkei_futures": 72,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -1379,14 +1379,14 @@
         "valuation": {
           "current_price": 362.48,
           "forward_pe": 18.558016,
-          "trailing_pe": 60.413334,
+          "trailing_pe": 63.260036,
           "price_to_sales": 22.852022,
           "enterprise_to_ebitda": 42.054,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 60.413334,
+          "trailing_pe": 63.260036,
           "forward_pe": 18.558016,
           "label": "大幅に割高",
           "tone": "negative",
@@ -1397,20 +1397,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 133.3
+              "difference_pct": 144.2
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": 71.1
+              "difference_pct": 79.2
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -69,
-            "note": "予想PERは実績PERより69%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -71,
+            "note": "予想PERは実績PERより71%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -1690,7 +1690,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -1717,16 +1717,16 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 55,
-        "nasdaq100": 55,
-        "sp500": 51,
-        "dow": 21,
-        "nikkei_futures": 56,
+        "overall": 27,
+        "nasdaq100": 27,
+        "sp500": 25,
+        "dow": 10,
+        "nikkei_futures": 27,
         "spillover_sectors": [
           "情報技術",
           "データセンター関連"
         ],
-        "reason": "日経先物への感応度と、クラウド・AIデータセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "NASDAQ 100への感応度と、クラウド・AIデータセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -2091,7 +2091,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2118,11 +2118,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 34,
-        "nasdaq100": 34,
-        "sp500": 29,
-        "dow": 7,
-        "nikkei_futures": 26,
+        "overall": 9,
+        "nasdaq100": 9,
+        "sp500": 8,
+        "dow": 2,
+        "nikkei_futures": 7,
         "spillover_sectors": [
           "情報技術",
           "ソフトウェア"
@@ -2183,14 +2183,14 @@
         "valuation": {
           "current_price": 272.47,
           "forward_pe": 9.910231,
-          "trailing_pe": 15.061913,
+          "trailing_pe": 15.578617,
           "price_to_sales": 4.298231,
           "enterprise_to_ebitda": 11.282,
           "risk_score": 20,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 15.061913,
+          "trailing_pe": 15.578617,
           "forward_pe": 9.910231,
           "label": "大幅に割安",
           "tone": "positive",
@@ -2201,20 +2201,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -41.8
+              "difference_pct": -39.9
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": -57.3
+              "difference_pct": -55.9
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -34,
-            "note": "予想PERは実績PERより34%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -36,
+            "note": "予想PERは実績PERより36%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -2490,7 +2490,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2517,11 +2517,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 43,
-        "nasdaq100": 43,
-        "sp500": 38,
-        "dow": 11,
-        "nikkei_futures": 58,
+        "overall": 39,
+        "nasdaq100": 39,
+        "sp500": 33,
+        "dow": 10,
+        "nikkei_futures": 49,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -2583,14 +2583,14 @@
         "valuation": {
           "current_price": 937.105,
           "forward_pe": 6.0532446,
-          "trailing_pe": 21.278496,
+          "trailing_pe": 21.18709,
           "price_to_sales": 11.723863,
           "enterprise_to_ebitda": 15.225,
           "risk_score": 20,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 21.278496,
+          "trailing_pe": 21.18709,
           "forward_pe": 6.0532446,
           "label": "大幅に割安",
           "tone": "positive",
@@ -2601,20 +2601,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -17.8
+              "difference_pct": -18.2
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": -39.7
+              "difference_pct": -40
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -72,
-            "note": "予想PERは実績PERより72%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -71,
+            "note": "予想PERは実績PERより71%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -2893,7 +2893,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -2920,11 +2920,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 21,
-        "nasdaq100": 21,
-        "sp500": 22,
-        "dow": 8,
-        "nikkei_futures": 18,
+        "overall": 11,
+        "nasdaq100": 10,
+        "sp500": 11,
+        "dow": 4,
+        "nikkei_futures": 9,
         "spillover_sectors": [
           "生活必需品",
           "小売",
@@ -2986,14 +2986,14 @@
         "valuation": {
           "current_price": 956.99,
           "forward_pe": 42.23566,
-          "trailing_pe": 48.30843,
+          "trailing_pe": 48.065796,
           "price_to_sales": 1.4455844,
           "enterprise_to_ebitda": 30.654,
           "risk_score": 80,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 48.30843,
+          "trailing_pe": 48.065796,
           "forward_pe": 42.23566,
           "label": "大幅に割高",
           "tone": "negative",
@@ -3004,20 +3004,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 86.5
+              "difference_pct": 85.6
             },
             {
               "label": "生活必需品",
               "symbol": "XLP",
               "multiple": 26.6,
-              "difference_pct": 81.6
+              "difference_pct": 80.7
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -13,
-            "note": "予想PERは実績PERより13%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -12,
+            "note": "予想PERは実績PERより12%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -3288,7 +3288,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3315,11 +3315,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 17,
-        "nasdaq100": 3,
-        "sp500": 17,
-        "dow": 11,
-        "nikkei_futures": 19,
+        "overall": 5,
+        "nasdaq100": 1,
+        "sp500": 5,
+        "dow": 3,
+        "nikkei_futures": 6,
         "spillover_sectors": [
           "資本財",
           "海運",
@@ -3688,7 +3688,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -3715,11 +3715,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 41,
-        "nasdaq100": 11,
-        "sp500": 40,
-        "dow": 52,
-        "nikkei_futures": 34,
+        "overall": 24,
+        "nasdaq100": 6,
+        "sp500": 24,
+        "dow": 30,
+        "nikkei_futures": 19,
         "spillover_sectors": [
           "金融",
           "銀行",
@@ -3782,14 +3782,14 @@
         "valuation": {
           "current_price": 357.26,
           "forward_pe": 14.286406,
-          "trailing_pe": 15.553331,
+          "trailing_pe": 15.313331,
           "price_to_sales": 5.0967307,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 15.553331,
+          "trailing_pe": 15.313331,
           "forward_pe": 14.286406,
           "label": "平均並み",
           "tone": "neutral",
@@ -3800,19 +3800,19 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -39.9
+              "difference_pct": -40.9
             },
             {
               "label": "金融",
               "symbol": "XLF",
               "multiple": 16.8,
-              "difference_pct": -7.4
+              "difference_pct": -8.8
             }
           ],
           "outlook": {
             "label": "横ばい",
             "tone": "neutral",
-            "difference_pct": -8,
+            "difference_pct": -7,
             "note": "予想PERと実績PERはほぼ同じで、今後1年の利益は横ばいの見通しです。良くも悪くもない状態です。"
           },
           "state": "取得済み"
@@ -4084,7 +4084,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4111,11 +4111,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 22,
-        "nasdaq100": 4,
-        "sp500": 19,
-        "dow": 28,
-        "nikkei_futures": 18,
+        "overall": 10,
+        "nasdaq100": 2,
+        "sp500": 9,
+        "dow": 13,
+        "nikkei_futures": 8,
         "spillover_sectors": [
           "金融",
           "証券",
@@ -4177,14 +4177,14 @@
         "valuation": {
           "current_price": 1021.65,
           "forward_pe": 13.800032,
-          "trailing_pe": 16.076319,
+          "trailing_pe": 15.773507,
           "price_to_sales": 4.4024754,
           "enterprise_to_ebitda": null,
           "risk_score": 20,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 16.076319,
+          "trailing_pe": 15.773507,
           "forward_pe": 13.800032,
           "label": "平均並み",
           "tone": "neutral",
@@ -4195,20 +4195,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -37.9
+              "difference_pct": -39.1
             },
             {
               "label": "金融",
               "symbol": "XLF",
               "multiple": 16.8,
-              "difference_pct": -4.3
+              "difference_pct": -6.1
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -14,
-            "note": "予想PERは実績PERより14%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -13,
+            "note": "予想PERは実績PERより13%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -4479,7 +4479,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4506,11 +4506,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 24,
-        "nasdaq100": 24,
-        "sp500": 20,
-        "dow": 9,
-        "nikkei_futures": 67,
+        "overall": 14,
+        "nasdaq100": 14,
+        "sp500": 12,
+        "dow": 5,
+        "nikkei_futures": 38,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -4572,14 +4572,14 @@
         "valuation": {
           "current_price": 1751.73,
           "forward_pe": 29.426683,
-          "trailing_pe": 59.60293,
+          "trailing_pe": 59.521915,
           "price_to_sales": 19.04577,
           "enterprise_to_ebitda": 2770.853,
           "risk_score": 60,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 59.60293,
+          "trailing_pe": 59.521915,
           "forward_pe": 29.426683,
           "label": "大幅に割高",
           "tone": "negative",
@@ -4590,13 +4590,13 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 130.1
+              "difference_pct": 129.8
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": 68.8
+              "difference_pct": 68.6
             }
           ],
           "outlook": {
@@ -4882,7 +4882,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -4909,17 +4909,17 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 18,
-        "nasdaq100": 4,
-        "sp500": 18,
-        "dow": 19,
-        "nikkei_futures": 16,
+        "overall": 10,
+        "nasdaq100": 2,
+        "sp500": 10,
+        "dow": 10,
+        "nikkei_futures": 9,
         "spillover_sectors": [
           "金融",
           "銀行",
           "保険"
         ],
-        "reason": "NYダウへの感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "S&P 500への感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -5276,7 +5276,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -5303,11 +5303,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 11,
-        "nasdaq100": 2,
-        "sp500": 11,
-        "dow": 5,
-        "nikkei_futures": 11,
+        "overall": 4,
+        "nasdaq100": 1,
+        "sp500": 4,
+        "dow": 2,
+        "nikkei_futures": 4,
         "spillover_sectors": [
           "不動産",
           "物流REIT"
@@ -5674,7 +5674,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -5705,7 +5705,7 @@
         "nasdaq100": 25,
         "sp500": 20,
         "dow": 7,
-        "nikkei_futures": 58,
+        "nikkei_futures": 56,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -5767,14 +5767,14 @@
         "valuation": {
           "current_price": 412.09,
           "forward_pe": 18.919466,
-          "trailing_pe": 30.96093,
+          "trailing_pe": 30.775951,
           "price_to_sales": 0.48131916,
           "enterprise_to_ebitda": 4.638,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 30.96093,
+          "trailing_pe": 30.775951,
           "forward_pe": 18.919466,
           "label": "やや割安",
           "tone": "positive",
@@ -5785,13 +5785,13 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 19.5
+              "difference_pct": 18.8
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": -12.3
+              "difference_pct": -12.8
             }
           ],
           "outlook": {
@@ -6077,7 +6077,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -6104,11 +6104,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 47,
-        "nasdaq100": 47,
-        "sp500": 44,
-        "dow": 9,
-        "nikkei_futures": 36,
+        "overall": 18,
+        "nasdaq100": 18,
+        "sp500": 17,
+        "dow": 3,
+        "nikkei_futures": 13,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "動画配信",
@@ -6170,14 +6170,14 @@
         "valuation": {
           "current_price": 80.22,
           "forward_pe": 20.98248,
-          "trailing_pe": 24.457317,
+          "trailing_pe": 25.226416,
           "price_to_sales": 6.9056425,
           "enterprise_to_ebitda": 23.193,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 24.457317,
+          "trailing_pe": 25.226416,
           "forward_pe": 20.98248,
           "label": "大幅に割高",
           "tone": "negative",
@@ -6188,20 +6188,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -5.6
+              "difference_pct": -2.6
             },
             {
               "label": "コミュニケーション・サービス",
               "symbol": "XLC",
               "multiple": 16.1,
-              "difference_pct": 51.9
+              "difference_pct": 56.7
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -14,
-            "note": "予想PERは実績PERより14%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -17,
+            "note": "予想PERは実績PERより17%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -6478,7 +6478,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -6505,11 +6505,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 88,
-        "nasdaq100": 88,
-        "sp500": 84,
-        "dow": 36,
-        "nikkei_futures": 76,
+        "overall": 55,
+        "nasdaq100": 55,
+        "sp500": 52,
+        "dow": 22,
+        "nikkei_futures": 46,
         "spillover_sectors": [
           "一般消費財",
           "自動車",
@@ -6572,14 +6572,14 @@
         "valuation": {
           "current_price": 351.12,
           "forward_pe": 161.43597,
-          "trailing_pe": 325.11108,
+          "trailing_pe": 322.12842,
           "price_to_sales": 13.383308,
           "enterprise_to_ebitda": 126.451,
           "risk_score": 100,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 325.11108,
+          "trailing_pe": 322.12842,
           "forward_pe": 161.43597,
           "label": "大幅に割高",
           "tone": "negative",
@@ -6590,13 +6590,13 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 1155.3
+              "difference_pct": 1143.7
             },
             {
               "label": "一般消費財",
               "symbol": "XLY",
               "multiple": 27,
-              "difference_pct": 1104.1
+              "difference_pct": 1093.1
             }
           ],
           "outlook": {
@@ -6882,7 +6882,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -6909,11 +6909,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 7,
-        "nasdaq100": 2,
-        "sp500": 8,
-        "dow": 3,
-        "nikkei_futures": 10,
+        "overall": 3,
+        "nasdaq100": 1,
+        "sp500": 3,
+        "dow": 1,
+        "nikkei_futures": 4,
         "spillover_sectors": [
           "素材",
           "非鉄金属",
@@ -6976,38 +6976,38 @@
         "valuation": {
           "current_price": 69.09,
           "forward_pe": 16.757092,
-          "trailing_pe": 32.436615,
+          "trailing_pe": 33.867645,
           "price_to_sales": 3.7392142,
           "enterprise_to_ebitda": 12.31,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 32.436615,
+          "trailing_pe": 33.867645,
           "forward_pe": 16.757092,
-          "label": "やや割高",
-          "tone": "caution",
-          "reading": "同じ業種よりやや高く買われています。決算への期待が少し高めに織り込まれた水準です。",
+          "label": "大幅に割高",
+          "tone": "negative",
+          "reading": "同じ業種より大きく高く買われています。期待が高いぶん、決算が期待に届かないと下げやすい水準です。",
           "compared_with": "素材",
           "basis": [
             {
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 25.2
+              "difference_pct": 30.8
             },
             {
               "label": "素材",
               "symbol": "XLB",
               "multiple": 25.7,
-              "difference_pct": 26.2
+              "difference_pct": 31.8
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -48,
-            "note": "予想PERは実績PERより48%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -51,
+            "note": "予想PERは実績PERより51%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -7283,7 +7283,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -7310,11 +7310,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 17,
-        "nasdaq100": 12,
-        "sp500": 15,
-        "dow": 22,
-        "nikkei_futures": 18,
+        "overall": 4,
+        "nasdaq100": 3,
+        "sp500": 4,
+        "dow": 5,
+        "nikkei_futures": 4,
         "spillover_sectors": [
           "資本財",
           "電機",
@@ -7376,7 +7376,7 @@
         },
         "valuation": {
           "current_price": 221.73,
-          "forward_pe": 22.085672,
+          "forward_pe": 22.18771,
           "trailing_pe": 8.757109,
           "price_to_sales": 1.8465749,
           "enterprise_to_ebitda": 11.32,
@@ -7385,7 +7385,7 @@
         },
         "valuation_assessment": {
           "trailing_pe": 8.757109,
-          "forward_pe": 22.085672,
+          "forward_pe": 22.18771,
           "label": "大幅に割安",
           "tone": "positive",
           "reading": "同じ業種より大きく安く買われています。期待が低いぶん、決算が良ければ見直されやすい一方、業績が落ち込んでいる可能性も含みます。",
@@ -7407,8 +7407,8 @@
           "outlook": {
             "label": "後ろ向きな材料",
             "tone": "negative",
-            "difference_pct": 152,
-            "note": "予想PERは実績PERより152%高く、今後1年で利益が減る見通しです。企業にとっては悪い状態です。"
+            "difference_pct": 153,
+            "note": "予想PERは実績PERより153%高く、今後1年で利益が減る見通しです。企業にとっては悪い状態です。"
           },
           "state": "取得済み"
         },
@@ -7685,7 +7685,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -7712,11 +7712,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 21,
-        "nasdaq100": 3,
-        "sp500": 19,
-        "dow": 26,
-        "nikkei_futures": 15,
+        "overall": 9,
+        "nasdaq100": 1,
+        "sp500": 8,
+        "dow": 11,
+        "nikkei_futures": 6,
         "spillover_sectors": [
           "生活必需品",
           "日用品",
@@ -7778,14 +7778,14 @@
         "valuation": {
           "current_price": 144.38,
           "forward_pe": 19.518223,
-          "trailing_pe": 21.67868,
+          "trailing_pe": 21.776773,
           "price_to_sales": 3.8629835,
           "enterprise_to_ebitda": 14.612,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 21.67868,
+          "trailing_pe": 21.776773,
           "forward_pe": 19.518223,
           "label": "やや割安",
           "tone": "positive",
@@ -7796,13 +7796,13 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -16.3
+              "difference_pct": -15.9
             },
             {
               "label": "生活必需品",
               "symbol": "XLP",
               "multiple": 26.6,
-              "difference_pct": -18.5
+              "difference_pct": -18.1
             }
           ],
           "outlook": {
@@ -8086,7 +8086,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -8113,11 +8113,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 35,
-        "nasdaq100": 7,
-        "sp500": 32,
-        "dow": 44,
-        "nikkei_futures": 23,
+        "overall": 17,
+        "nasdaq100": 3,
+        "sp500": 16,
+        "dow": 21,
+        "nikkei_futures": 11,
         "spillover_sectors": [
           "ヘルスケア",
           "保険",
@@ -8179,14 +8179,14 @@
         "valuation": {
           "current_price": 388.61,
           "forward_pe": 17.32131,
-          "trailing_pe": 25.31661,
+          "trailing_pe": 25.007078,
           "price_to_sales": 0.77423793,
           "enterprise_to_ebitda": 14.924,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 25.31661,
+          "trailing_pe": 25.007078,
           "forward_pe": 17.32131,
           "label": "やや割安",
           "tone": "positive",
@@ -8197,20 +8197,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -2.3
+              "difference_pct": -3.4
             },
             {
               "label": "ヘルスケア",
               "symbol": "XLV",
               "multiple": 31.3,
-              "difference_pct": -19.1
+              "difference_pct": -20.1
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -32,
-            "note": "予想PERは実績PERより32%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -31,
+            "note": "予想PERは実績PERより31%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -8487,7 +8487,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -8514,11 +8514,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 13,
-        "nasdaq100": 2,
-        "sp500": 13,
-        "dow": 5,
-        "nikkei_futures": 12,
+        "overall": 5,
+        "nasdaq100": 1,
+        "sp500": 5,
+        "dow": 2,
+        "nikkei_futures": 5,
         "spillover_sectors": [
           "公益",
           "電力",
@@ -8888,7 +8888,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -8915,11 +8915,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 10,
-        "nasdaq100": 2,
-        "sp500": 10,
-        "dow": 4,
-        "nikkei_futures": 9,
+        "overall": 3,
+        "nasdaq100": 1,
+        "sp500": 3,
+        "dow": 1,
+        "nikkei_futures": 3,
         "spillover_sectors": [
           "不動産",
           "通信"
@@ -8980,14 +8980,14 @@
         "valuation": {
           "current_price": 174.49,
           "forward_pe": 24.891443,
-          "trailing_pe": 28.14355,
+          "trailing_pe": 23.968407,
           "price_to_sales": 7.430916,
           "enterprise_to_ebitda": 18.604,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 28.14355,
+          "trailing_pe": 23.968407,
           "forward_pe": 24.891443,
           "label": "やや割安",
           "tone": "positive",
@@ -8998,20 +8998,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 8.7
+              "difference_pct": -7.5
             },
             {
               "label": "不動産",
               "symbol": "XLRE",
               "multiple": 32.6,
-              "difference_pct": -13.7
+              "difference_pct": -26.5
             }
           ],
           "outlook": {
-            "label": "前向きな材料",
-            "tone": "positive",
-            "difference_pct": -12,
-            "note": "予想PERは実績PERより12%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "label": "横ばい",
+            "tone": "neutral",
+            "difference_pct": 4,
+            "note": "予想PERと実績PERはほぼ同じで、今後1年の利益は横ばいの見通しです。良くも悪くもない状態です。"
           },
           "state": "取得済み"
         },
@@ -9287,7 +9287,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -9314,17 +9314,17 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 6,
+        "overall": 2,
         "nasdaq100": 1,
-        "sp500": 6,
-        "dow": 7,
-        "nikkei_futures": 6,
+        "sp500": 2,
+        "dow": 2,
+        "nikkei_futures": 2,
         "spillover_sectors": [
           "素材",
           "塗料",
           "化学"
         ],
-        "reason": "NYダウへの感応度と、建設需要・住宅市場を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "S&P 500への感応度と、建設需要・住宅市場を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -9381,14 +9381,14 @@
         "valuation": {
           "current_price": 353.59,
           "forward_pe": 25.974112,
-          "trailing_pe": 31.854954,
+          "trailing_pe": 32.558933,
           "price_to_sales": 3.5164192,
           "enterprise_to_ebitda": 21.25,
           "risk_score": 60,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 31.854954,
+          "trailing_pe": 32.558933,
           "forward_pe": 25.974112,
           "label": "やや割高",
           "tone": "caution",
@@ -9399,20 +9399,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 23
+              "difference_pct": 25.7
             },
             {
               "label": "素材",
               "symbol": "XLB",
               "multiple": 25.7,
-              "difference_pct": 23.9
+              "difference_pct": 26.7
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -18,
-            "note": "予想PERは実績PERより18%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -20,
+            "note": "予想PERは実績PERより20%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -9688,7 +9688,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -9715,9 +9715,9 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 87,
-        "nasdaq100": 86,
-        "sp500": 87,
+        "overall": 90,
+        "nasdaq100": 89,
+        "sp500": 90,
         "dow": 100,
         "nikkei_futures": 83,
         "spillover_sectors": [
@@ -9782,14 +9782,14 @@
         "valuation": {
           "current_price": 484.31,
           "forward_pe": 20.54487,
-          "trailing_pe": 26.966038,
+          "trailing_pe": 26.816723,
           "price_to_sales": 10.837381,
           "enterprise_to_ebitda": 18.782,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 26.966038,
+          "trailing_pe": 26.816723,
           "forward_pe": 20.54487,
           "label": "やや割安",
           "tone": "positive",
@@ -9800,20 +9800,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 4.1
+              "difference_pct": 3.5
             },
             {
               "label": "情報技術",
               "symbol": "XLK",
               "multiple": 35.3,
-              "difference_pct": -23.6
+              "difference_pct": -24
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -24,
-            "note": "予想PERは実績PERより24%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -23,
+            "note": "予想PERは実績PERより23%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -10093,7 +10093,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -10120,11 +10120,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 100,
-        "nasdaq100": 100,
-        "sp500": 100,
-        "dow": 52,
-        "nikkei_futures": 93,
+        "overall": 62,
+        "nasdaq100": 62,
+        "sp500": 62,
+        "dow": 31,
+        "nikkei_futures": 55,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "インターネット広告",
@@ -10186,14 +10186,14 @@
         "valuation": {
           "current_price": 546.03,
           "forward_pe": 15.733613,
-          "trailing_pe": 20.488932,
+          "trailing_pe": 20.57385,
           "price_to_sales": 6.0943403,
           "enterprise_to_ebitda": 12.887,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 20.488932,
+          "trailing_pe": 20.57385,
           "forward_pe": 15.733613,
           "label": "やや割高",
           "tone": "caution",
@@ -10204,20 +10204,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -20.9
+              "difference_pct": -20.6
             },
             {
               "label": "コミュニケーション・サービス",
               "symbol": "XLC",
               "multiple": 16.1,
-              "difference_pct": 27.3
+              "difference_pct": 27.8
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -23,
-            "note": "予想PERは実績PERより23%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -24,
+            "note": "予想PERは実績PERより24%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -10497,7 +10497,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -10524,11 +10524,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 79,
-        "nasdaq100": 79,
-        "sp500": 79,
-        "dow": 36,
-        "nikkei_futures": 73,
+        "overall": 92,
+        "nasdaq100": 92,
+        "sp500": 91,
+        "dow": 41,
+        "nikkei_futures": 81,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "インターネット広告",
@@ -10590,7 +10590,7 @@
         },
         "valuation": {
           "current_price": 344.72,
-          "forward_pe": 23.334826,
+          "forward_pe": 23.27582,
           "trailing_pe": 17.270542,
           "price_to_sales": 9.45554,
           "enterprise_to_ebitda": 23.748,
@@ -10599,7 +10599,7 @@
         },
         "valuation_assessment": {
           "trailing_pe": 17.270542,
-          "forward_pe": 23.334826,
+          "forward_pe": 23.27582,
           "label": "平均並み",
           "tone": "neutral",
           "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -10902,7 +10902,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -10929,11 +10929,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 8,
-        "nasdaq100": 7,
-        "sp500": 8,
-        "dow": 3,
-        "nikkei_futures": 9,
+        "overall": 3,
+        "nasdaq100": 3,
+        "sp500": 3,
+        "dow": 1,
+        "nikkei_futures": 4,
         "spillover_sectors": [
           "不動産",
           "データセンター"
@@ -10995,14 +10995,14 @@
         "valuation": {
           "current_price": 1077.08,
           "forward_pe": 57.628674,
-          "trailing_pe": 69.94026,
+          "trailing_pe": 69.44423,
           "price_to_sales": 10.730745,
           "enterprise_to_ebitda": 28.341,
           "risk_score": 80,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 69.94026,
+          "trailing_pe": 69.44423,
           "forward_pe": 57.628674,
           "label": "大幅に割高",
           "tone": "negative",
@@ -11013,20 +11013,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 170
+              "difference_pct": 168.1
             },
             {
               "label": "不動産",
               "symbol": "XLRE",
               "multiple": 32.6,
-              "difference_pct": 114.5
+              "difference_pct": 113
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -18,
-            "note": "予想PERは実績PERより18%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -17,
+            "note": "予想PERは実績PERより17%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -11304,7 +11304,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -11331,11 +11331,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 57,
-        "nasdaq100": 56,
-        "sp500": 57,
-        "dow": 65,
-        "nikkei_futures": 53,
+        "overall": 69,
+        "nasdaq100": 69,
+        "sp500": 69,
+        "dow": 76,
+        "nikkei_futures": 61,
         "spillover_sectors": [
           "情報技術",
           "電子部品",
@@ -11708,7 +11708,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -11735,11 +11735,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 84,
-        "nasdaq100": 84,
-        "sp500": 84,
-        "dow": 74,
-        "nikkei_futures": 78,
+        "overall": 80,
+        "nasdaq100": 80,
+        "sp500": 80,
+        "dow": 69,
+        "nikkei_futures": 72,
         "spillover_sectors": [
           "一般消費財",
           "電子商取引",
@@ -11802,14 +11802,14 @@
         "valuation": {
           "current_price": 265.84,
           "forward_pe": 25.553528,
-          "trailing_pe": 20.882954,
+          "trailing_pe": 21.369776,
           "price_to_sales": 3.6966705,
           "enterprise_to_ebitda": 17.738,
           "risk_score": 60,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 20.882954,
+          "trailing_pe": 21.369776,
           "forward_pe": 25.553528,
           "label": "やや割安",
           "tone": "positive",
@@ -11820,20 +11820,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -19.4
+              "difference_pct": -17.5
             },
             {
               "label": "一般消費財",
               "symbol": "XLY",
               "multiple": 27,
-              "difference_pct": -22.7
+              "difference_pct": -20.9
             }
           ],
           "outlook": {
             "label": "後ろ向きな材料",
             "tone": "negative",
-            "difference_pct": 22,
-            "note": "予想PERは実績PERより22%高く、今後1年で利益が減る見通しです。企業にとっては悪い状態です。"
+            "difference_pct": 20,
+            "note": "予想PERは実績PERより20%高く、今後1年で利益が減る見通しです。企業にとっては悪い状態です。"
           },
           "state": "取得済み"
         },
@@ -12107,7 +12107,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -12134,11 +12134,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 60,
-        "nasdaq100": 10,
-        "sp500": 61,
-        "dow": 58,
-        "nikkei_futures": 43,
+        "overall": 40,
+        "nasdaq100": 7,
+        "sp500": 40,
+        "dow": 37,
+        "nikkei_futures": 28,
         "spillover_sectors": [
           "ヘルスケア",
           "医薬品"
@@ -12506,7 +12506,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -12533,11 +12533,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 23,
-        "nasdaq100": 3,
-        "sp500": 21,
-        "dow": 29,
-        "nikkei_futures": 22,
+        "overall": 13,
+        "nasdaq100": 2,
+        "sp500": 11,
+        "dow": 16,
+        "nikkei_futures": 12,
         "spillover_sectors": [
           "資本財",
           "建機",
@@ -12599,14 +12599,14 @@
         "valuation": {
           "current_price": 816.15,
           "forward_pe": 25.282534,
-          "trailing_pe": 36.225033,
+          "trailing_pe": 35.088135,
           "price_to_sales": 5.0203223,
           "enterprise_to_ebitda": 25.498,
           "risk_score": 60,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 36.225033,
+          "trailing_pe": 35.088135,
           "forward_pe": 25.282534,
           "label": "やや割高",
           "tone": "caution",
@@ -12617,20 +12617,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": 39.9
+              "difference_pct": 35.5
             },
             {
               "label": "資本財",
               "symbol": "XLI",
               "multiple": 30.2,
-              "difference_pct": 20
+              "difference_pct": 16.2
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -30,
-            "note": "予想PERは実績PERより30%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -28,
+            "note": "予想PERは実績PERより28%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -12906,7 +12906,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -12933,11 +12933,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 5,
+        "overall": 2,
         "nasdaq100": 1,
-        "sp500": 5,
-        "dow": 2,
-        "nikkei_futures": 5,
+        "sp500": 2,
+        "dow": 1,
+        "nikkei_futures": 2,
         "spillover_sectors": [
           "公益",
           "電力"
@@ -12999,14 +12999,14 @@
         "valuation": {
           "current_price": 92.19,
           "forward_pe": 18.722395,
-          "trailing_pe": 22.161058,
+          "trailing_pe": 22.214458,
           "price_to_sales": 3.5140982,
           "enterprise_to_ebitda": 12.83,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 22.161058,
+          "trailing_pe": 22.214458,
           "forward_pe": 18.722395,
           "label": "やや割高",
           "tone": "caution",
@@ -13017,13 +13017,13 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -14.4
+              "difference_pct": -14.2
             },
             {
               "label": "公益",
               "symbol": "XLU",
               "multiple": 20,
-              "difference_pct": 10.8
+              "difference_pct": 11.1
             }
           ],
           "outlook": {
@@ -13306,7 +13306,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -13333,11 +13333,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 26,
-        "nasdaq100": 5,
-        "sp500": 26,
-        "dow": 26,
-        "nikkei_futures": 22,
+        "overall": 13,
+        "nasdaq100": 2,
+        "sp500": 13,
+        "dow": 13,
+        "nikkei_futures": 11,
         "spillover_sectors": [
           "エネルギー",
           "商社",
@@ -13400,14 +13400,14 @@
         "valuation": {
           "current_price": 164.77,
           "forward_pe": 15.432195,
-          "trailing_pe": 21.233248,
+          "trailing_pe": 21.315653,
           "price_to_sales": 1.8764741,
           "enterprise_to_ebitda": 10.54,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 21.233248,
+          "trailing_pe": 21.315653,
           "forward_pe": 15.432195,
           "label": "平均並み",
           "tone": "neutral",
@@ -13418,20 +13418,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -18
+              "difference_pct": -17.7
             },
             {
               "label": "エネルギー",
               "symbol": "XLE",
               "multiple": 21.4,
-              "difference_pct": -0.8
+              "difference_pct": -0.4
             }
           ],
           "outlook": {
             "label": "前向きな材料",
             "tone": "positive",
-            "difference_pct": -27,
-            "note": "予想PERは実績PERより27%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "difference_pct": -28,
+            "note": "予想PERは実績PERより28%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
           },
           "state": "取得済み"
         },
@@ -13707,7 +13707,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -13734,11 +13734,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 15,
-        "nasdaq100": 2,
-        "sp500": 14,
-        "dow": 19,
-        "nikkei_futures": 13,
+        "overall": 10,
+        "nasdaq100": 1,
+        "sp500": 9,
+        "dow": 12,
+        "nikkei_futures": 8,
         "spillover_sectors": [
           "エネルギー",
           "商社",
@@ -13800,7 +13800,7 @@
         },
         "valuation": {
           "current_price": 205.76,
-          "forward_pe": 15.616758,
+          "forward_pe": 15.556741,
           "trailing_pe": 19.803656,
           "price_to_sales": 1.927652,
           "enterprise_to_ebitda": 8.642,
@@ -13809,7 +13809,7 @@
         },
         "valuation_assessment": {
           "trailing_pe": 19.803656,
-          "forward_pe": 15.616758,
+          "forward_pe": 15.556741,
           "label": "平均並み",
           "tone": "neutral",
           "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -14108,7 +14108,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -14135,11 +14135,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 13,
-        "nasdaq100": 10,
-        "sp500": 13,
-        "dow": 6,
-        "nikkei_futures": 12,
+        "overall": 6,
+        "nasdaq100": 4,
+        "sp500": 6,
+        "dow": 2,
+        "nikkei_futures": 5,
         "spillover_sectors": [
           "素材",
           "化学",
@@ -14508,7 +14508,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -14535,11 +14535,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 66,
-        "nasdaq100": 66,
-        "sp500": 60,
-        "dow": 17,
-        "nikkei_futures": 73,
+        "overall": 40,
+        "nasdaq100": 40,
+        "sp500": 36,
+        "dow": 10,
+        "nikkei_futures": 42,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -14912,7 +14912,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -14939,11 +14939,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 7,
+        "overall": 4,
         "nasdaq100": 1,
-        "sp500": 6,
-        "dow": 9,
-        "nikkei_futures": 6,
+        "sp500": 4,
+        "dow": 5,
+        "nikkei_futures": 3,
         "spillover_sectors": [
           "ヘルスケア",
           "医薬品"
@@ -15311,7 +15311,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -15338,11 +15338,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 4,
-        "nasdaq100": 1,
-        "sp500": 4,
-        "dow": 2,
-        "nikkei_futures": 4,
+        "overall": 2,
+        "nasdaq100": 0,
+        "sp500": 2,
+        "dow": 1,
+        "nikkei_futures": 2,
         "spillover_sectors": [
           "公益",
           "電力"
@@ -15704,7 +15704,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -15731,11 +15731,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 21,
-        "nasdaq100": 5,
-        "sp500": 18,
-        "dow": 26,
-        "nikkei_futures": 15,
+        "overall": 10,
+        "nasdaq100": 2,
+        "sp500": 9,
+        "dow": 12,
+        "nikkei_futures": 7,
         "spillover_sectors": [
           "一般消費財",
           "住宅",
@@ -15797,14 +15797,14 @@
         "valuation": {
           "current_price": 344.3,
           "forward_pe": 21.451591,
-          "trailing_pe": 24.110643,
-          "price_to_sales": 2.0607667,
-          "enterprise_to_ebitda": 15.98,
+          "trailing_pe": 23.646976,
+          "price_to_sales": 2.0292904,
+          "enterprise_to_ebitda": 15.897,
           "risk_score": 40,
           "state": "取得済み"
         },
         "valuation_assessment": {
-          "trailing_pe": 24.110643,
+          "trailing_pe": 23.646976,
           "forward_pe": 21.451591,
           "label": "やや割安",
           "tone": "positive",
@@ -15815,20 +15815,20 @@
               "label": "市場平均",
               "symbol": "SPY",
               "multiple": 25.9,
-              "difference_pct": -6.9
+              "difference_pct": -8.7
             },
             {
               "label": "一般消費財",
               "symbol": "XLY",
               "multiple": 27,
-              "difference_pct": -10.7
+              "difference_pct": -12.4
             }
           ],
           "outlook": {
-            "label": "前向きな材料",
-            "tone": "positive",
-            "difference_pct": -11,
-            "note": "予想PERは実績PERより11%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+            "label": "横ばい",
+            "tone": "neutral",
+            "difference_pct": -9,
+            "note": "予想PERと実績PERはほぼ同じで、今後1年の利益は横ばいの見通しです。良くも悪くもない状態です。"
           },
           "state": "取得済み"
         },
@@ -16104,7 +16104,7 @@
         ]
       },
       "data_quality": {
-        "last_fetched_at": "2026-08-20T07:57:00.011Z",
+        "last_fetched_at": "2026-08-20T11:57:03.191Z",
         "providers": [
           "日程データ",
           "外部予想データ",
@@ -16618,13 +16618,13 @@
   ],
   "nikkei_spillover": {
     "level": "高",
-    "route": "AVGO → 半導体製造装置・通信部品",
+    "route": "NVDA → 半導体製造装置・検査装置",
     "direction": "決算結果待ち",
     "related_factors": [
       "NASDAQ先物",
       "USDJPY",
       "リスクオン／リスクオフ",
-      "AIネットワーク",
+      "AIインフラ",
       "半導体"
     ],
     "note": "米国半導体、AI設備投資、Apple関連、金融、消費、為替を経路別に確認します。売買方向は示しません。"
