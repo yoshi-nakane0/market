@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-08-20T08:53:30.921Z",
+  "updated_at": "2026-08-20T11:45:58.232Z",
   "as_of_date": "2026-08-20",
   "data_status": {
     "label": "確認済み",
@@ -15,30 +15,30 @@
     "overall_event_impact": "高",
     "key_companies": [
       {
-        "ticker": "NVDA",
-        "company_name": "NVIDIA",
-        "impact": 100,
+        "ticker": "AVGO",
+        "company_name": "Broadcom",
+        "impact": 94,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
-        "ticker": "AVGO",
-        "company_name": "Broadcom",
-        "impact": 69,
+        "ticker": "NVDA",
+        "company_name": "NVIDIA",
+        "impact": 80,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
         "ticker": "WMT",
         "company_name": "Walmart",
-        "impact": 37,
+        "impact": 52,
         "phase": "post",
         "verification_status": "vendor_confirmed"
       },
       {
         "ticker": "CRM",
         "company_name": "Salesforce",
-        "impact": 31,
+        "impact": 30,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       }
@@ -47,22 +47,22 @@
       {
         "label": "NASDAQ 100",
         "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "note": "AVGOを中心に影響の大きさを監視"
       },
       {
         "label": "S&P 500",
         "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "note": "AVGOを中心に影響の大きさを監視"
       },
       {
         "label": "NYダウ",
-        "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "level": "中",
+        "note": "WMTを中心に影響の大きさを監視"
       },
       {
         "label": "日経先物",
         "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "note": "AVGOを中心に影響の大きさを監視"
       }
     ]
   },
@@ -101,11 +101,11 @@
         "this_week"
       ],
       "market_impact": {
-        "overall": 37,
-        "nasdaq100": 9,
-        "sp500": 34,
-        "dow": 61,
-        "nikkei_futures": 28,
+        "overall": 52,
+        "nasdaq100": 13,
+        "sp500": 48,
+        "dow": 66,
+        "nikkei_futures": 41,
         "spillover_sectors": [
           "生活必需品",
           "小売",
@@ -505,17 +505,17 @@
         "next_week"
       ],
       "market_impact": {
-        "overall": 100,
-        "nasdaq100": 100,
-        "sp500": 100,
-        "dow": 96,
-        "nikkei_futures": 100,
+        "overall": 80,
+        "nasdaq100": 80,
+        "sp500": 81,
+        "dow": 60,
+        "nikkei_futures": 84,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
           "検査装置"
         ],
-        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "日経先物への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -913,10 +913,10 @@
         "next_week"
       ],
       "market_impact": {
-        "overall": 31,
-        "nasdaq100": 31,
-        "sp500": 29,
-        "dow": 43,
+        "overall": 30,
+        "nasdaq100": 30,
+        "sp500": 28,
+        "dow": 32,
         "nikkei_futures": 27,
         "spillover_sectors": [
           "情報技術",
@@ -1312,11 +1312,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 69,
-        "nasdaq100": 69,
-        "sp500": 67,
-        "dow": 39,
-        "nikkei_futures": 70,
+        "overall": 94,
+        "nasdaq100": 94,
+        "sp500": 93,
+        "dow": 41,
+        "nikkei_futures": 100,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -1717,16 +1717,16 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 33,
-        "nasdaq100": 33,
-        "sp500": 31,
-        "dow": 17,
-        "nikkei_futures": 33,
+        "overall": 55,
+        "nasdaq100": 55,
+        "sp500": 51,
+        "dow": 21,
+        "nikkei_futures": 56,
         "spillover_sectors": [
           "情報技術",
           "データセンター関連"
         ],
-        "reason": "NASDAQ 100への感応度と、クラウド・AIデータセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "日経先物への感応度と、クラウド・AIデータセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -2118,11 +2118,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 24,
-        "nasdaq100": 24,
-        "sp500": 21,
-        "dow": 6,
-        "nikkei_futures": 18,
+        "overall": 34,
+        "nasdaq100": 34,
+        "sp500": 29,
+        "dow": 7,
+        "nikkei_futures": 26,
         "spillover_sectors": [
           "情報技術",
           "ソフトウェア"
@@ -2517,11 +2517,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 37,
-        "nasdaq100": 37,
-        "sp500": 32,
-        "dow": 12,
-        "nikkei_futures": 47,
+        "overall": 43,
+        "nasdaq100": 43,
+        "sp500": 38,
+        "dow": 11,
+        "nikkei_futures": 58,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -2921,10 +2921,10 @@
       "calendar_windows": [],
       "market_impact": {
         "overall": 21,
-        "nasdaq100": 20,
-        "sp500": 21,
-        "dow": 10,
-        "nikkei_futures": 17,
+        "nasdaq100": 21,
+        "sp500": 22,
+        "dow": 8,
+        "nikkei_futures": 18,
         "spillover_sectors": [
           "生活必需品",
           "小売",
@@ -3318,8 +3318,8 @@
         "overall": 17,
         "nasdaq100": 3,
         "sp500": 17,
-        "dow": 14,
-        "nikkei_futures": 18,
+        "dow": 11,
+        "nikkei_futures": 19,
         "spillover_sectors": [
           "資本財",
           "海運",
@@ -3715,11 +3715,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 36,
-        "nasdaq100": 10,
-        "sp500": 35,
-        "dow": 59,
-        "nikkei_futures": 29,
+        "overall": 41,
+        "nasdaq100": 11,
+        "sp500": 40,
+        "dow": 52,
+        "nikkei_futures": 34,
         "spillover_sectors": [
           "金融",
           "銀行",
@@ -4111,11 +4111,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 21,
+        "overall": 22,
         "nasdaq100": 4,
-        "sp500": 18,
-        "dow": 35,
-        "nikkei_futures": 17,
+        "sp500": 19,
+        "dow": 28,
+        "nikkei_futures": 18,
         "spillover_sectors": [
           "金融",
           "証券",
@@ -4506,11 +4506,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 18,
-        "nasdaq100": 18,
-        "sp500": 14,
-        "dow": 8,
-        "nikkei_futures": 47,
+        "overall": 24,
+        "nasdaq100": 24,
+        "sp500": 20,
+        "dow": 9,
+        "nikkei_futures": 67,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -4912,7 +4912,7 @@
         "overall": 18,
         "nasdaq100": 4,
         "sp500": 18,
-        "dow": 26,
+        "dow": 19,
         "nikkei_futures": 16,
         "spillover_sectors": [
           "金融",
@@ -5303,11 +5303,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 9,
+        "overall": 11,
         "nasdaq100": 2,
-        "sp500": 9,
+        "sp500": 11,
         "dow": 5,
-        "nikkei_futures": 8,
+        "nikkei_futures": 11,
         "spillover_sectors": [
           "不動産",
           "物流REIT"
@@ -5701,11 +5701,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 23,
-        "nasdaq100": 23,
-        "sp500": 18,
-        "dow": 9,
-        "nikkei_futures": 51,
+        "overall": 25,
+        "nasdaq100": 25,
+        "sp500": 20,
+        "dow": 7,
+        "nikkei_futures": 58,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -6104,11 +6104,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 36,
-        "nasdaq100": 36,
-        "sp500": 34,
+        "overall": 47,
+        "nasdaq100": 47,
+        "sp500": 44,
         "dow": 9,
-        "nikkei_futures": 27,
+        "nikkei_futures": 36,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "動画配信",
@@ -6505,11 +6505,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 62,
-        "nasdaq100": 62,
-        "sp500": 59,
-        "dow": 33,
-        "nikkei_futures": 52,
+        "overall": 88,
+        "nasdaq100": 88,
+        "sp500": 84,
+        "dow": 36,
+        "nikkei_futures": 76,
         "spillover_sectors": [
           "一般消費財",
           "自動車",
@@ -6909,10 +6909,10 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 8,
+        "overall": 7,
         "nasdaq100": 2,
         "sp500": 8,
-        "dow": 5,
+        "dow": 3,
         "nikkei_futures": 10,
         "spillover_sectors": [
           "素材",
@@ -7310,11 +7310,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 12,
-        "nasdaq100": 9,
-        "sp500": 11,
-        "dow": 20,
-        "nikkei_futures": 12,
+        "overall": 17,
+        "nasdaq100": 12,
+        "sp500": 15,
+        "dow": 22,
+        "nikkei_futures": 18,
         "spillover_sectors": [
           "資本財",
           "電機",
@@ -7712,11 +7712,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 18,
+        "overall": 21,
         "nasdaq100": 3,
-        "sp500": 16,
-        "dow": 29,
-        "nikkei_futures": 12,
+        "sp500": 19,
+        "dow": 26,
+        "nikkei_futures": 15,
         "spillover_sectors": [
           "生活必需品",
           "日用品",
@@ -8113,11 +8113,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 25,
-        "nasdaq100": 5,
-        "sp500": 23,
-        "dow": 41,
-        "nikkei_futures": 16,
+        "overall": 35,
+        "nasdaq100": 7,
+        "sp500": 32,
+        "dow": 44,
+        "nikkei_futures": 23,
         "spillover_sectors": [
           "ヘルスケア",
           "保険",
@@ -8514,11 +8514,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 11,
+        "overall": 13,
         "nasdaq100": 2,
-        "sp500": 11,
-        "dow": 6,
-        "nikkei_futures": 9,
+        "sp500": 13,
+        "dow": 5,
+        "nikkei_futures": 12,
         "spillover_sectors": [
           "公益",
           "電力",
@@ -8915,11 +8915,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 7,
+        "overall": 10,
         "nasdaq100": 2,
-        "sp500": 7,
+        "sp500": 10,
         "dow": 4,
-        "nikkei_futures": 7,
+        "nikkei_futures": 9,
         "spillover_sectors": [
           "不動産",
           "通信"
@@ -9314,11 +9314,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 8,
-        "nasdaq100": 2,
-        "sp500": 8,
-        "dow": 11,
-        "nikkei_futures": 7,
+        "overall": 6,
+        "nasdaq100": 1,
+        "sp500": 6,
+        "dow": 7,
+        "nikkei_futures": 6,
         "spillover_sectors": [
           "素材",
           "塗料",
@@ -9715,11 +9715,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 67,
-        "nasdaq100": 66,
-        "sp500": 67,
+        "overall": 87,
+        "nasdaq100": 86,
+        "sp500": 87,
         "dow": 100,
-        "nikkei_futures": 61,
+        "nikkei_futures": 83,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -10120,11 +10120,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 73,
-        "nasdaq100": 73,
-        "sp500": 72,
-        "dow": 49,
-        "nikkei_futures": 65,
+        "overall": 100,
+        "nasdaq100": 100,
+        "sp500": 100,
+        "dow": 52,
+        "nikkei_futures": 93,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "インターネット広告",
@@ -10524,11 +10524,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 67,
-        "nasdaq100": 67,
-        "sp500": 66,
-        "dow": 40,
-        "nikkei_futures": 59,
+        "overall": 79,
+        "nasdaq100": 79,
+        "sp500": 79,
+        "dow": 36,
+        "nikkei_futures": 73,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "インターネット広告",
@@ -10929,11 +10929,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 9,
-        "nasdaq100": 8,
-        "sp500": 9,
-        "dow": 5,
-        "nikkei_futures": 10,
+        "overall": 8,
+        "nasdaq100": 7,
+        "sp500": 8,
+        "dow": 3,
+        "nikkei_futures": 9,
         "spillover_sectors": [
           "不動産",
           "データセンター"
@@ -11331,11 +11331,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 64,
-        "nasdaq100": 64,
-        "sp500": 64,
-        "dow": 94,
-        "nikkei_futures": 57,
+        "overall": 57,
+        "nasdaq100": 56,
+        "sp500": 57,
+        "dow": 65,
+        "nikkei_futures": 53,
         "spillover_sectors": [
           "情報技術",
           "電子部品",
@@ -11735,17 +11735,17 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 73,
-        "nasdaq100": 73,
-        "sp500": 73,
-        "dow": 85,
-        "nikkei_futures": 66,
+        "overall": 84,
+        "nasdaq100": 84,
+        "sp500": 84,
+        "dow": 74,
+        "nikkei_futures": 78,
         "spillover_sectors": [
           "一般消費財",
           "電子商取引",
           "データセンター関連"
         ],
-        "reason": "NYダウへの感応度と、クラウド・ECを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "NASDAQ 100への感応度と、クラウド・ECを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -12134,16 +12134,16 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 45,
-        "nasdaq100": 7,
-        "sp500": 45,
-        "dow": 55,
-        "nikkei_futures": 31,
+        "overall": 60,
+        "nasdaq100": 10,
+        "sp500": 61,
+        "dow": 58,
+        "nikkei_futures": 43,
         "spillover_sectors": [
           "ヘルスケア",
           "医薬品"
         ],
-        "reason": "NYダウへの感応度と、肥満症治療薬・医薬品を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "S&P 500への感応度と、肥満症治療薬・医薬品を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -12533,11 +12533,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 20,
+        "overall": 23,
         "nasdaq100": 3,
-        "sp500": 17,
-        "dow": 32,
-        "nikkei_futures": 18,
+        "sp500": 21,
+        "dow": 29,
+        "nikkei_futures": 22,
         "spillover_sectors": [
           "資本財",
           "建機",
@@ -12936,8 +12936,8 @@
         "overall": 5,
         "nasdaq100": 1,
         "sp500": 5,
-        "dow": 3,
-        "nikkei_futures": 4,
+        "dow": 2,
+        "nikkei_futures": 5,
         "spillover_sectors": [
           "公益",
           "電力"
@@ -13333,17 +13333,17 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 31,
+        "overall": 26,
         "nasdaq100": 5,
-        "sp500": 31,
-        "dow": 40,
-        "nikkei_futures": 25,
+        "sp500": 26,
+        "dow": 26,
+        "nikkei_futures": 22,
         "spillover_sectors": [
           "エネルギー",
           "商社",
           "資源関連"
         ],
-        "reason": "NYダウへの感応度と、原油・天然ガスを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "S&P 500への感応度と、原油・天然ガスを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "estimates": {
         "eps": {
@@ -13734,11 +13734,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 20,
-        "nasdaq100": 3,
-        "sp500": 19,
-        "dow": 33,
-        "nikkei_futures": 17,
+        "overall": 15,
+        "nasdaq100": 2,
+        "sp500": 14,
+        "dow": 19,
+        "nikkei_futures": 13,
         "spillover_sectors": [
           "エネルギー",
           "商社",
@@ -14135,11 +14135,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 11,
-        "nasdaq100": 8,
-        "sp500": 11,
+        "overall": 13,
+        "nasdaq100": 10,
+        "sp500": 13,
         "dow": 6,
-        "nikkei_futures": 9,
+        "nikkei_futures": 12,
         "spillover_sectors": [
           "素材",
           "化学",
@@ -14535,11 +14535,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 60,
-        "nasdaq100": 60,
-        "sp500": 54,
-        "dow": 20,
-        "nikkei_futures": 63,
+        "overall": 66,
+        "nasdaq100": 66,
+        "sp500": 60,
+        "dow": 17,
+        "nikkei_futures": 73,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -14939,11 +14939,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 11,
-        "nasdaq100": 2,
-        "sp500": 10,
-        "dow": 18,
-        "nikkei_futures": 8,
+        "overall": 7,
+        "nasdaq100": 1,
+        "sp500": 6,
+        "dow": 9,
+        "nikkei_futures": 6,
         "spillover_sectors": [
           "ヘルスケア",
           "医薬品"
@@ -15341,7 +15341,7 @@
         "overall": 4,
         "nasdaq100": 1,
         "sp500": 4,
-        "dow": 3,
+        "dow": 2,
         "nikkei_futures": 4,
         "spillover_sectors": [
           "公益",
@@ -15731,11 +15731,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 22,
+        "overall": 21,
         "nasdaq100": 5,
-        "sp500": 19,
-        "dow": 37,
-        "nikkei_futures": 16,
+        "sp500": 18,
+        "dow": 26,
+        "nikkei_futures": 15,
         "spillover_sectors": [
           "一般消費財",
           "住宅",
@@ -16618,13 +16618,13 @@
   ],
   "nikkei_spillover": {
     "level": "高",
-    "route": "NVDA → 半導体製造装置・検査装置",
+    "route": "AVGO → 半導体製造装置・通信部品",
     "direction": "決算結果待ち",
     "related_factors": [
       "NASDAQ先物",
       "USDJPY",
       "リスクオン／リスクオフ",
-      "AIインフラ",
+      "AIネットワーク",
       "半導体"
     ],
     "note": "米国半導体、AI設備投資、Apple関連、金融、消費、為替を経路別に確認します。売買方向は示しません。"
