@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "page": "earnings-company",
+  "updated_at": "2026-08-20T12:48:55.086Z",
+  "as_of_date": "2026-08-20",
+  "company": {
+    "ticker": "AMD",
+    "company_name": "Advanced Micro Devices",
+    "sector": "情報技術",
+    "earnings_date": "2026-11-03",
+    "jst_time": "11/04 05:00 JST",
+    "us_market_time": "15:00 ET",
+    "session": "unknown",
+    "verification_status": "vendor_confirmed",
+    "verification_note": "外部データで確認した予定。発表時刻は企業IRで再確認するまで未確定",
+    "phase": "pre",
+    "calendar_windows": [],
+    "market_impact": {
+      "overall": 40,
+      "nasdaq100": 40,
+      "sp500": 36,
+      "dow": 10,
+      "nikkei_futures": 42,
+      "spillover_sectors": [
+        "情報技術",
+        "半導体製造装置",
+        "検査装置"
+      ],
+      "reason": "日経先物への感応度と、AI半導体・データセンターを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+    },
+    "estimates": {
+      "eps": {
+        "value": 1.92529,
+        "display": "$1.93",
+        "unit": "USD",
+        "state": "取得済み"
+      },
+      "revenue": {
+        "value": 12992722440,
+        "display": "$13.0B",
+        "unit": "USD",
+        "state": "取得済み"
+      },
+      "revision": {
+        "eps": {
+          "previous": 1.92529,
+          "current": 1.92529,
+          "change_percent": 0,
+          "direction": "unchanged",
+          "display": "$1.93 → $1.93 → 0.0%",
+          "unit": "USD",
+          "state": "取得済み"
+        },
+        "revenue": {
+          "previous": 12992722440,
+          "current": 12992722440,
+          "change_percent": 0,
+          "direction": "unchanged",
+          "display": "$13.0B → $13.0B → 0.0%",
+          "unit": "USD",
+          "state": "取得済み"
+        },
+        "fetched_at": "2026-08-20T05:18:03.464Z"
+      }
+    },
+    "pre_analysis": {
+      "expectation_score": 4,
+      "expectation_label": "予想やや強い",
+      "risk_score": 4,
+      "risk_label": "リスク高い",
+      "themes": [
+        "AI半導体",
+        "データセンター"
+      ],
+      "historical_reaction": {
+        "average_abs_move_pct": 7.7,
+        "median_abs_move_pct": 6.4,
+        "sample_count": 12,
+        "score": 77,
+        "state": "取得済み"
+      },
+      "valuation": {
+        "current_price": 466.42,
+        "forward_pe": 30.154978,
+        "trailing_pe": 123.39154,
+        "price_to_sales": 18.434063,
+        "enterprise_to_ebitda": 78.706,
+        "risk_score": 60,
+        "state": "取得済み"
+      },
+      "valuation_assessment": {
+        "trailing_pe": 123.39154,
+        "forward_pe": 30.154978,
+        "label": "大幅に割高",
+        "tone": "negative",
+        "reading": "同じ業種より大きく高く買われています。期待が高いぶん、決算が期待に届かないと下げやすい水準です。",
+        "compared_with": "情報技術",
+        "basis": [
+          {
+            "label": "市場平均",
+            "symbol": "SPY",
+            "multiple": 25.9,
+            "difference_pct": 376.4
+          },
+          {
+            "label": "情報技術",
+            "symbol": "XLK",
+            "multiple": 35.3,
+            "difference_pct": 249.6
+          }
+        ],
+        "outlook": {
+          "label": "前向きな材料",
+          "tone": "positive",
+          "difference_pct": -76,
+          "note": "予想PERは実績PERより76%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+        },
+        "state": "取得済み"
+      },
+      "available_component_count": 4,
+      "total_component_count": 4,
+      "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
+    },
+    "verdict": {
+      "label": "期待高・荒れやすい",
+      "tone": "caution",
+      "detail": "予想変動±7.7%"
+    },
+    "result": {
+      "status": "取得済み",
+      "reported_date": "2026-08-04",
+      "metrics": {
+        "eps_surprise_pct": {
+          "value": 3.21,
+          "display": "+3.2%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "operating_income_yoy_pct": {
+          "value": -1385.0746,
+          "display": "−1385.1%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "revenue_yoy_pct": {
+          "value": 50.1106,
+          "display": "+50.1%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "gross_margin_pct": {
+          "value": 53.7708,
+          "display": "53.8%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "gross_margin_change_pt": {
+          "value": 13.966,
+          "display": "+14.0pt",
+          "unit": "pt",
+          "state": "取得済み"
+        },
+        "operating_margin_pct": {
+          "value": 17.2503,
+          "display": "17.3%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "operating_margin_change_pt": {
+          "value": 18.994,
+          "display": "+19.0pt",
+          "unit": "pt",
+          "state": "取得済み"
+        },
+        "next_guidance": {
+          "value": 2.15,
+          "display": "$2.65（30日前比 +2.2%）",
+          "unit": "USD",
+          "state": "取得済み"
+        },
+        "free_cash_flow_yoy_pct": {
+          "value": -9.8901,
+          "display": "−9.9%",
+          "unit": "%",
+          "state": "取得済み"
+        },
+        "capital_expenditure_yoy_pct": {
+          "value": 186.5248,
+          "display": "+186.5%",
+          "unit": "%",
+          "state": "取得済み"
+        }
+      },
+      "quality_score": 73,
+      "quality_label": "中立",
+      "quality_breakdown": [
+        {
+          "key": "revenue_and_growth",
+          "label": "売上高と事業成長",
+          "score": 20,
+          "maximum": 20
+        },
+        {
+          "key": "eps_and_operating_income",
+          "label": "EPS・営業利益",
+          "score": 5,
+          "maximum": 15
+        },
+        {
+          "key": "margins",
+          "label": "利益率",
+          "score": 20,
+          "maximum": 20
+        },
+        {
+          "key": "guidance",
+          "label": "ガイダンス",
+          "score": 21.6,
+          "maximum": 30
+        },
+        {
+          "key": "cash_flow_capex_and_finance",
+          "label": "FCF・設備投資・財務",
+          "score": 6,
+          "maximum": 15
+        }
+      ],
+      "available_component_count": 5,
+      "total_component_count": 5,
+      "post_earnings_move_pct": -7,
+      "explanation": "EPSは予想を3.2%上回りました。売上高は前年同期比+50.1%です。次期予想は上方修正されています。発表翌営業日の株価は−7.0%でした。予想を上回っても下落した場合は、事前期待の高さや次期見通しが要因になりやすい点に注意します。"
+    },
+    "trend": {
+      "quarters": [
+        {
+          "date": "2024-10-29",
+          "eps_estimate": 0.92,
+          "eps_actual": 0.92,
+          "surprise_pct": 0.46,
+          "move_pct": -10.6,
+          "beat": true
+        },
+        {
+          "date": "2025-02-04",
+          "eps_estimate": 1.09,
+          "eps_actual": 1.09,
+          "surprise_pct": 0.36,
+          "move_pct": -6.3,
+          "beat": true
+        },
+        {
+          "date": "2025-05-06",
+          "eps_estimate": 0.93,
+          "eps_actual": 0.96,
+          "surprise_pct": 2.83,
+          "move_pct": 1.8,
+          "beat": true
+        },
+        {
+          "date": "2025-08-05",
+          "eps_estimate": 0.48,
+          "eps_actual": 0.48,
+          "surprise_pct": -0.55,
+          "move_pct": -6.4,
+          "beat": false
+        },
+        {
+          "date": "2025-11-04",
+          "eps_estimate": 1.17,
+          "eps_actual": 1.2,
+          "surprise_pct": 2.48,
+          "move_pct": 2.5,
+          "beat": true
+        },
+        {
+          "date": "2026-02-03",
+          "eps_estimate": 1.32,
+          "eps_actual": 1.53,
+          "surprise_pct": 15.98,
+          "move_pct": -17.3,
+          "beat": true
+        },
+        {
+          "date": "2026-05-05",
+          "eps_estimate": 1.29,
+          "eps_actual": 1.37,
+          "surprise_pct": 5.82,
+          "move_pct": 18.6,
+          "beat": true
+        },
+        {
+          "date": "2026-08-04",
+          "eps_estimate": 1.61,
+          "eps_actual": 1.66,
+          "surprise_pct": 3.21,
+          "move_pct": -7,
+          "beat": true
+        }
+      ],
+      "financials": [
+        {
+          "period": "2025-06-30",
+          "revenue": 7685000000,
+          "gross_margin_pct": 39.8,
+          "operating_margin_pct": -1.7
+        },
+        {
+          "period": "2025-09-30",
+          "revenue": 9246000000,
+          "gross_margin_pct": 51.7,
+          "operating_margin_pct": 13.7
+        },
+        {
+          "period": "2025-12-31",
+          "revenue": 10270000000,
+          "gross_margin_pct": 54.3,
+          "operating_margin_pct": 17.1
+        },
+        {
+          "period": "2026-03-31",
+          "revenue": 10253000000,
+          "gross_margin_pct": 52.8,
+          "operating_margin_pct": 14.4
+        },
+        {
+          "period": "2026-06-30",
+          "revenue": 11536000000,
+          "gross_margin_pct": 53.8,
+          "operating_margin_pct": 17.3
+        }
+      ],
+      "beat_count": 7,
+      "miss_count": 1,
+      "state": "取得済み"
+    },
+    "outlook": {
+      "periods": [
+        {
+          "horizon": "0q",
+          "label": "今四半期",
+          "eps_estimate": 1.92529,
+          "eps_estimate_display": "$1.93",
+          "eps_growth_percent": 60.440000000000005,
+          "revenue_estimate": 12992722440,
+          "revenue_estimate_display": "$13.0B",
+          "revenue_growth_percent": 40.52
+        },
+        {
+          "horizon": "+1q",
+          "label": "来四半期",
+          "eps_estimate": 2.65274,
+          "eps_estimate_display": "$2.65",
+          "eps_growth_percent": 73.38,
+          "revenue_estimate": 16096169100,
+          "revenue_estimate_display": "$16.1B",
+          "revenue_growth_percent": 56.730000000000004
+        },
+        {
+          "horizon": "0y",
+          "label": "今年度",
+          "eps_estimate": 7.56141,
+          "eps_estimate_display": "$7.56",
+          "eps_growth_percent": 81.33,
+          "revenue_estimate": 50781391960,
+          "revenue_estimate_display": "$50.8B",
+          "revenue_growth_percent": 46.6
+        },
+        {
+          "horizon": "+1y",
+          "label": "来年度",
+          "eps_estimate": 15.45987,
+          "eps_estimate_display": "$15.46",
+          "eps_growth_percent": 104.46,
+          "revenue_estimate": 87336149860,
+          "revenue_estimate_display": "$87.3B",
+          "revenue_growth_percent": 71.980006
+        }
+      ],
+      "state": "取得済み"
+    },
+    "peer_spillover": {
+      "direct": [
+        "NVDA",
+        "AVGO"
+      ],
+      "capex": [
+        "MSFT",
+        "AMZN"
+      ],
+      "japan": [
+        "半導体製造装置",
+        "検査装置"
+      ]
+    },
+    "data_quality": {
+      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "providers": [
+        "日程データ",
+        "外部予想データ",
+        "決算結果データ",
+        "yfinance市場指標"
+      ],
+      "schedule_verification": "vendor_confirmed",
+      "analyst_count": 37,
+      "missing_fields": [],
+      "freshness": "current",
+      "retry_status": "not_required"
+    }
+  }
+}
