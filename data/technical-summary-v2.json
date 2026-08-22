@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-21T23:19:02.758Z",
+  "generated_at": "2026-08-22T03:22:44.179Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-08-21までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-08-21T23:18:56.854Z",
-    "latest_attempt_at": "2026-08-21T23:18:56.854Z",
-    "stale_after": "2026-08-22T23:18:56.854Z",
+    "last_success_at": "2026-08-22T03:22:38.517Z",
+    "latest_attempt_at": "2026-08-22T03:22:38.517Z",
+    "stale_after": "2026-08-23T03:22:38.517Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -164,7 +164,7 @@
       "label": "NYDOW",
       "status": "available",
       "status_label": "取得済み",
-      "price": 53277.011719,
+      "price": 53277,
       "price_type": "終値",
       "as_of": "2026-08-21",
       "current_phase": {
@@ -241,20 +241,20 @@
       },
       "details": {
         "indicators": {
-          "ema20": 53240.590277,
-          "ema50": 52494.291074,
+          "ema20": 53240.589161,
+          "ema50": 52494.290615,
           "rsi14": 52.361,
-          "macd": 259.904082,
-          "macd_signal": 378.655324,
-          "macd_histogram": -118.751241,
+          "macd": 259.903147,
+          "macd_signal": 378.655137,
+          "macd_histogram": -118.751989,
           "atr14": 512.911192,
           "atr_percent": 0.963,
           "adx14": 17.403,
           "plus_di14": 24.455,
           "minus_di14": 25.864,
-          "bollinger_upper": 54767.183959,
-          "bollinger_middle": 53309.651172,
-          "bollinger_lower": 51852.118385,
+          "bollinger_upper": 54767.183425,
+          "bollinger_middle": 53309.650586,
+          "bollinger_lower": 51852.117747,
           "bollinger_bandwidth": 5.468,
           "roc10": -1.406
         },
