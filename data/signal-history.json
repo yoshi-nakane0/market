@@ -1,0 +1,96 @@
+{
+  "schema_version": "signal-history-v1",
+  "updated_at": "2026-08-23T13:14:57.077Z",
+  "horizon_business_days": 5,
+  "validation": {
+    "recorded_count": 1,
+    "resolved_count": 0,
+    "hit_rate": null,
+    "always_long_hit_rate": null,
+    "edge": null,
+    "by_stance": {
+      "long": {
+        "count": 0,
+        "hit_rate": null
+      },
+      "short": {
+        "count": 0,
+        "hit_rate": null
+      }
+    },
+    "metric_kind": "observed_record_not_probability",
+    "note": "答え合わせが済んだ判定がまだありません。"
+  },
+  "entries": [
+    {
+      "as_of_date": "2026-08-21",
+      "recorded_at": "2026-08-23T13:14:57.077Z",
+      "reference_price": 66090,
+      "judgment": {
+        "stance": "long",
+        "label": "買い",
+        "score": 3.3,
+        "certainty": "低",
+        "agreement": 0.48,
+        "balance": {
+          "long": 57.5,
+          "short": 42.5
+        },
+        "horizon_business_days": 5,
+        "counted_page_count": 5,
+        "expected_page_count": 6
+      },
+      "pages": [
+        {
+          "page": "macro",
+          "status": "stale",
+          "certainty": "低",
+          "current_score": 2.8,
+          "outlook_score": 2.83,
+          "outlook_stance": "short"
+        },
+        {
+          "page": "basecalc",
+          "status": "ok",
+          "certainty": "高",
+          "current_score": 2.94,
+          "outlook_score": 2.94,
+          "outlook_stance": "short"
+        },
+        {
+          "page": "flow",
+          "status": "ok",
+          "certainty": "高",
+          "current_score": 3.5,
+          "outlook_score": 3.46,
+          "outlook_stance": "long"
+        },
+        {
+          "page": "news",
+          "status": "ok",
+          "certainty": "高",
+          "current_score": 2.4,
+          "outlook_score": 2.47,
+          "outlook_stance": "short"
+        },
+        {
+          "page": "earnings",
+          "status": "ok",
+          "certainty": "高",
+          "current_score": 4.6,
+          "outlook_score": 4.41,
+          "outlook_stance": "long"
+        },
+        {
+          "page": "events",
+          "status": "unavailable",
+          "certainty": "判定不能",
+          "current_score": null,
+          "outlook_score": null,
+          "outlook_stance": null
+        }
+      ],
+      "outcome": null
+    }
+  ]
+}
