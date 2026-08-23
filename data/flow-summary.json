@@ -1,0 +1,1232 @@
+{
+  "schema_version": "flow-v1",
+  "page": "flow",
+  "generated_at": "2026-08-23T10:50:15.074Z",
+  "updated_at": "2026-08-23T10:50:15.074Z",
+  "as_of_date": "2026-08-21",
+  "collection_status": {
+    "status": "ok",
+    "label": "取得正常",
+    "stale_after": "2026-09-04T00:00:00.000Z",
+    "expected_interval_days": 7,
+    "latest_report_date": "2026-08-21",
+    "latest_report_age_days": 2,
+    "indicator_count": 9,
+    "available_indicator_count": 9,
+    "stale_indicator_count": 0
+  },
+  "conclusion": {
+    "as_of_date": "2026-08-18",
+    "score": 3.5,
+    "stance": "long",
+    "label": "買い需給",
+    "certainty": "高",
+    "counts": {
+      "long": 4,
+      "neutral": 0,
+      "short": 1
+    },
+    "agreement": 0.8,
+    "included_indicator_count": 5,
+    "excluded_indicators": [
+      {
+        "key": "jpx_foreign_futures_net",
+        "label": "海外投資家の日経先物 売買差引",
+        "reason": "履歴を蓄積中"
+      },
+      {
+        "key": "jpx_arbitrage_long",
+        "label": "裁定買い残",
+        "reason": "履歴を蓄積中"
+      },
+      {
+        "key": "jpx_nikkei_volatility_index",
+        "label": "日経平均VI",
+        "reason": "履歴を蓄積中"
+      }
+    ],
+    "category_breakdown": [
+      {
+        "category": "海外投資家",
+        "score": 3.6,
+        "stance": "long",
+        "label": "買い需給",
+        "count": 2
+      },
+      {
+        "category": "海外投機筋",
+        "score": 2.4,
+        "stance": "short",
+        "label": "売り需給",
+        "count": 1
+      },
+      {
+        "category": "為替",
+        "score": 4.2,
+        "stance": "long",
+        "label": "強い買い需給",
+        "count": 1
+      },
+      {
+        "category": "国内個人",
+        "score": 3.6,
+        "stance": "long",
+        "label": "買い需給",
+        "count": 1
+      }
+    ],
+    "scale": {
+      "min": 1,
+      "max": 5,
+      "neutral": 3
+    },
+    "metric_kind": "positioning_state_not_probability",
+    "summary": "使えた5つの指標のうち4つが買い需給です。海外投資家は買い需給、海外投機筋は売り需給、為替は強い買い需給、国内個人は買い需給です。",
+    "previous": {
+      "as_of_date": "2026-08-11",
+      "score": 2.5,
+      "stance": "short",
+      "label": "売り需給",
+      "included_indicator_count": 4,
+      "counts": {
+        "long": 0,
+        "neutral": 2,
+        "short": 2
+      }
+    },
+    "change": {
+      "score_delta": 1,
+      "direction": "up",
+      "label": "買い需給寄り"
+    }
+  },
+  "conclusion_history": [
+    {
+      "as_of_date": "2026-02-24",
+      "score": 3.4,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-03-03",
+      "score": 2.6,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-03-10",
+      "score": 2.9,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-03-17",
+      "score": 3.8,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-03-24",
+      "score": 2.3,
+      "stance": "short",
+      "label": "売り需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-03-31",
+      "score": 3,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-04-07",
+      "score": 3.8,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-04-14",
+      "score": 3.6,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-04-21",
+      "score": 3.5,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-04-28",
+      "score": 2.7,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-05-05",
+      "score": 2.2,
+      "stance": "short",
+      "label": "売り需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-05-12",
+      "score": 3,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-05-19",
+      "score": 2.2,
+      "stance": "short",
+      "label": "売り需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-05-26",
+      "score": 3,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-06-02",
+      "score": 3.1,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-06-09",
+      "score": 2.6,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-06-16",
+      "score": 3.6,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-06-23",
+      "score": 2.9,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-06-30",
+      "score": 3.3,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-07-07",
+      "score": 3.1,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-07-14",
+      "score": 2.8,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-07-21",
+      "score": 3.2,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-07-28",
+      "score": 4,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-08-04",
+      "score": 2.6,
+      "stance": "neutral",
+      "label": "中立",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-08-11",
+      "score": 2.5,
+      "stance": "short",
+      "label": "売り需給",
+      "included_indicator_count": 4
+    },
+    {
+      "as_of_date": "2026-08-18",
+      "score": 3.5,
+      "stance": "long",
+      "label": "買い需給",
+      "included_indicator_count": 5
+    }
+  ],
+  "cautions": [
+    {
+      "key": "cme_nikkei_leveraged_net",
+      "label": "海外短期筋の日経先物",
+      "side": "short",
+      "detail": "低い水準にあります（取れた期間の下位12%の水準）。買い持ちも売り持ちも、偏りが大きいほど反対売買で戻される材料になります。"
+    },
+    {
+      "key": "jpx_margin_buy",
+      "label": "信用買い残",
+      "side": "long",
+      "detail": "高い水準にあります（取れた期間の上位5%の水準）。残高が高い水準にあるほど、戻り売りが出やすくなります。"
+    }
+  ],
+  "indicators": [
+    {
+      "key": "jpx_foreign_futures_net",
+      "label": "海外投資家の日経先物 売買差引",
+      "short_label": "先物の外国人",
+      "category": "海外投資家",
+      "unit": "億円",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "今週の差引",
+      "basis": "海外の投資家が1週間で日経225先物をいくら買い越したかです。プラスなら買いが多く、マイナスなら売りが多かったことを示します。日経先物の値動きに最も直結する需給です。",
+      "extreme_note": null,
+      "source_label": "JPX 投資部門別取引状況（先物・オプション）",
+      "source_url": "https://www.jpx.co.jp/markets/statistics-derivatives/sector/index.html",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-14",
+      "age_days": 9,
+      "lag_days": 7,
+      "stale": false,
+      "value": 583,
+      "value_display": "+583億円",
+      "previous_value": 2598,
+      "previous_value_display": "+2,598億円",
+      "change": -2015,
+      "change_display": "−2,015億円",
+      "change_direction": "down",
+      "percentile": 60,
+      "score": null,
+      "stance": "neutral",
+      "stance_label": "履歴を蓄積中",
+      "extreme": null,
+      "included_in_conclusion": false,
+      "history": [
+        {
+          "date": "2026-07-17",
+          "value": -1449
+        },
+        {
+          "date": "2026-07-24",
+          "value": -161
+        },
+        {
+          "date": "2026-07-31",
+          "value": 1795
+        },
+        {
+          "date": "2026-08-07",
+          "value": 2598
+        },
+        {
+          "date": "2026-08-14",
+          "value": 583
+        }
+      ]
+    },
+    {
+      "key": "jpx_foreign_equity_net",
+      "label": "海外投資家の現物株 売買差引",
+      "short_label": "現物の外国人",
+      "category": "海外投資家",
+      "unit": "億円",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "今週の差引",
+      "basis": "海外の投資家が1週間で日本の現物株をいくら買い越したかです。日本株の売買のおよそ6割から7割を占めるため、相場全体の地合いを決めやすい需給です。",
+      "extreme_note": null,
+      "source_label": "JPX 投資部門別売買状況（株式）",
+      "source_url": "https://www.jpx.co.jp/markets/statistics-equities/investor-type/index.html",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-14",
+      "age_days": 9,
+      "lag_days": 7,
+      "stale": false,
+      "value": 2135,
+      "value_display": "+2,135億円",
+      "previous_value": -3828,
+      "previous_value_display": "−3,828億円",
+      "change": 5963,
+      "change_display": "+5,963億円",
+      "change_direction": "up",
+      "percentile": 67,
+      "score": 3.6,
+      "stance": "long",
+      "stance_label": "買い需給",
+      "extreme": null,
+      "included_in_conclusion": true,
+      "history": [
+        {
+          "date": "2026-07-10",
+          "value": 4930
+        },
+        {
+          "date": "2026-07-17",
+          "value": -2863
+        },
+        {
+          "date": "2026-07-24",
+          "value": 3515
+        },
+        {
+          "date": "2026-07-31",
+          "value": -4922
+        },
+        {
+          "date": "2026-08-07",
+          "value": -3828
+        },
+        {
+          "date": "2026-08-14",
+          "value": 2135
+        }
+      ]
+    },
+    {
+      "key": "cme_nikkei_leveraged_net",
+      "label": "海外短期筋の日経先物",
+      "short_label": "短期筋",
+      "category": "海外投機筋",
+      "unit": "枚",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "持ち高",
+      "basis": "短期で売り買いするファンドが、米国市場の日経先物をどれだけ買い持ちにしているかです。増えた週は買いが入ったことを示します。",
+      "extreme_note": "買い持ちも売り持ちも、偏りが大きいほど反対売買で戻される材料になります。",
+      "source_label": "CFTC 建玉明細",
+      "source_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-18",
+      "age_days": 5,
+      "lag_days": 3,
+      "stale": false,
+      "value": -437,
+      "value_display": "−437枚",
+      "previous_value": 1021,
+      "previous_value_display": "+1,021枚",
+      "change": -1458,
+      "change_display": "−1,458枚",
+      "change_direction": "down",
+      "percentile": 12,
+      "score": 2.4,
+      "stance": "short",
+      "stance_label": "売り需給",
+      "extreme": {
+        "active": true,
+        "side": "short",
+        "label": "低い水準にあります",
+        "percentile": 12
+      },
+      "included_in_conclusion": true,
+      "history": [
+        {
+          "date": "2026-02-24",
+          "value": 5034
+        },
+        {
+          "date": "2026-03-03",
+          "value": 4625
+        },
+        {
+          "date": "2026-03-10",
+          "value": 738
+        },
+        {
+          "date": "2026-03-17",
+          "value": 8575
+        },
+        {
+          "date": "2026-03-24",
+          "value": 2449
+        },
+        {
+          "date": "2026-03-31",
+          "value": 6208
+        },
+        {
+          "date": "2026-04-07",
+          "value": 7929
+        },
+        {
+          "date": "2026-04-14",
+          "value": 8203
+        },
+        {
+          "date": "2026-04-21",
+          "value": 6082
+        },
+        {
+          "date": "2026-04-28",
+          "value": 3121
+        },
+        {
+          "date": "2026-05-05",
+          "value": 2218
+        },
+        {
+          "date": "2026-05-12",
+          "value": 2436
+        },
+        {
+          "date": "2026-05-19",
+          "value": 1375
+        },
+        {
+          "date": "2026-05-26",
+          "value": 937
+        },
+        {
+          "date": "2026-06-02",
+          "value": 1636
+        },
+        {
+          "date": "2026-06-09",
+          "value": -2009
+        },
+        {
+          "date": "2026-06-16",
+          "value": -4193
+        },
+        {
+          "date": "2026-06-23",
+          "value": -3487
+        },
+        {
+          "date": "2026-06-30",
+          "value": 1174
+        },
+        {
+          "date": "2026-07-07",
+          "value": 1712
+        },
+        {
+          "date": "2026-07-14",
+          "value": 2988
+        },
+        {
+          "date": "2026-07-21",
+          "value": 2535
+        },
+        {
+          "date": "2026-07-28",
+          "value": 4026
+        },
+        {
+          "date": "2026-08-04",
+          "value": 3154
+        },
+        {
+          "date": "2026-08-11",
+          "value": 1021
+        },
+        {
+          "date": "2026-08-18",
+          "value": -437
+        }
+      ]
+    },
+    {
+      "key": "cme_nikkei_asset_manager_net",
+      "label": "海外の運用会社の日経先物",
+      "short_label": "運用会社",
+      "category": "海外投資家",
+      "unit": "枚",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "持ち高",
+      "basis": "年金や投資信託など、長めに持つ運用会社の買い持ち高です。増えた週は腰の据わった買いが入ったことを示します。",
+      "extreme_note": "長めに持つ資金なので、偏りが大きくても短期で戻るとはかぎりません。",
+      "source_label": "CFTC 建玉明細",
+      "source_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-18",
+      "age_days": 5,
+      "lag_days": 3,
+      "stale": false,
+      "value": 7068,
+      "value_display": "+7,068枚",
+      "previous_value": 6551,
+      "previous_value_display": "+6,551枚",
+      "change": 517,
+      "change_display": "+517枚",
+      "change_direction": "up",
+      "percentile": 47,
+      "score": 3.6,
+      "stance": "long",
+      "stance_label": "買い需給",
+      "extreme": {
+        "active": false,
+        "side": null,
+        "label": "偏りは目立ちません",
+        "percentile": 47
+      },
+      "included_in_conclusion": true,
+      "history": [
+        {
+          "date": "2026-02-24",
+          "value": 4962
+        },
+        {
+          "date": "2026-03-03",
+          "value": 4948
+        },
+        {
+          "date": "2026-03-10",
+          "value": 4333
+        },
+        {
+          "date": "2026-03-17",
+          "value": 5147
+        },
+        {
+          "date": "2026-03-24",
+          "value": 5105
+        },
+        {
+          "date": "2026-03-31",
+          "value": 4917
+        },
+        {
+          "date": "2026-04-07",
+          "value": 5208
+        },
+        {
+          "date": "2026-04-14",
+          "value": 5776
+        },
+        {
+          "date": "2026-04-21",
+          "value": 6247
+        },
+        {
+          "date": "2026-04-28",
+          "value": 7551
+        },
+        {
+          "date": "2026-05-05",
+          "value": 7624
+        },
+        {
+          "date": "2026-05-12",
+          "value": 7693
+        },
+        {
+          "date": "2026-05-19",
+          "value": 6441
+        },
+        {
+          "date": "2026-05-26",
+          "value": 6202
+        },
+        {
+          "date": "2026-06-02",
+          "value": 6883
+        },
+        {
+          "date": "2026-06-09",
+          "value": 7632
+        },
+        {
+          "date": "2026-06-16",
+          "value": 8919
+        },
+        {
+          "date": "2026-06-23",
+          "value": 8557
+        },
+        {
+          "date": "2026-06-30",
+          "value": 8154
+        },
+        {
+          "date": "2026-07-07",
+          "value": 8209
+        },
+        {
+          "date": "2026-07-14",
+          "value": 6967
+        },
+        {
+          "date": "2026-07-21",
+          "value": 6994
+        },
+        {
+          "date": "2026-07-28",
+          "value": 8008
+        },
+        {
+          "date": "2026-08-04",
+          "value": 6770
+        },
+        {
+          "date": "2026-08-11",
+          "value": 6551
+        },
+        {
+          "date": "2026-08-18",
+          "value": 7068
+        }
+      ]
+    },
+    {
+      "key": "cme_jpy_leveraged_net",
+      "label": "海外短期筋の円",
+      "short_label": "円の持ち高",
+      "category": "為替",
+      "unit": "枚",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "持ち高",
+      "basis": "短期筋が円をどれだけ買い持ちにしているかです。円の売り持ちが増えると円安に傾きやすく、輸出企業の多い日経平均には追い風になります。",
+      "extreme_note": "円の売り持ちが偏るほど、巻き戻しの円高が起きたときの下げが大きくなりやすい材料です。",
+      "source_label": "CFTC 建玉明細",
+      "source_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-18",
+      "age_days": 5,
+      "lag_days": 3,
+      "stale": false,
+      "value": -67971,
+      "value_display": "−67,971枚",
+      "previous_value": -53070,
+      "previous_value_display": "−53,070枚",
+      "change": -14901,
+      "change_display": "−14,901枚",
+      "change_direction": "down",
+      "percentile": 26,
+      "score": 4.2,
+      "stance": "long",
+      "stance_label": "強い買い需給",
+      "extreme": {
+        "active": false,
+        "side": null,
+        "label": "偏りは目立ちません",
+        "percentile": 26
+      },
+      "included_in_conclusion": true,
+      "history": [
+        {
+          "date": "2026-02-24",
+          "value": -26317
+        },
+        {
+          "date": "2026-03-03",
+          "value": -34225
+        },
+        {
+          "date": "2026-03-10",
+          "value": -49219
+        },
+        {
+          "date": "2026-03-17",
+          "value": -65429
+        },
+        {
+          "date": "2026-03-24",
+          "value": -54852
+        },
+        {
+          "date": "2026-03-31",
+          "value": -46182
+        },
+        {
+          "date": "2026-04-07",
+          "value": -51110
+        },
+        {
+          "date": "2026-04-14",
+          "value": -54445
+        },
+        {
+          "date": "2026-04-21",
+          "value": -68497
+        },
+        {
+          "date": "2026-04-28",
+          "value": -75802
+        },
+        {
+          "date": "2026-05-05",
+          "value": -52897
+        },
+        {
+          "date": "2026-05-12",
+          "value": -62440
+        },
+        {
+          "date": "2026-05-19",
+          "value": -64945
+        },
+        {
+          "date": "2026-05-26",
+          "value": -70508
+        },
+        {
+          "date": "2026-06-02",
+          "value": -88063
+        },
+        {
+          "date": "2026-06-09",
+          "value": -99844
+        },
+        {
+          "date": "2026-06-16",
+          "value": -96772
+        },
+        {
+          "date": "2026-06-23",
+          "value": -97092
+        },
+        {
+          "date": "2026-06-30",
+          "value": -115400
+        },
+        {
+          "date": "2026-07-07",
+          "value": -90083
+        },
+        {
+          "date": "2026-07-14",
+          "value": -90461
+        },
+        {
+          "date": "2026-07-21",
+          "value": -96185
+        },
+        {
+          "date": "2026-07-28",
+          "value": -101990
+        },
+        {
+          "date": "2026-08-04",
+          "value": -60825
+        },
+        {
+          "date": "2026-08-11",
+          "value": -53070
+        },
+        {
+          "date": "2026-08-18",
+          "value": -67971
+        }
+      ]
+    },
+    {
+      "key": "jpx_arbitrage_long",
+      "label": "裁定買い残",
+      "short_label": "裁定買い残",
+      "category": "裁定",
+      "unit": "万株",
+      "frequency": "daily",
+      "frequency_label": "毎営業日",
+      "value_label": "残高",
+      "basis": "先物と現物を組み合わせた取引で買い建てられている現物株の残高です。増えた日は先物に買いが入ったことを示します。",
+      "extreme_note": "残高が積み上がるほど、あとで解消されるときの売りが大きくなります。",
+      "source_label": "JPX 裁定取引に係る現物ポジション",
+      "source_url": "https://www.jpx.co.jp/markets/statistics-equities/program/index.html",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-19",
+      "age_days": 4,
+      "lag_days": 2,
+      "stale": false,
+      "value": 64035,
+      "value_display": "64,035万株",
+      "previous_value": 66624,
+      "previous_value_display": "66,624万株",
+      "change": -2589,
+      "change_display": "−2,589万株",
+      "change_direction": "down",
+      "percentile": 67,
+      "score": null,
+      "stance": "neutral",
+      "stance_label": "履歴を蓄積中",
+      "extreme": null,
+      "included_in_conclusion": false,
+      "history": [
+        {
+          "date": "2026-08-07",
+          "value": 62699
+        },
+        {
+          "date": "2026-08-14",
+          "value": 66624
+        },
+        {
+          "date": "2026-08-19",
+          "value": 64035
+        }
+      ]
+    },
+    {
+      "key": "jpx_margin_buy",
+      "label": "信用買い残",
+      "short_label": "信用買い残",
+      "category": "国内個人",
+      "unit": "億円",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "残高",
+      "basis": "個人などが借りたお金で買っている株の残高です。増えるほど、あとで売り戻される株が増えるため、上値が重くなりやすい需給として読みます。",
+      "extreme_note": "残高が高い水準にあるほど、戻り売りが出やすくなります。",
+      "source_label": "JPX 信用取引現在高",
+      "source_url": "https://www.jpx.co.jp/markets/statistics-equities/margin/04.html",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-14",
+      "age_days": 9,
+      "lag_days": 7,
+      "stale": false,
+      "value": 62007,
+      "value_display": "62,007億円",
+      "previous_value": 62681,
+      "previous_value_display": "62,681億円",
+      "change": -674,
+      "change_display": "−674億円",
+      "change_direction": "down",
+      "percentile": 95,
+      "score": 3.6,
+      "stance": "long",
+      "stance_label": "買い需給",
+      "extreme": {
+        "active": true,
+        "side": "long",
+        "label": "高い水準にあります",
+        "percentile": 95
+      },
+      "included_in_conclusion": true,
+      "history": [
+        {
+          "date": "2026-02-13",
+          "value": 52853
+        },
+        {
+          "date": "2026-02-20",
+          "value": 55830
+        },
+        {
+          "date": "2026-02-27",
+          "value": 55406
+        },
+        {
+          "date": "2026-03-06",
+          "value": 57181
+        },
+        {
+          "date": "2026-03-13",
+          "value": 57195
+        },
+        {
+          "date": "2026-03-19",
+          "value": 58026
+        },
+        {
+          "date": "2026-03-27",
+          "value": 54419
+        },
+        {
+          "date": "2026-04-03",
+          "value": 52705
+        },
+        {
+          "date": "2026-04-10",
+          "value": 51565
+        },
+        {
+          "date": "2026-04-17",
+          "value": 54860
+        },
+        {
+          "date": "2026-04-24",
+          "value": 56233
+        },
+        {
+          "date": "2026-05-01",
+          "value": 57548
+        },
+        {
+          "date": "2026-05-15",
+          "value": 60114
+        },
+        {
+          "date": "2026-05-22",
+          "value": 60793
+        },
+        {
+          "date": "2026-05-29",
+          "value": 63915
+        },
+        {
+          "date": "2026-06-05",
+          "value": 66959
+        },
+        {
+          "date": "2026-06-12",
+          "value": 63733
+        },
+        {
+          "date": "2026-06-19",
+          "value": 64756
+        },
+        {
+          "date": "2026-06-26",
+          "value": 70167
+        },
+        {
+          "date": "2026-07-03",
+          "value": 67452
+        },
+        {
+          "date": "2026-07-10",
+          "value": 67322
+        },
+        {
+          "date": "2026-07-17",
+          "value": 67097
+        },
+        {
+          "date": "2026-07-24",
+          "value": 64769
+        },
+        {
+          "date": "2026-07-31",
+          "value": 62023
+        },
+        {
+          "date": "2026-08-07",
+          "value": 62681
+        },
+        {
+          "date": "2026-08-14",
+          "value": 62007
+        }
+      ]
+    },
+    {
+      "key": "jpx_nikkei_volatility_index",
+      "label": "日経平均VI",
+      "short_label": "日経VI",
+      "category": "変動率",
+      "unit": "",
+      "frequency": "daily",
+      "frequency_label": "毎営業日",
+      "value_label": "終値",
+      "basis": "日経平均がこの先どれくらい荒れると見られているかを表す数字です。上がるほど警戒が強まり、株を手放す動きが出やすくなります。",
+      "extreme_note": "低すぎるときは油断、高すぎるときは行き過ぎた警戒を示すことがあります。",
+      "source_label": "JPX 清算価格等（日経平均VI先物の原資産価格）",
+      "source_url": "https://www.jpx.co.jp/markets/derivatives/settlement-price/index.html",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-21",
+      "age_days": 2,
+      "lag_days": 0,
+      "stale": false,
+      "value": 28.38,
+      "value_display": "28.38",
+      "previous_value": null,
+      "previous_value_display": "—",
+      "change": null,
+      "change_display": "—",
+      "change_direction": "flat",
+      "percentile": null,
+      "score": null,
+      "stance": "neutral",
+      "stance_label": "履歴を蓄積中",
+      "extreme": null,
+      "included_in_conclusion": false,
+      "history": [
+        {
+          "date": "2026-08-21",
+          "value": 28.38
+        }
+      ]
+    },
+    {
+      "key": "cme_nikkei_open_interest",
+      "label": "CME日経先物の建玉",
+      "short_label": "建玉",
+      "category": "参加の厚み",
+      "unit": "枚",
+      "frequency": "weekly",
+      "frequency_label": "毎週",
+      "value_label": "残高",
+      "basis": "決済されずに残っている枚数です。増えていれば参加者が増えていることを示しますが、上下どちらに向かうかは示しません。",
+      "extreme_note": null,
+      "source_label": "CFTC 建玉明細",
+      "source_url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "status": "available",
+      "status_label": "取得済み",
+      "as_of_date": "2026-08-18",
+      "age_days": 5,
+      "lag_days": 3,
+      "stale": false,
+      "value": 31049,
+      "value_display": "31,049枚",
+      "previous_value": 28863,
+      "previous_value_display": "28,863枚",
+      "change": 2186,
+      "change_display": "+2,186枚",
+      "change_direction": "up",
+      "percentile": 14,
+      "score": null,
+      "stance": "neutral",
+      "stance_label": "方向なし",
+      "extreme": null,
+      "included_in_conclusion": false,
+      "history": [
+        {
+          "date": "2026-02-24",
+          "value": 41320
+        },
+        {
+          "date": "2026-03-03",
+          "value": 40596
+        },
+        {
+          "date": "2026-03-10",
+          "value": 44311
+        },
+        {
+          "date": "2026-03-17",
+          "value": 30654
+        },
+        {
+          "date": "2026-03-24",
+          "value": 30119
+        },
+        {
+          "date": "2026-03-31",
+          "value": 29349
+        },
+        {
+          "date": "2026-04-07",
+          "value": 31663
+        },
+        {
+          "date": "2026-04-14",
+          "value": 34012
+        },
+        {
+          "date": "2026-04-21",
+          "value": 33647
+        },
+        {
+          "date": "2026-04-28",
+          "value": 35291
+        },
+        {
+          "date": "2026-05-05",
+          "value": 36011
+        },
+        {
+          "date": "2026-05-12",
+          "value": 33674
+        },
+        {
+          "date": "2026-05-19",
+          "value": 35308
+        },
+        {
+          "date": "2026-05-26",
+          "value": 32913
+        },
+        {
+          "date": "2026-06-02",
+          "value": 37503
+        },
+        {
+          "date": "2026-06-09",
+          "value": 43323
+        },
+        {
+          "date": "2026-06-16",
+          "value": 25343
+        },
+        {
+          "date": "2026-06-23",
+          "value": 29282
+        },
+        {
+          "date": "2026-06-30",
+          "value": 27616
+        },
+        {
+          "date": "2026-07-07",
+          "value": 31181
+        },
+        {
+          "date": "2026-07-14",
+          "value": 28740
+        },
+        {
+          "date": "2026-07-21",
+          "value": 30441
+        },
+        {
+          "date": "2026-07-28",
+          "value": 35445
+        },
+        {
+          "date": "2026-08-04",
+          "value": 33506
+        },
+        {
+          "date": "2026-08-11",
+          "value": 28863
+        },
+        {
+          "date": "2026-08-18",
+          "value": 31049
+        }
+      ]
+    }
+  ],
+  "methodology": {
+    "score_definition": "各指標の前の週からの増減（1週間の売買差引を出す指標はその差引そのもの）を、その指標がふだん動く大きさと比べて1〜5の点数にしています。3が中立です。",
+    "cadence_rule": "毎営業日公表される指標は、その週の最後の値にまとめてから、他の指標と同じ週の物差しで比べます。",
+    "staleness_rule": "いちばん新しい指標より大きく遅れた指標と、実行時点から見て古すぎる指標は、更新が止まったとみなして判定を取り下げ、総合から外します。週次は25日、毎営業日の指標は14日を目安にしています。",
+    "change_reference_rule": "残高のように増え続ける指標は、0ではなく「ふだんの増減」を中立に置いて比べます。何もしなくても片側に寄るのを避けるためです。",
+    "aggregation": "点数は同じ重みで平均します。伏せた重み付けはありません。",
+    "extreme_definition": "持ち高の水準が取得できた期間の上位15%または下位15%に入ったときだけ、偏りとして注意に出します。点数には入れません。12週ぶんの履歴がたまるまでは出しません。",
+    "separation_principle": "Flowページは需給だけを見ます。マクロ判断やテクニカル判断、決算の評価は取り込みません。",
+    "not_a_forecast": "表示する点数は将来の値動きの確率ではありません。いま資金がどちらに動いたかを示すものです。",
+    "source_policy": [
+      "無料で取得できる公表データだけを使います。有料APIや会員登録が必要な情報源は使いません。",
+      "取れなかった指標は推定で埋めず、取得不可として表示します。"
+    ]
+  }
+}
