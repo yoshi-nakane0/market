@@ -1,34 +1,32 @@
 {
   "schema_version": "news-v1",
   "page": "news",
-  "generated_at": "2026-08-22T21:04:53.639916+09:00",
-  "updated_at": "2026-08-22T21:04:53.639916+09:00",
-  "as_of_date": "2026-08-22",
+  "generated_at": "2026-08-25T00:43:55.421946+09:00",
+  "updated_at": "2026-08-25T00:43:55.421946+09:00",
+  "as_of_date": "2026-08-25",
   "collection_status": {
     "status": "ok",
     "label": "取得正常",
-    "stale_after": "2026-08-27T21:04:53.639916+09:00",
+    "stale_after": "2026-08-30T00:43:55.421946+09:00",
     "expected_interval_days": 4,
     "latest_article_date": "2026-08-21",
-    "latest_article_age_days": 1,
+    "latest_article_age_days": 4,
     "window_days": 30,
     "person_count": 5,
     "covered_person_count": 5,
-    "no_result_person_count": 0,
     "report_count": 17
   },
   "conclusion": {
-    "as_of_date": "2026-08-22",
-    "score": 2.8,
-    "stance": "neutral",
-    "label": "中立",
-    "certainty": "中",
+    "as_of_date": "2026-08-25",
+    "score": 2.7,
+    "stance": "short",
+    "label": "やや弱気",
+    "certainty": "高",
     "counts": {
       "long": 2,
-      "neutral": 0,
       "short": 3
     },
-    "agreement": 0.0,
+    "agreement": 0.6,
     "included_person_count": 5,
     "excluded_people": [],
     "topic_breakdown": [
@@ -50,27 +48,26 @@
     "previous": {
       "as_of_date": "2026-08-21",
       "score": 2.8,
-      "stance": "neutral",
-      "label": "中立",
+      "stance": "short",
+      "label": "やや弱気",
       "included_person_count": 5,
       "counts": {
         "long": 2,
-        "neutral": 0,
         "short": 3
       }
     },
     "change": {
-      "score_delta": 0.0,
+      "score_delta": -0.1,
       "direction": "flat",
       "label": "横ばい"
     },
     "scale": {
       "min": 1,
       "max": 5,
-      "neutral": 3
+      "midpoint": 3
     },
     "window_days": 30,
-    "summary": "有効な5人のうち0人が中立です。マクロはやや弱気、株式は強気です。"
+    "summary": "有効な5人のうち3人が弱気です。マクロはやや弱気、株式は強気です。"
   },
   "conclusion_history": [
     {
@@ -81,151 +78,138 @@
       "included_person_count": 1,
       "counts": {
         "long": 1,
-        "neutral": 0,
         "short": 0
       }
     },
     {
       "as_of_date": "2026-07-02",
-      "score": 3.0,
-      "stance": "neutral",
-      "label": "中立",
+      "score": 2.9,
+      "stance": "short",
+      "label": "やや弱気",
       "included_person_count": 2,
       "counts": {
         "long": 1,
-        "neutral": 0,
         "short": 1
       }
     },
     {
       "as_of_date": "2026-07-07",
-      "score": 3.0,
-      "stance": "neutral",
-      "label": "中立",
-      "included_person_count": 3,
+      "score": 2.9,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 2,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 1
       }
     },
     {
       "as_of_date": "2026-07-08",
-      "score": 2.7,
-      "stance": "neutral",
-      "label": "中立",
-      "included_person_count": 4,
+      "score": 2.6,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 3,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 2
       }
     },
     {
       "as_of_date": "2026-07-21",
-      "score": 2.5,
+      "score": 2.4,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-07-23",
-      "score": 2.5,
+      "score": 2.4,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-07-25",
-      "score": 2.5,
+      "score": 2.3,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-07-26",
-      "score": 2.5,
+      "score": 2.3,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-07-30",
-      "score": 2.2,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 5,
-      "counts": {
-        "long": 0,
-        "neutral": 1,
-        "short": 4
-      }
-    },
-    {
-      "as_of_date": "2026-07-31",
-      "score": 2.2,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 5,
-      "counts": {
-        "long": 0,
-        "neutral": 1,
-        "short": 4
-      }
-    },
-    {
-      "as_of_date": "2026-08-06",
-      "score": 2.2,
+      "score": 2.0,
       "stance": "short",
       "label": "やや弱気",
       "included_person_count": 4,
       "counts": {
         "long": 0,
-        "neutral": 1,
+        "short": 4
+      }
+    },
+    {
+      "as_of_date": "2026-07-31",
+      "score": 2.0,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 4,
+      "counts": {
+        "long": 0,
+        "short": 4
+      }
+    },
+    {
+      "as_of_date": "2026-08-06",
+      "score": 2.0,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 3,
+      "counts": {
+        "long": 0,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-08-08",
-      "score": 2.2,
+      "score": 2.0,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 0,
-        "neutral": 1,
         "short": 4
       }
     },
     {
       "as_of_date": "2026-08-13",
-      "score": 2.6,
-      "stance": "neutral",
-      "label": "中立",
-      "included_person_count": 5,
+      "score": 2.5,
+      "stance": "short",
+      "label": "やや弱気",
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "neutral": 1,
         "short": 3
       }
     },
@@ -237,43 +221,39 @@
       "included_person_count": 5,
       "counts": {
         "long": 1,
-        "neutral": 0,
         "short": 4
       }
     },
     {
       "as_of_date": "2026-08-16",
       "score": 2.8,
-      "stance": "neutral",
-      "label": "中立",
+      "stance": "short",
+      "label": "やや弱気",
       "included_person_count": 5,
       "counts": {
         "long": 2,
-        "neutral": 0,
         "short": 3
       }
     },
     {
       "as_of_date": "2026-08-21",
       "score": 2.8,
-      "stance": "neutral",
-      "label": "中立",
+      "stance": "short",
+      "label": "やや弱気",
       "included_person_count": 5,
       "counts": {
         "long": 2,
-        "neutral": 0,
         "short": 3
       }
     },
     {
-      "as_of_date": "2026-08-22",
-      "score": 2.8,
-      "stance": "neutral",
-      "label": "中立",
+      "as_of_date": "2026-08-25",
+      "score": 2.7,
+      "stance": "short",
+      "label": "やや弱気",
       "included_person_count": 5,
       "counts": {
         "long": 2,
-        "neutral": 0,
         "short": 3
       }
     }
@@ -327,27 +307,17 @@
       "counted_article_id": "christophe-barraud-2026-08-15",
       "article_count": 3,
       "trend": {
-        "direction": "down",
-        "label": "中立→弱気に転換",
+        "direction": "unknown",
+        "label": "初回の見解",
         "streak": {
           "stance": "short",
           "count": 1
         },
         "latest_evaluation": 2,
-        "previous_evaluation": 3,
-        "delta": -1,
-        "sample_count": 3,
+        "previous_evaluation": null,
+        "delta": null,
+        "sample_count": 1,
         "points": [
-          {
-            "article_date": "2026-07-07",
-            "evaluation": 3,
-            "stance": "neutral"
-          },
-          {
-            "article_date": "2026-07-26",
-            "evaluation": 3,
-            "stance": "neutral"
-          },
           {
             "article_date": "2026-08-15",
             "evaluation": 2,
@@ -519,7 +489,7 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-08-21",
-      "age_days": 1,
+      "age_days": 4,
       "title": "米国債買い戻し拡大で市場介入姿勢が強まる",
       "target": "マクロ",
       "period": "中期",
@@ -534,8 +504,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260821_2.html",
-      "no_result": false
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260821_2.html"
     },
     {
       "id": "torsten-slok-2026-08-16",
@@ -543,7 +512,7 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-08-16",
-      "age_days": 6,
+      "age_days": 9,
       "title": "関税返金が企業利益と米国成長を支える",
       "target": "マクロ",
       "period": "短期",
@@ -559,8 +528,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/tariff-refunds-boosting-growth",
-      "no_result": false
+      "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/tariff-refunds-boosting-growth"
     },
     {
       "id": "christophe-barraud-2026-08-15",
@@ -568,7 +536,7 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-08-15",
-      "age_days": 7,
+      "age_days": 10,
       "title": "円買い介入の限界とドル円160台の再接近",
       "target": "マクロ",
       "period": "不明",
@@ -583,8 +551,7 @@
       ],
       "source_type": "SNS",
       "source_class": "直接引用",
-      "source_url": "https://x.com/C_Barraud/status/2088161306209661373",
-      "no_result": false
+      "source_url": "https://x.com/C_Barraud/status/2088161306209661373"
     },
     {
       "id": "torsten-slok-2026-08-13",
@@ -592,7 +559,7 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-08-13",
-      "age_days": 9,
+      "age_days": 12,
       "title": "AIが企業利益を圧迫する可能性を市場は過小評価",
       "target": "株式",
       "period": "長期",
@@ -607,8 +574,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/markets-may-still-be-underestimating-ai-disruption",
-      "no_result": false
+      "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/markets-may-still-be-underestimating-ai-disruption"
     },
     {
       "id": "jeffrey-degraaf-2026-08-13",
@@ -616,7 +582,7 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-08-13",
-      "age_days": 9,
+      "age_days": 12,
       "title": "テック不安定化でヘルスケア株の相対優位を期待",
       "target": "株式",
       "period": "不明",
@@ -631,8 +597,7 @@
       ],
       "source_type": "報道記事",
       "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/08/12/healthcare-sector-looks-to-be-a-beneficiary-of-the-turbulence-in-tech-renaissance-macros-degraaf.html",
-      "no_result": false
+      "source_url": "https://www.cnbc.com/video/2026/08/12/healthcare-sector-looks-to-be-a-beneficiary-of-the-turbulence-in-tech-renaissance-macros-degraaf.html"
     },
     {
       "id": "jan-hatzius-2026-08-08",
@@ -640,7 +605,7 @@
       "person_id": "jan-hatzius",
       "specialty": "米国景気・FRB",
       "article_date": "2026-08-08",
-      "age_days": 14,
+      "age_days": 17,
       "title": "Jan Hatzius、7月雇用統計を弱い内容と評価",
       "target": "マクロ",
       "period": "短期",
@@ -655,8 +620,7 @@
       ],
       "source_type": "その他",
       "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-goldman-sachs-jan-hatzius.html",
-      "no_result": false
+      "source_url": "https://www.cnbc.com/video/2026/08/07/watch-cnbcs-full-interview-with-goldman-sachs-jan-hatzius.html"
     },
     {
       "id": "takahide-kiuchi-2026-08-06",
@@ -664,7 +628,7 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-08-06",
-      "age_days": 16,
+      "age_days": 19,
       "title": "食料品減税は財政悪化で効果を損なう恐れ",
       "target": "マクロ",
       "period": "長期",
@@ -679,8 +643,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260806.html",
-      "no_result": false
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260806.html"
     },
     {
       "id": "takahide-kiuchi-2026-07-31",
@@ -688,7 +651,7 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-31",
-      "age_days": 22,
+      "age_days": 25,
       "title": "物価予測の引下げで日銀利上げは12月へ",
       "target": "マクロ",
       "period": "中期",
@@ -703,8 +666,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260731_3.html",
-      "no_result": false
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260731_3.html"
     },
     {
       "id": "torsten-slok-2026-07-30",
@@ -712,7 +674,7 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-07-30",
-      "age_days": 23,
+      "age_days": 26,
       "title": "インフレは高止まり、金利の長期高止まりが株式の重しに",
       "target": "マクロ",
       "period": "不明",
@@ -727,8 +689,7 @@
       ],
       "source_type": "報道記事",
       "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/07/30/torsten-slok-inflation-is-still-running-at-very-high-levels.html",
-      "no_result": false
+      "source_url": "https://www.cnbc.com/video/2026/07/30/torsten-slok-inflation-is-still-running-at-very-high-levels.html"
     },
     {
       "id": "christophe-barraud-2026-07-26",
@@ -736,13 +697,13 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-07-26",
-      "age_days": 27,
+      "age_days": 30,
       "title": "テクノロジー株・債券・円を確認する週次チャート",
       "target": "マクロ",
       "period": "短期",
       "evaluation": 3,
       "stance": "neutral",
-      "stance_label": "中立",
+      "stance_label": "判定なし",
       "body": "Christophe Barraud氏は、2026年第30週のマクロ・金融市場チャートを整理し、テクノロジー株、ハイパースケーラー、企業債務、債券、円を注目テーマとして示した。公式サイトの発信は、個別の方向性や具体的な数値目標を断定するものではなく、複数のチャートから市場の変化を確認する形式である。今回も特定の売買方向より、判断材料の提示を重視した内容と整理できる。",
       "points": [
         "2026年第30週のマクロ・金融市場チャートを週次で整理した。",
@@ -753,8 +714,7 @@
       ],
       "source_type": "本人公式サイト",
       "source_class": "一次情報",
-      "source_url": "https://www.christophe-barraud.com/top-10-macro-financial-charts-of-the-week-w30-2026/",
-      "no_result": false
+      "source_url": "https://www.christophe-barraud.com/top-10-macro-financial-charts-of-the-week-w30-2026/"
     },
     {
       "id": "jeffrey-degraaf-2026-07-25",
@@ -762,7 +722,7 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-07-25",
-      "age_days": 28,
+      "age_days": 31,
       "title": "株式市場はモメンタム低下を警戒する局面",
       "target": "株式",
       "period": "短期",
@@ -779,8 +739,7 @@
       ],
       "source_type": "本人出演動画（CNBC）",
       "source_class": "一次情報",
-      "source_url": "https://www.cnbc.com/video/2026/07/24/renaissances-jeff-degraaff-on-why-he-is-calling-the-moment-a-momentum-crash-environment-for-the-market.html",
-      "no_result": false
+      "source_url": "https://www.cnbc.com/video/2026/07/24/renaissances-jeff-degraaff-on-why-he-is-calling-the-moment-a-momentum-crash-environment-for-the-market.html"
     },
     {
       "id": "takahide-kiuchi-2026-07-23",
@@ -788,7 +747,7 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-23",
-      "age_days": 30,
+      "age_days": 33,
       "title": "米国の代替関税は不確定、今後縮小の可能性",
       "target": "マクロ",
       "period": "中期",
@@ -805,8 +764,7 @@
       ],
       "source_type": "本人執筆・公式コラム（野村総合研究所）",
       "source_class": "一次情報",
-      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260723.html",
-      "no_result": false
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260723.html"
     },
     {
       "id": "takahide-kiuchi-2026-07-21",
@@ -814,7 +772,7 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-21",
-      "age_days": 32,
+      "age_days": 35,
       "title": "骨太ショックと骨太方針原案の修正：小手先の対応では金融市場の信頼を取り戻すことはできない",
       "target": "マクロ",
       "period": "短期",
@@ -829,8 +787,7 @@
       ],
       "source_type": "公式発表",
       "source_class": "直接引用",
-      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260721.html",
-      "no_result": false
+      "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260721.html"
     },
     {
       "id": "jeffrey-degraaf-2026-07-08",
@@ -838,7 +795,7 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-07-08",
-      "age_days": 45,
+      "age_days": 48,
       "title": "メモリー株にピークの兆候、短期は調整に注意",
       "target": "株式",
       "period": "短期",
@@ -853,8 +810,7 @@
       ],
       "source_type": "その他",
       "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/07/06/some-signals-of-peaks-in-memory-stocks-renaissance-macros-degraaf.html",
-      "no_result": false
+      "source_url": "https://www.cnbc.com/video/2026/07/06/some-signals-of-peaks-in-memory-stocks-renaissance-macros-degraaf.html"
     },
     {
       "id": "christophe-barraud-2026-07-07",
@@ -862,13 +818,13 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-07-07",
-      "age_days": 46,
+      "age_days": 49,
       "title": "Bloomberg予測ランキングで米欧中の首位に選出",
       "target": "マクロ",
       "period": "不明",
       "evaluation": 3,
       "stance": "neutral",
-      "stance_label": "中立",
+      "stance_label": "判定なし",
       "body": "Christophe Barraud氏は、2026年第2四半期のBloomberg予測ランキングで、米国、ユーロ圏、中国の主要3経済圏についてトップ予測者に選ばれたと発表した。景気循環は変化し続けるため、ランキングは一時点の評価にすぎず、データを継続的に検証し、謙虚さを保つことが重要だと述べている。具体的な成長率、インフレ率、金利、株価などの予測値や方向性は示していない。",
       "points": [
         "米国、ユーロ圏、中国の3経済圏でBloombergのトップ予測者に選ばれたと本人が報告",
@@ -877,8 +833,7 @@
       ],
       "source_type": "本人公式サイト",
       "source_class": "一次情報",
-      "source_url": "https://www.christophe-barraud.com/%E2%98%86%E2%98%86%E2%98%86-bloomberg-top-forecasters-q2-2026-1st-place-u-s-1st-place-china-1st-place-eurozone-%E2%98%86%E2%98%86%E2%98%86/",
-      "no_result": false
+      "source_url": "https://www.christophe-barraud.com/%E2%98%86%E2%98%86%E2%98%86-bloomberg-top-forecasters-q2-2026-1st-place-u-s-1st-place-china-1st-place-eurozone-%E2%98%86%E2%98%86%E2%98%86/"
     },
     {
       "id": "jan-hatzius-2026-07-02",
@@ -886,7 +841,7 @@
       "person_id": "jan-hatzius",
       "specialty": "米国景気・FRB",
       "article_date": "2026-07-02",
-      "age_days": 51,
+      "age_days": 54,
       "title": "米雇用の減速は景気とFRB政策への弱気材料",
       "target": "マクロ",
       "period": "短期",
@@ -903,8 +858,7 @@
       ],
       "source_type": "SNS（本人公式LinkedIn）",
       "source_class": "一次情報",
-      "source_url": "https://www.linkedin.com/posts/jan-hatzius_goldman-sachs-hatzius-on-june-jobs-reports-activity-7478804189226274817-Sr5m",
-      "no_result": false
+      "source_url": "https://www.linkedin.com/posts/jan-hatzius_goldman-sachs-hatzius-on-june-jobs-reports-activity-7478804189226274817-Sr5m"
     },
     {
       "id": "torsten-slok-2026-06-30",
@@ -912,7 +866,7 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-06-30",
-      "age_days": 53,
+      "age_days": 56,
       "title": "AI・産業投資と政策支援が成長を支える",
       "target": "マクロ",
       "period": "中期",
@@ -929,8 +883,7 @@
       ],
       "source_type": "本人出演動画・公式見通し（Apollo）",
       "source_class": "一次情報",
-      "source_url": "https://www.apollo.com/insights-news/insights/the-view-from-apollo/2026/06/2026-mid-year-outlook",
-      "no_result": false
+      "source_url": "https://www.apollo.com/insights-news/insights/the-view-from-apollo/2026/06/2026-mid-year-outlook"
     }
   ]
 }
