@@ -735,7 +735,7 @@
   ],
   "market_pricing": {
     "status": "aligned",
-    "label": "おおむね反映済み",
+    "label": "概ね反映",
     "summary": "市場織り込みは現在のmacro評価とおおむね整合している",
     "separated_from_real_economy": true
   },
