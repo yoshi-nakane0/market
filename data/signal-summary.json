@@ -1,0 +1,2432 @@
+{
+  "schema_version": "signal-summary-v1",
+  "generated_at": "2026-08-27T04:12:35.710Z",
+  "macro": {
+    "generated_at": "2026-08-18T20:58:00.901+09:00",
+    "updated_at": "2026-08-18T20:58:00.901+09:00",
+    "as_of_date": "2026-08-18",
+    "date": "2026-08-18",
+    "summary": "成長は横ばい、インフレは安定、政策は引締めです。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
+    "regime": "中立",
+    "collection_status": {
+      "status": "success",
+      "label": "データ取得済み",
+      "fetched_at": "2026-08-18T09:52:49.694Z",
+      "stale_after": "2026-08-19T21:52:49.694Z",
+      "max_age_hours": 36,
+      "as_of_date": "2026-08-18",
+      "checked_count": 27,
+      "success_count": 27,
+      "raw_fetch_status": "complete",
+      "official_status": "complete",
+      "official_checked_count": 9,
+      "official_success_count": 9,
+      "official_skipped_count": 0,
+      "official_failure_count": 0,
+      "sources": [
+        "FRED",
+        "BLS",
+        "BEA"
+      ]
+    },
+    "data_quality": {
+      "status": "pass",
+      "coverage": 1,
+      "stale_series_count": 0,
+      "critical_missing_count": 0,
+      "critical_stale_count": 0,
+      "supporting_stale_series": [],
+      "supporting_missing_series": [],
+      "supporting_stale_count": 0,
+      "supporting_missing_count": 0,
+      "reference_stale_series": [],
+      "reference_missing_series": [],
+      "reference_stale_count": 0,
+      "reference_missing_count": 0,
+      "data_readiness": {
+        "status": "ready",
+        "reasons": [],
+        "warnings": [],
+        "supporting_warnings": [],
+        "reference_warnings": [],
+        "critical_missing_series": [],
+        "critical_stale_series": [],
+        "critical_missing_count": 0,
+        "critical_stale_count": 0
+      },
+      "vintage_integrity": "verified",
+      "label": "データ品質",
+      "value": "100%",
+      "score": 1,
+      "freshness_status": "fresh",
+      "metric_kind": "data_completeness_and_freshness_not_probability",
+      "position_sizing_allowed": false
+    },
+    "decision": {
+      "side": "range",
+      "label": "レンジ",
+      "score": -3,
+      "scale_min": -100,
+      "scale_max": 100,
+      "long_threshold": 20,
+      "short_threshold": -20,
+      "status": "reference_only",
+      "status_label": "売買判断には使用不可",
+      "action": "マクロ環境はレンジですが、対象資産での検証が未合格のため売買は保留",
+      "predictive_probability_label": "予測確率は売買利用不可",
+      "target_key": "sp500_reference",
+      "target_label": "S&P 500",
+      "target_series_id": "SP500",
+      "horizon": "20d",
+      "horizon_label": "20営業日先",
+      "breadth": {
+        "long": 3,
+        "range": 3,
+        "short": 1,
+        "unavailable": 0,
+        "total": 7,
+        "required": 4,
+        "indicator": {
+          "long": 0.48,
+          "range": 0.22,
+          "short": 0.3,
+          "usable_indicator_count": 26,
+          "effective_weight": 7
+        }
+      },
+      "evidence": {
+        "long": [
+          "金融環境は上向き材料",
+          "外部環境は上向き材料",
+          "市場心理は上向き材料"
+        ],
+        "range": [
+          "成長は中立圏",
+          "物価圧力は中立圏",
+          "雇用は中立圏"
+        ],
+        "short": [
+          "政策余地は下向き材料"
+        ]
+      },
+      "change_conditions": {
+        "long": "方向スコア+20以上、上向き分野4/7以上、上向き指標幅55%以上",
+        "short": "方向スコア-20以下、下向き分野4/7以上、下向き指標幅55%以上"
+      },
+      "similar_history": {
+        "status": "available",
+        "band_label": "-5〜+5",
+        "sample_count": 45,
+        "independent_sample_count": 9,
+        "median_return": 0.0135,
+        "p25_return": -0.0055,
+        "p75_return": 0.0322,
+        "negative_rate": 0.3556,
+        "period": {
+          "start": "2016-10-28",
+          "end": "2026-07-17"
+        },
+        "horizon_label": "20営業日先",
+        "target_label": "S&P 500",
+        "metric_kind": "historical_distribution_not_forecast"
+      },
+      "reason_codes": [],
+      "method": "実質方向へ統一した7分野の加重スコアに、分野幅・指標幅・データ品質・反転確認を重ねる判定",
+      "model_version": "macro-public-v3"
+    },
+    "economy": {
+      "condition": "neutral",
+      "condition_label": "中立",
+      "direction": "stable",
+      "direction_label": "横ばい",
+      "inflation_direction": "stable",
+      "inflation_direction_label": "横ばい",
+      "regime": "transition_neutral",
+      "regime_label": "移行・中立",
+      "summary": "実体経済は中立で、方向は横ばいです。主な支援要因はMoody's Baa社債スプレッド（10年国債比）、主な下押し要因は米10年国債利回りです。",
+      "drivers_positive": [
+        {
+          "label": "Moody's Baa社債スプレッド（10年国債比）が強くプラスに寄与",
+          "direction": "positive",
+          "contribution": "large",
+          "factor": "金融環境",
+          "series_id": "BAA10Y",
+          "as_of_date": "2026-08-14",
+          "latest_value": 1.69,
+          "source": "FRED:BAA10Y",
+          "availability": "available",
+          "previous_value": 1.62,
+          "value_change": 0.07,
+          "previous_as_of_date": "2026-08-10",
+          "observation_updated": true,
+          "contribution_change": -0.07,
+          "movement": "weakened"
+        },
+        {
+          "label": "WTI原油が強くプラスに寄与",
+          "direction": "positive",
+          "contribution": "large",
+          "factor": "外部環境",
+          "series_id": "DCOILWTICO",
+          "as_of_date": "2026-08-11",
+          "latest_value": 84.77,
+          "source": "FRED:DCOILWTICO",
+          "availability": "available",
+          "previous_value": 81.96,
+          "value_change": 2.81,
+          "previous_as_of_date": "2026-08-03",
+          "observation_updated": true,
+          "contribution_change": -0.22,
+          "movement": "weakened"
+        }
+      ],
+      "drivers_negative": [
+        {
+          "label": "米10年国債利回りがマイナスに寄与",
+          "direction": "negative",
+          "contribution": "medium",
+          "factor": "金融政策",
+          "series_id": "DGS10",
+          "as_of_date": "2026-08-14",
+          "latest_value": 4.68,
+          "source": "FRED:DGS10",
+          "availability": "available",
+          "previous_value": 4.72,
+          "value_change": -0.04,
+          "previous_as_of_date": "2026-08-10",
+          "observation_updated": true,
+          "contribution_change": 0.01,
+          "movement": "steady"
+        },
+        {
+          "label": "住宅ローン金利がマイナスに寄与",
+          "direction": "negative",
+          "contribution": "large",
+          "factor": "金融環境",
+          "series_id": "MORTGAGE30US",
+          "as_of_date": "2026-08-13",
+          "latest_value": 6.67,
+          "source": "FRED:MORTGAGE30US",
+          "availability": "available",
+          "previous_value": 6.69,
+          "value_change": -0.02,
+          "previous_as_of_date": "2026-08-06",
+          "observation_updated": true,
+          "contribution_change": 0,
+          "movement": "steady"
+        }
+      ],
+      "change_since_previous": "成長が前回から悪化。 金融環境が前回から悪化。 外部環境が前回から悪化",
+      "layers": {
+        "real_economy": [
+          "growth",
+          "labor"
+        ],
+        "inflation_and_policy": [
+          "inflation",
+          "policy",
+          "financial_conditions"
+        ],
+        "risk_asset_impact": "asset_bias",
+        "market_pricing": "market_pricing"
+      }
+    },
+    "state_scores": [
+      {
+        "label": "成長",
+        "value": 48,
+        "tone": "neutral"
+      },
+      {
+        "label": "物価圧力",
+        "value": 49,
+        "tone": "neutral"
+      },
+      {
+        "label": "雇用",
+        "value": 51,
+        "tone": "neutral"
+      },
+      {
+        "label": "政策余地",
+        "value": 40,
+        "tone": "negative"
+      },
+      {
+        "label": "金融環境",
+        "value": 55,
+        "tone": "positive"
+      },
+      {
+        "label": "外部環境",
+        "value": 64,
+        "tone": "positive"
+      },
+      {
+        "label": "市場心理",
+        "value": 55,
+        "tone": "positive"
+      }
+    ],
+    "signal_validity": {
+      "status": "calendar_unverified",
+      "valid_for_trade": false,
+      "session_calendar_status": "unverified",
+      "entry_session_date": "2026-08-19",
+      "entry_at": "2026-08-18T23:45:00.000Z",
+      "valid_until": "2026-08-18T23:45:00.000Z",
+      "policy": "next_weekday_projection_only_ose_holiday_calendar_unverified"
+    }
+  },
+  "earnings": {
+    "updated_at": "2026-08-20T13:03:30.863Z",
+    "as_of_date": "2026-08-20",
+    "data_status": {
+      "label": "確認済み",
+      "note": "正式確認、外部データ確認、推定を分けて表示します。欠損値は補完せず、取得不可または確認中とします。",
+      "confirmed_count": 0,
+      "vendor_confirmed_count": 40,
+      "estimated_count": 0,
+      "unavailable_count": 0
+    },
+    "market_breadth": {
+      "released_count": 40,
+      "beat_count": 38,
+      "note": "決算予想と決算結果の集計です。個別銘柄の売買方向は示しません。",
+      "beat_rate_percent": 95,
+      "beat_rate_label": "良好",
+      "benchmark": {
+        "label": "S&P500",
+        "symbol": "SPY",
+        "last_close_date": "2026-08-19",
+        "returns": {
+          "week": -0.44,
+          "month": 2.78,
+          "quarter": 5.09
+        }
+      }
+    },
+    "nikkei_spillover": {
+      "level": "高",
+      "route": "NVDA → 半導体製造装置・検査装置",
+      "direction": "決算結果待ち",
+      "related_factors": [
+        "NASDAQ先物",
+        "USDJPY",
+        "リスクオン／リスクオフ",
+        "AIインフラ",
+        "半導体"
+      ],
+      "note": "米国半導体、AI設備投資、Apple関連、金融、消費、為替を経路別に確認します。売買方向は示しません。"
+    },
+    "sectors": [
+      {
+        "key": "communication_services",
+        "label": "コミュニケーション・サービス",
+        "etf": "XLC",
+        "company_count": 3,
+        "themes": [
+          "デジタル広告",
+          "動画配信"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "META",
+            "GOOGL",
+            "NFLX"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 2,
+          "quality_average": 49,
+          "expectation_average": 70,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 9,
+        "relative_month_pct": -1.61,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": 0.95,
+          "month": 1.17,
+          "quarter": -3.66
+        },
+        "relative_returns": {
+          "week": 1.39,
+          "month": -1.61,
+          "quarter": -8.75
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +1.4%（1カ月ペース −0.4%）",
+        "outlook": "コミュニケーション・サービスのETF（XLC）はこの1カ月で市場平均を−1.6%下回っています。直近1週は勢いが加速しています。"
+      },
+      {
+        "key": "consumer_discretionary",
+        "label": "一般消費財",
+        "etf": "XLY",
+        "company_count": 3,
+        "themes": [
+          "EC",
+          "EV",
+          "消費減速"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "AMZN",
+            "TSLA",
+            "HD"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 2,
+          "quality_average": 58,
+          "expectation_average": 52,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 4,
+        "relative_month_pct": 0.46,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": 0.59,
+          "month": 3.24,
+          "quarter": 3.3
+        },
+        "relative_returns": {
+          "week": 1.03,
+          "month": 0.46,
+          "quarter": -1.79
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "stable",
+        "trend_label": "横ばい",
+        "trend_detail": "直近1週の対市場 +1.0%（1カ月ペース +0.1%）",
+        "outlook": "一般消費財のETF（XLY）はこの1カ月で市場平均を+0.5%上回っています。直近1週の勢いは横ばいです。"
+      },
+      {
+        "key": "consumer_staples",
+        "label": "生活必需品",
+        "etf": "XLP",
+        "company_count": 3,
+        "themes": [
+          "小売",
+          "価格転嫁"
+        ],
+        "released_count": 3,
+        "upcoming_count": 1,
+        "earnings_reference": {
+          "tickers": [
+            "WMT",
+            "COST",
+            "PG"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 46,
+          "expectation_average": 58,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 5,
+        "relative_month_pct": 0.17,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": 1.72,
+          "month": 2.95,
+          "quarter": 1.22
+        },
+        "relative_returns": {
+          "week": 2.16,
+          "month": 0.17,
+          "quarter": -3.87
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +2.2%（1カ月ペース +0.0%）",
+        "outlook": "生活必需品のETF（XLP）はこの1カ月で市場平均を+0.2%上回っています。直近1週は勢いが加速しています。今後28日間の節目は8月20日のWMT決算。"
+      },
+      {
+        "key": "energy",
+        "label": "エネルギー",
+        "etf": "XLE",
+        "company_count": 2,
+        "themes": [
+          "原油",
+          "設備投資"
+        ],
+        "released_count": 2,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "XOM",
+            "CVX"
+          ],
+          "company_count": 2,
+          "released_count": 2,
+          "beat_count": 2,
+          "quality_average": 93,
+          "expectation_average": 73,
+          "note": "監視2社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 2,
+        "relative_month_pct": 5.9,
+        "strength_label": "強い",
+        "market_returns": {
+          "week": 4.18,
+          "month": 8.68,
+          "quarter": 4.48
+        },
+        "relative_returns": {
+          "week": 4.62,
+          "month": 5.9,
+          "quarter": -0.61
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +4.6%（1カ月ペース +1.4%）",
+        "outlook": "エネルギーのETF（XLE）はこの1カ月で市場平均を+5.9%上回っています。直近1週は勢いが加速しています。"
+      },
+      {
+        "key": "financials",
+        "label": "金融",
+        "etf": "XLF",
+        "company_count": 3,
+        "themes": [
+          "金利",
+          "信用コスト"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "JPM",
+            "BAC",
+            "GS"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 72,
+          "expectation_average": 70,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 6,
+        "relative_month_pct": -0.34,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": -0.76,
+          "month": 2.44,
+          "quarter": 12.88
+        },
+        "relative_returns": {
+          "week": -0.32,
+          "month": -0.34,
+          "quarter": 7.79
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "stable",
+        "trend_label": "横ばい",
+        "trend_detail": "直近1週の対市場 −0.3%（1カ月ペース −0.1%）",
+        "outlook": "金融のETF（XLF）はこの1カ月で市場平均を−0.3%下回っています。直近1週の勢いは横ばいです。"
+      },
+      {
+        "key": "health_care",
+        "label": "ヘルスケア",
+        "etf": "XLV",
+        "company_count": 3,
+        "themes": [
+          "肥満症治療薬",
+          "治験・承認"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "LLY",
+            "UNH",
+            "PFE"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 66,
+          "expectation_average": 59,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 1,
+        "relative_month_pct": 6.85,
+        "strength_label": "強い",
+        "market_returns": {
+          "week": 4.3,
+          "month": 9.63,
+          "quarter": 19.78
+        },
+        "relative_returns": {
+          "week": 4.74,
+          "month": 6.85,
+          "quarter": 14.69
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +4.7%（1カ月ペース +1.6%）",
+        "outlook": "ヘルスケアのETF（XLV）はこの1カ月で市場平均を+6.8%上回っています。直近1週は勢いが加速しています。"
+      },
+      {
+        "key": "industrials",
+        "label": "資本財",
+        "etf": "XLI",
+        "company_count": 3,
+        "themes": [
+          "防衛",
+          "輸送",
+          "設備投資"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "CAT",
+            "FDX",
+            "HON"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 72,
+          "expectation_average": 50,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 7,
+        "relative_month_pct": -0.94,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": -2.11,
+          "month": 1.84,
+          "quarter": 8.09
+        },
+        "relative_returns": {
+          "week": -1.67,
+          "month": -0.94,
+          "quarter": 3
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "deteriorating",
+        "trend_label": "勢い減速",
+        "trend_detail": "直近1週の対市場 −1.7%（1カ月ペース −0.2%）",
+        "outlook": "資本財のETF（XLI）はこの1カ月で市場平均を−0.9%下回っています。直近1週は勢いが鈍っています。"
+      },
+      {
+        "key": "information_technology",
+        "label": "情報技術",
+        "etf": "XLK",
+        "company_count": 11,
+        "themes": [
+          "AIインフラ",
+          "半導体",
+          "クラウド",
+          "データセンター"
+        ],
+        "released_count": 11,
+        "upcoming_count": 5,
+        "earnings_reference": {
+          "tickers": [
+            "AAPL",
+            "MSFT",
+            "NVDA",
+            "AVGO",
+            "AMD",
+            "TSM",
+            "ASML",
+            "MU",
+            "ORCL",
+            "CRM",
+            "ADBE"
+          ],
+          "company_count": 11,
+          "released_count": 11,
+          "beat_count": 11,
+          "quality_average": 76,
+          "expectation_average": 72,
+          "note": "監視11社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 8,
+        "relative_month_pct": -1.2,
+        "strength_label": "中立",
+        "market_returns": {
+          "week": -2.76,
+          "month": 1.58,
+          "quarter": 6.13
+        },
+        "relative_returns": {
+          "week": -2.32,
+          "month": -1.2,
+          "quarter": 1.04
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "deteriorating",
+        "trend_label": "勢い減速",
+        "trend_detail": "直近1週の対市場 −2.3%（1カ月ペース −0.3%）",
+        "outlook": "情報技術のETF（XLK）はこの1カ月で市場平均を−1.2%下回っています。直近1週は勢いが鈍っています。今後28日間の節目は8月26日のNVDA決算。"
+      },
+      {
+        "key": "materials",
+        "label": "素材",
+        "etf": "XLB",
+        "company_count": 3,
+        "themes": [
+          "産業ガス",
+          "素材需要"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "LIN",
+            "SHW",
+            "FCX"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 60,
+          "expectation_average": 61,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 3,
+        "relative_month_pct": 2.05,
+        "strength_label": "やや強い",
+        "market_returns": {
+          "week": -0.11,
+          "month": 4.83,
+          "quarter": 7.5
+        },
+        "relative_returns": {
+          "week": 0.33,
+          "month": 2.05,
+          "quarter": 2.41
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "stable",
+        "trend_label": "横ばい",
+        "trend_detail": "直近1週の対市場 +0.3%（1カ月ペース +0.5%）",
+        "outlook": "素材のETF（XLB）はこの1カ月で市場平均を+2.0%上回っています。直近1週の勢いは横ばいです。"
+      },
+      {
+        "key": "real_estate",
+        "label": "不動産",
+        "etf": "XLRE",
+        "company_count": 3,
+        "themes": [
+          "物流施設",
+          "金利感応度"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "PLD",
+            "AMT",
+            "EQIX"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 60,
+          "expectation_average": 53,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 10,
+        "relative_month_pct": -3.24,
+        "strength_label": "やや弱い",
+        "market_returns": {
+          "week": 1.12,
+          "month": -0.46,
+          "quarter": 3.29
+        },
+        "relative_returns": {
+          "week": 1.56,
+          "month": -3.24,
+          "quarter": -1.8
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +1.6%（1カ月ペース −0.8%）",
+        "outlook": "不動産のETF（XLRE）はこの1カ月で市場平均を−3.2%下回っています。直近1週は勢いが加速しています。"
+      },
+      {
+        "key": "utilities",
+        "label": "公益",
+        "etf": "XLU",
+        "company_count": 3,
+        "themes": [
+          "電力需要",
+          "データセンター電力"
+        ],
+        "released_count": 3,
+        "upcoming_count": 0,
+        "earnings_reference": {
+          "tickers": [
+            "NEE",
+            "SO",
+            "DUK"
+          ],
+          "company_count": 3,
+          "released_count": 3,
+          "beat_count": 3,
+          "quality_average": 58,
+          "expectation_average": 58,
+          "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
+        },
+        "state": "取得済み",
+        "rank": 11,
+        "relative_month_pct": -4.78,
+        "strength_label": "やや弱い",
+        "market_returns": {
+          "week": 0.41,
+          "month": -2,
+          "quarter": -0.09
+        },
+        "relative_returns": {
+          "week": 0.85,
+          "month": -4.78,
+          "quarter": -5.18
+        },
+        "last_close_date": "2026-08-19",
+        "trend": "improving",
+        "trend_label": "勢い加速",
+        "trend_detail": "直近1週の対市場 +0.8%（1カ月ペース −1.1%）",
+        "outlook": "公益のETF（XLU）はこの1カ月で市場平均を−4.8%下回っています。直近1週は勢いが加速しています。"
+      }
+    ]
+  },
+  "flow": {
+    "generated_at": "2026-08-24T15:21:44.561Z",
+    "as_of_date": "2026-08-21",
+    "conclusion": {
+      "as_of_date": "2026-08-18",
+      "as_of_from": "2026-08-14",
+      "score": 3.5,
+      "stance": "long",
+      "label": "買い需給",
+      "certainty": "中",
+      "certainty_note": "総合判定に使う8指標のうち5指標で判定しています。",
+      "counts": {
+        "long": 4,
+        "neutral": 0,
+        "short": 1
+      },
+      "agreement": 0.8,
+      "included_indicator_count": 5,
+      "candidate_indicator_count": 8,
+      "coverage": 0.63,
+      "excluded_indicators": [
+        {
+          "key": "jpx_foreign_futures_net",
+          "label": "海外投資家の日経先物 売買差引",
+          "reason": "履歴を蓄積中"
+        },
+        {
+          "key": "jpx_arbitrage_long",
+          "label": "裁定買い残",
+          "reason": "履歴を蓄積中"
+        },
+        {
+          "key": "jpx_nikkei_volatility_index",
+          "label": "日経平均VI",
+          "reason": "履歴を蓄積中"
+        }
+      ],
+      "category_breakdown": [
+        {
+          "category": "海外投資家",
+          "score": 3.6,
+          "stance": "long",
+          "label": "買い需給",
+          "count": 2
+        },
+        {
+          "category": "海外投機筋",
+          "score": 2.4,
+          "stance": "short",
+          "label": "売り需給",
+          "count": 1
+        },
+        {
+          "category": "為替",
+          "score": 4.2,
+          "stance": "long",
+          "label": "強い買い需給",
+          "count": 1
+        },
+        {
+          "category": "国内個人",
+          "score": 3.6,
+          "stance": "long",
+          "label": "買い需給",
+          "count": 1
+        }
+      ],
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "neutral": 3
+      },
+      "metric_kind": "positioning_state_not_probability",
+      "summary": "使えた5つの指標のうち4つが買い需給です。海外投資家は買い需給、海外投機筋は売り需給、為替は強い買い需給、国内個人は買い需給です。",
+      "previous": {
+        "as_of_date": "2026-08-11",
+        "score": 2.5,
+        "stance": "short",
+        "label": "売り需給",
+        "included_indicator_count": 4,
+        "counts": {
+          "long": 0,
+          "neutral": 2,
+          "short": 2
+        }
+      },
+      "change": {
+        "score_delta": 1,
+        "direction": "up",
+        "label": "買い需給寄り"
+      }
+    },
+    "collection_status": {
+      "status": "ok",
+      "label": "取得正常",
+      "stale_after": "2026-09-04T00:00:00.000Z",
+      "expected_interval_days": 7,
+      "latest_report_date": "2026-08-21",
+      "latest_report_age_days": 3,
+      "indicator_count": 9,
+      "available_indicator_count": 9,
+      "stale_indicator_count": 0,
+      "broken_indicator_count": 0,
+      "broken_indicators": [],
+      "source_feeds": [
+        {
+          "id": "cftc",
+          "label": "CFTC 建玉明細",
+          "present": true,
+          "fetched_at": "2026-08-23T10:39:03.490Z",
+          "age_hours": 28.7,
+          "stale_after_hours": 36,
+          "running": true,
+          "status_label": "取得できています"
+        },
+        {
+          "id": "jpx",
+          "label": "JPX 公表資料",
+          "present": true,
+          "fetched_at": "2026-08-23T09:56:10.906Z",
+          "age_hours": 29.4,
+          "stale_after_hours": 36,
+          "running": true,
+          "status_label": "取得できています"
+        }
+      ]
+    },
+    "cautions": [
+      {
+        "key": "cme_nikkei_leveraged_net",
+        "label": "海外短期筋の日経先物",
+        "side": "short",
+        "detail": "低い水準にあります（取れた期間の下位12%の水準）。買い持ちも売り持ちも、偏りが大きいほど反対売買で戻される材料になります。"
+      },
+      {
+        "key": "jpx_margin_buy",
+        "label": "信用買い残",
+        "side": "long",
+        "detail": "高い水準にあります（取れた期間の上位5%の水準）。残高が高い水準にあるほど、戻り売りが出やすくなります。"
+      }
+    ]
+  },
+  "news": {
+    "generated_at": "2026-08-25T00:43:55.421946+09:00",
+    "as_of_date": "2026-08-25",
+    "conclusion": {
+      "as_of_date": "2026-08-25",
+      "score": 2.7,
+      "stance": "short",
+      "label": "やや弱気",
+      "certainty": "高",
+      "counts": {
+        "long": 2,
+        "short": 3
+      },
+      "agreement": 0.6,
+      "included_person_count": 5,
+      "excluded_people": [],
+      "topic_breakdown": [
+        {
+          "target": "マクロ",
+          "score": 2.5,
+          "stance": "short",
+          "label": "やや弱気",
+          "count": 4
+        },
+        {
+          "target": "株式",
+          "score": 4,
+          "stance": "long",
+          "label": "強気",
+          "count": 1
+        }
+      ],
+      "previous": {
+        "as_of_date": "2026-08-21",
+        "score": 2.8,
+        "stance": "short",
+        "label": "やや弱気",
+        "included_person_count": 5,
+        "counts": {
+          "long": 2,
+          "short": 3
+        }
+      },
+      "change": {
+        "score_delta": -0.1,
+        "direction": "flat",
+        "label": "横ばい"
+      },
+      "scale": {
+        "min": 1,
+        "max": 5,
+        "midpoint": 3
+      },
+      "window_days": 30,
+      "summary": "有効な5人のうち3人が弱気です。マクロはやや弱気、株式は強気です。"
+    },
+    "collection_status": {
+      "status": "ok",
+      "label": "取得正常",
+      "stale_after": "2026-08-30T00:43:55.421946+09:00",
+      "expected_interval_days": 4,
+      "latest_article_date": "2026-08-21",
+      "latest_article_age_days": 4,
+      "window_days": 30,
+      "person_count": 5,
+      "covered_person_count": 5,
+      "report_count": 17
+    }
+  },
+  "events": {
+    "schema_version": "events-analysis-v1",
+    "generated_at": "2026-08-12T06:20:01Z",
+    "items": {
+      "jpmanufacturingpmi20260803": {
+        "event_id": "jpmanufacturingpmi20260803",
+        "event_date": "2026-08-03",
+        "importance_stars": 2,
+        "label": "au Jibun Bank Manufacturing PMI"
+      },
+      "jpservicespmi20260805": {
+        "event_id": "jpservicespmi20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "au Jibun Bank Services PMI"
+      },
+      "jp_cash_earnings_20260805": {
+        "event_id": "jp_cash_earnings_20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "Average Cash Earnings y/y"
+      },
+      "jpbojminutes20260805": {
+        "event_id": "jpbojminutes20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "BOJ Meeting Minutes"
+      },
+      "jpbojoutlook20260803": {
+        "event_id": "jpbojoutlook20260803",
+        "event_date": "2026-08-03",
+        "importance_stars": 3,
+        "label": "BOJ Outlook Report"
+      },
+      "jpbojpolicyrate20260730": {
+        "event_id": "jpbojpolicyrate20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "BOJ Policy Rate"
+      },
+      "jpbojpress20260731": {
+        "event_id": "jpbojpress20260731",
+        "event_date": "2026-07-31",
+        "importance_stars": 3,
+        "label": "BOJ Press Conference"
+      },
+      "jp_boj_summary_20260810": {
+        "event_id": "jp_boj_summary_20260810",
+        "event_date": "2026-08-10",
+        "importance_stars": 2,
+        "label": "BOJ Summary of Opinions"
+      },
+      "jp_current_account_20260810": {
+        "event_id": "jp_current_account_20260810",
+        "event_date": "2026-08-10",
+        "importance_stars": 2,
+        "label": "Current Account"
+      },
+      "jp_economy_watchers_20260811": {
+        "event_id": "jp_economy_watchers_20260811",
+        "event_date": "2026-08-11",
+        "importance_stars": 2,
+        "label": "Economy Watchers Sentiment"
+      },
+      "jp_pmi_20260803": {
+        "event_id": "jp_pmi_20260803",
+        "event_date": "2026-08-03",
+        "importance_stars": 2,
+        "label": "Final Manufacturing PMI"
+      },
+      "jp_household_spending_20260807": {
+        "event_id": "jp_household_spending_20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "Household Spending y/y"
+      },
+      "jpcoincidentindex20260807": {
+        "event_id": "jpcoincidentindex20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "Indexes of Business Conditions (Preliminary Release)"
+      },
+      "jp_leading_indicators_20260807": {
+        "event_id": "jp_leading_indicators_20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "Leading Indicators"
+      },
+      "jpmonetarybase20260807": {
+        "event_id": "jpmonetarybase20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "Monetary Base y/y"
+      },
+      "jp_boj_minutes_20260805": {
+        "event_id": "jp_boj_minutes_20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "Monetary Policy Meeting Minutes"
+      },
+      "jpbojstatement20260730": {
+        "event_id": "jpbojstatement20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "Monetary Policy Statement"
+      },
+      "jpmoneystock20260812": {
+        "event_id": "jpmoneystock20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 2,
+        "label": "Money Stock"
+      },
+      "jp_machine_tool_orders_20260812": {
+        "event_id": "jp_machine_tool_orders_20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 2,
+        "label": "Prelim Machine Tool Orders y/y"
+      },
+      "jptokyocorecpi20260731": {
+        "event_id": "jptokyocorecpi20260731",
+        "event_date": "2026-07-31",
+        "importance_stars": 2,
+        "label": "Tokyo Core CPI y/y"
+      },
+      "JPY_CORE_MACHINERY_ORDERS_20260818": {
+        "event_id": "JPY_CORE_MACHINERY_ORDERS_20260818",
+        "event_date": "2026-08-18",
+        "importance_stars": 2,
+        "label": "コア機械受注（前月比）"
+      },
+      "jp_current_account_nsa_20260810": {
+        "event_id": "jp_current_account_nsa_20260810",
+        "event_date": "2026-08-10",
+        "importance_stars": 2,
+        "label": "経常収支（季調前）"
+      },
+      "jp_average_cash_earnings_20260805": {
+        "event_id": "jp_average_cash_earnings_20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "現金給与総額（前年比）"
+      },
+      "JPY_PPI_20260812": {
+        "event_id": "JPY_PPI_20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 2,
+        "label": "国内企業物価指数（前年比）"
+      },
+      "JPY_GDP_20260817": {
+        "event_id": "JPY_GDP_20260817",
+        "event_date": "2026-08-17",
+        "importance_stars": 3,
+        "label": "国内総生産（速報値）"
+      },
+      "JPCPI20260724": {
+        "event_id": "JPCPI20260724",
+        "event_date": "2026-07-24",
+        "importance_stars": 3,
+        "label": "全国消費者物価指数（生鮮食品を除く総合）"
+      },
+      "jp20260807household": {
+        "event_id": "jp20260807household",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "日本・家計調査（実質消費支出・前年比）"
+      },
+      "jp20260812ppi": {
+        "event_id": "jp20260812ppi",
+        "event_date": "2026-08-12",
+        "importance_stars": 2,
+        "label": "日本・企業物価指数（前年比）"
+      },
+      "jp20260807coincident": {
+        "event_id": "jp20260807coincident",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "日本・景気一致指数"
+      },
+      "jp20260807leading": {
+        "event_id": "jp20260807leading",
+        "event_date": "2026-08-07",
+        "importance_stars": 2,
+        "label": "日本・景気先行指数"
+      },
+      "jp20260810currentaccount": {
+        "event_id": "jp20260810currentaccount",
+        "event_date": "2026-08-10",
+        "importance_stars": 2,
+        "label": "日本・経常収支"
+      },
+      "jp20260803pmi": {
+        "event_id": "jp20260803pmi",
+        "event_date": "2026-08-03",
+        "importance_stars": 2,
+        "label": "日本・製造業PMI（確報値）"
+      },
+      "JPY_TRADE_BALANCE_20260819": {
+        "event_id": "JPY_TRADE_BALANCE_20260819",
+        "event_date": "2026-08-19",
+        "importance_stars": 2,
+        "label": "貿易収支"
+      },
+      "us-adp-nonfarm-employment-change-20260805": {
+        "event_id": "us-adp-nonfarm-employment-change-20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "ADP Non-Farm Employment Change"
+      },
+      "US_GDPPRICE_20260730": {
+        "event_id": "US_GDPPRICE_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 2,
+        "label": "Advance GDP Price Index q/q"
+      },
+      "US_GDP_20260730": {
+        "event_id": "US_GDP_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "Advance GDP q/q"
+      },
+      "us-average-hourly-earnings-mom-20260807": {
+        "event_id": "us-average-hourly-earnings-mom-20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 3,
+        "label": "Average Hourly Earnings m/m"
+      },
+      "US_CBCONFIDENCE_20260728": {
+        "event_id": "US_CBCONFIDENCE_20260728",
+        "event_date": "2026-07-28",
+        "importance_stars": 2,
+        "label": "CB Consumer Confidence"
+      },
+      "us-core-cpi-mm-20260812": {
+        "event_id": "us-core-cpi-mm-20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 3,
+        "label": "Core CPI m/m"
+      },
+      "us-core-cpi-yoy-20260812": {
+        "event_id": "us-core-cpi-yoy-20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 3,
+        "label": "Core CPI y/y"
+      },
+      "US_COREPCE_20260730": {
+        "event_id": "US_COREPCE_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "Core PCE Price Index m/m"
+      },
+      "us-core-ppi-mm-20260813": {
+        "event_id": "us-core-ppi-mm-20260813",
+        "event_date": "2026-08-13",
+        "importance_stars": 3,
+        "label": "Core PPI m/m"
+      },
+      "us-core-retail-sales-mm-20260814": {
+        "event_id": "us-core-retail-sales-mm-20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "Core Retail Sales m/m"
+      },
+      "us-cpi-mm-20260812": {
+        "event_id": "us-cpi-mm-20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 3,
+        "label": "CPI m/m"
+      },
+      "us-cpi-yoy-20260812": {
+        "event_id": "us-cpi-yoy-20260812",
+        "event_date": "2026-08-12",
+        "importance_stars": 3,
+        "label": "CPI y/y"
+      },
+      "US_ECI_20260731": {
+        "event_id": "US_ECI_20260731",
+        "event_date": "2026-07-31",
+        "importance_stars": 2,
+        "label": "Employment Cost Index q/q"
+      },
+      "US_FEDFUNDS_20260730": {
+        "event_id": "US_FEDFUNDS_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "Federal Funds Rate"
+      },
+      "US_FOMCPRESS_20260730": {
+        "event_id": "US_FOMCPRESS_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "FOMC Press Conference"
+      },
+      "US_FOMCSTATEMENT_20260730": {
+        "event_id": "US_FOMCSTATEMENT_20260730",
+        "event_date": "2026-07-30",
+        "importance_stars": 3,
+        "label": "FOMC Statement"
+      },
+      "us-ism-manufacturing-pmi-20260803": {
+        "event_id": "us-ism-manufacturing-pmi-20260803",
+        "event_date": "2026-08-03",
+        "importance_stars": 3,
+        "label": "ISM Manufacturing PMI"
+      },
+      "us-ism-manufacturing-prices-20260803": {
+        "event_id": "us-ism-manufacturing-prices-20260803",
+        "event_date": "2026-08-03",
+        "importance_stars": 2,
+        "label": "ISM Manufacturing Prices"
+      },
+      "us-ism-services-pmi-20260805": {
+        "event_id": "us-ism-services-pmi-20260805",
+        "event_date": "2026-08-05",
+        "importance_stars": 2,
+        "label": "ISM Services PMI"
+      },
+      "us-jolts-job-openings-20260804": {
+        "event_id": "us-jolts-job-openings-20260804",
+        "event_date": "2026-08-04",
+        "importance_stars": 2,
+        "label": "JOLTS Job Openings"
+      },
+      "us-nonfarm-employment-change-20260807": {
+        "event_id": "us-nonfarm-employment-change-20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 3,
+        "label": "Non-Farm Employment Change"
+      },
+      "us-ppi-mm-20260813": {
+        "event_id": "us-ppi-mm-20260813",
+        "event_date": "2026-08-13",
+        "importance_stars": 3,
+        "label": "PPI m/m"
+      },
+      "us-umich-sentiment-preliminary-20260814": {
+        "event_id": "us-umich-sentiment-preliminary-20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "Prelim UoM Consumer Sentiment"
+      },
+      "us-umich-inflation-expectations-preliminary-20260814": {
+        "event_id": "us-umich-inflation-expectations-preliminary-20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "Prelim UoM Inflation Expectations"
+      },
+      "us-president-trump-speaks-20260806": {
+        "event_id": "us-president-trump-speaks-20260806",
+        "event_date": "2026-08-06",
+        "importance_stars": 2,
+        "label": "President Trump Speaks"
+      },
+      "us-retail-sales-mm-20260814": {
+        "event_id": "us-retail-sales-mm-20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "Retail Sales m/m"
+      },
+      "US_MICHIGANSENTIMENT_20260731": {
+        "event_id": "US_MICHIGANSENTIMENT_20260731",
+        "event_date": "2026-07-31",
+        "importance_stars": 2,
+        "label": "Revised UoM Consumer Sentiment"
+      },
+      "US_MICHIGANINFLATION_20260731": {
+        "event_id": "US_MICHIGANINFLATION_20260731",
+        "event_date": "2026-07-31",
+        "importance_stars": 2,
+        "label": "Revised UoM Inflation Expectations"
+      },
+      "us-jobless-claims-20260813": {
+        "event_id": "us-jobless-claims-20260813",
+        "event_date": "2026-08-13",
+        "importance_stars": 2,
+        "label": "Unemployment Claims"
+      },
+      "us-unemployment-rate-20260807": {
+        "event_id": "us-unemployment-rate-20260807",
+        "event_date": "2026-08-07",
+        "importance_stars": 3,
+        "label": "Unemployment Rate"
+      },
+      "US20260723PTS": {
+        "event_id": "US20260723PTS",
+        "event_date": "2026-07-23",
+        "importance_stars": 2,
+        "label": "トランプ大統領発言"
+      },
+      "USMICINF20260814": {
+        "event_id": "USMICINF20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "ミシガン大学インフレ期待 速報値"
+      },
+      "USMICSENT20260814": {
+        "event_id": "USMICSENT20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "ミシガン大学消費者信頼感指数 速報値"
+      },
+      "USRETAIL20260814": {
+        "event_id": "USRETAIL20260814",
+        "event_date": "2026-08-14",
+        "importance_stars": 2,
+        "label": "小売売上高 前月比"
+      },
+      "USCLAIMS20260813": {
+        "event_id": "USCLAIMS20260813",
+        "event_date": "2026-08-13",
+        "importance_stars": 2,
+        "label": "新規失業保険申請件数"
+      }
+    }
+  },
+  "events_calendar": {
+    "updated_at": "2026-08-12T06:20:01.701170Z",
+    "timezone": "Asia/Tokyo",
+    "rows": [
+      {
+        "title": "ADP Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-07-01",
+        "time": "21:15",
+        "impact": "Medium",
+        "actual": "98K",
+        "forecast": "118K"
+      },
+      {
+        "title": "Fed Chairman Warsh Speaks",
+        "country": "USD",
+        "date": "2026-07-01",
+        "time": "22:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ISM Manufacturing PMI",
+        "country": "USD",
+        "date": "2026-07-01",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "53.3",
+        "forecast": "53.8"
+      },
+      {
+        "title": "ISM Manufacturing Prices",
+        "country": "USD",
+        "date": "2026-07-01",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "73.0",
+        "forecast": "77.7"
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-07-02",
+        "time": "04:15",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-07-02",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "0.3%",
+        "forecast": "0.3%"
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-07-02",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "57K",
+        "forecast": "114K"
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-07-02",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "215K",
+        "forecast": "219K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-07-02",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "4.2%",
+        "forecast": "4.3%"
+      },
+      {
+        "title": "ISM Services PMI",
+        "country": "USD",
+        "date": "2026-07-06",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "54.0",
+        "forecast": "54.2"
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-07-09",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-07-09",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "215K",
+        "forecast": "218K"
+      },
+      {
+        "title": "CPI m/m",
+        "country": "USD",
+        "date": "2026-07-14",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "-0.4%",
+        "forecast": "-0.1%"
+      },
+      {
+        "title": "CPI y/y",
+        "country": "USD",
+        "date": "2026-07-14",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "3.5%",
+        "forecast": "3.8%"
+      },
+      {
+        "title": "Core CPI m/m",
+        "country": "USD",
+        "date": "2026-07-14",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "0.0%",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Core CPI y/y",
+        "country": "USD",
+        "date": "2026-07-14",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "2.6%",
+        "forecast": "2.8%"
+      },
+      {
+        "title": "Fed Chairman Warsh Testifies",
+        "country": "USD",
+        "date": "2026-07-14",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-07-15",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "0.2%",
+        "forecast": "0.3%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-07-15",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "-0.3%",
+        "forecast": "0.0%"
+      },
+      {
+        "title": "Fed Chairman Warsh Testifies",
+        "country": "USD",
+        "date": "2026-07-15",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-07-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "-0.2%",
+        "forecast": "0.0%"
+      },
+      {
+        "title": "Philly Fed Manufacturing Index",
+        "country": "USD",
+        "date": "2026-07-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "41.4",
+        "forecast": "12.7"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-07-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "0.2%",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-07-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "208K",
+        "forecast": "216K"
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-07-17",
+        "time": "10:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-07-17",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "54.4",
+        "forecast": "51.0"
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-07-17",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "4.2%",
+        "forecast": ""
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-07-23",
+        "time": "04:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-07-23",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "187K",
+        "forecast": "211K"
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-07-25",
+        "time": "09:55",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-07-28",
+        "time": "03:50",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "CB Consumer Confidence",
+        "country": "USD",
+        "date": "2026-07-28",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "90.8",
+        "forecast": "92.4"
+      },
+      {
+        "title": "FOMC Statement",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Federal Funds Rate",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "3.75%",
+        "forecast": "3.75%"
+      },
+      {
+        "title": "FOMC Press Conference",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "03:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Advance GDP Price Index q/q",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "6.2%",
+        "forecast": "4.1%"
+      },
+      {
+        "title": "Advance GDP q/q",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "1.5%",
+        "forecast": "2.1%"
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "0.1%",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-07-30",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "197K",
+        "forecast": "201K"
+      },
+      {
+        "title": "Employment Cost Index q/q",
+        "country": "USD",
+        "date": "2026-07-31",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "0.9%",
+        "forecast": "0.8%"
+      },
+      {
+        "title": "Revised UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-07-31",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "55.2",
+        "forecast": "53.9"
+      },
+      {
+        "title": "Revised UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-07-31",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "4.2%",
+        "forecast": ""
+      },
+      {
+        "title": "ISM Manufacturing PMI",
+        "country": "USD",
+        "date": "2026-08-03",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "55.6",
+        "forecast": "54.0"
+      },
+      {
+        "title": "ISM Manufacturing Prices",
+        "country": "USD",
+        "date": "2026-08-03",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "71.1",
+        "forecast": "70.0"
+      },
+      {
+        "title": "JOLTS Job Openings",
+        "country": "USD",
+        "date": "2026-08-04",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "7.36M",
+        "forecast": "7.44M"
+      },
+      {
+        "title": "ADP Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-08-05",
+        "time": "21:15",
+        "impact": "Medium",
+        "actual": "44K",
+        "forecast": "68K"
+      },
+      {
+        "title": "ISM Services PMI",
+        "country": "USD",
+        "date": "2026-08-05",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "54.1",
+        "forecast": "54.5"
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-08-06",
+        "time": "05:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-08-06",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "199K",
+        "forecast": "203K"
+      },
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-08-07",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "0.1%",
+        "forecast": "0.3%"
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-08-07",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "-23K",
+        "forecast": "85K"
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-08-07",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "4.1%",
+        "forecast": "4.2%"
+      },
+      {
+        "title": "CPI m/m",
+        "country": "USD",
+        "date": "2026-08-12",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "0.1%"
+      },
+      {
+        "title": "CPI y/y",
+        "country": "USD",
+        "date": "2026-08-12",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "3.4%"
+      },
+      {
+        "title": "Core CPI m/m",
+        "country": "USD",
+        "date": "2026-08-12",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Core CPI y/y",
+        "country": "USD",
+        "date": "2026-08-12",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "2.5%"
+      },
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-08-13",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "0.3%"
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-08-13",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-08-13",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": "202K"
+      },
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-08-14",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": "0.2%"
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-08-14",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": "0.1%"
+      },
+      {
+        "title": "Prelim UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-08-14",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": "54.7"
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-08-14",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "FOMC Meeting Minutes",
+        "country": "USD",
+        "date": "2026-08-20",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Philly Fed Manufacturing Index",
+        "country": "USD",
+        "date": "2026-08-20",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-08-20",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "CB Consumer Confidence",
+        "country": "USD",
+        "date": "2026-08-25",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-08-26",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim GDP Price Index q/q",
+        "country": "USD",
+        "date": "2026-08-26",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim GDP q/q",
+        "country": "USD",
+        "date": "2026-08-26",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-08-27",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim Benchmark Payrolls Revision",
+        "country": "USD",
+        "date": "2026-08-28",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Revised UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-08-28",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Revised UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-08-28",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ISM Manufacturing PMI",
+        "country": "USD",
+        "date": "2026-09-01",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ISM Manufacturing Prices",
+        "country": "USD",
+        "date": "2026-09-01",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "JOLTS Job Openings",
+        "country": "USD",
+        "date": "2026-09-01",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ADP Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-09-02",
+        "time": "21:15",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-09-03",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ISM Services PMI",
+        "country": "USD",
+        "date": "2026-09-03",
+        "time": "23:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Average Hourly Earnings m/m",
+        "country": "USD",
+        "date": "2026-09-04",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-09-04",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Rate",
+        "country": "USD",
+        "date": "2026-09-04",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core PPI m/m",
+        "country": "USD",
+        "date": "2026-09-10",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "PPI m/m",
+        "country": "USD",
+        "date": "2026-09-10",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-09-10",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "CPI m/m",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "CPI y/y",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core CPI m/m",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core CPI y/y",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Prelim UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-09-11",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-09-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Retail Sales m/m",
+        "country": "USD",
+        "date": "2026-09-16",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "FOMC Economic Projections",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "FOMC Statement",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Federal Funds Rate",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "03:00",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "FOMC Press Conference",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "03:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Philly Fed Manufacturing Index",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-09-17",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-09-24",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Revised UoM Consumer Sentiment",
+        "country": "USD",
+        "date": "2026-09-25",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Revised UoM Inflation Expectations",
+        "country": "USD",
+        "date": "2026-09-25",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "CB Consumer Confidence",
+        "country": "USD",
+        "date": "2026-09-29",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "JOLTS Job Openings",
+        "country": "USD",
+        "date": "2026-09-29",
+        "time": "23:00",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "ADP Non-Farm Employment Change",
+        "country": "USD",
+        "date": "2026-09-30",
+        "time": "21:15",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Core PCE Price Index m/m",
+        "country": "USD",
+        "date": "2026-09-30",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Final GDP Price Index q/q",
+        "country": "USD",
+        "date": "2026-09-30",
+        "time": "21:30",
+        "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Final GDP q/q",
+        "country": "USD",
+        "date": "2026-09-30",
+        "time": "21:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      }
+    ]
+  }
+}
