@@ -1,6 +1,6 @@
 {
   "schema_version": "signal-summary-v1",
-  "generated_at": "2026-08-28T09:39:07.000Z",
+  "generated_at": "2026-08-28T10:17:18.713Z",
   "macro": {
     "generated_at": "2026-08-18T20:58:00.901+09:00",
     "updated_at": "2026-08-18T20:58:00.901+09:00",
@@ -960,10 +960,10 @@
     ]
   },
   "news": {
-    "generated_at": "2026-08-25T00:43:55.421946+09:00",
-    "as_of_date": "2026-08-25",
+    "generated_at": "2026-08-28T19:13:53.145268+09:00",
+    "as_of_date": "2026-08-28",
     "conclusion": {
-      "as_of_date": "2026-08-25",
+      "as_of_date": "2026-08-28",
       "score": 2.7,
       "stance": "short",
       "label": "やや弱気",
@@ -991,6 +991,7 @@
           "count": 1
         }
       ],
+      "axis_breakdown": [],
       "previous": {
         "as_of_date": "2026-08-21",
         "score": 2.8,
@@ -1018,10 +1019,10 @@
     "collection_status": {
       "status": "ok",
       "label": "取得正常",
-      "stale_after": "2026-08-30T00:43:55.421946+09:00",
+      "stale_after": "2026-09-02T19:13:53.145268+09:00",
       "expected_interval_days": 4,
       "latest_article_date": "2026-08-21",
-      "latest_article_age_days": 4,
+      "latest_article_age_days": 7,
       "window_days": 30,
       "person_count": 5,
       "covered_person_count": 5,
