@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-28T06:28:33.666Z",
+  "generated_at": "2026-08-28T09:35:28.288Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -599,9 +599,31 @@
       }
     }
   ],
+  "daily_gap": {
+    "status": "ok",
+    "status_label": "取得済み",
+    "source_updated_at": "2026-08-28T09:30:02Z",
+    "state": "running",
+    "side": "short",
+    "entry_open": false,
+    "reason": "売りの形が続いています。69,477 円で崩れ、55,308 円が狙い（残り7営業日）",
+    "reference": 67940,
+    "session_open": 69085,
+    "gap": 1145,
+    "gap_atr": 0.95,
+    "entry": 65935,
+    "exit": 69477.2,
+    "target": 55308.4,
+    "opened_at": "2026-08-18T04:00:00Z",
+    "entered_at": "2026-08-19T00:00:00Z",
+    "held_sessions": 8,
+    "horizon_sessions": 15,
+    "rule_version": "basecalc_daily_gap_2026_08_28_v4"
+  },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
     "見通し信頼度は資産・期間ごとの方向指標の一致度であり、的中率ではありません。",
+    "日足の窓はVPSが1時間足から作った札をそのまま写しています。",
     "売買を推奨する表示ではありません。"
   ]
 }
