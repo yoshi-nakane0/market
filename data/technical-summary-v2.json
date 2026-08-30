@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-08-30T08:31:11.309Z",
+  "generated_at": "2026-08-30T13:02:38.956Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -602,7 +602,7 @@
   "daily_gap": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-08-30T08:29:29Z",
+    "source_updated_at": "2026-08-30T13:02:01Z",
     "state": "running",
     "side": "short",
     "entry_open": false,
