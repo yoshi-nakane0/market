@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "MU",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Micron Technology",
     "sector": "情報技術",
-    "earnings_date": "2026-09-23",
-    "jst_time": "09/24 05:00 JST",
+    "earnings_date": "2026-09-30",
+    "jst_time": "10/01 05:00 JST",
     "us_market_time": "16:00 ET",
     "session": "after_close",
     "verification_status": "vendor_confirmed",
@@ -16,11 +18,11 @@
     "phase": "pre",
     "calendar_windows": [],
     "market_impact": {
-      "overall": 39,
-      "nasdaq100": 39,
-      "sp500": 33,
-      "dow": 10,
-      "nikkei_futures": 49,
+      "overall": 37,
+      "nasdaq100": 37,
+      "sp500": 32,
+      "dow": 9,
+      "nikkei_futures": 48,
       "spillover_sectors": [
         "情報技術",
         "半導体製造装置",
@@ -30,13 +32,13 @@
     },
     "estimates": {
       "eps": {
-        "value": 31.30102,
-        "display": "$31.30",
+        "value": 31.28341,
+        "display": "$31.28",
         "unit": "USD",
         "state": "取得済み"
       },
       "revenue": {
-        "value": 50818298960,
+        "value": 50784289620,
         "display": "$50.8B",
         "unit": "USD",
         "state": "取得済み"
@@ -44,23 +46,23 @@
       "revision": {
         "eps": {
           "previous": 31.30102,
-          "current": 31.30102,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$31.30 → $31.30 → 0.0%",
+          "current": 31.28341,
+          "change_percent": -0.1,
+          "direction": "down",
+          "display": "$31.30 → $31.28 ↓ 0.1%",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
           "previous": 50818298960,
-          "current": 50818298960,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$50.8B → $50.8B → 0.0%",
+          "current": 50784289620,
+          "change_percent": -0.1,
+          "direction": "down",
+          "display": "$50.8B → $50.8B ↓ 0.1%",
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
@@ -80,17 +82,17 @@
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 937.105,
-        "forward_pe": 6.0532446,
-        "trailing_pe": 21.18709,
-        "price_to_sales": 11.723863,
-        "enterprise_to_ebitda": 15.225,
+        "current_price": 932.86,
+        "forward_pe": 6.017472,
+        "trailing_pe": 21.095882,
+        "price_to_sales": 11.670754,
+        "enterprise_to_ebitda": 15.155,
         "risk_score": 20,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 21.18709,
-        "forward_pe": 6.0532446,
+        "trailing_pe": 21.095882,
+        "forward_pe": 6.017472,
         "label": "大幅に割安",
         "tone": "positive",
         "reading": "同じ業種より大きく安く買われています。期待が低いぶん、決算が良ければ見直されやすい一方、業績が落ち込んでいる可能性も含みます。",
@@ -100,13 +102,13 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": -18.2
+            "difference_pct": -18.5
           },
           {
             "label": "情報技術",
             "symbol": "XLK",
-            "multiple": 35.3,
-            "difference_pct": -40
+            "multiple": 35.7,
+            "difference_pct": -40.9
           }
         ],
         "outlook": {
@@ -173,8 +175,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": 0.1,
-          "display": "$34.80（30日前比 +0.1%）",
+          "value": -0.06,
+          "display": "$34.81（30日前比 −0.1%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -215,7 +217,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 15.3,
+          "score": 14.7,
           "maximum": 30
         },
         {
@@ -228,7 +230,7 @@
       "available_component_count": 5,
       "total_component_count": 5,
       "post_earnings_move_pct": 15.7,
-      "explanation": "EPSは予想を21.4%上回りました。売上高は前年同期比+345.7%です。次期予想は上方修正されています。発表翌営業日の株価は+15.7%でした。"
+      "explanation": "EPSは予想を21.4%上回りました。売上高は前年同期比+345.7%です。次期予想は下方修正されています。発表翌営業日の株価は+15.7%でした。"
     },
     "trend": {
       "quarters": [
@@ -338,42 +340,42 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 31.30102,
-          "eps_estimate_display": "$31.30",
-          "eps_growth_percent": 933.0399500000001,
-          "revenue_estimate": 50818298960,
+          "eps_estimate": 31.28341,
+          "eps_estimate_display": "$31.28",
+          "eps_growth_percent": 932.46,
+          "revenue_estimate": 50784289620,
           "revenue_estimate_display": "$50.8B",
-          "revenue_growth_percent": 349.12
+          "revenue_growth_percent": 348.82002
         },
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 34.7977,
-          "eps_estimate_display": "$34.80",
-          "eps_growth_percent": 627.99,
-          "revenue_estimate": 56661158870,
+          "eps_estimate": 34.80837,
+          "eps_estimate_display": "$34.81",
+          "eps_growth_percent": 628.21,
+          "revenue_estimate": 56671573100,
           "revenue_estimate_display": "$56.7B",
-          "revenue_growth_percent": 315.31
+          "revenue_growth_percent": 315.39001
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 73.38748,
-          "eps_estimate_display": "$73.39",
-          "eps_growth_percent": 785.25,
-          "revenue_estimate": 129741678360,
+          "eps_estimate": 73.40044,
+          "eps_estimate_display": "$73.40",
+          "eps_growth_percent": 785.40998,
+          "revenue_estimate": 129715361400,
           "revenue_estimate_display": "$129.7B",
-          "revenue_growth_percent": 247.10999999999999
+          "revenue_growth_percent": 247.03999
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 154.88959,
-          "eps_estimate_display": "$154.89",
-          "eps_growth_percent": 111.06,
-          "revenue_estimate": 239843800520,
-          "revenue_estimate_display": "$239.8B",
-          "revenue_growth_percent": 84.86000299999999
+          "eps_estimate": 155.02524,
+          "eps_estimate_display": "$155.03",
+          "eps_growth_percent": 111.20000000000002,
+          "revenue_estimate": 240323154000,
+          "revenue_estimate_display": "$240.3B",
+          "revenue_growth_percent": 85.27
         }
       ],
       "state": "取得済み"
@@ -392,7 +394,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",
@@ -400,7 +402,7 @@
         "yfinance市場指標"
       ],
       "schedule_verification": "vendor_confirmed",
-      "analyst_count": 32,
+      "analyst_count": 33,
       "missing_fields": [],
       "freshness": "current",
       "retry_status": "not_required"

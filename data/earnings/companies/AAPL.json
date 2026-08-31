@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "AAPL",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Apple",
     "sector": "情報技術",
     "earnings_date": "2026-10-29",
@@ -16,11 +18,11 @@
     "phase": "pre",
     "calendar_windows": [],
     "market_impact": {
-      "overall": 69,
-      "nasdaq100": 69,
-      "sp500": 69,
-      "dow": 76,
-      "nikkei_futures": 61,
+      "overall": 67,
+      "nasdaq100": 67,
+      "sp500": 67,
+      "dow": 74,
+      "nikkei_futures": 60,
       "spillover_sectors": [
         "情報技術",
         "電子部品",
@@ -60,7 +62,7 @@
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
@@ -81,17 +83,17 @@
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 316.83,
-        "forward_pe": 33.213127,
-        "trailing_pe": 36.375427,
-        "price_to_sales": 9.9049835,
-        "enterprise_to_ebitda": 27.66,
+        "current_price": 319.7,
+        "forward_pe": 33.516766,
+        "trailing_pe": 36.62085,
+        "price_to_sales": 9.994708,
+        "enterprise_to_ebitda": 27.91,
         "risk_score": 60,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 36.375427,
-        "forward_pe": 33.213127,
+        "trailing_pe": 36.62085,
+        "forward_pe": 33.516766,
         "label": "平均並み",
         "tone": "neutral",
         "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -101,19 +103,19 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": 40.4
+            "difference_pct": 41.4
           },
           {
             "label": "情報技術",
             "symbol": "XLK",
-            "multiple": 35.3,
-            "difference_pct": 3
+            "multiple": 35.7,
+            "difference_pct": 2.6
           }
         ],
         "outlook": {
           "label": "横ばい",
           "tone": "neutral",
-          "difference_pct": -9,
+          "difference_pct": -8,
           "note": "予想PERと実績PERはほぼ同じで、今後1年の利益は横ばいの見通しです。良くも悪くもない状態です。"
         },
         "state": "取得済み"
@@ -174,8 +176,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": -1.76,
-          "display": "$2.91（30日前比 −1.8%）",
+          "value": -1.89,
+          "display": "$2.91（30日前比 −1.9%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -216,7 +218,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 9.6,
+          "score": 9.3,
           "maximum": 30
         },
         {
@@ -349,32 +351,32 @@
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 2.91256,
+          "eps_estimate": 2.90859,
           "eps_estimate_display": "$2.91",
-          "eps_growth_percent": 2.55,
-          "revenue_estimate": 154215461860,
-          "revenue_estimate_display": "$154.2B",
-          "revenue_growth_percent": 7.28
+          "eps_growth_percent": 2.42,
+          "revenue_estimate": 154432499960,
+          "revenue_estimate_display": "$154.4B",
+          "revenue_growth_percent": 7.430000000000001
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 8.80532,
+          "eps_estimate": 8.81249,
           "eps_estimate_display": "$8.81",
-          "eps_growth_percent": 18.030001000000002,
-          "revenue_estimate": 477701231440,
+          "eps_growth_percent": 18.129998,
+          "revenue_estimate": 477683718840,
           "revenue_estimate_display": "$477.7B",
-          "revenue_growth_percent": 14.790000000000001
+          "revenue_growth_percent": 14.78
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 9.53224,
+          "eps_estimate": 9.53127,
           "eps_estimate_display": "$9.53",
-          "eps_growth_percent": 8.2600005,
-          "revenue_estimate": 524164141440,
-          "revenue_estimate_display": "$524.2B",
-          "revenue_growth_percent": 9.729999
+          "eps_growth_percent": 8.1599995,
+          "revenue_estimate": 525003468150,
+          "revenue_estimate_display": "$525.0B",
+          "revenue_growth_percent": 9.91
         }
       ],
       "state": "取得済み"
@@ -393,7 +395,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",

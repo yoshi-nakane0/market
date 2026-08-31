@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "CRM",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Salesforce",
     "sector": "情報技術",
-    "earnings_date": "2026-08-26",
-    "jst_time": "08/27 05:00 JST",
-    "us_market_time": "16:00 ET",
-    "session": "after_close",
+    "earnings_date": "2026-12-02",
+    "jst_time": "12/03 05:00 JST",
+    "us_market_time": "15:00 ET",
+    "session": "unknown",
     "verification_status": "vendor_confirmed",
-    "verification_note": "外部データで確認した予定。企業IRの正式発表で更新",
+    "verification_note": "外部データで確認した予定。発表時刻は企業IRで再確認するまで未確定",
     "phase": "pre",
-    "calendar_windows": [
-      "next_week"
-    ],
+    "calendar_windows": [],
     "market_impact": {
-      "overall": 11,
-      "nasdaq100": 11,
-      "sp500": 11,
-      "dow": 12,
-      "nikkei_futures": 10,
+      "overall": 13,
+      "nasdaq100": 13,
+      "sp500": 12,
+      "dow": 14,
+      "nikkei_futures": 12,
       "spillover_sectors": [
         "情報技術",
         "ソフトウェア"
@@ -31,67 +31,67 @@
     },
     "estimates": {
       "eps": {
-        "value": 3.27071,
-        "display": "$3.27",
+        "value": 3.42925,
+        "display": "$3.43",
         "unit": "USD",
         "state": "取得済み"
       },
       "revenue": {
-        "value": 11316970060,
-        "display": "$11.3B",
+        "value": 11449053930,
+        "display": "$11.4B",
         "unit": "USD",
         "state": "取得済み"
       },
       "revision": {
         "eps": {
           "previous": 3.27071,
-          "current": 3.27071,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$3.27 → $3.27 → 0.0%",
+          "current": 3.42925,
+          "change_percent": 4.8,
+          "direction": "up",
+          "display": "$3.27 → $3.43 ↑ 4.8%",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
           "previous": 11316970060,
-          "current": 11316970060,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$11.3B → $11.3B → 0.0%",
+          "current": 11449053930,
+          "change_percent": 1.2,
+          "direction": "up",
+          "display": "$11.3B → $11.4B ↑ 1.2%",
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
       "expectation_score": 4,
       "expectation_label": "予想やや強い",
-      "risk_score": 3,
-      "risk_label": "リスク中立",
+      "risk_score": 4,
+      "risk_label": "リスク高い",
       "themes": [
         "クラウド",
         "企業向けAI"
       ],
       "historical_reaction": {
-        "average_abs_move_pct": 6.5,
-        "median_abs_move_pct": 4.1,
-        "sample_count": 12,
-        "score": 65,
+        "average_abs_move_pct": 7.7,
+        "median_abs_move_pct": 4.5,
+        "sample_count": 13,
+        "score": 77,
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 206.09,
-        "forward_pe": 13.280526,
-        "trailing_pe": 22.722162,
-        "price_to_sales": 3.9409676,
-        "enterprise_to_ebitda": 15.471,
-        "risk_score": 20,
+        "current_price": 256,
+        "forward_pe": 16.19084,
+        "trailing_pe": 23.421774,
+        "price_to_sales": 4.7951202,
+        "enterprise_to_ebitda": 18.735,
+        "risk_score": 40,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 22.722162,
-        "forward_pe": 13.280526,
+        "trailing_pe": 23.421774,
+        "forward_pe": 16.19084,
         "label": "大幅に割安",
         "tone": "positive",
         "reading": "同じ業種より大きく安く買われています。期待が低いぶん、決算が良ければ見直されやすい一方、業績が落ち込んでいる可能性も含みます。",
@@ -101,20 +101,20 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": -12.3
+            "difference_pct": -9.6
           },
           {
             "label": "情報技術",
             "symbol": "XLK",
-            "multiple": 35.3,
-            "difference_pct": -35.6
+            "multiple": 35.7,
+            "difference_pct": -34.4
           }
         ],
         "outlook": {
           "label": "前向きな材料",
           "tone": "positive",
-          "difference_pct": -42,
-          "note": "予想PERは実績PERより42%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+          "difference_pct": -31,
+          "note": "予想PERは実績PERより31%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
         },
         "state": "取得済み"
       },
@@ -123,17 +123,17 @@
       "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
     },
     "verdict": {
-      "label": "期待高",
-      "tone": "positive",
-      "detail": "予想変動±6.5%"
+      "label": "期待高・荒れやすい",
+      "tone": "caution",
+      "detail": "予想変動±7.7%"
     },
     "result": {
       "status": "取得済み",
-      "reported_date": "2026-05-27",
+      "reported_date": "2026-08-26",
       "metrics": {
         "eps_surprise_pct": {
-          "value": 24.07,
-          "display": "+24.1%",
+          "value": 80.36,
+          "display": "+80.4%",
           "unit": "%",
           "state": "取得済み"
         },
@@ -174,8 +174,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": 0.12,
-          "display": "$3.37（30日前比 +0.1%）",
+          "value": -2.54,
+          "display": "$3.54（30日前比 −2.5%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -192,7 +192,7 @@
           "state": "取得済み"
         }
       },
-      "quality_score": 65,
+      "quality_score": 58,
       "quality_label": "中立",
       "quality_breakdown": [
         {
@@ -216,7 +216,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 15.3,
+          "score": 7.5,
           "maximum": 30
         },
         {
@@ -228,19 +228,11 @@
       ],
       "available_component_count": 5,
       "total_component_count": 5,
-      "post_earnings_move_pct": -0.8,
-      "explanation": "EPSは予想を24.1%上回りました。売上高は前年同期比+13.3%です。次期予想は上方修正されています。発表翌営業日の株価は−0.8%でした。予想を上回っても下落した場合は、事前期待の高さや次期見通しが要因になりやすい点に注意します。"
+      "post_earnings_move_pct": 22.6,
+      "explanation": "EPSは予想を80.4%上回りました。売上高は前年同期比+13.3%です。次期予想は下方修正されています。発表翌営業日の株価は+22.6%でした。"
     },
     "trend": {
       "quarters": [
-        {
-          "date": "2024-08-28",
-          "eps_estimate": 2.36,
-          "eps_actual": 2.56,
-          "surprise_pct": 8.63,
-          "move_pct": -0.7,
-          "beat": true
-        },
         {
           "date": "2024-12-03",
           "eps_estimate": 2.45,
@@ -277,7 +269,7 @@
           "date": "2025-12-03",
           "eps_estimate": 2.86,
           "eps_actual": 3.25,
-          "surprise_pct": 13.55,
+          "surprise_pct": 13.57,
           "move_pct": 3.7,
           "beat": true
         },
@@ -295,6 +287,14 @@
           "eps_actual": 3.88,
           "surprise_pct": 24.07,
           "move_pct": -0.8,
+          "beat": true
+        },
+        {
+          "date": "2026-08-26",
+          "eps_estimate": 3.27,
+          "eps_actual": 5.9,
+          "surprise_pct": 80.36,
+          "move_pct": 22.6,
           "beat": true
         }
       ],
@@ -339,42 +339,42 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 3.27071,
-          "eps_estimate_display": "$3.27",
-          "eps_growth_percent": 12.4,
-          "revenue_estimate": 11316970060,
-          "revenue_estimate_display": "$11.3B",
-          "revenue_growth_percent": 10.560001
+          "eps_estimate": 3.42925,
+          "eps_estimate_display": "$3.43",
+          "eps_growth_percent": 5.52,
+          "revenue_estimate": 11449053930,
+          "revenue_estimate_display": "$11.4B",
+          "revenue_growth_percent": 11.6000004
         },
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 3.36751,
-          "eps_estimate_display": "$3.37",
-          "eps_growth_percent": 3.6199997999999995,
-          "revenue_estimate": 11398960680,
-          "revenue_estimate_display": "$11.4B",
-          "revenue_growth_percent": 11.1099996
+          "eps_estimate": 3.54402,
+          "eps_estimate_display": "$3.54",
+          "eps_growth_percent": -6.98,
+          "revenue_estimate": 12329252050,
+          "revenue_estimate_display": "$12.3B",
+          "revenue_growth_percent": 10.07
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 14.13528,
-          "eps_estimate_display": "$14.14",
-          "eps_growth_percent": 12.9,
-          "revenue_estimate": 46111288050,
-          "revenue_estimate_display": "$46.1B",
-          "revenue_growth_percent": 11.04
+          "eps_estimate": 16.14637,
+          "eps_estimate_display": "$16.15",
+          "eps_growth_percent": 28.959998,
+          "revenue_estimate": 46246826160,
+          "revenue_estimate_display": "$46.2B",
+          "revenue_growth_percent": 11.37
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 15.52062,
-          "eps_estimate_display": "$15.52",
-          "eps_growth_percent": 9.8000005,
-          "revenue_estimate": 50517609630,
-          "revenue_estimate_display": "$50.5B",
-          "revenue_growth_percent": 9.56
+          "eps_estimate": 15.81141,
+          "eps_estimate_display": "$15.81",
+          "eps_growth_percent": -2.07,
+          "revenue_estimate": 50756907140,
+          "revenue_estimate_display": "$50.8B",
+          "revenue_growth_percent": 9.75
         }
       ],
       "state": "取得済み"
@@ -390,7 +390,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",
@@ -398,7 +398,7 @@
         "yfinance市場指標"
       ],
       "schedule_verification": "vendor_confirmed",
-      "analyst_count": 44,
+      "analyst_count": 37,
       "missing_fields": [],
       "freshness": "current",
       "retry_status": "not_required"

@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "XOM",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Exxon Mobil",
     "sector": "エネルギー",
     "earnings_date": "2026-10-30",
@@ -19,8 +21,8 @@
       "overall": 13,
       "nasdaq100": 2,
       "sp500": 13,
-      "dow": 13,
-      "nikkei_futures": 11,
+      "dow": 12,
+      "nikkei_futures": 10,
       "spillover_sectors": [
         "エネルギー",
         "商社",
@@ -30,44 +32,44 @@
     },
     "estimates": {
       "eps": {
-        "value": 3.53076,
-        "display": "$3.53",
+        "value": 3.58701,
+        "display": "$3.59",
         "unit": "USD",
         "state": "取得済み"
       },
       "revenue": {
-        "value": 97097176380,
-        "display": "$97.1B",
+        "value": 98524954160,
+        "display": "$98.5B",
         "unit": "USD",
         "state": "取得済み"
       },
       "revision": {
         "eps": {
           "previous": 3.53076,
-          "current": 3.53076,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$3.53 → $3.53 → 0.0%",
+          "current": 3.58701,
+          "change_percent": 1.6,
+          "direction": "up",
+          "display": "$3.53 → $3.59 ↑ 1.6%",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
           "previous": 97097176380,
-          "current": 97097176380,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$97.1B → $97.1B → 0.0%",
+          "current": 98524954160,
+          "change_percent": 1.5,
+          "direction": "up",
+          "display": "$97.1B → $98.5B ↑ 1.5%",
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
       "expectation_score": 4,
       "expectation_label": "予想やや強い",
-      "risk_score": 2,
-      "risk_label": "リスク低い",
+      "risk_score": 1,
+      "risk_label": "リスク非常に低い",
       "themes": [
         "原油",
         "天然ガス",
@@ -81,17 +83,17 @@
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 164.77,
-        "forward_pe": 15.432195,
-        "trailing_pe": 21.315653,
-        "price_to_sales": 1.8764741,
-        "enterprise_to_ebitda": 10.54,
-        "risk_score": 40,
+        "current_price": 156.71,
+        "forward_pe": 14.724317,
+        "trailing_pe": 20.168598,
+        "price_to_sales": 1.7846832,
+        "enterprise_to_ebitda": 10.052,
+        "risk_score": 20,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 21.315653,
-        "forward_pe": 15.432195,
+        "trailing_pe": 20.168598,
+        "forward_pe": 14.724317,
         "label": "平均並み",
         "tone": "neutral",
         "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -101,20 +103,20 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": -17.7
+            "difference_pct": -22.1
           },
           {
             "label": "エネルギー",
             "symbol": "XLE",
-            "multiple": 21.4,
-            "difference_pct": -0.4
+            "multiple": 21.1,
+            "difference_pct": -4.4
           }
         ],
         "outlook": {
           "label": "前向きな材料",
           "tone": "positive",
-          "difference_pct": -28,
-          "note": "予想PERは実績PERより28%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
+          "difference_pct": -27,
+          "note": "予想PERは実績PERより27%低く、今後1年で利益が伸びる見通しです。企業にとっては良い状態です。"
         },
         "state": "取得済み"
       },
@@ -174,8 +176,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": 2.07,
-          "display": "$2.95（30日前比 +2.1%）",
+          "value": 4.63,
+          "display": "$3.00（30日前比 +4.6%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -192,7 +194,7 @@
           "state": "取得済み"
         }
       },
-      "quality_score": 86,
+      "quality_score": 93,
       "quality_label": "高品質",
       "quality_breakdown": [
         {
@@ -216,7 +218,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 21.3,
+          "score": 28.8,
           "maximum": 30
         },
         {
@@ -339,42 +341,42 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 3.53076,
-          "eps_estimate_display": "$3.53",
-          "eps_growth_percent": 87.81,
-          "revenue_estimate": 97097176380,
-          "revenue_estimate_display": "$97.1B",
-          "revenue_growth_percent": 13.84
+          "eps_estimate": 3.58701,
+          "eps_estimate_display": "$3.59",
+          "eps_growth_percent": 90.800005,
+          "revenue_estimate": 98524954160,
+          "revenue_estimate_display": "$98.5B",
+          "revenue_growth_percent": 15.509999999999998
         },
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 2.94819,
-          "eps_estimate_display": "$2.95",
-          "eps_growth_percent": 72.410005,
-          "revenue_estimate": 103223573690,
-          "revenue_estimate_display": "$103.2B",
-          "revenue_growth_percent": 25.41
+          "eps_estimate": 2.99819,
+          "eps_estimate_display": "$3.00",
+          "eps_growth_percent": 75.33,
+          "revenue_estimate": 104057473690,
+          "revenue_estimate_display": "$104.1B",
+          "revenue_growth_percent": 26.419999999999998
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 11.50173,
-          "eps_estimate_display": "$11.50",
-          "eps_growth_percent": 64.55,
-          "revenue_estimate": 402942240890,
-          "revenue_estimate_display": "$402.9B",
-          "revenue_growth_percent": 21.280001000000002
+          "eps_estimate": 11.61792,
+          "eps_estimate_display": "$11.62",
+          "eps_growth_percent": 66.21000000000001,
+          "revenue_estimate": 407012088640,
+          "revenue_estimate_display": "$407.0B",
+          "revenue_growth_percent": 22.509999999999998
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 10.64021,
+          "eps_estimate": 10.64294,
           "eps_estimate_display": "$10.64",
-          "eps_growth_percent": -7.489999999999999,
-          "revenue_estimate": 393615786360,
-          "revenue_estimate_display": "$393.6B",
-          "revenue_growth_percent": -2.31
+          "eps_growth_percent": -8.3900005,
+          "revenue_estimate": 399554227340,
+          "revenue_estimate_display": "$399.6B",
+          "revenue_growth_percent": -1.83
         }
       ],
       "state": "取得済み"
@@ -390,7 +392,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",

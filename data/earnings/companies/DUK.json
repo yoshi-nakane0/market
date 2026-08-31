@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "DUK",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Duke Energy",
     "sector": "公益",
     "earnings_date": "2026-11-05",
@@ -29,13 +31,13 @@
     },
     "estimates": {
       "eps": {
-        "value": 1.84102,
+        "value": 1.83684,
         "display": "$1.84",
         "unit": "USD",
         "state": "取得済み"
       },
       "revenue": {
-        "value": 8910167420,
+        "value": 8912292420,
         "display": "$8.9B",
         "unit": "USD",
         "state": "取得済み"
@@ -43,23 +45,23 @@
       "revision": {
         "eps": {
           "previous": 1.84102,
-          "current": 1.84102,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$1.84 → $1.84 → 0.0%",
+          "current": 1.83684,
+          "change_percent": -0.2,
+          "direction": "down",
+          "display": "$1.84 → $1.84 ↓ 0.2%",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
           "previous": 8910167420,
-          "current": 8910167420,
+          "current": 8912292420,
           "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$8.9B → $8.9B → 0.0%",
+          "direction": "up",
+          "display": "$8.9B → $8.9B ↑ 0.0%",
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
@@ -79,17 +81,17 @@
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 123.6,
-        "forward_pe": 17.231764,
-        "trailing_pe": 18.670694,
-        "price_to_sales": 2.9378772,
-        "enterprise_to_ebitda": 11.494,
+        "current_price": 120.25,
+        "forward_pe": 16.765844,
+        "trailing_pe": 18.10994,
+        "price_to_sales": 2.8582506,
+        "enterprise_to_ebitda": 11.336,
         "risk_score": 40,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 18.670694,
-        "forward_pe": 17.231764,
+        "trailing_pe": 18.10994,
+        "forward_pe": 16.765844,
         "label": "平均並み",
         "tone": "neutral",
         "reading": "同じ業種と同じくらいの株価水準です。期待の偏りは小さく、決算への反応も業種並みになりやすい水準です。",
@@ -99,19 +101,19 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": -27.9
+            "difference_pct": -30.1
           },
           {
             "label": "公益",
             "symbol": "XLU",
-            "multiple": 20,
+            "multiple": 19.4,
             "difference_pct": -6.6
           }
         ],
         "outlook": {
           "label": "横ばい",
           "tone": "neutral",
-          "difference_pct": -8,
+          "difference_pct": -7,
           "note": "予想PERと実績PERはほぼ同じで、今後1年の利益は横ばいの見通しです。良くも悪くもない状態です。"
         },
         "state": "取得済み"
@@ -166,8 +168,8 @@
           "state": "取得不可"
         },
         "next_guidance": {
-          "value": -3.83,
-          "display": "$1.56（30日前比 −3.8%）",
+          "value": -3.13,
+          "display": "$1.55（30日前比 −3.1%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -184,7 +186,7 @@
           "state": "取得済み"
         }
       },
-      "quality_score": 56,
+      "quality_score": 59,
       "quality_label": "中立",
       "quality_breakdown": [
         {
@@ -208,7 +210,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 3.6,
+          "score": 5.7,
           "maximum": 30
         },
         {
@@ -331,40 +333,40 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 1.84102,
+          "eps_estimate": 1.83684,
           "eps_estimate_display": "$1.84",
-          "eps_growth_percent": 1.71,
-          "revenue_estimate": 8910167420,
+          "eps_growth_percent": 1.48,
+          "revenue_estimate": 8912292420,
           "revenue_estimate_display": "$8.9B",
-          "revenue_growth_percent": 4.31
+          "revenue_growth_percent": 4.33
         },
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 1.55524,
-          "eps_estimate_display": "$1.56",
-          "eps_growth_percent": 3.6799999999999997,
-          "revenue_estimate": 8026569360,
+          "eps_estimate": 1.54962,
+          "eps_estimate_display": "$1.55",
+          "eps_growth_percent": 3.3099998,
+          "revenue_estimate": 8026694360,
           "revenue_estimate_display": "$8.0B",
           "revenue_growth_percent": 1.1199999999999999
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 6.70941,
+          "eps_estimate": 6.7109,
           "eps_estimate_display": "$6.71",
-          "eps_growth_percent": 6.329999999999999,
-          "revenue_estimate": 33751391080,
-          "revenue_estimate_display": "$33.8B",
-          "revenue_growth_percent": 4.7
+          "eps_growth_percent": 6.35,
+          "revenue_estimate": 33738981610,
+          "revenue_estimate_display": "$33.7B",
+          "revenue_growth_percent": 4.66
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 7.171,
+          "eps_estimate": 7.17232,
           "eps_estimate_display": "$7.17",
           "eps_growth_percent": 6.88,
-          "revenue_estimate": 35289923060,
+          "revenue_estimate": 35276759860,
           "revenue_estimate_display": "$35.3B",
           "revenue_growth_percent": 4.5600000000000005
         }
@@ -382,7 +384,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",

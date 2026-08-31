@@ -1,44 +1,37 @@
 {
   "schema_version": 1,
   "page": "earnings",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "data_status": {
     "label": "確認済み",
     "note": "正式確認、外部データ確認、推定を分けて表示します。欠損値は補完せず、取得不可または確認中とします。",
     "confirmed_count": 0,
-    "vendor_confirmed_count": 40,
+    "vendor_confirmed_count": 50,
     "estimated_count": 0,
     "unavailable_count": 0
   },
   "hero": {
-    "overall_event_impact": "高",
+    "overall_event_impact": "中",
     "key_companies": [
-      {
-        "ticker": "NVDA",
-        "company_name": "NVIDIA",
-        "impact": 100,
-        "phase": "pre",
-        "verification_status": "vendor_confirmed"
-      },
       {
         "ticker": "AVGO",
         "company_name": "Broadcom",
-        "impact": 71,
+        "impact": 69,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
-        "ticker": "WMT",
-        "company_name": "Walmart",
-        "impact": 30,
-        "phase": "post",
+        "ticker": "ORCL",
+        "company_name": "Oracle",
+        "impact": 27,
+        "phase": "pre",
         "verification_status": "vendor_confirmed"
       },
       {
-        "ticker": "CRM",
-        "company_name": "Salesforce",
-        "impact": 11,
+        "ticker": "ADBE",
+        "company_name": "Adobe",
+        "impact": 9,
         "phase": "pre",
         "verification_status": "vendor_confirmed"
       }
@@ -46,143 +39,76 @@
     "index_impacts": [
       {
         "label": "NASDAQ 100",
-        "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "level": "中",
+        "note": "AVGOを中心に影響の大きさを監視"
       },
       {
         "label": "S&P 500",
-        "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "level": "中",
+        "note": "AVGOを中心に影響の大きさを監視"
       },
       {
         "label": "NYダウ",
-        "level": "中",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "level": "低",
+        "note": "AVGOを中心に影響の大きさを監視"
       },
       {
         "label": "日経先物",
-        "level": "高",
-        "note": "NVDAを中心に影響の大きさを監視"
+        "level": "中",
+        "note": "AVGOを中心に影響の大きさを監視"
       }
     ]
   },
   "market_breadth": {
     "released_count": 40,
     "beat_count": 38,
-    "note": "決算予想と決算結果の集計です。個別銘柄の売買方向は示しません。",
     "beat_rate_percent": 95,
     "beat_rate_label": "良好",
+    "note": "決算予想と決算結果の集計です。個別銘柄の売買方向は示しません。",
     "benchmark": {
       "label": "S&P500",
       "symbol": "SPY",
-      "last_close_date": "2026-08-19",
+      "last_close_date": "2026-08-27",
       "returns": {
-        "week": -0.44,
-        "month": 2.78,
-        "quarter": 5.09
+        "week": 1.11,
+        "month": 5.71,
+        "quarter": 2.45
       }
     }
   },
+  "markets": [
+    {
+      "key": "us",
+      "label": "米国",
+      "currency": "USD",
+      "company_count": 40,
+      "scheduled_count": 40,
+      "breadth": {
+        "released_count": 40,
+        "beat_count": 38,
+        "beat_rate_percent": 95,
+        "beat_rate_label": "良好"
+      }
+    },
+    {
+      "key": "jp",
+      "label": "日本",
+      "currency": "JPY",
+      "company_count": 10,
+      "scheduled_count": 10,
+      "breadth": {
+        "released_count": 10,
+        "beat_count": 9,
+        "beat_rate_percent": 90,
+        "beat_rate_label": "良好"
+      }
+    }
+  ],
   "calendar": [
     {
-      "ticker": "WMT",
-      "company_name": "Walmart",
-      "sector": "生活必需品",
-      "earnings_date": "2026-08-20",
-      "jst_time": "08/20 21:00 JST",
-      "us_market_time": "08:00 ET",
-      "session": "before_open",
-      "verification_status": "vendor_confirmed",
-      "phase": "post",
-      "calendar_windows": [
-        "today",
-        "past_7_days",
-        "this_week"
-      ],
-      "market_impact": {
-        "overall": 30,
-        "nasdaq100": 7,
-        "sp500": 28,
-        "dow": 37,
-        "nikkei_futures": 23,
-        "spillover_sectors": [
-          "生活必需品",
-          "小売",
-          "消費関連"
-        ],
-        "reason": "NYダウへの感応度と、小売・消費減速を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "verdict": {
-        "label": "結果確認中",
-        "tone": "unavailable",
-        "detail": null
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "company_name": "NVIDIA",
-      "sector": "情報技術",
-      "earnings_date": "2026-08-26",
-      "jst_time": "08/27 05:00 JST",
-      "us_market_time": "16:00 ET",
-      "session": "after_close",
-      "verification_status": "vendor_confirmed",
-      "phase": "pre",
-      "calendar_windows": [
-        "next_week"
-      ],
-      "market_impact": {
-        "overall": 100,
-        "nasdaq100": 100,
-        "sp500": 100,
-        "dow": 71,
-        "nikkei_futures": 100,
-        "spillover_sectors": [
-          "情報技術",
-          "半導体製造装置",
-          "検査装置"
-        ],
-        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "verdict": {
-        "label": "期待高",
-        "tone": "positive",
-        "detail": "予想変動±4.2%"
-      }
-    },
-    {
-      "ticker": "CRM",
-      "company_name": "Salesforce",
-      "sector": "情報技術",
-      "earnings_date": "2026-08-26",
-      "jst_time": "08/27 05:00 JST",
-      "us_market_time": "16:00 ET",
-      "session": "after_close",
-      "verification_status": "vendor_confirmed",
-      "phase": "pre",
-      "calendar_windows": [
-        "next_week"
-      ],
-      "market_impact": {
-        "overall": 11,
-        "nasdaq100": 11,
-        "sp500": 11,
-        "dow": 12,
-        "nikkei_futures": 10,
-        "spillover_sectors": [
-          "情報技術",
-          "ソフトウェア"
-        ],
-        "reason": "NYダウへの感応度と、クラウド・企業向けAIを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
-      },
-      "verdict": {
-        "label": "期待高",
-        "tone": "positive",
-        "detail": "予想変動±6.5%"
-      }
-    },
-    {
       "ticker": "AVGO",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Broadcom",
       "sector": "情報技術",
       "earnings_date": "2026-09-02",
@@ -191,13 +117,15 @@
       "session": "after_close",
       "verification_status": "vendor_confirmed",
       "phase": "pre",
-      "calendar_windows": [],
+      "calendar_windows": [
+        "this_week"
+      ],
       "market_impact": {
-        "overall": 71,
-        "nasdaq100": 71,
-        "sp500": 69,
-        "dow": 30,
-        "nikkei_futures": 72,
+        "overall": 69,
+        "nasdaq100": 69,
+        "sp500": 68,
+        "dow": 29,
+        "nikkei_futures": 70,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -213,6 +141,8 @@
     },
     {
       "ticker": "ORCL",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Oracle",
       "sector": "情報技術",
       "earnings_date": "2026-09-10",
@@ -221,7 +151,9 @@
       "session": "after_close",
       "verification_status": "vendor_confirmed",
       "phase": "pre",
-      "calendar_windows": [],
+      "calendar_windows": [
+        "next_week"
+      ],
       "market_impact": {
         "overall": 27,
         "nasdaq100": 27,
@@ -242,6 +174,8 @@
     },
     {
       "ticker": "ADBE",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Adobe",
       "sector": "情報技術",
       "earnings_date": "2026-09-10",
@@ -250,7 +184,9 @@
       "session": "after_close",
       "verification_status": "vendor_confirmed",
       "phase": "pre",
-      "calendar_windows": [],
+      "calendar_windows": [
+        "next_week"
+      ],
       "market_impact": {
         "overall": 9,
         "nasdaq100": 9,
@@ -270,22 +206,56 @@
       }
     },
     {
-      "ticker": "MU",
-      "company_name": "Micron Technology",
-      "sector": "情報技術",
-      "earnings_date": "2026-09-23",
-      "jst_time": "09/24 05:00 JST",
+      "ticker": "COST",
+      "market": "us",
+      "currency": "USD",
+      "company_name": "Costco Wholesale",
+      "sector": "生活必需品",
+      "earnings_date": "2026-09-24",
+      "jst_time": "09/25 05:00 JST",
       "us_market_time": "16:00 ET",
       "session": "after_close",
       "verification_status": "vendor_confirmed",
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 39,
-        "nasdaq100": 39,
-        "sp500": 33,
-        "dow": 10,
-        "nikkei_futures": 49,
+        "overall": 10,
+        "nasdaq100": 10,
+        "sp500": 10,
+        "dow": 4,
+        "nikkei_futures": 9,
+        "spillover_sectors": [
+          "生活必需品",
+          "小売",
+          "消費関連"
+        ],
+        "reason": "NASDAQ 100への感応度と、小売・会員制を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高",
+        "tone": "positive",
+        "detail": "予想変動±2.9%"
+      }
+    },
+    {
+      "ticker": "MU",
+      "market": "us",
+      "currency": "USD",
+      "company_name": "Micron Technology",
+      "sector": "情報技術",
+      "earnings_date": "2026-09-30",
+      "jst_time": "10/01 05:00 JST",
+      "us_market_time": "16:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 37,
+        "nasdaq100": 37,
+        "sp500": 32,
+        "dow": 9,
+        "nikkei_futures": 48,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -300,37 +270,41 @@
       }
     },
     {
-      "ticker": "COST",
-      "company_name": "Costco Wholesale",
-      "sector": "生活必需品",
-      "earnings_date": "2026-09-24",
-      "jst_time": "09/25 05:00 JST",
-      "us_market_time": "16:00 ET",
+      "ticker": "9983.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "ファーストリテイリング",
+      "sector": "一般消費財",
+      "earnings_date": "2026-10-08",
+      "jst_time": "10/08 15:00 JST",
+      "us_market_time": "02:00 ET",
       "session": "after_close",
       "verification_status": "vendor_confirmed",
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 11,
-        "nasdaq100": 10,
-        "sp500": 11,
-        "dow": 4,
-        "nikkei_futures": 9,
+        "overall": 85,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 85,
         "spillover_sectors": [
-          "生活必需品",
+          "一般消費財",
           "小売",
-          "消費関連"
+          "衣料"
         ],
-        "reason": "S&P 500への感応度と、小売・会員制を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "日経先物への感応度と、衣料消費・海外展開を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "verdict": {
-        "label": "期待高",
-        "tone": "positive",
-        "detail": "予想変動±2.9%"
+        "label": "期待中立・荒れやすい",
+        "tone": "caution",
+        "detail": "予想変動±7.5%"
       }
     },
     {
       "ticker": "FDX",
+      "market": "us",
+      "currency": "USD",
       "company_name": "FedEx",
       "sector": "資本財",
       "earnings_date": "2026-10-12",
@@ -361,6 +335,8 @@
     },
     {
       "ticker": "JPM",
+      "market": "us",
+      "currency": "USD",
       "company_name": "JPMorgan Chase",
       "sector": "金融",
       "earnings_date": "2026-10-13",
@@ -371,10 +347,10 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 24,
+        "overall": 23,
         "nasdaq100": 6,
-        "sp500": 24,
-        "dow": 30,
+        "sp500": 23,
+        "dow": 29,
         "nikkei_futures": 19,
         "spillover_sectors": [
           "金融",
@@ -391,6 +367,8 @@
     },
     {
       "ticker": "GS",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Goldman Sachs",
       "sector": "金融",
       "earnings_date": "2026-10-13",
@@ -404,7 +382,7 @@
         "overall": 10,
         "nasdaq100": 2,
         "sp500": 9,
-        "dow": 13,
+        "dow": 12,
         "nikkei_futures": 8,
         "spillover_sectors": [
           "金融",
@@ -421,6 +399,8 @@
     },
     {
       "ticker": "ASML",
+      "market": "us",
+      "currency": "USD",
       "company_name": "ASML",
       "sector": "情報技術",
       "earnings_date": "2026-10-14",
@@ -433,9 +413,9 @@
       "market_impact": {
         "overall": 14,
         "nasdaq100": 14,
-        "sp500": 12,
+        "sp500": 11,
         "dow": 5,
-        "nikkei_futures": 38,
+        "nikkei_futures": 36,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -451,6 +431,8 @@
     },
     {
       "ticker": "BAC",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Bank of America",
       "sector": "金融",
       "earnings_date": "2026-10-14",
@@ -461,17 +443,17 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 10,
+        "overall": 9,
         "nasdaq100": 2,
-        "sp500": 10,
+        "sp500": 9,
         "dow": 10,
-        "nikkei_futures": 9,
+        "nikkei_futures": 8,
         "spillover_sectors": [
           "金融",
           "銀行",
           "保険"
         ],
-        "reason": "S&P 500への感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+        "reason": "NYダウへの感応度と、金利・信用コストを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "verdict": {
         "label": "期待高・反応穏やか",
@@ -481,6 +463,8 @@
     },
     {
       "ticker": "PLD",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Prologis",
       "sector": "不動産",
       "earnings_date": "2026-10-14",
@@ -510,6 +494,8 @@
     },
     {
       "ticker": "TSM",
+      "market": "us",
+      "currency": "USD",
       "company_name": "TSMC",
       "sector": "情報技術",
       "earnings_date": "2026-10-15",
@@ -520,11 +506,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 25,
-        "nasdaq100": 25,
+        "overall": 24,
+        "nasdaq100": 24,
         "sp500": 20,
         "dow": 7,
-        "nikkei_futures": 56,
+        "nikkei_futures": 55,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -540,6 +526,8 @@
     },
     {
       "ticker": "NFLX",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Netflix",
       "sector": "コミュニケーション・サービス",
       "earnings_date": "2026-10-20",
@@ -570,6 +558,8 @@
     },
     {
       "ticker": "TSLA",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Tesla",
       "sector": "一般消費財",
       "earnings_date": "2026-10-21",
@@ -580,11 +570,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 55,
-        "nasdaq100": 55,
-        "sp500": 52,
-        "dow": 22,
-        "nikkei_futures": 46,
+        "overall": 53,
+        "nasdaq100": 53,
+        "sp500": 51,
+        "dow": 21,
+        "nikkei_futures": 44,
         "spillover_sectors": [
           "一般消費財",
           "自動車",
@@ -600,6 +590,8 @@
     },
     {
       "ticker": "FCX",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Freeport-McMoRan",
       "sector": "素材",
       "earnings_date": "2026-10-22",
@@ -630,6 +622,8 @@
     },
     {
       "ticker": "HON",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Honeywell",
       "sector": "資本財",
       "earnings_date": "2026-10-22",
@@ -660,6 +654,8 @@
     },
     {
       "ticker": "PG",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Procter & Gamble",
       "sector": "生活必需品",
       "earnings_date": "2026-10-22",
@@ -670,10 +666,10 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 9,
+        "overall": 8,
         "nasdaq100": 1,
         "sp500": 8,
-        "dow": 11,
+        "dow": 10,
         "nikkei_futures": 6,
         "spillover_sectors": [
           "生活必需品",
@@ -689,7 +685,40 @@
       }
     },
     {
+      "ticker": "4063.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "信越化学工業",
+      "sector": "素材",
+      "earnings_date": "2026-10-23",
+      "jst_time": "10/23 15:00 JST",
+      "us_market_time": "02:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 53,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 53,
+        "spillover_sectors": [
+          "素材",
+          "半導体材料"
+        ],
+        "reason": "日経先物への感応度と、塩ビ・シリコンウエハを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高",
+        "tone": "positive",
+        "detail": "予想変動±7.0%"
+      }
+    },
+    {
       "ticker": "UNH",
+      "market": "us",
+      "currency": "USD",
       "company_name": "UnitedHealth Group",
       "sector": "ヘルスケア",
       "earnings_date": "2026-10-27",
@@ -702,8 +731,8 @@
       "market_impact": {
         "overall": 17,
         "nasdaq100": 3,
-        "sp500": 16,
-        "dow": 21,
+        "sp500": 15,
+        "dow": 20,
         "nikkei_futures": 11,
         "spillover_sectors": [
           "ヘルスケア",
@@ -720,6 +749,8 @@
     },
     {
       "ticker": "NEE",
+      "market": "us",
+      "currency": "USD",
       "company_name": "NextEra Energy",
       "sector": "公益",
       "earnings_date": "2026-10-27",
@@ -734,7 +765,7 @@
         "nasdaq100": 1,
         "sp500": 5,
         "dow": 2,
-        "nikkei_futures": 5,
+        "nikkei_futures": 4,
         "spillover_sectors": [
           "公益",
           "電力",
@@ -743,13 +774,15 @@
         "reason": "S&P 500への感応度と、電力需要・再生可能エネルギーを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "verdict": {
-        "label": "期待高",
-        "tone": "positive",
+        "label": "期待中立",
+        "tone": "neutral",
         "detail": "予想変動±4.1%"
       }
     },
     {
       "ticker": "AMT",
+      "market": "us",
+      "currency": "USD",
       "company_name": "American Tower",
       "sector": "不動産",
       "earnings_date": "2026-10-27",
@@ -779,6 +812,8 @@
     },
     {
       "ticker": "SHW",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Sherwin-Williams",
       "sector": "素材",
       "earnings_date": "2026-10-27",
@@ -790,7 +825,7 @@
       "calendar_windows": [],
       "market_impact": {
         "overall": 2,
-        "nasdaq100": 1,
+        "nasdaq100": 0,
         "sp500": 2,
         "dow": 2,
         "nikkei_futures": 2,
@@ -808,7 +843,41 @@
       }
     },
     {
+      "ticker": "6857.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "アドバンテスト",
+      "sector": "情報技術",
+      "earnings_date": "2026-10-27",
+      "jst_time": "10/27 15:00 JST",
+      "us_market_time": "02:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 100,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 100,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "電子部品"
+        ],
+        "reason": "日経先物への感応度と、半導体テスター・AI半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高・荒れやすい",
+        "tone": "caution",
+        "detail": "予想変動±8.1%"
+      }
+    },
+    {
       "ticker": "MSFT",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Microsoft",
       "sector": "情報技術",
       "earnings_date": "2026-10-28",
@@ -823,7 +892,7 @@
         "nasdaq100": 89,
         "sp500": 90,
         "dow": 100,
-        "nikkei_futures": 83,
+        "nikkei_futures": 82,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -839,6 +908,8 @@
     },
     {
       "ticker": "META",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Meta Platforms",
       "sector": "コミュニケーション・サービス",
       "earnings_date": "2026-10-28",
@@ -869,6 +940,8 @@
     },
     {
       "ticker": "GOOGL",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Alphabet",
       "sector": "コミュニケーション・サービス",
       "earnings_date": "2026-10-28",
@@ -879,11 +952,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 92,
-        "nasdaq100": 92,
-        "sp500": 91,
-        "dow": 41,
-        "nikkei_futures": 81,
+        "overall": 89,
+        "nasdaq100": 89,
+        "sp500": 88,
+        "dow": 40,
+        "nikkei_futures": 79,
         "spillover_sectors": [
           "コミュニケーション・サービス",
           "インターネット広告",
@@ -899,6 +972,8 @@
     },
     {
       "ticker": "EQIX",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Equinix",
       "sector": "不動産",
       "earnings_date": "2026-10-28",
@@ -921,13 +996,15 @@
         "reason": "日経先物への感応度と、データセンター・AI電力需要を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
       },
       "verdict": {
-        "label": "期待高",
-        "tone": "positive",
+        "label": "期待中立",
+        "tone": "neutral",
         "detail": "予想変動±3.5%"
       }
     },
     {
       "ticker": "AAPL",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Apple",
       "sector": "情報技術",
       "earnings_date": "2026-10-29",
@@ -938,11 +1015,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 69,
-        "nasdaq100": 69,
-        "sp500": 69,
-        "dow": 76,
-        "nikkei_futures": 61,
+        "overall": 67,
+        "nasdaq100": 67,
+        "sp500": 67,
+        "dow": 74,
+        "nikkei_futures": 60,
         "spillover_sectors": [
           "情報技術",
           "電子部品",
@@ -958,6 +1035,8 @@
     },
     {
       "ticker": "AMZN",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Amazon",
       "sector": "一般消費財",
       "earnings_date": "2026-10-29",
@@ -968,11 +1047,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 80,
-        "nasdaq100": 80,
-        "sp500": 80,
-        "dow": 69,
-        "nikkei_futures": 72,
+        "overall": 78,
+        "nasdaq100": 78,
+        "sp500": 77,
+        "dow": 67,
+        "nikkei_futures": 70,
         "spillover_sectors": [
           "一般消費財",
           "電子商取引",
@@ -988,6 +1067,8 @@
     },
     {
       "ticker": "LLY",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Eli Lilly",
       "sector": "ヘルスケア",
       "earnings_date": "2026-10-29",
@@ -998,11 +1079,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 40,
-        "nasdaq100": 7,
-        "sp500": 40,
-        "dow": 37,
-        "nikkei_futures": 28,
+        "overall": 37,
+        "nasdaq100": 6,
+        "sp500": 37,
+        "dow": 34,
+        "nikkei_futures": 26,
         "spillover_sectors": [
           "ヘルスケア",
           "医薬品"
@@ -1017,6 +1098,8 @@
     },
     {
       "ticker": "CAT",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Caterpillar",
       "sector": "資本財",
       "earnings_date": "2026-10-29",
@@ -1027,11 +1110,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 13,
+        "overall": 12,
         "nasdaq100": 2,
         "sp500": 11,
-        "dow": 16,
-        "nikkei_futures": 12,
+        "dow": 15,
+        "nikkei_futures": 11,
         "spillover_sectors": [
           "資本財",
           "建機",
@@ -1047,6 +1130,8 @@
     },
     {
       "ticker": "SO",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Southern Company",
       "sector": "公益",
       "earnings_date": "2026-10-29",
@@ -1058,7 +1143,7 @@
       "calendar_windows": [],
       "market_impact": {
         "overall": 2,
-        "nasdaq100": 1,
+        "nasdaq100": 0,
         "sp500": 2,
         "dow": 1,
         "nikkei_futures": 2,
@@ -1076,6 +1161,8 @@
     },
     {
       "ticker": "XOM",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Exxon Mobil",
       "sector": "エネルギー",
       "earnings_date": "2026-10-30",
@@ -1089,8 +1176,8 @@
         "overall": 13,
         "nasdaq100": 2,
         "sp500": 13,
-        "dow": 13,
-        "nikkei_futures": 11,
+        "dow": 12,
+        "nikkei_futures": 10,
         "spillover_sectors": [
           "エネルギー",
           "商社",
@@ -1106,6 +1193,8 @@
     },
     {
       "ticker": "CVX",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Chevron",
       "sector": "エネルギー",
       "earnings_date": "2026-10-30",
@@ -1116,10 +1205,10 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 10,
+        "overall": 9,
         "nasdaq100": 1,
         "sp500": 9,
-        "dow": 12,
+        "dow": 11,
         "nikkei_futures": 8,
         "spillover_sectors": [
           "エネルギー",
@@ -1136,6 +1225,8 @@
     },
     {
       "ticker": "LIN",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Linde",
       "sector": "素材",
       "earnings_date": "2026-10-30",
@@ -1146,9 +1237,9 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 6,
+        "overall": 5,
         "nasdaq100": 4,
-        "sp500": 6,
+        "sp500": 5,
         "dow": 2,
         "nikkei_futures": 5,
         "spillover_sectors": [
@@ -1165,7 +1256,105 @@
       }
     },
     {
+      "ticker": "8035.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "東京エレクトロン",
+      "sector": "情報技術",
+      "earnings_date": "2026-10-30",
+      "jst_time": "10/30 15:00 JST",
+      "us_market_time": "02:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 88,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 88,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "電子部品"
+        ],
+        "reason": "日経先物への感応度と、半導体製造装置・AI設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高・荒れやすい",
+        "tone": "caution",
+        "detail": "予想変動±5.4%"
+      }
+    },
+    {
+      "ticker": "6954.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "ファナック",
+      "sector": "資本財",
+      "earnings_date": "2026-10-30",
+      "jst_time": "10/30 15:00 JST",
+      "us_market_time": "02:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 28,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 28,
+        "spillover_sectors": [
+          "資本財",
+          "機械",
+          "設備投資関連"
+        ],
+        "reason": "日経先物への感応度と、工作機械・中国設備投資を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高",
+        "tone": "positive",
+        "detail": "予想変動±4.3%"
+      }
+    },
+    {
+      "ticker": "6762.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "TDK",
+      "sector": "情報技術",
+      "earnings_date": "2026-10-30",
+      "jst_time": "10/30 15:00 JST",
+      "us_market_time": "02:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 37,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 37,
+        "spillover_sectors": [
+          "情報技術",
+          "電子部品",
+          "Apple関連"
+        ],
+        "reason": "日経先物への感応度と、電池・スマホ需要を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高・荒れやすい",
+        "tone": "caution",
+        "detail": "予想変動±6.1%"
+      }
+    },
+    {
       "ticker": "AMD",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Advanced Micro Devices",
       "sector": "情報技術",
       "earnings_date": "2026-11-03",
@@ -1176,11 +1365,11 @@
       "phase": "pre",
       "calendar_windows": [],
       "market_impact": {
-        "overall": 40,
-        "nasdaq100": 40,
-        "sp500": 36,
+        "overall": 38,
+        "nasdaq100": 38,
+        "sp500": 34,
         "dow": 10,
-        "nikkei_futures": 42,
+        "nikkei_futures": 40,
         "spillover_sectors": [
           "情報技術",
           "半導体製造装置",
@@ -1196,6 +1385,8 @@
     },
     {
       "ticker": "PFE",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Pfizer",
       "sector": "ヘルスケア",
       "earnings_date": "2026-11-03",
@@ -1208,7 +1399,7 @@
       "market_impact": {
         "overall": 4,
         "nasdaq100": 1,
-        "sp500": 4,
+        "sp500": 3,
         "dow": 5,
         "nikkei_futures": 3,
         "spillover_sectors": [
@@ -1224,7 +1415,41 @@
       }
     },
     {
+      "ticker": "6367.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "ダイキン工業",
+      "sector": "資本財",
+      "earnings_date": "2026-11-04",
+      "jst_time": "11/04 15:00 JST",
+      "us_market_time": "01:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 32,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 32,
+        "spillover_sectors": [
+          "資本財",
+          "機械",
+          "住宅関連"
+        ],
+        "reason": "日経先物への感応度と、空調・米国住宅を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高",
+        "tone": "positive",
+        "detail": "予想変動±6.2%"
+      }
+    },
+    {
       "ticker": "DUK",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Duke Energy",
       "sector": "公益",
       "earnings_date": "2026-11-05",
@@ -1253,7 +1478,136 @@
       }
     },
     {
+      "ticker": "9984.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "ソフトバンクグループ",
+      "sector": "コミュニケーション・サービス",
+      "earnings_date": "2026-11-11",
+      "jst_time": "11/11 15:00 JST",
+      "us_market_time": "01:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 92,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 92,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "AI関連",
+          "通信"
+        ],
+        "reason": "日経先物への感応度と、AI投資・半導体（Arm）を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待中立",
+        "tone": "neutral",
+        "detail": "予想変動±6.1%"
+      }
+    },
+    {
+      "ticker": "4543.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "テルモ",
+      "sector": "ヘルスケア",
+      "earnings_date": "2026-11-11",
+      "jst_time": "11/11 15:00 JST",
+      "us_market_time": "01:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 22,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 22,
+        "spillover_sectors": [
+          "ヘルスケア",
+          "医療機器"
+        ],
+        "reason": "日経先物への感応度と、医療機器・海外展開を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高",
+        "tone": "positive",
+        "detail": "予想変動±6.9%"
+      }
+    },
+    {
+      "ticker": "9433.T",
+      "market": "jp",
+      "currency": "JPY",
+      "company_name": "KDDI",
+      "sector": "コミュニケーション・サービス",
+      "earnings_date": "2026-11-12",
+      "jst_time": "11/12 15:00 JST",
+      "us_market_time": "01:00 ET",
+      "session": "after_close",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 26,
+        "nasdaq100": 0,
+        "sp500": 0,
+        "dow": 0,
+        "nikkei_futures": 26,
+        "spillover_sectors": [
+          "コミュニケーション・サービス",
+          "通信",
+          "ディフェンシブ"
+        ],
+        "reason": "日経先物への感応度と、通信・金融・DXを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待中立",
+        "tone": "neutral",
+        "detail": "予想変動±2.6%"
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "market": "us",
+      "currency": "USD",
+      "company_name": "NVIDIA",
+      "sector": "情報技術",
+      "earnings_date": "2026-11-17",
+      "jst_time": "11/18 05:00 JST",
+      "us_market_time": "15:00 ET",
+      "session": "unknown",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 100,
+        "nasdaq100": 100,
+        "sp500": 100,
+        "dow": 72,
+        "nikkei_futures": 100,
+        "spillover_sectors": [
+          "情報技術",
+          "半導体製造装置",
+          "検査装置"
+        ],
+        "reason": "NASDAQ 100への感応度と、AIインフラ・半導体を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高・反応穏やか",
+        "tone": "positive",
+        "detail": "予想変動±4.5%"
+      }
+    },
+    {
       "ticker": "HD",
+      "market": "us",
+      "currency": "USD",
       "company_name": "Home Depot",
       "sector": "一般消費財",
       "earnings_date": "2026-11-17",
@@ -1266,7 +1620,7 @@
       "market_impact": {
         "overall": 10,
         "nasdaq100": 2,
-        "sp500": 9,
+        "sp500": 8,
         "dow": 12,
         "nikkei_futures": 7,
         "spillover_sectors": [
@@ -1280,6 +1634,69 @@
         "label": "期待中立",
         "tone": "neutral",
         "detail": "予想変動±2.6%"
+      }
+    },
+    {
+      "ticker": "WMT",
+      "market": "us",
+      "currency": "USD",
+      "company_name": "Walmart",
+      "sector": "生活必需品",
+      "earnings_date": "2026-11-19",
+      "jst_time": "11/19 21:00 JST",
+      "us_market_time": "07:00 ET",
+      "session": "before_open",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 28,
+        "nasdaq100": 7,
+        "sp500": 26,
+        "dow": 35,
+        "nikkei_futures": 22,
+        "spillover_sectors": [
+          "生活必需品",
+          "小売",
+          "消費関連"
+        ],
+        "reason": "NYダウへの感応度と、小売・消費減速を通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待中立",
+        "tone": "neutral",
+        "detail": "予想変動±5.8%"
+      }
+    },
+    {
+      "ticker": "CRM",
+      "market": "us",
+      "currency": "USD",
+      "company_name": "Salesforce",
+      "sector": "情報技術",
+      "earnings_date": "2026-12-02",
+      "jst_time": "12/03 05:00 JST",
+      "us_market_time": "15:00 ET",
+      "session": "unknown",
+      "verification_status": "vendor_confirmed",
+      "phase": "pre",
+      "calendar_windows": [],
+      "market_impact": {
+        "overall": 13,
+        "nasdaq100": 13,
+        "sp500": 12,
+        "dow": 14,
+        "nikkei_futures": 12,
+        "spillover_sectors": [
+          "情報技術",
+          "ソフトウェア"
+        ],
+        "reason": "NYダウへの感応度と、クラウド・企業向けAIを通じた同業波及を重視。方向ではなく値動きの大きさを示します。"
+      },
+      "verdict": {
+        "label": "期待高・荒れやすい",
+        "tone": "caution",
+        "detail": "予想変動±7.7%"
       }
     }
   ],
@@ -1305,28 +1722,28 @@
         "released_count": 3,
         "beat_count": 2,
         "quality_average": 49,
-        "expectation_average": 70,
+        "expectation_average": 69,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 9,
-      "relative_month_pct": -1.61,
-      "strength_label": "中立",
+      "rank": 7,
+      "relative_month_pct": -3.97,
+      "strength_label": "やや弱い",
       "market_returns": {
-        "week": 0.95,
-        "month": 1.17,
-        "quarter": -3.66
+        "week": 0.66,
+        "month": 1.74,
+        "quarter": -4.26
       },
       "relative_returns": {
-        "week": 1.39,
-        "month": -1.61,
-        "quarter": -8.75
+        "week": -0.45,
+        "month": -3.97,
+        "quarter": -6.71
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +1.4%（1カ月ペース −0.4%）",
-      "outlook": "コミュニケーション・サービスのETF（XLC）はこの1カ月で市場平均を−1.6%下回っています。直近1週は勢いが加速しています。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −0.5%（1カ月ペース −0.9%）",
+      "outlook": "コミュニケーション・サービスのETF（XLC）はこの1カ月で市場平均を−4.0%下回っています。直近1週の勢いは横ばいです。"
     },
     {
       "key": "consumer_discretionary",
@@ -1349,29 +1766,29 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 2,
-        "quality_average": 58,
-        "expectation_average": 52,
+        "quality_average": 57,
+        "expectation_average": 50,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 4,
-      "relative_month_pct": 0.46,
+      "rank": 3,
+      "relative_month_pct": -1.88,
       "strength_label": "中立",
       "market_returns": {
-        "week": 0.59,
-        "month": 3.24,
-        "quarter": 3.3
+        "week": -0.69,
+        "month": 3.83,
+        "quarter": -4.87
       },
       "relative_returns": {
-        "week": 1.03,
-        "month": 0.46,
-        "quarter": -1.79
+        "week": -1.8,
+        "month": -1.88,
+        "quarter": -7.32
       },
-      "last_close_date": "2026-08-19",
-      "trend": "stable",
-      "trend_label": "横ばい",
-      "trend_detail": "直近1週の対市場 +1.0%（1カ月ペース +0.1%）",
-      "outlook": "一般消費財のETF（XLY）はこの1カ月で市場平均を+0.5%上回っています。直近1週の勢いは横ばいです。"
+      "last_close_date": "2026-08-27",
+      "trend": "deteriorating",
+      "trend_label": "勢い減速",
+      "trend_detail": "直近1週の対市場 −1.8%（1カ月ペース −0.5%）",
+      "outlook": "一般消費財のETF（XLY）はこの1カ月で市場平均を−1.9%下回っています。直近1週は勢いが鈍っています。"
     },
     {
       "key": "consumer_staples",
@@ -1393,29 +1810,29 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 3,
-        "quality_average": 46,
-        "expectation_average": 58,
+        "quality_average": 44,
+        "expectation_average": 51,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 5,
-      "relative_month_pct": 0.17,
-      "strength_label": "中立",
+      "rank": 9,
+      "relative_month_pct": -8.32,
+      "strength_label": "弱い",
       "market_returns": {
-        "week": 1.72,
-        "month": 2.95,
-        "quarter": 1.22
+        "week": -0.28,
+        "month": -2.61,
+        "quarter": 1.47
       },
       "relative_returns": {
-        "week": 2.16,
-        "month": 0.17,
-        "quarter": -3.87
+        "week": -1.39,
+        "month": -8.32,
+        "quarter": -0.98
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +2.2%（1カ月ペース +0.0%）",
-      "outlook": "生活必需品のETF（XLP）はこの1カ月で市場平均を+0.2%上回っています。直近1週は勢いが加速しています。今後28日間の節目は8月20日のWMT決算。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −1.4%（1カ月ペース −2.0%）",
+      "outlook": "生活必需品のETF（XLP）はこの1カ月で市場平均を−8.3%下回っています。直近1週の勢いは横ばいです。今後28日間の節目は9月24日のCOST決算。"
     },
     {
       "key": "energy",
@@ -1436,29 +1853,29 @@
         "company_count": 2,
         "released_count": 2,
         "beat_count": 2,
-        "quality_average": 93,
-        "expectation_average": 73,
+        "quality_average": 97,
+        "expectation_average": 81,
         "note": "監視2社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
       "rank": 2,
-      "relative_month_pct": 5.9,
-      "strength_label": "強い",
+      "relative_month_pct": 0.5,
+      "strength_label": "中立",
       "market_returns": {
-        "week": 4.18,
-        "month": 8.68,
-        "quarter": 4.48
+        "week": -2.29,
+        "month": 6.21,
+        "quarter": 10.17
       },
       "relative_returns": {
-        "week": 4.62,
-        "month": 5.9,
-        "quarter": -0.61
+        "week": -3.4,
+        "month": 0.5,
+        "quarter": 7.72
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +4.6%（1カ月ペース +1.4%）",
-      "outlook": "エネルギーのETF（XLE）はこの1カ月で市場平均を+5.9%上回っています。直近1週は勢いが加速しています。"
+      "last_close_date": "2026-08-27",
+      "trend": "deteriorating",
+      "trend_label": "勢い減速",
+      "trend_detail": "直近1週の対市場 −3.4%（1カ月ペース +0.1%）",
+      "outlook": "エネルギーのETF（XLE）はこの1カ月で市場平均を+0.5%上回っています。直近1週は勢いが鈍っています。"
     },
     {
       "key": "financials",
@@ -1486,23 +1903,23 @@
       },
       "state": "取得済み",
       "rank": 6,
-      "relative_month_pct": -0.34,
-      "strength_label": "中立",
+      "relative_month_pct": -3.59,
+      "strength_label": "やや弱い",
       "market_returns": {
-        "week": -0.76,
-        "month": 2.44,
-        "quarter": 12.88
+        "week": 1.63,
+        "month": 2.12,
+        "quarter": 13.29
       },
       "relative_returns": {
-        "week": -0.32,
-        "month": -0.34,
-        "quarter": 7.79
+        "week": 0.52,
+        "month": -3.59,
+        "quarter": 10.84
       },
-      "last_close_date": "2026-08-19",
-      "trend": "stable",
-      "trend_label": "横ばい",
-      "trend_detail": "直近1週の対市場 −0.3%（1カ月ペース −0.1%）",
-      "outlook": "金融のETF（XLF）はこの1カ月で市場平均を−0.3%下回っています。直近1週の勢いは横ばいです。"
+      "last_close_date": "2026-08-27",
+      "trend": "improving",
+      "trend_label": "勢い加速",
+      "trend_detail": "直近1週の対市場 +0.5%（1カ月ペース −0.8%）",
+      "outlook": "金融のETF（XLF）はこの1カ月で市場平均を−3.6%下回っています。直近1週は勢いが加速しています。"
     },
     {
       "key": "health_care",
@@ -1524,29 +1941,29 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 3,
-        "quality_average": 66,
+        "quality_average": 65,
         "expectation_average": 59,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 1,
-      "relative_month_pct": 6.85,
-      "strength_label": "強い",
+      "rank": 4,
+      "relative_month_pct": -2.5,
+      "strength_label": "やや弱い",
       "market_returns": {
-        "week": 4.3,
-        "month": 9.63,
-        "quarter": 19.78
+        "week": -0.47,
+        "month": 3.21,
+        "quarter": 14.22
       },
       "relative_returns": {
-        "week": 4.74,
-        "month": 6.85,
-        "quarter": 14.69
+        "week": -1.58,
+        "month": -2.5,
+        "quarter": 11.77
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +4.7%（1カ月ペース +1.6%）",
-      "outlook": "ヘルスケアのETF（XLV）はこの1カ月で市場平均を+6.8%上回っています。直近1週は勢いが加速しています。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −1.6%（1カ月ペース −0.6%）",
+      "outlook": "ヘルスケアのETF（XLV）はこの1カ月で市場平均を−2.5%下回っています。直近1週の勢いは横ばいです。"
     },
     {
       "key": "industrials",
@@ -1569,29 +1986,29 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 3,
-        "quality_average": 72,
+        "quality_average": 71,
         "expectation_average": 50,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 7,
-      "relative_month_pct": -0.94,
-      "strength_label": "中立",
+      "rank": 8,
+      "relative_month_pct": -4.5,
+      "strength_label": "やや弱い",
       "market_returns": {
-        "week": -2.11,
-        "month": 1.84,
-        "quarter": 8.09
+        "week": -0.54,
+        "month": 1.21,
+        "quarter": 3.13
       },
       "relative_returns": {
-        "week": -1.67,
-        "month": -0.94,
-        "quarter": 3
+        "week": -1.65,
+        "month": -4.5,
+        "quarter": 0.68
       },
-      "last_close_date": "2026-08-19",
-      "trend": "deteriorating",
-      "trend_label": "勢い減速",
-      "trend_detail": "直近1週の対市場 −1.7%（1カ月ペース −0.2%）",
-      "outlook": "資本財のETF（XLI）はこの1カ月で市場平均を−0.9%下回っています。直近1週は勢いが鈍っています。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −1.6%（1カ月ペース −1.1%）",
+      "outlook": "資本財のETF（XLI）はこの1カ月で市場平均を−4.5%下回っています。直近1週の勢いは横ばいです。"
     },
     {
       "key": "information_technology",
@@ -1605,7 +2022,7 @@
         "データセンター"
       ],
       "released_count": 11,
-      "upcoming_count": 5,
+      "upcoming_count": 3,
       "earnings_reference": {
         "tickers": [
           "AAPL",
@@ -1624,28 +2041,28 @@
         "released_count": 11,
         "beat_count": 11,
         "quality_average": 76,
-        "expectation_average": 72,
+        "expectation_average": 75,
         "note": "監視11社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 8,
-      "relative_month_pct": -1.2,
-      "strength_label": "中立",
+      "rank": 1,
+      "relative_month_pct": 7.52,
+      "strength_label": "強い",
       "market_returns": {
-        "week": -2.76,
-        "month": 1.58,
-        "quarter": 6.13
+        "week": 3.01,
+        "month": 13.23,
+        "quarter": 1.06
       },
       "relative_returns": {
-        "week": -2.32,
-        "month": -1.2,
-        "quarter": 1.04
+        "week": 1.9,
+        "month": 7.52,
+        "quarter": -1.39
       },
-      "last_close_date": "2026-08-19",
-      "trend": "deteriorating",
-      "trend_label": "勢い減速",
-      "trend_detail": "直近1週の対市場 −2.3%（1カ月ペース −0.3%）",
-      "outlook": "情報技術のETF（XLK）はこの1カ月で市場平均を−1.2%下回っています。直近1週は勢いが鈍っています。今後28日間の節目は8月26日のNVDA決算。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 +1.9%（1カ月ペース +1.8%）",
+      "outlook": "情報技術のETF（XLK）はこの1カ月で市場平均を+7.5%上回っています。直近1週の勢いは横ばいです。今後28日間の節目は9月2日のAVGO決算。"
     },
     {
       "key": "materials",
@@ -1667,29 +2084,29 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 3,
-        "quality_average": 60,
+        "quality_average": 56,
         "expectation_average": 61,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
-      "rank": 3,
-      "relative_month_pct": 2.05,
-      "strength_label": "やや強い",
+      "rank": 5,
+      "relative_month_pct": -2.83,
+      "strength_label": "やや弱い",
       "market_returns": {
-        "week": -0.11,
-        "month": 4.83,
-        "quarter": 7.5
+        "week": 1.55,
+        "month": 2.88,
+        "quarter": 4.03
       },
       "relative_returns": {
-        "week": 0.33,
-        "month": 2.05,
-        "quarter": 2.41
+        "week": 0.44,
+        "month": -2.83,
+        "quarter": 1.58
       },
-      "last_close_date": "2026-08-19",
-      "trend": "stable",
-      "trend_label": "横ばい",
-      "trend_detail": "直近1週の対市場 +0.3%（1カ月ペース +0.5%）",
-      "outlook": "素材のETF（XLB）はこの1カ月で市場平均を+2.0%上回っています。直近1週の勢いは横ばいです。"
+      "last_close_date": "2026-08-27",
+      "trend": "improving",
+      "trend_label": "勢い加速",
+      "trend_detail": "直近1週の対市場 +0.4%（1カ月ペース −0.7%）",
+      "outlook": "素材のETF（XLB）はこの1カ月で市場平均を−2.8%下回っています。直近1週は勢いが加速しています。"
     },
     {
       "key": "real_estate",
@@ -1712,28 +2129,28 @@
         "released_count": 3,
         "beat_count": 3,
         "quality_average": 60,
-        "expectation_average": 53,
+        "expectation_average": 51,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
       "rank": 10,
-      "relative_month_pct": -3.24,
-      "strength_label": "やや弱い",
+      "relative_month_pct": -8.54,
+      "strength_label": "弱い",
       "market_returns": {
-        "week": 1.12,
-        "month": -0.46,
-        "quarter": 3.29
+        "week": -0.93,
+        "month": -2.83,
+        "quarter": 1.44
       },
       "relative_returns": {
-        "week": 1.56,
-        "month": -3.24,
-        "quarter": -1.8
+        "week": -2.04,
+        "month": -8.54,
+        "quarter": -1.01
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +1.6%（1カ月ペース −0.8%）",
-      "outlook": "不動産のETF（XLRE）はこの1カ月で市場平均を−3.2%下回っています。直近1週は勢いが加速しています。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −2.0%（1カ月ペース −2.0%）",
+      "outlook": "不動産のETF（XLRE）はこの1カ月で市場平均を−8.5%下回っています。直近1週の勢いは横ばいです。"
     },
     {
       "key": "utilities",
@@ -1755,40 +2172,40 @@
         "company_count": 3,
         "released_count": 3,
         "beat_count": 3,
-        "quality_average": 58,
-        "expectation_average": 58,
+        "quality_average": 53,
+        "expectation_average": 56,
         "note": "監視3社だけの集計です。セクター全体の決算結果ではありません。"
       },
       "state": "取得済み",
       "rank": 11,
-      "relative_month_pct": -4.78,
-      "strength_label": "やや弱い",
+      "relative_month_pct": -9.56,
+      "strength_label": "弱い",
       "market_returns": {
-        "week": 0.41,
-        "month": -2,
-        "quarter": -0.09
+        "week": -1.35,
+        "month": -3.85,
+        "quarter": -2.63
       },
       "relative_returns": {
-        "week": 0.85,
-        "month": -4.78,
-        "quarter": -5.18
+        "week": -2.46,
+        "month": -9.56,
+        "quarter": -5.08
       },
-      "last_close_date": "2026-08-19",
-      "trend": "improving",
-      "trend_label": "勢い加速",
-      "trend_detail": "直近1週の対市場 +0.8%（1カ月ペース −1.1%）",
-      "outlook": "公益のETF（XLU）はこの1カ月で市場平均を−4.8%下回っています。直近1週は勢いが加速しています。"
+      "last_close_date": "2026-08-27",
+      "trend": "stable",
+      "trend_label": "横ばい",
+      "trend_detail": "直近1週の対市場 −2.5%（1カ月ペース −2.3%）",
+      "outlook": "公益のETF（XLU）はこの1カ月で市場平均を−9.6%下回っています。直近1週の勢いは横ばいです。"
     }
   ],
   "nikkei_spillover": {
-    "level": "高",
-    "route": "NVDA → 半導体製造装置・検査装置",
+    "level": "中",
+    "route": "AVGO → 半導体製造装置・通信部品",
     "direction": "決算結果待ち",
     "related_factors": [
       "NASDAQ先物",
       "USDJPY",
       "リスクオン／リスクオフ",
-      "AIインフラ",
+      "AIネットワーク",
       "半導体"
     ],
     "note": "米国半導体、AI設備投資、Apple関連、金融、消費、為替を経路別に確認します。売買方向は示しません。"
@@ -1798,7 +2215,7 @@
     "sector_strength": {
       "benchmark_label": "S&P500",
       "benchmark_symbol": "SPY",
-      "last_close_date": "2026-08-19",
+      "last_close_date": "2026-08-27",
       "windows": [
         {
           "label": "1週間",
@@ -1871,6 +2288,7 @@
         "PERは、株価が1株あたり利益の何倍かを示します。33倍なら、いまの利益が続くと仮定して投資額の回収に33年かかる計算です。",
         "実績PERは発表済みの利益、予想PERは今後1年のアナリスト予想の利益から計算します。",
         "割高・割安は、同じセクターのETFのPERと比べた差で判定します。セクターのPERが取れない場合だけ市場平均と比べます。この判定は株価の水準を示すもので、売買の方向は示しません。",
+        "日本株にはセクターETFがないため、日経225に連動するETF（1321.T）のPERと比べます。",
         "予想PERが実績PERより低いほど、今後1年で利益が伸びる見通しが株価に織り込まれていることを意味します。"
       ]
     },

@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "FCX",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Freeport-McMoRan",
     "sector": "素材",
     "earnings_date": "2026-10-22",
@@ -30,7 +32,7 @@
     },
     "estimates": {
       "eps": {
-        "value": 0.72583,
+        "value": 0.73,
         "display": "$0.73",
         "unit": "USD",
         "state": "取得済み"
@@ -44,10 +46,10 @@
       "revision": {
         "eps": {
           "previous": 0.72583,
-          "current": 0.72583,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$0.73 → $0.73 → 0.0%",
+          "current": 0.73,
+          "change_percent": 0.6,
+          "direction": "up",
+          "display": "$0.73 → $0.73 ↑ 0.6%",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -60,7 +62,7 @@
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
@@ -81,17 +83,17 @@
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 69.09,
-        "forward_pe": 16.757092,
-        "trailing_pe": 33.867645,
-        "price_to_sales": 3.7392142,
-        "enterprise_to_ebitda": 12.31,
+        "current_price": 76.45,
+        "forward_pe": 18.489407,
+        "trailing_pe": 37.47549,
+        "price_to_sales": 4.2439904,
+        "enterprise_to_ebitda": 13.416,
         "risk_score": 40,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 33.867645,
-        "forward_pe": 16.757092,
+        "trailing_pe": 37.47549,
+        "forward_pe": 18.489407,
         "label": "大幅に割高",
         "tone": "negative",
         "reading": "同じ業種より大きく高く買われています。期待が高いぶん、決算が期待に届かないと下げやすい水準です。",
@@ -101,13 +103,13 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": 30.8
+            "difference_pct": 44.7
           },
           {
             "label": "素材",
             "symbol": "XLB",
-            "multiple": 25.7,
-            "difference_pct": 31.8
+            "multiple": 26,
+            "difference_pct": 44.1
           }
         ],
         "outlook": {
@@ -174,8 +176,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": 12.87,
-          "display": "$0.97（30日前比 +12.9%）",
+          "value": 0.47,
+          "display": "$0.97（30日前比 +0.5%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -192,8 +194,8 @@
           "state": "取得済み"
         }
       },
-      "quality_score": 56,
-      "quality_label": "中立",
+      "quality_score": 42,
+      "quality_label": "要注意",
       "quality_breakdown": [
         {
           "key": "revenue_and_growth",
@@ -216,7 +218,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 30,
+          "score": 16.5,
           "maximum": 30
         },
         {
@@ -339,9 +341,9 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 0.72583,
+          "eps_estimate": 0.73,
           "eps_estimate_display": "$0.73",
-          "eps_growth_percent": 45.169997,
+          "eps_growth_percent": 46,
           "revenue_estimate": 7368118070,
           "revenue_estimate_display": "$7.4B",
           "revenue_growth_percent": 5.6799997
@@ -349,9 +351,9 @@
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 0.96636,
+          "eps_estimate": 0.97091,
           "eps_estimate_display": "$0.97",
-          "eps_growth_percent": 105.61,
+          "eps_growth_percent": 106.58000999999999,
           "revenue_estimate": 8946595390,
           "revenue_estimate_display": "$8.9B",
           "revenue_growth_percent": 58.81999999999999
@@ -359,9 +361,9 @@
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 3.00143,
-          "eps_estimate_display": "$3.00",
-          "eps_growth_percent": 69.57,
+          "eps_estimate": 3.00768,
+          "eps_estimate_display": "$3.01",
+          "eps_growth_percent": 69.93,
           "revenue_estimate": 29521137350,
           "revenue_estimate_display": "$29.5B",
           "revenue_growth_percent": 13.919999999999998
@@ -369,9 +371,9 @@
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 4.12303,
-          "eps_estimate_display": "$4.12",
-          "eps_growth_percent": 37.37,
+          "eps_estimate": 4.1348,
+          "eps_estimate_display": "$4.13",
+          "eps_growth_percent": 37.47,
           "revenue_estimate": 35536266490,
           "revenue_estimate_display": "$35.5B",
           "revenue_growth_percent": 20.380000000000003
@@ -390,7 +392,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",

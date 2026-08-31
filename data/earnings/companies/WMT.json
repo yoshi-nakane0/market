@@ -1,30 +1,28 @@
 {
   "schema_version": 1,
   "page": "earnings-company",
-  "updated_at": "2026-08-20T13:03:30.863Z",
-  "as_of_date": "2026-08-20",
+  "updated_at": "2026-08-31T13:00:54.317Z",
+  "as_of_date": "2026-08-31",
   "company": {
     "ticker": "WMT",
+    "market": "us",
+    "currency": "USD",
     "company_name": "Walmart",
     "sector": "生活必需品",
-    "earnings_date": "2026-08-20",
-    "jst_time": "08/20 21:00 JST",
-    "us_market_time": "08:00 ET",
+    "earnings_date": "2026-11-19",
+    "jst_time": "11/19 21:00 JST",
+    "us_market_time": "07:00 ET",
     "session": "before_open",
     "verification_status": "vendor_confirmed",
     "verification_note": "外部データで確認した予定。企業IRの正式発表で更新",
-    "phase": "post",
-    "calendar_windows": [
-      "today",
-      "past_7_days",
-      "this_week"
-    ],
+    "phase": "pre",
+    "calendar_windows": [],
     "market_impact": {
-      "overall": 30,
+      "overall": 28,
       "nasdaq100": 7,
-      "sp500": 28,
-      "dow": 37,
-      "nikkei_futures": 23,
+      "sp500": 26,
+      "dow": 35,
+      "nikkei_futures": 22,
       "spillover_sectors": [
         "生活必需品",
         "小売",
@@ -34,42 +32,42 @@
     },
     "estimates": {
       "eps": {
-        "value": 0.74126,
-        "display": "$0.74",
+        "value": 0.63504,
+        "display": "$0.64",
         "unit": "USD",
         "state": "取得済み"
       },
       "revenue": {
-        "value": 186824595550,
-        "display": "$186.8B",
+        "value": 187032849490,
+        "display": "$187.0B",
         "unit": "USD",
         "state": "取得済み"
       },
       "revision": {
         "eps": {
           "previous": 0.74126,
-          "current": 0.74126,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$0.74 → $0.74 → 0.0%",
+          "current": 0.63504,
+          "change_percent": -14.3,
+          "direction": "down",
+          "display": "$0.74 → $0.64 ↓ 14.3%",
           "unit": "USD",
           "state": "取得済み"
         },
         "revenue": {
           "previous": 186824595550,
-          "current": 186824595550,
-          "change_percent": 0,
-          "direction": "unchanged",
-          "display": "$186.8B → $186.8B → 0.0%",
+          "current": 187032849490,
+          "change_percent": 0.1,
+          "direction": "up",
+          "display": "$186.8B → $187.0B ↑ 0.1%",
           "unit": "USD",
           "state": "取得済み"
         },
-        "fetched_at": "2026-08-20T05:18:03.464Z"
+        "fetched_at": "2026-08-31T12:54:35.366Z"
       }
     },
     "pre_analysis": {
-      "expectation_score": 4,
-      "expectation_label": "予想やや強い",
+      "expectation_score": 3,
+      "expectation_label": "予想中立",
       "risk_score": 3,
       "risk_label": "リスク中立",
       "themes": [
@@ -78,24 +76,24 @@
         "価格転嫁"
       ],
       "historical_reaction": {
-        "average_abs_move_pct": 5.5,
-        "median_abs_move_pct": 5.6,
-        "sample_count": 11,
-        "score": 55,
+        "average_abs_move_pct": 5.8,
+        "median_abs_move_pct": 6.3,
+        "sample_count": 12,
+        "score": 58,
         "state": "取得済み"
       },
       "valuation": {
-        "current_price": 114.3,
-        "forward_pe": 34.84671,
-        "trailing_pe": 40.531918,
-        "price_to_sales": 1.2541047,
-        "enterprise_to_ebitda": 21.88,
+        "current_price": 103.09,
+        "forward_pe": 31.985725,
+        "trailing_pe": 37.351448,
+        "price_to_sales": 1.1149141,
+        "enterprise_to_ebitda": 18.892,
         "risk_score": 60,
         "state": "取得済み"
       },
       "valuation_assessment": {
-        "trailing_pe": 40.531918,
-        "forward_pe": 34.84671,
+        "trailing_pe": 37.351448,
+        "forward_pe": 31.985725,
         "label": "大幅に割高",
         "tone": "negative",
         "reading": "同じ業種より大きく高く買われています。期待が高いぶん、決算が期待に届かないと下げやすい水準です。",
@@ -105,13 +103,13 @@
             "label": "市場平均",
             "symbol": "SPY",
             "multiple": 25.9,
-            "difference_pct": 56.5
+            "difference_pct": 44.2
           },
           {
             "label": "生活必需品",
             "symbol": "XLP",
-            "multiple": 26.6,
-            "difference_pct": 52.4
+            "multiple": 26.3,
+            "difference_pct": 42
           }
         ],
         "outlook": {
@@ -127,17 +125,17 @@
       "note": "市場期待度はEPS・売上高の予想修正から算出しています。上昇確率ではありません。"
     },
     "verdict": {
-      "label": "結果確認中",
-      "tone": "unavailable",
-      "detail": null
+      "label": "期待中立",
+      "tone": "neutral",
+      "detail": "予想変動±5.8%"
     },
     "result": {
       "status": "取得済み",
-      "reported_date": "2026-05-21",
+      "reported_date": "2026-08-20",
       "metrics": {
         "eps_surprise_pct": {
-          "value": 0.19,
-          "display": "+0.2%",
+          "value": 9.27,
+          "display": "+9.3%",
           "unit": "%",
           "state": "取得済み"
         },
@@ -178,8 +176,8 @@
           "state": "取得済み"
         },
         "next_guidance": {
-          "value": -0.35,
-          "display": "$0.68（30日前比 −0.4%）",
+          "value": -3.72,
+          "display": "$0.78（30日前比 −3.7%）",
           "unit": "USD",
           "state": "取得済み"
         },
@@ -196,7 +194,7 @@
           "state": "取得済み"
         }
       },
-      "quality_score": 45,
+      "quality_score": 39,
       "quality_label": "要注意",
       "quality_breakdown": [
         {
@@ -208,7 +206,7 @@
         {
           "key": "eps_and_operating_income",
           "label": "EPS・営業利益",
-          "score": 8.4,
+          "score": 11.7,
           "maximum": 15
         },
         {
@@ -220,7 +218,7 @@
         {
           "key": "guidance",
           "label": "ガイダンス",
-          "score": 13.8,
+          "score": 3.9,
           "maximum": 30
         },
         {
@@ -232,19 +230,11 @@
       ],
       "available_component_count": 5,
       "total_component_count": 5,
-      "post_earnings_move_pct": -7.3,
-      "explanation": "EPSは予想を0.2%上回りました。売上高は前年同期比+7.3%です。次期予想は下方修正されています。発表翌営業日の株価は−7.3%でした。予想を上回っても下落した場合は、事前期待の高さや次期見通しが要因になりやすい点に注意します。"
+      "post_earnings_move_pct": -9.2,
+      "explanation": "EPSは予想を9.3%上回りました。売上高は前年同期比+7.3%です。次期予想は下方修正されています。発表翌営業日の株価は−9.2%でした。予想を上回っても下落した場合は、事前期待の高さや次期見通しが要因になりやすい点に注意します。"
     },
     "trend": {
       "quarters": [
-        {
-          "date": "2024-08-15",
-          "eps_estimate": 0.65,
-          "eps_actual": 0.67,
-          "surprise_pct": 3.76,
-          "move_pct": 6.6,
-          "beat": true
-        },
         {
           "date": "2024-11-19",
           "eps_estimate": 0.53,
@@ -300,6 +290,14 @@
           "surprise_pct": 0.19,
           "move_pct": -7.3,
           "beat": true
+        },
+        {
+          "date": "2026-08-20",
+          "eps_estimate": 0.74,
+          "eps_actual": 0.81,
+          "surprise_pct": 9.27,
+          "move_pct": -9.2,
+          "beat": true
         }
       ],
       "financials": [
@@ -343,42 +341,42 @@
         {
           "horizon": "0q",
           "label": "今四半期",
-          "eps_estimate": 0.74126,
-          "eps_estimate_display": "$0.74",
-          "eps_growth_percent": 9.0100005,
-          "revenue_estimate": 186824595550,
-          "revenue_estimate_display": "$186.8B",
-          "revenue_growth_percent": 6.3
+          "eps_estimate": 0.63504,
+          "eps_estimate_display": "$0.64",
+          "eps_growth_percent": 2.4300002000000003,
+          "revenue_estimate": 187032849490,
+          "revenue_estimate_display": "$187.0B",
+          "revenue_growth_percent": 5.21
         },
         {
           "horizon": "+1q",
           "label": "来四半期",
-          "eps_estimate": 0.68158,
-          "eps_estimate_display": "$0.68",
-          "eps_growth_percent": 9.9300005,
-          "revenue_estimate": 188341258450,
-          "revenue_estimate_display": "$188.3B",
-          "revenue_growth_percent": 5.9499998
+          "eps_estimate": 0.7838,
+          "eps_estimate_display": "$0.78",
+          "eps_growth_percent": 5.92,
+          "revenue_estimate": 200124581120,
+          "revenue_estimate_display": "$200.1B",
+          "revenue_growth_percent": 5.9299998
         },
         {
           "horizon": "0y",
           "label": "今年度",
-          "eps_estimate": 2.89746,
-          "eps_estimate_display": "$2.90",
-          "eps_growth_percent": 9.75,
-          "revenue_estimate": 752265360550,
+          "eps_estimate": 2.87906,
+          "eps_estimate_display": "$2.88",
+          "eps_growth_percent": 9.060001,
+          "revenue_estimate": 752265218690,
           "revenue_estimate_display": "$752.3B",
           "revenue_growth_percent": 6.4899996
         },
         {
           "horizon": "+1y",
           "label": "来年度",
-          "eps_estimate": 3.28008,
-          "eps_estimate_display": "$3.28",
-          "eps_growth_percent": 13.209999999999999,
-          "revenue_estimate": 786650925640,
-          "revenue_estimate_display": "$786.7B",
-          "revenue_growth_percent": 4.5700002
+          "eps_estimate": 3.223,
+          "eps_estimate_display": "$3.22",
+          "eps_growth_percent": 11.95,
+          "revenue_estimate": 785661441570,
+          "revenue_estimate_display": "$785.7B",
+          "revenue_growth_percent": 4.44
         }
       ],
       "state": "取得済み"
@@ -395,7 +393,7 @@
       ]
     },
     "data_quality": {
-      "last_fetched_at": "2026-08-20T11:57:03.191Z",
+      "last_fetched_at": "2026-08-31T12:59:03.041Z",
       "providers": [
         "日程データ",
         "外部予想データ",
@@ -403,7 +401,7 @@
         "yfinance市場指標"
       ],
       "schedule_verification": "vendor_confirmed",
-      "analyst_count": 32,
+      "analyst_count": 31,
       "missing_fields": [],
       "freshness": "current",
       "retry_status": "not_required"
