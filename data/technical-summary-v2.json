@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-01T12:38:14.813Z",
+  "generated_at": "2026-09-01T17:02:51.575Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-08-31までの資産別確定日足",
+    "analysis_basis": "2026-09-01までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-01T07:58:07.664Z",
-    "latest_attempt_at": "2026-09-01T07:58:07.664Z",
-    "stale_after": "2026-09-02T07:58:07.664Z",
+    "last_success_at": "2026-09-01T17:02:45.529Z",
+    "latest_attempt_at": "2026-09-01T17:02:45.529Z",
+    "stale_after": "2026-09-02T17:02:45.529Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -52,9 +52,9 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 65820,
+      "price": 66150,
       "price_type": "清算値",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "current_phase": {
         "key": "range",
         "label": "レンジ",
@@ -83,8 +83,8 @@
         }
       },
       "direction_scores": {
-        "long": 23,
-        "range": 60,
+        "long": 21,
+        "range": 62,
         "short": 17,
         "metric_kind": "directional_fit_not_probability"
       },
@@ -96,7 +96,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 80,
+          "confidence_score": 81,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -104,7 +104,7 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 69,560 を終値で上回る"
+          "change_condition": "抵抗線 69,650 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -113,7 +113,7 @@
           "direction_label": "横ばい",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 88,
+          "confidence_score": 89,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から横ばいを基本とします。",
           "reasons": [
@@ -121,31 +121,31 @@
             "DMIが下向き",
             "価格と20日平均が下向き"
           ],
-          "change_condition": "支持線 62,110 または抵抗線 69,560 を終値で抜ける"
+          "change_condition": "支持線 62,910 または抵抗線 69,650 を終値で抜ける"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 66195.740774,
-          "ema50": 66077.764457,
-          "rsi14": 47.633,
-          "macd": -100.66293,
-          "macd_signal": -22.260438,
-          "macd_histogram": -78.402493,
-          "atr14": 1337.698559,
-          "atr_percent": 2.032,
-          "adx14": 13.881,
-          "plus_di14": 22.505,
-          "minus_di14": 26.447,
-          "bollinger_upper": 68976.524665,
-          "bollinger_middle": 66549,
-          "bollinger_lower": 64121.475335,
-          "bollinger_bandwidth": 7.295,
-          "roc10": -4.567
+          "ema20": 66344.89804,
+          "ema50": 66126.329285,
+          "rsi14": 48.931,
+          "macd": -3.20977,
+          "macd_signal": 34.004744,
+          "macd_histogram": -37.214513,
+          "atr14": 1471.013056,
+          "atr_percent": 2.224,
+          "adx14": 14.898,
+          "plus_di14": 20.964,
+          "minus_di14": 29.83,
+          "bollinger_upper": 68814.409861,
+          "bollinger_middle": 66695.5,
+          "bollinger_lower": 64576.590139,
+          "bollinger_bandwidth": 6.354,
+          "roc10": -2.058
         },
         "levels": {
-          "support": 62110,
-          "resistance": 69560
+          "support": 62910,
+          "resistance": 69650
         },
         "data_quality": {
           "valid_bars": 252,
@@ -602,7 +602,7 @@
   "daily_gap": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-01T12:32:02Z",
+    "source_updated_at": "2026-09-01T17:02:03Z",
     "state": "running",
     "side": "short",
     "entry_open": false,
