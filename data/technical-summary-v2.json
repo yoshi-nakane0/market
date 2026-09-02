@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-02T07:18:03.665Z",
+  "generated_at": "2026-09-02T12:10:24.084Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -596,11 +596,11 @@
   "daily_gap": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-02T07:17:02Z",
-    "state": "running",
+    "source_updated_at": "2026-09-02T12:02:03Z",
+    "state": "stopped",
     "side": "long",
     "entry_open": false,
-    "reason": "買いの形が続いています。63,861 円で崩れ、67,757 円が狙い（残り15営業日）",
+    "reason": "63,861 円に触れたので、この買いの形は崩れました",
     "reference": 66210,
     "session_open": 64880,
     "gap": -1330,
