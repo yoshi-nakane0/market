@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-03T12:10:13.309Z",
+  "generated_at": "2026-09-03T13:17:39.893Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -600,7 +600,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-03T12:02:01Z",
+    "source_updated_at": "2026-09-03T13:17:02Z",
     "state": "long",
     "side": "long",
     "reason": "直近5営業日で 1,920 円の下げすぎ（ATRの1.31倍）。次の5営業日は買いへ寄ります",
@@ -614,11 +614,26 @@
     "horizon_sessions": 5,
     "rule_version": "basecalc_daily_reversal_2026_09_03_v1"
   },
+  "buy_setup": {
+    "status": "ok",
+    "status_label": "取得済み",
+    "source_updated_at": "2026-09-03T13:17:02Z",
+    "state": "on",
+    "reason": "2026-09-02 に形が出て 2026-09-03 の始値で買い。1 日目で、あと 9 営業日持ちます",
+    "rule_version": "basecalc_buy_setup_2026_09_03_v1",
+    "hold_sessions": 10,
+    "fired_on": "2026-09-02",
+    "entered_on": "2026-09-03",
+    "sessions_held": 1,
+    "sessions_left": 9,
+    "as_of": "2026-09-02T15:00:00Z"
+  },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
     "見通し信頼度は資産・期間ごとの方向指標の一致度であり、的中率ではありません。",
-    "行き過ぎの寄りは、VPSが1時間足から作った日足をそのまま写しています。",
+    "行き過ぎの寄りと買いの形は、VPSが大証の日中足から作った値をそのまま写しています。",
     "行き過ぎの寄りは向きだけで、注文の値段ではありません。",
+    "買いの形は出ている間だけ買いへ寄せ、注文の値段は持ちません。",
     "売買を推奨する表示ではありません。"
   ]
 }
