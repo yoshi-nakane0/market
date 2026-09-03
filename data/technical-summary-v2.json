@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-03T01:16:44.095Z",
+  "generated_at": "2026-09-03T01:48:20.463Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -600,7 +600,7 @@
   "daily_gap": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-03T01:15:51Z",
+    "source_updated_at": "2026-09-03T01:48:11Z",
     "state": "waiting",
     "side": null,
     "entry_open": false,
@@ -618,10 +618,28 @@
     "horizon_sessions": 15,
     "rule_version": "basecalc_daily_gap_2026_09_03_v5"
   },
+  "daily_reversal": {
+    "status": "ok",
+    "status_label": "取得済み",
+    "source_updated_at": "2026-09-03T01:48:11Z",
+    "state": "flat",
+    "side": null,
+    "reason": "直近5営業日の動きは -1,685 円（ATRの0.97倍）で、行き過ぎていません",
+    "close": 64485,
+    "reference": 66170,
+    "move": -1685,
+    "move_atr": -0.97,
+    "as_of": "2026-09-01T04:00:00Z",
+    "lookback_sessions": 5,
+    "threshold_atr": 1,
+    "horizon_sessions": 5,
+    "rule_version": "basecalc_daily_reversal_2026_09_03_v1"
+  },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
     "見通し信頼度は資産・期間ごとの方向指標の一致度であり、的中率ではありません。",
-    "日足の窓はVPSが1時間足から作った札をそのまま写しています。",
+    "日足の窓と行き過ぎの寄りは、VPSが1時間足から作った日足をそのまま写しています。",
+    "行き過ぎの寄りは向きだけで、注文の値段ではありません。",
     "売買を推奨する表示ではありません。"
   ]
 }
