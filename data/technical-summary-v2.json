@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-03T02:07:49.664Z",
+  "generated_at": "2026-09-03T07:21:20.546Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-09-02までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-03T00:55:09.831Z",
-    "latest_attempt_at": "2026-09-03T00:55:09.831Z",
-    "stale_after": "2026-09-04T00:55:09.831Z",
+    "last_success_at": "2026-09-03T07:21:13.320Z",
+    "latest_attempt_at": "2026-09-03T07:21:13.320Z",
+    "stale_after": "2026-09-04T07:21:13.320Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -382,7 +382,7 @@
       "label": "NASDAQ",
       "status": "available",
       "status_label": "取得済み",
-      "price": 26217.828125,
+      "price": 26217.830078,
       "price_type": "終値",
       "as_of": "2026-09-02",
       "current_phase": {
@@ -456,20 +456,20 @@
       },
       "details": {
         "indicators": {
-          "ema20": 26224.530075,
-          "ema50": 26019.730672,
+          "ema20": 26224.530261,
+          "ema50": 26019.730748,
           "rsi14": 50.71,
-          "macd": 74.66594,
-          "macd_signal": 109.501408,
-          "macd_histogram": -34.835468,
-          "atr14": 318.619965,
+          "macd": 74.666096,
+          "macd_signal": 109.50144,
+          "macd_histogram": -34.835344,
+          "atr14": 318.620104,
           "atr_percent": 1.215,
           "adx14": 13.052,
           "plus_di14": 23.395,
           "minus_di14": 25.783,
-          "bollinger_upper": 26854.443232,
-          "bollinger_middle": 26380.887305,
-          "bollinger_lower": 25907.331377,
+          "bollinger_upper": 26854.443195,
+          "bollinger_middle": 26380.887402,
+          "bollinger_lower": 25907.331609,
           "bollinger_bandwidth": 3.59,
           "roc10": -0.43
         },
@@ -600,7 +600,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-03T02:07:40Z",
+    "source_updated_at": "2026-09-03T07:17:05Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは -1,685 円（ATRの0.97倍）で、行き過ぎていません",
