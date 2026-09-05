@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-05T07:05:52.921Z",
+  "generated_at": "2026-09-05T11:18:56.671Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -605,7 +605,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-05T07:02:03Z",
+    "source_updated_at": "2026-09-05T11:17:02Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは -1,430 円（ATRの1.00倍）で、行き過ぎていません",
@@ -622,7 +622,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-05T07:02:03Z",
+    "source_updated_at": "2026-09-05T11:17:02Z",
     "state": "on",
     "reason": "2026-09-02 に形が出て 2026-09-03 の始値で買い。2 日目で、あと 8 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
