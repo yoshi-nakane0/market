@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-07T00:38:58.579Z",
+  "generated_at": "2026-09-07T07:31:08.104Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-09-04までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-07T00:38:52.805Z",
-    "latest_attempt_at": "2026-09-07T00:38:52.805Z",
-    "stale_after": "2026-09-08T00:38:52.805Z",
+    "last_success_at": "2026-09-07T07:31:02.197Z",
+    "latest_attempt_at": "2026-09-07T07:31:02.197Z",
+    "stale_after": "2026-09-08T07:31:02.197Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -603,7 +603,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-07T00:32:02Z",
+    "source_updated_at": "2026-09-07T07:17:03Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは -1,430 円（ATRの1.00倍）で、行き過ぎていません",
@@ -620,7 +620,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-07T00:32:02Z",
+    "source_updated_at": "2026-09-07T07:17:03Z",
     "state": "on",
     "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。2 日目で、あと 8 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
