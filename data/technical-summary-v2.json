@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-09T01:00:25.423Z",
+  "generated_at": "2026-09-09T07:33:06.178Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-09-08までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-09T01:00:19.193Z",
-    "latest_attempt_at": "2026-09-09T01:00:19.193Z",
-    "stale_after": "2026-09-10T01:00:19.193Z",
+    "last_success_at": "2026-09-09T07:32:59.590Z",
+    "latest_attempt_at": "2026-09-09T07:32:59.590Z",
+    "stale_after": "2026-09-10T07:32:59.590Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -380,7 +380,7 @@
       "label": "NASDAQ",
       "status": "available",
       "status_label": "取得済み",
-      "price": 26421.412109,
+      "price": 26421.410156,
       "price_type": "終値",
       "as_of": "2026-09-08",
       "current_phase": {
@@ -456,20 +456,20 @@
       },
       "details": {
         "indicators": {
-          "ema20": 26295.649332,
-          "ema50": 26074.294015,
+          "ema20": 26295.649146,
+          "ema50": 26074.293939,
           "rsi14": 53.505,
-          "macd": 102.143934,
-          "macd_signal": 105.181931,
-          "macd_histogram": -3.037997,
-          "atr14": 307.928906,
+          "macd": 102.143779,
+          "macd_signal": 105.1819,
+          "macd_histogram": -3.038121,
+          "atr14": 307.929464,
           "atr_percent": 1.165,
           "adx14": 12.532,
           "plus_di14": 27.373,
           "minus_di14": 23.765,
-          "bollinger_upper": 26828.573658,
-          "bollinger_middle": 26374.294141,
-          "bollinger_lower": 25920.014623,
+          "bollinger_upper": 26828.57352,
+          "bollinger_middle": 26374.294043,
+          "bollinger_lower": 25920.014566,
           "bollinger_bandwidth": 3.445,
           "roc10": 1.698
         },
@@ -598,7 +598,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-09T00:47:02Z",
+    "source_updated_at": "2026-09-09T07:32:02Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは 40 円（ATRの0.03倍）で、行き過ぎていません",
@@ -615,7 +615,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-09T00:47:02Z",
+    "source_updated_at": "2026-09-09T07:32:02Z",
     "state": "on",
     "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。3 日目で、あと 7 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
