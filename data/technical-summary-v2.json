@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-09T07:33:06.178Z",
+  "generated_at": "2026-09-09T12:24:15.979Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -598,15 +598,15 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-09T07:32:02Z",
+    "source_updated_at": "2026-09-09T12:17:02Z",
     "state": "flat",
     "side": null,
-    "reason": "直近5営業日の動きは 40 円（ATRの0.03倍）で、行き過ぎていません",
-    "close": 66490,
-    "reference": 66450,
-    "move": 40,
-    "move_atr": 0.03,
-    "as_of": "2026-09-06T15:00:00Z",
+    "reason": "直近5営業日の動きは 910 円（ATRの0.64倍）で、行き過ぎていません",
+    "close": 65260,
+    "reference": 64350,
+    "move": 910,
+    "move_atr": 0.64,
+    "as_of": "2026-09-08T15:00:00Z",
     "lookback_sessions": 5,
     "threshold_atr": 1,
     "horizon_sessions": 5,
@@ -615,16 +615,16 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-09T07:32:02Z",
+    "source_updated_at": "2026-09-09T12:17:02Z",
     "state": "on",
-    "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。3 日目で、あと 7 営業日持ちます",
+    "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。5 日目で、あと 5 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
     "hold_sessions": 10,
     "fired_on": "2026-09-02",
     "entered_on": "2026-09-03",
-    "sessions_held": 3,
-    "sessions_left": 7,
-    "as_of": "2026-09-06T15:00:00Z"
+    "sessions_held": 5,
+    "sessions_left": 5,
+    "as_of": "2026-09-08T15:00:00Z"
   },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
