@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-10T00:47:23.120Z",
+  "generated_at": "2026-09-10T07:31:55.466Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-09-09までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-10T00:47:17.517Z",
-    "latest_attempt_at": "2026-09-10T00:47:17.517Z",
-    "stale_after": "2026-09-11T00:47:17.517Z",
+    "last_success_at": "2026-09-10T07:29:25.983Z",
+    "latest_attempt_at": "2026-09-10T07:29:25.983Z",
+    "stale_after": "2026-09-11T07:29:25.983Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -52,9 +52,9 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 65040,
+      "price": 64360,
       "price_type": "清算値",
-      "as_of": "2026-09-08",
+      "as_of": "2026-09-09",
       "current_phase": {
         "key": "range",
         "label": "レンジ",
@@ -83,8 +83,8 @@
         }
       },
       "direction_scores": {
-        "long": 32,
-        "range": 51,
+        "long": 38,
+        "range": 45,
         "short": 17,
         "metric_kind": "directional_fit_not_probability"
       },
@@ -96,7 +96,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 76,
+          "confidence_score": 88,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -113,7 +113,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 85,
+          "confidence_score": 82,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
@@ -126,22 +126,22 @@
       },
       "details": {
         "indicators": {
-          "ema20": 65752.527903,
-          "ema50": 65886.749485,
-          "rsi14": 45.3,
-          "macd": -280.266393,
-          "macd_signal": -214.725811,
-          "macd_histogram": -65.540582,
-          "atr14": 1249.305801,
-          "atr_percent": 1.921,
-          "adx14": 14.532,
-          "plus_di14": 24.207,
-          "minus_di14": 31.75,
-          "bollinger_upper": 69031.300779,
-          "bollinger_middle": 66265,
-          "bollinger_lower": 63498.699221,
-          "bollinger_bandwidth": 8.349,
-          "roc10": -1.41
+          "ema20": 65619.906198,
+          "ema50": 65826.890333,
+          "rsi14": 42.049,
+          "macd": -356.205762,
+          "macd_signal": -243.021801,
+          "macd_histogram": -113.183962,
+          "atr14": 1245.069672,
+          "atr_percent": 1.935,
+          "adx14": 14.939,
+          "plus_di14": 22.555,
+          "minus_di14": 34,
+          "bollinger_upper": 68731.022192,
+          "bollinger_middle": 66055.5,
+          "bollinger_lower": 63379.977808,
+          "bollinger_bandwidth": 8.101,
+          "roc10": -2.662
         },
         "levels": {
           "support": 63710,
@@ -460,7 +460,7 @@
           "macd": 86.567592,
           "macd_signal": 101.459038,
           "macd_histogram": -14.891446,
-          "atr14": 302.877024,
+          "atr14": 302.877304,
           "atr_percent": 1.154,
           "adx14": 11.678,
           "plus_di14": 25.842,
@@ -596,7 +596,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-10T00:47:02Z",
+    "source_updated_at": "2026-09-10T07:17:03Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは 910 円（ATRの0.64倍）で、行き過ぎていません",
@@ -613,7 +613,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-10T00:47:02Z",
+    "source_updated_at": "2026-09-10T07:17:03Z",
     "state": "on",
     "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。5 日目で、あと 5 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
