@@ -1,25 +1,20 @@
 {
-  "updated_at": "2026-09-11T07:40:04.333Z",
+  "updated_at": "2026-09-11T13:00:04.713Z",
   "macro": {
     "date": "2026-09-11",
     "region": "米国",
-    "regime": "中立",
+    "regime": "物価高つき景気減速",
     "risk_score": "-12",
-    "summary": "成長は横ばい、インフレは安定、政策は引締めです。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
+    "summary": "成長は鈍化、インフレは高め、政策は引締めです。外部環境は追い風、市場織り込みはリスク選好です。現在のマクロ状態は物価高つき景気減速です。",
     "asset_bias": [
       {
-        "label": "ロング",
-        "value": "33%",
+        "label": "上昇",
+        "value": "47%",
         "tone": "positive"
       },
       {
-        "label": "レンジ",
-        "value": "36%",
-        "tone": "neutral"
-      },
-      {
-        "label": "ショート",
-        "value": "31%",
+        "label": "下落",
+        "value": "53%",
         "tone": "negative"
       }
     ],
@@ -32,12 +27,12 @@
       {
         "label": "物価圧力",
         "value": 48,
-        "tone": "neutral"
+        "tone": "negative"
       },
       {
         "label": "雇用",
         "value": 51,
-        "tone": "neutral"
+        "tone": "positive"
       },
       {
         "label": "政策余地",
@@ -57,20 +52,20 @@
       {
         "label": "市場心理",
         "value": 51,
-        "tone": "neutral"
+        "tone": "positive"
       }
     ],
     "outlooks": [],
     "factors": {
       "support": [
         "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-        "Average Hourly Earningsが小幅にマイナス",
-        "National Financial Conditions Indexが小幅にプラス"
+        "Average Hourly Earningsがプラスに寄与",
+        "National Financial Conditions Indexがプラスに寄与"
       ],
       "risk": [
-        "10Y Treasury Yieldがマイナスに寄与",
-        "2Y Treasury Yieldがマイナスに寄与",
-        "Mortgage Rateがマイナスに寄与"
+        "10Y Treasury Yieldが強くマイナスに寄与",
+        "2Y Treasury Yieldが強くマイナスに寄与",
+        "Mortgage Rateが強くマイナスに寄与"
       ]
     },
     "world_state": [],
@@ -83,8 +78,8 @@
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "86/100",
-      "score": 0.86,
+      "value": "42/100",
+      "score": 0.42,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -135,11 +130,11 @@
     "judgments": [
       {
         "label": "成長",
-        "value": "横ばい"
+        "value": "鈍化"
       },
       {
         "label": "インフレ",
-        "value": "安定"
+        "value": "高め"
       },
       {
         "label": "政策",
@@ -147,19 +142,20 @@
       },
       {
         "label": "市場織り込み",
-        "value": "中立"
+        "value": "リスク選好"
       }
     ]
   },
   "basecalc": {
-    "observation_time": "16:40 JST",
-    "market_status": "pre-open",
-    "summary": "OHLC参考分析を更新しました。方向予測と売買判断には使用できません。",
+    "observation_time": "22:00 JST",
+    "market_status": "open",
+    "prediction_kind": "collection_only",
+    "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
     "analysis_permission": {
-      "status": "reference_only",
-      "allowed": true,
+      "status": "unavailable",
+      "allowed": false,
       "validated": false,
-      "reason": "方向精度の検証が未達です"
+      "reason": "この時刻は値の取得のみです"
     },
     "execution_permission": {
       "status": "blocked",
@@ -168,7 +164,7 @@
       "reason": "売買実行条件を満たしていません",
       "actual_fill_count": 0
     },
-    "usage_status": "参考のみ",
+    "usage_status": "使用不可",
     "operational_status": {
       "stop_required": false,
       "stop_reasons": [],
@@ -181,11 +177,11 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-09-11T07:40:04.333Z",
-      "last_success_at": "2026-09-11T07:40:04.333Z",
+      "latest_attempt_at": "2026-09-11T13:00:04.713Z",
+      "last_success_at": "2026-09-11T13:00:04.713Z",
       "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-09-12T07:40:04.333Z",
+      "expires_at": "2026-09-12T13:00:04.713Z",
       "latest_attempt_accepted": true,
       "latest_attempt_matches_current": true,
       "artifact_consistent": true,
@@ -198,7 +194,7 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-09-11T07:40:04.333Z",
+      "captured_at": "2026-09-11T13:00:04.713Z",
       "values": [
         {
           "code": "NK225_FUT",
@@ -231,34 +227,17 @@
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 154.16900634765625,
-          "source_timestamp": "2026-09-11T07:40:03.000Z",
+          "value": 153.46800231933594,
+          "source_timestamp": "2026-09-11T13:00:04.000Z",
           "status": "acquired"
         }
       ]
     },
     "validation_summary": {
-      "status": "未検証",
-      "validation_status": "not_evaluated",
-      "validation_gate_status": "参考のみ",
       "sample_count": null,
-      "hit_rate": null,
-      "benchmark_hit_rate": null,
-      "balanced_accuracy": null,
-      "macro_f1": null,
-      "coverage": null,
       "considered_sample_count": null,
       "no_trade_count": 0,
-      "no_trade_rate": null,
-      "per_class": null,
       "next_night_sample_count": null,
-      "next_night_hit_rate": null,
-      "backtest_passed": false,
-      "trade_activation_passed": false,
-      "live_monitoring_passed": false,
-      "reasons": [
-        "basecalc専用の時刻別検証がまだ不足しています"
-      ],
       "historical_model_validation": {
         "data_kind": "historical_ose_daily_ohlc",
         "direct_equivalent": false,
@@ -347,124 +326,6 @@
       "excluded_bars": 0,
       "minimum_bars": 60,
       "future_data_used": false
-    },
-    "reference_analysis": {
-      "available": true,
-      "signal": "",
-      "short_term_bias": null,
-      "note": "OHLCから現在の相場状況と値動き幅だけを参考表示しています。方向予測や売買判断には使用できません"
-    },
-    "data_status": {
-      "status": "正常",
-      "target": "日経225先物",
-      "updated_at": "2026-09-11T07:40:04.333Z",
-      "data_kind": "日足OHLC",
-      "note": "高値・安値・終値の履歴を使ってテクニカル判定しています。"
-    },
-    "technical": {
-      "available": true,
-      "status": "OHLC参考分析",
-      "target": "日経225先物",
-      "timeframe": "日足",
-      "horizon": "現在の相場状況（方向予測なし）",
-      "analysis_session": "日中終値",
-      "as_of": "2026-09-11",
-      "price": {
-        "value": 63960,
-        "prior_close": 65190,
-        "change": -1230,
-        "change_pct": -1.89,
-        "stale": false
-      },
-      "regime": {
-        "key": "range",
-        "label": "レンジ"
-      },
-      "confidence": {
-        "score": null,
-        "label": "参考",
-        "note": "現在のOHLC状況だけを示し、将来方向の精度は検証済みではありません"
-      },
-      "indicators": {
-        "ema20": 65581.600764,
-        "ema50": 65808.473672,
-        "rsi14": 41.14,
-        "macd": -401.364647,
-        "macd_signal": -249.14213,
-        "macd_histogram": -152.222517,
-        "atr14": 1473.805053,
-        "atr_percent": 2.304,
-        "adx14": 18.182,
-        "plus_di14": 18.368,
-        "minus_di14": 35.258,
-        "bollinger_upper": 68208.029764,
-        "bollinger_middle": 65873,
-        "bollinger_lower": 63537.970236,
-        "bollinger_bandwidth": 7.089,
-        "roc10": -3.747
-      },
-      "levels": {
-        "support": 63760,
-        "support_distance_pct": 0.313,
-        "resistance": 69650,
-        "resistance_distance_pct": 8.896,
-        "bollinger_upper": 68208.029764,
-        "bollinger_middle": 65873,
-        "bollinger_lower": 63537.970236
-      },
-      "reasons": [],
-      "data_quality": {
-        "valid_bars": 252,
-        "excluded_bars": 0,
-        "minimum_bars": 60,
-        "future_data_used": false
-      },
-      "method": "OHLC参考分析",
-      "method_note": "現在の相場状況と値動き幅の参考表示であり、買い・売り方向は示しません。"
-    },
-    "invalidation_conditions": {
-      "conditions": [
-        {
-          "label": "データ欠損",
-          "active": false
-        },
-        {
-          "label": "代理データ使用",
-          "active": false
-        },
-        {
-          "label": "価格更新停止",
-          "active": false
-        },
-        {
-          "label": "OHLC履歴不足",
-          "active": false
-        },
-        {
-          "label": "取得時刻不一致",
-          "active": false
-        },
-        {
-          "label": "時刻別検証対象外",
-          "active": false
-        },
-        {
-          "label": "指標一致度が低い",
-          "active": true
-        },
-        {
-          "label": "方向判定を保留",
-          "active": false
-        },
-        {
-          "label": "過去検証未通過",
-          "active": true
-        },
-        {
-          "label": "検証成果物不一致",
-          "active": false
-        }
-      ]
     }
   }
 }
