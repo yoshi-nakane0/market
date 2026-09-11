@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-09-10T16:43:56.476Z",
+  "updated_at": "2026-09-11T02:40:03.958Z",
   "macro": {
-    "date": "2026-08-18",
+    "date": "2026-09-11",
     "region": "米国",
     "regime": "中立",
-    "risk_score": "-3",
-    "summary": "成長は横ばい、インフレは安定、政策は引締めです。外部環境は追い風、市場織り込みは中立です。現在のマクロ状態は中立です。",
+    "risk_score": "-12",
+    "summary": "成長は横ばい、インフレは安定、政策は引締めです。外部環境は中立、市場織り込みは中立です。現在のマクロ状態は中立です。",
     "asset_bias": [
       {
         "label": "ロング",
-        "value": "35%",
+        "value": "33%",
         "tone": "positive"
       },
       {
         "label": "レンジ",
-        "value": "37%",
+        "value": "36%",
         "tone": "neutral"
       },
       {
         "label": "ショート",
-        "value": "28%",
+        "value": "31%",
         "tone": "negative"
       }
     ],
     "state_scores": [
       {
         "label": "成長",
-        "value": 48,
-        "tone": "neutral"
+        "value": 45,
+        "tone": "negative"
       },
       {
         "label": "物価圧力",
-        "value": 49,
+        "value": 48,
         "tone": "neutral"
       },
       {
@@ -41,36 +41,36 @@
       },
       {
         "label": "政策余地",
-        "value": 40,
+        "value": 39,
         "tone": "negative"
       },
       {
         "label": "金融環境",
-        "value": 55,
+        "value": 57,
         "tone": "positive"
       },
       {
         "label": "外部環境",
-        "value": 64,
+        "value": 54,
         "tone": "positive"
       },
       {
         "label": "市場心理",
-        "value": 55,
-        "tone": "positive"
+        "value": 51,
+        "tone": "neutral"
       }
     ],
     "outlooks": [],
     "factors": {
       "support": [
         "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
-        "WTI Crude Oilが強くプラスに寄与",
-        "Average Hourly Earningsが小幅にマイナス"
+        "Average Hourly Earningsが小幅にマイナス",
+        "National Financial Conditions Indexが小幅にプラス"
       ],
       "risk": [
         "10Y Treasury Yieldがマイナスに寄与",
-        "Mortgage Rateがマイナスに寄与",
-        "2Y Treasury Yieldがマイナスに寄与"
+        "2Y Treasury Yieldがマイナスに寄与",
+        "Mortgage Rateがマイナスに寄与"
       ]
     },
     "world_state": [],
@@ -83,8 +83,8 @@
     },
     "rule_strength": {
       "label": "ルール一致度",
-      "value": "81/100",
-      "score": 0.81,
+      "value": "86/100",
+      "score": 0.86,
       "status": "diagnostic_only",
       "metric_kind": "rule_agreement_score_not_probability",
       "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
@@ -106,13 +106,13 @@
       "calibrated": false,
       "calibration_method": null,
       "historical_validation": {
-        "sample_count": 274,
-        "effective_sample_count": 59,
-        "hit_rate": 0.6569,
-        "benchmark_hit_rate": 0.6533,
-        "brier_score": 0.1671,
-        "brier_skill": 0.0307,
-        "calibration_error": 0.0999,
+        "sample_count": 294,
+        "effective_sample_count": 63,
+        "hit_rate": 0.6599,
+        "benchmark_hit_rate": 0.6565,
+        "brier_score": 0.1648,
+        "brier_skill": 0.0351,
+        "calibration_error": 0.1091,
         "similar_probability_history": null,
         "usage_permission": "monitor_only"
       },
@@ -122,13 +122,13 @@
       "metric_kind": "calibrated_multiclass_predictive_probability"
     },
     "backtest_summary": {
-      "sample_count": 520,
-      "hit_rate": 0.48,
+      "sample_count": 521,
+      "hit_rate": 0.46,
       "brier_score": null,
       "calibration_error": null,
       "period": {
-        "start": "2016-08-19",
-        "end": "2026-08-07"
+        "start": "2016-09-09",
+        "end": "2026-09-04"
       },
       "quality": "sufficient_history"
     },
@@ -152,14 +152,15 @@
     ]
   },
   "basecalc": {
-    "observation_time": "16:40 JST",
-    "market_status": "pre-open",
+    "observation_time": "11:40 JST",
+    "market_status": "open",
+    "prediction_kind": "collection_only",
     "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
     "analysis_permission": {
       "status": "unavailable",
       "allowed": false,
       "validated": false,
-      "reason": "有効なOHLC分析を確認できません"
+      "reason": "この時刻は値の取得のみです"
     },
     "execution_permission": {
       "status": "blocked",
@@ -170,37 +171,24 @@
     },
     "usage_status": "使用不可",
     "operational_status": {
-      "stop_required": true,
-      "stop_reasons": [
-        "内部の安全条件により停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません"
-      ],
-      "analysis_stop_required": true,
-      "analysis_stop_reasons": [
-        "内部の安全条件により停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません"
-      ],
+      "stop_required": false,
+      "stop_reasons": [],
+      "analysis_stop_required": false,
+      "analysis_stop_reasons": [],
       "execution_stop_required": true,
       "execution_stop_reasons": [
         "売買コストを確認できません",
         "内部の安全条件により停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません",
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-09-10T16:43:56.476Z",
-      "last_success_at": "2026-08-19T07:59:13.847Z",
-      "data_age_minutes": 32205,
+      "latest_attempt_at": "2026-09-11T02:40:03.958Z",
+      "last_success_at": "2026-09-11T02:40:03.958Z",
+      "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-08-20T07:59:13.847Z",
-      "latest_attempt_accepted": false,
-      "latest_attempt_matches_current": false,
+      "expires_at": "2026-09-12T02:40:03.958Z",
+      "latest_attempt_accepted": true,
+      "latest_attempt_matches_current": true,
       "artifact_consistent": true,
       "model_version": "basecalc_technical_regime_2026_07_13_v2",
       "expected_model_version": "basecalc_technical_regime_2026_07_13_v2"
@@ -211,41 +199,41 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-08-19T07:59:13.847Z",
+      "captured_at": "2026-09-11T02:40:03.958Z",
       "values": [
         {
           "code": "NK225_FUT",
           "label": "日経先物",
-          "value": 65480,
-          "source_timestamp": "2026-08-19T15:45:00+09:00",
+          "value": 64360,
+          "source_timestamp": "2026-09-10T06:00:00+09:00",
           "status": "acquired"
         },
         {
           "code": "NYDOW",
           "label": "NYDOW",
-          "value": 53343.3984375,
-          "source_timestamp": "2026-08-18T20:00:00.000Z",
+          "value": 52064.1015625,
+          "source_timestamp": "2026-09-10T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "SP500",
           "label": "S&P500",
-          "value": 7691.759765625,
-          "source_timestamp": "2026-08-18T20:00:00.000Z",
+          "value": 7591.7001953125,
+          "source_timestamp": "2026-09-10T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "NASDAQ",
           "label": "NASDAQ",
-          "value": 26289.7109375,
-          "source_timestamp": "2026-08-18T20:00:00.000Z",
+          "value": 26081.724609375,
+          "source_timestamp": "2026-09-10T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 159.18299865722656,
-          "source_timestamp": "2026-08-19T07:59:14.000Z",
+          "value": 154.48399353027344,
+          "source_timestamp": "2026-09-11T02:40:04.000Z",
           "status": "acquired"
         }
       ]
