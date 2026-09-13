@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:00:04.070Z",
+  "updated_at": "2026-09-13T02:40:04.146Z",
   "macro": {
     "date": "2026-09-13",
     "region": "米国",
@@ -76,57 +76,6 @@
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
-    "rule_strength": {
-      "label": "ルール一致度",
-      "value": "55/100",
-      "score": 0.55,
-      "status": "diagnostic_only",
-      "metric_kind": "rule_agreement_score_not_probability",
-      "note": "指標同士の方向と安定度であり、将来の的中率ではありません。",
-      "position_sizing_allowed": false
-    },
-    "predictive_probability": {
-      "label": "予測確率",
-      "status": "unavailable",
-      "value": "未算出",
-      "probability": null,
-      "probabilities": null,
-      "outcome": null,
-      "outcome_label": null,
-      "target_key": "sp500_reference",
-      "target_label": "S&P 500",
-      "horizon": "20d",
-      "horizon_label": "20営業日先",
-      "correct_label_definition": null,
-      "calibrated": false,
-      "calibration_method": null,
-      "historical_validation": {
-        "sample_count": 294,
-        "effective_sample_count": 63,
-        "hit_rate": 0.6599,
-        "benchmark_hit_rate": 0.6565,
-        "brier_score": 0.1648,
-        "brier_skill": 0.0351,
-        "calibration_error": 0.1091,
-        "similar_probability_history": null,
-        "usage_permission": "monitor_only"
-      },
-      "usage_permission": "monitor_only",
-      "position_sizing_allowed": false,
-      "note": "対象・期間・正解条件を固定した確率を算出できていません。",
-      "metric_kind": "calibrated_multiclass_predictive_probability"
-    },
-    "backtest_summary": {
-      "sample_count": 521,
-      "hit_rate": 0.46,
-      "brier_score": null,
-      "calibration_error": null,
-      "period": {
-        "start": "2016-09-09",
-        "end": "2026-09-04"
-      },
-      "quality": "sufficient_history"
-    },
     "judgments": [
       {
         "label": "成長",
@@ -190,9 +139,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-09-12T23:00:04.070Z",
+      "latest_attempt_at": "2026-09-13T02:40:04.146Z",
       "last_success_at": "2026-09-12T13:00:03.889Z",
-      "data_age_minutes": 600,
+      "data_age_minutes": 820,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-09-13T13:00:03.889Z",
       "latest_attempt_accepted": false,
