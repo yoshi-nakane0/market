@@ -1,48 +1,50 @@
 {
   "schema_version": "news-v1",
   "page": "news",
-  "generated_at": "2026-08-28T19:13:53.145268+09:00",
-  "updated_at": "2026-08-28T19:13:53.145268+09:00",
-  "as_of_date": "2026-08-28",
+  "generated_at": "2026-09-14T19:25:36.471440+09:00",
+  "updated_at": "2026-09-14T19:25:36.471440+09:00",
+  "as_of_date": "2026-09-14",
   "collection_status": {
     "status": "ok",
     "label": "取得正常",
-    "stale_after": "2026-09-02T19:13:53.145268+09:00",
+    "stale_after": "2026-09-19T19:25:36.471440+09:00",
     "expected_interval_days": 4,
     "latest_article_date": "2026-08-21",
-    "latest_article_age_days": 7,
+    "latest_article_age_days": 24,
     "window_days": 30,
     "person_count": 5,
-    "covered_person_count": 5,
+    "covered_person_count": 3,
     "report_count": 17
   },
   "conclusion": {
-    "as_of_date": "2026-08-28",
-    "score": 2.7,
+    "as_of_date": "2026-09-14",
+    "score": 2.6,
     "stance": "short",
     "label": "やや弱気",
-    "certainty": "高",
+    "certainty": "中",
     "counts": {
-      "long": 2,
-      "short": 3
+      "long": 1,
+      "short": 2
     },
-    "agreement": 0.6,
-    "included_person_count": 5,
-    "excluded_people": [],
+    "agreement": 0.68,
+    "included_person_count": 3,
+    "excluded_people": [
+      {
+        "name": "Jan Hatzius",
+        "reason": "対象期間内に一次情報なし"
+      },
+      {
+        "name": "Jeffrey deGraaf",
+        "reason": "対象期間内に一次情報なし"
+      }
+    ],
     "topic_breakdown": [
       {
         "target": "マクロ",
-        "score": 2.5,
+        "score": 2.6,
         "stance": "short",
         "label": "やや弱気",
-        "count": 4
-      },
-      {
-        "target": "株式",
-        "score": 4.0,
-        "stance": "long",
-        "label": "強気",
-        "count": 1
+        "count": 3
       }
     ],
     "axis_breakdown": [],
@@ -58,9 +60,9 @@
       }
     },
     "change": {
-      "score_delta": -0.1,
-      "direction": "flat",
-      "label": "横ばい"
+      "score_delta": -0.2,
+      "direction": "down",
+      "label": "弱気方向へ"
     },
     "scale": {
       "min": 1,
@@ -68,14 +70,14 @@
       "midpoint": 3
     },
     "window_days": 30,
-    "summary": "有効な5人のうち3人が弱気です。マクロはやや弱気、株式は強気です。"
+    "summary": "有効な3人のうち2人が弱気です。見解はマクロが中心です。"
   },
   "conclusion_history": [
     {
       "as_of_date": "2026-06-30",
       "score": 4.0,
       "stance": "long",
-      "label": "強気",
+      "label": "やや強気",
       "included_person_count": 1,
       "counts": {
         "long": 1,
@@ -163,7 +165,7 @@
       "as_of_date": "2026-07-30",
       "score": 2.0,
       "stance": "short",
-      "label": "やや弱気",
+      "label": "弱気",
       "included_person_count": 4,
       "counts": {
         "long": 0,
@@ -174,7 +176,7 @@
       "as_of_date": "2026-07-31",
       "score": 2.0,
       "stance": "short",
-      "label": "やや弱気",
+      "label": "弱気",
       "included_person_count": 4,
       "counts": {
         "long": 0,
@@ -185,7 +187,7 @@
       "as_of_date": "2026-08-06",
       "score": 2.0,
       "stance": "short",
-      "label": "やや弱気",
+      "label": "弱気",
       "included_person_count": 3,
       "counts": {
         "long": 0,
@@ -196,7 +198,7 @@
       "as_of_date": "2026-08-08",
       "score": 2.0,
       "stance": "short",
-      "label": "やや弱気",
+      "label": "弱気",
       "included_person_count": 4,
       "counts": {
         "long": 0,
@@ -248,14 +250,14 @@
       }
     },
     {
-      "as_of_date": "2026-08-28",
-      "score": 2.7,
+      "as_of_date": "2026-09-14",
+      "score": 2.6,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 3,
       "counts": {
-        "long": 2,
-        "short": 3
+        "long": 1,
+        "short": 2
       }
     }
   ],
@@ -265,9 +267,9 @@
       "name": "Jan Hatzius",
       "specialty": "米国景気・FRB",
       "order": 1,
-      "included_in_conclusion": true,
+      "included_in_conclusion": false,
       "latest_article_id": "jan-hatzius-2026-08-08",
-      "counted_article_id": "jan-hatzius-2026-08-08",
+      "counted_article_id": null,
       "article_count": 2,
       "trend": {
         "direction": "flat",
@@ -276,19 +278,14 @@
           "stance": "short",
           "count": 2
         },
-        "latest_evaluation": 2,
-        "previous_evaluation": 2,
-        "delta": 0,
         "sample_count": 2,
         "points": [
           {
             "article_date": "2026-07-02",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-08",
-            "evaluation": 2,
             "stance": "short"
           }
         ]
@@ -314,14 +311,10 @@
           "stance": "short",
           "count": 1
         },
-        "latest_evaluation": 2,
-        "previous_evaluation": null,
-        "delta": null,
         "sample_count": 1,
         "points": [
           {
             "article_date": "2026-08-15",
-            "evaluation": 2,
             "stance": "short"
           }
         ]
@@ -348,29 +341,22 @@
           "stance": "long",
           "count": 1
         },
-        "latest_evaluation": 4,
-        "previous_evaluation": 2,
-        "delta": 2,
         "sample_count": 4,
         "points": [
           {
             "article_date": "2026-06-30",
-            "evaluation": 4,
             "stance": "long"
           },
           {
             "article_date": "2026-07-30",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-13",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-16",
-            "evaluation": 4,
             "stance": "long"
           }
         ]
@@ -398,34 +384,26 @@
           "stance": "short",
           "count": 5
         },
-        "latest_evaluation": 2,
-        "previous_evaluation": 2,
-        "delta": 0,
         "sample_count": 5,
         "points": [
           {
             "article_date": "2026-07-21",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-07-23",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-07-31",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-06",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-21",
-            "evaluation": 2,
             "stance": "short"
           }
         ]
@@ -443,9 +421,9 @@
       "name": "Jeffrey deGraaf",
       "specialty": "株式テクニカル・市場内部",
       "order": 5,
-      "included_in_conclusion": true,
+      "included_in_conclusion": false,
       "latest_article_id": "jeffrey-degraaf-2026-08-13",
-      "counted_article_id": "jeffrey-degraaf-2026-08-13",
+      "counted_article_id": null,
       "article_count": 3,
       "trend": {
         "direction": "up",
@@ -454,24 +432,18 @@
           "stance": "long",
           "count": 1
         },
-        "latest_evaluation": 4,
-        "previous_evaluation": 2,
-        "delta": 2,
         "sample_count": 3,
         "points": [
           {
             "article_date": "2026-07-08",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-07-25",
-            "evaluation": 2,
             "stance": "short"
           },
           {
             "article_date": "2026-08-13",
-            "evaluation": 4,
             "stance": "long"
           }
         ]
@@ -490,13 +462,12 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-08-21",
-      "age_days": 7,
+      "age_days": 24,
       "title": "米国債買い戻し拡大で市場介入姿勢が強まる",
       "target": "マクロ",
       "period": "中期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -516,13 +487,12 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-08-16",
-      "age_days": 12,
+      "age_days": 29,
       "title": "関税返金が企業利益と米国成長を支える",
       "target": "マクロ",
       "period": "短期",
-      "evaluation": 4,
       "stance": "long",
-      "stance_label": "やや強気",
+      "stance_label": "強気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -543,13 +513,12 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-08-15",
-      "age_days": 13,
+      "age_days": 30,
       "title": "円買い介入の限界とドル円160台の再接近",
       "target": "マクロ",
       "period": "不明",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -569,13 +538,12 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-08-13",
-      "age_days": 15,
+      "age_days": 32,
       "title": "AIが企業利益を圧迫する可能性を市場は過小評価",
       "target": "株式",
       "period": "長期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -595,13 +563,12 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-08-13",
-      "age_days": 15,
+      "age_days": 32,
       "title": "テック不安定化でヘルスケア株の相対優位を期待",
       "target": "株式",
       "period": "不明",
-      "evaluation": 4,
       "stance": "long",
-      "stance_label": "やや強気",
+      "stance_label": "強気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -621,13 +588,12 @@
       "person_id": "jan-hatzius",
       "specialty": "米国景気・FRB",
       "article_date": "2026-08-08",
-      "age_days": 20,
+      "age_days": 37,
       "title": "Jan Hatzius、7月雇用統計を弱い内容と評価",
       "target": "マクロ",
       "period": "短期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -647,13 +613,12 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-08-06",
-      "age_days": 22,
+      "age_days": 39,
       "title": "食料品減税は財政悪化で効果を損なう恐れ",
       "target": "マクロ",
       "period": "長期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -673,13 +638,12 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-31",
-      "age_days": 28,
+      "age_days": 45,
       "title": "物価予測の引下げで日銀利上げは12月へ",
       "target": "マクロ",
       "period": "中期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -699,13 +663,12 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-07-30",
-      "age_days": 29,
+      "age_days": 46,
       "title": "インフレは高止まり、金利の長期高止まりが株式の重しに",
       "target": "マクロ",
       "period": "不明",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -725,11 +688,10 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-07-26",
-      "age_days": 33,
+      "age_days": 50,
       "title": "テクノロジー株・債券・円を確認する週次チャート",
       "target": "マクロ",
       "period": "短期",
-      "evaluation": 3,
       "stance": "neutral",
       "stance_label": "判定なし",
       "reason": "",
@@ -753,13 +715,12 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-07-25",
-      "age_days": 34,
+      "age_days": 51,
       "title": "株式市場はモメンタム低下を警戒する局面",
       "target": "株式",
       "period": "短期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -781,13 +742,12 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-23",
-      "age_days": 36,
+      "age_days": 53,
       "title": "米国の代替関税は不確定、今後縮小の可能性",
       "target": "マクロ",
       "period": "中期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -809,13 +769,12 @@
       "person_id": "takahide-kiuchi",
       "specialty": "日銀・円相場・日本経済",
       "article_date": "2026-07-21",
-      "age_days": 38,
+      "age_days": 55,
       "title": "骨太ショックと骨太方針原案の修正：小手先の対応では金融市場の信頼を取り戻すことはできない",
       "target": "マクロ",
       "period": "短期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -835,13 +794,12 @@
       "person_id": "jeffrey-degraaf",
       "specialty": "株式テクニカル・市場内部",
       "article_date": "2026-07-08",
-      "age_days": 51,
+      "age_days": 68,
       "title": "メモリー株にピークの兆候、短期は調整に注意",
       "target": "株式",
       "period": "短期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -861,11 +819,10 @@
       "person_id": "christophe-barraud",
       "specialty": "短期マクロ・政策",
       "article_date": "2026-07-07",
-      "age_days": 52,
+      "age_days": 69,
       "title": "Bloomberg予測ランキングで米欧中の首位に選出",
       "target": "マクロ",
       "period": "不明",
-      "evaluation": 3,
       "stance": "neutral",
       "stance_label": "判定なし",
       "reason": "",
@@ -887,13 +844,12 @@
       "person_id": "jan-hatzius",
       "specialty": "米国景気・FRB",
       "article_date": "2026-07-02",
-      "age_days": 57,
+      "age_days": 74,
       "title": "米雇用の減速は景気とFRB政策への弱気材料",
       "target": "マクロ",
       "period": "短期",
-      "evaluation": 2,
       "stance": "short",
-      "stance_label": "やや弱気",
+      "stance_label": "弱気",
       "reason": "",
       "confidence": "高",
       "axes": [],
@@ -915,13 +871,12 @@
       "person_id": "torsten-slok",
       "specialty": "金利・信用・成長",
       "article_date": "2026-06-30",
-      "age_days": 59,
+      "age_days": 76,
       "title": "AI・産業投資と政策支援が成長を支える",
       "target": "マクロ",
       "period": "中期",
-      "evaluation": 4,
       "stance": "long",
-      "stance_label": "やや強気",
+      "stance_label": "強気",
       "reason": "",
       "confidence": "高",
       "axes": [],
