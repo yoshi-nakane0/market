@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-16T13:00:10.701Z",
+  "generated_at": "2026-09-16T23:00:12.362Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-09-15までの資産別確定日足",
+    "analysis_basis": "2026-09-16までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-16T13:00:04.684Z",
-    "latest_attempt_at": "2026-09-16T13:00:04.684Z",
-    "stale_after": "2026-09-17T13:00:04.684Z",
+    "last_success_at": "2026-09-16T23:00:05.455Z",
+    "latest_attempt_at": "2026-09-16T23:00:05.455Z",
+    "stale_after": "2026-09-17T23:00:05.455Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -52,9 +52,9 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 63320,
+      "price": 64250,
       "price_type": "清算値",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-16",
       "current_phase": {
         "key": "range",
         "label": "レンジ",
@@ -83,9 +83,9 @@
         }
       },
       "direction_scores": {
-        "long": 44,
-        "range": 40,
-        "short": 16,
+        "long": 29,
+        "range": 54,
+        "short": 17,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -96,7 +96,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 88,
+          "confidence_score": 92,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -104,7 +104,7 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 69,110 を終値で上回る"
+          "change_condition": "抵抗線 66,900 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -113,7 +113,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 82,
+          "confidence_score": 86,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
@@ -121,31 +121,31 @@
             "DMIが下向き",
             "価格と20日平均が下向き"
           ],
-          "change_condition": "抵抗線 69,110 を終値で上回る"
+          "change_condition": "抵抗線 66,900 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 65173.918086,
-          "ema50": 65618.290856,
-          "rsi14": 38.655,
-          "macd": -623.762923,
-          "macd_signal": -368.698995,
-          "macd_histogram": -255.063929,
-          "atr14": 1447.770684,
-          "atr_percent": 2.286,
-          "adx14": 19.955,
-          "plus_di14": 18.096,
-          "minus_di14": 32.551,
-          "bollinger_upper": 67391.28231,
-          "bollinger_middle": 65365,
-          "bollinger_lower": 63338.71769,
-          "bollinger_bandwidth": 6.2,
-          "roc10": -4.278
+          "ema20": 64928.84412,
+          "ema50": 65471.501745,
+          "rsi14": 44.793,
+          "macd": -617.936376,
+          "macd_signal": -464.697758,
+          "macd_histogram": -153.238618,
+          "atr14": 1249.70547,
+          "atr_percent": 1.945,
+          "adx14": 18.035,
+          "plus_di14": 21.866,
+          "minus_di14": 30.667,
+          "bollinger_upper": 66880.370089,
+          "bollinger_middle": 65071.5,
+          "bollinger_lower": 63262.629911,
+          "bollinger_bandwidth": 5.56,
+          "roc10": -0.357
         },
         "levels": {
-          "support": 62530,
-          "resistance": 69110
+          "support": 62620,
+          "resistance": 66900
         },
         "data_quality": {
           "valid_bars": 252,
@@ -160,18 +160,19 @@
       "label": "NYDOW",
       "status": "available",
       "status_label": "取得済み",
-      "price": 52093.109375,
+      "price": 51461.898438,
       "price_type": "終値",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-16",
       "current_phase": {
-        "key": "range",
-        "label": "レンジ",
+        "key": "downturn_transition",
+        "label": "下落転換",
         "confirmed": true,
-        "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
+        "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
         "reasons": [
           "価格は20日平均を下回っています。",
           "20日平均は50日平均を上回っています。",
-          "MACDの勢いは下向きです。"
+          "MACDの勢いは下向きです。",
+          "方向の強さは弱い水準です。"
         ]
       },
       "change_signals": {
@@ -191,9 +192,9 @@
         }
       },
       "direction_scores": {
-        "long": 43,
-        "range": 41,
-        "short": 16,
+        "long": 23,
+        "range": 40,
+        "short": 37,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -204,7 +205,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 87,
+          "confidence_score": 82,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -217,42 +218,42 @@
         "one_month": {
           "horizon": "one_month",
           "label": "1か月",
-          "direction": "neutral",
-          "direction_label": "横ばい",
-          "confidence": "high",
-          "confidence_label": "高",
-          "confidence_score": 81,
+          "direction": "bearish",
+          "direction_label": "下落",
+          "confidence": "medium",
+          "confidence_label": "中",
+          "confidence_score": 52,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "中期の平均線構造から横ばいを基本とします。",
+          "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
             "20日・50日平均が上向き",
-            "DMIが下向き",
-            "価格と20日平均が下向き"
+            "現在局面が下向き",
+            "DMIが下向き"
           ],
-          "change_condition": "支持線 51,962.71 または抵抗線 53,819.65 を終値で抜ける"
+          "change_condition": "抵抗線 53,819.65 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 52883.793248,
-          "ema50": 52694.545569,
-          "rsi14": 40.225,
-          "macd": -201.631315,
-          "macd_signal": -44.876147,
-          "macd_histogram": -156.755168,
-          "atr14": 490.168696,
-          "atr_percent": 0.941,
-          "adx14": 14.799,
-          "plus_di14": 21.249,
-          "minus_di14": 34.19,
-          "bollinger_upper": 54060.066222,
-          "bollinger_middle": 53043.202734,
-          "bollinger_lower": 52026.339247,
-          "bollinger_bandwidth": 3.834,
-          "roc10": -2.055
+          "ema20": 52748.374694,
+          "ema50": 52646.209555,
+          "rsi14": 34.994,
+          "macd": -286.787174,
+          "macd_signal": -93.258353,
+          "macd_histogram": -193.528822,
+          "atr14": 525.6586,
+          "atr_percent": 1.021,
+          "adx14": 16.303,
+          "plus_di14": 18.399,
+          "minus_di14": 38.966,
+          "bollinger_upper": 54165.964656,
+          "bollinger_middle": 52949.127734,
+          "bollinger_lower": 51732.290813,
+          "bollinger_bandwidth": 4.596,
+          "roc10": -2.473
         },
         "levels": {
-          "support": 51962.710938,
+          "support": 51875.648438,
           "resistance": 53819.648438
         },
         "data_quality": {
@@ -268,18 +269,19 @@
       "label": "S&P500",
       "status": "available",
       "status_label": "取得済み",
-      "price": 7585.72998,
+      "price": 7551.810059,
       "price_type": "終値",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-16",
       "current_phase": {
-        "key": "range",
-        "label": "レンジ",
+        "key": "downturn_transition",
+        "label": "下落転換",
         "confirmed": true,
-        "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
+        "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
         "reasons": [
           "価格は20日平均を下回っています。",
           "20日平均は50日平均を上回っています。",
-          "MACDの勢いは下向きです。"
+          "MACDの勢いは下向きです。",
+          "方向の強さは弱い水準です。"
         ]
       },
       "change_signals": {
@@ -299,9 +301,9 @@
         }
       },
       "direction_scores": {
-        "long": 41,
-        "range": 44,
-        "short": 15,
+        "long": 24,
+        "range": 43,
+        "short": 33,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -312,7 +314,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 88,
+          "confidence_score": 83,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -320,48 +322,48 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 7,790.68 を終値で上回る"
+          "change_condition": "抵抗線 7,771.48 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
           "label": "1か月",
-          "direction": "neutral",
-          "direction_label": "横ばい",
-          "confidence": "high",
-          "confidence_label": "高",
-          "confidence_score": 82,
+          "direction": "bearish",
+          "direction_label": "下落",
+          "confidence": "medium",
+          "confidence_label": "中",
+          "confidence_score": 53,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "中期の平均線構造から横ばいを基本とします。",
+          "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
             "20日・50日平均が上向き",
-            "DMIが下向き",
-            "価格と20日平均が下向き"
+            "現在局面が下向き",
+            "DMIが下向き"
           ],
-          "change_condition": "支持線 7,580.06 または抵抗線 7,790.68 を終値で抜ける"
+          "change_condition": "抵抗線 7,771.48 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 7654.932561,
-          "ema50": 7603.696275,
-          "rsi14": 44.066,
-          "macd": -2.178429,
-          "macd_signal": 14.835816,
-          "macd_histogram": -17.014245,
-          "atr14": 61.372273,
-          "atr_percent": 0.809,
-          "adx14": 11.154,
-          "plus_di14": 26.369,
-          "minus_di14": 32.531,
-          "bollinger_upper": 7753.540146,
-          "bollinger_middle": 7668.93252,
-          "bollinger_lower": 7584.324893,
-          "bollinger_bandwidth": 2.207,
-          "roc10": -1.306
+          "ema20": 7645.11137,
+          "ema50": 7601.661881,
+          "rsi14": 41.448,
+          "macd": -9.727431,
+          "macd_signal": 9.923167,
+          "macd_histogram": -19.650598,
+          "atr14": 65.48997,
+          "atr_percent": 0.867,
+          "adx14": 11.88,
+          "plus_di14": 22.946,
+          "minus_di14": 35.389,
+          "bollinger_upper": 7759.924364,
+          "bollinger_middle": 7661.935034,
+          "bollinger_lower": 7563.945704,
+          "bollinger_bandwidth": 2.558,
+          "roc10": -1.044
         },
         "levels": {
-          "support": 7580.060059,
-          "resistance": 7790.680176
+          "support": 7572.689941,
+          "resistance": 7771.47998
         },
         "data_quality": {
           "valid_bars": 251,
@@ -376,9 +378,9 @@
       "label": "NASDAQ",
       "status": "available",
       "status_label": "取得済み",
-      "price": 25981.570313,
+      "price": 25978.423828,
       "price_type": "終値",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-16",
       "current_phase": {
         "key": "range",
         "label": "レンジ",
@@ -407,8 +409,8 @@
         }
       },
       "direction_scores": {
-        "long": 37,
-        "range": 48,
+        "long": 36,
+        "range": 49,
         "short": 15,
         "metric_kind": "directional_fit_not_probability"
       },
@@ -428,7 +430,7 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 26,798.4 を終値で上回る"
+          "change_condition": "抵抗線 26,700.68 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -445,31 +447,31 @@
             "DMIが下向き",
             "価格と20日平均が下向き"
           ],
-          "change_condition": "支持線 25,910.82 または抵抗線 26,798.4 を終値で抜ける"
+          "change_condition": "支持線 25,910.82 または抵抗線 26,700.68 を終値で抜ける"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 26241.449082,
-          "ema50": 26090.526061,
-          "rsi14": 45.269,
-          "macd": 16.744967,
-          "macd_signal": 65.53171,
-          "macd_histogram": -48.786742,
-          "atr14": 302.310638,
-          "atr_percent": 1.164,
-          "adx14": 10.856,
-          "plus_di14": 24.402,
-          "minus_di14": 30.878,
-          "bollinger_upper": 26604.07759,
-          "bollinger_middle": 26255.546094,
-          "bollinger_lower": 25907.014598,
-          "bollinger_bandwidth": 2.655,
-          "roc10": -1.476
+          "ema20": 26216.399058,
+          "ema50": 26086.13266,
+          "rsi14": 45.212,
+          "macd": -5.294358,
+          "macd_signal": 51.366496,
+          "macd_histogram": -56.660854,
+          "atr14": 310.869225,
+          "atr_percent": 1.197,
+          "adx14": 11.3,
+          "plus_di14": 22.035,
+          "minus_di14": 31.108,
+          "bollinger_upper": 26608.26303,
+          "bollinger_middle": 26239.981738,
+          "bollinger_lower": 25871.700447,
+          "bollinger_bandwidth": 2.807,
+          "roc10": -0.465
         },
         "levels": {
           "support": 25910.820313,
-          "resistance": 26798.400391
+          "resistance": 26700.679688
         },
         "data_quality": {
           "valid_bars": 251,
@@ -484,14 +486,14 @@
       "label": "USDJPY",
       "status": "available",
       "status_label": "取得済み",
-      "price": 153.423996,
+      "price": 155.266006,
       "price_type": "終値",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-16",
       "current_phase": {
-        "key": "downtrend_continuation",
-        "label": "下落継続",
+        "key": "downturn_transition",
+        "label": "下落転換",
         "confirmed": true,
-        "summary": "下落方向と勢いがそろい、下落局面が続いています。",
+        "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
         "reasons": [
           "価格は20日平均を下回っています。",
           "20日平均は50日平均を下回っています。",
@@ -516,9 +518,9 @@
         }
       },
       "direction_scores": {
-        "long": 7,
-        "range": 15,
-        "short": 78,
+        "long": 23,
+        "range": 34,
+        "short": 43,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -529,7 +531,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 98,
+          "confidence_score": 86,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -546,7 +548,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 92,
+          "confidence_score": 80,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "中期の平均線構造から下落を基本とします。",
           "reasons": [
@@ -559,22 +561,22 @@
       },
       "details": {
         "indicators": {
-          "ema20": 156.852468,
-          "ema50": 158.606333,
-          "rsi14": 28.531,
-          "macd": -1.651907,
-          "macd_signal": -1.172198,
-          "macd_histogram": -0.479709,
-          "atr14": 1.557379,
-          "atr_percent": 1.015,
-          "adx14": 47.332,
-          "plus_di14": 10.444,
-          "minus_di14": 28.221,
-          "bollinger_upper": 162.355724,
-          "bollinger_middle": 157.52625,
-          "bollinger_lower": 152.696777,
-          "bollinger_bandwidth": 6.132,
-          "roc10": -3.701
+          "ema20": 156.701377,
+          "ema50": 158.475354,
+          "rsi14": 40.149,
+          "macd": -1.56949,
+          "macd_signal": -1.251656,
+          "macd_histogram": -0.317834,
+          "atr14": 1.592281,
+          "atr_percent": 1.026,
+          "adx14": 46.633,
+          "plus_di14": 11.639,
+          "minus_di14": 25.63,
+          "bollinger_upper": 162.160843,
+          "bollinger_middle": 157.318251,
+          "bollinger_lower": 152.475659,
+          "bollinger_bandwidth": 6.156,
+          "roc10": -2.805
         },
         "levels": {
           "support": 152.897003,
@@ -592,15 +594,15 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-16T12:47:03Z",
+    "source_updated_at": "2026-09-16T22:47:04Z",
     "state": "long",
     "side": "long",
-    "reason": "直近5営業日で 1,890 円の下げすぎ（ATRの1.31倍）。次の5営業日は買いへ寄ります",
-    "close": 63320,
-    "reference": 65210,
-    "move": -1890,
-    "move_atr": -1.31,
-    "as_of": "2026-09-14T15:00:00Z",
+    "reason": "直近5営業日で 1,420 円の下げすぎ（ATRの1.01倍）。次の5営業日は買いへ寄ります",
+    "close": 63840,
+    "reference": 65260,
+    "move": -1420,
+    "move_atr": -1.01,
+    "as_of": "2026-09-15T15:00:00Z",
     "lookback_sessions": 5,
     "threshold_atr": 1,
     "horizon_sessions": 5,
@@ -609,16 +611,16 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-16T12:47:03Z",
-    "state": "on",
-    "reason": "2026-09-02 に形が出て 2026-09-03 の始値 64,580 で買い。9 日目で、あと 1 営業日持ちます",
+    "source_updated_at": "2026-09-16T22:47:04Z",
+    "state": "off",
+    "reason": "きょうの引けで材料がそろったのは 0 個で、2 個に届いていません",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
     "hold_sessions": 10,
-    "fired_on": "2026-09-02",
-    "entered_on": "2026-09-03",
-    "sessions_held": 9,
-    "sessions_left": 1,
-    "as_of": "2026-09-14T15:00:00Z"
+    "fired_on": null,
+    "entered_on": null,
+    "sessions_held": null,
+    "sessions_left": null,
+    "as_of": "2026-09-15T15:00:00Z"
   },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
