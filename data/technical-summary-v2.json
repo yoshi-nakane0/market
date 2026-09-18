@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-18T07:40:10.224Z",
+  "generated_at": "2026-09-18T13:00:10.927Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-09-18までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-09-18T07:40:04.009Z",
-    "latest_attempt_at": "2026-09-18T07:40:04.009Z",
-    "stale_after": "2026-09-19T07:40:04.009Z",
+    "last_success_at": "2026-09-18T13:00:04.946Z",
+    "latest_attempt_at": "2026-09-18T13:00:04.946Z",
+    "stale_after": "2026-09-19T13:00:04.946Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -598,15 +598,15 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-18T07:32:02Z",
+    "source_updated_at": "2026-09-18T12:47:03Z",
     "state": "flat",
     "side": null,
-    "reason": "直近5営業日の動きは -990 円（ATRの0.72倍）で、行き過ぎていません",
-    "close": 64200,
-    "reference": 65190,
-    "move": -990,
-    "move_atr": -0.72,
-    "as_of": "2026-09-16T15:00:00Z",
+    "reason": "直近5営業日の動きは 1,140 円（ATRの0.84倍）で、行き過ぎていません",
+    "close": 65100,
+    "reference": 63960,
+    "move": 1140,
+    "move_atr": 0.84,
+    "as_of": "2026-09-17T15:00:00Z",
     "lookback_sessions": 5,
     "threshold_atr": 1,
     "horizon_sessions": 5,
@@ -615,7 +615,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-18T07:32:02Z",
+    "source_updated_at": "2026-09-18T12:47:03Z",
     "state": "off",
     "reason": "きょうの引けで材料がそろったのは 0 個で、2 個に届いていません",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
@@ -624,7 +624,7 @@
     "entered_on": null,
     "sessions_held": null,
     "sessions_left": null,
-    "as_of": "2026-09-16T15:00:00Z"
+    "as_of": "2026-09-17T15:00:00Z"
   },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
