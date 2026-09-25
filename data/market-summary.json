@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-25T13:00:03.665Z",
+  "updated_at": "2026-09-25T23:00:05.232Z",
   "macro": {
-    "date": "2026-09-24",
+    "date": "2026-09-26",
     "region": "米国",
     "regime": "過熱",
-    "risk_score": "-4",
+    "risk_score": "-5",
     "summary": "成長は強い、インフレは高め、政策は引締めです。外部環境は逆風、市場織り込みはリスク選好です。現在のマクロ状態は過熱です。",
     "asset_bias": [
       {
@@ -26,7 +26,7 @@
       },
       {
         "label": "物価圧力",
-        "value": 48,
+        "value": 49,
         "tone": "negative"
       },
       {
@@ -46,7 +46,7 @@
       },
       {
         "label": "外部環境",
-        "value": 47,
+        "value": 44,
         "tone": "negative"
       },
       {
@@ -70,9 +70,9 @@
     },
     "world_state": [],
     "data_quality": {
-      "status": "pass",
+      "status": "warn",
       "coverage": 1,
-      "stale_series_count": 0,
+      "stale_series_count": 1,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
@@ -96,15 +96,14 @@
     ]
   },
   "basecalc": {
-    "observation_time": "22:00 JST",
-    "market_status": "open",
-    "prediction_kind": "collection_only",
-    "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
+    "observation_time": "08:00 JST",
+    "market_status": "holiday",
+    "summary": "OHLC参考分析を更新しました。方向予測と売買判断には使用できません。",
     "analysis_permission": {
-      "status": "unavailable",
-      "allowed": false,
+      "status": "reference_only",
+      "allowed": true,
       "validated": false,
-      "reason": "この時刻は値の取得のみです"
+      "reason": "方向精度の検証が未達です"
     },
     "execution_permission": {
       "status": "blocked",
@@ -113,7 +112,7 @@
       "reason": "売買実行条件を満たしていません",
       "actual_fill_count": 0
     },
-    "usage_status": "使用不可",
+    "usage_status": "参考のみ",
     "operational_status": {
       "stop_required": false,
       "stop_reasons": [],
@@ -126,11 +125,11 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-09-25T13:00:03.665Z",
-      "last_success_at": "2026-09-25T13:00:03.665Z",
+      "latest_attempt_at": "2026-09-25T23:00:05.232Z",
+      "last_success_at": "2026-09-25T23:00:05.232Z",
       "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-09-26T13:00:03.665Z",
+      "expires_at": "2026-09-26T23:00:05.232Z",
       "latest_attempt_accepted": true,
       "latest_attempt_matches_current": true,
       "artifact_consistent": true,
@@ -143,50 +142,67 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-09-25T13:00:03.665Z",
+      "captured_at": "2026-09-25T23:00:05.232Z",
       "values": [
         {
           "code": "NK225_FUT",
           "label": "日経先物",
-          "value": 66300,
-          "source_timestamp": "2026-09-25T15:45:00+09:00",
+          "value": 66470,
+          "source_timestamp": "2026-09-26T06:00:00+09:00",
           "status": "acquired"
         },
         {
           "code": "NYDOW",
           "label": "NYDOW",
-          "value": 51349.98046875,
-          "source_timestamp": "2026-09-24T20:00:00.000Z",
+          "value": 51828.62109375,
+          "source_timestamp": "2026-09-25T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "SP500",
           "label": "S&P500",
-          "value": 7704.1298828125,
-          "source_timestamp": "2026-09-24T20:00:00.000Z",
+          "value": 7743.41015625,
+          "source_timestamp": "2026-09-25T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "NASDAQ",
           "label": "NASDAQ",
-          "value": 26939.373046875,
-          "source_timestamp": "2026-09-24T20:00:00.000Z",
+          "value": 27068.716796875,
+          "source_timestamp": "2026-09-25T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 157.40699768066406,
-          "source_timestamp": "2026-09-25T13:00:06.000Z",
+          "value": 157.18499755859375,
+          "source_timestamp": "2026-09-25T21:01:00.000Z",
           "status": "acquired"
         }
       ]
     },
     "validation_summary": {
+      "status": "未検証",
+      "validation_status": "not_evaluated",
+      "validation_gate_status": "参考のみ",
       "sample_count": null,
+      "hit_rate": null,
+      "benchmark_hit_rate": null,
+      "balanced_accuracy": null,
+      "macro_f1": null,
+      "coverage": null,
       "considered_sample_count": null,
       "no_trade_count": 0,
+      "no_trade_rate": null,
+      "per_class": null,
       "next_night_sample_count": null,
+      "next_night_hit_rate": null,
+      "backtest_passed": false,
+      "trade_activation_passed": false,
+      "live_monitoring_passed": false,
+      "reasons": [
+        "basecalc専用の時刻別検証がまだ不足しています"
+      ],
       "historical_model_validation": {
         "data_kind": "historical_ose_daily_ohlc",
         "direct_equivalent": false,
@@ -275,6 +291,124 @@
       "excluded_bars": 0,
       "minimum_bars": 60,
       "future_data_used": false
+    },
+    "reference_analysis": {
+      "available": true,
+      "signal": "",
+      "short_term_bias": null,
+      "note": "OHLCから現在の相場状況と値動き幅だけを参考表示しています。方向予測や売買判断には使用できません"
+    },
+    "data_status": {
+      "status": "正常",
+      "target": "日経225先物",
+      "updated_at": "2026-09-25T23:00:05.232Z",
+      "data_kind": "日足OHLC",
+      "note": "高値・安値・終値の履歴を使ってテクニカル判定しています。"
+    },
+    "technical": {
+      "available": true,
+      "status": "OHLC参考分析",
+      "target": "日経225先物",
+      "timeframe": "日足",
+      "horizon": "現在の相場状況（方向予測なし）",
+      "analysis_session": "夜間終値",
+      "as_of": "2026-09-25",
+      "price": {
+        "value": 66470,
+        "prior_close": 65490,
+        "change": 980,
+        "change_pct": 1.5,
+        "stale": false
+      },
+      "regime": {
+        "key": "range",
+        "label": "レンジ"
+      },
+      "confidence": {
+        "score": null,
+        "label": "参考",
+        "note": "現在のOHLC状況だけを示し、将来方向の精度は検証済みではありません"
+      },
+      "indicators": {
+        "ema20": 65423.785612,
+        "ema50": 65568.136206,
+        "rsi14": 55.512,
+        "macd": 55.342348,
+        "macd_signal": -198.463444,
+        "macd_histogram": 253.805792,
+        "atr14": 1199.792049,
+        "atr_percent": 1.805,
+        "adx14": 13.517,
+        "plus_di14": 27.976,
+        "minus_di14": 23.82,
+        "bollinger_upper": 67045.024002,
+        "bollinger_middle": 65066,
+        "bollinger_lower": 63086.975998,
+        "bollinger_bandwidth": 6.083,
+        "roc10": 3.038
+      },
+      "levels": {
+        "support": 62620,
+        "support_distance_pct": 5.792,
+        "resistance": 67080,
+        "resistance_distance_pct": 0.918,
+        "bollinger_upper": 67045.024002,
+        "bollinger_middle": 65066,
+        "bollinger_lower": 63086.975998
+      },
+      "reasons": [],
+      "data_quality": {
+        "valid_bars": 252,
+        "excluded_bars": 0,
+        "minimum_bars": 60,
+        "future_data_used": false
+      },
+      "method": "OHLC参考分析",
+      "method_note": "現在の相場状況と値動き幅の参考表示であり、買い・売り方向は示しません。"
+    },
+    "invalidation_conditions": {
+      "conditions": [
+        {
+          "label": "データ欠損",
+          "active": false
+        },
+        {
+          "label": "代理データ使用",
+          "active": false
+        },
+        {
+          "label": "価格更新停止",
+          "active": false
+        },
+        {
+          "label": "OHLC履歴不足",
+          "active": false
+        },
+        {
+          "label": "取得時刻不一致",
+          "active": false
+        },
+        {
+          "label": "時刻別検証対象外",
+          "active": false
+        },
+        {
+          "label": "指標一致度が低い",
+          "active": false
+        },
+        {
+          "label": "方向判定を保留",
+          "active": false
+        },
+        {
+          "label": "過去検証未通過",
+          "active": true
+        },
+        {
+          "label": "検証成果物不一致",
+          "active": false
+        }
+      ]
     }
   }
 }
