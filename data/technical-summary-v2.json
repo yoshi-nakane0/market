@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-09-27T13:00:11.602Z",
+  "generated_at": "2026-09-27T14:04:51.773Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -598,7 +598,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-27T12:47:03Z",
+    "source_updated_at": "2026-09-27T14:02:03Z",
     "state": "flat",
     "side": null,
     "reason": "直近5営業日の動きは 1,200 円（ATRの0.94倍）で、行き過ぎていません",
@@ -615,7 +615,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-09-27T12:47:03Z",
+    "source_updated_at": "2026-09-27T14:02:03Z",
     "state": "off",
     "reason": "きょうの引けで材料がそろったのは 0 個で、2 個に届いていません",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
@@ -626,12 +626,49 @@
     "sessions_left": null,
     "as_of": "2026-09-24T15:00:00Z"
   },
+  "five_day_odds": {
+    "status": "ok",
+    "status_label": "取得済み",
+    "source_updated_at": "2026-09-27T14:02:03Z",
+    "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
+    "as_of": "2026-09-24T15:00:00Z",
+    "horizon_sessions": 5,
+    "window_years": 10,
+    "window_start": "2016-09-25",
+    "materials": [
+      {
+        "key": "buy_setup",
+        "label": "売られすぎの形",
+        "active": false
+      },
+      {
+        "key": "oversold",
+        "label": "5日で下げすぎ",
+        "active": false
+      },
+      {
+        "key": "below_average",
+        "label": "200日平均より下",
+        "active": false
+      }
+    ],
+    "overbought": false,
+    "situation": "none",
+    "situation_label": "買いの材料が出ていない",
+    "samples": 722,
+    "up_count": 366,
+    "up_rate": 50.7,
+    "side": "long",
+    "side_rate": 50.7,
+    "reason": "直近10年で「買いの材料が出ていない」だった722日のうち、5営業日後に上がったのは366日（50.7%）"
+  },
   "notes": [
     "現在局面は確定済み日足から分類し、改善・悪化兆候とは分離しています。",
     "見通し信頼度は資産・期間ごとの方向指標の一致度であり、的中率ではありません。",
     "行き過ぎの寄りと買いの形は、VPSが大証の日中足から作った値をそのまま写しています。",
     "行き過ぎの寄りは向きだけで、注文の値段ではありません。",
     "買いの形は出ている間だけ買いへ寄せ、注文の値段は持ちません。",
+    "5営業日の成績は、いまと同じ状況だった直近10年の日に5営業日後に上がった割合です。",
     "売買を推奨する表示ではありません。"
   ]
 }
