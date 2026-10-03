@@ -1,6 +1,6 @@
 {
   "schema_version": "signal-summary-v1",
-  "generated_at": "2026-10-03T08:10:58.223Z",
+  "generated_at": "2026-10-03T08:47:59.185Z",
   "macro": null,
   "earnings": {
     "updated_at": "2026-08-31T13:00:54.317Z",
@@ -1528,6 +1528,42 @@
         "forecast": "201K"
       },
       {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-07-31",
+        "time": "12:11",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "BOJ Policy Rate",
+        "country": "JPY",
+        "date": "2026-07-31",
+        "time": "12:11",
+        "impact": "High",
+        "actual": "<1.00%",
+        "forecast": "<1.00%"
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "JPY",
+        "date": "2026-07-31",
+        "time": "12:11",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-07-31",
+        "time": "15:30",
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
         "title": "Employment Cost Index q/q",
         "country": "USD",
         "date": "2026-07-31",
@@ -2073,6 +2109,33 @@
         "date": "2026-09-17",
         "time": "21:30",
         "impact": "Medium",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "BOJ Policy Rate",
+        "country": "JPY",
+        "date": "2026-09-18",
+        "time": null,
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-09-18",
+        "time": null,
+        "impact": "High",
+        "actual": "",
+        "forecast": ""
+      },
+      {
+        "title": "Monetary Policy Statement",
+        "country": "JPY",
+        "date": "2026-09-18",
+        "time": null,
+        "impact": "High",
         "actual": "",
         "forecast": ""
       },
