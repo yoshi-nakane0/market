@@ -12,9 +12,9 @@
     "latest_article_date": "2026-08-21",
     "latest_article_age_days": 24,
     "window_days": 30,
-    "person_count": 5,
+    "person_count": 4,
     "covered_person_count": 3,
-    "report_count": 17
+    "report_count": 14
   },
   "conclusion": {
     "as_of_date": "2026-09-14",
@@ -32,10 +32,6 @@
       {
         "name": "Jan Hatzius",
         "reason": "対象期間内に一次情報なし"
-      },
-      {
-        "name": "Jeffrey deGraaf",
-        "reason": "対象期間内に一次情報なし"
       }
     ],
     "topic_breakdown": [
@@ -50,19 +46,19 @@
     "axis_breakdown": [],
     "previous": {
       "as_of_date": "2026-08-21",
-      "score": 2.8,
+      "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
-        "long": 2,
+        "long": 1,
         "short": 3
       }
     },
     "change": {
-      "score_delta": -0.2,
-      "direction": "down",
-      "label": "弱気方向へ"
+      "score_delta": 0.1,
+      "direction": "flat",
+      "label": "横ばい"
     },
     "scale": {
       "min": 1,
@@ -107,8 +103,8 @@
       }
     },
     {
-      "as_of_date": "2026-07-08",
-      "score": 2.6,
+      "as_of_date": "2026-07-21",
+      "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
       "included_person_count": 3,
@@ -118,73 +114,29 @@
       }
     },
     {
-      "as_of_date": "2026-07-21",
-      "score": 2.4,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 4,
-      "counts": {
-        "long": 1,
-        "short": 3
-      }
-    },
-    {
       "as_of_date": "2026-07-23",
-      "score": 2.4,
+      "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 4,
+      "included_person_count": 3,
       "counts": {
         "long": 1,
-        "short": 3
-      }
-    },
-    {
-      "as_of_date": "2026-07-25",
-      "score": 2.3,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 4,
-      "counts": {
-        "long": 1,
-        "short": 3
+        "short": 2
       }
     },
     {
       "as_of_date": "2026-07-26",
-      "score": 2.3,
+      "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 4,
+      "included_person_count": 3,
       "counts": {
         "long": 1,
-        "short": 3
+        "short": 2
       }
     },
     {
       "as_of_date": "2026-07-30",
-      "score": 2.0,
-      "stance": "short",
-      "label": "弱気",
-      "included_person_count": 4,
-      "counts": {
-        "long": 0,
-        "short": 4
-      }
-    },
-    {
-      "as_of_date": "2026-07-31",
-      "score": 2.0,
-      "stance": "short",
-      "label": "弱気",
-      "included_person_count": 4,
-      "counts": {
-        "long": 0,
-        "short": 4
-      }
-    },
-    {
-      "as_of_date": "2026-08-06",
       "score": 2.0,
       "stance": "short",
       "label": "弱気",
@@ -195,7 +147,51 @@
       }
     },
     {
+      "as_of_date": "2026-07-31",
+      "score": 2.0,
+      "stance": "short",
+      "label": "弱気",
+      "included_person_count": 3,
+      "counts": {
+        "long": 0,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-08-06",
+      "score": 2.0,
+      "stance": "short",
+      "label": "弱気",
+      "included_person_count": 2,
+      "counts": {
+        "long": 0,
+        "short": 2
+      }
+    },
+    {
       "as_of_date": "2026-08-08",
+      "score": 2.0,
+      "stance": "short",
+      "label": "弱気",
+      "included_person_count": 3,
+      "counts": {
+        "long": 0,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-08-13",
+      "score": 2.0,
+      "stance": "short",
+      "label": "弱気",
+      "included_person_count": 3,
+      "counts": {
+        "long": 0,
+        "short": 3
+      }
+    },
+    {
+      "as_of_date": "2026-08-15",
       "score": 2.0,
       "stance": "short",
       "label": "弱気",
@@ -206,7 +202,7 @@
       }
     },
     {
-      "as_of_date": "2026-08-13",
+      "as_of_date": "2026-08-16",
       "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
@@ -217,35 +213,13 @@
       }
     },
     {
-      "as_of_date": "2026-08-15",
-      "score": 2.4,
+      "as_of_date": "2026-08-21",
+      "score": 2.5,
       "stance": "short",
       "label": "やや弱気",
-      "included_person_count": 5,
+      "included_person_count": 4,
       "counts": {
         "long": 1,
-        "short": 4
-      }
-    },
-    {
-      "as_of_date": "2026-08-16",
-      "score": 2.8,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 5,
-      "counts": {
-        "long": 2,
-        "short": 3
-      }
-    },
-    {
-      "as_of_date": "2026-08-21",
-      "score": 2.8,
-      "stance": "short",
-      "label": "やや弱気",
-      "included_person_count": 5,
-      "counts": {
-        "long": 2,
         "short": 3
       }
     },
@@ -415,44 +389,6 @@
         "takahide-kiuchi-2026-07-23",
         "takahide-kiuchi-2026-07-21"
       ]
-    },
-    {
-      "id": "jeffrey-degraaf",
-      "name": "Jeffrey deGraaf",
-      "specialty": "株式テクニカル・市場内部",
-      "order": 5,
-      "included_in_conclusion": false,
-      "latest_article_id": "jeffrey-degraaf-2026-08-13",
-      "counted_article_id": null,
-      "article_count": 3,
-      "trend": {
-        "direction": "up",
-        "label": "弱気→強気に転換",
-        "streak": {
-          "stance": "long",
-          "count": 1
-        },
-        "sample_count": 3,
-        "points": [
-          {
-            "article_date": "2026-07-08",
-            "stance": "short"
-          },
-          {
-            "article_date": "2026-07-25",
-            "stance": "short"
-          },
-          {
-            "article_date": "2026-08-13",
-            "stance": "long"
-          }
-        ]
-      },
-      "article_ids": [
-        "jeffrey-degraaf-2026-08-13",
-        "jeffrey-degraaf-2026-07-25",
-        "jeffrey-degraaf-2026-07-08"
-      ]
     }
   ],
   "articles": [
@@ -556,31 +492,6 @@
       "source_type": "公式発表",
       "source_class": "直接引用",
       "source_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/markets-may-still-be-underestimating-ai-disruption"
-    },
-    {
-      "id": "jeffrey-degraaf-2026-08-13",
-      "person": "Jeffrey deGraaf",
-      "person_id": "jeffrey-degraaf",
-      "specialty": "株式テクニカル・市場内部",
-      "article_date": "2026-08-13",
-      "age_days": 32,
-      "title": "テック不安定化でヘルスケア株の相対優位を期待",
-      "target": "株式",
-      "period": "不明",
-      "stance": "long",
-      "stance_label": "強気",
-      "reason": "",
-      "confidence": "高",
-      "axes": [],
-      "body": "Jeffrey deGraafは、テクノロジー株が不安定になる局面ではヘルスケアが恩恵を受けやすいと述べた。ヘルスケアは長期にわたり市場を下回ってきたが、バイオテクノロジーと製薬を先導役に相対的な値動きが改善し、ライフサイエンスやサービス関連にも広がり始めているという。20日高値を更新する銘柄の増加が続けば、買いの広がりを確認できるとしている。",
-      "points": [
-        "ヘルスケアは長期の出遅れから、対市場での値動き改善が始まっている。",
-        "テック株の混乱は、ヘルスケアへ資金が向かう追い風になり得る。",
-        "バイオテクノロジーと製薬が先導し、20日高値更新銘柄の増加が続くかを重視している。"
-      ],
-      "source_type": "報道記事",
-      "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/08/12/healthcare-sector-looks-to-be-a-beneficiary-of-the-turbulence-in-tech-renaissance-macros-degraaf.html"
     },
     {
       "id": "jan-hatzius-2026-08-08",
@@ -710,33 +621,6 @@
       "source_url": "https://www.christophe-barraud.com/top-10-macro-financial-charts-of-the-week-w30-2026/"
     },
     {
-      "id": "jeffrey-degraaf-2026-07-25",
-      "person": "Jeffrey deGraaf",
-      "person_id": "jeffrey-degraaf",
-      "specialty": "株式テクニカル・市場内部",
-      "article_date": "2026-07-25",
-      "age_days": 51,
-      "title": "株式市場はモメンタム低下を警戒する局面",
-      "target": "株式",
-      "period": "短期",
-      "stance": "short",
-      "stance_label": "弱気",
-      "reason": "",
-      "confidence": "高",
-      "axes": [],
-      "body": "Jeffrey deGraaf氏は、現在の市場を「モメンタム・クラッシュ環境」と表現し、株式市場の上昇を支えてきた勢いが弱まり、方向が変化しているとの見方を示した。市場全体の急落を断定したものではなく、具体的な指数目標も示していないが、短期的なリスクへの警戒を促す発言である。株式は強気を維持するより、モメンタム低下を確認する局面と整理できる。",
-      "points": [
-        "現在の市場環境を『モメンタム・クラッシュ環境』と表現した。",
-        "株式市場の上昇を支えてきた勢いが弱まり、市場の方向が変化していると説明した。",
-        "発言の中心は株式市場のテクニカルな勢いと市場内部の変化であり、具体的な指数目標は示されていない。",
-        "市場全体の急落を断定するのではなく、短期的なリスクが高まっているとの警戒を示した。",
-        "株式については強気を維持するより、モメンタム低下を確認する局面と整理できる。"
-      ],
-      "source_type": "本人出演動画（CNBC）",
-      "source_class": "一次情報",
-      "source_url": "https://www.cnbc.com/video/2026/07/24/renaissances-jeff-degraaff-on-why-he-is-calling-the-moment-a-momentum-crash-environment-for-the-market.html"
-    },
-    {
       "id": "takahide-kiuchi-2026-07-23",
       "person": "木内登英",
       "person_id": "takahide-kiuchi",
@@ -787,31 +671,6 @@
       "source_type": "公式発表",
       "source_class": "直接引用",
       "source_url": "https://www.nri.com/jp/media/column/kiuchi/20260721.html"
-    },
-    {
-      "id": "jeffrey-degraaf-2026-07-08",
-      "person": "Jeffrey deGraaf",
-      "person_id": "jeffrey-degraaf",
-      "specialty": "株式テクニカル・市場内部",
-      "article_date": "2026-07-08",
-      "age_days": 68,
-      "title": "メモリー株にピークの兆候、短期は調整に注意",
-      "target": "株式",
-      "period": "短期",
-      "stance": "short",
-      "stance_label": "弱気",
-      "reason": "",
-      "confidence": "高",
-      "axes": [],
-      "body": "Jeffrey deGraafは、高モメンタム株の取引は終わっていないものの、2000年当時に近い極端な水準に達し、ベータ株・モメンタム株・低品質株が同じ取引に集中しているため、2026年夏の残りは調整や危険性に注意が必要と述べた。半導体株のファンダメンタルズは株価のピークより約2四半期遅れる傾向があり、Micronなどメモリー株の高い粗利益率もピーク時に見られる兆候と指摘した。一方、持続性の判断は今後1～2年では前向きでも、今後1～3カ月は大幅調整の可能性があるとした。",
-      "points": [
-        "高モメンタム株への資金集中と極端な上昇により、メモリー株には短期的な調整リスクがある",
-        "半導体の業績や需給の変化は株価に約2四半期遅れるため、業績が崩れる前に株価が警告を示す可能性がある",
-        "今後1～3カ月は弱気寄りだが、メモリー需要の持続性を含む長期的な投資見通しまで否定した発言ではない"
-      ],
-      "source_type": "その他",
-      "source_class": "直接引用",
-      "source_url": "https://www.cnbc.com/video/2026/07/06/some-signals-of-peaks-in-memory-stocks-renaissance-macros-degraaf.html"
     },
     {
       "id": "christophe-barraud-2026-07-07",
