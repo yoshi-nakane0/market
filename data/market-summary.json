@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:00:03.711Z",
+  "updated_at": "2026-10-13T02:40:03.543Z",
   "macro": {
     "date": "2026-10-13",
     "region": "米国",
@@ -96,8 +96,8 @@
     ]
   },
   "basecalc": {
-    "observation_time": "22:00 JST",
-    "market_status": "holiday",
+    "observation_time": "11:40 JST",
+    "market_status": "open",
     "prediction_kind": "collection_only",
     "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
     "analysis_permission": {
@@ -115,40 +115,24 @@
     },
     "usage_status": "使用不可",
     "operational_status": {
-      "stop_required": true,
-      "stop_reasons": [
-        "内部の安全条件により停止しています",
-        "価格更新が停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません"
-      ],
-      "analysis_stop_required": true,
-      "analysis_stop_reasons": [
-        "内部の安全条件により停止しています",
-        "価格更新が停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません"
-      ],
+      "stop_required": false,
+      "stop_reasons": [],
+      "analysis_stop_required": false,
+      "analysis_stop_reasons": [],
       "execution_stop_required": true,
       "execution_stop_reasons": [
         "売買コストを確認できません",
         "内部の安全条件により停止しています",
-        "価格更新が停止しています",
-        "最新取得を採用できません",
-        "最終成功から24時間以上経過しています",
-        "最新取得の分析状態を確認できません",
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-10-12T23:00:03.711Z",
-      "last_success_at": "2026-10-10T13:00:04.270Z",
-      "data_age_minutes": 3480,
+      "latest_attempt_at": "2026-10-13T02:40:03.543Z",
+      "last_success_at": "2026-10-13T02:40:03.543Z",
+      "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-10-11T13:00:04.270Z",
-      "latest_attempt_accepted": false,
-      "latest_attempt_matches_current": false,
+      "expires_at": "2026-10-14T02:40:03.543Z",
+      "latest_attempt_accepted": true,
+      "latest_attempt_matches_current": true,
       "artifact_consistent": true,
       "model_version": "basecalc_technical_regime_2026_07_13_v2",
       "expected_model_version": "basecalc_technical_regime_2026_07_13_v2"
@@ -159,41 +143,41 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-10-10T13:00:04.270Z",
+      "captured_at": "2026-10-13T02:40:03.543Z",
       "values": [
         {
           "code": "NK225_FUT",
           "label": "日経先物",
-          "value": 69470,
-          "source_timestamp": "2026-10-09T15:45:00+09:00",
+          "value": 68970,
+          "source_timestamp": "2026-10-10T06:00:00+09:00",
           "status": "acquired"
         },
         {
           "code": "NYDOW",
           "label": "NYDOW",
-          "value": 51654.94921875,
-          "source_timestamp": "2026-10-09T20:00:00.000Z",
+          "value": 51850.55078125,
+          "source_timestamp": "2026-10-12T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "SP500",
           "label": "S&P500",
-          "value": 7811.5400390625,
-          "source_timestamp": "2026-10-09T20:00:00.000Z",
+          "value": 7807.240234375,
+          "source_timestamp": "2026-10-12T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "NASDAQ",
           "label": "NASDAQ",
-          "value": 27366.169921875,
-          "source_timestamp": "2026-10-09T20:00:00.000Z",
+          "value": 27245.90234375,
+          "source_timestamp": "2026-10-12T20:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 158.24600219726562,
-          "source_timestamp": "2026-10-09T20:59:00.000Z",
+          "value": 158.22500610351562,
+          "source_timestamp": "2026-10-13T02:40:02.000Z",
           "status": "acquired"
         }
       ]
