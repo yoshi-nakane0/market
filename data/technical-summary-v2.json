@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-10-14T23:00:11.970Z",
+  "generated_at": "2026-10-15T02:40:13.738Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-10-14までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-10-14T23:00:04.413Z",
-    "latest_attempt_at": "2026-10-14T23:00:04.413Z",
-    "stale_after": "2026-10-15T23:00:04.413Z",
+    "last_success_at": "2026-10-15T02:40:06.599Z",
+    "latest_attempt_at": "2026-10-15T02:40:06.599Z",
+    "stale_after": "2026-10-16T02:40:06.599Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -600,7 +600,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-14T22:47:02Z",
+    "source_updated_at": "2026-10-15T02:32:04Z",
     "state": "long",
     "side": "long",
     "reason": "直近5営業日で 2,940 円の下げすぎ（ATRの2.36倍）。次の5営業日は買いへ寄ります",
@@ -617,7 +617,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-14T22:47:02Z",
+    "source_updated_at": "2026-10-15T02:32:04Z",
     "state": "off",
     "reason": "きょうの引けで材料がそろったのは 1 個で、2 個に届いていません",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
@@ -631,7 +631,7 @@
   "buy_lots": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-14T22:47:02Z",
+    "source_updated_at": "2026-10-15T02:32:04Z",
     "as_of": "2026-10-12T15:00:00Z",
     "action": "buy",
     "action_basis": "reversal",
@@ -653,7 +653,7 @@
   "sell_lot": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-14T22:47:02Z",
+    "source_updated_at": "2026-10-15T02:32:04Z",
     "as_of": "2026-10-12T15:00:00Z",
     "action": "none",
     "holding": false,
@@ -664,7 +664,7 @@
   "five_day_odds": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-14T22:47:02Z",
+    "source_updated_at": "2026-10-15T02:32:04Z",
     "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
     "as_of": "2026-10-12T15:00:00Z",
     "horizon_sessions": 5,
