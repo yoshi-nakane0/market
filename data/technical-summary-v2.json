@@ -1,16 +1,16 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-10-19T02:40:08.748Z",
+  "generated_at": "2026-10-19T07:40:08.611Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
     "label": "正常",
-    "analysis_basis": "2026-10-16までの資産別確定日足",
+    "analysis_basis": "2026-10-19までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-10-19T02:40:03.250Z",
-    "latest_attempt_at": "2026-10-19T02:40:03.250Z",
-    "stale_after": "2026-10-20T02:40:03.250Z",
+    "last_success_at": "2026-10-19T07:40:03.443Z",
+    "latest_attempt_at": "2026-10-19T07:40:03.443Z",
+    "stale_after": "2026-10-20T07:40:03.443Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -19,15 +19,14 @@
     "asset_code": "NK225_FUT",
     "asset_label": "日経先物",
     "current_phase": {
-      "key": "downturn_transition",
-      "label": "下落転換",
+      "key": "range",
+      "label": "レンジ",
       "confirmed": true,
-      "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
+      "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
       "reasons": [
         "価格は20日平均を下回っています。",
         "20日平均は50日平均を上回っています。",
-        "MACDの勢いは下向きです。",
-        "方向の強さは弱い水準です。"
+        "MACDの勢いは下向きです。"
       ]
     },
     "change_signals": {
@@ -53,19 +52,18 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 63630,
+      "price": 64980,
       "price_type": "清算値",
-      "as_of": "2026-10-16",
+      "as_of": "2026-10-19",
       "current_phase": {
-        "key": "downturn_transition",
-        "label": "下落転換",
+        "key": "range",
+        "label": "レンジ",
         "confirmed": true,
-        "summary": "下向きの材料がそろい、下落局面への移行を確認しました。",
+        "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
         "reasons": [
           "価格は20日平均を下回っています。",
           "20日平均は50日平均を上回っています。",
-          "MACDの勢いは下向きです。",
-          "方向の強さは弱い水準です。"
+          "MACDの勢いは下向きです。"
         ]
       },
       "change_signals": {
@@ -85,9 +83,9 @@
         }
       },
       "direction_scores": {
-        "long": 22,
-        "range": 42,
-        "short": 36,
+        "long": 39,
+        "range": 44,
+        "short": 17,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -98,7 +96,7 @@
           "direction_label": "下落",
           "confidence": "high",
           "confidence_label": "高",
-          "confidence_score": 83,
+          "confidence_score": 88,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
           "summary": "短期の勢いから下落を基本とします。",
           "reasons": [
@@ -106,48 +104,48 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 71,510 を終値で上回る"
+          "change_condition": "抵抗線 71,020 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
           "label": "1か月",
-          "direction": "bearish",
-          "direction_label": "下落",
-          "confidence": "medium",
-          "confidence_label": "中",
-          "confidence_score": 53,
+          "direction": "neutral",
+          "direction_label": "横ばい",
+          "confidence": "high",
+          "confidence_label": "高",
+          "confidence_score": 82,
           "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "中期の平均線構造から下落を基本とします。",
+          "summary": "中期の平均線構造から横ばいを基本とします。",
           "reasons": [
             "20日・50日平均が上向き",
-            "現在局面が下向き",
-            "DMIが下向き"
+            "DMIが下向き",
+            "価格と20日平均が下向き"
           ],
-          "change_condition": "抵抗線 71,510 を終値で上回る"
+          "change_condition": "支持線 64,240 または抵抗線 71,020 を終値で抜ける"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 67036.590912,
-          "ema50": 66548.940484,
-          "rsi14": 36.357,
-          "macd": 98.155006,
-          "macd_signal": 618.518052,
-          "macd_histogram": -520.363046,
-          "atr14": 1412.797302,
-          "atr_percent": 2.22,
-          "adx14": 17.614,
-          "plus_di14": 21.142,
-          "minus_di14": 40.621,
-          "bollinger_upper": 71171.432733,
-          "bollinger_middle": 67447.5,
-          "bollinger_lower": 63723.567267,
-          "bollinger_bandwidth": 11.042,
-          "roc10": -8.787
+          "ema20": 67140.707473,
+          "ema50": 66638.509165,
+          "rsi14": 41.313,
+          "macd": 91.112488,
+          "macd_signal": 590.954733,
+          "macd_histogram": -499.842245,
+          "atr14": 1419.213955,
+          "atr_percent": 2.184,
+          "adx14": 19.531,
+          "plus_di14": 21.146,
+          "minus_di14": 43.224,
+          "bollinger_upper": 71360.162251,
+          "bollinger_middle": 67573.5,
+          "bollinger_lower": 63786.837749,
+          "bollinger_bandwidth": 11.208,
+          "roc10": -7.291
         },
         "levels": {
-          "support": 64190,
-          "resistance": 71510
+          "support": 64240,
+          "resistance": 71020
         },
         "data_quality": {
           "valid_bars": 252,
@@ -596,7 +594,7 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-19T02:32:02Z",
+    "source_updated_at": "2026-10-19T07:32:02Z",
     "state": "long",
     "side": "long",
     "reason": "直近5営業日で 3,950 円の下げすぎ（ATRの2.84倍）。次の5営業日は買いへ寄ります",
@@ -613,7 +611,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-19T02:32:02Z",
+    "source_updated_at": "2026-10-19T07:32:02Z",
     "state": "on",
     "reason": "2026-10-15 に形が出て 2026-10-16 の始値 65,460 で買い。1 日目で、あと 9 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
@@ -627,7 +625,7 @@
   "buy_lots": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-19T02:32:02Z",
+    "source_updated_at": "2026-10-19T07:32:02Z",
     "as_of": "2026-10-15T15:00:00Z",
     "action": "buy",
     "action_basis": "reversal",
@@ -676,7 +674,7 @@
   "sell_lot": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-19T02:32:02Z",
+    "source_updated_at": "2026-10-19T07:32:02Z",
     "as_of": "2026-10-15T15:00:00Z",
     "action": "none",
     "holding": false,
@@ -687,7 +685,7 @@
   "five_day_odds": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-19T02:32:02Z",
+    "source_updated_at": "2026-10-19T07:32:02Z",
     "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
     "as_of": "2026-10-15T15:00:00Z",
     "horizon_sessions": 5,
