@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-10-28T07:40:09.160Z",
+  "generated_at": "2026-10-28T13:00:09.360Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-10-28までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-10-28T07:40:03.534Z",
-    "latest_attempt_at": "2026-10-28T07:40:03.534Z",
-    "stale_after": "2026-10-29T07:40:03.534Z",
+    "last_success_at": "2026-10-28T13:00:03.443Z",
+    "latest_attempt_at": "2026-10-28T13:00:03.443Z",
+    "stale_after": "2026-10-29T13:00:03.443Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -596,15 +596,15 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-28T07:32:03Z",
+    "source_updated_at": "2026-10-28T12:47:03Z",
     "state": "flat",
     "side": null,
-    "reason": "直近5営業日の動きは -900 円（ATRの0.64倍）で、行き過ぎていません",
-    "close": 63500,
-    "reference": 64400,
-    "move": -900,
-    "move_atr": -0.64,
-    "as_of": "2026-10-26T15:00:00Z",
+    "reason": "直近5営業日の動きは -250 円（ATRの0.18倍）で、行き過ぎていません",
+    "close": 64530,
+    "reference": 64780,
+    "move": -250,
+    "move_atr": -0.18,
+    "as_of": "2026-10-27T15:00:00Z",
     "lookback_sessions": 5,
     "threshold_atr": 1,
     "horizon_sessions": 5,
@@ -613,26 +613,26 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-28T07:32:03Z",
+    "source_updated_at": "2026-10-28T12:47:03Z",
     "state": "on",
-    "reason": "2026-10-15 に形が出て 2026-10-16 の始値 65,460 で買い。8 日目で、あと 2 営業日持ちます",
+    "reason": "2026-10-15 に形が出て 2026-10-16 の始値 65,460 で買い。9 日目で、あと 1 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
     "hold_sessions": 10,
     "fired_on": "2026-10-15",
     "entered_on": "2026-10-16",
-    "sessions_held": 8,
-    "sessions_left": 2,
-    "as_of": "2026-10-26T15:00:00Z"
+    "sessions_held": 9,
+    "sessions_left": 1,
+    "as_of": "2026-10-27T15:00:00Z"
   },
   "buy_lots": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-28T07:32:03Z",
-    "as_of": "2026-10-26T15:00:00Z",
+    "source_updated_at": "2026-10-28T12:47:03Z",
+    "as_of": "2026-10-27T15:00:00Z",
     "action": "none",
     "action_basis": null,
     "max_lots": 5,
-    "holding_count": 4,
+    "holding_count": 3,
     "fresh_count": 0,
     "lots": [
       {
@@ -642,15 +642,6 @@
         "signal_on": "2026-10-15",
         "entered_on": "2026-10-16",
         "exit_on": "2026-10-29",
-        "sessions_left": 2
-      },
-      {
-        "basis": "reversal",
-        "stage": "holding",
-        "fresh": false,
-        "signal_on": "2026-10-21",
-        "entered_on": "2026-10-22",
-        "exit_on": "2026-10-28",
         "sessions_left": 1
       },
       {
@@ -660,7 +651,7 @@
         "signal_on": "2026-10-23",
         "entered_on": "2026-10-26",
         "exit_on": "2026-10-30",
-        "sessions_left": 3
+        "sessions_left": 2
       },
       {
         "basis": "reversal",
@@ -669,15 +660,15 @@
         "signal_on": "2026-10-26",
         "entered_on": "2026-10-27",
         "exit_on": "2026-11-02",
-        "sessions_left": 4
+        "sessions_left": 3
       }
     ]
   },
   "sell_lot": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-28T07:32:03Z",
-    "as_of": "2026-10-26T15:00:00Z",
+    "source_updated_at": "2026-10-28T12:47:03Z",
+    "as_of": "2026-10-27T15:00:00Z",
     "action": "none",
     "holding": false,
     "signal_on": null,
@@ -687,12 +678,12 @@
   "five_day_odds": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-10-28T07:32:03Z",
+    "source_updated_at": "2026-10-28T12:47:03Z",
     "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
-    "as_of": "2026-10-26T15:00:00Z",
+    "as_of": "2026-10-27T15:00:00Z",
     "horizon_sessions": 5,
     "window_years": 10,
-    "window_start": "2016-10-27",
+    "window_start": "2016-10-28",
     "materials": [
       {
         "key": "buy_setup",
