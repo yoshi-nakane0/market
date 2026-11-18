@@ -1,19 +1,21 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-11-18T13:00:10.935Z",
+  "generated_at": "2026-11-18T23:00:11.214Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
-    "status": "ok",
-    "label": "正常",
+    "status": "partial",
+    "label": "一部データ不足",
     "analysis_basis": "2026-11-18までの資産別確定日足",
     "price_type": "清算値・終値",
-    "next_update": "次営業日",
-    "last_success_at": "2026-11-18T13:00:04.122Z",
-    "latest_attempt_at": "2026-11-18T13:00:04.122Z",
-    "stale_after": "2026-11-19T13:00:04.122Z",
-    "available_asset_count": 5,
+    "next_update": "不足データの再取得待ち",
+    "last_success_at": "2026-11-18T23:00:04.908Z",
+    "latest_attempt_at": "2026-11-18T23:00:04.908Z",
+    "stale_after": "2026-11-19T23:00:04.908Z",
+    "available_asset_count": 4,
     "required_asset_count": 5,
-    "stop_reasons": []
+    "stop_reasons": [
+      "USDJPYの日足不足"
+    ]
   },
   "primary_assessment": {
     "asset_code": "NK225_FUT",
@@ -53,7 +55,7 @@
       "label": "日経先物",
       "status": "available",
       "status_label": "取得済み",
-      "price": 59250,
+      "price": 58880,
       "price_type": "清算値",
       "as_of": "2026-11-18",
       "current_phase": {
@@ -85,9 +87,9 @@
         }
       },
       "direction_scores": {
-        "long": 23,
+        "long": 22,
         "range": 37,
-        "short": 40,
+        "short": 41,
         "metric_kind": "directional_fit_not_probability"
       },
       "forecasts": {
@@ -106,7 +108,7 @@
             "MACDが下向き",
             "10日騰落が下向き"
           ],
-          "change_condition": "抵抗線 65,540 を終値で上回る"
+          "change_condition": "抵抗線 65,500 を終値で上回る"
         },
         "one_month": {
           "horizon": "one_month",
@@ -123,31 +125,31 @@
             "現在局面が下向き",
             "DMIが下向き"
           ],
-          "change_condition": "抵抗線 65,540 を終値で上回る"
+          "change_condition": "抵抗線 65,500 を終値で上回る"
         }
       },
       "details": {
         "indicators": {
-          "ema20": 61567.292033,
-          "ema50": 63590.059954,
-          "rsi14": 38.257,
-          "macd": -1589.481728,
-          "macd_signal": -1488.813217,
-          "macd_histogram": -100.668512,
-          "atr14": 1664.459796,
-          "atr_percent": 2.809,
-          "adx14": 30.453,
-          "plus_di14": 21.059,
-          "minus_di14": 36.81,
-          "bollinger_upper": 65514.327963,
-          "bollinger_middle": 61570.5,
-          "bollinger_lower": 57626.672037,
-          "bollinger_bandwidth": 12.811,
-          "roc10": -5.124
+          "ema20": 61499.15528,
+          "ema50": 63509.59711,
+          "rsi14": 37.798,
+          "macd": -1578.305401,
+          "macd_signal": -1444.451853,
+          "macd_histogram": -133.853548,
+          "atr14": 1719.789112,
+          "atr_percent": 2.921,
+          "adx14": 29.214,
+          "plus_di14": 18.735,
+          "minus_di14": 36.501,
+          "bollinger_upper": 65604.110568,
+          "bollinger_middle": 61498,
+          "bollinger_lower": 57391.889432,
+          "bollinger_bandwidth": 13.354,
+          "roc10": -6.703
         },
         "levels": {
-          "support": 56510,
-          "resistance": 65540
+          "support": 57360,
+          "resistance": 65500
         },
         "data_quality": {
           "valid_bars": 252,
@@ -238,10 +240,10 @@
       "details": {
         "indicators": {
           "ema20": 51985.630634,
-          "ema50": 52069.823405,
+          "ema50": 52069.830892,
           "rsi14": 39.438,
-          "macd": -96.560315,
-          "macd_signal": 15.578906,
+          "macd": -96.560316,
+          "macd_signal": 15.578905,
           "macd_histogram": -112.139221,
           "atr14": 712.637889,
           "atr_percent": 1.404,
@@ -259,7 +261,7 @@
           "resistance": 53710.609375
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -347,7 +349,7 @@
       "details": {
         "indicators": {
           "ema20": 7560.0767,
-          "ema50": 7615.527884,
+          "ema50": 7615.52873,
           "rsi14": 37.209,
           "macd": -64.454679,
           "macd_signal": -47.643129,
@@ -368,7 +370,7 @@
           "resistance": 7770.399902
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -456,10 +458,10 @@
       "details": {
         "indicators": {
           "ema20": 25409.207722,
-          "ema50": 25920.747019,
+          "ema50": 25920.751355,
           "rsi14": 35.656,
-          "macd": -478.059174,
-          "macd_signal": -410.334574,
+          "macd": -478.059175,
+          "macd_signal": -410.334575,
           "macd_histogram": -67.7246,
           "atr14": 547.473681,
           "atr_percent": 2.25,
@@ -477,7 +479,7 @@
           "resistance": 26778.900391
         },
         "data_quality": {
-          "valid_bars": 251,
+          "valid_bars": 250,
           "excluded_bars": 0,
           "minimum_bars": 60,
           "future_data_used": false
@@ -487,116 +489,22 @@
     {
       "code": "USDJPY",
       "label": "USDJPY",
-      "status": "available",
-      "status_label": "取得済み",
+      "status": "unavailable",
+      "status_label": "価格更新停止",
       "price": 159.522995,
       "price_type": "終値",
-      "as_of": "2026-11-17",
-      "current_phase": {
-        "key": "range",
-        "label": "レンジ",
-        "confirmed": true,
-        "summary": "上昇・下落のどちらも確定せず、往来が中心です。",
-        "reasons": [
-          "価格は20日平均を上回っています。",
-          "20日平均は50日平均を上回っています。",
-          "MACDの勢いは上向きです。"
-        ]
-      },
-      "change_signals": {
-        "improvement": {
-          "active": true,
-          "label": "改善兆候あり",
-          "triggers": [
-            "MACDの勢いが上向き",
-            "10日騰落がプラス",
-            "+DIが-DIを上回る"
-          ]
-        },
-        "deterioration": {
-          "active": false,
-          "label": "悪化兆候は未確定",
-          "triggers": []
-        }
-      },
-      "direction_scores": {
-        "long": 15,
-        "range": 47,
-        "short": 38,
-        "metric_kind": "directional_fit_not_probability"
-      },
-      "forecasts": {
-        "two_weeks": {
-          "horizon": "two_weeks",
-          "label": "2週間",
-          "direction": "bullish",
-          "direction_label": "上昇",
-          "confidence": "high",
-          "confidence_label": "高",
-          "confidence_score": 89,
-          "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "短期の勢いから上昇を基本とします。",
-          "reasons": [
-            "価格と20日平均が上向き",
-            "MACDが上向き",
-            "10日騰落が上向き"
-          ],
-          "change_condition": "支持線 156.1 を終値で下回る"
-        },
-        "one_month": {
-          "horizon": "one_month",
-          "label": "1か月",
-          "direction": "bullish",
-          "direction_label": "上昇",
-          "confidence": "high",
-          "confidence_label": "高",
-          "confidence_score": 83,
-          "confidence_basis": "この資産・期間で方向指標が一致している度合い",
-          "summary": "中期の平均線構造から上昇を基本とします。",
-          "reasons": [
-            "20日・50日平均が上向き",
-            "DMIが上向き",
-            "価格と20日平均が上向き"
-          ],
-          "change_condition": "支持線 156.1 を終値で下回る"
-        }
-      },
-      "details": {
-        "indicators": {
-          "ema20": 158.538512,
-          "ema50": 158.262038,
-          "rsi14": 60.224,
-          "macd": 0.471555,
-          "macd_signal": 0.274603,
-          "macd_histogram": 0.196952,
-          "atr14": 0.983713,
-          "atr_percent": 0.617,
-          "adx14": 11.337,
-          "plus_di14": 19.379,
-          "minus_di14": 18.017,
-          "bollinger_upper": 160.035573,
-          "bollinger_middle": 158.234499,
-          "bollinger_lower": 156.433426,
-          "bollinger_bandwidth": 2.276,
-          "roc10": 1.018
-        },
-        "levels": {
-          "support": 156.095993,
-          "resistance": 160.175995
-        },
-        "data_quality": {
-          "valid_bars": 245,
-          "excluded_bars": 14,
-          "minimum_bars": 60,
-          "future_data_used": false
-        }
-      }
+      "as_of": "2026-11-18T15:52:53.000Z",
+      "current_phase": null,
+      "change_signals": null,
+      "direction_scores": null,
+      "forecasts": null,
+      "details": null
     }
   ],
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-18T12:47:03Z",
+    "source_updated_at": "2026-11-18T22:47:02Z",
     "state": "long",
     "side": "long",
     "reason": "直近5営業日で 2,190 円の下げすぎ（ATRの1.32倍）。次の5営業日は買いへ寄ります",
@@ -613,7 +521,7 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-18T12:47:03Z",
+    "source_updated_at": "2026-11-18T22:47:02Z",
     "state": "off",
     "reason": "きょうの引けで材料がそろったのは 1 個で、2 個に届いていません",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
@@ -627,7 +535,7 @@
   "buy_lots": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-18T12:47:03Z",
+    "source_updated_at": "2026-11-18T22:47:02Z",
     "as_of": "2026-11-17T15:00:00Z",
     "action": "buy",
     "action_basis": "reversal",
@@ -642,7 +550,7 @@
         "signal_on": "2026-11-12",
         "entered_on": "2026-11-12",
         "exit_on": "2026-11-20",
-        "sessions_left": 2
+        "sessions_left": 1
       },
       {
         "basis": "one_hour",
@@ -651,7 +559,7 @@
         "signal_on": "2026-11-16",
         "entered_on": "2026-11-16",
         "exit_on": "2026-11-24",
-        "sessions_left": 4
+        "sessions_left": 3
       },
       {
         "basis": "reversal",
@@ -667,7 +575,7 @@
   "sell_lot": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-18T12:47:03Z",
+    "source_updated_at": "2026-11-18T22:47:02Z",
     "as_of": "2026-11-17T15:00:00Z",
     "action": "none",
     "holding": false,
@@ -678,7 +586,7 @@
   "five_day_odds": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-18T12:47:03Z",
+    "source_updated_at": "2026-11-18T22:47:02Z",
     "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
     "as_of": "2026-11-17T15:00:00Z",
     "horizon_sessions": 5,
