@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-23T13:00:05.993Z",
+  "updated_at": "2026-11-23T23:00:04.230Z",
   "macro": {
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "region": "米国",
     "regime": "物価減速つき景気減速",
-    "risk_score": "-17",
-    "summary": "成長は鈍化、物価は沈静化、金融政策は高金利です。外部環境は有利、市場心理は警戒です。現在のマクロ状態は物価減速つき景気減速です。",
+    "risk_score": "-26",
+    "summary": "成長は鈍化、物価は沈静化、金融政策は高金利です。外部環境は不利、市場心理は警戒です。現在のマクロ状態は物価減速つき景気減速です。",
     "asset_bias": [
       {
         "label": "上昇",
-        "value": "46%",
+        "value": "43%",
         "tone": "positive"
       },
       {
         "label": "下落",
-        "value": "54%",
+        "value": "57%",
         "tone": "negative"
       }
     ],
@@ -46,12 +46,12 @@
       },
       {
         "label": "外部環境",
-        "value": 50,
-        "tone": "positive"
+        "value": 35,
+        "tone": "negative"
       },
       {
         "label": "市場心理",
-        "value": 40,
+        "value": 33,
         "tone": "negative"
       }
     ],
@@ -63,16 +63,16 @@
         "Retail Salesがプラスに寄与"
       ],
       "risk": [
-        "10Y Treasury Yieldが強くマイナスに寄与",
-        "Mortgage Rateが強くマイナスに寄与",
-        "2Y Treasury Yieldが強くマイナスに寄与"
+        "VIXが強くマイナスに寄与",
+        "Broad U.S. Dollar Indexが強くマイナスに寄与",
+        "10Y Treasury Yieldが強くマイナスに寄与"
       ]
     },
     "world_state": [],
     "data_quality": {
-      "status": "warn",
+      "status": "pass",
       "coverage": 1,
-      "stale_series_count": 1,
+      "stale_series_count": 0,
       "critical_missing_count": 0,
       "vintage_integrity": "verified"
     },
@@ -142,9 +142,9 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-11-23T13:00:05.993Z",
+      "latest_attempt_at": "2026-11-23T23:00:04.230Z",
       "last_success_at": "2026-11-21T13:00:05.108Z",
-      "data_age_minutes": 2880,
+      "data_age_minutes": 3480,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-11-22T13:00:05.108Z",
       "latest_attempt_accepted": false,
