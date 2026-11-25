@@ -1,8 +1,8 @@
 {
   "schema_version": "basecalc-v1",
-  "updated_at": "2026-11-24T13:00:04.731Z",
+  "updated_at": "2026-11-25T02:40:06.357Z",
   "basecalc": {
-    "observation_time": "22:00 JST",
+    "observation_time": "11:40 JST",
     "market_status": "open",
     "prediction_kind": "collection_only",
     "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
@@ -32,11 +32,11 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-11-24T13:00:04.731Z",
-      "last_success_at": "2026-11-24T13:00:04.731Z",
+      "latest_attempt_at": "2026-11-25T02:40:06.357Z",
+      "last_success_at": "2026-11-25T02:40:06.357Z",
       "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-11-25T13:00:04.731Z",
+      "expires_at": "2026-11-26T02:40:06.357Z",
       "latest_attempt_accepted": true,
       "latest_attempt_matches_current": true,
       "artifact_consistent": true,
@@ -49,41 +49,41 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-11-24T13:00:04.731Z",
+      "captured_at": "2026-11-25T02:40:06.357Z",
       "values": [
         {
           "code": "NK225_FUT",
           "label": "日経先物",
-          "value": 58980,
-          "source_timestamp": "2026-11-24T15:45:00+09:00",
+          "value": 57370,
+          "source_timestamp": "2026-11-25T06:00:00+09:00",
           "status": "acquired"
         },
         {
           "code": "NYDOW",
           "label": "NYDOW",
-          "value": 49595.30859375,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 50018.69921875,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "SP500",
           "label": "S&P500",
-          "value": 7237.169921875,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 7201.08984375,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "NASDAQ",
           "label": "NASDAQ",
-          "value": 24089.55859375,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 23733.53515625,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 159.1490020751953,
-          "source_timestamp": "2026-11-24T13:00:05.000Z",
+          "value": 159.22300720214844,
+          "source_timestamp": "2026-11-25T02:40:06.000Z",
           "status": "acquired"
         }
       ]

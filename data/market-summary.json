@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-11-24T13:00:04.731Z",
+  "updated_at": "2026-11-25T02:40:06.357Z",
   "macro": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "region": "米国",
     "regime": "物価減速つき景気減速",
-    "risk_score": "-26",
+    "risk_score": "-21",
     "summary": "成長は鈍化、物価は沈静化、金融政策は高金利です。外部環境は不利、市場心理は警戒です。現在のマクロ状態は物価減速つき景気減速です。",
     "asset_bias": [
       {
         "label": "上昇",
-        "value": "43%",
+        "value": "45%",
         "tone": "positive"
       },
       {
         "label": "下落",
-        "value": "57%",
+        "value": "55%",
         "tone": "negative"
       }
     ],
@@ -41,7 +41,7 @@
       },
       {
         "label": "金融環境",
-        "value": 52,
+        "value": 51,
         "tone": "positive"
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "label": "市場心理",
-        "value": 33,
+        "value": 42,
         "tone": "negative"
       }
     ],
@@ -63,9 +63,9 @@
         "Retail Salesがプラスに寄与"
       ],
       "risk": [
-        "VIXが強くマイナスに寄与",
         "Broad U.S. Dollar Indexが強くマイナスに寄与",
-        "10Y Treasury Yieldが強くマイナスに寄与"
+        "10Y Treasury Yieldが強くマイナスに寄与",
+        "Mortgage Rateが強くマイナスに寄与"
       ]
     },
     "world_state": [],
@@ -96,7 +96,7 @@
     ]
   },
   "basecalc": {
-    "observation_time": "22:00 JST",
+    "observation_time": "11:40 JST",
     "market_status": "open",
     "prediction_kind": "collection_only",
     "summary": "有効なOHLC分析を確認できないため、方向判定を停止しています。",
@@ -126,11 +126,11 @@
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-11-24T13:00:04.731Z",
-      "last_success_at": "2026-11-24T13:00:04.731Z",
+      "latest_attempt_at": "2026-11-25T02:40:06.357Z",
+      "last_success_at": "2026-11-25T02:40:06.357Z",
       "data_age_minutes": 0,
       "max_data_age_minutes": 1440,
-      "expires_at": "2026-11-25T13:00:04.731Z",
+      "expires_at": "2026-11-26T02:40:06.357Z",
       "latest_attempt_accepted": true,
       "latest_attempt_matches_current": true,
       "artifact_consistent": true,
@@ -143,41 +143,41 @@
       "fresh_complete": true,
       "acquired_count": 5,
       "required_count": 5,
-      "captured_at": "2026-11-24T13:00:04.731Z",
+      "captured_at": "2026-11-25T02:40:06.357Z",
       "values": [
         {
           "code": "NK225_FUT",
           "label": "日経先物",
-          "value": 58980,
-          "source_timestamp": "2026-11-24T15:45:00+09:00",
+          "value": 57370,
+          "source_timestamp": "2026-11-25T06:00:00+09:00",
           "status": "acquired"
         },
         {
           "code": "NYDOW",
           "label": "NYDOW",
-          "value": 49595.30859375,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 50018.69921875,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "SP500",
           "label": "S&P500",
-          "value": 7237.169921875,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 7201.08984375,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "NASDAQ",
           "label": "NASDAQ",
-          "value": 24089.55859375,
-          "source_timestamp": "2026-11-23T21:00:00.000Z",
+          "value": 23733.53515625,
+          "source_timestamp": "2026-11-24T21:00:00.000Z",
           "status": "acquired"
         },
         {
           "code": "USDJPY",
           "label": "USDJPY",
-          "value": 159.1490020751953,
-          "source_timestamp": "2026-11-24T13:00:05.000Z",
+          "value": 159.22300720214844,
+          "source_timestamp": "2026-11-25T02:40:06.000Z",
           "status": "acquired"
         }
       ]
