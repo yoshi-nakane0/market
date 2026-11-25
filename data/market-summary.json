@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T13:00:04.096Z",
+  "updated_at": "2026-11-25T23:00:09.621Z",
   "macro": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "region": "米国",
     "regime": "物価減速つき景気減速",
     "risk_score": "-21",
@@ -21,18 +21,18 @@
     "state_scores": [
       {
         "label": "成長",
-        "value": 48,
+        "value": 49,
         "tone": "negative"
       },
       {
         "label": "物価",
-        "value": 51,
+        "value": 50,
         "tone": "positive"
       },
       {
         "label": "雇用",
-        "value": 49,
-        "tone": "negative"
+        "value": 50,
+        "tone": "positive"
       },
       {
         "label": "金融政策",
@@ -41,17 +41,17 @@
       },
       {
         "label": "金融環境",
-        "value": 51,
+        "value": 50,
         "tone": "positive"
       },
       {
         "label": "外部環境",
-        "value": 35,
+        "value": 38,
         "tone": "negative"
       },
       {
         "label": "市場心理",
-        "value": 42,
+        "value": 41,
         "tone": "negative"
       }
     ],
@@ -60,7 +60,7 @@
       "support": [
         "Moody's Baa Corporate Bond Spread to 10Y Treasuryが強くプラスに寄与",
         "Average Hourly Earningsがプラスに寄与",
-        "Retail Salesがプラスに寄与"
+        "WTI Crude Oilがプラスに寄与"
       ],
       "risk": [
         "Broad U.S. Dollar Indexが強くマイナスに寄与",
@@ -115,24 +115,37 @@
     },
     "usage_status": "使用不可",
     "operational_status": {
-      "stop_required": false,
-      "stop_reasons": [],
-      "analysis_stop_required": false,
-      "analysis_stop_reasons": [],
+      "stop_required": true,
+      "stop_reasons": [
+        "内部の安全条件により停止しています",
+        "価格更新が停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません"
+      ],
+      "analysis_stop_required": true,
+      "analysis_stop_reasons": [
+        "内部の安全条件により停止しています",
+        "価格更新が停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません"
+      ],
       "execution_stop_required": true,
       "execution_stop_reasons": [
         "売買コストを確認できません",
         "内部の安全条件により停止しています",
+        "価格更新が停止しています",
+        "最新取得を採用できません",
+        "最新取得の分析状態を確認できません",
         "売買実行の安全条件を満たしていません",
         "最新取得の売買実行状態を確認できません"
       ],
-      "latest_attempt_at": "2026-11-25T13:00:04.096Z",
+      "latest_attempt_at": "2026-11-25T23:00:09.621Z",
       "last_success_at": "2026-11-25T13:00:04.096Z",
-      "data_age_minutes": 0,
+      "data_age_minutes": 600,
       "max_data_age_minutes": 1440,
       "expires_at": "2026-11-26T13:00:04.096Z",
-      "latest_attempt_accepted": true,
-      "latest_attempt_matches_current": true,
+      "latest_attempt_accepted": false,
+      "latest_attempt_matches_current": false,
       "artifact_consistent": true,
       "model_version": "basecalc_technical_regime_2026_07_13_v2",
       "expected_model_version": "basecalc_technical_regime_2026_07_13_v2"
