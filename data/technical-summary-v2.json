@@ -1,6 +1,6 @@
 {
   "schema_version": "technical-summary-v2",
-  "generated_at": "2026-11-27T07:40:12.330Z",
+  "generated_at": "2026-11-27T13:00:13.668Z",
   "purpose": "テクニカル局面を確定し、現在判定と将来の変化兆候を分けて確認する",
   "data_quality": {
     "status": "ok",
@@ -8,9 +8,9 @@
     "analysis_basis": "2026-11-27までの資産別確定日足",
     "price_type": "清算値・終値",
     "next_update": "次営業日",
-    "last_success_at": "2026-11-27T07:40:05.251Z",
-    "latest_attempt_at": "2026-11-27T07:40:05.251Z",
-    "stale_after": "2026-11-28T07:40:05.251Z",
+    "last_success_at": "2026-11-27T13:00:04.682Z",
+    "latest_attempt_at": "2026-11-27T13:00:04.682Z",
+    "stale_after": "2026-11-28T13:00:04.682Z",
     "available_asset_count": 5,
     "required_asset_count": 5,
     "stop_reasons": []
@@ -597,15 +597,15 @@
   "daily_reversal": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-27T07:32:03Z",
-    "state": "long",
-    "side": "long",
-    "reason": "直近5営業日で 1,900 円の下げすぎ（ATRの1.04倍）。次の5営業日は買いへ寄ります",
-    "close": 57350,
-    "reference": 59250,
-    "move": -1900,
-    "move_atr": -1.04,
-    "as_of": "2026-11-25T15:00:00Z",
+    "source_updated_at": "2026-11-27T12:47:06Z",
+    "state": "flat",
+    "side": null,
+    "reason": "直近5営業日の動きは -910 円（ATRの0.51倍）で、行き過ぎていません",
+    "close": 58830,
+    "reference": 59740,
+    "move": -910,
+    "move_atr": -0.51,
+    "as_of": "2026-11-26T15:00:00Z",
     "lookback_sessions": 5,
     "threshold_atr": 1,
     "horizon_sessions": 5,
@@ -614,27 +614,27 @@
   "buy_setup": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-27T07:32:03Z",
+    "source_updated_at": "2026-11-27T12:47:06Z",
     "state": "on",
-    "reason": "2026-11-20 に形が出て 2026-11-24 の始値 57,530 で買い。3 日目で、あと 7 営業日持ちます",
+    "reason": "2026-11-20 に形が出て 2026-11-24 の始値 57,530 で買い。4 日目で、あと 6 営業日持ちます",
     "rule_version": "basecalc_buy_setup_2026_09_03_v1",
     "hold_sessions": 10,
     "fired_on": "2026-11-20",
     "entered_on": "2026-11-24",
-    "sessions_held": 3,
-    "sessions_left": 7,
-    "as_of": "2026-11-25T15:00:00Z"
+    "sessions_held": 4,
+    "sessions_left": 6,
+    "as_of": "2026-11-26T15:00:00Z"
   },
   "buy_lots": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-27T07:32:03Z",
-    "as_of": "2026-11-25T15:00:00Z",
-    "action": "buy",
-    "action_basis": "reversal",
+    "source_updated_at": "2026-11-27T12:47:06Z",
+    "as_of": "2026-11-26T15:00:00Z",
+    "action": "none",
+    "action_basis": null,
     "max_lots": 5,
-    "holding_count": 3,
-    "fresh_count": 1,
+    "holding_count": 4,
+    "fresh_count": 0,
     "lots": [
       {
         "basis": "one_hour",
@@ -652,7 +652,7 @@
         "signal_on": "2026-11-20",
         "entered_on": "2026-11-24",
         "exit_on": "2026-12-07",
-        "sessions_left": 7
+        "sessions_left": 6
       },
       {
         "basis": "one_hour",
@@ -665,20 +665,20 @@
       },
       {
         "basis": "reversal",
-        "stage": "entry_pending",
-        "fresh": true,
+        "stage": "holding",
+        "fresh": false,
         "signal_on": "2026-11-26",
-        "entered_on": null,
+        "entered_on": "2026-11-27",
         "exit_on": "2026-12-03",
-        "sessions_left": 5
+        "sessions_left": 4
       }
     ]
   },
   "sell_lot": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-27T07:32:03Z",
-    "as_of": "2026-11-25T15:00:00Z",
+    "source_updated_at": "2026-11-27T12:47:06Z",
+    "as_of": "2026-11-26T15:00:00Z",
     "action": "none",
     "holding": false,
     "signal_on": null,
@@ -688,12 +688,12 @@
   "five_day_odds": {
     "status": "ok",
     "status_label": "取得済み",
-    "source_updated_at": "2026-11-27T07:32:03Z",
+    "source_updated_at": "2026-11-27T12:47:06Z",
     "rule_version": "basecalc_five_day_odds_2026_09_27_v1",
-    "as_of": "2026-11-25T15:00:00Z",
+    "as_of": "2026-11-26T15:00:00Z",
     "horizon_sessions": 5,
     "window_years": 10,
-    "window_start": "2016-11-26",
+    "window_start": "2016-11-27",
     "materials": [
       {
         "key": "buy_setup",
@@ -703,7 +703,7 @@
       {
         "key": "oversold",
         "label": "5日で下げすぎ",
-        "active": true
+        "active": false
       },
       {
         "key": "below_average",
